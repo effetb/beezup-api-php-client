@@ -11,14 +11,14 @@
  */
 
 /**
- * BeezUP API
+ * BeezUP Merchant API
  *
- * # The REST API of BeezUP system ## Overview The REST APIs provide programmatic access to read and write BeezUP data.  Basically, with this API you will be able to do everything like you were with your browser on https://go.beezup.com !  The main features are: - Register and manage your account - Create and manage and share your stores with your friends/co-workers. - Import your product catalog and schedule the auto importation - Search the channels your want to use - Configure your channels for your catalogs to export your product information:     - cost and general settings     - category and columns mappings     - your will be able to create and manage your custom column     - put in place exlusion filters based on simple conditions on your product data     - override product values     - get product vision for a channel catalog scope - Analyze and optimize your performance of your catalogs on all yours channels with different type of reportings by day, channel, category and by product. - Automatize your optimisation by using rules! - And of course... Manage your orders harvested from all your marketplaces:     - Synchronize your orders in an uniformized way     - Get the available actions and update the order status - ...and more!  ## Authentication credentials The public API with the base path **_/v2/public** have been put in place to give you an entry point to our system for the user registration, login and lost password. The public API does not require any credentials. We give you the some public list of values and public channels for our public commercial web site [www.beezup.com](http://www.beezup.com).  The user API with the base path **_/v2/user** requires a token which is available on this page: https://go.beezup.com/Account/MyAccount  ## Things to keep in mind ### API Rate Limits - The BeezUP REST API is limited to 100 calls/minute.  ### Media type The default media type for requests and responses is application/json. Where noted, some operations support other content types. If no additional content type is mentioned for a specific operation, then the media type is application/json.  ### Required content type The required and default encoding for the request and responses is UTF8.  ### Required date time format All our date time are formatted in ISO 8601 format: 2014-06-24T16:25:00Z.  ### Base URL The Base URL of the BeezUP API Order Management REST API conforms to the following template.  https://api.beezup.com  All URLs returned by the BeezUP API are relative to this base URL, and all requests to the REST API must use this base URL template.  You can test our API on https://api-docs.beezup.com/swagger-ui\\ You can contact us on [gitter, #BeezUP/API](https://gitter.im/BeezUP/API)
+ * # The REST API of BeezUP system ## Overview The REST APIs provide programmatic access to read and write BeezUP data.  Basically, with this API you will be able to do everything like you were with your browser on https://go.beezup.com !  The main features are: - Register and manage your account - Create and manage and share your stores with your friends/co-workers. - Import your product catalog and schedule the auto importation - Search the channels your want to use - Configure your channels for your catalogs to export your product information:     - cost and general settings     - category and columns mappings     - your will be able to create and manage your custom column     - put in place exlusion filters based on simple conditions on your product data     - override product values     - get product vision for a channel catalog scope - Analyze and optimize your performance of your catalogs on all yours channels with different type of reportings by day, channel, category and by product. - Automatize your optimisation by using rules! - And of course... Manage your orders harvested from all your marketplaces:     - Synchronize your orders in an uniformized way     - Get the available actions and update the order status - ...and more!  ## Authentication credentials The public API with the base path **_/v2/public** have been put in place to give you an entry point to our system for the user registration, login and lost password. The public API does not require any credentials. We give you the some public list of values and public channels for our public commercial web site [www.beezup.com](http://www.beezup.com).  The user API with the base path **_/v2/user** requires a token which is available on this page: https://go.beezup.com/Account/MyAccount  ## Things to keep in mind ### API Rate Limits - The BeezUP REST API is limited to 100 calls/minute.  ### Media type The default media type for requests and responses is application/json. Where noted, some operations support other content types. If no additional content type is mentioned for a specific operation, then the media type is application/json.  ### Required content type The required and default encoding for the request and responses is UTF8.  ### Required date time format All our date time are formatted in ISO 8601 format: 2014-06-24T16:25:00Z.  ### Base URL The Base URL of the BeezUP API Order Management REST API conforms to the following template.  https://api.beezup.com  All URLs returned by the BeezUP API are relative to this base URL, and all requests to the REST API must use this base URL template.  You can test our API on https://api-docs.beezup.com/swagger-ui\\\\ You can contact us on [gitter, #BeezUP/API](https://gitter.im/BeezUP/API)
  *
  * OpenAPI spec version: 2.0
  * Contact: help@beezup.com
  * Generated by: https://github.com/swagger-api/swagger-codegen.git
- * Swagger Codegen version: 2.4.0-SNAPSHOT
+ * Swagger Codegen version: 2.4.30
  */
 
 /**
@@ -66,9 +66,13 @@ class Store implements ModelInterface, ArrayAccess
         'user_role' => '\Swagger\Client\Model\StoreUserRole',
         'status' => '\Swagger\Client\Model\StoreStatus',
         'owner_user_id' => 'string',
+        'offer_id' => '\Swagger\Client\Model\OfferId',
+        'offer_name' => 'string',
         'share_count' => 'int',
         'creation_utc_date' => '\DateTime',
-        'links' => '\Swagger\Client\Model\StoreLinks'
+        'go_version' => 'int',
+        'links' => '\Swagger\Client\Model\StoreLinks',
+        'is_test' => 'bool'
     ];
 
     /**
@@ -86,9 +90,13 @@ class Store implements ModelInterface, ArrayAccess
         'user_role' => null,
         'status' => null,
         'owner_user_id' => 'guid',
+        'offer_id' => null,
+        'offer_name' => null,
         'share_count' => null,
         'creation_utc_date' => 'date-time',
-        'links' => null
+        'go_version' => 'int32',
+        'links' => null,
+        'is_test' => null
     ];
 
     /**
@@ -127,9 +135,13 @@ class Store implements ModelInterface, ArrayAccess
         'user_role' => 'userRole',
         'status' => 'status',
         'owner_user_id' => 'ownerUserId',
+        'offer_id' => 'offerId',
+        'offer_name' => 'offerName',
         'share_count' => 'shareCount',
         'creation_utc_date' => 'creationUtcDate',
-        'links' => 'links'
+        'go_version' => 'goVersion',
+        'links' => 'links',
+        'is_test' => 'isTest'
     ];
 
     /**
@@ -147,9 +159,13 @@ class Store implements ModelInterface, ArrayAccess
         'user_role' => 'setUserRole',
         'status' => 'setStatus',
         'owner_user_id' => 'setOwnerUserId',
+        'offer_id' => 'setOfferId',
+        'offer_name' => 'setOfferName',
         'share_count' => 'setShareCount',
         'creation_utc_date' => 'setCreationUtcDate',
-        'links' => 'setLinks'
+        'go_version' => 'setGoVersion',
+        'links' => 'setLinks',
+        'is_test' => 'setIsTest'
     ];
 
     /**
@@ -167,9 +183,13 @@ class Store implements ModelInterface, ArrayAccess
         'user_role' => 'getUserRole',
         'status' => 'getStatus',
         'owner_user_id' => 'getOwnerUserId',
+        'offer_id' => 'getOfferId',
+        'offer_name' => 'getOfferName',
         'share_count' => 'getShareCount',
         'creation_utc_date' => 'getCreationUtcDate',
-        'links' => 'getLinks'
+        'go_version' => 'getGoVersion',
+        'links' => 'getLinks',
+        'is_test' => 'getIsTest'
     ];
 
     /**
@@ -241,9 +261,13 @@ class Store implements ModelInterface, ArrayAccess
         $this->container['user_role'] = isset($data['user_role']) ? $data['user_role'] : null;
         $this->container['status'] = isset($data['status']) ? $data['status'] : null;
         $this->container['owner_user_id'] = isset($data['owner_user_id']) ? $data['owner_user_id'] : null;
+        $this->container['offer_id'] = isset($data['offer_id']) ? $data['offer_id'] : null;
+        $this->container['offer_name'] = isset($data['offer_name']) ? $data['offer_name'] : null;
         $this->container['share_count'] = isset($data['share_count']) ? $data['share_count'] : null;
         $this->container['creation_utc_date'] = isset($data['creation_utc_date']) ? $data['creation_utc_date'] : null;
+        $this->container['go_version'] = isset($data['go_version']) ? $data['go_version'] : null;
         $this->container['links'] = isset($data['links']) ? $data['links'] : null;
+        $this->container['is_test'] = isset($data['is_test']) ? $data['is_test'] : null;
     }
 
     /**
@@ -282,14 +306,26 @@ class Store implements ModelInterface, ArrayAccess
         if ($this->container['owner_user_id'] === null) {
             $invalidProperties[] = "'owner_user_id' can't be null";
         }
+        if ($this->container['offer_id'] === null) {
+            $invalidProperties[] = "'offer_id' can't be null";
+        }
+        if ($this->container['offer_name'] === null) {
+            $invalidProperties[] = "'offer_name' can't be null";
+        }
         if ($this->container['share_count'] === null) {
             $invalidProperties[] = "'share_count' can't be null";
         }
         if ($this->container['creation_utc_date'] === null) {
             $invalidProperties[] = "'creation_utc_date' can't be null";
         }
+        if ($this->container['go_version'] === null) {
+            $invalidProperties[] = "'go_version' can't be null";
+        }
         if ($this->container['links'] === null) {
             $invalidProperties[] = "'links' can't be null";
+        }
+        if ($this->container['is_test'] === null) {
+            $invalidProperties[] = "'is_test' can't be null";
         }
         return $invalidProperties;
     }
@@ -302,44 +338,7 @@ class Store implements ModelInterface, ArrayAccess
      */
     public function valid()
     {
-
-        if ($this->container['store_id'] === null) {
-            return false;
-        }
-        if ($this->container['name'] === null) {
-            return false;
-        }
-        if ($this->container['url'] === null) {
-            return false;
-        }
-        if ($this->container['country_iso_code_alpha3'] === null) {
-            return false;
-        }
-        if ($this->container['currency_code'] === null) {
-            return false;
-        }
-        if ($this->container['sectors'] === null) {
-            return false;
-        }
-        if ($this->container['user_role'] === null) {
-            return false;
-        }
-        if ($this->container['status'] === null) {
-            return false;
-        }
-        if ($this->container['owner_user_id'] === null) {
-            return false;
-        }
-        if ($this->container['share_count'] === null) {
-            return false;
-        }
-        if ($this->container['creation_utc_date'] === null) {
-            return false;
-        }
-        if ($this->container['links'] === null) {
-            return false;
-        }
-        return true;
+        return count($this->listInvalidProperties()) === 0;
     }
 
 
@@ -560,6 +559,54 @@ class Store implements ModelInterface, ArrayAccess
     }
 
     /**
+     * Gets offer_id
+     *
+     * @return \Swagger\Client\Model\OfferId
+     */
+    public function getOfferId()
+    {
+        return $this->container['offer_id'];
+    }
+
+    /**
+     * Sets offer_id
+     *
+     * @param \Swagger\Client\Model\OfferId $offer_id offer_id
+     *
+     * @return $this
+     */
+    public function setOfferId($offer_id)
+    {
+        $this->container['offer_id'] = $offer_id;
+
+        return $this;
+    }
+
+    /**
+     * Gets offer_name
+     *
+     * @return string
+     */
+    public function getOfferName()
+    {
+        return $this->container['offer_name'];
+    }
+
+    /**
+     * Sets offer_name
+     *
+     * @param string $offer_name The offer Name
+     *
+     * @return $this
+     */
+    public function setOfferName($offer_name)
+    {
+        $this->container['offer_name'] = $offer_name;
+
+        return $this;
+    }
+
+    /**
      * Gets share_count
      *
      * @return int
@@ -608,6 +655,30 @@ class Store implements ModelInterface, ArrayAccess
     }
 
     /**
+     * Gets go_version
+     *
+     * @return int
+     */
+    public function getGoVersion()
+    {
+        return $this->container['go_version'];
+    }
+
+    /**
+     * Sets go_version
+     *
+     * @param int $go_version The version of GO to use
+     *
+     * @return $this
+     */
+    public function setGoVersion($go_version)
+    {
+        $this->container['go_version'] = $go_version;
+
+        return $this;
+    }
+
+    /**
      * Gets links
      *
      * @return \Swagger\Client\Model\StoreLinks
@@ -630,6 +701,30 @@ class Store implements ModelInterface, ArrayAccess
 
         return $this;
     }
+
+    /**
+     * Gets is_test
+     *
+     * @return bool
+     */
+    public function getIsTest()
+    {
+        return $this->container['is_test'];
+    }
+
+    /**
+     * Sets is_test
+     *
+     * @param bool $is_test Is the store a test or a production store
+     *
+     * @return $this
+     */
+    public function setIsTest($is_test)
+    {
+        $this->container['is_test'] = $is_test;
+
+        return $this;
+    }
     /**
      * Returns true if offset exists. False otherwise.
      *
@@ -637,6 +732,7 @@ class Store implements ModelInterface, ArrayAccess
      *
      * @return boolean
      */
+    #[\ReturnTypeWillChange]
     public function offsetExists($offset)
     {
         return isset($this->container[$offset]);
@@ -649,6 +745,7 @@ class Store implements ModelInterface, ArrayAccess
      *
      * @return mixed
      */
+    #[\ReturnTypeWillChange]
     public function offsetGet($offset)
     {
         return isset($this->container[$offset]) ? $this->container[$offset] : null;
@@ -662,6 +759,7 @@ class Store implements ModelInterface, ArrayAccess
      *
      * @return void
      */
+    #[\ReturnTypeWillChange]
     public function offsetSet($offset, $value)
     {
         if (is_null($offset)) {
@@ -678,6 +776,7 @@ class Store implements ModelInterface, ArrayAccess
      *
      * @return void
      */
+    #[\ReturnTypeWillChange]
     public function offsetUnset($offset)
     {
         unset($this->container[$offset]);

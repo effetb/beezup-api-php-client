@@ -10,14 +10,14 @@
  */
 
 /**
- * BeezUP API
+ * BeezUP Merchant API
  *
- * # The REST API of BeezUP system ## Overview The REST APIs provide programmatic access to read and write BeezUP data.  Basically, with this API you will be able to do everything like you were with your browser on https://go.beezup.com !  The main features are: - Register and manage your account - Create and manage and share your stores with your friends/co-workers. - Import your product catalog and schedule the auto importation - Search the channels your want to use - Configure your channels for your catalogs to export your product information:     - cost and general settings     - category and columns mappings     - your will be able to create and manage your custom column     - put in place exlusion filters based on simple conditions on your product data     - override product values     - get product vision for a channel catalog scope - Analyze and optimize your performance of your catalogs on all yours channels with different type of reportings by day, channel, category and by product. - Automatize your optimisation by using rules! - And of course... Manage your orders harvested from all your marketplaces:     - Synchronize your orders in an uniformized way     - Get the available actions and update the order status - ...and more!  ## Authentication credentials The public API with the base path **_/v2/public** have been put in place to give you an entry point to our system for the user registration, login and lost password. The public API does not require any credentials. We give you the some public list of values and public channels for our public commercial web site [www.beezup.com](http://www.beezup.com).  The user API with the base path **_/v2/user** requires a token which is available on this page: https://go.beezup.com/Account/MyAccount  ## Things to keep in mind ### API Rate Limits - The BeezUP REST API is limited to 100 calls/minute.  ### Media type The default media type for requests and responses is application/json. Where noted, some operations support other content types. If no additional content type is mentioned for a specific operation, then the media type is application/json.  ### Required content type The required and default encoding for the request and responses is UTF8.  ### Required date time format All our date time are formatted in ISO 8601 format: 2014-06-24T16:25:00Z.  ### Base URL The Base URL of the BeezUP API Order Management REST API conforms to the following template.  https://api.beezup.com  All URLs returned by the BeezUP API are relative to this base URL, and all requests to the REST API must use this base URL template.  You can test our API on https://api-docs.beezup.com/swagger-ui\\ You can contact us on [gitter, #BeezUP/API](https://gitter.im/BeezUP/API)
+ * # The REST API of BeezUP system ## Overview The REST APIs provide programmatic access to read and write BeezUP data.  Basically, with this API you will be able to do everything like you were with your browser on https://go.beezup.com !  The main features are: - Register and manage your account - Create and manage and share your stores with your friends/co-workers. - Import your product catalog and schedule the auto importation - Search the channels your want to use - Configure your channels for your catalogs to export your product information:     - cost and general settings     - category and columns mappings     - your will be able to create and manage your custom column     - put in place exlusion filters based on simple conditions on your product data     - override product values     - get product vision for a channel catalog scope - Analyze and optimize your performance of your catalogs on all yours channels with different type of reportings by day, channel, category and by product. - Automatize your optimisation by using rules! - And of course... Manage your orders harvested from all your marketplaces:     - Synchronize your orders in an uniformized way     - Get the available actions and update the order status - ...and more!  ## Authentication credentials The public API with the base path **_/v2/public** have been put in place to give you an entry point to our system for the user registration, login and lost password. The public API does not require any credentials. We give you the some public list of values and public channels for our public commercial web site [www.beezup.com](http://www.beezup.com).  The user API with the base path **_/v2/user** requires a token which is available on this page: https://go.beezup.com/Account/MyAccount  ## Things to keep in mind ### API Rate Limits - The BeezUP REST API is limited to 100 calls/minute.  ### Media type The default media type for requests and responses is application/json. Where noted, some operations support other content types. If no additional content type is mentioned for a specific operation, then the media type is application/json.  ### Required content type The required and default encoding for the request and responses is UTF8.  ### Required date time format All our date time are formatted in ISO 8601 format: 2014-06-24T16:25:00Z.  ### Base URL The Base URL of the BeezUP API Order Management REST API conforms to the following template.  https://api.beezup.com  All URLs returned by the BeezUP API are relative to this base URL, and all requests to the REST API must use this base URL template.  You can test our API on https://api-docs.beezup.com/swagger-ui\\\\ You can contact us on [gitter, #BeezUP/API](https://gitter.im/BeezUP/API)
  *
  * OpenAPI spec version: 2.0
  * Contact: help@beezup.com
  * Generated by: https://github.com/swagger-api/swagger-codegen.git
- * Swagger Codegen version: 2.4.0-SNAPSHOT
+ * Swagger Codegen version: 2.4.30
  */
 
 /**
@@ -90,10 +90,10 @@ class MarketplacesOrdersOrderApi
     /**
      * Operation changeOrder
      *
-     * Change your marketplace Order Information (accept, ship, etc.)
+     * [DEPRECATED] Change your marketplace Order Information (accept, ship, etc.)
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      * @param  string $change_order_type The Order change type (required)
      * @param  string $user_name Sometimes the user in the e-commerce application is not the same as user associated with the current subscription key. We recommend providing your application&#39;s user login. (required)
@@ -113,10 +113,10 @@ class MarketplacesOrdersOrderApi
     /**
      * Operation changeOrderWithHttpInfo
      *
-     * Change your marketplace Order Information (accept, ship, etc.)
+     * [DEPRECATED] Change your marketplace Order Information (accept, ship, etc.)
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      * @param  string $change_order_type The Order change type (required)
      * @param  string $user_name Sometimes the user in the e-commerce application is not the same as user associated with the current subscription key. We recommend providing your application&#39;s user login. (required)
@@ -205,10 +205,10 @@ class MarketplacesOrdersOrderApi
     /**
      * Operation changeOrderAsync
      *
-     * Change your marketplace Order Information (accept, ship, etc.)
+     * [DEPRECATED] Change your marketplace Order Information (accept, ship, etc.)
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      * @param  string $change_order_type The Order change type (required)
      * @param  string $user_name Sometimes the user in the e-commerce application is not the same as user associated with the current subscription key. We recommend providing your application&#39;s user login. (required)
@@ -232,10 +232,10 @@ class MarketplacesOrdersOrderApi
     /**
      * Operation changeOrderAsyncWithHttpInfo
      *
-     * Change your marketplace Order Information (accept, ship, etc.)
+     * [DEPRECATED] Change your marketplace Order Information (accept, ship, etc.)
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      * @param  string $change_order_type The Order change type (required)
      * @param  string $user_name Sometimes the user in the e-commerce application is not the same as user associated with the current subscription key. We recommend providing your application&#39;s user login. (required)
@@ -278,7 +278,7 @@ class MarketplacesOrdersOrderApi
      * Create request for operation 'changeOrder'
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      * @param  string $change_order_type The Order change type (required)
      * @param  string $user_name Sometimes the user in the e-commerce application is not the same as user associated with the current subscription key. We recommend providing your application&#39;s user login. (required)
@@ -328,7 +328,7 @@ class MarketplacesOrdersOrderApi
             );
         }
 
-        $resourcePath = '/user/marketplaces/orders/{marketplaceTechnicalCode}/{accountId}/{beezUPOrderId}/{changeOrderType}';
+        $resourcePath = '/v2/user/marketplaces/orders/{marketplaceTechnicalCode}/{accountId}/{beezUPOrderId}/{changeOrderType}';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -402,9 +402,16 @@ class MarketplacesOrdersOrderApi
         if (isset($_tempBody)) {
             // $_tempBody is the method argument, if present
             $httpBody = $_tempBody;
-            // \stdClass has no __toString(), so we should encode it manually
-            if ($httpBody instanceof \stdClass && $headers['Content-Type'] === 'application/json') {
-                $httpBody = \GuzzleHttp\json_encode($httpBody);
+            
+            if($headers['Content-Type'] === 'application/json') {
+                // \stdClass has no __toString(), so we should encode it manually
+                if ($httpBody instanceof \stdClass) {
+                    $httpBody = \GuzzleHttp\json_encode($httpBody);
+                }
+                // array has no __toString(), so we should encode it manually
+                if(is_array($httpBody)) {
+                    $httpBody = \GuzzleHttp\json_encode(ObjectSerializer::sanitizeForSerialization($httpBody));
+                }
             }
         } elseif (count($formParams) > 0) {
             if ($multipart) {
@@ -423,15 +430,10 @@ class MarketplacesOrdersOrderApi
 
             } else {
                 // for HTTP post (form)
-                $httpBody = \GuzzleHttp\Psr7\build_query($formParams);
+                $httpBody = \GuzzleHttp\Psr7\Query::build($formParams);
             }
         }
 
-        // this endpoint requires API key authentication
-        $apiKey = $this->config->getApiKeyWithPrefix('Ocp-Apim-Subscription-Key');
-        if ($apiKey !== null) {
-            $headers['Ocp-Apim-Subscription-Key'] = $apiKey;
-        }
 
         $defaultHeaders = [];
         if ($this->config->getUserAgent()) {
@@ -444,7 +446,7 @@ class MarketplacesOrdersOrderApi
             $headers
         );
 
-        $query = \GuzzleHttp\Psr7\build_query($queryParams);
+        $query = \GuzzleHttp\Psr7\Query::build($queryParams);
         return new Request(
             'POST',
             $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
@@ -456,10 +458,10 @@ class MarketplacesOrdersOrderApi
     /**
      * Operation clearMerchantOrderInfo
      *
-     * Clear an Order's merchant information
+     * [DEPRECATED] Clear an Order's merchant information
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
@@ -474,10 +476,10 @@ class MarketplacesOrdersOrderApi
     /**
      * Operation clearMerchantOrderInfoWithHttpInfo
      *
-     * Clear an Order's merchant information
+     * [DEPRECATED] Clear an Order's merchant information
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
@@ -553,10 +555,10 @@ class MarketplacesOrdersOrderApi
     /**
      * Operation clearMerchantOrderInfoAsync
      *
-     * Clear an Order's merchant information
+     * [DEPRECATED] Clear an Order's merchant information
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      *
      * @throws \InvalidArgumentException
@@ -575,10 +577,10 @@ class MarketplacesOrdersOrderApi
     /**
      * Operation clearMerchantOrderInfoAsyncWithHttpInfo
      *
-     * Clear an Order's merchant information
+     * [DEPRECATED] Clear an Order's merchant information
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      *
      * @throws \InvalidArgumentException
@@ -616,7 +618,7 @@ class MarketplacesOrdersOrderApi
      * Create request for operation 'clearMerchantOrderInfo'
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      *
      * @throws \InvalidArgumentException
@@ -643,7 +645,7 @@ class MarketplacesOrdersOrderApi
             );
         }
 
-        $resourcePath = '/user/marketplaces/orders/{marketplaceTechnicalCode}/{accountId}/{beezUPOrderId}/clearMerchantOrderInfo';
+        $resourcePath = '/v2/user/marketplaces/orders/{marketplaceTechnicalCode}/{accountId}/{beezUPOrderId}/clearMerchantOrderInfo';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -694,9 +696,16 @@ class MarketplacesOrdersOrderApi
         if (isset($_tempBody)) {
             // $_tempBody is the method argument, if present
             $httpBody = $_tempBody;
-            // \stdClass has no __toString(), so we should encode it manually
-            if ($httpBody instanceof \stdClass && $headers['Content-Type'] === 'application/json') {
-                $httpBody = \GuzzleHttp\json_encode($httpBody);
+            
+            if($headers['Content-Type'] === 'application/json') {
+                // \stdClass has no __toString(), so we should encode it manually
+                if ($httpBody instanceof \stdClass) {
+                    $httpBody = \GuzzleHttp\json_encode($httpBody);
+                }
+                // array has no __toString(), so we should encode it manually
+                if(is_array($httpBody)) {
+                    $httpBody = \GuzzleHttp\json_encode(ObjectSerializer::sanitizeForSerialization($httpBody));
+                }
             }
         } elseif (count($formParams) > 0) {
             if ($multipart) {
@@ -715,15 +724,10 @@ class MarketplacesOrdersOrderApi
 
             } else {
                 // for HTTP post (form)
-                $httpBody = \GuzzleHttp\Psr7\build_query($formParams);
+                $httpBody = \GuzzleHttp\Psr7\Query::build($formParams);
             }
         }
 
-        // this endpoint requires API key authentication
-        $apiKey = $this->config->getApiKeyWithPrefix('Ocp-Apim-Subscription-Key');
-        if ($apiKey !== null) {
-            $headers['Ocp-Apim-Subscription-Key'] = $apiKey;
-        }
 
         $defaultHeaders = [];
         if ($this->config->getUserAgent()) {
@@ -736,7 +740,7 @@ class MarketplacesOrdersOrderApi
             $headers
         );
 
-        $query = \GuzzleHttp\Psr7\build_query($queryParams);
+        $query = \GuzzleHttp\Psr7\Query::build($queryParams);
         return new Request(
             'POST',
             $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
@@ -748,10 +752,10 @@ class MarketplacesOrdersOrderApi
     /**
      * Operation getOrder
      *
-     * Get full Order and Order Item(s) properties
+     * [DEPRECATED] DEPRECATED - Get full Order and Order Item(s) properties
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
@@ -768,10 +772,10 @@ class MarketplacesOrdersOrderApi
     /**
      * Operation getOrderWithHttpInfo
      *
-     * Get full Order and Order Item(s) properties
+     * [DEPRECATED] DEPRECATED - Get full Order and Order Item(s) properties
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
@@ -862,10 +866,10 @@ class MarketplacesOrdersOrderApi
     /**
      * Operation getOrderAsync
      *
-     * Get full Order and Order Item(s) properties
+     * [DEPRECATED] DEPRECATED - Get full Order and Order Item(s) properties
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
@@ -885,10 +889,10 @@ class MarketplacesOrdersOrderApi
     /**
      * Operation getOrderAsyncWithHttpInfo
      *
-     * Get full Order and Order Item(s) properties
+     * [DEPRECATED] DEPRECATED - Get full Order and Order Item(s) properties
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
@@ -941,7 +945,7 @@ class MarketplacesOrdersOrderApi
      * Create request for operation 'getOrder'
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
@@ -969,7 +973,7 @@ class MarketplacesOrdersOrderApi
             );
         }
 
-        $resourcePath = '/user/marketplaces/orders/{marketplaceTechnicalCode}/{accountId}/{beezUPOrderId}';
+        $resourcePath = '/v2/user/marketplaces/orders/{marketplaceTechnicalCode}/{accountId}/{beezUPOrderId}';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1024,9 +1028,16 @@ class MarketplacesOrdersOrderApi
         if (isset($_tempBody)) {
             // $_tempBody is the method argument, if present
             $httpBody = $_tempBody;
-            // \stdClass has no __toString(), so we should encode it manually
-            if ($httpBody instanceof \stdClass && $headers['Content-Type'] === 'application/json') {
-                $httpBody = \GuzzleHttp\json_encode($httpBody);
+            
+            if($headers['Content-Type'] === 'application/json') {
+                // \stdClass has no __toString(), so we should encode it manually
+                if ($httpBody instanceof \stdClass) {
+                    $httpBody = \GuzzleHttp\json_encode($httpBody);
+                }
+                // array has no __toString(), so we should encode it manually
+                if(is_array($httpBody)) {
+                    $httpBody = \GuzzleHttp\json_encode(ObjectSerializer::sanitizeForSerialization($httpBody));
+                }
             }
         } elseif (count($formParams) > 0) {
             if ($multipart) {
@@ -1045,15 +1056,10 @@ class MarketplacesOrdersOrderApi
 
             } else {
                 // for HTTP post (form)
-                $httpBody = \GuzzleHttp\Psr7\build_query($formParams);
+                $httpBody = \GuzzleHttp\Psr7\Query::build($formParams);
             }
         }
 
-        // this endpoint requires API key authentication
-        $apiKey = $this->config->getApiKeyWithPrefix('Ocp-Apim-Subscription-Key');
-        if ($apiKey !== null) {
-            $headers['Ocp-Apim-Subscription-Key'] = $apiKey;
-        }
 
         $defaultHeaders = [];
         if ($this->config->getUserAgent()) {
@@ -1066,7 +1072,7 @@ class MarketplacesOrdersOrderApi
             $headers
         );
 
-        $query = \GuzzleHttp\Psr7\build_query($queryParams);
+        $query = \GuzzleHttp\Psr7\Query::build($queryParams);
         return new Request(
             'GET',
             $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
@@ -1078,10 +1084,10 @@ class MarketplacesOrdersOrderApi
     /**
      * Operation getOrderHistory
      *
-     * Get an Order's harvest and change history
+     * [DEPRECATED] Get an Order's harvest and change history
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
@@ -1098,10 +1104,10 @@ class MarketplacesOrdersOrderApi
     /**
      * Operation getOrderHistoryWithHttpInfo
      *
-     * Get an Order's harvest and change history
+     * [DEPRECATED] Get an Order's harvest and change history
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
@@ -1192,10 +1198,10 @@ class MarketplacesOrdersOrderApi
     /**
      * Operation getOrderHistoryAsync
      *
-     * Get an Order's harvest and change history
+     * [DEPRECATED] Get an Order's harvest and change history
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
@@ -1215,10 +1221,10 @@ class MarketplacesOrdersOrderApi
     /**
      * Operation getOrderHistoryAsyncWithHttpInfo
      *
-     * Get an Order's harvest and change history
+     * [DEPRECATED] Get an Order's harvest and change history
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
@@ -1271,7 +1277,7 @@ class MarketplacesOrdersOrderApi
      * Create request for operation 'getOrderHistory'
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
@@ -1299,7 +1305,7 @@ class MarketplacesOrdersOrderApi
             );
         }
 
-        $resourcePath = '/user/marketplaces/orders/{marketplaceTechnicalCode}/{accountId}/{beezUPOrderId}/history';
+        $resourcePath = '/v2/user/marketplaces/orders/{marketplaceTechnicalCode}/{accountId}/{beezUPOrderId}/history';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1354,9 +1360,16 @@ class MarketplacesOrdersOrderApi
         if (isset($_tempBody)) {
             // $_tempBody is the method argument, if present
             $httpBody = $_tempBody;
-            // \stdClass has no __toString(), so we should encode it manually
-            if ($httpBody instanceof \stdClass && $headers['Content-Type'] === 'application/json') {
-                $httpBody = \GuzzleHttp\json_encode($httpBody);
+            
+            if($headers['Content-Type'] === 'application/json') {
+                // \stdClass has no __toString(), so we should encode it manually
+                if ($httpBody instanceof \stdClass) {
+                    $httpBody = \GuzzleHttp\json_encode($httpBody);
+                }
+                // array has no __toString(), so we should encode it manually
+                if(is_array($httpBody)) {
+                    $httpBody = \GuzzleHttp\json_encode(ObjectSerializer::sanitizeForSerialization($httpBody));
+                }
             }
         } elseif (count($formParams) > 0) {
             if ($multipart) {
@@ -1375,15 +1388,10 @@ class MarketplacesOrdersOrderApi
 
             } else {
                 // for HTTP post (form)
-                $httpBody = \GuzzleHttp\Psr7\build_query($formParams);
+                $httpBody = \GuzzleHttp\Psr7\Query::build($formParams);
             }
         }
 
-        // this endpoint requires API key authentication
-        $apiKey = $this->config->getApiKeyWithPrefix('Ocp-Apim-Subscription-Key');
-        if ($apiKey !== null) {
-            $headers['Ocp-Apim-Subscription-Key'] = $apiKey;
-        }
 
         $defaultHeaders = [];
         if ($this->config->getUserAgent()) {
@@ -1396,7 +1404,7 @@ class MarketplacesOrdersOrderApi
             $headers
         );
 
-        $query = \GuzzleHttp\Psr7\build_query($queryParams);
+        $query = \GuzzleHttp\Psr7\Query::build($queryParams);
         return new Request(
             'GET',
             $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
@@ -1408,10 +1416,10 @@ class MarketplacesOrdersOrderApi
     /**
      * Operation harvestOrder
      *
-     * Send harvest request for a single Order
+     * [DEPRECATED] Send harvest request for a single Order
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
@@ -1426,10 +1434,10 @@ class MarketplacesOrdersOrderApi
     /**
      * Operation harvestOrderWithHttpInfo
      *
-     * Send harvest request for a single Order
+     * [DEPRECATED] Send harvest request for a single Order
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
@@ -1505,10 +1513,10 @@ class MarketplacesOrdersOrderApi
     /**
      * Operation harvestOrderAsync
      *
-     * Send harvest request for a single Order
+     * [DEPRECATED] Send harvest request for a single Order
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      *
      * @throws \InvalidArgumentException
@@ -1527,10 +1535,10 @@ class MarketplacesOrdersOrderApi
     /**
      * Operation harvestOrderAsyncWithHttpInfo
      *
-     * Send harvest request for a single Order
+     * [DEPRECATED] Send harvest request for a single Order
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      *
      * @throws \InvalidArgumentException
@@ -1568,7 +1576,7 @@ class MarketplacesOrdersOrderApi
      * Create request for operation 'harvestOrder'
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      *
      * @throws \InvalidArgumentException
@@ -1595,7 +1603,7 @@ class MarketplacesOrdersOrderApi
             );
         }
 
-        $resourcePath = '/user/marketplaces/orders/{marketplaceTechnicalCode}/{accountId}/{beezUPOrderId}/harvest';
+        $resourcePath = '/v2/user/marketplaces/orders/{marketplaceTechnicalCode}/{accountId}/{beezUPOrderId}/harvest';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1646,9 +1654,16 @@ class MarketplacesOrdersOrderApi
         if (isset($_tempBody)) {
             // $_tempBody is the method argument, if present
             $httpBody = $_tempBody;
-            // \stdClass has no __toString(), so we should encode it manually
-            if ($httpBody instanceof \stdClass && $headers['Content-Type'] === 'application/json') {
-                $httpBody = \GuzzleHttp\json_encode($httpBody);
+            
+            if($headers['Content-Type'] === 'application/json') {
+                // \stdClass has no __toString(), so we should encode it manually
+                if ($httpBody instanceof \stdClass) {
+                    $httpBody = \GuzzleHttp\json_encode($httpBody);
+                }
+                // array has no __toString(), so we should encode it manually
+                if(is_array($httpBody)) {
+                    $httpBody = \GuzzleHttp\json_encode(ObjectSerializer::sanitizeForSerialization($httpBody));
+                }
             }
         } elseif (count($formParams) > 0) {
             if ($multipart) {
@@ -1667,15 +1682,10 @@ class MarketplacesOrdersOrderApi
 
             } else {
                 // for HTTP post (form)
-                $httpBody = \GuzzleHttp\Psr7\build_query($formParams);
+                $httpBody = \GuzzleHttp\Psr7\Query::build($formParams);
             }
         }
 
-        // this endpoint requires API key authentication
-        $apiKey = $this->config->getApiKeyWithPrefix('Ocp-Apim-Subscription-Key');
-        if ($apiKey !== null) {
-            $headers['Ocp-Apim-Subscription-Key'] = $apiKey;
-        }
 
         $defaultHeaders = [];
         if ($this->config->getUserAgent()) {
@@ -1688,7 +1698,7 @@ class MarketplacesOrdersOrderApi
             $headers
         );
 
-        $query = \GuzzleHttp\Psr7\build_query($queryParams);
+        $query = \GuzzleHttp\Psr7\Query::build($queryParams);
         return new Request(
             'POST',
             $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
@@ -1700,10 +1710,10 @@ class MarketplacesOrdersOrderApi
     /**
      * Operation headOrder
      *
-     * Get the meta information about the order (ETag, Last-Modified)
+     * [DEPRECATED] DEPRECATED - Get the meta information about the order (ETag, Last-Modified)
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
@@ -1719,10 +1729,10 @@ class MarketplacesOrdersOrderApi
     /**
      * Operation headOrderWithHttpInfo
      *
-     * Get the meta information about the order (ETag, Last-Modified)
+     * [DEPRECATED] DEPRECATED - Get the meta information about the order (ETag, Last-Modified)
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
@@ -1791,10 +1801,10 @@ class MarketplacesOrdersOrderApi
     /**
      * Operation headOrderAsync
      *
-     * Get the meta information about the order (ETag, Last-Modified)
+     * [DEPRECATED] DEPRECATED - Get the meta information about the order (ETag, Last-Modified)
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
@@ -1814,10 +1824,10 @@ class MarketplacesOrdersOrderApi
     /**
      * Operation headOrderAsyncWithHttpInfo
      *
-     * Get the meta information about the order (ETag, Last-Modified)
+     * [DEPRECATED] DEPRECATED - Get the meta information about the order (ETag, Last-Modified)
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
@@ -1856,7 +1866,7 @@ class MarketplacesOrdersOrderApi
      * Create request for operation 'headOrder'
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
@@ -1884,7 +1894,7 @@ class MarketplacesOrdersOrderApi
             );
         }
 
-        $resourcePath = '/user/marketplaces/orders/{marketplaceTechnicalCode}/{accountId}/{beezUPOrderId}';
+        $resourcePath = '/v2/user/marketplaces/orders/{marketplaceTechnicalCode}/{accountId}/{beezUPOrderId}';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1939,9 +1949,16 @@ class MarketplacesOrdersOrderApi
         if (isset($_tempBody)) {
             // $_tempBody is the method argument, if present
             $httpBody = $_tempBody;
-            // \stdClass has no __toString(), so we should encode it manually
-            if ($httpBody instanceof \stdClass && $headers['Content-Type'] === 'application/json') {
-                $httpBody = \GuzzleHttp\json_encode($httpBody);
+            
+            if($headers['Content-Type'] === 'application/json') {
+                // \stdClass has no __toString(), so we should encode it manually
+                if ($httpBody instanceof \stdClass) {
+                    $httpBody = \GuzzleHttp\json_encode($httpBody);
+                }
+                // array has no __toString(), so we should encode it manually
+                if(is_array($httpBody)) {
+                    $httpBody = \GuzzleHttp\json_encode(ObjectSerializer::sanitizeForSerialization($httpBody));
+                }
             }
         } elseif (count($formParams) > 0) {
             if ($multipart) {
@@ -1960,15 +1977,10 @@ class MarketplacesOrdersOrderApi
 
             } else {
                 // for HTTP post (form)
-                $httpBody = \GuzzleHttp\Psr7\build_query($formParams);
+                $httpBody = \GuzzleHttp\Psr7\Query::build($formParams);
             }
         }
 
-        // this endpoint requires API key authentication
-        $apiKey = $this->config->getApiKeyWithPrefix('Ocp-Apim-Subscription-Key');
-        if ($apiKey !== null) {
-            $headers['Ocp-Apim-Subscription-Key'] = $apiKey;
-        }
 
         $defaultHeaders = [];
         if ($this->config->getUserAgent()) {
@@ -1981,7 +1993,7 @@ class MarketplacesOrdersOrderApi
             $headers
         );
 
-        $query = \GuzzleHttp\Psr7\build_query($queryParams);
+        $query = \GuzzleHttp\Psr7\Query::build($queryParams);
         return new Request(
             'HEAD',
             $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
@@ -1993,10 +2005,10 @@ class MarketplacesOrdersOrderApi
     /**
      * Operation setMerchantOrderInfo
      *
-     * Set an Order's merchant information
+     * [DEPRECATED] Set an Order's merchant information
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      * @param  \Swagger\Client\Model\SetMerchantOrderInfoRequest $request request (required)
      *
@@ -2012,10 +2024,10 @@ class MarketplacesOrdersOrderApi
     /**
      * Operation setMerchantOrderInfoWithHttpInfo
      *
-     * Set an Order's merchant information
+     * [DEPRECATED] Set an Order's merchant information
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      * @param  \Swagger\Client\Model\SetMerchantOrderInfoRequest $request (required)
      *
@@ -2092,10 +2104,10 @@ class MarketplacesOrdersOrderApi
     /**
      * Operation setMerchantOrderInfoAsync
      *
-     * Set an Order's merchant information
+     * [DEPRECATED] Set an Order's merchant information
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      * @param  \Swagger\Client\Model\SetMerchantOrderInfoRequest $request (required)
      *
@@ -2115,10 +2127,10 @@ class MarketplacesOrdersOrderApi
     /**
      * Operation setMerchantOrderInfoAsyncWithHttpInfo
      *
-     * Set an Order's merchant information
+     * [DEPRECATED] Set an Order's merchant information
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      * @param  \Swagger\Client\Model\SetMerchantOrderInfoRequest $request (required)
      *
@@ -2157,7 +2169,7 @@ class MarketplacesOrdersOrderApi
      * Create request for operation 'setMerchantOrderInfo'
      *
      * @param  string $marketplace_technical_code The marketplace technical code (required)
-     * @param  int $account_id The account identifier (required)
+     * @param  int $account_id (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      * @param  \Swagger\Client\Model\SetMerchantOrderInfoRequest $request (required)
      *
@@ -2191,7 +2203,7 @@ class MarketplacesOrdersOrderApi
             );
         }
 
-        $resourcePath = '/user/marketplaces/orders/{marketplaceTechnicalCode}/{accountId}/{beezUPOrderId}/setMerchantOrderInfo';
+        $resourcePath = '/v2/user/marketplaces/orders/{marketplaceTechnicalCode}/{accountId}/{beezUPOrderId}/setMerchantOrderInfo';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -2240,14 +2252,23 @@ class MarketplacesOrdersOrderApi
                 ['application/json']
             );
         }
+        $apiKey = $this->config->getApiKeyWithPrefix('Ocp-Apim-Subscription-Key');
+        $headers['Ocp-Apim-Subscription-Key'] = $apiKey;
 
         // for model (json/xml)
         if (isset($_tempBody)) {
             // $_tempBody is the method argument, if present
             $httpBody = $_tempBody;
-            // \stdClass has no __toString(), so we should encode it manually
-            if ($httpBody instanceof \stdClass && $headers['Content-Type'] === 'application/json') {
-                $httpBody = \GuzzleHttp\json_encode($httpBody);
+            
+            if($headers['Content-Type'] === 'application/json') {
+                // \stdClass has no __toString(), so we should encode it manually
+                if ($httpBody instanceof \stdClass) {
+                    $httpBody = \GuzzleHttp\json_encode($httpBody);
+                }
+                // array has no __toString(), so we should encode it manually
+                if(is_array($httpBody)) {
+                    $httpBody = \GuzzleHttp\json_encode(ObjectSerializer::sanitizeForSerialization($httpBody));
+                }
             }
         } elseif (count($formParams) > 0) {
             if ($multipart) {
@@ -2266,15 +2287,10 @@ class MarketplacesOrdersOrderApi
 
             } else {
                 // for HTTP post (form)
-                $httpBody = \GuzzleHttp\Psr7\build_query($formParams);
+                $httpBody = \GuzzleHttp\Psr7\Query::build($formParams);
             }
         }
 
-        // this endpoint requires API key authentication
-        $apiKey = $this->config->getApiKeyWithPrefix('Ocp-Apim-Subscription-Key');
-        if ($apiKey !== null) {
-            $headers['Ocp-Apim-Subscription-Key'] = $apiKey;
-        }
 
         $defaultHeaders = [];
         if ($this->config->getUserAgent()) {
@@ -2287,7 +2303,7 @@ class MarketplacesOrdersOrderApi
             $headers
         );
 
-        $query = \GuzzleHttp\Psr7\build_query($queryParams);
+        $query = \GuzzleHttp\Psr7\Query::build($queryParams);
         return new Request(
             'POST',
             $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),

@@ -11,14 +11,14 @@
  */
 
 /**
- * BeezUP API
+ * BeezUP Merchant API
  *
- * # The REST API of BeezUP system ## Overview The REST APIs provide programmatic access to read and write BeezUP data.  Basically, with this API you will be able to do everything like you were with your browser on https://go.beezup.com !  The main features are: - Register and manage your account - Create and manage and share your stores with your friends/co-workers. - Import your product catalog and schedule the auto importation - Search the channels your want to use - Configure your channels for your catalogs to export your product information:     - cost and general settings     - category and columns mappings     - your will be able to create and manage your custom column     - put in place exlusion filters based on simple conditions on your product data     - override product values     - get product vision for a channel catalog scope - Analyze and optimize your performance of your catalogs on all yours channels with different type of reportings by day, channel, category and by product. - Automatize your optimisation by using rules! - And of course... Manage your orders harvested from all your marketplaces:     - Synchronize your orders in an uniformized way     - Get the available actions and update the order status - ...and more!  ## Authentication credentials The public API with the base path **_/v2/public** have been put in place to give you an entry point to our system for the user registration, login and lost password. The public API does not require any credentials. We give you the some public list of values and public channels for our public commercial web site [www.beezup.com](http://www.beezup.com).  The user API with the base path **_/v2/user** requires a token which is available on this page: https://go.beezup.com/Account/MyAccount  ## Things to keep in mind ### API Rate Limits - The BeezUP REST API is limited to 100 calls/minute.  ### Media type The default media type for requests and responses is application/json. Where noted, some operations support other content types. If no additional content type is mentioned for a specific operation, then the media type is application/json.  ### Required content type The required and default encoding for the request and responses is UTF8.  ### Required date time format All our date time are formatted in ISO 8601 format: 2014-06-24T16:25:00Z.  ### Base URL The Base URL of the BeezUP API Order Management REST API conforms to the following template.  https://api.beezup.com  All URLs returned by the BeezUP API are relative to this base URL, and all requests to the REST API must use this base URL template.  You can test our API on https://api-docs.beezup.com/swagger-ui\\ You can contact us on [gitter, #BeezUP/API](https://gitter.im/BeezUP/API)
+ * # The REST API of BeezUP system ## Overview The REST APIs provide programmatic access to read and write BeezUP data.  Basically, with this API you will be able to do everything like you were with your browser on https://go.beezup.com !  The main features are: - Register and manage your account - Create and manage and share your stores with your friends/co-workers. - Import your product catalog and schedule the auto importation - Search the channels your want to use - Configure your channels for your catalogs to export your product information:     - cost and general settings     - category and columns mappings     - your will be able to create and manage your custom column     - put in place exlusion filters based on simple conditions on your product data     - override product values     - get product vision for a channel catalog scope - Analyze and optimize your performance of your catalogs on all yours channels with different type of reportings by day, channel, category and by product. - Automatize your optimisation by using rules! - And of course... Manage your orders harvested from all your marketplaces:     - Synchronize your orders in an uniformized way     - Get the available actions and update the order status - ...and more!  ## Authentication credentials The public API with the base path **_/v2/public** have been put in place to give you an entry point to our system for the user registration, login and lost password. The public API does not require any credentials. We give you the some public list of values and public channels for our public commercial web site [www.beezup.com](http://www.beezup.com).  The user API with the base path **_/v2/user** requires a token which is available on this page: https://go.beezup.com/Account/MyAccount  ## Things to keep in mind ### API Rate Limits - The BeezUP REST API is limited to 100 calls/minute.  ### Media type The default media type for requests and responses is application/json. Where noted, some operations support other content types. If no additional content type is mentioned for a specific operation, then the media type is application/json.  ### Required content type The required and default encoding for the request and responses is UTF8.  ### Required date time format All our date time are formatted in ISO 8601 format: 2014-06-24T16:25:00Z.  ### Base URL The Base URL of the BeezUP API Order Management REST API conforms to the following template.  https://api.beezup.com  All URLs returned by the BeezUP API are relative to this base URL, and all requests to the REST API must use this base URL template.  You can test our API on https://api-docs.beezup.com/swagger-ui\\\\ You can contact us on [gitter, #BeezUP/API](https://gitter.im/BeezUP/API)
  *
  * OpenAPI spec version: 2.0
  * Contact: help@beezup.com
  * Generated by: https://github.com/swagger-api/swagger-codegen.git
- * Swagger Codegen version: 2.4.0-SNAPSHOT
+ * Swagger Codegen version: 2.4.30
  */
 
 /**
@@ -70,10 +70,14 @@ class OrderItem implements ModelInterface, ArrayAccess
         'order_item_image_url' => 'string',
         'order_item_merchant_product_id' => 'string',
         'order_item_market_place_product_id' => 'string',
+        'order_item_gtin' => 'string',
         'order_item_item_price' => 'float',
         'order_item_quantity' => 'float',
         'order_item_total_price' => 'float',
-        'order_item_shipping_price' => 'float'
+        'order_item_shipping_price' => 'float',
+        'order_item_condition' => 'string',
+        'order_item_marketplace_product_uri' => 'string',
+        'order_item_marketplace_image_uri' => 'string'
     ];
 
     /**
@@ -94,10 +98,14 @@ class OrderItem implements ModelInterface, ArrayAccess
         'order_item_image_url' => null,
         'order_item_merchant_product_id' => null,
         'order_item_market_place_product_id' => null,
+        'order_item_gtin' => null,
         'order_item_item_price' => 'decimal',
         'order_item_quantity' => 'decimal',
         'order_item_total_price' => 'decimal',
-        'order_item_shipping_price' => 'decimal'
+        'order_item_shipping_price' => 'decimal',
+        'order_item_condition' => null,
+        'order_item_marketplace_product_uri' => null,
+        'order_item_marketplace_image_uri' => null
     ];
 
     /**
@@ -139,10 +147,14 @@ class OrderItem implements ModelInterface, ArrayAccess
         'order_item_image_url' => 'orderItem_ImageUrl',
         'order_item_merchant_product_id' => 'orderItem_MerchantProductId',
         'order_item_market_place_product_id' => 'orderItem_MarketPlaceProductId',
+        'order_item_gtin' => 'orderItem_gtin',
         'order_item_item_price' => 'orderItem_ItemPrice',
         'order_item_quantity' => 'orderItem_Quantity',
         'order_item_total_price' => 'orderItem_TotalPrice',
-        'order_item_shipping_price' => 'orderItem_Shipping_Price'
+        'order_item_shipping_price' => 'orderItem_Shipping_Price',
+        'order_item_condition' => 'orderItem_Condition',
+        'order_item_marketplace_product_uri' => 'orderItem_MarketplaceProductUri',
+        'order_item_marketplace_image_uri' => 'orderItem_MarketplaceImageUri'
     ];
 
     /**
@@ -163,10 +175,14 @@ class OrderItem implements ModelInterface, ArrayAccess
         'order_item_image_url' => 'setOrderItemImageUrl',
         'order_item_merchant_product_id' => 'setOrderItemMerchantProductId',
         'order_item_market_place_product_id' => 'setOrderItemMarketPlaceProductId',
+        'order_item_gtin' => 'setOrderItemGtin',
         'order_item_item_price' => 'setOrderItemItemPrice',
         'order_item_quantity' => 'setOrderItemQuantity',
         'order_item_total_price' => 'setOrderItemTotalPrice',
-        'order_item_shipping_price' => 'setOrderItemShippingPrice'
+        'order_item_shipping_price' => 'setOrderItemShippingPrice',
+        'order_item_condition' => 'setOrderItemCondition',
+        'order_item_marketplace_product_uri' => 'setOrderItemMarketplaceProductUri',
+        'order_item_marketplace_image_uri' => 'setOrderItemMarketplaceImageUri'
     ];
 
     /**
@@ -187,10 +203,14 @@ class OrderItem implements ModelInterface, ArrayAccess
         'order_item_image_url' => 'getOrderItemImageUrl',
         'order_item_merchant_product_id' => 'getOrderItemMerchantProductId',
         'order_item_market_place_product_id' => 'getOrderItemMarketPlaceProductId',
+        'order_item_gtin' => 'getOrderItemGtin',
         'order_item_item_price' => 'getOrderItemItemPrice',
         'order_item_quantity' => 'getOrderItemQuantity',
         'order_item_total_price' => 'getOrderItemTotalPrice',
-        'order_item_shipping_price' => 'getOrderItemShippingPrice'
+        'order_item_shipping_price' => 'getOrderItemShippingPrice',
+        'order_item_condition' => 'getOrderItemCondition',
+        'order_item_marketplace_product_uri' => 'getOrderItemMarketplaceProductUri',
+        'order_item_marketplace_image_uri' => 'getOrderItemMarketplaceImageUri'
     ];
 
     /**
@@ -265,10 +285,14 @@ class OrderItem implements ModelInterface, ArrayAccess
         $this->container['order_item_image_url'] = isset($data['order_item_image_url']) ? $data['order_item_image_url'] : null;
         $this->container['order_item_merchant_product_id'] = isset($data['order_item_merchant_product_id']) ? $data['order_item_merchant_product_id'] : null;
         $this->container['order_item_market_place_product_id'] = isset($data['order_item_market_place_product_id']) ? $data['order_item_market_place_product_id'] : null;
+        $this->container['order_item_gtin'] = isset($data['order_item_gtin']) ? $data['order_item_gtin'] : null;
         $this->container['order_item_item_price'] = isset($data['order_item_item_price']) ? $data['order_item_item_price'] : null;
         $this->container['order_item_quantity'] = isset($data['order_item_quantity']) ? $data['order_item_quantity'] : null;
         $this->container['order_item_total_price'] = isset($data['order_item_total_price']) ? $data['order_item_total_price'] : null;
         $this->container['order_item_shipping_price'] = isset($data['order_item_shipping_price']) ? $data['order_item_shipping_price'] : null;
+        $this->container['order_item_condition'] = isset($data['order_item_condition']) ? $data['order_item_condition'] : null;
+        $this->container['order_item_marketplace_product_uri'] = isset($data['order_item_marketplace_product_uri']) ? $data['order_item_marketplace_product_uri'] : null;
+        $this->container['order_item_marketplace_image_uri'] = isset($data['order_item_marketplace_image_uri']) ? $data['order_item_marketplace_image_uri'] : null;
     }
 
     /**
@@ -297,14 +321,7 @@ class OrderItem implements ModelInterface, ArrayAccess
      */
     public function valid()
     {
-
-        if ($this->container['beez_up_order_item_id'] === null) {
-            return false;
-        }
-        if ($this->container['order_item_order_item_type'] === null) {
-            return false;
-        }
-        return true;
+        return count($this->listInvalidProperties()) === 0;
     }
 
 
@@ -597,6 +614,30 @@ class OrderItem implements ModelInterface, ArrayAccess
     }
 
     /**
+     * Gets order_item_gtin
+     *
+     * @return string
+     */
+    public function getOrderItemGtin()
+    {
+        return $this->container['order_item_gtin'];
+    }
+
+    /**
+     * Sets order_item_gtin
+     *
+     * @param string $order_item_gtin The order item gtin
+     *
+     * @return $this
+     */
+    public function setOrderItemGtin($order_item_gtin)
+    {
+        $this->container['order_item_gtin'] = $order_item_gtin;
+
+        return $this;
+    }
+
+    /**
      * Gets order_item_item_price
      *
      * @return float
@@ -691,6 +732,78 @@ class OrderItem implements ModelInterface, ArrayAccess
 
         return $this;
     }
+
+    /**
+     * Gets order_item_condition
+     *
+     * @return string
+     */
+    public function getOrderItemCondition()
+    {
+        return $this->container['order_item_condition'];
+    }
+
+    /**
+     * Sets order_item_condition
+     *
+     * @param string $order_item_condition The merchant product condition of the order item
+     *
+     * @return $this
+     */
+    public function setOrderItemCondition($order_item_condition)
+    {
+        $this->container['order_item_condition'] = $order_item_condition;
+
+        return $this;
+    }
+
+    /**
+     * Gets order_item_marketplace_product_uri
+     *
+     * @return string
+     */
+    public function getOrderItemMarketplaceProductUri()
+    {
+        return $this->container['order_item_marketplace_product_uri'];
+    }
+
+    /**
+     * Sets order_item_marketplace_product_uri
+     *
+     * @param string $order_item_marketplace_product_uri The merchant product uri of the order item
+     *
+     * @return $this
+     */
+    public function setOrderItemMarketplaceProductUri($order_item_marketplace_product_uri)
+    {
+        $this->container['order_item_marketplace_product_uri'] = $order_item_marketplace_product_uri;
+
+        return $this;
+    }
+
+    /**
+     * Gets order_item_marketplace_image_uri
+     *
+     * @return string
+     */
+    public function getOrderItemMarketplaceImageUri()
+    {
+        return $this->container['order_item_marketplace_image_uri'];
+    }
+
+    /**
+     * Sets order_item_marketplace_image_uri
+     *
+     * @param string $order_item_marketplace_image_uri The marketplace image uri
+     *
+     * @return $this
+     */
+    public function setOrderItemMarketplaceImageUri($order_item_marketplace_image_uri)
+    {
+        $this->container['order_item_marketplace_image_uri'] = $order_item_marketplace_image_uri;
+
+        return $this;
+    }
     /**
      * Returns true if offset exists. False otherwise.
      *
@@ -698,6 +811,7 @@ class OrderItem implements ModelInterface, ArrayAccess
      *
      * @return boolean
      */
+    #[\ReturnTypeWillChange]
     public function offsetExists($offset)
     {
         return isset($this->container[$offset]);
@@ -710,6 +824,7 @@ class OrderItem implements ModelInterface, ArrayAccess
      *
      * @return mixed
      */
+    #[\ReturnTypeWillChange]
     public function offsetGet($offset)
     {
         return isset($this->container[$offset]) ? $this->container[$offset] : null;
@@ -723,6 +838,7 @@ class OrderItem implements ModelInterface, ArrayAccess
      *
      * @return void
      */
+    #[\ReturnTypeWillChange]
     public function offsetSet($offset, $value)
     {
         if (is_null($offset)) {
@@ -739,6 +855,7 @@ class OrderItem implements ModelInterface, ArrayAccess
      *
      * @return void
      */
+    #[\ReturnTypeWillChange]
     public function offsetUnset($offset)
     {
         unset($this->container[$offset]);

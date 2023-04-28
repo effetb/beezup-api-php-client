@@ -11,14 +11,14 @@
  */
 
 /**
- * BeezUP API
+ * BeezUP Merchant API
  *
- * # The REST API of BeezUP system ## Overview The REST APIs provide programmatic access to read and write BeezUP data.  Basically, with this API you will be able to do everything like you were with your browser on https://go.beezup.com !  The main features are: - Register and manage your account - Create and manage and share your stores with your friends/co-workers. - Import your product catalog and schedule the auto importation - Search the channels your want to use - Configure your channels for your catalogs to export your product information:     - cost and general settings     - category and columns mappings     - your will be able to create and manage your custom column     - put in place exlusion filters based on simple conditions on your product data     - override product values     - get product vision for a channel catalog scope - Analyze and optimize your performance of your catalogs on all yours channels with different type of reportings by day, channel, category and by product. - Automatize your optimisation by using rules! - And of course... Manage your orders harvested from all your marketplaces:     - Synchronize your orders in an uniformized way     - Get the available actions and update the order status - ...and more!  ## Authentication credentials The public API with the base path **_/v2/public** have been put in place to give you an entry point to our system for the user registration, login and lost password. The public API does not require any credentials. We give you the some public list of values and public channels for our public commercial web site [www.beezup.com](http://www.beezup.com).  The user API with the base path **_/v2/user** requires a token which is available on this page: https://go.beezup.com/Account/MyAccount  ## Things to keep in mind ### API Rate Limits - The BeezUP REST API is limited to 100 calls/minute.  ### Media type The default media type for requests and responses is application/json. Where noted, some operations support other content types. If no additional content type is mentioned for a specific operation, then the media type is application/json.  ### Required content type The required and default encoding for the request and responses is UTF8.  ### Required date time format All our date time are formatted in ISO 8601 format: 2014-06-24T16:25:00Z.  ### Base URL The Base URL of the BeezUP API Order Management REST API conforms to the following template.  https://api.beezup.com  All URLs returned by the BeezUP API are relative to this base URL, and all requests to the REST API must use this base URL template.  You can test our API on https://api-docs.beezup.com/swagger-ui\\ You can contact us on [gitter, #BeezUP/API](https://gitter.im/BeezUP/API)
+ * # The REST API of BeezUP system ## Overview The REST APIs provide programmatic access to read and write BeezUP data.  Basically, with this API you will be able to do everything like you were with your browser on https://go.beezup.com !  The main features are: - Register and manage your account - Create and manage and share your stores with your friends/co-workers. - Import your product catalog and schedule the auto importation - Search the channels your want to use - Configure your channels for your catalogs to export your product information:     - cost and general settings     - category and columns mappings     - your will be able to create and manage your custom column     - put in place exlusion filters based on simple conditions on your product data     - override product values     - get product vision for a channel catalog scope - Analyze and optimize your performance of your catalogs on all yours channels with different type of reportings by day, channel, category and by product. - Automatize your optimisation by using rules! - And of course... Manage your orders harvested from all your marketplaces:     - Synchronize your orders in an uniformized way     - Get the available actions and update the order status - ...and more!  ## Authentication credentials The public API with the base path **_/v2/public** have been put in place to give you an entry point to our system for the user registration, login and lost password. The public API does not require any credentials. We give you the some public list of values and public channels for our public commercial web site [www.beezup.com](http://www.beezup.com).  The user API with the base path **_/v2/user** requires a token which is available on this page: https://go.beezup.com/Account/MyAccount  ## Things to keep in mind ### API Rate Limits - The BeezUP REST API is limited to 100 calls/minute.  ### Media type The default media type for requests and responses is application/json. Where noted, some operations support other content types. If no additional content type is mentioned for a specific operation, then the media type is application/json.  ### Required content type The required and default encoding for the request and responses is UTF8.  ### Required date time format All our date time are formatted in ISO 8601 format: 2014-06-24T16:25:00Z.  ### Base URL The Base URL of the BeezUP API Order Management REST API conforms to the following template.  https://api.beezup.com  All URLs returned by the BeezUP API are relative to this base URL, and all requests to the REST API must use this base URL template.  You can test our API on https://api-docs.beezup.com/swagger-ui\\\\ You can contact us on [gitter, #BeezUP/API](https://gitter.im/BeezUP/API)
  *
  * OpenAPI spec version: 2.0
  * Contact: help@beezup.com
  * Generated by: https://github.com/swagger-api/swagger-codegen.git
- * Swagger Codegen version: 2.4.0-SNAPSHOT
+ * Swagger Codegen version: 2.4.30
  */
 
 /**
@@ -75,6 +75,8 @@ class OrderHeader implements ModelInterface, ArrayAccess
         'order_buyer_name' => '\Swagger\Client\Model\OrderBuyerName',
         'order_total_price' => 'float',
         'order_currency_code' => '\Swagger\Client\Model\BeezUPCommonCurrencyCode',
+        'order_invoice_number' => 'string',
+        'order_invoice_uri' => 'string',
         'processing' => '\Swagger\Client\Model\Processing',
         'etag' => '\Swagger\Client\Model\Etag',
         'links' => '\Swagger\Client\Model\OrderHeaderLinks'
@@ -103,6 +105,8 @@ class OrderHeader implements ModelInterface, ArrayAccess
         'order_buyer_name' => null,
         'order_total_price' => 'decimal',
         'order_currency_code' => null,
+        'order_invoice_number' => null,
+        'order_invoice_uri' => null,
         'processing' => null,
         'etag' => null,
         'links' => null
@@ -152,6 +156,8 @@ class OrderHeader implements ModelInterface, ArrayAccess
         'order_buyer_name' => 'order_Buyer_Name',
         'order_total_price' => 'order_TotalPrice',
         'order_currency_code' => 'order_CurrencyCode',
+        'order_invoice_number' => 'order_Invoice_Number',
+        'order_invoice_uri' => 'order_Invoice_Uri',
         'processing' => 'processing',
         'etag' => 'etag',
         'links' => 'links'
@@ -180,6 +186,8 @@ class OrderHeader implements ModelInterface, ArrayAccess
         'order_buyer_name' => 'setOrderBuyerName',
         'order_total_price' => 'setOrderTotalPrice',
         'order_currency_code' => 'setOrderCurrencyCode',
+        'order_invoice_number' => 'setOrderInvoiceNumber',
+        'order_invoice_uri' => 'setOrderInvoiceUri',
         'processing' => 'setProcessing',
         'etag' => 'setEtag',
         'links' => 'setLinks'
@@ -208,6 +216,8 @@ class OrderHeader implements ModelInterface, ArrayAccess
         'order_buyer_name' => 'getOrderBuyerName',
         'order_total_price' => 'getOrderTotalPrice',
         'order_currency_code' => 'getOrderCurrencyCode',
+        'order_invoice_number' => 'getOrderInvoiceNumber',
+        'order_invoice_uri' => 'getOrderInvoiceUri',
         'processing' => 'getProcessing',
         'etag' => 'getEtag',
         'links' => 'getLinks'
@@ -290,6 +300,8 @@ class OrderHeader implements ModelInterface, ArrayAccess
         $this->container['order_buyer_name'] = isset($data['order_buyer_name']) ? $data['order_buyer_name'] : null;
         $this->container['order_total_price'] = isset($data['order_total_price']) ? $data['order_total_price'] : null;
         $this->container['order_currency_code'] = isset($data['order_currency_code']) ? $data['order_currency_code'] : null;
+        $this->container['order_invoice_number'] = isset($data['order_invoice_number']) ? $data['order_invoice_number'] : null;
+        $this->container['order_invoice_uri'] = isset($data['order_invoice_uri']) ? $data['order_invoice_uri'] : null;
         $this->container['processing'] = isset($data['processing']) ? $data['processing'] : null;
         $this->container['etag'] = isset($data['etag']) ? $data['etag'] : null;
         $this->container['links'] = isset($data['links']) ? $data['links'] : null;
@@ -351,44 +363,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
      */
     public function valid()
     {
-
-        if ($this->container['marketplace_technical_code'] === null) {
-            return false;
-        }
-        if ($this->container['account_id'] === null) {
-            return false;
-        }
-        if ($this->container['beez_up_order_id'] === null) {
-            return false;
-        }
-        if ($this->container['marketplace_business_code'] === null) {
-            return false;
-        }
-        if ($this->container['order_marketplace_order_id'] === null) {
-            return false;
-        }
-        if ($this->container['order_status_beez_up_order_status'] === null) {
-            return false;
-        }
-        if ($this->container['order_purchase_utc_date'] === null) {
-            return false;
-        }
-        if ($this->container['order_last_modification_utc_date'] === null) {
-            return false;
-        }
-        if ($this->container['order_marketplace_last_modification_utc_date'] === null) {
-            return false;
-        }
-        if ($this->container['processing'] === null) {
-            return false;
-        }
-        if ($this->container['etag'] === null) {
-            return false;
-        }
-        if ($this->container['links'] === null) {
-            return false;
-        }
-        return true;
+        return count($this->listInvalidProperties()) === 0;
     }
 
 
@@ -801,6 +776,54 @@ class OrderHeader implements ModelInterface, ArrayAccess
     }
 
     /**
+     * Gets order_invoice_number
+     *
+     * @return string
+     */
+    public function getOrderInvoiceNumber()
+    {
+        return $this->container['order_invoice_number'];
+    }
+
+    /**
+     * Sets order_invoice_number
+     *
+     * @param string $order_invoice_number The order invoice number
+     *
+     * @return $this
+     */
+    public function setOrderInvoiceNumber($order_invoice_number)
+    {
+        $this->container['order_invoice_number'] = $order_invoice_number;
+
+        return $this;
+    }
+
+    /**
+     * Gets order_invoice_uri
+     *
+     * @return string
+     */
+    public function getOrderInvoiceUri()
+    {
+        return $this->container['order_invoice_uri'];
+    }
+
+    /**
+     * Sets order_invoice_uri
+     *
+     * @param string $order_invoice_uri The order invoice URI
+     *
+     * @return $this
+     */
+    public function setOrderInvoiceUri($order_invoice_uri)
+    {
+        $this->container['order_invoice_uri'] = $order_invoice_uri;
+
+        return $this;
+    }
+
+    /**
      * Gets processing
      *
      * @return \Swagger\Client\Model\Processing
@@ -878,6 +901,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
      *
      * @return boolean
      */
+    #[\ReturnTypeWillChange]
     public function offsetExists($offset)
     {
         return isset($this->container[$offset]);
@@ -890,6 +914,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
      *
      * @return mixed
      */
+    #[\ReturnTypeWillChange]
     public function offsetGet($offset)
     {
         return isset($this->container[$offset]) ? $this->container[$offset] : null;
@@ -903,6 +928,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
      *
      * @return void
      */
+    #[\ReturnTypeWillChange]
     public function offsetSet($offset, $value)
     {
         if (is_null($offset)) {
@@ -919,6 +945,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
      *
      * @return void
      */
+    #[\ReturnTypeWillChange]
     public function offsetUnset($offset)
     {
         unset($this->container[$offset]);

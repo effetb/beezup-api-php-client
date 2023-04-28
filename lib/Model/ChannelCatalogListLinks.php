@@ -11,14 +11,14 @@
  */
 
 /**
- * BeezUP API
+ * BeezUP Merchant API
  *
- * # The REST API of BeezUP system ## Overview The REST APIs provide programmatic access to read and write BeezUP data.  Basically, with this API you will be able to do everything like you were with your browser on https://go.beezup.com !  The main features are: - Register and manage your account - Create and manage and share your stores with your friends/co-workers. - Import your product catalog and schedule the auto importation - Search the channels your want to use - Configure your channels for your catalogs to export your product information:     - cost and general settings     - category and columns mappings     - your will be able to create and manage your custom column     - put in place exlusion filters based on simple conditions on your product data     - override product values     - get product vision for a channel catalog scope - Analyze and optimize your performance of your catalogs on all yours channels with different type of reportings by day, channel, category and by product. - Automatize your optimisation by using rules! - And of course... Manage your orders harvested from all your marketplaces:     - Synchronize your orders in an uniformized way     - Get the available actions and update the order status - ...and more!  ## Authentication credentials The public API with the base path **_/v2/public** have been put in place to give you an entry point to our system for the user registration, login and lost password. The public API does not require any credentials. We give you the some public list of values and public channels for our public commercial web site [www.beezup.com](http://www.beezup.com).  The user API with the base path **_/v2/user** requires a token which is available on this page: https://go.beezup.com/Account/MyAccount  ## Things to keep in mind ### API Rate Limits - The BeezUP REST API is limited to 100 calls/minute.  ### Media type The default media type for requests and responses is application/json. Where noted, some operations support other content types. If no additional content type is mentioned for a specific operation, then the media type is application/json.  ### Required content type The required and default encoding for the request and responses is UTF8.  ### Required date time format All our date time are formatted in ISO 8601 format: 2014-06-24T16:25:00Z.  ### Base URL The Base URL of the BeezUP API Order Management REST API conforms to the following template.  https://api.beezup.com  All URLs returned by the BeezUP API are relative to this base URL, and all requests to the REST API must use this base URL template.  You can test our API on https://api-docs.beezup.com/swagger-ui\\ You can contact us on [gitter, #BeezUP/API](https://gitter.im/BeezUP/API)
+ * # The REST API of BeezUP system ## Overview The REST APIs provide programmatic access to read and write BeezUP data.  Basically, with this API you will be able to do everything like you were with your browser on https://go.beezup.com !  The main features are: - Register and manage your account - Create and manage and share your stores with your friends/co-workers. - Import your product catalog and schedule the auto importation - Search the channels your want to use - Configure your channels for your catalogs to export your product information:     - cost and general settings     - category and columns mappings     - your will be able to create and manage your custom column     - put in place exlusion filters based on simple conditions on your product data     - override product values     - get product vision for a channel catalog scope - Analyze and optimize your performance of your catalogs on all yours channels with different type of reportings by day, channel, category and by product. - Automatize your optimisation by using rules! - And of course... Manage your orders harvested from all your marketplaces:     - Synchronize your orders in an uniformized way     - Get the available actions and update the order status - ...and more!  ## Authentication credentials The public API with the base path **_/v2/public** have been put in place to give you an entry point to our system for the user registration, login and lost password. The public API does not require any credentials. We give you the some public list of values and public channels for our public commercial web site [www.beezup.com](http://www.beezup.com).  The user API with the base path **_/v2/user** requires a token which is available on this page: https://go.beezup.com/Account/MyAccount  ## Things to keep in mind ### API Rate Limits - The BeezUP REST API is limited to 100 calls/minute.  ### Media type The default media type for requests and responses is application/json. Where noted, some operations support other content types. If no additional content type is mentioned for a specific operation, then the media type is application/json.  ### Required content type The required and default encoding for the request and responses is UTF8.  ### Required date time format All our date time are formatted in ISO 8601 format: 2014-06-24T16:25:00Z.  ### Base URL The Base URL of the BeezUP API Order Management REST API conforms to the following template.  https://api.beezup.com  All URLs returned by the BeezUP API are relative to this base URL, and all requests to the REST API must use this base URL template.  You can test our API on https://api-docs.beezup.com/swagger-ui\\\\ You can contact us on [gitter, #BeezUP/API](https://gitter.im/BeezUP/API)
  *
  * OpenAPI spec version: 2.0
  * Contact: help@beezup.com
  * Generated by: https://github.com/swagger-api/swagger-codegen.git
- * Swagger Codegen version: 2.4.0-SNAPSHOT
+ * Swagger Codegen version: 2.4.30
  */
 
 /**
@@ -61,7 +61,7 @@ class ChannelCatalogListLinks implements ModelInterface, ArrayAccess
         'self' => '\Swagger\Client\Model\LinksGetChannelCatalogsLink',
         'beez_up_columns' => '\Swagger\Client\Model\ExternalLinksCatalogGetBeezUPColumnsLink',
         'add' => '\Swagger\Client\Model\LinksAddChannelCatalogLink',
-        'exclusion_filter_operators' => '\Swagger\Client\Model\LinksGetChannelCatalogExclusionFilterOperatorsLink'
+        'filter_operators' => '\Swagger\Client\Model\LinksGetChannelCatalogFilterOperatorsLink'
     ];
 
     /**
@@ -73,7 +73,7 @@ class ChannelCatalogListLinks implements ModelInterface, ArrayAccess
         'self' => null,
         'beez_up_columns' => null,
         'add' => null,
-        'exclusion_filter_operators' => null
+        'filter_operators' => null
     ];
 
     /**
@@ -106,7 +106,7 @@ class ChannelCatalogListLinks implements ModelInterface, ArrayAccess
         'self' => 'self',
         'beez_up_columns' => 'beezUPColumns',
         'add' => 'add',
-        'exclusion_filter_operators' => 'exclusionFilterOperators'
+        'filter_operators' => 'filterOperators'
     ];
 
     /**
@@ -118,7 +118,7 @@ class ChannelCatalogListLinks implements ModelInterface, ArrayAccess
         'self' => 'setSelf',
         'beez_up_columns' => 'setBeezUpColumns',
         'add' => 'setAdd',
-        'exclusion_filter_operators' => 'setExclusionFilterOperators'
+        'filter_operators' => 'setFilterOperators'
     ];
 
     /**
@@ -130,7 +130,7 @@ class ChannelCatalogListLinks implements ModelInterface, ArrayAccess
         'self' => 'getSelf',
         'beez_up_columns' => 'getBeezUpColumns',
         'add' => 'getAdd',
-        'exclusion_filter_operators' => 'getExclusionFilterOperators'
+        'filter_operators' => 'getFilterOperators'
     ];
 
     /**
@@ -196,7 +196,7 @@ class ChannelCatalogListLinks implements ModelInterface, ArrayAccess
         $this->container['self'] = isset($data['self']) ? $data['self'] : null;
         $this->container['beez_up_columns'] = isset($data['beez_up_columns']) ? $data['beez_up_columns'] : null;
         $this->container['add'] = isset($data['add']) ? $data['add'] : null;
-        $this->container['exclusion_filter_operators'] = isset($data['exclusion_filter_operators']) ? $data['exclusion_filter_operators'] : null;
+        $this->container['filter_operators'] = isset($data['filter_operators']) ? $data['filter_operators'] : null;
     }
 
     /**
@@ -219,8 +219,7 @@ class ChannelCatalogListLinks implements ModelInterface, ArrayAccess
      */
     public function valid()
     {
-
-        return true;
+        return count($this->listInvalidProperties()) === 0;
     }
 
 
@@ -297,25 +296,25 @@ class ChannelCatalogListLinks implements ModelInterface, ArrayAccess
     }
 
     /**
-     * Gets exclusion_filter_operators
+     * Gets filter_operators
      *
-     * @return \Swagger\Client\Model\LinksGetChannelCatalogExclusionFilterOperatorsLink
+     * @return \Swagger\Client\Model\LinksGetChannelCatalogFilterOperatorsLink
      */
-    public function getExclusionFilterOperators()
+    public function getFilterOperators()
     {
-        return $this->container['exclusion_filter_operators'];
+        return $this->container['filter_operators'];
     }
 
     /**
-     * Sets exclusion_filter_operators
+     * Sets filter_operators
      *
-     * @param \Swagger\Client\Model\LinksGetChannelCatalogExclusionFilterOperatorsLink $exclusion_filter_operators exclusion_filter_operators
+     * @param \Swagger\Client\Model\LinksGetChannelCatalogFilterOperatorsLink $filter_operators filter_operators
      *
      * @return $this
      */
-    public function setExclusionFilterOperators($exclusion_filter_operators)
+    public function setFilterOperators($filter_operators)
     {
-        $this->container['exclusion_filter_operators'] = $exclusion_filter_operators;
+        $this->container['filter_operators'] = $filter_operators;
 
         return $this;
     }
@@ -326,6 +325,7 @@ class ChannelCatalogListLinks implements ModelInterface, ArrayAccess
      *
      * @return boolean
      */
+    #[\ReturnTypeWillChange]
     public function offsetExists($offset)
     {
         return isset($this->container[$offset]);
@@ -338,6 +338,7 @@ class ChannelCatalogListLinks implements ModelInterface, ArrayAccess
      *
      * @return mixed
      */
+    #[\ReturnTypeWillChange]
     public function offsetGet($offset)
     {
         return isset($this->container[$offset]) ? $this->container[$offset] : null;
@@ -351,6 +352,7 @@ class ChannelCatalogListLinks implements ModelInterface, ArrayAccess
      *
      * @return void
      */
+    #[\ReturnTypeWillChange]
     public function offsetSet($offset, $value)
     {
         if (is_null($offset)) {
@@ -367,6 +369,7 @@ class ChannelCatalogListLinks implements ModelInterface, ArrayAccess
      *
      * @return void
      */
+    #[\ReturnTypeWillChange]
     public function offsetUnset($offset)
     {
         unset($this->container[$offset]);
