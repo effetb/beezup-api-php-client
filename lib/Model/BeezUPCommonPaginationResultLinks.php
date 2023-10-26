@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * BeezUPCommonPaginationResultLinks Class Doc Comment
  *
  * @category Class
  * @description The navigation links &#39;first&#39;, &#39;last&#39;, &#39;next&#39;, &#39;previous&#39;
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,10 +58,10 @@ class BeezUPCommonPaginationResultLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'first' => '\Swagger\Client\Model\BeezUPCommonLink3',
-        'last' => '\Swagger\Client\Model\BeezUPCommonLink3',
-        'previous' => '\Swagger\Client\Model\BeezUPCommonLink3',
-        'next' => '\Swagger\Client\Model\BeezUPCommonLink3'
+        'first' => '\EffetB\BeezupApi\Model\BeezUPCommonLink3',
+        'last' => '\EffetB\BeezupApi\Model\BeezUPCommonLink3',
+        'previous' => '\EffetB\BeezupApi\Model\BeezUPCommonLink3',
+        'next' => '\EffetB\BeezupApi\Model\BeezUPCommonLink3'
     ];
 
     /**
@@ -239,7 +239,7 @@ class BeezUPCommonPaginationResultLinks implements ModelInterface, ArrayAccess
     /**
      * Gets first
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLink3
      */
     public function getFirst()
     {
@@ -249,7 +249,7 @@ class BeezUPCommonPaginationResultLinks implements ModelInterface, ArrayAccess
     /**
      * Sets first
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLink3 $first first
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLink3 $first first
      *
      * @return $this
      */
@@ -263,7 +263,7 @@ class BeezUPCommonPaginationResultLinks implements ModelInterface, ArrayAccess
     /**
      * Gets last
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLink3
      */
     public function getLast()
     {
@@ -273,7 +273,7 @@ class BeezUPCommonPaginationResultLinks implements ModelInterface, ArrayAccess
     /**
      * Sets last
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLink3 $last last
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLink3 $last last
      *
      * @return $this
      */
@@ -287,7 +287,7 @@ class BeezUPCommonPaginationResultLinks implements ModelInterface, ArrayAccess
     /**
      * Gets previous
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLink3
      */
     public function getPrevious()
     {
@@ -297,7 +297,7 @@ class BeezUPCommonPaginationResultLinks implements ModelInterface, ArrayAccess
     /**
      * Sets previous
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLink3 $previous previous
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLink3 $previous previous
      *
      * @return $this
      */
@@ -311,7 +311,7 @@ class BeezUPCommonPaginationResultLinks implements ModelInterface, ArrayAccess
     /**
      * Gets next
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLink3
      */
     public function getNext()
     {
@@ -321,7 +321,7 @@ class BeezUPCommonPaginationResultLinks implements ModelInterface, ArrayAccess
     /**
      * Sets next
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLink3 $next next
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLink3 $next next
      *
      * @return $this
      */

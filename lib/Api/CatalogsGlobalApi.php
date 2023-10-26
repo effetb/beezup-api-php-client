@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace EffetB\BeezupApi\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use EffetB\BeezupApi\ApiException;
+use EffetB\BeezupApi\Configuration;
+use EffetB\BeezupApi\HeaderSelector;
+use EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CatalogsGlobalApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -93,9 +93,9 @@ class CatalogsGlobalApi
      * Get the BeezUP columns
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\BeezUPColumnConfiguration[]
+     * @return \EffetB\BeezupApi\Model\BeezUPColumnConfiguration[]
      */
     public function catalogGetBeezUPColumns()
     {
@@ -109,13 +109,13 @@ class CatalogsGlobalApi
      * Get the BeezUP columns
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\BeezUPColumnConfiguration[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\BeezUPColumnConfiguration[], HTTP status code, HTTP response headers (array of strings)
      */
     public function catalogGetBeezUPColumnsWithHttpInfo()
     {
-        $returnType = '\Swagger\Client\Model\BeezUPColumnConfiguration[]';
+        $returnType = '\EffetB\BeezupApi\Model\BeezUPColumnConfiguration[]';
         $request = $this->catalogGetBeezUPColumnsRequest();
 
         try {
@@ -167,7 +167,7 @@ class CatalogsGlobalApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPColumnConfiguration[]',
+                        '\EffetB\BeezupApi\Model\BeezUPColumnConfiguration[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -175,7 +175,7 @@ class CatalogsGlobalApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -215,7 +215,7 @@ class CatalogsGlobalApi
      */
     public function catalogGetBeezUPColumnsAsyncWithHttpInfo()
     {
-        $returnType = '\Swagger\Client\Model\BeezUPColumnConfiguration[]';
+        $returnType = '\EffetB\BeezupApi\Model\BeezUPColumnConfiguration[]';
         $request = $this->catalogGetBeezUPColumnsRequest();
 
         return $this->client
@@ -349,9 +349,9 @@ class CatalogsGlobalApi
      * Get the index of the catalog API
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CatalogIndex
+     * @return \EffetB\BeezupApi\Model\CatalogIndex
      */
     public function catalogIndex()
     {
@@ -365,13 +365,13 @@ class CatalogsGlobalApi
      * Get the index of the catalog API
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CatalogIndex, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\CatalogIndex, HTTP status code, HTTP response headers (array of strings)
      */
     public function catalogIndexWithHttpInfo()
     {
-        $returnType = '\Swagger\Client\Model\CatalogIndex';
+        $returnType = '\EffetB\BeezupApi\Model\CatalogIndex';
         $request = $this->catalogIndexRequest();
 
         try {
@@ -423,7 +423,7 @@ class CatalogsGlobalApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CatalogIndex',
+                        '\EffetB\BeezupApi\Model\CatalogIndex',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -431,7 +431,7 @@ class CatalogsGlobalApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -471,7 +471,7 @@ class CatalogsGlobalApi
      */
     public function catalogIndexAsyncWithHttpInfo()
     {
-        $returnType = '\Swagger\Client\Model\CatalogIndex';
+        $returnType = '\EffetB\BeezupApi\Model\CatalogIndex';
         $request = $this->catalogIndexRequest();
 
         return $this->client

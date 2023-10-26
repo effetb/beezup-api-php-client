@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ProfilePictureInfoWithDefault Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,10 +57,10 @@ class ProfilePictureInfoWithDefault implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'profile_picture_url' => '\Swagger\Client\Model\ProfilePictureUrl',
-        'profile_picture_selected' => '\Swagger\Client\Model\ProfilePictureSelected',
-        'initials_profile_picture_url' => '\Swagger\Client\Model\InitialsProfilePictureUrl',
-        'gravatar_profile_picture_url' => '\Swagger\Client\Model\GravatarProfilePictureUrl'
+        'profile_picture_url' => '\EffetB\BeezupApi\Model\ProfilePictureUrl',
+        'profile_picture_selected' => '\EffetB\BeezupApi\Model\ProfilePictureSelected',
+        'initials_profile_picture_url' => '\EffetB\BeezupApi\Model\InitialsProfilePictureUrl',
+        'gravatar_profile_picture_url' => '\EffetB\BeezupApi\Model\GravatarProfilePictureUrl'
     ];
 
     /**
@@ -244,7 +244,7 @@ class ProfilePictureInfoWithDefault implements ModelInterface, ArrayAccess
     /**
      * Gets profile_picture_url
      *
-     * @return \Swagger\Client\Model\ProfilePictureUrl
+     * @return \EffetB\BeezupApi\Model\ProfilePictureUrl
      */
     public function getProfilePictureUrl()
     {
@@ -254,7 +254,7 @@ class ProfilePictureInfoWithDefault implements ModelInterface, ArrayAccess
     /**
      * Sets profile_picture_url
      *
-     * @param \Swagger\Client\Model\ProfilePictureUrl $profile_picture_url profile_picture_url
+     * @param \EffetB\BeezupApi\Model\ProfilePictureUrl $profile_picture_url profile_picture_url
      *
      * @return $this
      */
@@ -268,7 +268,7 @@ class ProfilePictureInfoWithDefault implements ModelInterface, ArrayAccess
     /**
      * Gets profile_picture_selected
      *
-     * @return \Swagger\Client\Model\ProfilePictureSelected
+     * @return \EffetB\BeezupApi\Model\ProfilePictureSelected
      */
     public function getProfilePictureSelected()
     {
@@ -278,7 +278,7 @@ class ProfilePictureInfoWithDefault implements ModelInterface, ArrayAccess
     /**
      * Sets profile_picture_selected
      *
-     * @param \Swagger\Client\Model\ProfilePictureSelected $profile_picture_selected profile_picture_selected
+     * @param \EffetB\BeezupApi\Model\ProfilePictureSelected $profile_picture_selected profile_picture_selected
      *
      * @return $this
      */
@@ -292,7 +292,7 @@ class ProfilePictureInfoWithDefault implements ModelInterface, ArrayAccess
     /**
      * Gets initials_profile_picture_url
      *
-     * @return \Swagger\Client\Model\InitialsProfilePictureUrl
+     * @return \EffetB\BeezupApi\Model\InitialsProfilePictureUrl
      */
     public function getInitialsProfilePictureUrl()
     {
@@ -302,7 +302,7 @@ class ProfilePictureInfoWithDefault implements ModelInterface, ArrayAccess
     /**
      * Sets initials_profile_picture_url
      *
-     * @param \Swagger\Client\Model\InitialsProfilePictureUrl $initials_profile_picture_url initials_profile_picture_url
+     * @param \EffetB\BeezupApi\Model\InitialsProfilePictureUrl $initials_profile_picture_url initials_profile_picture_url
      *
      * @return $this
      */
@@ -316,7 +316,7 @@ class ProfilePictureInfoWithDefault implements ModelInterface, ArrayAccess
     /**
      * Gets gravatar_profile_picture_url
      *
-     * @return \Swagger\Client\Model\GravatarProfilePictureUrl
+     * @return \EffetB\BeezupApi\Model\GravatarProfilePictureUrl
      */
     public function getGravatarProfilePictureUrl()
     {
@@ -326,7 +326,7 @@ class ProfilePictureInfoWithDefault implements ModelInterface, ArrayAccess
     /**
      * Sets gravatar_profile_picture_url
      *
-     * @param \Swagger\Client\Model\GravatarProfilePictureUrl $gravatar_profile_picture_url gravatar_profile_picture_url
+     * @param \EffetB\BeezupApi\Model\GravatarProfilePictureUrl $gravatar_profile_picture_url gravatar_profile_picture_url
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * StoreLinks Class Doc Comment
  *
  * @category Class
  * @description The action links for this store
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,11 +58,11 @@ class StoreLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksGetStoreLink',
-        'delete_store' => '\Swagger\Client\Model\LinksDeleteStoreLink',
-        'update_store' => '\Swagger\Client\Model\LinksUpdateStoreLink',
-        'shares' => '\Swagger\Client\Model\LinksGetStoreSharesLink',
-        'share' => '\Swagger\Client\Model\LinksShareStoreLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksGetStoreLink',
+        'delete_store' => '\EffetB\BeezupApi\Model\LinksDeleteStoreLink',
+        'update_store' => '\EffetB\BeezupApi\Model\LinksUpdateStoreLink',
+        'shares' => '\EffetB\BeezupApi\Model\LinksGetStoreSharesLink',
+        'share' => '\EffetB\BeezupApi\Model\LinksShareStoreLink'
     ];
 
     /**
@@ -233,7 +233,7 @@ class StoreLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksGetStoreLink
+     * @return \EffetB\BeezupApi\Model\LinksGetStoreLink
      */
     public function getSelf()
     {
@@ -243,7 +243,7 @@ class StoreLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksGetStoreLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksGetStoreLink $self self
      *
      * @return $this
      */
@@ -257,7 +257,7 @@ class StoreLinks implements ModelInterface, ArrayAccess
     /**
      * Gets delete_store
      *
-     * @return \Swagger\Client\Model\LinksDeleteStoreLink
+     * @return \EffetB\BeezupApi\Model\LinksDeleteStoreLink
      */
     public function getDeleteStore()
     {
@@ -267,7 +267,7 @@ class StoreLinks implements ModelInterface, ArrayAccess
     /**
      * Sets delete_store
      *
-     * @param \Swagger\Client\Model\LinksDeleteStoreLink $delete_store delete_store
+     * @param \EffetB\BeezupApi\Model\LinksDeleteStoreLink $delete_store delete_store
      *
      * @return $this
      */
@@ -281,7 +281,7 @@ class StoreLinks implements ModelInterface, ArrayAccess
     /**
      * Gets update_store
      *
-     * @return \Swagger\Client\Model\LinksUpdateStoreLink
+     * @return \EffetB\BeezupApi\Model\LinksUpdateStoreLink
      */
     public function getUpdateStore()
     {
@@ -291,7 +291,7 @@ class StoreLinks implements ModelInterface, ArrayAccess
     /**
      * Sets update_store
      *
-     * @param \Swagger\Client\Model\LinksUpdateStoreLink $update_store update_store
+     * @param \EffetB\BeezupApi\Model\LinksUpdateStoreLink $update_store update_store
      *
      * @return $this
      */
@@ -305,7 +305,7 @@ class StoreLinks implements ModelInterface, ArrayAccess
     /**
      * Gets shares
      *
-     * @return \Swagger\Client\Model\LinksGetStoreSharesLink
+     * @return \EffetB\BeezupApi\Model\LinksGetStoreSharesLink
      */
     public function getShares()
     {
@@ -315,7 +315,7 @@ class StoreLinks implements ModelInterface, ArrayAccess
     /**
      * Sets shares
      *
-     * @param \Swagger\Client\Model\LinksGetStoreSharesLink $shares shares
+     * @param \EffetB\BeezupApi\Model\LinksGetStoreSharesLink $shares shares
      *
      * @return $this
      */
@@ -329,7 +329,7 @@ class StoreLinks implements ModelInterface, ArrayAccess
     /**
      * Gets share
      *
-     * @return \Swagger\Client\Model\LinksShareStoreLink
+     * @return \EffetB\BeezupApi\Model\LinksShareStoreLink
      */
     public function getShare()
     {
@@ -339,7 +339,7 @@ class StoreLinks implements ModelInterface, ArrayAccess
     /**
      * Sets share
      *
-     * @param \Swagger\Client\Model\LinksShareStoreLink $share share
+     * @param \EffetB\BeezupApi\Model\LinksShareStoreLink $share share
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelCatalogCategoryMappingsLinks Class Doc Comment
  *
  * @category Class
  * @description The action you can do on the category mappings
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,9 +58,9 @@ class ChannelCatalogCategoryMappingsLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksGetChannelCatalogCategoriesLink',
-        'disable' => '\Swagger\Client\Model\LinksDisableChannelCatalogCategoryMappingLink',
-        'reenable' => '\Swagger\Client\Model\LinksReenableChannelCatalogCategoryMappingLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksGetChannelCatalogCategoriesLink',
+        'disable' => '\EffetB\BeezupApi\Model\LinksDisableChannelCatalogCategoryMappingLink',
+        'reenable' => '\EffetB\BeezupApi\Model\LinksReenableChannelCatalogCategoryMappingLink'
     ];
 
     /**
@@ -227,7 +227,7 @@ class ChannelCatalogCategoryMappingsLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksGetChannelCatalogCategoriesLink
+     * @return \EffetB\BeezupApi\Model\LinksGetChannelCatalogCategoriesLink
      */
     public function getSelf()
     {
@@ -237,7 +237,7 @@ class ChannelCatalogCategoryMappingsLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksGetChannelCatalogCategoriesLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksGetChannelCatalogCategoriesLink $self self
      *
      * @return $this
      */
@@ -251,7 +251,7 @@ class ChannelCatalogCategoryMappingsLinks implements ModelInterface, ArrayAccess
     /**
      * Gets disable
      *
-     * @return \Swagger\Client\Model\LinksDisableChannelCatalogCategoryMappingLink
+     * @return \EffetB\BeezupApi\Model\LinksDisableChannelCatalogCategoryMappingLink
      */
     public function getDisable()
     {
@@ -261,7 +261,7 @@ class ChannelCatalogCategoryMappingsLinks implements ModelInterface, ArrayAccess
     /**
      * Sets disable
      *
-     * @param \Swagger\Client\Model\LinksDisableChannelCatalogCategoryMappingLink $disable disable
+     * @param \EffetB\BeezupApi\Model\LinksDisableChannelCatalogCategoryMappingLink $disable disable
      *
      * @return $this
      */
@@ -275,7 +275,7 @@ class ChannelCatalogCategoryMappingsLinks implements ModelInterface, ArrayAccess
     /**
      * Gets reenable
      *
-     * @return \Swagger\Client\Model\LinksReenableChannelCatalogCategoryMappingLink
+     * @return \EffetB\BeezupApi\Model\LinksReenableChannelCatalogCategoryMappingLink
      */
     public function getReenable()
     {
@@ -285,7 +285,7 @@ class ChannelCatalogCategoryMappingsLinks implements ModelInterface, ArrayAccess
     /**
      * Sets reenable
      *
-     * @param \Swagger\Client\Model\LinksReenableChannelCatalogCategoryMappingLink $reenable reenable
+     * @param \EffetB\BeezupApi\Model\LinksReenableChannelCatalogCategoryMappingLink $reenable reenable
      *
      * @return $this
      */

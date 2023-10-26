@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelCatalogExportCacheInfoResponse Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class ChannelCatalogExportCacheInfoResponse implements ModelInterface, ArrayAcce
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'cache_info' => '\Swagger\Client\Model\ChannelCatalogExportCacheInfo',
-        'links' => '\Swagger\Client\Model\ChannelCatalogExportCacheInfoResponseLinks'
+        'cache_info' => '\EffetB\BeezupApi\Model\ChannelCatalogExportCacheInfo',
+        'links' => '\EffetB\BeezupApi\Model\ChannelCatalogExportCacheInfoResponseLinks'
     ];
 
     /**
@@ -226,7 +226,7 @@ class ChannelCatalogExportCacheInfoResponse implements ModelInterface, ArrayAcce
     /**
      * Gets cache_info
      *
-     * @return \Swagger\Client\Model\ChannelCatalogExportCacheInfo
+     * @return \EffetB\BeezupApi\Model\ChannelCatalogExportCacheInfo
      */
     public function getCacheInfo()
     {
@@ -236,7 +236,7 @@ class ChannelCatalogExportCacheInfoResponse implements ModelInterface, ArrayAcce
     /**
      * Sets cache_info
      *
-     * @param \Swagger\Client\Model\ChannelCatalogExportCacheInfo $cache_info cache_info
+     * @param \EffetB\BeezupApi\Model\ChannelCatalogExportCacheInfo $cache_info cache_info
      *
      * @return $this
      */
@@ -250,7 +250,7 @@ class ChannelCatalogExportCacheInfoResponse implements ModelInterface, ArrayAcce
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ChannelCatalogExportCacheInfoResponseLinks
+     * @return \EffetB\BeezupApi\Model\ChannelCatalogExportCacheInfoResponseLinks
      */
     public function getLinks()
     {
@@ -260,7 +260,7 @@ class ChannelCatalogExportCacheInfoResponse implements ModelInterface, ArrayAcce
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ChannelCatalogExportCacheInfoResponseLinks $links links
+     * @param \EffetB\BeezupApi\Model\ChannelCatalogExportCacheInfoResponseLinks $links links
      *
      * @return $this
      */

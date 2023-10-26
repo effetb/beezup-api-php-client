@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * AccountInfo Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,14 +57,14 @@ class AccountInfo implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'user_id' => '\Swagger\Client\Model\BeezUPCommonUserId',
-        'email' => '\Swagger\Client\Model\BeezUPCommonEmail',
-        'personal_info' => '\Swagger\Client\Model\PersonalInfo',
-        'status' => '\Swagger\Client\Model\AccountStatus',
-        'company_info' => '\Swagger\Client\Model\CompanyInfo',
-        'profile_picture_url' => '\Swagger\Client\Model\ProfilePictureUrl',
-        'links' => '\Swagger\Client\Model\AccountInfoLinks',
-        'info' => '\Swagger\Client\Model\BeezUPCommonInfoSummaries'
+        'user_id' => '\EffetB\BeezupApi\Model\BeezUPCommonUserId',
+        'email' => '\EffetB\BeezupApi\Model\BeezUPCommonEmail',
+        'personal_info' => '\EffetB\BeezupApi\Model\PersonalInfo',
+        'status' => '\EffetB\BeezupApi\Model\AccountStatus',
+        'company_info' => '\EffetB\BeezupApi\Model\CompanyInfo',
+        'profile_picture_url' => '\EffetB\BeezupApi\Model\ProfilePictureUrl',
+        'links' => '\EffetB\BeezupApi\Model\AccountInfoLinks',
+        'info' => '\EffetB\BeezupApi\Model\BeezUPCommonInfoSummaries'
     ];
 
     /**
@@ -274,7 +274,7 @@ class AccountInfo implements ModelInterface, ArrayAccess
     /**
      * Gets user_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonUserId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonUserId
      */
     public function getUserId()
     {
@@ -284,7 +284,7 @@ class AccountInfo implements ModelInterface, ArrayAccess
     /**
      * Sets user_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonUserId $user_id user_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonUserId $user_id user_id
      *
      * @return $this
      */
@@ -298,7 +298,7 @@ class AccountInfo implements ModelInterface, ArrayAccess
     /**
      * Gets email
      *
-     * @return \Swagger\Client\Model\BeezUPCommonEmail
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonEmail
      */
     public function getEmail()
     {
@@ -308,7 +308,7 @@ class AccountInfo implements ModelInterface, ArrayAccess
     /**
      * Sets email
      *
-     * @param \Swagger\Client\Model\BeezUPCommonEmail $email email
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonEmail $email email
      *
      * @return $this
      */
@@ -322,7 +322,7 @@ class AccountInfo implements ModelInterface, ArrayAccess
     /**
      * Gets personal_info
      *
-     * @return \Swagger\Client\Model\PersonalInfo
+     * @return \EffetB\BeezupApi\Model\PersonalInfo
      */
     public function getPersonalInfo()
     {
@@ -332,7 +332,7 @@ class AccountInfo implements ModelInterface, ArrayAccess
     /**
      * Sets personal_info
      *
-     * @param \Swagger\Client\Model\PersonalInfo $personal_info personal_info
+     * @param \EffetB\BeezupApi\Model\PersonalInfo $personal_info personal_info
      *
      * @return $this
      */
@@ -346,7 +346,7 @@ class AccountInfo implements ModelInterface, ArrayAccess
     /**
      * Gets status
      *
-     * @return \Swagger\Client\Model\AccountStatus
+     * @return \EffetB\BeezupApi\Model\AccountStatus
      */
     public function getStatus()
     {
@@ -356,7 +356,7 @@ class AccountInfo implements ModelInterface, ArrayAccess
     /**
      * Sets status
      *
-     * @param \Swagger\Client\Model\AccountStatus $status status
+     * @param \EffetB\BeezupApi\Model\AccountStatus $status status
      *
      * @return $this
      */
@@ -370,7 +370,7 @@ class AccountInfo implements ModelInterface, ArrayAccess
     /**
      * Gets company_info
      *
-     * @return \Swagger\Client\Model\CompanyInfo
+     * @return \EffetB\BeezupApi\Model\CompanyInfo
      */
     public function getCompanyInfo()
     {
@@ -380,7 +380,7 @@ class AccountInfo implements ModelInterface, ArrayAccess
     /**
      * Sets company_info
      *
-     * @param \Swagger\Client\Model\CompanyInfo $company_info company_info
+     * @param \EffetB\BeezupApi\Model\CompanyInfo $company_info company_info
      *
      * @return $this
      */
@@ -394,7 +394,7 @@ class AccountInfo implements ModelInterface, ArrayAccess
     /**
      * Gets profile_picture_url
      *
-     * @return \Swagger\Client\Model\ProfilePictureUrl
+     * @return \EffetB\BeezupApi\Model\ProfilePictureUrl
      */
     public function getProfilePictureUrl()
     {
@@ -404,7 +404,7 @@ class AccountInfo implements ModelInterface, ArrayAccess
     /**
      * Sets profile_picture_url
      *
-     * @param \Swagger\Client\Model\ProfilePictureUrl $profile_picture_url profile_picture_url
+     * @param \EffetB\BeezupApi\Model\ProfilePictureUrl $profile_picture_url profile_picture_url
      *
      * @return $this
      */
@@ -418,7 +418,7 @@ class AccountInfo implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\AccountInfoLinks
+     * @return \EffetB\BeezupApi\Model\AccountInfoLinks
      */
     public function getLinks()
     {
@@ -428,7 +428,7 @@ class AccountInfo implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\AccountInfoLinks $links links
+     * @param \EffetB\BeezupApi\Model\AccountInfoLinks $links links
      *
      * @return $this
      */
@@ -442,7 +442,7 @@ class AccountInfo implements ModelInterface, ArrayAccess
     /**
      * Gets info
      *
-     * @return \Swagger\Client\Model\BeezUPCommonInfoSummaries
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonInfoSummaries
      */
     public function getInfo()
     {
@@ -452,7 +452,7 @@ class AccountInfo implements ModelInterface, ArrayAccess
     /**
      * Sets info
      *
-     * @param \Swagger\Client\Model\BeezUPCommonInfoSummaries $info info
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonInfoSummaries $info info
      *
      * @return $this
      */

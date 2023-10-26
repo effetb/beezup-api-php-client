@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ReportByCategoryLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class ReportByCategoryLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'enable_products' => '\Swagger\Client\Model\LinksOptimiseByCategoryLink',
-        'disable_products' => '\Swagger\Client\Model\LinksOptimiseByCategoryLink'
+        'enable_products' => '\EffetB\BeezupApi\Model\LinksOptimiseByCategoryLink',
+        'disable_products' => '\EffetB\BeezupApi\Model\LinksOptimiseByCategoryLink'
     ];
 
     /**
@@ -214,7 +214,7 @@ class ReportByCategoryLinks implements ModelInterface, ArrayAccess
     /**
      * Gets enable_products
      *
-     * @return \Swagger\Client\Model\LinksOptimiseByCategoryLink
+     * @return \EffetB\BeezupApi\Model\LinksOptimiseByCategoryLink
      */
     public function getEnableProducts()
     {
@@ -224,7 +224,7 @@ class ReportByCategoryLinks implements ModelInterface, ArrayAccess
     /**
      * Sets enable_products
      *
-     * @param \Swagger\Client\Model\LinksOptimiseByCategoryLink $enable_products enable_products
+     * @param \EffetB\BeezupApi\Model\LinksOptimiseByCategoryLink $enable_products enable_products
      *
      * @return $this
      */
@@ -238,7 +238,7 @@ class ReportByCategoryLinks implements ModelInterface, ArrayAccess
     /**
      * Gets disable_products
      *
-     * @return \Swagger\Client\Model\LinksOptimiseByCategoryLink
+     * @return \EffetB\BeezupApi\Model\LinksOptimiseByCategoryLink
      */
     public function getDisableProducts()
     {
@@ -248,7 +248,7 @@ class ReportByCategoryLinks implements ModelInterface, ArrayAccess
     /**
      * Sets disable_products
      *
-     * @param \Swagger\Client\Model\LinksOptimiseByCategoryLink $disable_products disable_products
+     * @param \EffetB\BeezupApi\Model\LinksOptimiseByCategoryLink $disable_products disable_products
      *
      * @return $this
      */

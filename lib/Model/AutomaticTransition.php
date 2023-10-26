@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * AutomaticTransition Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class AutomaticTransition implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'marketplace_technical_code' => '\Swagger\Client\Model\BeezUPCommonMarketplaceTechnicalCode',
-        'account_id' => '\Swagger\Client\Model\AccountId',
+        'marketplace_technical_code' => '\EffetB\BeezupApi\Model\BeezUPCommonMarketplaceTechnicalCode',
+        'account_id' => '\EffetB\BeezupApi\Model\AccountId',
         'order_status_transition_id' => 'int',
         'enabled' => 'bool'
     ];
@@ -250,7 +250,7 @@ class AutomaticTransition implements ModelInterface, ArrayAccess
     /**
      * Gets marketplace_technical_code
      *
-     * @return \Swagger\Client\Model\BeezUPCommonMarketplaceTechnicalCode
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonMarketplaceTechnicalCode
      */
     public function getMarketplaceTechnicalCode()
     {
@@ -260,7 +260,7 @@ class AutomaticTransition implements ModelInterface, ArrayAccess
     /**
      * Sets marketplace_technical_code
      *
-     * @param \Swagger\Client\Model\BeezUPCommonMarketplaceTechnicalCode $marketplace_technical_code marketplace_technical_code
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonMarketplaceTechnicalCode $marketplace_technical_code marketplace_technical_code
      *
      * @return $this
      */
@@ -274,7 +274,7 @@ class AutomaticTransition implements ModelInterface, ArrayAccess
     /**
      * Gets account_id
      *
-     * @return \Swagger\Client\Model\AccountId
+     * @return \EffetB\BeezupApi\Model\AccountId
      */
     public function getAccountId()
     {
@@ -284,7 +284,7 @@ class AutomaticTransition implements ModelInterface, ArrayAccess
     /**
      * Sets account_id
      *
-     * @param \Swagger\Client\Model\AccountId $account_id account_id
+     * @param \EffetB\BeezupApi\Model\AccountId $account_id account_id
      *
      * @return $this
      */

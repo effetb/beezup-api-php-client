@@ -1,4 +1,4 @@
-# Swagger\Client\CustomerAlertsApi
+# EffetB\BeezupApi\CustomerAlertsApi
 
 All URIs are relative to *https://api.beezup.com/v2*
 
@@ -9,7 +9,7 @@ Method | HTTP request | Description
 
 
 # **getStoreAlerts**
-> \Swagger\Client\Model\StoreAlerts getStoreAlerts($store_id, $if_none_match)
+> \EffetB\BeezupApi\Model\StoreAlerts getStoreAlerts($store_id, $if_none_match)
 
 Get store's alerts
 
@@ -19,11 +19,11 @@ Get store's alerts
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CustomerAlertsApi(
+$apiInstance = new EffetB\BeezupApi\Api\CustomerAlertsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\StoreAlerts**](../Model/StoreAlerts.md)
+[**\EffetB\BeezupApi\Model\StoreAlerts**](../Model/StoreAlerts.md)
 
 ### Authorization
 
@@ -76,18 +76,18 @@ You just have to send the alert you want to update, does not need all alerts. (P
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CustomerAlertsApi(
+$apiInstance = new EffetB\BeezupApi\Api\CustomerAlertsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $store_id = "store_id_example"; // string | Your store identifier
-$request = new \Swagger\Client\Model\SaveStoreAlertsRequest(); // \Swagger\Client\Model\SaveStoreAlertsRequest | 
+$request = new \EffetB\BeezupApi\Model\SaveStoreAlertsRequest(); // \EffetB\BeezupApi\Model\SaveStoreAlertsRequest | 
 
 try {
     $apiInstance->saveStoreAlerts($store_id, $request);
@@ -102,7 +102,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **store_id** | **string**| Your store identifier |
- **request** | [**\Swagger\Client\Model\SaveStoreAlertsRequest**](../Model/SaveStoreAlertsRequest.md)|  |
+ **request** | [**\EffetB\BeezupApi\Model\SaveStoreAlertsRequest**](../Model/SaveStoreAlertsRequest.md)|  |
 
 ### Return type
 

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * BeezUPCommonChannelBasicInfo Class Doc Comment
  *
  * @category Class
  * @description The basic info related to a channel
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,9 +58,9 @@ class BeezUPCommonChannelBasicInfo implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'channel_id' => '\Swagger\Client\Model\BeezUPCommonChannelId',
-        'channel_name' => '\Swagger\Client\Model\BeezUPCommonChannelName',
-        'channel_image_url' => '\Swagger\Client\Model\BeezUPCommonHttpUrl'
+        'channel_id' => '\EffetB\BeezupApi\Model\BeezUPCommonChannelId',
+        'channel_name' => '\EffetB\BeezupApi\Model\BeezUPCommonChannelName',
+        'channel_image_url' => '\EffetB\BeezupApi\Model\BeezUPCommonHttpUrl'
     ];
 
     /**
@@ -239,7 +239,7 @@ class BeezUPCommonChannelBasicInfo implements ModelInterface, ArrayAccess
     /**
      * Gets channel_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonChannelId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonChannelId
      */
     public function getChannelId()
     {
@@ -249,7 +249,7 @@ class BeezUPCommonChannelBasicInfo implements ModelInterface, ArrayAccess
     /**
      * Sets channel_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonChannelId $channel_id channel_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonChannelId $channel_id channel_id
      *
      * @return $this
      */
@@ -263,7 +263,7 @@ class BeezUPCommonChannelBasicInfo implements ModelInterface, ArrayAccess
     /**
      * Gets channel_name
      *
-     * @return \Swagger\Client\Model\BeezUPCommonChannelName
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonChannelName
      */
     public function getChannelName()
     {
@@ -273,7 +273,7 @@ class BeezUPCommonChannelBasicInfo implements ModelInterface, ArrayAccess
     /**
      * Sets channel_name
      *
-     * @param \Swagger\Client\Model\BeezUPCommonChannelName $channel_name channel_name
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonChannelName $channel_name channel_name
      *
      * @return $this
      */
@@ -287,7 +287,7 @@ class BeezUPCommonChannelBasicInfo implements ModelInterface, ArrayAccess
     /**
      * Gets channel_image_url
      *
-     * @return \Swagger\Client\Model\BeezUPCommonHttpUrl
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonHttpUrl
      */
     public function getChannelImageUrl()
     {
@@ -297,7 +297,7 @@ class BeezUPCommonChannelBasicInfo implements ModelInterface, ArrayAccess
     /**
      * Sets channel_image_url
      *
-     * @param \Swagger\Client\Model\BeezUPCommonHttpUrl $channel_image_url channel_image_url
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonHttpUrl $channel_image_url channel_image_url
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ImportationCustomColumnList Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class ImportationCustomColumnList implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\CustomColumnListLinks',
-        'custom_columns' => '\Swagger\Client\Model\ImportationCustomColumn[]'
+        'links' => '\EffetB\BeezupApi\Model\CustomColumnListLinks',
+        'custom_columns' => '\EffetB\BeezupApi\Model\ImportationCustomColumn[]'
     ];
 
     /**
@@ -226,7 +226,7 @@ class ImportationCustomColumnList implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\CustomColumnListLinks
+     * @return \EffetB\BeezupApi\Model\CustomColumnListLinks
      */
     public function getLinks()
     {
@@ -236,7 +236,7 @@ class ImportationCustomColumnList implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\CustomColumnListLinks $links links
+     * @param \EffetB\BeezupApi\Model\CustomColumnListLinks $links links
      *
      * @return $this
      */
@@ -250,7 +250,7 @@ class ImportationCustomColumnList implements ModelInterface, ArrayAccess
     /**
      * Gets custom_columns
      *
-     * @return \Swagger\Client\Model\ImportationCustomColumn[]
+     * @return \EffetB\BeezupApi\Model\ImportationCustomColumn[]
      */
     public function getCustomColumns()
     {
@@ -260,7 +260,7 @@ class ImportationCustomColumnList implements ModelInterface, ArrayAccess
     /**
      * Sets custom_columns
      *
-     * @param \Swagger\Client\Model\ImportationCustomColumn[] $custom_columns custom_columns
+     * @param \EffetB\BeezupApi\Model\ImportationCustomColumn[] $custom_columns custom_columns
      *
      * @return $this
      */

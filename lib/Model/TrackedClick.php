@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * TrackedClick Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,9 +58,9 @@ class TrackedClick implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'utc_date' => '\DateTime',
-        'product' => '\Swagger\Client\Model\BeezUPCommonProductBasicInfo',
+        'product' => '\EffetB\BeezupApi\Model\BeezUPCommonProductBasicInfo',
         'ip_address' => 'string',
-        'channel' => '\Swagger\Client\Model\BeezUPCommonChannelBasicInfo'
+        'channel' => '\EffetB\BeezupApi\Model\BeezUPCommonChannelBasicInfo'
     ];
 
     /**
@@ -274,7 +274,7 @@ class TrackedClick implements ModelInterface, ArrayAccess
     /**
      * Gets product
      *
-     * @return \Swagger\Client\Model\BeezUPCommonProductBasicInfo
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonProductBasicInfo
      */
     public function getProduct()
     {
@@ -284,7 +284,7 @@ class TrackedClick implements ModelInterface, ArrayAccess
     /**
      * Sets product
      *
-     * @param \Swagger\Client\Model\BeezUPCommonProductBasicInfo $product product
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonProductBasicInfo $product product
      *
      * @return $this
      */
@@ -322,7 +322,7 @@ class TrackedClick implements ModelInterface, ArrayAccess
     /**
      * Gets channel
      *
-     * @return \Swagger\Client\Model\BeezUPCommonChannelBasicInfo
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonChannelBasicInfo
      */
     public function getChannel()
     {
@@ -332,7 +332,7 @@ class TrackedClick implements ModelInterface, ArrayAccess
     /**
      * Sets channel
      *
-     * @param \Swagger\Client\Model\BeezUPCommonChannelBasicInfo $channel channel
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonChannelBasicInfo $channel channel
      *
      * @return $this
      */

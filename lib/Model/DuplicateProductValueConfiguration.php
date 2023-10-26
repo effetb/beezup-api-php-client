@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * DuplicateProductValueConfiguration Class Doc Comment
  *
  * @category Class
  * @description Describe how you want to manage the duplication of the product value
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,8 +58,8 @@ class DuplicateProductValueConfiguration implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'strategy' => '\Swagger\Client\Model\DuplicateProductValueStrategy',
-        'compare_options' => '\Swagger\Client\Model\CompareOptions'
+        'strategy' => '\EffetB\BeezupApi\Model\DuplicateProductValueStrategy',
+        'compare_options' => '\EffetB\BeezupApi\Model\CompareOptions'
     ];
 
     /**
@@ -227,7 +227,7 @@ class DuplicateProductValueConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets strategy
      *
-     * @return \Swagger\Client\Model\DuplicateProductValueStrategy
+     * @return \EffetB\BeezupApi\Model\DuplicateProductValueStrategy
      */
     public function getStrategy()
     {
@@ -237,7 +237,7 @@ class DuplicateProductValueConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets strategy
      *
-     * @param \Swagger\Client\Model\DuplicateProductValueStrategy $strategy strategy
+     * @param \EffetB\BeezupApi\Model\DuplicateProductValueStrategy $strategy strategy
      *
      * @return $this
      */
@@ -251,7 +251,7 @@ class DuplicateProductValueConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets compare_options
      *
-     * @return \Swagger\Client\Model\CompareOptions
+     * @return \EffetB\BeezupApi\Model\CompareOptions
      */
     public function getCompareOptions()
     {
@@ -261,7 +261,7 @@ class DuplicateProductValueConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets compare_options
      *
-     * @param \Swagger\Client\Model\CompareOptions $compare_options compare_options
+     * @param \EffetB\BeezupApi\Model\CompareOptions $compare_options compare_options
      *
      * @return $this
      */

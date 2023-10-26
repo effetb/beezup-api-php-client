@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ProfilePictureInfoResponseLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class ProfilePictureInfoResponseLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksGetProfilePictureInfoLink',
-        'save' => '\Swagger\Client\Model\LinksSaveProfilePictureInfoLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksGetProfilePictureInfoLink',
+        'save' => '\EffetB\BeezupApi\Model\LinksSaveProfilePictureInfoLink'
     ];
 
     /**
@@ -226,7 +226,7 @@ class ProfilePictureInfoResponseLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksGetProfilePictureInfoLink
+     * @return \EffetB\BeezupApi\Model\LinksGetProfilePictureInfoLink
      */
     public function getSelf()
     {
@@ -236,7 +236,7 @@ class ProfilePictureInfoResponseLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksGetProfilePictureInfoLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksGetProfilePictureInfoLink $self self
      *
      * @return $this
      */
@@ -250,7 +250,7 @@ class ProfilePictureInfoResponseLinks implements ModelInterface, ArrayAccess
     /**
      * Gets save
      *
-     * @return \Swagger\Client\Model\LinksSaveProfilePictureInfoLink
+     * @return \EffetB\BeezupApi\Model\LinksSaveProfilePictureInfoLink
      */
     public function getSave()
     {
@@ -260,7 +260,7 @@ class ProfilePictureInfoResponseLinks implements ModelInterface, ArrayAccess
     /**
      * Sets save
      *
-     * @param \Swagger\Client\Model\LinksSaveProfilePictureInfoLink $save save
+     * @param \EffetB\BeezupApi\Model\LinksSaveProfilePictureInfoLink $save save
      *
      * @return $this
      */

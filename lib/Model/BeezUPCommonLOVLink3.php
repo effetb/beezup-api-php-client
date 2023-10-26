@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * BeezUPCommonLOVLink3 Class Doc Comment
  *
  * @category Class
  * @description Describe the way you have to follow to get access to the LOV
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,7 +59,7 @@ class BeezUPCommonLOVLink3 implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'href' => 'string',
-        'method' => '\Swagger\Client\Model\BeezUPCommonHttpMethod'
+        'method' => '\EffetB\BeezupApi\Model\BeezUPCommonHttpMethod'
     ];
 
     /**
@@ -245,7 +245,7 @@ class BeezUPCommonLOVLink3 implements ModelInterface, ArrayAccess
     /**
      * Gets method
      *
-     * @return \Swagger\Client\Model\BeezUPCommonHttpMethod
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonHttpMethod
      */
     public function getMethod()
     {
@@ -255,7 +255,7 @@ class BeezUPCommonLOVLink3 implements ModelInterface, ArrayAccess
     /**
      * Sets method
      *
-     * @param \Swagger\Client\Model\BeezUPCommonHttpMethod $method method
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonHttpMethod $method method
      *
      * @return $this
      */

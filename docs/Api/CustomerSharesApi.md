@@ -1,4 +1,4 @@
-# Swagger\Client\CustomerSharesApi
+# EffetB\BeezupApi\CustomerSharesApi
 
 All URIs are relative to *https://api.beezup.com/v2*
 
@@ -20,11 +20,11 @@ Delete a share of a store to another user
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CustomerSharesApi(
+$apiInstance = new EffetB\BeezupApi\Api\CustomerSharesApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -64,7 +64,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getStoreShares**
-> \Swagger\Client\Model\StoreShares getStoreShares($store_id, $if_none_match)
+> \EffetB\BeezupApi\Model\StoreShares getStoreShares($store_id, $if_none_match)
 
 Get shares related to this store
 
@@ -74,11 +74,11 @@ Get shares related to this store
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CustomerSharesApi(
+$apiInstance = new EffetB\BeezupApi\Api\CustomerSharesApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -105,7 +105,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\StoreShares**](../Model/StoreShares.md)
+[**\EffetB\BeezupApi\Model\StoreShares**](../Model/StoreShares.md)
 
 ### Authorization
 
@@ -129,18 +129,18 @@ Share a store to another user
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CustomerSharesApi(
+$apiInstance = new EffetB\BeezupApi\Api\CustomerSharesApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $store_id = "store_id_example"; // string | Your store identifier
-$email = new \Swagger\Client\Model\FriendEmail(); // \Swagger\Client\Model\FriendEmail | Your friend's email
+$email = new \EffetB\BeezupApi\Model\FriendEmail(); // \EffetB\BeezupApi\Model\FriendEmail | Your friend's email
 
 try {
     $apiInstance->shareStore($store_id, $email);
@@ -155,7 +155,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **store_id** | **string**| Your store identifier |
- **email** | [**\Swagger\Client\Model\FriendEmail**](../Model/FriendEmail.md)| Your friend&#39;s email |
+ **email** | [**\EffetB\BeezupApi\Model\FriendEmail**](../Model/FriendEmail.md)| Your friend&#39;s email |
 
 ### Return type
 

@@ -1,4 +1,4 @@
-# Swagger\Client\PublicSecuritySecurityApi
+# EffetB\BeezupApi\PublicSecuritySecurityApi
 
 All URIs are relative to *https://api.beezup.com/v2*
 
@@ -10,7 +10,7 @@ Method | HTTP request | Description
 
 
 # **login**
-> \Swagger\Client\Model\ApiCredentials login($request)
+> \EffetB\BeezupApi\Model\ApiCredentials login($request)
 
 Login
 
@@ -21,12 +21,12 @@ User Login - The login will give your tokens
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\PublicSecuritySecurityApi(
+$apiInstance = new EffetB\BeezupApi\Api\PublicSecuritySecurityApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$request = new \Swagger\Client\Model\LoginRequest(); // \Swagger\Client\Model\LoginRequest | 
+$request = new \EffetB\BeezupApi\Model\LoginRequest(); // \EffetB\BeezupApi\Model\LoginRequest | 
 
 try {
     $result = $apiInstance->login($request);
@@ -41,11 +41,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **request** | [**\Swagger\Client\Model\LoginRequest**](../Model/LoginRequest.md)|  |
+ **request** | [**\EffetB\BeezupApi\Model\LoginRequest**](../Model/LoginRequest.md)|  |
 
 ### Return type
 
-[**\Swagger\Client\Model\ApiCredentials**](../Model/ApiCredentials.md)
+[**\EffetB\BeezupApi\Model\ApiCredentials**](../Model/ApiCredentials.md)
 
 ### Authorization
 
@@ -70,12 +70,12 @@ Lost password - Your password will be regenerated and sent to your email
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\PublicSecuritySecurityApi(
+$apiInstance = new EffetB\BeezupApi\Api\PublicSecuritySecurityApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$email = new \Swagger\Client\Model\BeezUPCommonEmail(); // \Swagger\Client\Model\BeezUPCommonEmail | Your email
+$email = new \EffetB\BeezupApi\Model\BeezUPCommonEmail(); // \EffetB\BeezupApi\Model\BeezUPCommonEmail | Your email
 
 try {
     $apiInstance->lostPassword($email);
@@ -89,7 +89,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **email** | [**\Swagger\Client\Model\BeezUPCommonEmail**](../Model/BeezUPCommonEmail.md)| Your email |
+ **email** | [**\EffetB\BeezupApi\Model\BeezUPCommonEmail**](../Model/BeezUPCommonEmail.md)| Your email |
 
 ### Return type
 
@@ -118,12 +118,12 @@ User Registration - Create a new user on BeezUP
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\PublicSecuritySecurityApi(
+$apiInstance = new EffetB\BeezupApi\Api\PublicSecuritySecurityApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$request = new \Swagger\Client\Model\RegisterRequest(); // \Swagger\Client\Model\RegisterRequest | 
+$request = new \EffetB\BeezupApi\Model\RegisterRequest(); // \EffetB\BeezupApi\Model\RegisterRequest | 
 
 try {
     $apiInstance->register($request);
@@ -137,7 +137,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **request** | [**\Swagger\Client\Model\RegisterRequest**](../Model/RegisterRequest.md)|  |
+ **request** | [**\EffetB\BeezupApi\Model\RegisterRequest**](../Model/RegisterRequest.md)|  |
 
 ### Return type
 

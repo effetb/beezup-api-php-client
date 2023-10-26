@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * OrderExportationReporting Class Doc Comment
  *
  * @category Class
  * @description Represent the reporting of the Order report exportations
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -71,11 +71,11 @@ class OrderExportationReporting implements ModelInterface, ArrayAccess
         'json_criteria' => 'string',
         'last_update_utc_date' => '\DateTime',
         'order_count' => 'int',
-        'processing_status' => '\Swagger\Client\Model\OrderExportationReportingProcessingStatus',
+        'processing_status' => '\EffetB\BeezupApi\Model\OrderExportationReportingProcessingStatus',
         'remaining_order_count' => 'int',
         'resumed_utc_date' => '\DateTime',
-        'source_type' => '\Swagger\Client\Model\SourceType',
-        'source_user_id' => '\Swagger\Client\Model\BeezUPCommonUserId',
+        'source_type' => '\EffetB\BeezupApi\Model\SourceType',
+        'source_user_id' => '\EffetB\BeezupApi\Model\BeezUPCommonUserId',
         'source_user_name' => 'string',
         'suspended_utc_date' => '\DateTime',
         'timeout_duration' => 'string',
@@ -683,7 +683,7 @@ class OrderExportationReporting implements ModelInterface, ArrayAccess
     /**
      * Gets processing_status
      *
-     * @return \Swagger\Client\Model\OrderExportationReportingProcessingStatus
+     * @return \EffetB\BeezupApi\Model\OrderExportationReportingProcessingStatus
      */
     public function getProcessingStatus()
     {
@@ -693,7 +693,7 @@ class OrderExportationReporting implements ModelInterface, ArrayAccess
     /**
      * Sets processing_status
      *
-     * @param \Swagger\Client\Model\OrderExportationReportingProcessingStatus $processing_status processing_status
+     * @param \EffetB\BeezupApi\Model\OrderExportationReportingProcessingStatus $processing_status processing_status
      *
      * @return $this
      */
@@ -755,7 +755,7 @@ class OrderExportationReporting implements ModelInterface, ArrayAccess
     /**
      * Gets source_type
      *
-     * @return \Swagger\Client\Model\SourceType
+     * @return \EffetB\BeezupApi\Model\SourceType
      */
     public function getSourceType()
     {
@@ -765,7 +765,7 @@ class OrderExportationReporting implements ModelInterface, ArrayAccess
     /**
      * Sets source_type
      *
-     * @param \Swagger\Client\Model\SourceType $source_type source_type
+     * @param \EffetB\BeezupApi\Model\SourceType $source_type source_type
      *
      * @return $this
      */
@@ -779,7 +779,7 @@ class OrderExportationReporting implements ModelInterface, ArrayAccess
     /**
      * Gets source_user_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonUserId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonUserId
      */
     public function getSourceUserId()
     {
@@ -789,7 +789,7 @@ class OrderExportationReporting implements ModelInterface, ArrayAccess
     /**
      * Sets source_user_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonUserId $source_user_id source_user_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonUserId $source_user_id source_user_id
      *
      * @return $this
      */

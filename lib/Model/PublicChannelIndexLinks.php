@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * PublicChannelIndexLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,10 +57,10 @@ class PublicChannelIndexLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksGetChannelsIndexLink',
-        'channel_country_lov' => '\Swagger\Client\Model\LinksGetPublicListOfValuesLink',
-        'channel_type_lov' => '\Swagger\Client\Model\LinksGetPublicListOfValuesLink',
-        'sector_lov' => '\Swagger\Client\Model\LinksGetPublicListOfValuesLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksGetChannelsIndexLink',
+        'channel_country_lov' => '\EffetB\BeezupApi\Model\LinksGetPublicListOfValuesLink',
+        'channel_type_lov' => '\EffetB\BeezupApi\Model\LinksGetPublicListOfValuesLink',
+        'sector_lov' => '\EffetB\BeezupApi\Model\LinksGetPublicListOfValuesLink'
     ];
 
     /**
@@ -226,7 +226,7 @@ class PublicChannelIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksGetChannelsIndexLink
+     * @return \EffetB\BeezupApi\Model\LinksGetChannelsIndexLink
      */
     public function getSelf()
     {
@@ -236,7 +236,7 @@ class PublicChannelIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksGetChannelsIndexLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksGetChannelsIndexLink $self self
      *
      * @return $this
      */
@@ -250,7 +250,7 @@ class PublicChannelIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets channel_country_lov
      *
-     * @return \Swagger\Client\Model\LinksGetPublicListOfValuesLink
+     * @return \EffetB\BeezupApi\Model\LinksGetPublicListOfValuesLink
      */
     public function getChannelCountryLov()
     {
@@ -260,7 +260,7 @@ class PublicChannelIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets channel_country_lov
      *
-     * @param \Swagger\Client\Model\LinksGetPublicListOfValuesLink $channel_country_lov channel_country_lov
+     * @param \EffetB\BeezupApi\Model\LinksGetPublicListOfValuesLink $channel_country_lov channel_country_lov
      *
      * @return $this
      */
@@ -274,7 +274,7 @@ class PublicChannelIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets channel_type_lov
      *
-     * @return \Swagger\Client\Model\LinksGetPublicListOfValuesLink
+     * @return \EffetB\BeezupApi\Model\LinksGetPublicListOfValuesLink
      */
     public function getChannelTypeLov()
     {
@@ -284,7 +284,7 @@ class PublicChannelIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets channel_type_lov
      *
-     * @param \Swagger\Client\Model\LinksGetPublicListOfValuesLink $channel_type_lov channel_type_lov
+     * @param \EffetB\BeezupApi\Model\LinksGetPublicListOfValuesLink $channel_type_lov channel_type_lov
      *
      * @return $this
      */
@@ -298,7 +298,7 @@ class PublicChannelIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets sector_lov
      *
-     * @return \Swagger\Client\Model\LinksGetPublicListOfValuesLink
+     * @return \EffetB\BeezupApi\Model\LinksGetPublicListOfValuesLink
      */
     public function getSectorLov()
     {
@@ -308,7 +308,7 @@ class PublicChannelIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets sector_lov
      *
-     * @param \Swagger\Client\Model\LinksGetPublicListOfValuesLink $sector_lov sector_lov
+     * @param \EffetB\BeezupApi\Model\LinksGetPublicListOfValuesLink $sector_lov sector_lov
      *
      * @return $this
      */

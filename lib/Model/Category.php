@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * Category Class Doc Comment
  *
  * @category Class
  * @description The catalog category
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,7 +58,7 @@ class Category implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'category_path' => '\Swagger\Client\Model\BeezUPCommonCatalogCategoryPath',
+        'category_path' => '\EffetB\BeezupApi\Model\BeezUPCommonCatalogCategoryPath',
         'total_product_count' => 'int',
         'self_product_count' => 'int'
     ];
@@ -239,7 +239,7 @@ class Category implements ModelInterface, ArrayAccess
     /**
      * Gets category_path
      *
-     * @return \Swagger\Client\Model\BeezUPCommonCatalogCategoryPath
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonCatalogCategoryPath
      */
     public function getCategoryPath()
     {
@@ -249,7 +249,7 @@ class Category implements ModelInterface, ArrayAccess
     /**
      * Sets category_path
      *
-     * @param \Swagger\Client\Model\BeezUPCommonCatalogCategoryPath $category_path category_path
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonCatalogCategoryPath $category_path category_path
      *
      * @return $this
      */

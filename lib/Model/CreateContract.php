@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CreateContract Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,11 +57,11 @@ class CreateContract implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'offer_id' => '\Swagger\Client\Model\OfferId',
-        'store_count' => '\Swagger\Client\Model\StoreCount',
-        'coupon_discount_code' => '\Swagger\Client\Model\CouponDiscountCode',
-        'coupon_offer_code' => '\Swagger\Client\Model\CouponOfferCode',
-        'billing_period_in_month' => '\Swagger\Client\Model\BillingPeriodInMonth'
+        'offer_id' => '\EffetB\BeezupApi\Model\OfferId',
+        'store_count' => '\EffetB\BeezupApi\Model\StoreCount',
+        'coupon_discount_code' => '\EffetB\BeezupApi\Model\CouponDiscountCode',
+        'coupon_offer_code' => '\EffetB\BeezupApi\Model\CouponOfferCode',
+        'billing_period_in_month' => '\EffetB\BeezupApi\Model\BillingPeriodInMonth'
     ];
 
     /**
@@ -250,7 +250,7 @@ class CreateContract implements ModelInterface, ArrayAccess
     /**
      * Gets offer_id
      *
-     * @return \Swagger\Client\Model\OfferId
+     * @return \EffetB\BeezupApi\Model\OfferId
      */
     public function getOfferId()
     {
@@ -260,7 +260,7 @@ class CreateContract implements ModelInterface, ArrayAccess
     /**
      * Sets offer_id
      *
-     * @param \Swagger\Client\Model\OfferId $offer_id offer_id
+     * @param \EffetB\BeezupApi\Model\OfferId $offer_id offer_id
      *
      * @return $this
      */
@@ -274,7 +274,7 @@ class CreateContract implements ModelInterface, ArrayAccess
     /**
      * Gets store_count
      *
-     * @return \Swagger\Client\Model\StoreCount
+     * @return \EffetB\BeezupApi\Model\StoreCount
      */
     public function getStoreCount()
     {
@@ -284,7 +284,7 @@ class CreateContract implements ModelInterface, ArrayAccess
     /**
      * Sets store_count
      *
-     * @param \Swagger\Client\Model\StoreCount $store_count store_count
+     * @param \EffetB\BeezupApi\Model\StoreCount $store_count store_count
      *
      * @return $this
      */
@@ -298,7 +298,7 @@ class CreateContract implements ModelInterface, ArrayAccess
     /**
      * Gets coupon_discount_code
      *
-     * @return \Swagger\Client\Model\CouponDiscountCode
+     * @return \EffetB\BeezupApi\Model\CouponDiscountCode
      */
     public function getCouponDiscountCode()
     {
@@ -308,7 +308,7 @@ class CreateContract implements ModelInterface, ArrayAccess
     /**
      * Sets coupon_discount_code
      *
-     * @param \Swagger\Client\Model\CouponDiscountCode $coupon_discount_code coupon_discount_code
+     * @param \EffetB\BeezupApi\Model\CouponDiscountCode $coupon_discount_code coupon_discount_code
      *
      * @return $this
      */
@@ -322,7 +322,7 @@ class CreateContract implements ModelInterface, ArrayAccess
     /**
      * Gets coupon_offer_code
      *
-     * @return \Swagger\Client\Model\CouponOfferCode
+     * @return \EffetB\BeezupApi\Model\CouponOfferCode
      */
     public function getCouponOfferCode()
     {
@@ -332,7 +332,7 @@ class CreateContract implements ModelInterface, ArrayAccess
     /**
      * Sets coupon_offer_code
      *
-     * @param \Swagger\Client\Model\CouponOfferCode $coupon_offer_code coupon_offer_code
+     * @param \EffetB\BeezupApi\Model\CouponOfferCode $coupon_offer_code coupon_offer_code
      *
      * @return $this
      */
@@ -346,7 +346,7 @@ class CreateContract implements ModelInterface, ArrayAccess
     /**
      * Gets billing_period_in_month
      *
-     * @return \Swagger\Client\Model\BillingPeriodInMonth
+     * @return \EffetB\BeezupApi\Model\BillingPeriodInMonth
      */
     public function getBillingPeriodInMonth()
     {
@@ -356,7 +356,7 @@ class CreateContract implements ModelInterface, ArrayAccess
     /**
      * Sets billing_period_in_month
      *
-     * @param \Swagger\Client\Model\BillingPeriodInMonth $billing_period_in_month billing_period_in_month
+     * @param \EffetB\BeezupApi\Model\BillingPeriodInMonth $billing_period_in_month billing_period_in_month
      *
      * @return $this
      */

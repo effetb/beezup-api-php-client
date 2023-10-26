@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * PublicChannelIndex Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class PublicChannelIndex implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'channels' => 'map[string,\Swagger\Client\Model\LinksGetChannelsLink]',
-        'links' => '\Swagger\Client\Model\PublicChannelIndexLinks'
+        'channels' => 'map[string,\EffetB\BeezupApi\Model\LinksGetChannelsLink]',
+        'links' => '\EffetB\BeezupApi\Model\PublicChannelIndexLinks'
     ];
 
     /**
@@ -214,7 +214,7 @@ class PublicChannelIndex implements ModelInterface, ArrayAccess
     /**
      * Gets channels
      *
-     * @return map[string,\Swagger\Client\Model\LinksGetChannelsLink]
+     * @return map[string,\EffetB\BeezupApi\Model\LinksGetChannelsLink]
      */
     public function getChannels()
     {
@@ -224,7 +224,7 @@ class PublicChannelIndex implements ModelInterface, ArrayAccess
     /**
      * Sets channels
      *
-     * @param map[string,\Swagger\Client\Model\LinksGetChannelsLink] $channels The key is the country iso code
+     * @param map[string,\EffetB\BeezupApi\Model\LinksGetChannelsLink] $channels The key is the country iso code
      *
      * @return $this
      */
@@ -238,7 +238,7 @@ class PublicChannelIndex implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\PublicChannelIndexLinks
+     * @return \EffetB\BeezupApi\Model\PublicChannelIndexLinks
      */
     public function getLinks()
     {
@@ -248,7 +248,7 @@ class PublicChannelIndex implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\PublicChannelIndexLinks $links links
+     * @param \EffetB\BeezupApi\Model\PublicChannelIndexLinks $links links
      *
      * @return $this
      */

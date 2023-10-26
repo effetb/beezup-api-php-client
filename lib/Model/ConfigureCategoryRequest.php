@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ConfigureCategoryRequest Class Doc Comment
  *
  * @category Class
  * @description The request message to make a mapping between catalog category path and a channel category path
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,7 +59,7 @@ class ConfigureCategoryRequest implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'override_sub_category_mappings' => 'bool',
-        'channel_catalog_categories' => '\Swagger\Client\Model\ChannelCatalogCategoryConfiguration[]'
+        'channel_catalog_categories' => '\EffetB\BeezupApi\Model\ChannelCatalogCategoryConfiguration[]'
     ];
 
     /**
@@ -251,7 +251,7 @@ class ConfigureCategoryRequest implements ModelInterface, ArrayAccess
     /**
      * Gets channel_catalog_categories
      *
-     * @return \Swagger\Client\Model\ChannelCatalogCategoryConfiguration[]
+     * @return \EffetB\BeezupApi\Model\ChannelCatalogCategoryConfiguration[]
      */
     public function getChannelCatalogCategories()
     {
@@ -261,7 +261,7 @@ class ConfigureCategoryRequest implements ModelInterface, ArrayAccess
     /**
      * Sets channel_catalog_categories
      *
-     * @param \Swagger\Client\Model\ChannelCatalogCategoryConfiguration[] $channel_catalog_categories channel_catalog_categories
+     * @param \EffetB\BeezupApi\Model\ChannelCatalogCategoryConfiguration[] $channel_catalog_categories channel_catalog_categories
      *
      * @return $this
      */

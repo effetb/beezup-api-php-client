@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * MapBeezUPColumnRequest Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class MapBeezUPColumnRequest implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'beez_up_column_name' => '\Swagger\Client\Model\BeezUPCommonBeezUPColumnName'
+        'beez_up_column_name' => '\EffetB\BeezupApi\Model\BeezUPCommonBeezUPColumnName'
     ];
 
     /**
@@ -214,7 +214,7 @@ class MapBeezUPColumnRequest implements ModelInterface, ArrayAccess
     /**
      * Gets beez_up_column_name
      *
-     * @return \Swagger\Client\Model\BeezUPCommonBeezUPColumnName
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonBeezUPColumnName
      */
     public function getBeezUpColumnName()
     {
@@ -224,7 +224,7 @@ class MapBeezUPColumnRequest implements ModelInterface, ArrayAccess
     /**
      * Sets beez_up_column_name
      *
-     * @param \Swagger\Client\Model\BeezUPCommonBeezUPColumnName $beez_up_column_name beez_up_column_name
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonBeezUPColumnName $beez_up_column_name beez_up_column_name
      *
      * @return $this
      */

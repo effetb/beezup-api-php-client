@@ -3,8 +3,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**self** | [**\Swagger\Client\Model\LinksGetContractsLink**](LinksGetContractsLink.md) |  | [optional] 
-**create** | [**\Swagger\Client\Model\LinksCreateContractLink**](LinksCreateContractLink.md) |  | [optional] 
+**self** | [**\EffetB\BeezupApi\Model\LinksGetContractsLink**](LinksGetContractsLink.md) |  | [optional] 
+**create** | [**\EffetB\BeezupApi\Model\LinksCreateContractLink**](LinksCreateContractLink.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CatalogStoreIndex Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class CatalogStoreIndex implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\CatalogStoreIndexLinks',
-        'status' => '\Swagger\Client\Model\CatalogStoreStatus'
+        'links' => '\EffetB\BeezupApi\Model\CatalogStoreIndexLinks',
+        'status' => '\EffetB\BeezupApi\Model\CatalogStoreStatus'
     ];
 
     /**
@@ -226,7 +226,7 @@ class CatalogStoreIndex implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\CatalogStoreIndexLinks
+     * @return \EffetB\BeezupApi\Model\CatalogStoreIndexLinks
      */
     public function getLinks()
     {
@@ -236,7 +236,7 @@ class CatalogStoreIndex implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\CatalogStoreIndexLinks $links links
+     * @param \EffetB\BeezupApi\Model\CatalogStoreIndexLinks $links links
      *
      * @return $this
      */
@@ -250,7 +250,7 @@ class CatalogStoreIndex implements ModelInterface, ArrayAccess
     /**
      * Gets status
      *
-     * @return \Swagger\Client\Model\CatalogStoreStatus
+     * @return \EffetB\BeezupApi\Model\CatalogStoreStatus
      */
     public function getStatus()
     {
@@ -260,7 +260,7 @@ class CatalogStoreIndex implements ModelInterface, ArrayAccess
     /**
      * Sets status
      *
-     * @param \Swagger\Client\Model\CatalogStoreStatus $status status
+     * @param \EffetB\BeezupApi\Model\CatalogStoreStatus $status status
      *
      * @return $this
      */

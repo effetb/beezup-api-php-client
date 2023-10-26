@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * TrackedExternalOrder Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -61,9 +61,9 @@ class TrackedExternalOrder implements ModelInterface, ArrayAccess
         'merchant_order_id' => 'string',
         'visitor_id' => 'string',
         'total_amount' => 'float',
-        'currency_code' => '\Swagger\Client\Model\BeezUPCommonCurrencyCode',
+        'currency_code' => '\EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode',
         'payment_validated' => 'bool',
-        'products' => '\Swagger\Client\Model\TrackedExternalOrderProduct[]'
+        'products' => '\EffetB\BeezupApi\Model\TrackedExternalOrderProduct[]'
     ];
 
     /**
@@ -370,7 +370,7 @@ class TrackedExternalOrder implements ModelInterface, ArrayAccess
     /**
      * Gets currency_code
      *
-     * @return \Swagger\Client\Model\BeezUPCommonCurrencyCode
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode
      */
     public function getCurrencyCode()
     {
@@ -380,7 +380,7 @@ class TrackedExternalOrder implements ModelInterface, ArrayAccess
     /**
      * Sets currency_code
      *
-     * @param \Swagger\Client\Model\BeezUPCommonCurrencyCode $currency_code currency_code
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode $currency_code currency_code
      *
      * @return $this
      */
@@ -418,7 +418,7 @@ class TrackedExternalOrder implements ModelInterface, ArrayAccess
     /**
      * Gets products
      *
-     * @return \Swagger\Client\Model\TrackedExternalOrderProduct[]
+     * @return \EffetB\BeezupApi\Model\TrackedExternalOrderProduct[]
      */
     public function getProducts()
     {
@@ -428,7 +428,7 @@ class TrackedExternalOrder implements ModelInterface, ArrayAccess
     /**
      * Sets products
      *
-     * @param \Swagger\Client\Model\TrackedExternalOrderProduct[] $products Can be null. The product list included in the external order
+     * @param \EffetB\BeezupApi\Model\TrackedExternalOrderProduct[] $products Can be null. The product list included in the external order
      *
      * @return $this
      */

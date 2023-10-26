@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * PublicLovIndexLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class PublicLovIndexLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksGetPublicLovIndexLink',
-        'lists' => '\Swagger\Client\Model\PublicLovLinks'
+        'self' => '\EffetB\BeezupApi\Model\LinksGetPublicLovIndexLink',
+        'lists' => '\EffetB\BeezupApi\Model\PublicLovLinks'
     ];
 
     /**
@@ -214,7 +214,7 @@ class PublicLovIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksGetPublicLovIndexLink
+     * @return \EffetB\BeezupApi\Model\LinksGetPublicLovIndexLink
      */
     public function getSelf()
     {
@@ -224,7 +224,7 @@ class PublicLovIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksGetPublicLovIndexLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksGetPublicLovIndexLink $self self
      *
      * @return $this
      */
@@ -238,7 +238,7 @@ class PublicLovIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets lists
      *
-     * @return \Swagger\Client\Model\PublicLovLinks
+     * @return \EffetB\BeezupApi\Model\PublicLovLinks
      */
     public function getLists()
     {
@@ -248,7 +248,7 @@ class PublicLovIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets lists
      *
-     * @param \Swagger\Client\Model\PublicLovLinks $lists lists
+     * @param \EffetB\BeezupApi\Model\PublicLovLinks $lists lists
      *
      * @return $this
      */

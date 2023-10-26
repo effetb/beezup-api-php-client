@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace EffetB\BeezupApi\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use EffetB\BeezupApi\ApiException;
+use EffetB\BeezupApi\Configuration;
+use EffetB\BeezupApi\HeaderSelector;
+use EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelCatalogsGlobalApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -92,11 +92,11 @@ class ChannelCatalogsGlobalApi
      *
      * Add a new channel catalog
      *
-     * @param  \Swagger\Client\Model\AddChannelCatalogRequest $request request (required)
+     * @param  \EffetB\BeezupApi\Model\AddChannelCatalogRequest $request request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\LinksGetChannelCatalogLink
+     * @return \EffetB\BeezupApi\Model\LinksGetChannelCatalogLink
      */
     public function addChannelCatalog($request)
     {
@@ -109,15 +109,15 @@ class ChannelCatalogsGlobalApi
      *
      * Add a new channel catalog
      *
-     * @param  \Swagger\Client\Model\AddChannelCatalogRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\AddChannelCatalogRequest $request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\LinksGetChannelCatalogLink, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\LinksGetChannelCatalogLink, HTTP status code, HTTP response headers (array of strings)
      */
     public function addChannelCatalogWithHttpInfo($request)
     {
-        $returnType = '\Swagger\Client\Model\LinksGetChannelCatalogLink';
+        $returnType = '\EffetB\BeezupApi\Model\LinksGetChannelCatalogLink';
         $request = $this->addChannelCatalogRequest($request);
 
         try {
@@ -169,7 +169,7 @@ class ChannelCatalogsGlobalApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\LinksGetChannelCatalogLink',
+                        '\EffetB\BeezupApi\Model\LinksGetChannelCatalogLink',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -177,7 +177,7 @@ class ChannelCatalogsGlobalApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -185,7 +185,7 @@ class ChannelCatalogsGlobalApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -200,7 +200,7 @@ class ChannelCatalogsGlobalApi
      *
      * Add a new channel catalog
      *
-     * @param  \Swagger\Client\Model\AddChannelCatalogRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\AddChannelCatalogRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -220,14 +220,14 @@ class ChannelCatalogsGlobalApi
      *
      * Add a new channel catalog
      *
-     * @param  \Swagger\Client\Model\AddChannelCatalogRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\AddChannelCatalogRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function addChannelCatalogAsyncWithHttpInfo($request)
     {
-        $returnType = '\Swagger\Client\Model\LinksGetChannelCatalogLink';
+        $returnType = '\EffetB\BeezupApi\Model\LinksGetChannelCatalogLink';
         $request = $this->addChannelCatalogRequest($request);
 
         return $this->client
@@ -270,7 +270,7 @@ class ChannelCatalogsGlobalApi
     /**
      * Create request for operation 'addChannelCatalog'
      *
-     * @param  \Swagger\Client\Model\AddChannelCatalogRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\AddChannelCatalogRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -372,7 +372,7 @@ class ChannelCatalogsGlobalApi
      *
      * @param  string $channel_catalog_id The channel catalog identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -388,7 +388,7 @@ class ChannelCatalogsGlobalApi
      *
      * @param  string $channel_catalog_id The channel catalog identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -432,7 +432,7 @@ class ChannelCatalogsGlobalApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -440,7 +440,7 @@ class ChannelCatalogsGlobalApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -618,9 +618,9 @@ class ChannelCatalogsGlobalApi
      *
      * @param  string $channel_catalog_id The channel catalog identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ChannelCatalog
+     * @return \EffetB\BeezupApi\Model\ChannelCatalog
      */
     public function getChannelCatalog($channel_catalog_id)
     {
@@ -635,13 +635,13 @@ class ChannelCatalogsGlobalApi
      *
      * @param  string $channel_catalog_id The channel catalog identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ChannelCatalog, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\ChannelCatalog, HTTP status code, HTTP response headers (array of strings)
      */
     public function getChannelCatalogWithHttpInfo($channel_catalog_id)
     {
-        $returnType = '\Swagger\Client\Model\ChannelCatalog';
+        $returnType = '\EffetB\BeezupApi\Model\ChannelCatalog';
         $request = $this->getChannelCatalogRequest($channel_catalog_id);
 
         try {
@@ -693,7 +693,7 @@ class ChannelCatalogsGlobalApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ChannelCatalog',
+                        '\EffetB\BeezupApi\Model\ChannelCatalog',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -701,7 +701,7 @@ class ChannelCatalogsGlobalApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -709,7 +709,7 @@ class ChannelCatalogsGlobalApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -751,7 +751,7 @@ class ChannelCatalogsGlobalApi
      */
     public function getChannelCatalogAsyncWithHttpInfo($channel_catalog_id)
     {
-        $returnType = '\Swagger\Client\Model\ChannelCatalog';
+        $returnType = '\EffetB\BeezupApi\Model\ChannelCatalog';
         $request = $this->getChannelCatalogRequest($channel_catalog_id);
 
         return $this->client
@@ -901,9 +901,9 @@ class ChannelCatalogsGlobalApi
      *
      * @param  string $store_id The store identifier (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ChannelCatalogList
+     * @return \EffetB\BeezupApi\Model\ChannelCatalogList
      */
     public function getChannelCatalogs($store_id = null)
     {
@@ -918,13 +918,13 @@ class ChannelCatalogsGlobalApi
      *
      * @param  string $store_id The store identifier (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ChannelCatalogList, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\ChannelCatalogList, HTTP status code, HTTP response headers (array of strings)
      */
     public function getChannelCatalogsWithHttpInfo($store_id = null)
     {
-        $returnType = '\Swagger\Client\Model\ChannelCatalogList';
+        $returnType = '\EffetB\BeezupApi\Model\ChannelCatalogList';
         $request = $this->getChannelCatalogsRequest($store_id);
 
         try {
@@ -976,7 +976,7 @@ class ChannelCatalogsGlobalApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ChannelCatalogList',
+                        '\EffetB\BeezupApi\Model\ChannelCatalogList',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -984,7 +984,7 @@ class ChannelCatalogsGlobalApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1026,7 +1026,7 @@ class ChannelCatalogsGlobalApi
      */
     public function getChannelCatalogsAsyncWithHttpInfo($store_id = null)
     {
-        $returnType = '\Swagger\Client\Model\ChannelCatalogList';
+        $returnType = '\EffetB\BeezupApi\Model\ChannelCatalogList';
         $request = $this->getChannelCatalogsRequest($store_id);
 
         return $this->client

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelColumn Class Doc Comment
  *
  * @category Class
  * @description The channel column
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,13 +58,13 @@ class ChannelColumn implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'channel_column_id' => '\Swagger\Client\Model\BeezUPCommonChannelColumnId',
-        'channel_column_name' => '\Swagger\Client\Model\BeezUPCommonChannelColumnName',
-        'channel_column_description' => '\Swagger\Client\Model\ChannelColumnDescription',
-        'show_in_mapping' => '\Swagger\Client\Model\ChannelColumnShowInMapping',
+        'channel_column_id' => '\EffetB\BeezupApi\Model\BeezUPCommonChannelColumnId',
+        'channel_column_name' => '\EffetB\BeezupApi\Model\BeezUPCommonChannelColumnName',
+        'channel_column_description' => '\EffetB\BeezupApi\Model\ChannelColumnDescription',
+        'show_in_mapping' => '\EffetB\BeezupApi\Model\ChannelColumnShowInMapping',
         'position' => 'int',
-        'configuration' => '\Swagger\Client\Model\ChannelColumnConfiguration',
-        'restricted_values' => '\Swagger\Client\Model\ChannelColumnRestrictedValues'
+        'configuration' => '\EffetB\BeezupApi\Model\ChannelColumnConfiguration',
+        'restricted_values' => '\EffetB\BeezupApi\Model\ChannelColumnRestrictedValues'
     ];
 
     /**
@@ -275,7 +275,7 @@ class ChannelColumn implements ModelInterface, ArrayAccess
     /**
      * Gets channel_column_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonChannelColumnId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonChannelColumnId
      */
     public function getChannelColumnId()
     {
@@ -285,7 +285,7 @@ class ChannelColumn implements ModelInterface, ArrayAccess
     /**
      * Sets channel_column_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonChannelColumnId $channel_column_id channel_column_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonChannelColumnId $channel_column_id channel_column_id
      *
      * @return $this
      */
@@ -299,7 +299,7 @@ class ChannelColumn implements ModelInterface, ArrayAccess
     /**
      * Gets channel_column_name
      *
-     * @return \Swagger\Client\Model\BeezUPCommonChannelColumnName
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonChannelColumnName
      */
     public function getChannelColumnName()
     {
@@ -309,7 +309,7 @@ class ChannelColumn implements ModelInterface, ArrayAccess
     /**
      * Sets channel_column_name
      *
-     * @param \Swagger\Client\Model\BeezUPCommonChannelColumnName $channel_column_name channel_column_name
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonChannelColumnName $channel_column_name channel_column_name
      *
      * @return $this
      */
@@ -323,7 +323,7 @@ class ChannelColumn implements ModelInterface, ArrayAccess
     /**
      * Gets channel_column_description
      *
-     * @return \Swagger\Client\Model\ChannelColumnDescription
+     * @return \EffetB\BeezupApi\Model\ChannelColumnDescription
      */
     public function getChannelColumnDescription()
     {
@@ -333,7 +333,7 @@ class ChannelColumn implements ModelInterface, ArrayAccess
     /**
      * Sets channel_column_description
      *
-     * @param \Swagger\Client\Model\ChannelColumnDescription $channel_column_description channel_column_description
+     * @param \EffetB\BeezupApi\Model\ChannelColumnDescription $channel_column_description channel_column_description
      *
      * @return $this
      */
@@ -347,7 +347,7 @@ class ChannelColumn implements ModelInterface, ArrayAccess
     /**
      * Gets show_in_mapping
      *
-     * @return \Swagger\Client\Model\ChannelColumnShowInMapping
+     * @return \EffetB\BeezupApi\Model\ChannelColumnShowInMapping
      */
     public function getShowInMapping()
     {
@@ -357,7 +357,7 @@ class ChannelColumn implements ModelInterface, ArrayAccess
     /**
      * Sets show_in_mapping
      *
-     * @param \Swagger\Client\Model\ChannelColumnShowInMapping $show_in_mapping show_in_mapping
+     * @param \EffetB\BeezupApi\Model\ChannelColumnShowInMapping $show_in_mapping show_in_mapping
      *
      * @return $this
      */
@@ -395,7 +395,7 @@ class ChannelColumn implements ModelInterface, ArrayAccess
     /**
      * Gets configuration
      *
-     * @return \Swagger\Client\Model\ChannelColumnConfiguration
+     * @return \EffetB\BeezupApi\Model\ChannelColumnConfiguration
      */
     public function getConfiguration()
     {
@@ -405,7 +405,7 @@ class ChannelColumn implements ModelInterface, ArrayAccess
     /**
      * Sets configuration
      *
-     * @param \Swagger\Client\Model\ChannelColumnConfiguration $configuration configuration
+     * @param \EffetB\BeezupApi\Model\ChannelColumnConfiguration $configuration configuration
      *
      * @return $this
      */
@@ -419,7 +419,7 @@ class ChannelColumn implements ModelInterface, ArrayAccess
     /**
      * Gets restricted_values
      *
-     * @return \Swagger\Client\Model\ChannelColumnRestrictedValues
+     * @return \EffetB\BeezupApi\Model\ChannelColumnRestrictedValues
      */
     public function getRestrictedValues()
     {
@@ -429,7 +429,7 @@ class ChannelColumn implements ModelInterface, ArrayAccess
     /**
      * Sets restricted_values
      *
-     * @param \Swagger\Client\Model\ChannelColumnRestrictedValues $restricted_values restricted_values
+     * @param \EffetB\BeezupApi\Model\ChannelColumnRestrictedValues $restricted_values restricted_values
      *
      * @return $this
      */

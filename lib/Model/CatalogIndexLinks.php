@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CatalogIndexLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class CatalogIndexLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksCatalogIndexLink',
-        'beez_up_columns' => '\Swagger\Client\Model\LinksCatalogGetBeezUPColumnsLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksCatalogIndexLink',
+        'beez_up_columns' => '\EffetB\BeezupApi\Model\LinksCatalogGetBeezUPColumnsLink'
     ];
 
     /**
@@ -226,7 +226,7 @@ class CatalogIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksCatalogIndexLink
+     * @return \EffetB\BeezupApi\Model\LinksCatalogIndexLink
      */
     public function getSelf()
     {
@@ -236,7 +236,7 @@ class CatalogIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksCatalogIndexLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksCatalogIndexLink $self self
      *
      * @return $this
      */
@@ -250,7 +250,7 @@ class CatalogIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets beez_up_columns
      *
-     * @return \Swagger\Client\Model\LinksCatalogGetBeezUPColumnsLink
+     * @return \EffetB\BeezupApi\Model\LinksCatalogGetBeezUPColumnsLink
      */
     public function getBeezUpColumns()
     {
@@ -260,7 +260,7 @@ class CatalogIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets beez_up_columns
      *
-     * @param \Swagger\Client\Model\LinksCatalogGetBeezUPColumnsLink $beez_up_columns beez_up_columns
+     * @param \EffetB\BeezupApi\Model\LinksCatalogGetBeezUPColumnsLink $beez_up_columns beez_up_columns
      *
      * @return $this
      */

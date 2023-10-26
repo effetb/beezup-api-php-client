@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**store_count** | [**\Swagger\Client\Model\StoreCount**](StoreCount.md) |  | [optional] 
+**store_count** | [**\EffetB\BeezupApi\Model\StoreCount**](StoreCount.md) |  | [optional] 
 **max_store_count** | **int** | The maximum store count related to the offer. | [optional] 
 **min_store_count** | **int** | The minimum store count related to the offer. | [optional] 
 **owned_store_count** | **int** | The owned store count. | [optional] 

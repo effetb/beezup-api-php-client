@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,14 +27,14 @@
  * Please update the test case below to test the model.
  */
 
-namespace Swagger\Client;
+namespace EffetB\BeezupApi;
 
 /**
  * BeezUPCommonCountryIsoCodeAlpha3Test Class Doc Comment
  *
  * @category    Class
  * @description The country iso code alpha 3 &lt;a href&#x3D;\&quot;https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3\&quot;&gt;(ISO 3166-1_alpha-3)&lt;/a&gt;
- * @package     Swagger\Client
+ * @package     EffetB\BeezupApi
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */

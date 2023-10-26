@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,14 +27,14 @@
  * Please update the test case below to test the model.
  */
 
-namespace Swagger\Client;
+namespace EffetB\BeezupApi;
 
 /**
  * StoreUserRoleTest Class Doc Comment
  *
  * @category    Class
  * @description Indicates the role can have a user on a store. * Owner: Indicates that you are the owner of this store * User: Indicates that you are a simple user on this store
- * @package     Swagger\Client
+ * @package     EffetB\BeezupApi
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */

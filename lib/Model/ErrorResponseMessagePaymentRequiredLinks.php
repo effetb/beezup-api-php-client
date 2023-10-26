@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ErrorResponseMessagePaymentRequiredLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class ErrorResponseMessagePaymentRequiredLinks implements ModelInterface, ArrayA
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'offer' => '\Swagger\Client\Model\LinksGetOfferLink'
+        'offer' => '\EffetB\BeezupApi\Model\LinksGetOfferLink'
     ];
 
     /**
@@ -214,7 +214,7 @@ class ErrorResponseMessagePaymentRequiredLinks implements ModelInterface, ArrayA
     /**
      * Gets offer
      *
-     * @return \Swagger\Client\Model\LinksGetOfferLink
+     * @return \EffetB\BeezupApi\Model\LinksGetOfferLink
      */
     public function getOffer()
     {
@@ -224,7 +224,7 @@ class ErrorResponseMessagePaymentRequiredLinks implements ModelInterface, ArrayA
     /**
      * Sets offer
      *
-     * @param \Swagger\Client\Model\LinksGetOfferLink $offer offer
+     * @param \EffetB\BeezupApi\Model\LinksGetOfferLink $offer offer
      *
      * @return $this
      */

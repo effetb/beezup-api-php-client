@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,14 +27,14 @@
  * Please update the test case below to test the model.
  */
 
-namespace Swagger\Client;
+namespace EffetB\BeezupApi;
 
 /**
  * BeezUPCommonPaginationResultLinksTest Class Doc Comment
  *
  * @category    Class
  * @description The navigation links &#39;first&#39;, &#39;last&#39;, &#39;next&#39;, &#39;previous&#39;
- * @package     Swagger\Client
+ * @package     EffetB\BeezupApi
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */

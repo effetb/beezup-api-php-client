@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**category_path** | [**\Swagger\Client\Model\BeezUPCommonCatalogCategoryPath**](BeezUPCommonCatalogCategoryPath.md) |  | 
+**category_path** | [**\EffetB\BeezupApi\Model\BeezUPCommonCatalogCategoryPath**](BeezUPCommonCatalogCategoryPath.md) |  | 
 **total_product_count** | **int** | The total product count related to this category and his sub categories | 
 **self_product_count** | **int** | The product count related to this category | 
 

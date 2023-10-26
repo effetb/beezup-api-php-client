@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * AccountSynchronizationList Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class AccountSynchronizationList implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'account_synchronizations' => '\Swagger\Client\Model\AccountSynchronization[]'
+        'account_synchronizations' => '\EffetB\BeezupApi\Model\AccountSynchronization[]'
     ];
 
     /**
@@ -208,7 +208,7 @@ class AccountSynchronizationList implements ModelInterface, ArrayAccess
     /**
      * Gets account_synchronizations
      *
-     * @return \Swagger\Client\Model\AccountSynchronization[]
+     * @return \EffetB\BeezupApi\Model\AccountSynchronization[]
      */
     public function getAccountSynchronizations()
     {
@@ -218,7 +218,7 @@ class AccountSynchronizationList implements ModelInterface, ArrayAccess
     /**
      * Sets account_synchronizations
      *
-     * @param \Swagger\Client\Model\AccountSynchronization[] $account_synchronizations account_synchronizations
+     * @param \EffetB\BeezupApi\Model\AccountSynchronization[] $account_synchronizations account_synchronizations
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * RuleExecutionReportings Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class RuleExecutionReportings implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'executions' => '\Swagger\Client\Model\RuleExecutionReporting[]',
-        'pagination_result' => '\Swagger\Client\Model\BeezUPCommonPaginationResult'
+        'executions' => '\EffetB\BeezupApi\Model\RuleExecutionReporting[]',
+        'pagination_result' => '\EffetB\BeezupApi\Model\BeezUPCommonPaginationResult'
     ];
 
     /**
@@ -214,7 +214,7 @@ class RuleExecutionReportings implements ModelInterface, ArrayAccess
     /**
      * Gets executions
      *
-     * @return \Swagger\Client\Model\RuleExecutionReporting[]
+     * @return \EffetB\BeezupApi\Model\RuleExecutionReporting[]
      */
     public function getExecutions()
     {
@@ -224,7 +224,7 @@ class RuleExecutionReportings implements ModelInterface, ArrayAccess
     /**
      * Sets executions
      *
-     * @param \Swagger\Client\Model\RuleExecutionReporting[] $executions The rules executions history
+     * @param \EffetB\BeezupApi\Model\RuleExecutionReporting[] $executions The rules executions history
      *
      * @return $this
      */
@@ -238,7 +238,7 @@ class RuleExecutionReportings implements ModelInterface, ArrayAccess
     /**
      * Gets pagination_result
      *
-     * @return \Swagger\Client\Model\BeezUPCommonPaginationResult
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonPaginationResult
      */
     public function getPaginationResult()
     {
@@ -248,7 +248,7 @@ class RuleExecutionReportings implements ModelInterface, ArrayAccess
     /**
      * Sets pagination_result
      *
-     * @param \Swagger\Client\Model\BeezUPCommonPaginationResult $pagination_result pagination_result
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonPaginationResult $pagination_result pagination_result
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ImportationCustomColumn Class Doc Comment
  *
  * @category Class
  * @description The custom column configuration
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,10 +58,10 @@ class ImportationCustomColumn implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'id' => '\Swagger\Client\Model\ColumnId',
-        'user_colum_name' => '\Swagger\Client\Model\UserColumName',
-        'configuration' => '\Swagger\Client\Model\ColumnConfiguration',
-        'links' => '\Swagger\Client\Model\ImportationCustomColumnLinks'
+        'id' => '\EffetB\BeezupApi\Model\ColumnId',
+        'user_colum_name' => '\EffetB\BeezupApi\Model\UserColumName',
+        'configuration' => '\EffetB\BeezupApi\Model\ColumnConfiguration',
+        'links' => '\EffetB\BeezupApi\Model\ImportationCustomColumnLinks'
     ];
 
     /**
@@ -251,7 +251,7 @@ class ImportationCustomColumn implements ModelInterface, ArrayAccess
     /**
      * Gets id
      *
-     * @return \Swagger\Client\Model\ColumnId
+     * @return \EffetB\BeezupApi\Model\ColumnId
      */
     public function getId()
     {
@@ -261,7 +261,7 @@ class ImportationCustomColumn implements ModelInterface, ArrayAccess
     /**
      * Sets id
      *
-     * @param \Swagger\Client\Model\ColumnId $id id
+     * @param \EffetB\BeezupApi\Model\ColumnId $id id
      *
      * @return $this
      */
@@ -275,7 +275,7 @@ class ImportationCustomColumn implements ModelInterface, ArrayAccess
     /**
      * Gets user_colum_name
      *
-     * @return \Swagger\Client\Model\UserColumName
+     * @return \EffetB\BeezupApi\Model\UserColumName
      */
     public function getUserColumName()
     {
@@ -285,7 +285,7 @@ class ImportationCustomColumn implements ModelInterface, ArrayAccess
     /**
      * Sets user_colum_name
      *
-     * @param \Swagger\Client\Model\UserColumName $user_colum_name user_colum_name
+     * @param \EffetB\BeezupApi\Model\UserColumName $user_colum_name user_colum_name
      *
      * @return $this
      */
@@ -299,7 +299,7 @@ class ImportationCustomColumn implements ModelInterface, ArrayAccess
     /**
      * Gets configuration
      *
-     * @return \Swagger\Client\Model\ColumnConfiguration
+     * @return \EffetB\BeezupApi\Model\ColumnConfiguration
      */
     public function getConfiguration()
     {
@@ -309,7 +309,7 @@ class ImportationCustomColumn implements ModelInterface, ArrayAccess
     /**
      * Sets configuration
      *
-     * @param \Swagger\Client\Model\ColumnConfiguration $configuration configuration
+     * @param \EffetB\BeezupApi\Model\ColumnConfiguration $configuration configuration
      *
      * @return $this
      */
@@ -323,7 +323,7 @@ class ImportationCustomColumn implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ImportationCustomColumnLinks
+     * @return \EffetB\BeezupApi\Model\ImportationCustomColumnLinks
      */
     public function getLinks()
     {
@@ -333,7 +333,7 @@ class ImportationCustomColumn implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ImportationCustomColumnLinks $links links
+     * @param \EffetB\BeezupApi\Model\ImportationCustomColumnLinks $links links
      *
      * @return $this
      */

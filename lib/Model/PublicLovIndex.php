@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * PublicLovIndex Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class PublicLovIndex implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\PublicLovIndexLinks'
+        'links' => '\EffetB\BeezupApi\Model\PublicLovIndexLinks'
     ];
 
     /**
@@ -208,7 +208,7 @@ class PublicLovIndex implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\PublicLovIndexLinks
+     * @return \EffetB\BeezupApi\Model\PublicLovIndexLinks
      */
     public function getLinks()
     {
@@ -218,7 +218,7 @@ class PublicLovIndex implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\PublicLovIndexLinks $links links
+     * @param \EffetB\BeezupApi\Model\PublicLovIndexLinks $links links
      *
      * @return $this
      */

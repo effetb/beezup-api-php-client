@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * PaginationRequestParameters Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class PaginationRequestParameters implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'page_size' => '\Swagger\Client\Model\BeezUPCommonPageSize',
-        'page_number' => '\Swagger\Client\Model\BeezUPCommonPageNumber'
+        'page_size' => '\EffetB\BeezupApi\Model\BeezUPCommonPageSize',
+        'page_number' => '\EffetB\BeezupApi\Model\BeezUPCommonPageNumber'
     ];
 
     /**
@@ -214,7 +214,7 @@ class PaginationRequestParameters implements ModelInterface, ArrayAccess
     /**
      * Gets page_size
      *
-     * @return \Swagger\Client\Model\BeezUPCommonPageSize
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonPageSize
      */
     public function getPageSize()
     {
@@ -224,7 +224,7 @@ class PaginationRequestParameters implements ModelInterface, ArrayAccess
     /**
      * Sets page_size
      *
-     * @param \Swagger\Client\Model\BeezUPCommonPageSize $page_size page_size
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonPageSize $page_size page_size
      *
      * @return $this
      */
@@ -238,7 +238,7 @@ class PaginationRequestParameters implements ModelInterface, ArrayAccess
     /**
      * Gets page_number
      *
-     * @return \Swagger\Client\Model\BeezUPCommonPageNumber
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonPageNumber
      */
     public function getPageNumber()
     {
@@ -248,7 +248,7 @@ class PaginationRequestParameters implements ModelInterface, ArrayAccess
     /**
      * Sets page_number
      *
-     * @param \Swagger\Client\Model\BeezUPCommonPageNumber $page_number page_number
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonPageNumber $page_number page_number
      *
      * @return $this
      */

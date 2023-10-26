@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ExportOrderListRequest Class Doc Comment
  *
  * @category Class
  * @description The message request to export order list. The store identifier is requested to regroup the exportations.
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,9 +58,9 @@ class ExportOrderListRequest implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'format' => '\Swagger\Client\Model\ExportOrderListFormat',
-        'store_id' => '\Swagger\Client\Model\BeezUPCommonStoreId',
-        'order_list_request_without_pagination' => '\Swagger\Client\Model\OrderListRequestWithoutPagination'
+        'format' => '\EffetB\BeezupApi\Model\ExportOrderListFormat',
+        'store_id' => '\EffetB\BeezupApi\Model\BeezUPCommonStoreId',
+        'order_list_request_without_pagination' => '\EffetB\BeezupApi\Model\OrderListRequestWithoutPagination'
     ];
 
     /**
@@ -233,7 +233,7 @@ class ExportOrderListRequest implements ModelInterface, ArrayAccess
     /**
      * Gets format
      *
-     * @return \Swagger\Client\Model\ExportOrderListFormat
+     * @return \EffetB\BeezupApi\Model\ExportOrderListFormat
      */
     public function getFormat()
     {
@@ -243,7 +243,7 @@ class ExportOrderListRequest implements ModelInterface, ArrayAccess
     /**
      * Sets format
      *
-     * @param \Swagger\Client\Model\ExportOrderListFormat $format format
+     * @param \EffetB\BeezupApi\Model\ExportOrderListFormat $format format
      *
      * @return $this
      */
@@ -257,7 +257,7 @@ class ExportOrderListRequest implements ModelInterface, ArrayAccess
     /**
      * Gets store_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonStoreId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonStoreId
      */
     public function getStoreId()
     {
@@ -267,7 +267,7 @@ class ExportOrderListRequest implements ModelInterface, ArrayAccess
     /**
      * Sets store_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonStoreId $store_id store_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonStoreId $store_id store_id
      *
      * @return $this
      */
@@ -281,7 +281,7 @@ class ExportOrderListRequest implements ModelInterface, ArrayAccess
     /**
      * Gets order_list_request_without_pagination
      *
-     * @return \Swagger\Client\Model\OrderListRequestWithoutPagination
+     * @return \EffetB\BeezupApi\Model\OrderListRequestWithoutPagination
      */
     public function getOrderListRequestWithoutPagination()
     {
@@ -291,7 +291,7 @@ class ExportOrderListRequest implements ModelInterface, ArrayAccess
     /**
      * Sets order_list_request_without_pagination
      *
-     * @param \Swagger\Client\Model\OrderListRequestWithoutPagination $order_list_request_without_pagination order_list_request_without_pagination
+     * @param \EffetB\BeezupApi\Model\OrderListRequestWithoutPagination $order_list_request_without_pagination order_list_request_without_pagination
      *
      * @return $this
      */

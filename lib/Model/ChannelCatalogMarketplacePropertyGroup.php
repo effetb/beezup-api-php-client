@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelCatalogMarketplacePropertyGroup Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,7 +59,7 @@ class ChannelCatalogMarketplacePropertyGroup implements ModelInterface, ArrayAcc
     protected static $swaggerTypes = [
         'name' => 'string',
         'position' => 'int',
-        'properties' => '\Swagger\Client\Model\ChannelCatalogMarketplaceProperty[]'
+        'properties' => '\EffetB\BeezupApi\Model\ChannelCatalogMarketplaceProperty[]'
     ];
 
     /**
@@ -298,7 +298,7 @@ class ChannelCatalogMarketplacePropertyGroup implements ModelInterface, ArrayAcc
     /**
      * Gets properties
      *
-     * @return \Swagger\Client\Model\ChannelCatalogMarketplaceProperty[]
+     * @return \EffetB\BeezupApi\Model\ChannelCatalogMarketplaceProperty[]
      */
     public function getProperties()
     {
@@ -308,7 +308,7 @@ class ChannelCatalogMarketplacePropertyGroup implements ModelInterface, ArrayAcc
     /**
      * Sets properties
      *
-     * @param \Swagger\Client\Model\ChannelCatalogMarketplaceProperty[] $properties properties
+     * @param \EffetB\BeezupApi\Model\ChannelCatalogMarketplaceProperty[] $properties properties
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * BeezUPCommonProductFilters Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,7 +59,7 @@ class BeezUPCommonProductFilters implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'sku' => 'string',
         'title' => 'string',
-        'additional_product_filters' => '\Swagger\Client\Model\BeezUPCommonAdditionalProductFilters'
+        'additional_product_filters' => '\EffetB\BeezupApi\Model\BeezUPCommonAdditionalProductFilters'
     ];
 
     /**
@@ -268,7 +268,7 @@ class BeezUPCommonProductFilters implements ModelInterface, ArrayAccess
     /**
      * Gets additional_product_filters
      *
-     * @return \Swagger\Client\Model\BeezUPCommonAdditionalProductFilters
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonAdditionalProductFilters
      */
     public function getAdditionalProductFilters()
     {
@@ -278,7 +278,7 @@ class BeezUPCommonProductFilters implements ModelInterface, ArrayAccess
     /**
      * Sets additional_product_filters
      *
-     * @param \Swagger\Client\Model\BeezUPCommonAdditionalProductFilters $additional_product_filters additional_product_filters
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonAdditionalProductFilters $additional_product_filters additional_product_filters
      *
      * @return $this
      */

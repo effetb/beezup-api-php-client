@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * OptimiseAllRequest Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,19 +57,19 @@ class OptimiseAllRequest implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'channel_id' => '\Swagger\Client\Model\BeezUPCommonChannelId',
-        'period_type' => '\Swagger\Client\Model\ReportFilterPeriodType',
+        'channel_id' => '\EffetB\BeezupApi\Model\BeezUPCommonChannelId',
+        'period_type' => '\EffetB\BeezupApi\Model\ReportFilterPeriodType',
         'begin_period_utc_date' => '\DateTime',
         'end_period_utc_date' => '\DateTime',
-        'category_filter' => '\Swagger\Client\Model\BeezUPCommonCatalogCategoryFilter',
-        'performance_indicator_filters' => '\Swagger\Client\Model\PerformanceIndicatorFilter[]',
-        'advanced_filters' => '\Swagger\Client\Model\ReportAdvancedFilters',
-        'order_by' => '\Swagger\Client\Model\PerformanceIndicatorType',
-        'order_by_direction' => '\Swagger\Client\Model\OrderByDirection',
-        'report_type' => '\Swagger\Client\Model\ReportType',
-        'product_columns_to_display' => '\Swagger\Client\Model\ProductColumnsToDisplay',
-        'product_state' => '\Swagger\Client\Model\ProductStateFilter',
-        'analytics_product_column_filters' => '\Swagger\Client\Model\AnalyticsProductColumnFilters'
+        'category_filter' => '\EffetB\BeezupApi\Model\BeezUPCommonCatalogCategoryFilter',
+        'performance_indicator_filters' => '\EffetB\BeezupApi\Model\PerformanceIndicatorFilter[]',
+        'advanced_filters' => '\EffetB\BeezupApi\Model\ReportAdvancedFilters',
+        'order_by' => '\EffetB\BeezupApi\Model\PerformanceIndicatorType',
+        'order_by_direction' => '\EffetB\BeezupApi\Model\OrderByDirection',
+        'report_type' => '\EffetB\BeezupApi\Model\ReportType',
+        'product_columns_to_display' => '\EffetB\BeezupApi\Model\ProductColumnsToDisplay',
+        'product_state' => '\EffetB\BeezupApi\Model\ProductStateFilter',
+        'analytics_product_column_filters' => '\EffetB\BeezupApi\Model\AnalyticsProductColumnFilters'
     ];
 
     /**
@@ -298,7 +298,7 @@ class OptimiseAllRequest implements ModelInterface, ArrayAccess
     /**
      * Gets channel_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonChannelId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonChannelId
      */
     public function getChannelId()
     {
@@ -308,7 +308,7 @@ class OptimiseAllRequest implements ModelInterface, ArrayAccess
     /**
      * Sets channel_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonChannelId $channel_id channel_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonChannelId $channel_id channel_id
      *
      * @return $this
      */
@@ -322,7 +322,7 @@ class OptimiseAllRequest implements ModelInterface, ArrayAccess
     /**
      * Gets period_type
      *
-     * @return \Swagger\Client\Model\ReportFilterPeriodType
+     * @return \EffetB\BeezupApi\Model\ReportFilterPeriodType
      */
     public function getPeriodType()
     {
@@ -332,7 +332,7 @@ class OptimiseAllRequest implements ModelInterface, ArrayAccess
     /**
      * Sets period_type
      *
-     * @param \Swagger\Client\Model\ReportFilterPeriodType $period_type period_type
+     * @param \EffetB\BeezupApi\Model\ReportFilterPeriodType $period_type period_type
      *
      * @return $this
      */
@@ -394,7 +394,7 @@ class OptimiseAllRequest implements ModelInterface, ArrayAccess
     /**
      * Gets category_filter
      *
-     * @return \Swagger\Client\Model\BeezUPCommonCatalogCategoryFilter
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonCatalogCategoryFilter
      */
     public function getCategoryFilter()
     {
@@ -404,7 +404,7 @@ class OptimiseAllRequest implements ModelInterface, ArrayAccess
     /**
      * Sets category_filter
      *
-     * @param \Swagger\Client\Model\BeezUPCommonCatalogCategoryFilter $category_filter category_filter
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonCatalogCategoryFilter $category_filter category_filter
      *
      * @return $this
      */
@@ -418,7 +418,7 @@ class OptimiseAllRequest implements ModelInterface, ArrayAccess
     /**
      * Gets performance_indicator_filters
      *
-     * @return \Swagger\Client\Model\PerformanceIndicatorFilter[]
+     * @return \EffetB\BeezupApi\Model\PerformanceIndicatorFilter[]
      */
     public function getPerformanceIndicatorFilters()
     {
@@ -428,7 +428,7 @@ class OptimiseAllRequest implements ModelInterface, ArrayAccess
     /**
      * Sets performance_indicator_filters
      *
-     * @param \Swagger\Client\Model\PerformanceIndicatorFilter[] $performance_indicator_filters performance_indicator_filters
+     * @param \EffetB\BeezupApi\Model\PerformanceIndicatorFilter[] $performance_indicator_filters performance_indicator_filters
      *
      * @return $this
      */
@@ -442,7 +442,7 @@ class OptimiseAllRequest implements ModelInterface, ArrayAccess
     /**
      * Gets advanced_filters
      *
-     * @return \Swagger\Client\Model\ReportAdvancedFilters
+     * @return \EffetB\BeezupApi\Model\ReportAdvancedFilters
      */
     public function getAdvancedFilters()
     {
@@ -452,7 +452,7 @@ class OptimiseAllRequest implements ModelInterface, ArrayAccess
     /**
      * Sets advanced_filters
      *
-     * @param \Swagger\Client\Model\ReportAdvancedFilters $advanced_filters advanced_filters
+     * @param \EffetB\BeezupApi\Model\ReportAdvancedFilters $advanced_filters advanced_filters
      *
      * @return $this
      */
@@ -466,7 +466,7 @@ class OptimiseAllRequest implements ModelInterface, ArrayAccess
     /**
      * Gets order_by
      *
-     * @return \Swagger\Client\Model\PerformanceIndicatorType
+     * @return \EffetB\BeezupApi\Model\PerformanceIndicatorType
      */
     public function getOrderBy()
     {
@@ -476,7 +476,7 @@ class OptimiseAllRequest implements ModelInterface, ArrayAccess
     /**
      * Sets order_by
      *
-     * @param \Swagger\Client\Model\PerformanceIndicatorType $order_by order_by
+     * @param \EffetB\BeezupApi\Model\PerformanceIndicatorType $order_by order_by
      *
      * @return $this
      */
@@ -490,7 +490,7 @@ class OptimiseAllRequest implements ModelInterface, ArrayAccess
     /**
      * Gets order_by_direction
      *
-     * @return \Swagger\Client\Model\OrderByDirection
+     * @return \EffetB\BeezupApi\Model\OrderByDirection
      */
     public function getOrderByDirection()
     {
@@ -500,7 +500,7 @@ class OptimiseAllRequest implements ModelInterface, ArrayAccess
     /**
      * Sets order_by_direction
      *
-     * @param \Swagger\Client\Model\OrderByDirection $order_by_direction order_by_direction
+     * @param \EffetB\BeezupApi\Model\OrderByDirection $order_by_direction order_by_direction
      *
      * @return $this
      */
@@ -514,7 +514,7 @@ class OptimiseAllRequest implements ModelInterface, ArrayAccess
     /**
      * Gets report_type
      *
-     * @return \Swagger\Client\Model\ReportType
+     * @return \EffetB\BeezupApi\Model\ReportType
      */
     public function getReportType()
     {
@@ -524,7 +524,7 @@ class OptimiseAllRequest implements ModelInterface, ArrayAccess
     /**
      * Sets report_type
      *
-     * @param \Swagger\Client\Model\ReportType $report_type report_type
+     * @param \EffetB\BeezupApi\Model\ReportType $report_type report_type
      *
      * @return $this
      */
@@ -538,7 +538,7 @@ class OptimiseAllRequest implements ModelInterface, ArrayAccess
     /**
      * Gets product_columns_to_display
      *
-     * @return \Swagger\Client\Model\ProductColumnsToDisplay
+     * @return \EffetB\BeezupApi\Model\ProductColumnsToDisplay
      */
     public function getProductColumnsToDisplay()
     {
@@ -548,7 +548,7 @@ class OptimiseAllRequest implements ModelInterface, ArrayAccess
     /**
      * Sets product_columns_to_display
      *
-     * @param \Swagger\Client\Model\ProductColumnsToDisplay $product_columns_to_display product_columns_to_display
+     * @param \EffetB\BeezupApi\Model\ProductColumnsToDisplay $product_columns_to_display product_columns_to_display
      *
      * @return $this
      */
@@ -562,7 +562,7 @@ class OptimiseAllRequest implements ModelInterface, ArrayAccess
     /**
      * Gets product_state
      *
-     * @return \Swagger\Client\Model\ProductStateFilter
+     * @return \EffetB\BeezupApi\Model\ProductStateFilter
      */
     public function getProductState()
     {
@@ -572,7 +572,7 @@ class OptimiseAllRequest implements ModelInterface, ArrayAccess
     /**
      * Sets product_state
      *
-     * @param \Swagger\Client\Model\ProductStateFilter $product_state product_state
+     * @param \EffetB\BeezupApi\Model\ProductStateFilter $product_state product_state
      *
      * @return $this
      */
@@ -586,7 +586,7 @@ class OptimiseAllRequest implements ModelInterface, ArrayAccess
     /**
      * Gets analytics_product_column_filters
      *
-     * @return \Swagger\Client\Model\AnalyticsProductColumnFilters
+     * @return \EffetB\BeezupApi\Model\AnalyticsProductColumnFilters
      */
     public function getAnalyticsProductColumnFilters()
     {
@@ -596,7 +596,7 @@ class OptimiseAllRequest implements ModelInterface, ArrayAccess
     /**
      * Sets analytics_product_column_filters
      *
-     * @param \Swagger\Client\Model\AnalyticsProductColumnFilters $analytics_product_column_filters analytics_product_column_filters
+     * @param \EffetB\BeezupApi\Model\AnalyticsProductColumnFilters $analytics_product_column_filters analytics_product_column_filters
      *
      * @return $this
      */

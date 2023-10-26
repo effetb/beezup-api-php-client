@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * VariableModelInfo Class Doc Comment
  *
  * @category Class
  * @description Internal usage: Old offer type. Describe the fix and variable model information
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,7 +58,7 @@ class VariableModelInfo implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'click_included_and_variable_prices' => '\Swagger\Client\Model\ClickIncludedAndVariablePrice[]',
+        'click_included_and_variable_prices' => '\EffetB\BeezupApi\Model\ClickIncludedAndVariablePrice[]',
         'overflow_click_count' => 'int',
         'overflow_click_price' => 'double'
     ];
@@ -239,7 +239,7 @@ class VariableModelInfo implements ModelInterface, ArrayAccess
     /**
      * Gets click_included_and_variable_prices
      *
-     * @return \Swagger\Client\Model\ClickIncludedAndVariablePrice[]
+     * @return \EffetB\BeezupApi\Model\ClickIncludedAndVariablePrice[]
      */
     public function getClickIncludedAndVariablePrices()
     {
@@ -249,7 +249,7 @@ class VariableModelInfo implements ModelInterface, ArrayAccess
     /**
      * Sets click_included_and_variable_prices
      *
-     * @param \Swagger\Client\Model\ClickIncludedAndVariablePrice[] $click_included_and_variable_prices Click included with variable pricing information
+     * @param \EffetB\BeezupApi\Model\ClickIncludedAndVariablePrice[] $click_included_and_variable_prices Click included with variable pricing information
      *
      * @return $this
      */

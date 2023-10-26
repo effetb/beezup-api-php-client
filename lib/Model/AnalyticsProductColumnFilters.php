@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * AnalyticsProductColumnFilters Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,7 +59,7 @@ class AnalyticsProductColumnFilters implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'sku' => 'string',
         'title' => 'string',
-        'additional_analytics_product_column_filters' => '\Swagger\Client\Model\AdditionalAnalyticsProductColumnFilters'
+        'additional_analytics_product_column_filters' => '\EffetB\BeezupApi\Model\AdditionalAnalyticsProductColumnFilters'
     ];
 
     /**
@@ -268,7 +268,7 @@ class AnalyticsProductColumnFilters implements ModelInterface, ArrayAccess
     /**
      * Gets additional_analytics_product_column_filters
      *
-     * @return \Swagger\Client\Model\AdditionalAnalyticsProductColumnFilters
+     * @return \EffetB\BeezupApi\Model\AdditionalAnalyticsProductColumnFilters
      */
     public function getAdditionalAnalyticsProductColumnFilters()
     {
@@ -278,7 +278,7 @@ class AnalyticsProductColumnFilters implements ModelInterface, ArrayAccess
     /**
      * Sets additional_analytics_product_column_filters
      *
-     * @param \Swagger\Client\Model\AdditionalAnalyticsProductColumnFilters $additional_analytics_product_column_filters additional_analytics_product_column_filters
+     * @param \EffetB\BeezupApi\Model\AdditionalAnalyticsProductColumnFilters $additional_analytics_product_column_filters additional_analytics_product_column_filters
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * PerformanceIndicatorFormula Class Doc Comment
  *
  * @category Class
  * @description The KPI formula
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,9 +58,9 @@ class PerformanceIndicatorFormula implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'first_parameter' => '\Swagger\Client\Model\PerformanceIndicatorFormulaParameterType',
-        'operator_name' => '\Swagger\Client\Model\PerformanceIndicatorFormulaOperatorName',
-        'second_parameter' => '\Swagger\Client\Model\PerformanceIndicatorFormulaParameterType',
+        'first_parameter' => '\EffetB\BeezupApi\Model\PerformanceIndicatorFormulaParameterType',
+        'operator_name' => '\EffetB\BeezupApi\Model\PerformanceIndicatorFormulaOperatorName',
+        'second_parameter' => '\EffetB\BeezupApi\Model\PerformanceIndicatorFormulaParameterType',
         'third_parameter' => 'int'
     ];
 
@@ -227,7 +227,7 @@ class PerformanceIndicatorFormula implements ModelInterface, ArrayAccess
     /**
      * Gets first_parameter
      *
-     * @return \Swagger\Client\Model\PerformanceIndicatorFormulaParameterType
+     * @return \EffetB\BeezupApi\Model\PerformanceIndicatorFormulaParameterType
      */
     public function getFirstParameter()
     {
@@ -237,7 +237,7 @@ class PerformanceIndicatorFormula implements ModelInterface, ArrayAccess
     /**
      * Sets first_parameter
      *
-     * @param \Swagger\Client\Model\PerformanceIndicatorFormulaParameterType $first_parameter first_parameter
+     * @param \EffetB\BeezupApi\Model\PerformanceIndicatorFormulaParameterType $first_parameter first_parameter
      *
      * @return $this
      */
@@ -251,7 +251,7 @@ class PerformanceIndicatorFormula implements ModelInterface, ArrayAccess
     /**
      * Gets operator_name
      *
-     * @return \Swagger\Client\Model\PerformanceIndicatorFormulaOperatorName
+     * @return \EffetB\BeezupApi\Model\PerformanceIndicatorFormulaOperatorName
      */
     public function getOperatorName()
     {
@@ -261,7 +261,7 @@ class PerformanceIndicatorFormula implements ModelInterface, ArrayAccess
     /**
      * Sets operator_name
      *
-     * @param \Swagger\Client\Model\PerformanceIndicatorFormulaOperatorName $operator_name operator_name
+     * @param \EffetB\BeezupApi\Model\PerformanceIndicatorFormulaOperatorName $operator_name operator_name
      *
      * @return $this
      */
@@ -275,7 +275,7 @@ class PerformanceIndicatorFormula implements ModelInterface, ArrayAccess
     /**
      * Gets second_parameter
      *
-     * @return \Swagger\Client\Model\PerformanceIndicatorFormulaParameterType
+     * @return \EffetB\BeezupApi\Model\PerformanceIndicatorFormulaParameterType
      */
     public function getSecondParameter()
     {
@@ -285,7 +285,7 @@ class PerformanceIndicatorFormula implements ModelInterface, ArrayAccess
     /**
      * Sets second_parameter
      *
-     * @param \Swagger\Client\Model\PerformanceIndicatorFormulaParameterType $second_parameter second_parameter
+     * @param \EffetB\BeezupApi\Model\PerformanceIndicatorFormulaParameterType $second_parameter second_parameter
      *
      * @return $this
      */

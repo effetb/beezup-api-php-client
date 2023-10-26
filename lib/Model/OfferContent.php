@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * OfferContent Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,16 +57,16 @@ class OfferContent implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'previous_fix_period_invoice_prorata_info' => '\Swagger\Client\Model\PreviousFixPeriodInvoiceProrataInfo',
-        'contract_billing_period_info' => '\Swagger\Client\Model\ContractBillingPeriodInfo',
-        'contract_click_info' => '\Swagger\Client\Model\ContractClickInfo',
-        'contract_commitment_info' => '\Swagger\Client\Model\ContractCommitmentInfo',
-        'contract_discount_info' => '\Swagger\Client\Model\ContractDiscountInfo',
-        'contract_money_info' => '\Swagger\Client\Model\ContractMoneyInfo',
-        'contract_store_info' => '\Swagger\Client\Model\ContractStoreInfo',
-        'contract_bonus_info' => '\Swagger\Client\Model\ContractBonusInfo',
-        'contract_termination_reason_type' => '\Swagger\Client\Model\ContractTerminationReasonType',
-        'contract_termination_reason' => '\Swagger\Client\Model\ContractTerminationReason',
+        'previous_fix_period_invoice_prorata_info' => '\EffetB\BeezupApi\Model\PreviousFixPeriodInvoiceProrataInfo',
+        'contract_billing_period_info' => '\EffetB\BeezupApi\Model\ContractBillingPeriodInfo',
+        'contract_click_info' => '\EffetB\BeezupApi\Model\ContractClickInfo',
+        'contract_commitment_info' => '\EffetB\BeezupApi\Model\ContractCommitmentInfo',
+        'contract_discount_info' => '\EffetB\BeezupApi\Model\ContractDiscountInfo',
+        'contract_money_info' => '\EffetB\BeezupApi\Model\ContractMoneyInfo',
+        'contract_store_info' => '\EffetB\BeezupApi\Model\ContractStoreInfo',
+        'contract_bonus_info' => '\EffetB\BeezupApi\Model\ContractBonusInfo',
+        'contract_termination_reason_type' => '\EffetB\BeezupApi\Model\ContractTerminationReasonType',
+        'contract_termination_reason' => '\EffetB\BeezupApi\Model\ContractTerminationReason',
         'notify_vat_exemption' => 'bool'
     ];
 
@@ -322,7 +322,7 @@ class OfferContent implements ModelInterface, ArrayAccess
     /**
      * Gets previous_fix_period_invoice_prorata_info
      *
-     * @return \Swagger\Client\Model\PreviousFixPeriodInvoiceProrataInfo
+     * @return \EffetB\BeezupApi\Model\PreviousFixPeriodInvoiceProrataInfo
      */
     public function getPreviousFixPeriodInvoiceProrataInfo()
     {
@@ -332,7 +332,7 @@ class OfferContent implements ModelInterface, ArrayAccess
     /**
      * Sets previous_fix_period_invoice_prorata_info
      *
-     * @param \Swagger\Client\Model\PreviousFixPeriodInvoiceProrataInfo $previous_fix_period_invoice_prorata_info previous_fix_period_invoice_prorata_info
+     * @param \EffetB\BeezupApi\Model\PreviousFixPeriodInvoiceProrataInfo $previous_fix_period_invoice_prorata_info previous_fix_period_invoice_prorata_info
      *
      * @return $this
      */
@@ -346,7 +346,7 @@ class OfferContent implements ModelInterface, ArrayAccess
     /**
      * Gets contract_billing_period_info
      *
-     * @return \Swagger\Client\Model\ContractBillingPeriodInfo
+     * @return \EffetB\BeezupApi\Model\ContractBillingPeriodInfo
      */
     public function getContractBillingPeriodInfo()
     {
@@ -356,7 +356,7 @@ class OfferContent implements ModelInterface, ArrayAccess
     /**
      * Sets contract_billing_period_info
      *
-     * @param \Swagger\Client\Model\ContractBillingPeriodInfo $contract_billing_period_info contract_billing_period_info
+     * @param \EffetB\BeezupApi\Model\ContractBillingPeriodInfo $contract_billing_period_info contract_billing_period_info
      *
      * @return $this
      */
@@ -370,7 +370,7 @@ class OfferContent implements ModelInterface, ArrayAccess
     /**
      * Gets contract_click_info
      *
-     * @return \Swagger\Client\Model\ContractClickInfo
+     * @return \EffetB\BeezupApi\Model\ContractClickInfo
      */
     public function getContractClickInfo()
     {
@@ -380,7 +380,7 @@ class OfferContent implements ModelInterface, ArrayAccess
     /**
      * Sets contract_click_info
      *
-     * @param \Swagger\Client\Model\ContractClickInfo $contract_click_info contract_click_info
+     * @param \EffetB\BeezupApi\Model\ContractClickInfo $contract_click_info contract_click_info
      *
      * @return $this
      */
@@ -394,7 +394,7 @@ class OfferContent implements ModelInterface, ArrayAccess
     /**
      * Gets contract_commitment_info
      *
-     * @return \Swagger\Client\Model\ContractCommitmentInfo
+     * @return \EffetB\BeezupApi\Model\ContractCommitmentInfo
      */
     public function getContractCommitmentInfo()
     {
@@ -404,7 +404,7 @@ class OfferContent implements ModelInterface, ArrayAccess
     /**
      * Sets contract_commitment_info
      *
-     * @param \Swagger\Client\Model\ContractCommitmentInfo $contract_commitment_info contract_commitment_info
+     * @param \EffetB\BeezupApi\Model\ContractCommitmentInfo $contract_commitment_info contract_commitment_info
      *
      * @return $this
      */
@@ -418,7 +418,7 @@ class OfferContent implements ModelInterface, ArrayAccess
     /**
      * Gets contract_discount_info
      *
-     * @return \Swagger\Client\Model\ContractDiscountInfo
+     * @return \EffetB\BeezupApi\Model\ContractDiscountInfo
      */
     public function getContractDiscountInfo()
     {
@@ -428,7 +428,7 @@ class OfferContent implements ModelInterface, ArrayAccess
     /**
      * Sets contract_discount_info
      *
-     * @param \Swagger\Client\Model\ContractDiscountInfo $contract_discount_info contract_discount_info
+     * @param \EffetB\BeezupApi\Model\ContractDiscountInfo $contract_discount_info contract_discount_info
      *
      * @return $this
      */
@@ -442,7 +442,7 @@ class OfferContent implements ModelInterface, ArrayAccess
     /**
      * Gets contract_money_info
      *
-     * @return \Swagger\Client\Model\ContractMoneyInfo
+     * @return \EffetB\BeezupApi\Model\ContractMoneyInfo
      */
     public function getContractMoneyInfo()
     {
@@ -452,7 +452,7 @@ class OfferContent implements ModelInterface, ArrayAccess
     /**
      * Sets contract_money_info
      *
-     * @param \Swagger\Client\Model\ContractMoneyInfo $contract_money_info contract_money_info
+     * @param \EffetB\BeezupApi\Model\ContractMoneyInfo $contract_money_info contract_money_info
      *
      * @return $this
      */
@@ -466,7 +466,7 @@ class OfferContent implements ModelInterface, ArrayAccess
     /**
      * Gets contract_store_info
      *
-     * @return \Swagger\Client\Model\ContractStoreInfo
+     * @return \EffetB\BeezupApi\Model\ContractStoreInfo
      */
     public function getContractStoreInfo()
     {
@@ -476,7 +476,7 @@ class OfferContent implements ModelInterface, ArrayAccess
     /**
      * Sets contract_store_info
      *
-     * @param \Swagger\Client\Model\ContractStoreInfo $contract_store_info contract_store_info
+     * @param \EffetB\BeezupApi\Model\ContractStoreInfo $contract_store_info contract_store_info
      *
      * @return $this
      */
@@ -490,7 +490,7 @@ class OfferContent implements ModelInterface, ArrayAccess
     /**
      * Gets contract_bonus_info
      *
-     * @return \Swagger\Client\Model\ContractBonusInfo
+     * @return \EffetB\BeezupApi\Model\ContractBonusInfo
      */
     public function getContractBonusInfo()
     {
@@ -500,7 +500,7 @@ class OfferContent implements ModelInterface, ArrayAccess
     /**
      * Sets contract_bonus_info
      *
-     * @param \Swagger\Client\Model\ContractBonusInfo $contract_bonus_info contract_bonus_info
+     * @param \EffetB\BeezupApi\Model\ContractBonusInfo $contract_bonus_info contract_bonus_info
      *
      * @return $this
      */
@@ -514,7 +514,7 @@ class OfferContent implements ModelInterface, ArrayAccess
     /**
      * Gets contract_termination_reason_type
      *
-     * @return \Swagger\Client\Model\ContractTerminationReasonType
+     * @return \EffetB\BeezupApi\Model\ContractTerminationReasonType
      */
     public function getContractTerminationReasonType()
     {
@@ -524,7 +524,7 @@ class OfferContent implements ModelInterface, ArrayAccess
     /**
      * Sets contract_termination_reason_type
      *
-     * @param \Swagger\Client\Model\ContractTerminationReasonType $contract_termination_reason_type contract_termination_reason_type
+     * @param \EffetB\BeezupApi\Model\ContractTerminationReasonType $contract_termination_reason_type contract_termination_reason_type
      *
      * @return $this
      */
@@ -538,7 +538,7 @@ class OfferContent implements ModelInterface, ArrayAccess
     /**
      * Gets contract_termination_reason
      *
-     * @return \Swagger\Client\Model\ContractTerminationReason
+     * @return \EffetB\BeezupApi\Model\ContractTerminationReason
      */
     public function getContractTerminationReason()
     {
@@ -548,7 +548,7 @@ class OfferContent implements ModelInterface, ArrayAccess
     /**
      * Sets contract_termination_reason
      *
-     * @param \Swagger\Client\Model\ContractTerminationReason $contract_termination_reason contract_termination_reason
+     * @param \EffetB\BeezupApi\Model\ContractTerminationReason $contract_termination_reason contract_termination_reason
      *
      * @return $this
      */

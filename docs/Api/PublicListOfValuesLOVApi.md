@@ -1,4 +1,4 @@
-# Swagger\Client\PublicListOfValuesLOVApi
+# EffetB\BeezupApi\PublicListOfValuesLOVApi
 
 All URIs are relative to *https://api.beezup.com/v2*
 
@@ -9,7 +9,7 @@ Method | HTTP request | Description
 
 
 # **getPublicListOfValues**
-> \Swagger\Client\Model\PublicListOfValuesResponse getPublicListOfValues($list_name, $accept_language, $if_none_match)
+> \EffetB\BeezupApi\Model\PublicListOfValuesResponse getPublicListOfValues($list_name, $accept_language, $if_none_match)
 
 Get the list of values related to this list name
 
@@ -18,7 +18,7 @@ Get the list of values related to this list name
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\PublicListOfValuesLOVApi(
+$apiInstance = new EffetB\BeezupApi\Api\PublicListOfValuesLOVApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -46,7 +46,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\PublicListOfValuesResponse**](../Model/PublicListOfValuesResponse.md)
+[**\EffetB\BeezupApi\Model\PublicListOfValuesResponse**](../Model/PublicListOfValuesResponse.md)
 
 ### Authorization
 
@@ -60,7 +60,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getPublicLovIndex**
-> \Swagger\Client\Model\PublicLovIndex getPublicLovIndex($if_none_match)
+> \EffetB\BeezupApi\Model\PublicLovIndex getPublicLovIndex($if_none_match)
 
 Get all list names
 
@@ -69,7 +69,7 @@ Get all list names
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\PublicListOfValuesLOVApi(
+$apiInstance = new EffetB\BeezupApi\Api\PublicListOfValuesLOVApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -93,7 +93,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\PublicLovIndex**](../Model/PublicLovIndex.md)
+[**\EffetB\BeezupApi\Model\PublicLovIndex**](../Model/PublicLovIndex.md)
 
 ### Authorization
 

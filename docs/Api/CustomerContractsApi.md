@@ -1,4 +1,4 @@
-# Swagger\Client\CustomerContractsApi
+# EffetB\BeezupApi\CustomerContractsApi
 
 All URIs are relative to *https://api.beezup.com/v2*
 
@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **createContract**
-> \Swagger\Client\Model\CreateContractResponse createContract($request)
+> \EffetB\BeezupApi\Model\CreateContractResponse createContract($request)
 
 Create a new contract
 
@@ -27,17 +27,17 @@ Now you are ready to create your contract. Before that, please ensure that you c
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CustomerContractsApi(
+$apiInstance = new EffetB\BeezupApi\Api\CustomerContractsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$request = new \Swagger\Client\Model\CreateContract(); // \Swagger\Client\Model\CreateContract | 
+$request = new \EffetB\BeezupApi\Model\CreateContract(); // \EffetB\BeezupApi\Model\CreateContract | 
 
 try {
     $result = $apiInstance->createContract($request);
@@ -52,11 +52,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **request** | [**\Swagger\Client\Model\CreateContract**](../Model/CreateContract.md)|  |
+ **request** | [**\EffetB\BeezupApi\Model\CreateContract**](../Model/CreateContract.md)|  |
 
 ### Return type
 
-[**\Swagger\Client\Model\CreateContractResponse**](../Model/CreateContractResponse.md)
+[**\EffetB\BeezupApi\Model\CreateContractResponse**](../Model/CreateContractResponse.md)
 
 ### Authorization
 
@@ -80,11 +80,11 @@ Delete your next contract
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CustomerContractsApi(
+$apiInstance = new EffetB\BeezupApi\Api\CustomerContractsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -118,7 +118,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getBillingPeriods**
-> \Swagger\Client\Model\BillingPeriodList getBillingPeriods($if_none_match)
+> \EffetB\BeezupApi\Model\BillingPeriodList getBillingPeriods($if_none_match)
 
 Get billing periods conditions
 
@@ -128,11 +128,11 @@ Get billing periods conditions
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CustomerContractsApi(
+$apiInstance = new EffetB\BeezupApi\Api\CustomerContractsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -157,7 +157,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\BillingPeriodList**](../Model/BillingPeriodList.md)
+[**\EffetB\BeezupApi\Model\BillingPeriodList**](../Model/BillingPeriodList.md)
 
 ### Authorization
 
@@ -171,7 +171,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getContracts**
-> \Swagger\Client\Model\Contracts getContracts($if_none_match)
+> \EffetB\BeezupApi\Model\Contracts getContracts($if_none_match)
 
 Get contract list
 
@@ -181,11 +181,11 @@ Get contract list
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CustomerContractsApi(
+$apiInstance = new EffetB\BeezupApi\Api\CustomerContractsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -210,7 +210,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\Contracts**](../Model/Contracts.md)
+[**\EffetB\BeezupApi\Model\Contracts**](../Model/Contracts.md)
 
 ### Authorization
 
@@ -224,7 +224,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getOffer**
-> \Swagger\Client\Model\Offer getOffer($request)
+> \EffetB\BeezupApi\Model\Offer getOffer($request)
 
 Get offer pricing
 
@@ -236,17 +236,17 @@ Get the offer pricing then you can create your contract with the same request pa
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CustomerContractsApi(
+$apiInstance = new EffetB\BeezupApi\Api\CustomerContractsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$request = new \Swagger\Client\Model\OfferRequest(); // \Swagger\Client\Model\OfferRequest | 
+$request = new \EffetB\BeezupApi\Model\OfferRequest(); // \EffetB\BeezupApi\Model\OfferRequest | 
 
 try {
     $result = $apiInstance->getOffer($request);
@@ -261,11 +261,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **request** | [**\Swagger\Client\Model\OfferRequest**](../Model/OfferRequest.md)|  |
+ **request** | [**\EffetB\BeezupApi\Model\OfferRequest**](../Model/OfferRequest.md)|  |
 
 ### Return type
 
-[**\Swagger\Client\Model\Offer**](../Model/Offer.md)
+[**\EffetB\BeezupApi\Model\Offer**](../Model/Offer.md)
 
 ### Authorization
 
@@ -279,7 +279,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getStandardOffers**
-> \Swagger\Client\Model\StandardOffers getStandardOffers($if_none_match)
+> \EffetB\BeezupApi\Model\StandardOffers getStandardOffers($if_none_match)
 
 Get all standard offers
 
@@ -289,11 +289,11 @@ Get all standard offers
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CustomerContractsApi(
+$apiInstance = new EffetB\BeezupApi\Api\CustomerContractsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -318,7 +318,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\StandardOffers**](../Model/StandardOffers.md)
+[**\EffetB\BeezupApi\Model\StandardOffers**](../Model/StandardOffers.md)
 
 ### Authorization
 
@@ -344,11 +344,11 @@ By calling this operation you can re-enable the auto renewal.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CustomerContractsApi(
+$apiInstance = new EffetB\BeezupApi\Api\CustomerContractsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -394,17 +394,17 @@ By default your contract are automatically renew. By calling this operation you 
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CustomerContractsApi(
+$apiInstance = new EffetB\BeezupApi\Api\CustomerContractsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$request = new \Swagger\Client\Model\TerminateContract(); // \Swagger\Client\Model\TerminateContract | Indicate the termination reason
+$request = new \EffetB\BeezupApi\Model\TerminateContract(); // \EffetB\BeezupApi\Model\TerminateContract | Indicate the termination reason
 
 try {
     $apiInstance->terminateCurrentContract($request);
@@ -418,7 +418,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **request** | [**\Swagger\Client\Model\TerminateContract**](../Model/TerminateContract.md)| Indicate the termination reason |
+ **request** | [**\EffetB\BeezupApi\Model\TerminateContract**](../Model/TerminateContract.md)| Indicate the termination reason |
 
 ### Return type
 

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * TerminateContract Class Doc Comment
  *
  * @category Class
  * @description The contract termination info
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,8 +58,8 @@ class TerminateContract implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'contract_termination_reason_type' => '\Swagger\Client\Model\ContractTerminationReasonType',
-        'contract_termination_reason' => '\Swagger\Client\Model\ContractTerminationReason'
+        'contract_termination_reason_type' => '\EffetB\BeezupApi\Model\ContractTerminationReasonType',
+        'contract_termination_reason' => '\EffetB\BeezupApi\Model\ContractTerminationReason'
     ];
 
     /**
@@ -221,7 +221,7 @@ class TerminateContract implements ModelInterface, ArrayAccess
     /**
      * Gets contract_termination_reason_type
      *
-     * @return \Swagger\Client\Model\ContractTerminationReasonType
+     * @return \EffetB\BeezupApi\Model\ContractTerminationReasonType
      */
     public function getContractTerminationReasonType()
     {
@@ -231,7 +231,7 @@ class TerminateContract implements ModelInterface, ArrayAccess
     /**
      * Sets contract_termination_reason_type
      *
-     * @param \Swagger\Client\Model\ContractTerminationReasonType $contract_termination_reason_type contract_termination_reason_type
+     * @param \EffetB\BeezupApi\Model\ContractTerminationReasonType $contract_termination_reason_type contract_termination_reason_type
      *
      * @return $this
      */
@@ -245,7 +245,7 @@ class TerminateContract implements ModelInterface, ArrayAccess
     /**
      * Gets contract_termination_reason
      *
-     * @return \Swagger\Client\Model\ContractTerminationReason
+     * @return \EffetB\BeezupApi\Model\ContractTerminationReason
      */
     public function getContractTerminationReason()
     {
@@ -255,7 +255,7 @@ class TerminateContract implements ModelInterface, ArrayAccess
     /**
      * Sets contract_termination_reason
      *
-     * @param \Swagger\Client\Model\ContractTerminationReason $contract_termination_reason contract_termination_reason
+     * @param \EffetB\BeezupApi\Model\ContractTerminationReason $contract_termination_reason contract_termination_reason
      *
      * @return $this
      */

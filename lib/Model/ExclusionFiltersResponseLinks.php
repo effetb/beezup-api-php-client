@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ExclusionFiltersResponseLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class ExclusionFiltersResponseLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksGetChannelCatalogExclusionFiltersLink',
-        'configure' => '\Swagger\Client\Model\LinksConfigureChannelCatalogExclusionFiltersLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksGetChannelCatalogExclusionFiltersLink',
+        'configure' => '\EffetB\BeezupApi\Model\LinksConfigureChannelCatalogExclusionFiltersLink'
     ];
 
     /**
@@ -220,7 +220,7 @@ class ExclusionFiltersResponseLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksGetChannelCatalogExclusionFiltersLink
+     * @return \EffetB\BeezupApi\Model\LinksGetChannelCatalogExclusionFiltersLink
      */
     public function getSelf()
     {
@@ -230,7 +230,7 @@ class ExclusionFiltersResponseLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksGetChannelCatalogExclusionFiltersLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksGetChannelCatalogExclusionFiltersLink $self self
      *
      * @return $this
      */
@@ -244,7 +244,7 @@ class ExclusionFiltersResponseLinks implements ModelInterface, ArrayAccess
     /**
      * Gets configure
      *
-     * @return \Swagger\Client\Model\LinksConfigureChannelCatalogExclusionFiltersLink
+     * @return \EffetB\BeezupApi\Model\LinksConfigureChannelCatalogExclusionFiltersLink
      */
     public function getConfigure()
     {
@@ -254,7 +254,7 @@ class ExclusionFiltersResponseLinks implements ModelInterface, ArrayAccess
     /**
      * Sets configure
      *
-     * @param \Swagger\Client\Model\LinksConfigureChannelCatalogExclusionFiltersLink $configure configure
+     * @param \EffetB\BeezupApi\Model\LinksConfigureChannelCatalogExclusionFiltersLink $configure configure
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ReportByDayGlobalByChannel Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,7 +58,7 @@ class ReportByDayGlobalByChannel implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'performance_indicator' => 'float',
-        'channel' => '\Swagger\Client\Model\BeezUPCommonChannelBasicInfo'
+        'channel' => '\EffetB\BeezupApi\Model\BeezUPCommonChannelBasicInfo'
     ];
 
     /**
@@ -250,7 +250,7 @@ class ReportByDayGlobalByChannel implements ModelInterface, ArrayAccess
     /**
      * Gets channel
      *
-     * @return \Swagger\Client\Model\BeezUPCommonChannelBasicInfo
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonChannelBasicInfo
      */
     public function getChannel()
     {
@@ -260,7 +260,7 @@ class ReportByDayGlobalByChannel implements ModelInterface, ArrayAccess
     /**
      * Sets channel
      *
-     * @param \Swagger\Client\Model\BeezUPCommonChannelBasicInfo $channel channel
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonChannelBasicInfo $channel channel
      *
      * @return $this
      */

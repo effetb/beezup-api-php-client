@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace EffetB\BeezupApi\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use EffetB\BeezupApi\ApiException;
+use EffetB\BeezupApi\Configuration;
+use EffetB\BeezupApi\HeaderSelector;
+use EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelCatalogsColumnMappingsApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -93,9 +93,9 @@ class ChannelCatalogsColumnMappingsApi
      * Configure channel catalog column mappings
      *
      * @param  string $channel_catalog_id The channel catalog identifier (required)
-     * @param  \Swagger\Client\Model\ChannelCatalogColumnMappingList $request request (required)
+     * @param  \EffetB\BeezupApi\Model\ChannelCatalogColumnMappingList $request request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -110,9 +110,9 @@ class ChannelCatalogsColumnMappingsApi
      * Configure channel catalog column mappings
      *
      * @param  string $channel_catalog_id The channel catalog identifier (required)
-     * @param  \Swagger\Client\Model\ChannelCatalogColumnMappingList $request (required)
+     * @param  \EffetB\BeezupApi\Model\ChannelCatalogColumnMappingList $request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -156,7 +156,7 @@ class ChannelCatalogsColumnMappingsApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -164,7 +164,7 @@ class ChannelCatalogsColumnMappingsApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -180,7 +180,7 @@ class ChannelCatalogsColumnMappingsApi
      * Configure channel catalog column mappings
      *
      * @param  string $channel_catalog_id The channel catalog identifier (required)
-     * @param  \Swagger\Client\Model\ChannelCatalogColumnMappingList $request (required)
+     * @param  \EffetB\BeezupApi\Model\ChannelCatalogColumnMappingList $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -201,7 +201,7 @@ class ChannelCatalogsColumnMappingsApi
      * Configure channel catalog column mappings
      *
      * @param  string $channel_catalog_id The channel catalog identifier (required)
-     * @param  \Swagger\Client\Model\ChannelCatalogColumnMappingList $request (required)
+     * @param  \EffetB\BeezupApi\Model\ChannelCatalogColumnMappingList $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -238,7 +238,7 @@ class ChannelCatalogsColumnMappingsApi
      * Create request for operation 'configureChannelCatalogColumnMappings'
      *
      * @param  string $channel_catalog_id The channel catalog identifier (required)
-     * @param  \Swagger\Client\Model\ChannelCatalogColumnMappingList $request (required)
+     * @param  \EffetB\BeezupApi\Model\ChannelCatalogColumnMappingList $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

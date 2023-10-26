@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * MarketplaceChannelCatalogLinks Class Doc Comment
  *
  * @category Class
  * @description Indicate the actions you can do on a channel catalog. If the settings are valid, you will be able to access to the publication history.
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,9 +58,9 @@ class MarketplaceChannelCatalogLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'properties' => '\Swagger\Client\Model\LinksGetChannelCatalogMarketplacePropertiesLink',
-        'settings' => '\Swagger\Client\Model\LinksGetChannelCatalogMarketplaceSettingsLink',
-        'publications' => '\Swagger\Client\Model\LinksGetPublicationsLink'
+        'properties' => '\EffetB\BeezupApi\Model\LinksGetChannelCatalogMarketplacePropertiesLink',
+        'settings' => '\EffetB\BeezupApi\Model\LinksGetChannelCatalogMarketplaceSettingsLink',
+        'publications' => '\EffetB\BeezupApi\Model\LinksGetPublicationsLink'
     ];
 
     /**
@@ -233,7 +233,7 @@ class MarketplaceChannelCatalogLinks implements ModelInterface, ArrayAccess
     /**
      * Gets properties
      *
-     * @return \Swagger\Client\Model\LinksGetChannelCatalogMarketplacePropertiesLink
+     * @return \EffetB\BeezupApi\Model\LinksGetChannelCatalogMarketplacePropertiesLink
      */
     public function getProperties()
     {
@@ -243,7 +243,7 @@ class MarketplaceChannelCatalogLinks implements ModelInterface, ArrayAccess
     /**
      * Sets properties
      *
-     * @param \Swagger\Client\Model\LinksGetChannelCatalogMarketplacePropertiesLink $properties properties
+     * @param \EffetB\BeezupApi\Model\LinksGetChannelCatalogMarketplacePropertiesLink $properties properties
      *
      * @return $this
      */
@@ -257,7 +257,7 @@ class MarketplaceChannelCatalogLinks implements ModelInterface, ArrayAccess
     /**
      * Gets settings
      *
-     * @return \Swagger\Client\Model\LinksGetChannelCatalogMarketplaceSettingsLink
+     * @return \EffetB\BeezupApi\Model\LinksGetChannelCatalogMarketplaceSettingsLink
      */
     public function getSettings()
     {
@@ -267,7 +267,7 @@ class MarketplaceChannelCatalogLinks implements ModelInterface, ArrayAccess
     /**
      * Sets settings
      *
-     * @param \Swagger\Client\Model\LinksGetChannelCatalogMarketplaceSettingsLink $settings settings
+     * @param \EffetB\BeezupApi\Model\LinksGetChannelCatalogMarketplaceSettingsLink $settings settings
      *
      * @return $this
      */
@@ -281,7 +281,7 @@ class MarketplaceChannelCatalogLinks implements ModelInterface, ArrayAccess
     /**
      * Gets publications
      *
-     * @return \Swagger\Client\Model\LinksGetPublicationsLink
+     * @return \EffetB\BeezupApi\Model\LinksGetPublicationsLink
      */
     public function getPublications()
     {
@@ -291,7 +291,7 @@ class MarketplaceChannelCatalogLinks implements ModelInterface, ArrayAccess
     /**
      * Sets publications
      *
-     * @param \Swagger\Client\Model\LinksGetPublicationsLink $publications publications
+     * @param \EffetB\BeezupApi\Model\LinksGetPublicationsLink $publications publications
      *
      * @return $this
      */

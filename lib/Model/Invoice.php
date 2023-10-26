@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * Invoice Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,12 +58,12 @@ class Invoice implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'invoice_date' => '\DateTime',
-        'contract_id' => '\Swagger\Client\Model\ContractId',
-        'invoice_number' => '\Swagger\Client\Model\InvoiceNumber',
+        'contract_id' => '\EffetB\BeezupApi\Model\ContractId',
+        'invoice_number' => '\EffetB\BeezupApi\Model\InvoiceNumber',
         'amount' => 'double',
         'amount_to_be_paid' => 'double',
-        'currency_code' => '\Swagger\Client\Model\BeezUPCommonCurrencyCode',
-        'payment_status' => '\Swagger\Client\Model\InvoicePaymentStatus',
+        'currency_code' => '\EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode',
+        'payment_status' => '\EffetB\BeezupApi\Model\InvoicePaymentStatus',
         'due_date' => '\DateTime',
         'invoice_url' => 'string'
     ];
@@ -328,7 +328,7 @@ class Invoice implements ModelInterface, ArrayAccess
     /**
      * Gets contract_id
      *
-     * @return \Swagger\Client\Model\ContractId
+     * @return \EffetB\BeezupApi\Model\ContractId
      */
     public function getContractId()
     {
@@ -338,7 +338,7 @@ class Invoice implements ModelInterface, ArrayAccess
     /**
      * Sets contract_id
      *
-     * @param \Swagger\Client\Model\ContractId $contract_id contract_id
+     * @param \EffetB\BeezupApi\Model\ContractId $contract_id contract_id
      *
      * @return $this
      */
@@ -352,7 +352,7 @@ class Invoice implements ModelInterface, ArrayAccess
     /**
      * Gets invoice_number
      *
-     * @return \Swagger\Client\Model\InvoiceNumber
+     * @return \EffetB\BeezupApi\Model\InvoiceNumber
      */
     public function getInvoiceNumber()
     {
@@ -362,7 +362,7 @@ class Invoice implements ModelInterface, ArrayAccess
     /**
      * Sets invoice_number
      *
-     * @param \Swagger\Client\Model\InvoiceNumber $invoice_number invoice_number
+     * @param \EffetB\BeezupApi\Model\InvoiceNumber $invoice_number invoice_number
      *
      * @return $this
      */
@@ -424,7 +424,7 @@ class Invoice implements ModelInterface, ArrayAccess
     /**
      * Gets currency_code
      *
-     * @return \Swagger\Client\Model\BeezUPCommonCurrencyCode
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode
      */
     public function getCurrencyCode()
     {
@@ -434,7 +434,7 @@ class Invoice implements ModelInterface, ArrayAccess
     /**
      * Sets currency_code
      *
-     * @param \Swagger\Client\Model\BeezUPCommonCurrencyCode $currency_code currency_code
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode $currency_code currency_code
      *
      * @return $this
      */
@@ -448,7 +448,7 @@ class Invoice implements ModelInterface, ArrayAccess
     /**
      * Gets payment_status
      *
-     * @return \Swagger\Client\Model\InvoicePaymentStatus
+     * @return \EffetB\BeezupApi\Model\InvoicePaymentStatus
      */
     public function getPaymentStatus()
     {
@@ -458,7 +458,7 @@ class Invoice implements ModelInterface, ArrayAccess
     /**
      * Sets payment_status
      *
-     * @param \Swagger\Client\Model\InvoicePaymentStatus $payment_status payment_status
+     * @param \EffetB\BeezupApi\Model\InvoicePaymentStatus $payment_status payment_status
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * AutoImportConfiguration Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,15 +57,15 @@ class AutoImportConfiguration implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'input' => '\Swagger\Client\Model\InputConfiguration',
-        'input_configured_by_user_id' => '\Swagger\Client\Model\BeezUPCommonUserId',
-        'scheduling_type' => '\Swagger\Client\Model\SchedulingType',
-        'scheduled_by_user_id' => '\Swagger\Client\Model\BeezUPCommonUserId',
+        'input' => '\EffetB\BeezupApi\Model\InputConfiguration',
+        'input_configured_by_user_id' => '\EffetB\BeezupApi\Model\BeezUPCommonUserId',
+        'scheduling_type' => '\EffetB\BeezupApi\Model\SchedulingType',
+        'scheduled_by_user_id' => '\EffetB\BeezupApi\Model\BeezUPCommonUserId',
         'scheduling_value' => 'string[]',
         'paused' => 'bool',
-        'pause_status_changed_by_user_id' => '\Swagger\Client\Model\BeezUPCommonUserId',
+        'pause_status_changed_by_user_id' => '\EffetB\BeezupApi\Model\BeezUPCommonUserId',
         'pause_status_changed_utc_date' => '\DateTime',
-        'duplicate_product_configuration' => '\Swagger\Client\Model\DuplicateProductValueConfiguration',
+        'duplicate_product_configuration' => '\EffetB\BeezupApi\Model\DuplicateProductValueConfiguration',
         'scheduling_local_time_zone_name' => 'string'
     ];
 
@@ -298,7 +298,7 @@ class AutoImportConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets input
      *
-     * @return \Swagger\Client\Model\InputConfiguration
+     * @return \EffetB\BeezupApi\Model\InputConfiguration
      */
     public function getInput()
     {
@@ -308,7 +308,7 @@ class AutoImportConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets input
      *
-     * @param \Swagger\Client\Model\InputConfiguration $input input
+     * @param \EffetB\BeezupApi\Model\InputConfiguration $input input
      *
      * @return $this
      */
@@ -322,7 +322,7 @@ class AutoImportConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets input_configured_by_user_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonUserId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonUserId
      */
     public function getInputConfiguredByUserId()
     {
@@ -332,7 +332,7 @@ class AutoImportConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets input_configured_by_user_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonUserId $input_configured_by_user_id input_configured_by_user_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonUserId $input_configured_by_user_id input_configured_by_user_id
      *
      * @return $this
      */
@@ -346,7 +346,7 @@ class AutoImportConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets scheduling_type
      *
-     * @return \Swagger\Client\Model\SchedulingType
+     * @return \EffetB\BeezupApi\Model\SchedulingType
      */
     public function getSchedulingType()
     {
@@ -356,7 +356,7 @@ class AutoImportConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets scheduling_type
      *
-     * @param \Swagger\Client\Model\SchedulingType $scheduling_type scheduling_type
+     * @param \EffetB\BeezupApi\Model\SchedulingType $scheduling_type scheduling_type
      *
      * @return $this
      */
@@ -370,7 +370,7 @@ class AutoImportConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets scheduled_by_user_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonUserId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonUserId
      */
     public function getScheduledByUserId()
     {
@@ -380,7 +380,7 @@ class AutoImportConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets scheduled_by_user_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonUserId $scheduled_by_user_id scheduled_by_user_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonUserId $scheduled_by_user_id scheduled_by_user_id
      *
      * @return $this
      */
@@ -442,7 +442,7 @@ class AutoImportConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets pause_status_changed_by_user_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonUserId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonUserId
      */
     public function getPauseStatusChangedByUserId()
     {
@@ -452,7 +452,7 @@ class AutoImportConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets pause_status_changed_by_user_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonUserId $pause_status_changed_by_user_id pause_status_changed_by_user_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonUserId $pause_status_changed_by_user_id pause_status_changed_by_user_id
      *
      * @return $this
      */
@@ -490,7 +490,7 @@ class AutoImportConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets duplicate_product_configuration
      *
-     * @return \Swagger\Client\Model\DuplicateProductValueConfiguration
+     * @return \EffetB\BeezupApi\Model\DuplicateProductValueConfiguration
      */
     public function getDuplicateProductConfiguration()
     {
@@ -500,7 +500,7 @@ class AutoImportConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets duplicate_product_configuration
      *
-     * @param \Swagger\Client\Model\DuplicateProductValueConfiguration $duplicate_product_configuration duplicate_product_configuration
+     * @param \EffetB\BeezupApi\Model\DuplicateProductValueConfiguration $duplicate_product_configuration duplicate_product_configuration
      *
      * @return $this
      */

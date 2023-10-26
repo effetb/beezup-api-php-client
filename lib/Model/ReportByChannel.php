@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ReportByChannel Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class ReportByChannel implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'channel' => '\Swagger\Client\Model\BeezUPCommonChannelBasicInfo',
+        'channel' => '\EffetB\BeezupApi\Model\BeezUPCommonChannelBasicInfo',
         'catalog_product_count' => 'int',
         'enabled_product_count' => 'int',
         'click_count' => 'int',
@@ -68,7 +68,7 @@ class ReportByChannel implements ModelInterface, ArrayAccess
         'performance_indicator' => 'float',
         'total_sales' => 'float',
         'sold_product_count' => 'int',
-        'links' => '\Swagger\Client\Model\ReportByChannelLinks'
+        'links' => '\EffetB\BeezupApi\Model\ReportByChannelLinks'
     ];
 
     /**
@@ -334,7 +334,7 @@ class ReportByChannel implements ModelInterface, ArrayAccess
     /**
      * Gets channel
      *
-     * @return \Swagger\Client\Model\BeezUPCommonChannelBasicInfo
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonChannelBasicInfo
      */
     public function getChannel()
     {
@@ -344,7 +344,7 @@ class ReportByChannel implements ModelInterface, ArrayAccess
     /**
      * Sets channel
      *
-     * @param \Swagger\Client\Model\BeezUPCommonChannelBasicInfo $channel channel
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonChannelBasicInfo $channel channel
      *
      * @return $this
      */
@@ -598,7 +598,7 @@ class ReportByChannel implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ReportByChannelLinks
+     * @return \EffetB\BeezupApi\Model\ReportByChannelLinks
      */
     public function getLinks()
     {
@@ -608,7 +608,7 @@ class ReportByChannel implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ReportByChannelLinks $links links
+     * @param \EffetB\BeezupApi\Model\ReportByChannelLinks $links links
      *
      * @return $this
      */

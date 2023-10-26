@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelCostSettings Class Doc Comment
  *
  * @category Class
  * @description Indicate the default configuration of the cost on this channel.
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,7 +58,7 @@ class ChannelCostSettings implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'cost_type' => '\Swagger\Client\Model\CostType',
+        'cost_type' => '\EffetB\BeezupApi\Model\CostType',
         'global_cost_value' => 'float'
     ];
 
@@ -221,7 +221,7 @@ class ChannelCostSettings implements ModelInterface, ArrayAccess
     /**
      * Gets cost_type
      *
-     * @return \Swagger\Client\Model\CostType
+     * @return \EffetB\BeezupApi\Model\CostType
      */
     public function getCostType()
     {
@@ -231,7 +231,7 @@ class ChannelCostSettings implements ModelInterface, ArrayAccess
     /**
      * Sets cost_type
      *
-     * @param \Swagger\Client\Model\CostType $cost_type cost_type
+     * @param \EffetB\BeezupApi\Model\CostType $cost_type cost_type
      *
      * @return $this
      */

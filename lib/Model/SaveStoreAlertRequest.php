@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * SaveStoreAlertRequest Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class SaveStoreAlertRequest implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'enabled' => '\Swagger\Client\Model\AlertEnabled',
-        'properties' => '\Swagger\Client\Model\StoreAlertProperty[]'
+        'enabled' => '\EffetB\BeezupApi\Model\AlertEnabled',
+        'properties' => '\EffetB\BeezupApi\Model\StoreAlertProperty[]'
     ];
 
     /**
@@ -220,7 +220,7 @@ class SaveStoreAlertRequest implements ModelInterface, ArrayAccess
     /**
      * Gets enabled
      *
-     * @return \Swagger\Client\Model\AlertEnabled
+     * @return \EffetB\BeezupApi\Model\AlertEnabled
      */
     public function getEnabled()
     {
@@ -230,7 +230,7 @@ class SaveStoreAlertRequest implements ModelInterface, ArrayAccess
     /**
      * Sets enabled
      *
-     * @param \Swagger\Client\Model\AlertEnabled $enabled enabled
+     * @param \EffetB\BeezupApi\Model\AlertEnabled $enabled enabled
      *
      * @return $this
      */
@@ -244,7 +244,7 @@ class SaveStoreAlertRequest implements ModelInterface, ArrayAccess
     /**
      * Gets properties
      *
-     * @return \Swagger\Client\Model\StoreAlertProperty[]
+     * @return \EffetB\BeezupApi\Model\StoreAlertProperty[]
      */
     public function getProperties()
     {
@@ -254,7 +254,7 @@ class SaveStoreAlertRequest implements ModelInterface, ArrayAccess
     /**
      * Sets properties
      *
-     * @param \Swagger\Client\Model\StoreAlertProperty[] $properties Properties to configure the alert
+     * @param \EffetB\BeezupApi\Model\StoreAlertProperty[] $properties Properties to configure the alert
      *
      * @return $this
      */

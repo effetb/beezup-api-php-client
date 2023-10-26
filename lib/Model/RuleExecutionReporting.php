@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * RuleExecutionReporting Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -61,16 +61,16 @@ class RuleExecutionReporting implements ModelInterface, ArrayAccess
         'rule_name' => 'string',
         'started_utc_date' => '\DateTime',
         'completed_utc_date' => '\DateTime',
-        'status' => '\Swagger\Client\Model\RuleExecutionReportingStatus',
-        'error_type' => '\Swagger\Client\Model\RuleExecutionReportingErrorType',
+        'status' => '\EffetB\BeezupApi\Model\RuleExecutionReportingStatus',
+        'error_type' => '\EffetB\BeezupApi\Model\RuleExecutionReportingErrorType',
         'affected_product_count' => 'int',
         'active_affected_product_count' => 'int',
         'affected_channel_count' => 'int',
-        'optimisation_action_name' => '\Swagger\Client\Model\OptimisationActionName',
+        'optimisation_action_name' => '\EffetB\BeezupApi\Model\OptimisationActionName',
         'user_id' => 'string',
-        'execution_source' => '\Swagger\Client\Model\RuleExecutionReportingExecutionSource',
+        'execution_source' => '\EffetB\BeezupApi\Model\RuleExecutionReportingExecutionSource',
         'report_url' => 'string',
-        'links' => '\Swagger\Client\Model\RuleExecutionReportingLinks'
+        'links' => '\EffetB\BeezupApi\Model\RuleExecutionReportingLinks'
     ];
 
     /**
@@ -406,7 +406,7 @@ class RuleExecutionReporting implements ModelInterface, ArrayAccess
     /**
      * Gets status
      *
-     * @return \Swagger\Client\Model\RuleExecutionReportingStatus
+     * @return \EffetB\BeezupApi\Model\RuleExecutionReportingStatus
      */
     public function getStatus()
     {
@@ -416,7 +416,7 @@ class RuleExecutionReporting implements ModelInterface, ArrayAccess
     /**
      * Sets status
      *
-     * @param \Swagger\Client\Model\RuleExecutionReportingStatus $status status
+     * @param \EffetB\BeezupApi\Model\RuleExecutionReportingStatus $status status
      *
      * @return $this
      */
@@ -430,7 +430,7 @@ class RuleExecutionReporting implements ModelInterface, ArrayAccess
     /**
      * Gets error_type
      *
-     * @return \Swagger\Client\Model\RuleExecutionReportingErrorType
+     * @return \EffetB\BeezupApi\Model\RuleExecutionReportingErrorType
      */
     public function getErrorType()
     {
@@ -440,7 +440,7 @@ class RuleExecutionReporting implements ModelInterface, ArrayAccess
     /**
      * Sets error_type
      *
-     * @param \Swagger\Client\Model\RuleExecutionReportingErrorType $error_type error_type
+     * @param \EffetB\BeezupApi\Model\RuleExecutionReportingErrorType $error_type error_type
      *
      * @return $this
      */
@@ -526,7 +526,7 @@ class RuleExecutionReporting implements ModelInterface, ArrayAccess
     /**
      * Gets optimisation_action_name
      *
-     * @return \Swagger\Client\Model\OptimisationActionName
+     * @return \EffetB\BeezupApi\Model\OptimisationActionName
      */
     public function getOptimisationActionName()
     {
@@ -536,7 +536,7 @@ class RuleExecutionReporting implements ModelInterface, ArrayAccess
     /**
      * Sets optimisation_action_name
      *
-     * @param \Swagger\Client\Model\OptimisationActionName $optimisation_action_name optimisation_action_name
+     * @param \EffetB\BeezupApi\Model\OptimisationActionName $optimisation_action_name optimisation_action_name
      *
      * @return $this
      */
@@ -574,7 +574,7 @@ class RuleExecutionReporting implements ModelInterface, ArrayAccess
     /**
      * Gets execution_source
      *
-     * @return \Swagger\Client\Model\RuleExecutionReportingExecutionSource
+     * @return \EffetB\BeezupApi\Model\RuleExecutionReportingExecutionSource
      */
     public function getExecutionSource()
     {
@@ -584,7 +584,7 @@ class RuleExecutionReporting implements ModelInterface, ArrayAccess
     /**
      * Sets execution_source
      *
-     * @param \Swagger\Client\Model\RuleExecutionReportingExecutionSource $execution_source execution_source
+     * @param \EffetB\BeezupApi\Model\RuleExecutionReportingExecutionSource $execution_source execution_source
      *
      * @return $this
      */
@@ -622,7 +622,7 @@ class RuleExecutionReporting implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\RuleExecutionReportingLinks
+     * @return \EffetB\BeezupApi\Model\RuleExecutionReportingLinks
      */
     public function getLinks()
     {
@@ -632,7 +632,7 @@ class RuleExecutionReporting implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\RuleExecutionReportingLinks $links links
+     * @param \EffetB\BeezupApi\Model\RuleExecutionReportingLinks $links links
      *
      * @return $this
      */

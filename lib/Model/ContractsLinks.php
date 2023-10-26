@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ContractsLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class ContractsLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksGetContractsLink',
-        'create' => '\Swagger\Client\Model\LinksCreateContractLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksGetContractsLink',
+        'create' => '\EffetB\BeezupApi\Model\LinksCreateContractLink'
     ];
 
     /**
@@ -214,7 +214,7 @@ class ContractsLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksGetContractsLink
+     * @return \EffetB\BeezupApi\Model\LinksGetContractsLink
      */
     public function getSelf()
     {
@@ -224,7 +224,7 @@ class ContractsLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksGetContractsLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksGetContractsLink $self self
      *
      * @return $this
      */
@@ -238,7 +238,7 @@ class ContractsLinks implements ModelInterface, ArrayAccess
     /**
      * Gets create
      *
-     * @return \Swagger\Client\Model\LinksCreateContractLink
+     * @return \EffetB\BeezupApi\Model\LinksCreateContractLink
      */
     public function getCreate()
     {
@@ -248,7 +248,7 @@ class ContractsLinks implements ModelInterface, ArrayAccess
     /**
      * Sets create
      *
-     * @param \Swagger\Client\Model\LinksCreateContractLink $create create
+     * @param \EffetB\BeezupApi\Model\LinksCreateContractLink $create create
      *
      * @return $this
      */

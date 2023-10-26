@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelInfoList Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class ChannelInfoList implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\ChannelInfoListLinks',
-        'channels' => '\Swagger\Client\Model\ChannelInfo[]'
+        'links' => '\EffetB\BeezupApi\Model\ChannelInfoListLinks',
+        'channels' => '\EffetB\BeezupApi\Model\ChannelInfo[]'
     ];
 
     /**
@@ -214,7 +214,7 @@ class ChannelInfoList implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ChannelInfoListLinks
+     * @return \EffetB\BeezupApi\Model\ChannelInfoListLinks
      */
     public function getLinks()
     {
@@ -224,7 +224,7 @@ class ChannelInfoList implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ChannelInfoListLinks $links links
+     * @param \EffetB\BeezupApi\Model\ChannelInfoListLinks $links links
      *
      * @return $this
      */
@@ -238,7 +238,7 @@ class ChannelInfoList implements ModelInterface, ArrayAccess
     /**
      * Gets channels
      *
-     * @return \Swagger\Client\Model\ChannelInfo[]
+     * @return \EffetB\BeezupApi\Model\ChannelInfo[]
      */
     public function getChannels()
     {
@@ -248,7 +248,7 @@ class ChannelInfoList implements ModelInterface, ArrayAccess
     /**
      * Sets channels
      *
-     * @param \Swagger\Client\Model\ChannelInfo[] $channels channels
+     * @param \EffetB\BeezupApi\Model\ChannelInfo[] $channels channels
      *
      * @return $this
      */

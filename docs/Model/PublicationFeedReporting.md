@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**feed_type** | [**\Swagger\Client\Model\FeedType**](FeedType.md) |  | 
+**feed_type** | [**\EffetB\BeezupApi\Model\FeedType**](FeedType.md) |  | 
 **start_utc_date** | [**\DateTime**](\DateTime.md) | The feed publication start time (UTC timezone) | 
 **end_utc_date** | [**\DateTime**](\DateTime.md) | The feed publication end time (UTC timezone) | [optional] 
 **processing_status** | **string** | The processing status | 

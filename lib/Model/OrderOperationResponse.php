@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * OrderOperationResponse Class Doc Comment
  *
  * @category Class
  * @description The response given by the batch operation for an order
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,10 +58,10 @@ class OrderOperationResponse implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'order' => '\Swagger\Client\Model\OrderIdentifier',
+        'order' => '\EffetB\BeezupApi\Model\OrderIdentifier',
         'success' => 'bool',
         'status' => 'int',
-        'errors' => '\Swagger\Client\Model\BeezUPCommonUserErrorMessage[]'
+        'errors' => '\EffetB\BeezupApi\Model\BeezUPCommonUserErrorMessage[]'
     ];
 
     /**
@@ -245,7 +245,7 @@ class OrderOperationResponse implements ModelInterface, ArrayAccess
     /**
      * Gets order
      *
-     * @return \Swagger\Client\Model\OrderIdentifier
+     * @return \EffetB\BeezupApi\Model\OrderIdentifier
      */
     public function getOrder()
     {
@@ -255,7 +255,7 @@ class OrderOperationResponse implements ModelInterface, ArrayAccess
     /**
      * Sets order
      *
-     * @param \Swagger\Client\Model\OrderIdentifier $order order
+     * @param \EffetB\BeezupApi\Model\OrderIdentifier $order order
      *
      * @return $this
      */
@@ -317,7 +317,7 @@ class OrderOperationResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors
      *
-     * @return \Swagger\Client\Model\BeezUPCommonUserErrorMessage[]
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonUserErrorMessage[]
      */
     public function getErrors()
     {
@@ -327,7 +327,7 @@ class OrderOperationResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors
      *
-     * @param \Swagger\Client\Model\BeezUPCommonUserErrorMessage[] $errors The error list
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonUserErrorMessage[] $errors The error list
      *
      * @return $this
      */

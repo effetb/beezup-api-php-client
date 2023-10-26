@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ReportByProductLinks Class Doc Comment
  *
  * @category Class
  * @description Depending if the report concerned multiple channels or one channel.
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,8 +58,8 @@ class ReportByProductLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'one_channel_links' => '\Swagger\Client\Model\ReportByProductOneChannelLinks',
-        'all_channels_links' => '\Swagger\Client\Model\ReportByProductAllChannelsLinks'
+        'one_channel_links' => '\EffetB\BeezupApi\Model\ReportByProductOneChannelLinks',
+        'all_channels_links' => '\EffetB\BeezupApi\Model\ReportByProductAllChannelsLinks'
     ];
 
     /**
@@ -215,7 +215,7 @@ class ReportByProductLinks implements ModelInterface, ArrayAccess
     /**
      * Gets one_channel_links
      *
-     * @return \Swagger\Client\Model\ReportByProductOneChannelLinks
+     * @return \EffetB\BeezupApi\Model\ReportByProductOneChannelLinks
      */
     public function getOneChannelLinks()
     {
@@ -225,7 +225,7 @@ class ReportByProductLinks implements ModelInterface, ArrayAccess
     /**
      * Sets one_channel_links
      *
-     * @param \Swagger\Client\Model\ReportByProductOneChannelLinks $one_channel_links one_channel_links
+     * @param \EffetB\BeezupApi\Model\ReportByProductOneChannelLinks $one_channel_links one_channel_links
      *
      * @return $this
      */
@@ -239,7 +239,7 @@ class ReportByProductLinks implements ModelInterface, ArrayAccess
     /**
      * Gets all_channels_links
      *
-     * @return \Swagger\Client\Model\ReportByProductAllChannelsLinks
+     * @return \EffetB\BeezupApi\Model\ReportByProductAllChannelsLinks
      */
     public function getAllChannelsLinks()
     {
@@ -249,7 +249,7 @@ class ReportByProductLinks implements ModelInterface, ArrayAccess
     /**
      * Sets all_channels_links
      *
-     * @param \Swagger\Client\Model\ReportByProductAllChannelsLinks $all_channels_links all_channels_links
+     * @param \EffetB\BeezupApi\Model\ReportByProductAllChannelsLinks $all_channels_links all_channels_links
      *
      * @return $this
      */

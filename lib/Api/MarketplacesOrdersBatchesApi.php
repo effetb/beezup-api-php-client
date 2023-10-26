@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace EffetB\BeezupApi\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use EffetB\BeezupApi\ApiException;
+use EffetB\BeezupApi\Configuration;
+use EffetB\BeezupApi\HeaderSelector;
+use EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * MarketplacesOrdersBatchesApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -94,12 +94,12 @@ class MarketplacesOrdersBatchesApi
      *
      * @param  string $change_order_type The Order change type (required)
      * @param  string $user_name Sometimes the user in the e-commerce application is not the same as user associated with the current subscription key. We recommend providing your application&#39;s user login. (required)
-     * @param  \Swagger\Client\Model\ChangeOrderListRequest $request request (required)
+     * @param  \EffetB\BeezupApi\Model\ChangeOrderListRequest $request request (required)
      * @param  bool $test_mode If true, the operation will be not be sent to marketplace. But the validation will be taken in account. (optional, default to false)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\BatchOrderOperationResponse
+     * @return \EffetB\BeezupApi\Model\BatchOrderOperationResponse
      */
     public function changeOrderList($change_order_type, $user_name, $request, $test_mode = 'false')
     {
@@ -114,16 +114,16 @@ class MarketplacesOrdersBatchesApi
      *
      * @param  string $change_order_type The Order change type (required)
      * @param  string $user_name Sometimes the user in the e-commerce application is not the same as user associated with the current subscription key. We recommend providing your application&#39;s user login. (required)
-     * @param  \Swagger\Client\Model\ChangeOrderListRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ChangeOrderListRequest $request (required)
      * @param  bool $test_mode If true, the operation will be not be sent to marketplace. But the validation will be taken in account. (optional, default to false)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\BatchOrderOperationResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\BatchOrderOperationResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function changeOrderListWithHttpInfo($change_order_type, $user_name, $request, $test_mode = 'false')
     {
-        $returnType = '\Swagger\Client\Model\BatchOrderOperationResponse';
+        $returnType = '\EffetB\BeezupApi\Model\BatchOrderOperationResponse';
         $request = $this->changeOrderListRequest($change_order_type, $user_name, $request, $test_mode);
 
         try {
@@ -175,7 +175,7 @@ class MarketplacesOrdersBatchesApi
                 case 202:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BatchOrderOperationResponse',
+                        '\EffetB\BeezupApi\Model\BatchOrderOperationResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -183,7 +183,7 @@ class MarketplacesOrdersBatchesApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -191,7 +191,7 @@ class MarketplacesOrdersBatchesApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -208,7 +208,7 @@ class MarketplacesOrdersBatchesApi
      *
      * @param  string $change_order_type The Order change type (required)
      * @param  string $user_name Sometimes the user in the e-commerce application is not the same as user associated with the current subscription key. We recommend providing your application&#39;s user login. (required)
-     * @param  \Swagger\Client\Model\ChangeOrderListRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ChangeOrderListRequest $request (required)
      * @param  bool $test_mode If true, the operation will be not be sent to marketplace. But the validation will be taken in account. (optional, default to false)
      *
      * @throws \InvalidArgumentException
@@ -231,7 +231,7 @@ class MarketplacesOrdersBatchesApi
      *
      * @param  string $change_order_type The Order change type (required)
      * @param  string $user_name Sometimes the user in the e-commerce application is not the same as user associated with the current subscription key. We recommend providing your application&#39;s user login. (required)
-     * @param  \Swagger\Client\Model\ChangeOrderListRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ChangeOrderListRequest $request (required)
      * @param  bool $test_mode If true, the operation will be not be sent to marketplace. But the validation will be taken in account. (optional, default to false)
      *
      * @throws \InvalidArgumentException
@@ -239,7 +239,7 @@ class MarketplacesOrdersBatchesApi
      */
     public function changeOrderListAsyncWithHttpInfo($change_order_type, $user_name, $request, $test_mode = 'false')
     {
-        $returnType = '\Swagger\Client\Model\BatchOrderOperationResponse';
+        $returnType = '\EffetB\BeezupApi\Model\BatchOrderOperationResponse';
         $request = $this->changeOrderListRequest($change_order_type, $user_name, $request, $test_mode);
 
         return $this->client
@@ -284,7 +284,7 @@ class MarketplacesOrdersBatchesApi
      *
      * @param  string $change_order_type The Order change type (required)
      * @param  string $user_name Sometimes the user in the e-commerce application is not the same as user associated with the current subscription key. We recommend providing your application&#39;s user login. (required)
-     * @param  \Swagger\Client\Model\ChangeOrderListRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ChangeOrderListRequest $request (required)
      * @param  bool $test_mode If true, the operation will be not be sent to marketplace. But the validation will be taken in account. (optional, default to false)
      *
      * @throws \InvalidArgumentException
@@ -413,11 +413,11 @@ class MarketplacesOrdersBatchesApi
      *
      * Send a batch of operations to clear an Order's merchant information (max 100 items per call)
      *
-     * @param  \Swagger\Client\Model\ClearMerchantOrderInfoListRequest $request request (required)
+     * @param  \EffetB\BeezupApi\Model\ClearMerchantOrderInfoListRequest $request request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\BatchOrderOperationResponse
+     * @return \EffetB\BeezupApi\Model\BatchOrderOperationResponse
      */
     public function clearMerchantOrderInfoList($request)
     {
@@ -430,15 +430,15 @@ class MarketplacesOrdersBatchesApi
      *
      * Send a batch of operations to clear an Order's merchant information (max 100 items per call)
      *
-     * @param  \Swagger\Client\Model\ClearMerchantOrderInfoListRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ClearMerchantOrderInfoListRequest $request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\BatchOrderOperationResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\BatchOrderOperationResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function clearMerchantOrderInfoListWithHttpInfo($request)
     {
-        $returnType = '\Swagger\Client\Model\BatchOrderOperationResponse';
+        $returnType = '\EffetB\BeezupApi\Model\BatchOrderOperationResponse';
         $request = $this->clearMerchantOrderInfoListRequest($request);
 
         try {
@@ -490,7 +490,7 @@ class MarketplacesOrdersBatchesApi
                 case 202:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BatchOrderOperationResponse',
+                        '\EffetB\BeezupApi\Model\BatchOrderOperationResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -498,7 +498,7 @@ class MarketplacesOrdersBatchesApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -506,7 +506,7 @@ class MarketplacesOrdersBatchesApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -521,7 +521,7 @@ class MarketplacesOrdersBatchesApi
      *
      * Send a batch of operations to clear an Order's merchant information (max 100 items per call)
      *
-     * @param  \Swagger\Client\Model\ClearMerchantOrderInfoListRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ClearMerchantOrderInfoListRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -541,14 +541,14 @@ class MarketplacesOrdersBatchesApi
      *
      * Send a batch of operations to clear an Order's merchant information (max 100 items per call)
      *
-     * @param  \Swagger\Client\Model\ClearMerchantOrderInfoListRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ClearMerchantOrderInfoListRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function clearMerchantOrderInfoListAsyncWithHttpInfo($request)
     {
-        $returnType = '\Swagger\Client\Model\BatchOrderOperationResponse';
+        $returnType = '\EffetB\BeezupApi\Model\BatchOrderOperationResponse';
         $request = $this->clearMerchantOrderInfoListRequest($request);
 
         return $this->client
@@ -591,7 +591,7 @@ class MarketplacesOrdersBatchesApi
     /**
      * Create request for operation 'clearMerchantOrderInfoList'
      *
-     * @param  \Swagger\Client\Model\ClearMerchantOrderInfoListRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ClearMerchantOrderInfoListRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -691,11 +691,11 @@ class MarketplacesOrdersBatchesApi
      *
      * Send a batch of operations to set an Order's merchant information  (max 100 items per call)
      *
-     * @param  \Swagger\Client\Model\SetMerchantOrderInfoListRequest $request request (required)
+     * @param  \EffetB\BeezupApi\Model\SetMerchantOrderInfoListRequest $request request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\BatchOrderOperationResponse
+     * @return \EffetB\BeezupApi\Model\BatchOrderOperationResponse
      */
     public function setMerchantOrderInfoList($request)
     {
@@ -708,15 +708,15 @@ class MarketplacesOrdersBatchesApi
      *
      * Send a batch of operations to set an Order's merchant information  (max 100 items per call)
      *
-     * @param  \Swagger\Client\Model\SetMerchantOrderInfoListRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\SetMerchantOrderInfoListRequest $request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\BatchOrderOperationResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\BatchOrderOperationResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function setMerchantOrderInfoListWithHttpInfo($request)
     {
-        $returnType = '\Swagger\Client\Model\BatchOrderOperationResponse';
+        $returnType = '\EffetB\BeezupApi\Model\BatchOrderOperationResponse';
         $request = $this->setMerchantOrderInfoListRequest($request);
 
         try {
@@ -768,7 +768,7 @@ class MarketplacesOrdersBatchesApi
                 case 202:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BatchOrderOperationResponse',
+                        '\EffetB\BeezupApi\Model\BatchOrderOperationResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -776,7 +776,7 @@ class MarketplacesOrdersBatchesApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -784,7 +784,7 @@ class MarketplacesOrdersBatchesApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -799,7 +799,7 @@ class MarketplacesOrdersBatchesApi
      *
      * Send a batch of operations to set an Order's merchant information  (max 100 items per call)
      *
-     * @param  \Swagger\Client\Model\SetMerchantOrderInfoListRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\SetMerchantOrderInfoListRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -819,14 +819,14 @@ class MarketplacesOrdersBatchesApi
      *
      * Send a batch of operations to set an Order's merchant information  (max 100 items per call)
      *
-     * @param  \Swagger\Client\Model\SetMerchantOrderInfoListRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\SetMerchantOrderInfoListRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function setMerchantOrderInfoListAsyncWithHttpInfo($request)
     {
-        $returnType = '\Swagger\Client\Model\BatchOrderOperationResponse';
+        $returnType = '\EffetB\BeezupApi\Model\BatchOrderOperationResponse';
         $request = $this->setMerchantOrderInfoListRequest($request);
 
         return $this->client
@@ -869,7 +869,7 @@ class MarketplacesOrdersBatchesApi
     /**
      * Create request for operation 'setMerchantOrderInfoList'
      *
-     * @param  \Swagger\Client\Model\SetMerchantOrderInfoListRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\SetMerchantOrderInfoListRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

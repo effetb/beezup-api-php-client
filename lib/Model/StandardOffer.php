@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * StandardOffer Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -64,10 +64,10 @@ class StandardOffer implements ModelInterface, ArrayAccess
         'is_most_popular' => 'bool',
         'is_old_offer' => 'bool',
         'fixed_price' => 'double',
-        'currency_code' => '\Swagger\Client\Model\BeezUPCommonCurrencyCode',
+        'currency_code' => '\EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode',
         'position' => 'int',
-        'functionalities' => '\Swagger\Client\Model\OfferFunctionality[]',
-        'links' => '\Swagger\Client\Model\StandardOfferLinks'
+        'functionalities' => '\EffetB\BeezupApi\Model\OfferFunctionality[]',
+        'links' => '\EffetB\BeezupApi\Model\StandardOfferLinks'
     ];
 
     /**
@@ -454,7 +454,7 @@ class StandardOffer implements ModelInterface, ArrayAccess
     /**
      * Gets currency_code
      *
-     * @return \Swagger\Client\Model\BeezUPCommonCurrencyCode
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode
      */
     public function getCurrencyCode()
     {
@@ -464,7 +464,7 @@ class StandardOffer implements ModelInterface, ArrayAccess
     /**
      * Sets currency_code
      *
-     * @param \Swagger\Client\Model\BeezUPCommonCurrencyCode $currency_code currency_code
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode $currency_code currency_code
      *
      * @return $this
      */
@@ -502,7 +502,7 @@ class StandardOffer implements ModelInterface, ArrayAccess
     /**
      * Gets functionalities
      *
-     * @return \Swagger\Client\Model\OfferFunctionality[]
+     * @return \EffetB\BeezupApi\Model\OfferFunctionality[]
      */
     public function getFunctionalities()
     {
@@ -512,7 +512,7 @@ class StandardOffer implements ModelInterface, ArrayAccess
     /**
      * Sets functionalities
      *
-     * @param \Swagger\Client\Model\OfferFunctionality[] $functionalities functionalities
+     * @param \EffetB\BeezupApi\Model\OfferFunctionality[] $functionalities functionalities
      *
      * @return $this
      */
@@ -526,7 +526,7 @@ class StandardOffer implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\StandardOfferLinks
+     * @return \EffetB\BeezupApi\Model\StandardOfferLinks
      */
     public function getLinks()
     {
@@ -536,7 +536,7 @@ class StandardOffer implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\StandardOfferLinks $links links
+     * @param \EffetB\BeezupApi\Model\StandardOfferLinks $links links
      *
      * @return $this
      */

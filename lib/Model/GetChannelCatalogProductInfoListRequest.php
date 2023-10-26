@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * GetChannelCatalogProductInfoListRequest Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,11 +59,11 @@ class GetChannelCatalogProductInfoListRequest implements ModelInterface, ArrayAc
     protected static $swaggerTypes = [
         'page_number' => 'int',
         'page_size' => 'int',
-        'criteria' => '\Swagger\Client\Model\ProductSetVisibilityCriteria',
+        'criteria' => '\EffetB\BeezupApi\Model\ProductSetVisibilityCriteria',
         'overridden' => 'bool',
-        'product_filters' => '\Swagger\Client\Model\BeezUPCommonProductFilters',
-        'catalog_category_filter' => '\Swagger\Client\Model\BeezUPCommonCatalogCategoryFilter',
-        'channel_category_filter' => '\Swagger\Client\Model\BeezUPCommonChannelCategoryFilter'
+        'product_filters' => '\EffetB\BeezupApi\Model\BeezUPCommonProductFilters',
+        'catalog_category_filter' => '\EffetB\BeezupApi\Model\BeezUPCommonCatalogCategoryFilter',
+        'channel_category_filter' => '\EffetB\BeezupApi\Model\BeezUPCommonChannelCategoryFilter'
     ];
 
     /**
@@ -334,7 +334,7 @@ class GetChannelCatalogProductInfoListRequest implements ModelInterface, ArrayAc
     /**
      * Gets criteria
      *
-     * @return \Swagger\Client\Model\ProductSetVisibilityCriteria
+     * @return \EffetB\BeezupApi\Model\ProductSetVisibilityCriteria
      */
     public function getCriteria()
     {
@@ -344,7 +344,7 @@ class GetChannelCatalogProductInfoListRequest implements ModelInterface, ArrayAc
     /**
      * Sets criteria
      *
-     * @param \Swagger\Client\Model\ProductSetVisibilityCriteria $criteria criteria
+     * @param \EffetB\BeezupApi\Model\ProductSetVisibilityCriteria $criteria criteria
      *
      * @return $this
      */
@@ -382,7 +382,7 @@ class GetChannelCatalogProductInfoListRequest implements ModelInterface, ArrayAc
     /**
      * Gets product_filters
      *
-     * @return \Swagger\Client\Model\BeezUPCommonProductFilters
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonProductFilters
      */
     public function getProductFilters()
     {
@@ -392,7 +392,7 @@ class GetChannelCatalogProductInfoListRequest implements ModelInterface, ArrayAc
     /**
      * Sets product_filters
      *
-     * @param \Swagger\Client\Model\BeezUPCommonProductFilters $product_filters product_filters
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonProductFilters $product_filters product_filters
      *
      * @return $this
      */
@@ -406,7 +406,7 @@ class GetChannelCatalogProductInfoListRequest implements ModelInterface, ArrayAc
     /**
      * Gets catalog_category_filter
      *
-     * @return \Swagger\Client\Model\BeezUPCommonCatalogCategoryFilter
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonCatalogCategoryFilter
      */
     public function getCatalogCategoryFilter()
     {
@@ -416,7 +416,7 @@ class GetChannelCatalogProductInfoListRequest implements ModelInterface, ArrayAc
     /**
      * Sets catalog_category_filter
      *
-     * @param \Swagger\Client\Model\BeezUPCommonCatalogCategoryFilter $catalog_category_filter catalog_category_filter
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonCatalogCategoryFilter $catalog_category_filter catalog_category_filter
      *
      * @return $this
      */
@@ -430,7 +430,7 @@ class GetChannelCatalogProductInfoListRequest implements ModelInterface, ArrayAc
     /**
      * Gets channel_category_filter
      *
-     * @return \Swagger\Client\Model\BeezUPCommonChannelCategoryFilter
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonChannelCategoryFilter
      */
     public function getChannelCategoryFilter()
     {
@@ -440,7 +440,7 @@ class GetChannelCatalogProductInfoListRequest implements ModelInterface, ArrayAc
     /**
      * Sets channel_category_filter
      *
-     * @param \Swagger\Client\Model\BeezUPCommonChannelCategoryFilter $channel_category_filter channel_category_filter
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonChannelCategoryFilter $channel_category_filter channel_category_filter
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * MarketplaceChannelCatalogListLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class MarketplaceChannelCatalogListLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksGetMarketplaceChannelCatalogsLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksGetMarketplaceChannelCatalogsLink'
     ];
 
     /**
@@ -214,7 +214,7 @@ class MarketplaceChannelCatalogListLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksGetMarketplaceChannelCatalogsLink
+     * @return \EffetB\BeezupApi\Model\LinksGetMarketplaceChannelCatalogsLink
      */
     public function getSelf()
     {
@@ -224,7 +224,7 @@ class MarketplaceChannelCatalogListLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksGetMarketplaceChannelCatalogsLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksGetMarketplaceChannelCatalogsLink $self self
      *
      * @return $this
      */

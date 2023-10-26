@@ -1,4 +1,4 @@
-# Swagger\Client\CustomerStoresApi
+# EffetB\BeezupApi\CustomerStoresApi
 
 All URIs are relative to *https://api.beezup.com/v2*
 
@@ -12,7 +12,7 @@ Method | HTTP request | Description
 
 
 # **createStore**
-> \Swagger\Client\Model\LinksGetStoreLink createStore($request)
+> \EffetB\BeezupApi\Model\LinksGetStoreLink createStore($request)
 
 Create a new store
 
@@ -22,17 +22,17 @@ Create a new store
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CustomerStoresApi(
+$apiInstance = new EffetB\BeezupApi\Api\CustomerStoresApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$request = new \Swagger\Client\Model\CreateStoreRequest(); // \Swagger\Client\Model\CreateStoreRequest | 
+$request = new \EffetB\BeezupApi\Model\CreateStoreRequest(); // \EffetB\BeezupApi\Model\CreateStoreRequest | 
 
 try {
     $result = $apiInstance->createStore($request);
@@ -47,11 +47,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **request** | [**\Swagger\Client\Model\CreateStoreRequest**](../Model/CreateStoreRequest.md)|  |
+ **request** | [**\EffetB\BeezupApi\Model\CreateStoreRequest**](../Model/CreateStoreRequest.md)|  |
 
 ### Return type
 
-[**\Swagger\Client\Model\LinksGetStoreLink**](../Model/LinksGetStoreLink.md)
+[**\EffetB\BeezupApi\Model\LinksGetStoreLink**](../Model/LinksGetStoreLink.md)
 
 ### Authorization
 
@@ -75,11 +75,11 @@ Delete a store
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CustomerStoresApi(
+$apiInstance = new EffetB\BeezupApi\Api\CustomerStoresApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -117,7 +117,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getStore**
-> \Swagger\Client\Model\Store getStore($store_id, $if_none_match)
+> \EffetB\BeezupApi\Model\Store getStore($store_id, $if_none_match)
 
 Get store's information
 
@@ -127,11 +127,11 @@ Get store's information
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CustomerStoresApi(
+$apiInstance = new EffetB\BeezupApi\Api\CustomerStoresApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -158,7 +158,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\Store**](../Model/Store.md)
+[**\EffetB\BeezupApi\Model\Store**](../Model/Store.md)
 
 ### Authorization
 
@@ -172,7 +172,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getStores**
-> \Swagger\Client\Model\StoreList getStores($if_none_match)
+> \EffetB\BeezupApi\Model\StoreList getStores($if_none_match)
 
 Get store list
 
@@ -182,11 +182,11 @@ Get store list
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CustomerStoresApi(
+$apiInstance = new EffetB\BeezupApi\Api\CustomerStoresApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -211,7 +211,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\StoreList**](../Model/StoreList.md)
+[**\EffetB\BeezupApi\Model\StoreList**](../Model/StoreList.md)
 
 ### Authorization
 
@@ -237,18 +237,18 @@ Update some store's information. FYI, you cannot change the country.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CustomerStoresApi(
+$apiInstance = new EffetB\BeezupApi\Api\CustomerStoresApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $store_id = "store_id_example"; // string | Your store identifier
-$request = new \Swagger\Client\Model\UpdateStoreRequest(); // \Swagger\Client\Model\UpdateStoreRequest | 
+$request = new \EffetB\BeezupApi\Model\UpdateStoreRequest(); // \EffetB\BeezupApi\Model\UpdateStoreRequest | 
 
 try {
     $apiInstance->updateStore($store_id, $request);
@@ -263,7 +263,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **store_id** | **string**| Your store identifier |
- **request** | [**\Swagger\Client\Model\UpdateStoreRequest**](../Model/UpdateStoreRequest.md)|  |
+ **request** | [**\EffetB\BeezupApi\Model\UpdateStoreRequest**](../Model/UpdateStoreRequest.md)|  |
 
 ### Return type
 

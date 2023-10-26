@@ -1,4 +1,4 @@
-# Swagger\Client\CustomerGlobalApi
+# EffetB\BeezupApi\CustomerGlobalApi
 
 All URIs are relative to *https://api.beezup.com/v2*
 
@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **getCustomerIndex**
-> \Swagger\Client\Model\CustomerIndex getCustomerIndex($if_none_match)
+> \EffetB\BeezupApi\Model\CustomerIndex getCustomerIndex($if_none_match)
 
 The index of all operations and LOV
 
@@ -18,11 +18,11 @@ The index of all operations and LOV
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CustomerGlobalApi(
+$apiInstance = new EffetB\BeezupApi\Api\CustomerGlobalApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -47,7 +47,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\CustomerIndex**](../Model/CustomerIndex.md)
+[**\EffetB\BeezupApi\Model\CustomerIndex**](../Model/CustomerIndex.md)
 
 ### Authorization
 

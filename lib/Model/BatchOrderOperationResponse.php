@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * BatchOrderOperationResponse Class Doc Comment
  *
  * @category Class
  * @description The response given by the batch operation
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,7 +58,7 @@ class BatchOrderOperationResponse implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'operations' => '\Swagger\Client\Model\OrderOperationResponse[]'
+        'operations' => '\EffetB\BeezupApi\Model\OrderOperationResponse[]'
     ];
 
     /**
@@ -215,7 +215,7 @@ class BatchOrderOperationResponse implements ModelInterface, ArrayAccess
     /**
      * Gets operations
      *
-     * @return \Swagger\Client\Model\OrderOperationResponse[]
+     * @return \EffetB\BeezupApi\Model\OrderOperationResponse[]
      */
     public function getOperations()
     {
@@ -225,7 +225,7 @@ class BatchOrderOperationResponse implements ModelInterface, ArrayAccess
     /**
      * Sets operations
      *
-     * @param \Swagger\Client\Model\OrderOperationResponse[] $operations operations
+     * @param \EffetB\BeezupApi\Model\OrderOperationResponse[] $operations operations
      *
      * @return $this
      */

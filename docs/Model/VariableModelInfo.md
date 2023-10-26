@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**click_included_and_variable_prices** | [**\Swagger\Client\Model\ClickIncludedAndVariablePrice[]**](ClickIncludedAndVariablePrice.md) | Click included with variable pricing information | 
+**click_included_and_variable_prices** | [**\EffetB\BeezupApi\Model\ClickIncludedAndVariablePrice[]**](ClickIncludedAndVariablePrice.md) | Click included with variable pricing information | 
 **overflow_click_count** | **int** | The overflow click count | 
 **overflow_click_price** | **double** | The overflow click price | 
 

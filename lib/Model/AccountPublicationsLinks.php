@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * AccountPublicationsLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class AccountPublicationsLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksGetPublicationsLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksGetPublicationsLink'
     ];
 
     /**
@@ -214,7 +214,7 @@ class AccountPublicationsLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksGetPublicationsLink
+     * @return \EffetB\BeezupApi\Model\LinksGetPublicationsLink
      */
     public function getSelf()
     {
@@ -224,7 +224,7 @@ class AccountPublicationsLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksGetPublicationsLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksGetPublicationsLink $self self
      *
      * @return $this
      */

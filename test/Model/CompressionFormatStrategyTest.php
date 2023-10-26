@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,14 +27,14 @@
  * Please update the test case below to test the model.
  */
 
-namespace Swagger\Client;
+namespace EffetB\BeezupApi;
 
 /**
  * CompressionFormatStrategyTest Class Doc Comment
  *
  * @category    Class
  * @description Indicate the compression type
- * @package     Swagger\Client
+ * @package     EffetB\BeezupApi
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */

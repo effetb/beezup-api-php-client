@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CopyOptimisationResponse Class Doc Comment
  *
  * @category Class
  * @description Products optimisatisation copied
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,7 +58,7 @@ class CopyOptimisationResponse implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'channel' => '\Swagger\Client\Model\BeezUPCommonChannelBasicInfo',
+        'channel' => '\EffetB\BeezupApi\Model\BeezUPCommonChannelBasicInfo',
         'catalog_product_count' => 'int',
         'enabled_product_count' => 'int'
     ];
@@ -239,7 +239,7 @@ class CopyOptimisationResponse implements ModelInterface, ArrayAccess
     /**
      * Gets channel
      *
-     * @return \Swagger\Client\Model\BeezUPCommonChannelBasicInfo
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonChannelBasicInfo
      */
     public function getChannel()
     {
@@ -249,7 +249,7 @@ class CopyOptimisationResponse implements ModelInterface, ArrayAccess
     /**
      * Sets channel
      *
-     * @param \Swagger\Client\Model\BeezUPCommonChannelBasicInfo $channel channel
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonChannelBasicInfo $channel channel
      *
      * @return $this
      */

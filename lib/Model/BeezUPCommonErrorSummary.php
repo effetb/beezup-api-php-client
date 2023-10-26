@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * BeezUPCommonErrorSummary Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -62,7 +62,7 @@ class BeezUPCommonErrorSummary implements ModelInterface, ArrayAccess
         'error_code' => 'string',
         'error_message' => 'string',
         'technical_error_message' => 'string',
-        'exception_detail' => '\Swagger\Client\Model\BeezUPCommonExceptionDetail',
+        'exception_detail' => '\EffetB\BeezupApi\Model\BeezUPCommonExceptionDetail',
         'error_arguments' => 'map[string,string]',
         'property_name' => 'string',
         'property_value' => 'string',
@@ -388,7 +388,7 @@ class BeezUPCommonErrorSummary implements ModelInterface, ArrayAccess
     /**
      * Gets exception_detail
      *
-     * @return \Swagger\Client\Model\BeezUPCommonExceptionDetail
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonExceptionDetail
      */
     public function getExceptionDetail()
     {
@@ -398,7 +398,7 @@ class BeezUPCommonErrorSummary implements ModelInterface, ArrayAccess
     /**
      * Sets exception_detail
      *
-     * @param \Swagger\Client\Model\BeezUPCommonExceptionDetail $exception_detail exception_detail
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonExceptionDetail $exception_detail exception_detail
      *
      * @return $this
      */

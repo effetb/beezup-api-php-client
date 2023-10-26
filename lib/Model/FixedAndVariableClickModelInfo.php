@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * FixedAndVariableClickModelInfo Class Doc Comment
  *
  * @category Class
  * @description Internal usage: Old offer type. Describe the fix and variable model information
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,7 +58,7 @@ class FixedAndVariableClickModelInfo implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'click_included_and_additional_click_prices' => '\Swagger\Client\Model\ClickIncludedAndAdditionalClickPrice[]'
+        'click_included_and_additional_click_prices' => '\EffetB\BeezupApi\Model\ClickIncludedAndAdditionalClickPrice[]'
     ];
 
     /**
@@ -215,7 +215,7 @@ class FixedAndVariableClickModelInfo implements ModelInterface, ArrayAccess
     /**
      * Gets click_included_and_additional_click_prices
      *
-     * @return \Swagger\Client\Model\ClickIncludedAndAdditionalClickPrice[]
+     * @return \EffetB\BeezupApi\Model\ClickIncludedAndAdditionalClickPrice[]
      */
     public function getClickIncludedAndAdditionalClickPrices()
     {
@@ -225,7 +225,7 @@ class FixedAndVariableClickModelInfo implements ModelInterface, ArrayAccess
     /**
      * Sets click_included_and_additional_click_prices
      *
-     * @param \Swagger\Client\Model\ClickIncludedAndAdditionalClickPrice[] $click_included_and_additional_click_prices click_included_and_additional_click_prices
+     * @param \EffetB\BeezupApi\Model\ClickIncludedAndAdditionalClickPrice[] $click_included_and_additional_click_prices click_included_and_additional_click_prices
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * OrderHistory Class Doc Comment
  *
  * @category Class
  * @description Describe the history related to an order
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,8 +58,8 @@ class OrderHistory implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'change_order_reportings' => '\Swagger\Client\Model\ChangeOrderReporting[]',
-        'harvest_order_reportings' => '\Swagger\Client\Model\HarvestOrderReporting[]',
+        'change_order_reportings' => '\EffetB\BeezupApi\Model\ChangeOrderReporting[]',
+        'harvest_order_reportings' => '\EffetB\BeezupApi\Model\HarvestOrderReporting[]',
         'last_modification_utc_date' => '\DateTime'
     ];
 
@@ -221,7 +221,7 @@ class OrderHistory implements ModelInterface, ArrayAccess
     /**
      * Gets change_order_reportings
      *
-     * @return \Swagger\Client\Model\ChangeOrderReporting[]
+     * @return \EffetB\BeezupApi\Model\ChangeOrderReporting[]
      */
     public function getChangeOrderReportings()
     {
@@ -231,7 +231,7 @@ class OrderHistory implements ModelInterface, ArrayAccess
     /**
      * Sets change_order_reportings
      *
-     * @param \Swagger\Client\Model\ChangeOrderReporting[] $change_order_reportings The list of change order operation
+     * @param \EffetB\BeezupApi\Model\ChangeOrderReporting[] $change_order_reportings The list of change order operation
      *
      * @return $this
      */
@@ -245,7 +245,7 @@ class OrderHistory implements ModelInterface, ArrayAccess
     /**
      * Gets harvest_order_reportings
      *
-     * @return \Swagger\Client\Model\HarvestOrderReporting[]
+     * @return \EffetB\BeezupApi\Model\HarvestOrderReporting[]
      */
     public function getHarvestOrderReportings()
     {
@@ -255,7 +255,7 @@ class OrderHistory implements ModelInterface, ArrayAccess
     /**
      * Sets harvest_order_reportings
      *
-     * @param \Swagger\Client\Model\HarvestOrderReporting[] $harvest_order_reportings harvest_order_reportings
+     * @param \EffetB\BeezupApi\Model\HarvestOrderReporting[] $harvest_order_reportings harvest_order_reportings
      *
      * @return $this
      */

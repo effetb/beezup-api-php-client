@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ContractStoreInfo Class Doc Comment
  *
  * @category Class
  * @description Describe the store information related to the offer.
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,7 +58,7 @@ class ContractStoreInfo implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'store_count' => '\Swagger\Client\Model\StoreCount',
+        'store_count' => '\EffetB\BeezupApi\Model\StoreCount',
         'max_store_count' => 'int',
         'min_store_count' => 'int',
         'owned_store_count' => 'int',
@@ -239,7 +239,7 @@ class ContractStoreInfo implements ModelInterface, ArrayAccess
     /**
      * Gets store_count
      *
-     * @return \Swagger\Client\Model\StoreCount
+     * @return \EffetB\BeezupApi\Model\StoreCount
      */
     public function getStoreCount()
     {
@@ -249,7 +249,7 @@ class ContractStoreInfo implements ModelInterface, ArrayAccess
     /**
      * Sets store_count
      *
-     * @param \Swagger\Client\Model\StoreCount $store_count store_count
+     * @param \EffetB\BeezupApi\Model\StoreCount $store_count store_count
      *
      * @return $this
      */

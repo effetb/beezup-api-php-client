@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ReportByCategoryResponseLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,10 +57,10 @@ class ReportByCategoryResponseLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'enable_all_products' => '\Swagger\Client\Model\LinksOptimiseAllLink',
-        'disable_all_products' => '\Swagger\Client\Model\LinksOptimiseAllLink',
-        'enable_products' => '\Swagger\Client\Model\LinksOptimiseLink',
-        'disable_products' => '\Swagger\Client\Model\LinksOptimiseLink'
+        'enable_all_products' => '\EffetB\BeezupApi\Model\LinksOptimiseAllLink',
+        'disable_all_products' => '\EffetB\BeezupApi\Model\LinksOptimiseAllLink',
+        'enable_products' => '\EffetB\BeezupApi\Model\LinksOptimiseLink',
+        'disable_products' => '\EffetB\BeezupApi\Model\LinksOptimiseLink'
     ];
 
     /**
@@ -226,7 +226,7 @@ class ReportByCategoryResponseLinks implements ModelInterface, ArrayAccess
     /**
      * Gets enable_all_products
      *
-     * @return \Swagger\Client\Model\LinksOptimiseAllLink
+     * @return \EffetB\BeezupApi\Model\LinksOptimiseAllLink
      */
     public function getEnableAllProducts()
     {
@@ -236,7 +236,7 @@ class ReportByCategoryResponseLinks implements ModelInterface, ArrayAccess
     /**
      * Sets enable_all_products
      *
-     * @param \Swagger\Client\Model\LinksOptimiseAllLink $enable_all_products enable_all_products
+     * @param \EffetB\BeezupApi\Model\LinksOptimiseAllLink $enable_all_products enable_all_products
      *
      * @return $this
      */
@@ -250,7 +250,7 @@ class ReportByCategoryResponseLinks implements ModelInterface, ArrayAccess
     /**
      * Gets disable_all_products
      *
-     * @return \Swagger\Client\Model\LinksOptimiseAllLink
+     * @return \EffetB\BeezupApi\Model\LinksOptimiseAllLink
      */
     public function getDisableAllProducts()
     {
@@ -260,7 +260,7 @@ class ReportByCategoryResponseLinks implements ModelInterface, ArrayAccess
     /**
      * Sets disable_all_products
      *
-     * @param \Swagger\Client\Model\LinksOptimiseAllLink $disable_all_products disable_all_products
+     * @param \EffetB\BeezupApi\Model\LinksOptimiseAllLink $disable_all_products disable_all_products
      *
      * @return $this
      */
@@ -274,7 +274,7 @@ class ReportByCategoryResponseLinks implements ModelInterface, ArrayAccess
     /**
      * Gets enable_products
      *
-     * @return \Swagger\Client\Model\LinksOptimiseLink
+     * @return \EffetB\BeezupApi\Model\LinksOptimiseLink
      */
     public function getEnableProducts()
     {
@@ -284,7 +284,7 @@ class ReportByCategoryResponseLinks implements ModelInterface, ArrayAccess
     /**
      * Sets enable_products
      *
-     * @param \Swagger\Client\Model\LinksOptimiseLink $enable_products enable_products
+     * @param \EffetB\BeezupApi\Model\LinksOptimiseLink $enable_products enable_products
      *
      * @return $this
      */
@@ -298,7 +298,7 @@ class ReportByCategoryResponseLinks implements ModelInterface, ArrayAccess
     /**
      * Gets disable_products
      *
-     * @return \Swagger\Client\Model\LinksOptimiseLink
+     * @return \EffetB\BeezupApi\Model\LinksOptimiseLink
      */
     public function getDisableProducts()
     {
@@ -308,7 +308,7 @@ class ReportByCategoryResponseLinks implements ModelInterface, ArrayAccess
     /**
      * Sets disable_products
      *
-     * @param \Swagger\Client\Model\LinksOptimiseLink $disable_products disable_products
+     * @param \EffetB\BeezupApi\Model\LinksOptimiseLink $disable_products disable_products
      *
      * @return $this
      */

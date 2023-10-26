@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * AutomaticTransitionInfoLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class AutomaticTransitionInfoLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'configure' => '\Swagger\Client\Model\LinksConfigureAutomaticTransitionsLink'
+        'configure' => '\EffetB\BeezupApi\Model\LinksConfigureAutomaticTransitionsLink'
     ];
 
     /**
@@ -214,7 +214,7 @@ class AutomaticTransitionInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Gets configure
      *
-     * @return \Swagger\Client\Model\LinksConfigureAutomaticTransitionsLink
+     * @return \EffetB\BeezupApi\Model\LinksConfigureAutomaticTransitionsLink
      */
     public function getConfigure()
     {
@@ -224,7 +224,7 @@ class AutomaticTransitionInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Sets configure
      *
-     * @param \Swagger\Client\Model\LinksConfigureAutomaticTransitionsLink $configure configure
+     * @param \EffetB\BeezupApi\Model\LinksConfigureAutomaticTransitionsLink $configure configure
      *
      * @return $this
      */

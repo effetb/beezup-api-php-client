@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ProductList Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class ProductList implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'pagination_result' => '\Swagger\Client\Model\BeezUPCommonPaginationResult',
-        'products' => '\Swagger\Client\Model\Product[]'
+        'pagination_result' => '\EffetB\BeezupApi\Model\BeezUPCommonPaginationResult',
+        'products' => '\EffetB\BeezupApi\Model\Product[]'
     ];
 
     /**
@@ -226,7 +226,7 @@ class ProductList implements ModelInterface, ArrayAccess
     /**
      * Gets pagination_result
      *
-     * @return \Swagger\Client\Model\BeezUPCommonPaginationResult
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonPaginationResult
      */
     public function getPaginationResult()
     {
@@ -236,7 +236,7 @@ class ProductList implements ModelInterface, ArrayAccess
     /**
      * Sets pagination_result
      *
-     * @param \Swagger\Client\Model\BeezUPCommonPaginationResult $pagination_result pagination_result
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonPaginationResult $pagination_result pagination_result
      *
      * @return $this
      */
@@ -250,7 +250,7 @@ class ProductList implements ModelInterface, ArrayAccess
     /**
      * Gets products
      *
-     * @return \Swagger\Client\Model\Product[]
+     * @return \EffetB\BeezupApi\Model\Product[]
      */
     public function getProducts()
     {
@@ -260,7 +260,7 @@ class ProductList implements ModelInterface, ArrayAccess
     /**
      * Sets products
      *
-     * @param \Swagger\Client\Model\Product[] $products products
+     * @param \EffetB\BeezupApi\Model\Product[] $products products
      *
      * @return $this
      */

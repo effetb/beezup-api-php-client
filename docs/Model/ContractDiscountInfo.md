@@ -6,7 +6,7 @@ Name | Type | Description | Notes
 **amount_code_promo_discount_per_month** | **double** | The amount discounted per month | [optional] 
 **discount_duration_in_month** | **int** | Duration of the discount in month | [optional] 
 **percent_discount** | **double** | Percentage of the discount | [optional] 
-**promotional_code_validity** | [**\Swagger\Client\Model\PromotionalCodeValidity**](PromotionalCodeValidity.md) |  | [optional] 
+**promotional_code_validity** | [**\EffetB\BeezupApi\Model\PromotionalCodeValidity**](PromotionalCodeValidity.md) |  | [optional] 
 **amount_code_promo_discount** | **double** | The discount amount | [optional] 
 **coupon_discount_code** | **string** | The discount code | [optional] 
 **coupon_discount_id** | **int** | Internal use: The discount id | [optional] 

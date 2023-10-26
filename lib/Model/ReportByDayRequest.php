@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ReportByDayRequest Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,12 +57,12 @@ class ReportByDayRequest implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'channel_ids' => '\Swagger\Client\Model\BeezUPCommonChannelId[]',
-        'product_id' => '\Swagger\Client\Model\BeezUPCommonProductId',
-        'catalog_category_id' => '\Swagger\Client\Model\BeezUPCommonCatalogCategoryId',
+        'channel_ids' => '\EffetB\BeezupApi\Model\BeezUPCommonChannelId[]',
+        'product_id' => '\EffetB\BeezupApi\Model\BeezUPCommonProductId',
+        'catalog_category_id' => '\EffetB\BeezupApi\Model\BeezUPCommonCatalogCategoryId',
         'begin_period_utc_date' => '\DateTime',
         'end_period_utc_date' => '\DateTime',
-        'advanced_filters' => '\Swagger\Client\Model\ReportAdvancedFilters'
+        'advanced_filters' => '\EffetB\BeezupApi\Model\ReportAdvancedFilters'
     ];
 
     /**
@@ -250,7 +250,7 @@ class ReportByDayRequest implements ModelInterface, ArrayAccess
     /**
      * Gets channel_ids
      *
-     * @return \Swagger\Client\Model\BeezUPCommonChannelId[]
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonChannelId[]
      */
     public function getChannelIds()
     {
@@ -260,7 +260,7 @@ class ReportByDayRequest implements ModelInterface, ArrayAccess
     /**
      * Sets channel_ids
      *
-     * @param \Swagger\Client\Model\BeezUPCommonChannelId[] $channel_ids Indicate the channel identifier list
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonChannelId[] $channel_ids Indicate the channel identifier list
      *
      * @return $this
      */
@@ -274,7 +274,7 @@ class ReportByDayRequest implements ModelInterface, ArrayAccess
     /**
      * Gets product_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonProductId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonProductId
      */
     public function getProductId()
     {
@@ -284,7 +284,7 @@ class ReportByDayRequest implements ModelInterface, ArrayAccess
     /**
      * Sets product_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonProductId $product_id product_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonProductId $product_id product_id
      *
      * @return $this
      */
@@ -298,7 +298,7 @@ class ReportByDayRequest implements ModelInterface, ArrayAccess
     /**
      * Gets catalog_category_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonCatalogCategoryId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonCatalogCategoryId
      */
     public function getCatalogCategoryId()
     {
@@ -308,7 +308,7 @@ class ReportByDayRequest implements ModelInterface, ArrayAccess
     /**
      * Sets catalog_category_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonCatalogCategoryId $catalog_category_id catalog_category_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonCatalogCategoryId $catalog_category_id catalog_category_id
      *
      * @return $this
      */
@@ -370,7 +370,7 @@ class ReportByDayRequest implements ModelInterface, ArrayAccess
     /**
      * Gets advanced_filters
      *
-     * @return \Swagger\Client\Model\ReportAdvancedFilters
+     * @return \EffetB\BeezupApi\Model\ReportAdvancedFilters
      */
     public function getAdvancedFilters()
     {
@@ -380,7 +380,7 @@ class ReportByDayRequest implements ModelInterface, ArrayAccess
     /**
      * Sets advanced_filters
      *
-     * @param \Swagger\Client\Model\ReportAdvancedFilters $advanced_filters advanced_filters
+     * @param \EffetB\BeezupApi\Model\ReportAdvancedFilters $advanced_filters advanced_filters
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * NextContractInfoLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class NextContractInfoLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'delete' => '\Swagger\Client\Model\LinksDeleteNextContractLink'
+        'delete' => '\EffetB\BeezupApi\Model\LinksDeleteNextContractLink'
     ];
 
     /**
@@ -208,7 +208,7 @@ class NextContractInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Gets delete
      *
-     * @return \Swagger\Client\Model\LinksDeleteNextContractLink
+     * @return \EffetB\BeezupApi\Model\LinksDeleteNextContractLink
      */
     public function getDelete()
     {
@@ -218,7 +218,7 @@ class NextContractInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Sets delete
      *
-     * @param \Swagger\Client\Model\LinksDeleteNextContractLink $delete delete
+     * @param \EffetB\BeezupApi\Model\LinksDeleteNextContractLink $delete delete
      *
      * @return $this
      */

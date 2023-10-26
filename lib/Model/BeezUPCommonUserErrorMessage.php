@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * BeezUPCommonUserErrorMessage Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,11 +57,11 @@ class BeezUPCommonUserErrorMessage implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'doc_url' => '\Swagger\Client\Model\BeezUPCommonDocUrl',
+        'doc_url' => '\EffetB\BeezupApi\Model\BeezUPCommonDocUrl',
         'code' => 'string',
         'message' => 'string',
         'culture_name' => 'string',
-        'arguments' => '\Swagger\Client\Model\BeezUPCommonUserErrorMessageArguments[]'
+        'arguments' => '\EffetB\BeezupApi\Model\BeezUPCommonUserErrorMessageArguments[]'
     ];
 
     /**
@@ -244,7 +244,7 @@ class BeezUPCommonUserErrorMessage implements ModelInterface, ArrayAccess
     /**
      * Gets doc_url
      *
-     * @return \Swagger\Client\Model\BeezUPCommonDocUrl
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonDocUrl
      */
     public function getDocUrl()
     {
@@ -254,7 +254,7 @@ class BeezUPCommonUserErrorMessage implements ModelInterface, ArrayAccess
     /**
      * Sets doc_url
      *
-     * @param \Swagger\Client\Model\BeezUPCommonDocUrl $doc_url doc_url
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonDocUrl $doc_url doc_url
      *
      * @return $this
      */
@@ -340,7 +340,7 @@ class BeezUPCommonUserErrorMessage implements ModelInterface, ArrayAccess
     /**
      * Gets arguments
      *
-     * @return \Swagger\Client\Model\BeezUPCommonUserErrorMessageArguments[]
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonUserErrorMessageArguments[]
      */
     public function getArguments()
     {
@@ -350,7 +350,7 @@ class BeezUPCommonUserErrorMessage implements ModelInterface, ArrayAccess
     /**
      * Sets arguments
      *
-     * @param \Swagger\Client\Model\BeezUPCommonUserErrorMessageArguments[] $arguments a dictionary string/object
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonUserErrorMessageArguments[] $arguments a dictionary string/object
      *
      * @return $this
      */

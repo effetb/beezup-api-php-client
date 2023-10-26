@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace EffetB\BeezupApi\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use EffetB\BeezupApi\ApiException;
+use EffetB\BeezupApi\Configuration;
+use EffetB\BeezupApi\HeaderSelector;
+use EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CatalogsCatalogApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -94,9 +94,9 @@ class CatalogsCatalogApi
      *
      * @param  string $store_id Your store identifier (required)
      * @param  string $column_id The catalog column identifier (required)
-     * @param  \Swagger\Client\Model\ChangeUserColumnNameRequest $request request (required)
+     * @param  \EffetB\BeezupApi\Model\ChangeUserColumnNameRequest $request request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -112,9 +112,9 @@ class CatalogsCatalogApi
      *
      * @param  string $store_id Your store identifier (required)
      * @param  string $column_id The catalog column identifier (required)
-     * @param  \Swagger\Client\Model\ChangeUserColumnNameRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ChangeUserColumnNameRequest $request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -158,7 +158,7 @@ class CatalogsCatalogApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -166,7 +166,7 @@ class CatalogsCatalogApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -174,7 +174,7 @@ class CatalogsCatalogApi
                 case 409:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ImportAlreadyInProgressResponse',
+                        '\EffetB\BeezupApi\Model\ImportAlreadyInProgressResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -182,7 +182,7 @@ class CatalogsCatalogApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -199,7 +199,7 @@ class CatalogsCatalogApi
      *
      * @param  string $store_id Your store identifier (required)
      * @param  string $column_id The catalog column identifier (required)
-     * @param  \Swagger\Client\Model\ChangeUserColumnNameRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ChangeUserColumnNameRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -221,7 +221,7 @@ class CatalogsCatalogApi
      *
      * @param  string $store_id Your store identifier (required)
      * @param  string $column_id The catalog column identifier (required)
-     * @param  \Swagger\Client\Model\ChangeUserColumnNameRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ChangeUserColumnNameRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -259,7 +259,7 @@ class CatalogsCatalogApi
      *
      * @param  string $store_id Your store identifier (required)
      * @param  string $column_id The catalog column identifier (required)
-     * @param  \Swagger\Client\Model\ChangeUserColumnNameRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ChangeUserColumnNameRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -389,9 +389,9 @@ class CatalogsCatalogApi
      *
      * @param  string $store_id Your store identifier (required)
      * @param  string $column_id The custom column identifier (required)
-     * @param  \Swagger\Client\Model\ChangeCustomColumnExpressionRequest $request request (required)
+     * @param  \EffetB\BeezupApi\Model\ChangeCustomColumnExpressionRequest $request request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -407,9 +407,9 @@ class CatalogsCatalogApi
      *
      * @param  string $store_id Your store identifier (required)
      * @param  string $column_id The custom column identifier (required)
-     * @param  \Swagger\Client\Model\ChangeCustomColumnExpressionRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ChangeCustomColumnExpressionRequest $request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -453,7 +453,7 @@ class CatalogsCatalogApi
                 case 403:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -461,7 +461,7 @@ class CatalogsCatalogApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -469,7 +469,7 @@ class CatalogsCatalogApi
                 case 409:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ImportAlreadyInProgressResponse',
+                        '\EffetB\BeezupApi\Model\ImportAlreadyInProgressResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -477,7 +477,7 @@ class CatalogsCatalogApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -494,7 +494,7 @@ class CatalogsCatalogApi
      *
      * @param  string $store_id Your store identifier (required)
      * @param  string $column_id The custom column identifier (required)
-     * @param  \Swagger\Client\Model\ChangeCustomColumnExpressionRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ChangeCustomColumnExpressionRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -516,7 +516,7 @@ class CatalogsCatalogApi
      *
      * @param  string $store_id Your store identifier (required)
      * @param  string $column_id The custom column identifier (required)
-     * @param  \Swagger\Client\Model\ChangeCustomColumnExpressionRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ChangeCustomColumnExpressionRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -554,7 +554,7 @@ class CatalogsCatalogApi
      *
      * @param  string $store_id Your store identifier (required)
      * @param  string $column_id The custom column identifier (required)
-     * @param  \Swagger\Client\Model\ChangeCustomColumnExpressionRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ChangeCustomColumnExpressionRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -684,9 +684,9 @@ class CatalogsCatalogApi
      *
      * @param  string $store_id Your store identifier (required)
      * @param  string $column_id The custom column identifier (required)
-     * @param  \Swagger\Client\Model\ChangeUserColumnNameRequest $request request (required)
+     * @param  \EffetB\BeezupApi\Model\ChangeUserColumnNameRequest $request request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -702,9 +702,9 @@ class CatalogsCatalogApi
      *
      * @param  string $store_id Your store identifier (required)
      * @param  string $column_id The custom column identifier (required)
-     * @param  \Swagger\Client\Model\ChangeUserColumnNameRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ChangeUserColumnNameRequest $request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -748,7 +748,7 @@ class CatalogsCatalogApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -756,7 +756,7 @@ class CatalogsCatalogApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -764,7 +764,7 @@ class CatalogsCatalogApi
                 case 409:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ImportAlreadyInProgressResponse',
+                        '\EffetB\BeezupApi\Model\ImportAlreadyInProgressResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -772,7 +772,7 @@ class CatalogsCatalogApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -789,7 +789,7 @@ class CatalogsCatalogApi
      *
      * @param  string $store_id Your store identifier (required)
      * @param  string $column_id The custom column identifier (required)
-     * @param  \Swagger\Client\Model\ChangeUserColumnNameRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ChangeUserColumnNameRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -811,7 +811,7 @@ class CatalogsCatalogApi
      *
      * @param  string $store_id Your store identifier (required)
      * @param  string $column_id The custom column identifier (required)
-     * @param  \Swagger\Client\Model\ChangeUserColumnNameRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ChangeUserColumnNameRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -849,7 +849,7 @@ class CatalogsCatalogApi
      *
      * @param  string $store_id Your store identifier (required)
      * @param  string $column_id The custom column identifier (required)
-     * @param  \Swagger\Client\Model\ChangeUserColumnNameRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ChangeUserColumnNameRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -978,9 +978,9 @@ class CatalogsCatalogApi
      * Compute the expression for this catalog.
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\ComputeExpressionRequest $request request (required)
+     * @param  \EffetB\BeezupApi\Model\ComputeExpressionRequest $request request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return string
      */
@@ -996,9 +996,9 @@ class CatalogsCatalogApi
      * Compute the expression for this catalog.
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\ComputeExpressionRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ComputeExpressionRequest $request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of string, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1064,7 +1064,7 @@ class CatalogsCatalogApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1080,7 +1080,7 @@ class CatalogsCatalogApi
      * Compute the expression for this catalog.
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\ComputeExpressionRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ComputeExpressionRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1101,7 +1101,7 @@ class CatalogsCatalogApi
      * Compute the expression for this catalog.
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\ComputeExpressionRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ComputeExpressionRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1152,7 +1152,7 @@ class CatalogsCatalogApi
      * Create request for operation 'catalogComputeExpression'
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\ComputeExpressionRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ComputeExpressionRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -1269,7 +1269,7 @@ class CatalogsCatalogApi
      * @param  string $store_id Your store identifier (required)
      * @param  string $column_id The custom column identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1286,7 +1286,7 @@ class CatalogsCatalogApi
      * @param  string $store_id Your store identifier (required)
      * @param  string $column_id The custom column identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1330,7 +1330,7 @@ class CatalogsCatalogApi
                 case 403:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1338,7 +1338,7 @@ class CatalogsCatalogApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1346,7 +1346,7 @@ class CatalogsCatalogApi
                 case 409:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1354,7 +1354,7 @@ class CatalogsCatalogApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1549,9 +1549,9 @@ class CatalogsCatalogApi
      *
      * @param  string $store_id Your store identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CatalogColumnList
+     * @return \EffetB\BeezupApi\Model\CatalogColumnList
      */
     public function catalogGetCatalogColumns($store_id)
     {
@@ -1566,13 +1566,13 @@ class CatalogsCatalogApi
      *
      * @param  string $store_id Your store identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CatalogColumnList, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\CatalogColumnList, HTTP status code, HTTP response headers (array of strings)
      */
     public function catalogGetCatalogColumnsWithHttpInfo($store_id)
     {
-        $returnType = '\Swagger\Client\Model\CatalogColumnList';
+        $returnType = '\EffetB\BeezupApi\Model\CatalogColumnList';
         $request = $this->catalogGetCatalogColumnsRequest($store_id);
 
         try {
@@ -1624,7 +1624,7 @@ class CatalogsCatalogApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CatalogColumnList',
+                        '\EffetB\BeezupApi\Model\CatalogColumnList',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1632,7 +1632,7 @@ class CatalogsCatalogApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1640,7 +1640,7 @@ class CatalogsCatalogApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1682,7 +1682,7 @@ class CatalogsCatalogApi
      */
     public function catalogGetCatalogColumnsAsyncWithHttpInfo($store_id)
     {
-        $returnType = '\Swagger\Client\Model\CatalogColumnList';
+        $returnType = '\EffetB\BeezupApi\Model\CatalogColumnList';
         $request = $this->catalogGetCatalogColumnsRequest($store_id);
 
         return $this->client
@@ -1833,9 +1833,9 @@ class CatalogsCatalogApi
      * @param  string $store_id Your store identifier (required)
      * @param  string[] $accept_encoding Indicates that the client accepts that the response will be compressed to reduce traffic size. (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CategoryList
+     * @return \EffetB\BeezupApi\Model\CategoryList
      */
     public function catalogGetCategories($store_id, $accept_encoding)
     {
@@ -1851,13 +1851,13 @@ class CatalogsCatalogApi
      * @param  string $store_id Your store identifier (required)
      * @param  string[] $accept_encoding Indicates that the client accepts that the response will be compressed to reduce traffic size. (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CategoryList, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\CategoryList, HTTP status code, HTTP response headers (array of strings)
      */
     public function catalogGetCategoriesWithHttpInfo($store_id, $accept_encoding)
     {
-        $returnType = '\Swagger\Client\Model\CategoryList';
+        $returnType = '\EffetB\BeezupApi\Model\CategoryList';
         $request = $this->catalogGetCategoriesRequest($store_id, $accept_encoding);
 
         try {
@@ -1909,7 +1909,7 @@ class CatalogsCatalogApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CategoryList',
+                        '\EffetB\BeezupApi\Model\CategoryList',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1917,7 +1917,7 @@ class CatalogsCatalogApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1925,7 +1925,7 @@ class CatalogsCatalogApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1969,7 +1969,7 @@ class CatalogsCatalogApi
      */
     public function catalogGetCategoriesAsyncWithHttpInfo($store_id, $accept_encoding)
     {
-        $returnType = '\Swagger\Client\Model\CategoryList';
+        $returnType = '\EffetB\BeezupApi\Model\CategoryList';
         $request = $this->catalogGetCategoriesRequest($store_id, $accept_encoding);
 
         return $this->client
@@ -2134,7 +2134,7 @@ class CatalogsCatalogApi
      * @param  string $store_id Your store identifier (required)
      * @param  string $column_id The custom column identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return string
      */
@@ -2152,7 +2152,7 @@ class CatalogsCatalogApi
      * @param  string $store_id Your store identifier (required)
      * @param  string $column_id The custom column identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of string, HTTP status code, HTTP response headers (array of strings)
      */
@@ -2218,7 +2218,7 @@ class CatalogsCatalogApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2427,9 +2427,9 @@ class CatalogsCatalogApi
      *
      * @param  string $store_id Your store identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CustomColumnList
+     * @return \EffetB\BeezupApi\Model\CustomColumnList
      */
     public function catalogGetCustomColumns($store_id)
     {
@@ -2444,13 +2444,13 @@ class CatalogsCatalogApi
      *
      * @param  string $store_id Your store identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CustomColumnList, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\CustomColumnList, HTTP status code, HTTP response headers (array of strings)
      */
     public function catalogGetCustomColumnsWithHttpInfo($store_id)
     {
-        $returnType = '\Swagger\Client\Model\CustomColumnList';
+        $returnType = '\EffetB\BeezupApi\Model\CustomColumnList';
         $request = $this->catalogGetCustomColumnsRequest($store_id);
 
         try {
@@ -2502,7 +2502,7 @@ class CatalogsCatalogApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CustomColumnList',
+                        '\EffetB\BeezupApi\Model\CustomColumnList',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2510,7 +2510,7 @@ class CatalogsCatalogApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2518,7 +2518,7 @@ class CatalogsCatalogApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2560,7 +2560,7 @@ class CatalogsCatalogApi
      */
     public function catalogGetCustomColumnsAsyncWithHttpInfo($store_id)
     {
-        $returnType = '\Swagger\Client\Model\CustomColumnList';
+        $returnType = '\EffetB\BeezupApi\Model\CustomColumnList';
         $request = $this->catalogGetCustomColumnsRequest($store_id);
 
         return $this->client
@@ -2711,9 +2711,9 @@ class CatalogsCatalogApi
      * @param  string $store_id Your store identifier (required)
      * @param  string $product_id The product identifier you want to get (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\Product
+     * @return \EffetB\BeezupApi\Model\Product
      */
     public function catalogGetProductByProductId($store_id, $product_id)
     {
@@ -2729,13 +2729,13 @@ class CatalogsCatalogApi
      * @param  string $store_id Your store identifier (required)
      * @param  string $product_id The product identifier you want to get (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\Product, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\Product, HTTP status code, HTTP response headers (array of strings)
      */
     public function catalogGetProductByProductIdWithHttpInfo($store_id, $product_id)
     {
-        $returnType = '\Swagger\Client\Model\Product';
+        $returnType = '\EffetB\BeezupApi\Model\Product';
         $request = $this->catalogGetProductByProductIdRequest($store_id, $product_id);
 
         try {
@@ -2787,7 +2787,7 @@ class CatalogsCatalogApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\Product',
+                        '\EffetB\BeezupApi\Model\Product',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2795,7 +2795,7 @@ class CatalogsCatalogApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2803,7 +2803,7 @@ class CatalogsCatalogApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2847,7 +2847,7 @@ class CatalogsCatalogApi
      */
     public function catalogGetProductByProductIdAsyncWithHttpInfo($store_id, $product_id)
     {
-        $returnType = '\Swagger\Client\Model\Product';
+        $returnType = '\EffetB\BeezupApi\Model\Product';
         $request = $this->catalogGetProductByProductIdRequest($store_id, $product_id);
 
         return $this->client
@@ -3013,9 +3013,9 @@ class CatalogsCatalogApi
      * @param  string $store_id Your store identifier (required)
      * @param  string $sku The product sku you want to get (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\Product
+     * @return \EffetB\BeezupApi\Model\Product
      */
     public function catalogGetProductBySku($store_id, $sku)
     {
@@ -3031,13 +3031,13 @@ class CatalogsCatalogApi
      * @param  string $store_id Your store identifier (required)
      * @param  string $sku The product sku you want to get (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\Product, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\Product, HTTP status code, HTTP response headers (array of strings)
      */
     public function catalogGetProductBySkuWithHttpInfo($store_id, $sku)
     {
-        $returnType = '\Swagger\Client\Model\Product';
+        $returnType = '\EffetB\BeezupApi\Model\Product';
         $request = $this->catalogGetProductBySkuRequest($store_id, $sku);
 
         try {
@@ -3089,7 +3089,7 @@ class CatalogsCatalogApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\Product',
+                        '\EffetB\BeezupApi\Model\Product',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -3097,7 +3097,7 @@ class CatalogsCatalogApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -3105,7 +3105,7 @@ class CatalogsCatalogApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -3149,7 +3149,7 @@ class CatalogsCatalogApi
      */
     public function catalogGetProductBySkuAsyncWithHttpInfo($store_id, $sku)
     {
-        $returnType = '\Swagger\Client\Model\Product';
+        $returnType = '\EffetB\BeezupApi\Model\Product';
         $request = $this->catalogGetProductBySkuRequest($store_id, $sku);
 
         return $this->client
@@ -3309,11 +3309,11 @@ class CatalogsCatalogApi
      * Get product list
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\GetProductsRequest $request request (required)
+     * @param  \EffetB\BeezupApi\Model\GetProductsRequest $request request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ProductList
+     * @return \EffetB\BeezupApi\Model\ProductList
      */
     public function catalogGetProducts($store_id, $request)
     {
@@ -3327,15 +3327,15 @@ class CatalogsCatalogApi
      * Get product list
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\GetProductsRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\GetProductsRequest $request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ProductList, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\ProductList, HTTP status code, HTTP response headers (array of strings)
      */
     public function catalogGetProductsWithHttpInfo($store_id, $request)
     {
-        $returnType = '\Swagger\Client\Model\ProductList';
+        $returnType = '\EffetB\BeezupApi\Model\ProductList';
         $request = $this->catalogGetProductsRequest($store_id, $request);
 
         try {
@@ -3387,7 +3387,7 @@ class CatalogsCatalogApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ProductList',
+                        '\EffetB\BeezupApi\Model\ProductList',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -3395,7 +3395,7 @@ class CatalogsCatalogApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -3403,7 +3403,7 @@ class CatalogsCatalogApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -3419,7 +3419,7 @@ class CatalogsCatalogApi
      * Get product list
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\GetProductsRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\GetProductsRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -3440,14 +3440,14 @@ class CatalogsCatalogApi
      * Get product list
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\GetProductsRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\GetProductsRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function catalogGetProductsAsyncWithHttpInfo($store_id, $request)
     {
-        $returnType = '\Swagger\Client\Model\ProductList';
+        $returnType = '\EffetB\BeezupApi\Model\ProductList';
         $request = $this->catalogGetProductsRequest($store_id, $request);
 
         return $this->client
@@ -3491,7 +3491,7 @@ class CatalogsCatalogApi
      * Create request for operation 'catalogGetProducts'
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\GetProductsRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\GetProductsRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -3607,9 +3607,9 @@ class CatalogsCatalogApi
      *
      * @param  string $store_id Your store identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\RandomProductList
+     * @return \EffetB\BeezupApi\Model\RandomProductList
      */
     public function catalogGetRandomProducts($store_id)
     {
@@ -3624,13 +3624,13 @@ class CatalogsCatalogApi
      *
      * @param  string $store_id Your store identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\RandomProductList, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\RandomProductList, HTTP status code, HTTP response headers (array of strings)
      */
     public function catalogGetRandomProductsWithHttpInfo($store_id)
     {
-        $returnType = '\Swagger\Client\Model\RandomProductList';
+        $returnType = '\EffetB\BeezupApi\Model\RandomProductList';
         $request = $this->catalogGetRandomProductsRequest($store_id);
 
         try {
@@ -3682,7 +3682,7 @@ class CatalogsCatalogApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\RandomProductList',
+                        '\EffetB\BeezupApi\Model\RandomProductList',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -3690,7 +3690,7 @@ class CatalogsCatalogApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -3698,7 +3698,7 @@ class CatalogsCatalogApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -3740,7 +3740,7 @@ class CatalogsCatalogApi
      */
     public function catalogGetRandomProductsAsyncWithHttpInfo($store_id)
     {
-        $returnType = '\Swagger\Client\Model\RandomProductList';
+        $returnType = '\EffetB\BeezupApi\Model\RandomProductList';
         $request = $this->catalogGetRandomProductsRequest($store_id);
 
         return $this->client
@@ -3890,9 +3890,9 @@ class CatalogsCatalogApi
      *
      * @param  string $store_id Your store identifier (required)
      * @param  string $column_id The custom column identifier (required)
-     * @param  \Swagger\Client\Model\CreateCustomColumnRequest $request request (required)
+     * @param  \EffetB\BeezupApi\Model\CreateCustomColumnRequest $request request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -3908,9 +3908,9 @@ class CatalogsCatalogApi
      *
      * @param  string $store_id Your store identifier (required)
      * @param  string $column_id The custom column identifier (required)
-     * @param  \Swagger\Client\Model\CreateCustomColumnRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\CreateCustomColumnRequest $request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -3954,7 +3954,7 @@ class CatalogsCatalogApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -3962,7 +3962,7 @@ class CatalogsCatalogApi
                 case 409:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ImportAlreadyInProgressResponse',
+                        '\EffetB\BeezupApi\Model\ImportAlreadyInProgressResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -3970,7 +3970,7 @@ class CatalogsCatalogApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -3987,7 +3987,7 @@ class CatalogsCatalogApi
      *
      * @param  string $store_id Your store identifier (required)
      * @param  string $column_id The custom column identifier (required)
-     * @param  \Swagger\Client\Model\CreateCustomColumnRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\CreateCustomColumnRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -4009,7 +4009,7 @@ class CatalogsCatalogApi
      *
      * @param  string $store_id Your store identifier (required)
      * @param  string $column_id The custom column identifier (required)
-     * @param  \Swagger\Client\Model\CreateCustomColumnRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\CreateCustomColumnRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -4047,7 +4047,7 @@ class CatalogsCatalogApi
      *
      * @param  string $store_id Your store identifier (required)
      * @param  string $column_id The custom column identifier (required)
-     * @param  \Swagger\Client\Model\CreateCustomColumnRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\CreateCustomColumnRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -4177,9 +4177,9 @@ class CatalogsCatalogApi
      *
      * @param  string $store_id Your store identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CatalogStoreIndex
+     * @return \EffetB\BeezupApi\Model\CatalogStoreIndex
      */
     public function catalogStoreIndex($store_id)
     {
@@ -4194,13 +4194,13 @@ class CatalogsCatalogApi
      *
      * @param  string $store_id Your store identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CatalogStoreIndex, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\CatalogStoreIndex, HTTP status code, HTTP response headers (array of strings)
      */
     public function catalogStoreIndexWithHttpInfo($store_id)
     {
-        $returnType = '\Swagger\Client\Model\CatalogStoreIndex';
+        $returnType = '\EffetB\BeezupApi\Model\CatalogStoreIndex';
         $request = $this->catalogStoreIndexRequest($store_id);
 
         try {
@@ -4252,7 +4252,7 @@ class CatalogsCatalogApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CatalogStoreIndex',
+                        '\EffetB\BeezupApi\Model\CatalogStoreIndex',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -4260,7 +4260,7 @@ class CatalogsCatalogApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -4302,7 +4302,7 @@ class CatalogsCatalogApi
      */
     public function catalogStoreIndexAsyncWithHttpInfo($store_id)
     {
-        $returnType = '\Swagger\Client\Model\CatalogStoreIndex';
+        $returnType = '\EffetB\BeezupApi\Model\CatalogStoreIndex';
         $request = $this->catalogStoreIndexRequest($store_id);
 
         return $this->client
@@ -4452,9 +4452,9 @@ class CatalogsCatalogApi
      *
      * @param  string $store_id Your store identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\LastManualImportInputConfiguration
+     * @return \EffetB\BeezupApi\Model\LastManualImportInputConfiguration
      */
     public function importationGetManualUpdateLastInputConfig($store_id)
     {
@@ -4469,13 +4469,13 @@ class CatalogsCatalogApi
      *
      * @param  string $store_id Your store identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\LastManualImportInputConfiguration, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\LastManualImportInputConfiguration, HTTP status code, HTTP response headers (array of strings)
      */
     public function importationGetManualUpdateLastInputConfigWithHttpInfo($store_id)
     {
-        $returnType = '\Swagger\Client\Model\LastManualImportInputConfiguration';
+        $returnType = '\EffetB\BeezupApi\Model\LastManualImportInputConfiguration';
         $request = $this->importationGetManualUpdateLastInputConfigRequest($store_id);
 
         try {
@@ -4527,7 +4527,7 @@ class CatalogsCatalogApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\LastManualImportInputConfiguration',
+                        '\EffetB\BeezupApi\Model\LastManualImportInputConfiguration',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -4535,7 +4535,7 @@ class CatalogsCatalogApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -4543,7 +4543,7 @@ class CatalogsCatalogApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -4585,7 +4585,7 @@ class CatalogsCatalogApi
      */
     public function importationGetManualUpdateLastInputConfigAsyncWithHttpInfo($store_id)
     {
-        $returnType = '\Swagger\Client\Model\LastManualImportInputConfiguration';
+        $returnType = '\EffetB\BeezupApi\Model\LastManualImportInputConfiguration';
         $request = $this->importationGetManualUpdateLastInputConfigRequest($store_id);
 
         return $this->client

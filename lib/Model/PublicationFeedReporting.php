@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * PublicationFeedReporting Class Doc Comment
  *
  * @category Class
  * @description Publication feed reporting
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,7 +58,7 @@ class PublicationFeedReporting implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'feed_type' => '\Swagger\Client\Model\FeedType',
+        'feed_type' => '\EffetB\BeezupApi\Model\FeedType',
         'start_utc_date' => '\DateTime',
         'end_utc_date' => '\DateTime',
         'processing_status' => 'string',
@@ -299,7 +299,7 @@ class PublicationFeedReporting implements ModelInterface, ArrayAccess
     /**
      * Gets feed_type
      *
-     * @return \Swagger\Client\Model\FeedType
+     * @return \EffetB\BeezupApi\Model\FeedType
      */
     public function getFeedType()
     {
@@ -309,7 +309,7 @@ class PublicationFeedReporting implements ModelInterface, ArrayAccess
     /**
      * Sets feed_type
      *
-     * @param \Swagger\Client\Model\FeedType $feed_type feed_type
+     * @param \EffetB\BeezupApi\Model\FeedType $feed_type feed_type
      *
      * @return $this
      */

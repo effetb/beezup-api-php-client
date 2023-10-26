@@ -1,4 +1,4 @@
-# Swagger\Client\ChannelsChannelsGlobalApi
+# EffetB\BeezupApi\ChannelsChannelsGlobalApi
 
 All URIs are relative to *https://api.beezup.com/v2*
 
@@ -11,7 +11,7 @@ Method | HTTP request | Description
 
 
 # **getAvailableChannels**
-> \Swagger\Client\Model\ChannelHeader[] getAvailableChannels($store_id)
+> \EffetB\BeezupApi\Model\ChannelHeader[] getAvailableChannels($store_id)
 
 List all available channel for this store
 
@@ -21,11 +21,11 @@ List all available channel for this store
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ChannelsChannelsGlobalApi(
+$apiInstance = new EffetB\BeezupApi\Api\ChannelsChannelsGlobalApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\ChannelHeader[]**](../Model/ChannelHeader.md)
+[**\EffetB\BeezupApi\Model\ChannelHeader[]**](../Model/ChannelHeader.md)
 
 ### Authorization
 
@@ -64,7 +64,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getChannelCategories**
-> \Swagger\Client\Model\ChannelRootCategory getChannelCategories($channel_id, $accept_encoding)
+> \EffetB\BeezupApi\Model\ChannelRootCategory getChannelCategories($channel_id, $accept_encoding)
 
 Get channel categories
 
@@ -74,11 +74,11 @@ Get channel categories
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ChannelsChannelsGlobalApi(
+$apiInstance = new EffetB\BeezupApi\Api\ChannelsChannelsGlobalApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -105,7 +105,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\ChannelRootCategory**](../Model/ChannelRootCategory.md)
+[**\EffetB\BeezupApi\Model\ChannelRootCategory**](../Model/ChannelRootCategory.md)
 
 ### Authorization
 
@@ -119,7 +119,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getChannelColumns**
-> \Swagger\Client\Model\ChannelColumn[] getChannelColumns($channel_id, $accept_encoding, $request)
+> \EffetB\BeezupApi\Model\ChannelColumn[] getChannelColumns($channel_id, $accept_encoding, $request)
 
 Get channel columns
 
@@ -129,11 +129,11 @@ Get channel columns
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ChannelsChannelsGlobalApi(
+$apiInstance = new EffetB\BeezupApi\Api\ChannelsChannelsGlobalApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -141,7 +141,7 @@ $apiInstance = new Swagger\Client\Api\ChannelsChannelsGlobalApi(
 );
 $channel_id = "\"2dc136a7-0d3d-4cc9-a825-a28a42c53e28\""; // string | The channel identifier
 $accept_encoding = array("accept_encoding_example"); // string[] | Indicates that the client accepts that the response will be compressed to reduce traffic size.
-$request = array(new \Swagger\Client\Model\BeezUPCommonChannelColumnId()); // \Swagger\Client\Model\BeezUPCommonChannelColumnId[] | Allow you to filter the channel column identifier list your want to get
+$request = array(new \EffetB\BeezupApi\Model\BeezUPCommonChannelColumnId()); // \EffetB\BeezupApi\Model\BeezUPCommonChannelColumnId[] | Allow you to filter the channel column identifier list your want to get
 
 try {
     $result = $apiInstance->getChannelColumns($channel_id, $accept_encoding, $request);
@@ -158,11 +158,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **channel_id** | **string**| The channel identifier |
  **accept_encoding** | [**string[]**](../Model/string.md)| Indicates that the client accepts that the response will be compressed to reduce traffic size. |
- **request** | [**\Swagger\Client\Model\BeezUPCommonChannelColumnId[]**](../Model/BeezUPCommonChannelColumnId.md)| Allow you to filter the channel column identifier list your want to get | [optional]
+ **request** | [**\EffetB\BeezupApi\Model\BeezUPCommonChannelColumnId[]**](../Model/BeezUPCommonChannelColumnId.md)| Allow you to filter the channel column identifier list your want to get | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\ChannelColumn[]**](../Model/ChannelColumn.md)
+[**\EffetB\BeezupApi\Model\ChannelColumn[]**](../Model/ChannelColumn.md)
 
 ### Authorization
 
@@ -176,7 +176,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getChannelInfo**
-> \Swagger\Client\Model\ChannelInfo getChannelInfo($channel_id)
+> \EffetB\BeezupApi\Model\ChannelInfo getChannelInfo($channel_id)
 
 Get channel information
 
@@ -186,11 +186,11 @@ Get channel information
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ChannelsChannelsGlobalApi(
+$apiInstance = new EffetB\BeezupApi\Api\ChannelsChannelsGlobalApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -215,7 +215,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\ChannelInfo**](../Model/ChannelInfo.md)
+[**\EffetB\BeezupApi\Model\ChannelInfo**](../Model/ChannelInfo.md)
 
 ### Authorization
 

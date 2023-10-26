@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelCatalogCategoryConfiguration Class Doc Comment
  *
  * @category Class
  * @description Represent a mapping between a catalog category path and a channel category path. The cost on this mapping can be applied.
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,9 +59,9 @@ class ChannelCatalogCategoryConfiguration implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'auto_map_new_sub_categories' => 'bool',
-        'catalog_category_path' => '\Swagger\Client\Model\BeezUPCommonCatalogCategoryPath',
-        'channel_category_path' => '\Swagger\Client\Model\BeezUPCommonChannelCategoryPath',
-        'cost_value' => '\Swagger\Client\Model\ChannelCatalogCategoryCostValue'
+        'catalog_category_path' => '\EffetB\BeezupApi\Model\BeezUPCommonCatalogCategoryPath',
+        'channel_category_path' => '\EffetB\BeezupApi\Model\BeezUPCommonChannelCategoryPath',
+        'cost_value' => '\EffetB\BeezupApi\Model\ChannelCatalogCategoryCostValue'
     ];
 
     /**
@@ -263,7 +263,7 @@ class ChannelCatalogCategoryConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets catalog_category_path
      *
-     * @return \Swagger\Client\Model\BeezUPCommonCatalogCategoryPath
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonCatalogCategoryPath
      */
     public function getCatalogCategoryPath()
     {
@@ -273,7 +273,7 @@ class ChannelCatalogCategoryConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets catalog_category_path
      *
-     * @param \Swagger\Client\Model\BeezUPCommonCatalogCategoryPath $catalog_category_path catalog_category_path
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonCatalogCategoryPath $catalog_category_path catalog_category_path
      *
      * @return $this
      */
@@ -287,7 +287,7 @@ class ChannelCatalogCategoryConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets channel_category_path
      *
-     * @return \Swagger\Client\Model\BeezUPCommonChannelCategoryPath
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonChannelCategoryPath
      */
     public function getChannelCategoryPath()
     {
@@ -297,7 +297,7 @@ class ChannelCatalogCategoryConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets channel_category_path
      *
-     * @param \Swagger\Client\Model\BeezUPCommonChannelCategoryPath $channel_category_path channel_category_path
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonChannelCategoryPath $channel_category_path channel_category_path
      *
      * @return $this
      */
@@ -311,7 +311,7 @@ class ChannelCatalogCategoryConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets cost_value
      *
-     * @return \Swagger\Client\Model\ChannelCatalogCategoryCostValue
+     * @return \EffetB\BeezupApi\Model\ChannelCatalogCategoryCostValue
      */
     public function getCostValue()
     {
@@ -321,7 +321,7 @@ class ChannelCatalogCategoryConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets cost_value
      *
-     * @param \Swagger\Client\Model\ChannelCatalogCategoryCostValue $cost_value cost_value
+     * @param \EffetB\BeezupApi\Model\ChannelCatalogCategoryCostValue $cost_value cost_value
      *
      * @return $this
      */

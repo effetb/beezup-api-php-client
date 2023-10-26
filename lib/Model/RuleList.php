@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * RuleList Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class RuleList implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'rules' => '\Swagger\Client\Model\Rule[]',
-        'links' => '\Swagger\Client\Model\RuleListLinks'
+        'rules' => '\EffetB\BeezupApi\Model\Rule[]',
+        'links' => '\EffetB\BeezupApi\Model\RuleListLinks'
     ];
 
     /**
@@ -226,7 +226,7 @@ class RuleList implements ModelInterface, ArrayAccess
     /**
      * Gets rules
      *
-     * @return \Swagger\Client\Model\Rule[]
+     * @return \EffetB\BeezupApi\Model\Rule[]
      */
     public function getRules()
     {
@@ -236,7 +236,7 @@ class RuleList implements ModelInterface, ArrayAccess
     /**
      * Sets rules
      *
-     * @param \Swagger\Client\Model\Rule[] $rules Rule list
+     * @param \EffetB\BeezupApi\Model\Rule[] $rules Rule list
      *
      * @return $this
      */
@@ -250,7 +250,7 @@ class RuleList implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\RuleListLinks
+     * @return \EffetB\BeezupApi\Model\RuleListLinks
      */
     public function getLinks()
     {
@@ -260,7 +260,7 @@ class RuleList implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\RuleListLinks $links links
+     * @param \EffetB\BeezupApi\Model\RuleListLinks $links links
      *
      * @return $this
      */

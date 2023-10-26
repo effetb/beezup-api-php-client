@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,15 +27,15 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace EffetB\BeezupApi\Model;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * BeezUPCommonColumnDataType Class Doc Comment
  *
  * @category Class
  * @description Data type of the column, will be used for parsing and for consolidation proces
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */

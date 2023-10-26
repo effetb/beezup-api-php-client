@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * BonusInfo Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class BonusInfo implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'bonus_type' => '\Swagger\Client\Model\BonusType',
+        'bonus_type' => '\EffetB\BeezupApi\Model\BonusType',
         'amount' => 'double'
     ];
 
@@ -226,7 +226,7 @@ class BonusInfo implements ModelInterface, ArrayAccess
     /**
      * Gets bonus_type
      *
-     * @return \Swagger\Client\Model\BonusType
+     * @return \EffetB\BeezupApi\Model\BonusType
      */
     public function getBonusType()
     {
@@ -236,7 +236,7 @@ class BonusInfo implements ModelInterface, ArrayAccess
     /**
      * Sets bonus_type
      *
-     * @param \Swagger\Client\Model\BonusType $bonus_type bonus_type
+     * @param \EffetB\BeezupApi\Model\BonusType $bonus_type bonus_type
      *
      * @return $this
      */

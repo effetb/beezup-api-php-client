@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ImportationsResponseLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class ImportationsResponseLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksImportationGetReportingsLink',
-        'start' => '\Swagger\Client\Model\LinksImportationStartManualUpdateLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksImportationGetReportingsLink',
+        'start' => '\EffetB\BeezupApi\Model\LinksImportationStartManualUpdateLink'
     ];
 
     /**
@@ -214,7 +214,7 @@ class ImportationsResponseLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksImportationGetReportingsLink
+     * @return \EffetB\BeezupApi\Model\LinksImportationGetReportingsLink
      */
     public function getSelf()
     {
@@ -224,7 +224,7 @@ class ImportationsResponseLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksImportationGetReportingsLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksImportationGetReportingsLink $self self
      *
      * @return $this
      */
@@ -238,7 +238,7 @@ class ImportationsResponseLinks implements ModelInterface, ArrayAccess
     /**
      * Gets start
      *
-     * @return \Swagger\Client\Model\LinksImportationStartManualUpdateLink
+     * @return \EffetB\BeezupApi\Model\LinksImportationStartManualUpdateLink
      */
     public function getStart()
     {
@@ -248,7 +248,7 @@ class ImportationsResponseLinks implements ModelInterface, ArrayAccess
     /**
      * Sets start
      *
-     * @param \Swagger\Client\Model\LinksImportationStartManualUpdateLink $start start
+     * @param \EffetB\BeezupApi\Model\LinksImportationStartManualUpdateLink $start start
      *
      * @return $this
      */

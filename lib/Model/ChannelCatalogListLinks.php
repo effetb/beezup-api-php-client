@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelCatalogListLinks Class Doc Comment
  *
  * @category Class
  * @description Indicates how global actions you can do like how to create a channel catalog, exclusion filter operators, etc...
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,10 +58,10 @@ class ChannelCatalogListLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksGetChannelCatalogsLink',
-        'beez_up_columns' => '\Swagger\Client\Model\ExternalLinksCatalogGetBeezUPColumnsLink',
-        'add' => '\Swagger\Client\Model\LinksAddChannelCatalogLink',
-        'exclusion_filter_operators' => '\Swagger\Client\Model\LinksGetChannelCatalogExclusionFilterOperatorsLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksGetChannelCatalogsLink',
+        'beez_up_columns' => '\EffetB\BeezupApi\Model\ExternalLinksCatalogGetBeezUPColumnsLink',
+        'add' => '\EffetB\BeezupApi\Model\LinksAddChannelCatalogLink',
+        'exclusion_filter_operators' => '\EffetB\BeezupApi\Model\LinksGetChannelCatalogExclusionFilterOperatorsLink'
     ];
 
     /**
@@ -227,7 +227,7 @@ class ChannelCatalogListLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksGetChannelCatalogsLink
+     * @return \EffetB\BeezupApi\Model\LinksGetChannelCatalogsLink
      */
     public function getSelf()
     {
@@ -237,7 +237,7 @@ class ChannelCatalogListLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksGetChannelCatalogsLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksGetChannelCatalogsLink $self self
      *
      * @return $this
      */
@@ -251,7 +251,7 @@ class ChannelCatalogListLinks implements ModelInterface, ArrayAccess
     /**
      * Gets beez_up_columns
      *
-     * @return \Swagger\Client\Model\ExternalLinksCatalogGetBeezUPColumnsLink
+     * @return \EffetB\BeezupApi\Model\ExternalLinksCatalogGetBeezUPColumnsLink
      */
     public function getBeezUpColumns()
     {
@@ -261,7 +261,7 @@ class ChannelCatalogListLinks implements ModelInterface, ArrayAccess
     /**
      * Sets beez_up_columns
      *
-     * @param \Swagger\Client\Model\ExternalLinksCatalogGetBeezUPColumnsLink $beez_up_columns beez_up_columns
+     * @param \EffetB\BeezupApi\Model\ExternalLinksCatalogGetBeezUPColumnsLink $beez_up_columns beez_up_columns
      *
      * @return $this
      */
@@ -275,7 +275,7 @@ class ChannelCatalogListLinks implements ModelInterface, ArrayAccess
     /**
      * Gets add
      *
-     * @return \Swagger\Client\Model\LinksAddChannelCatalogLink
+     * @return \EffetB\BeezupApi\Model\LinksAddChannelCatalogLink
      */
     public function getAdd()
     {
@@ -285,7 +285,7 @@ class ChannelCatalogListLinks implements ModelInterface, ArrayAccess
     /**
      * Sets add
      *
-     * @param \Swagger\Client\Model\LinksAddChannelCatalogLink $add add
+     * @param \EffetB\BeezupApi\Model\LinksAddChannelCatalogLink $add add
      *
      * @return $this
      */
@@ -299,7 +299,7 @@ class ChannelCatalogListLinks implements ModelInterface, ArrayAccess
     /**
      * Gets exclusion_filter_operators
      *
-     * @return \Swagger\Client\Model\LinksGetChannelCatalogExclusionFilterOperatorsLink
+     * @return \EffetB\BeezupApi\Model\LinksGetChannelCatalogExclusionFilterOperatorsLink
      */
     public function getExclusionFilterOperators()
     {
@@ -309,7 +309,7 @@ class ChannelCatalogListLinks implements ModelInterface, ArrayAccess
     /**
      * Sets exclusion_filter_operators
      *
-     * @param \Swagger\Client\Model\LinksGetChannelCatalogExclusionFilterOperatorsLink $exclusion_filter_operators exclusion_filter_operators
+     * @param \EffetB\BeezupApi\Model\LinksGetChannelCatalogExclusionFilterOperatorsLink $exclusion_filter_operators exclusion_filter_operators
      *
      * @return $this
      */

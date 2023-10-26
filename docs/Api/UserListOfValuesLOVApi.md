@@ -1,4 +1,4 @@
-# Swagger\Client\UserListOfValuesLOVApi
+# EffetB\BeezupApi\UserListOfValuesLOVApi
 
 All URIs are relative to *https://api.beezup.com/v2*
 
@@ -9,7 +9,7 @@ Method | HTTP request | Description
 
 
 # **getUserListOfValues**
-> \Swagger\Client\Model\UserListOfValuesResponse getUserListOfValues($list_name, $accept_language, $if_none_match)
+> \EffetB\BeezupApi\Model\UserListOfValuesResponse getUserListOfValues($list_name, $accept_language, $if_none_match)
 
 Get the list of values related to this list name
 
@@ -19,11 +19,11 @@ Get the list of values related to this list name
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\UserListOfValuesLOVApi(
+$apiInstance = new EffetB\BeezupApi\Api\UserListOfValuesLOVApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -52,7 +52,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\UserListOfValuesResponse**](../Model/UserListOfValuesResponse.md)
+[**\EffetB\BeezupApi\Model\UserListOfValuesResponse**](../Model/UserListOfValuesResponse.md)
 
 ### Authorization
 
@@ -66,7 +66,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getUserLovIndex**
-> \Swagger\Client\Model\UserLovIndex getUserLovIndex()
+> \EffetB\BeezupApi\Model\UserLovIndex getUserLovIndex()
 
 Get all list names
 
@@ -76,11 +76,11 @@ Get all list names
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\UserListOfValuesLOVApi(
+$apiInstance = new EffetB\BeezupApi\Api\UserListOfValuesLOVApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -101,7 +101,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**\Swagger\Client\Model\UserLovIndex**](../Model/UserLovIndex.md)
+[**\EffetB\BeezupApi\Model\UserLovIndex**](../Model/UserLovIndex.md)
 
 ### Authorization
 

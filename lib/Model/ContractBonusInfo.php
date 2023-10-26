@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ContractBonusInfo Class Doc Comment
  *
  * @category Class
  * @description Describe the bonus information related to your current contract.
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,7 +58,7 @@ class ContractBonusInfo implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'bonuses' => '\Swagger\Client\Model\BonusInfo[]'
+        'bonuses' => '\EffetB\BeezupApi\Model\BonusInfo[]'
     ];
 
     /**
@@ -215,7 +215,7 @@ class ContractBonusInfo implements ModelInterface, ArrayAccess
     /**
      * Gets bonuses
      *
-     * @return \Swagger\Client\Model\BonusInfo[]
+     * @return \EffetB\BeezupApi\Model\BonusInfo[]
      */
     public function getBonuses()
     {
@@ -225,7 +225,7 @@ class ContractBonusInfo implements ModelInterface, ArrayAccess
     /**
      * Sets bonuses
      *
-     * @param \Swagger\Client\Model\BonusInfo[] $bonuses bonuses
+     * @param \EffetB\BeezupApi\Model\BonusInfo[] $bonuses bonuses
      *
      * @return $this
      */

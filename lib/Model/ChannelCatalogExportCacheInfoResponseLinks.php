@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelCatalogExportCacheInfoResponseLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class ChannelCatalogExportCacheInfoResponseLinks implements ModelInterface, Arra
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksGetChannelCatalogExportationCacheInfoLink',
-        'clear' => '\Swagger\Client\Model\LinksClearChannelCatalogExportationCacheLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksGetChannelCatalogExportationCacheInfoLink',
+        'clear' => '\EffetB\BeezupApi\Model\LinksClearChannelCatalogExportationCacheLink'
     ];
 
     /**
@@ -220,7 +220,7 @@ class ChannelCatalogExportCacheInfoResponseLinks implements ModelInterface, Arra
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksGetChannelCatalogExportationCacheInfoLink
+     * @return \EffetB\BeezupApi\Model\LinksGetChannelCatalogExportationCacheInfoLink
      */
     public function getSelf()
     {
@@ -230,7 +230,7 @@ class ChannelCatalogExportCacheInfoResponseLinks implements ModelInterface, Arra
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksGetChannelCatalogExportationCacheInfoLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksGetChannelCatalogExportationCacheInfoLink $self self
      *
      * @return $this
      */
@@ -244,7 +244,7 @@ class ChannelCatalogExportCacheInfoResponseLinks implements ModelInterface, Arra
     /**
      * Gets clear
      *
-     * @return \Swagger\Client\Model\LinksClearChannelCatalogExportationCacheLink
+     * @return \EffetB\BeezupApi\Model\LinksClearChannelCatalogExportationCacheLink
      */
     public function getClear()
     {
@@ -254,7 +254,7 @@ class ChannelCatalogExportCacheInfoResponseLinks implements ModelInterface, Arra
     /**
      * Sets clear
      *
-     * @param \Swagger\Client\Model\LinksClearChannelCatalogExportationCacheLink $clear clear
+     * @param \EffetB\BeezupApi\Model\LinksClearChannelCatalogExportationCacheLink $clear clear
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * StoreShareLinks Class Doc Comment
  *
  * @category Class
  * @description The different actions you can make on this store share
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,7 +58,7 @@ class StoreShareLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'delete_share' => '\Swagger\Client\Model\LinksDeleteStoreShareLink'
+        'delete_share' => '\EffetB\BeezupApi\Model\LinksDeleteStoreShareLink'
     ];
 
     /**
@@ -209,7 +209,7 @@ class StoreShareLinks implements ModelInterface, ArrayAccess
     /**
      * Gets delete_share
      *
-     * @return \Swagger\Client\Model\LinksDeleteStoreShareLink
+     * @return \EffetB\BeezupApi\Model\LinksDeleteStoreShareLink
      */
     public function getDeleteShare()
     {
@@ -219,7 +219,7 @@ class StoreShareLinks implements ModelInterface, ArrayAccess
     /**
      * Sets delete_share
      *
-     * @param \Swagger\Client\Model\LinksDeleteStoreShareLink $delete_share delete_share
+     * @param \EffetB\BeezupApi\Model\LinksDeleteStoreShareLink $delete_share delete_share
      *
      * @return $this
      */

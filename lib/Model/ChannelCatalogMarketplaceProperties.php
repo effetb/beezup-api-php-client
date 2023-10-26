@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelCatalogMarketplaceProperties Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,9 +57,9 @@ class ChannelCatalogMarketplaceProperties implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'info' => '\Swagger\Client\Model\BeezUPCommonInfoSummaries',
-        'links' => '\Swagger\Client\Model\ChannelCatalogMarketplacePropertiesLinks',
-        'property_groups' => '\Swagger\Client\Model\ChannelCatalogMarketplacePropertyGroup[]'
+        'info' => '\EffetB\BeezupApi\Model\BeezUPCommonInfoSummaries',
+        'links' => '\EffetB\BeezupApi\Model\ChannelCatalogMarketplacePropertiesLinks',
+        'property_groups' => '\EffetB\BeezupApi\Model\ChannelCatalogMarketplacePropertyGroup[]'
     ];
 
     /**
@@ -232,7 +232,7 @@ class ChannelCatalogMarketplaceProperties implements ModelInterface, ArrayAccess
     /**
      * Gets info
      *
-     * @return \Swagger\Client\Model\BeezUPCommonInfoSummaries
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonInfoSummaries
      */
     public function getInfo()
     {
@@ -242,7 +242,7 @@ class ChannelCatalogMarketplaceProperties implements ModelInterface, ArrayAccess
     /**
      * Sets info
      *
-     * @param \Swagger\Client\Model\BeezUPCommonInfoSummaries $info info
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonInfoSummaries $info info
      *
      * @return $this
      */
@@ -256,7 +256,7 @@ class ChannelCatalogMarketplaceProperties implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ChannelCatalogMarketplacePropertiesLinks
+     * @return \EffetB\BeezupApi\Model\ChannelCatalogMarketplacePropertiesLinks
      */
     public function getLinks()
     {
@@ -266,7 +266,7 @@ class ChannelCatalogMarketplaceProperties implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ChannelCatalogMarketplacePropertiesLinks $links links
+     * @param \EffetB\BeezupApi\Model\ChannelCatalogMarketplacePropertiesLinks $links links
      *
      * @return $this
      */
@@ -280,7 +280,7 @@ class ChannelCatalogMarketplaceProperties implements ModelInterface, ArrayAccess
     /**
      * Gets property_groups
      *
-     * @return \Swagger\Client\Model\ChannelCatalogMarketplacePropertyGroup[]
+     * @return \EffetB\BeezupApi\Model\ChannelCatalogMarketplacePropertyGroup[]
      */
     public function getPropertyGroups()
     {
@@ -290,7 +290,7 @@ class ChannelCatalogMarketplaceProperties implements ModelInterface, ArrayAccess
     /**
      * Sets property_groups
      *
-     * @param \Swagger\Client\Model\ChannelCatalogMarketplacePropertyGroup[] $property_groups The groups settings with constraints
+     * @param \EffetB\BeezupApi\Model\ChannelCatalogMarketplacePropertyGroup[] $property_groups The groups settings with constraints
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * AccountSynchronization Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,10 +57,10 @@ class AccountSynchronization implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'account_id' => '\Swagger\Client\Model\AccountId',
+        'account_id' => '\EffetB\BeezupApi\Model\AccountId',
         'completed_harvest_synchro_utc_date' => '\DateTime',
-        'marketplace_business_code' => '\Swagger\Client\Model\BeezUPCommonMarketplaceBusinessCode',
-        'marketplace_technical_code' => '\Swagger\Client\Model\BeezUPCommonMarketplaceTechnicalCode'
+        'marketplace_business_code' => '\EffetB\BeezupApi\Model\BeezUPCommonMarketplaceBusinessCode',
+        'marketplace_technical_code' => '\EffetB\BeezupApi\Model\BeezUPCommonMarketplaceTechnicalCode'
     ];
 
     /**
@@ -244,7 +244,7 @@ class AccountSynchronization implements ModelInterface, ArrayAccess
     /**
      * Gets account_id
      *
-     * @return \Swagger\Client\Model\AccountId
+     * @return \EffetB\BeezupApi\Model\AccountId
      */
     public function getAccountId()
     {
@@ -254,7 +254,7 @@ class AccountSynchronization implements ModelInterface, ArrayAccess
     /**
      * Sets account_id
      *
-     * @param \Swagger\Client\Model\AccountId $account_id account_id
+     * @param \EffetB\BeezupApi\Model\AccountId $account_id account_id
      *
      * @return $this
      */
@@ -292,7 +292,7 @@ class AccountSynchronization implements ModelInterface, ArrayAccess
     /**
      * Gets marketplace_business_code
      *
-     * @return \Swagger\Client\Model\BeezUPCommonMarketplaceBusinessCode
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonMarketplaceBusinessCode
      */
     public function getMarketplaceBusinessCode()
     {
@@ -302,7 +302,7 @@ class AccountSynchronization implements ModelInterface, ArrayAccess
     /**
      * Sets marketplace_business_code
      *
-     * @param \Swagger\Client\Model\BeezUPCommonMarketplaceBusinessCode $marketplace_business_code marketplace_business_code
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonMarketplaceBusinessCode $marketplace_business_code marketplace_business_code
      *
      * @return $this
      */
@@ -316,7 +316,7 @@ class AccountSynchronization implements ModelInterface, ArrayAccess
     /**
      * Gets marketplace_technical_code
      *
-     * @return \Swagger\Client\Model\BeezUPCommonMarketplaceTechnicalCode
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonMarketplaceTechnicalCode
      */
     public function getMarketplaceTechnicalCode()
     {
@@ -326,7 +326,7 @@ class AccountSynchronization implements ModelInterface, ArrayAccess
     /**
      * Sets marketplace_technical_code
      *
-     * @param \Swagger\Client\Model\BeezUPCommonMarketplaceTechnicalCode $marketplace_technical_code marketplace_technical_code
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonMarketplaceTechnicalCode $marketplace_technical_code marketplace_technical_code
      *
      * @return $this
      */

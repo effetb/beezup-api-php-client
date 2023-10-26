@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * TrackedClicks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class TrackedClicks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'clicks' => '\Swagger\Client\Model\TrackedClick[]'
+        'clicks' => '\EffetB\BeezupApi\Model\TrackedClick[]'
     ];
 
     /**
@@ -214,7 +214,7 @@ class TrackedClicks implements ModelInterface, ArrayAccess
     /**
      * Gets clicks
      *
-     * @return \Swagger\Client\Model\TrackedClick[]
+     * @return \EffetB\BeezupApi\Model\TrackedClick[]
      */
     public function getClicks()
     {
@@ -224,7 +224,7 @@ class TrackedClicks implements ModelInterface, ArrayAccess
     /**
      * Sets clicks
      *
-     * @param \Swagger\Client\Model\TrackedClick[] $clicks clicks
+     * @param \EffetB\BeezupApi\Model\TrackedClick[] $clicks clicks
      *
      * @return $this
      */

@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**rule** | [**\Swagger\Client\Model\LinksGetRuleLink**](LinksGetRuleLink.md) |  | [optional] 
+**rule** | [**\EffetB\BeezupApi\Model\LinksGetRuleLink**](LinksGetRuleLink.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

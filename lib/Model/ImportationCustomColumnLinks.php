@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ImportationCustomColumnLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,12 +57,12 @@ class ImportationCustomColumnLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'save' => '\Swagger\Client\Model\LinksImportationSaveCustomColumnLink',
-        'delete' => '\Swagger\Client\Model\LinksCatalogDeleteCustomColumnLink',
-        'expression' => '\Swagger\Client\Model\LinksCatalogGetCustomColumnExpressionLink',
-        'map' => '\Swagger\Client\Model\LinksImportationMapCustomColumnLink',
-        'unmap' => '\Swagger\Client\Model\LinksImportationUnmapCustomColumnLink',
-        'product_sample_value' => '\Swagger\Client\Model\LinksImportationGetProductSampleCustomColumnValueLink'
+        'save' => '\EffetB\BeezupApi\Model\LinksImportationSaveCustomColumnLink',
+        'delete' => '\EffetB\BeezupApi\Model\LinksCatalogDeleteCustomColumnLink',
+        'expression' => '\EffetB\BeezupApi\Model\LinksCatalogGetCustomColumnExpressionLink',
+        'map' => '\EffetB\BeezupApi\Model\LinksImportationMapCustomColumnLink',
+        'unmap' => '\EffetB\BeezupApi\Model\LinksImportationUnmapCustomColumnLink',
+        'product_sample_value' => '\EffetB\BeezupApi\Model\LinksImportationGetProductSampleCustomColumnValueLink'
     ];
 
     /**
@@ -256,7 +256,7 @@ class ImportationCustomColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Gets save
      *
-     * @return \Swagger\Client\Model\LinksImportationSaveCustomColumnLink
+     * @return \EffetB\BeezupApi\Model\LinksImportationSaveCustomColumnLink
      */
     public function getSave()
     {
@@ -266,7 +266,7 @@ class ImportationCustomColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Sets save
      *
-     * @param \Swagger\Client\Model\LinksImportationSaveCustomColumnLink $save save
+     * @param \EffetB\BeezupApi\Model\LinksImportationSaveCustomColumnLink $save save
      *
      * @return $this
      */
@@ -280,7 +280,7 @@ class ImportationCustomColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Gets delete
      *
-     * @return \Swagger\Client\Model\LinksCatalogDeleteCustomColumnLink
+     * @return \EffetB\BeezupApi\Model\LinksCatalogDeleteCustomColumnLink
      */
     public function getDelete()
     {
@@ -290,7 +290,7 @@ class ImportationCustomColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Sets delete
      *
-     * @param \Swagger\Client\Model\LinksCatalogDeleteCustomColumnLink $delete delete
+     * @param \EffetB\BeezupApi\Model\LinksCatalogDeleteCustomColumnLink $delete delete
      *
      * @return $this
      */
@@ -304,7 +304,7 @@ class ImportationCustomColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Gets expression
      *
-     * @return \Swagger\Client\Model\LinksCatalogGetCustomColumnExpressionLink
+     * @return \EffetB\BeezupApi\Model\LinksCatalogGetCustomColumnExpressionLink
      */
     public function getExpression()
     {
@@ -314,7 +314,7 @@ class ImportationCustomColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Sets expression
      *
-     * @param \Swagger\Client\Model\LinksCatalogGetCustomColumnExpressionLink $expression expression
+     * @param \EffetB\BeezupApi\Model\LinksCatalogGetCustomColumnExpressionLink $expression expression
      *
      * @return $this
      */
@@ -328,7 +328,7 @@ class ImportationCustomColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Gets map
      *
-     * @return \Swagger\Client\Model\LinksImportationMapCustomColumnLink
+     * @return \EffetB\BeezupApi\Model\LinksImportationMapCustomColumnLink
      */
     public function getMap()
     {
@@ -338,7 +338,7 @@ class ImportationCustomColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Sets map
      *
-     * @param \Swagger\Client\Model\LinksImportationMapCustomColumnLink $map map
+     * @param \EffetB\BeezupApi\Model\LinksImportationMapCustomColumnLink $map map
      *
      * @return $this
      */
@@ -352,7 +352,7 @@ class ImportationCustomColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Gets unmap
      *
-     * @return \Swagger\Client\Model\LinksImportationUnmapCustomColumnLink
+     * @return \EffetB\BeezupApi\Model\LinksImportationUnmapCustomColumnLink
      */
     public function getUnmap()
     {
@@ -362,7 +362,7 @@ class ImportationCustomColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Sets unmap
      *
-     * @param \Swagger\Client\Model\LinksImportationUnmapCustomColumnLink $unmap unmap
+     * @param \EffetB\BeezupApi\Model\LinksImportationUnmapCustomColumnLink $unmap unmap
      *
      * @return $this
      */
@@ -376,7 +376,7 @@ class ImportationCustomColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Gets product_sample_value
      *
-     * @return \Swagger\Client\Model\LinksImportationGetProductSampleCustomColumnValueLink
+     * @return \EffetB\BeezupApi\Model\LinksImportationGetProductSampleCustomColumnValueLink
      */
     public function getProductSampleValue()
     {
@@ -386,7 +386,7 @@ class ImportationCustomColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Sets product_sample_value
      *
-     * @param \Swagger\Client\Model\LinksImportationGetProductSampleCustomColumnValueLink $product_sample_value product_sample_value
+     * @param \EffetB\BeezupApi\Model\LinksImportationGetProductSampleCustomColumnValueLink $product_sample_value product_sample_value
      *
      * @return $this
      */

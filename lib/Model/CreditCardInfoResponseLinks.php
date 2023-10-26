@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CreditCardInfoResponseLinks Class Doc Comment
  *
  * @category Class
  * @description The different actions you can make on this offer
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,8 +58,8 @@ class CreditCardInfoResponseLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksGetCreditCardInfoLink',
-        'save_credit_card_info' => '\Swagger\Client\Model\LinksSaveCreditCardInfoLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksGetCreditCardInfoLink',
+        'save_credit_card_info' => '\EffetB\BeezupApi\Model\LinksSaveCreditCardInfoLink'
     ];
 
     /**
@@ -227,7 +227,7 @@ class CreditCardInfoResponseLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksGetCreditCardInfoLink
+     * @return \EffetB\BeezupApi\Model\LinksGetCreditCardInfoLink
      */
     public function getSelf()
     {
@@ -237,7 +237,7 @@ class CreditCardInfoResponseLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksGetCreditCardInfoLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksGetCreditCardInfoLink $self self
      *
      * @return $this
      */
@@ -251,7 +251,7 @@ class CreditCardInfoResponseLinks implements ModelInterface, ArrayAccess
     /**
      * Gets save_credit_card_info
      *
-     * @return \Swagger\Client\Model\LinksSaveCreditCardInfoLink
+     * @return \EffetB\BeezupApi\Model\LinksSaveCreditCardInfoLink
      */
     public function getSaveCreditCardInfo()
     {
@@ -261,7 +261,7 @@ class CreditCardInfoResponseLinks implements ModelInterface, ArrayAccess
     /**
      * Sets save_credit_card_info
      *
-     * @param \Swagger\Client\Model\LinksSaveCreditCardInfoLink $save_credit_card_info save_credit_card_info
+     * @param \EffetB\BeezupApi\Model\LinksSaveCreditCardInfoLink $save_credit_card_info save_credit_card_info
      *
      * @return $this
      */

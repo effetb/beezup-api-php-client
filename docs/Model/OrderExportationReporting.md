@@ -16,11 +16,11 @@ Name | Type | Description | Notes
 **json_criteria** | **string** | Raw representation of the JSON | [optional] 
 **last_update_utc_date** | [**\DateTime**](\DateTime.md) |  | [optional] 
 **order_count** | **int** |  | [optional] 
-**processing_status** | [**\Swagger\Client\Model\OrderExportationReportingProcessingStatus**](OrderExportationReportingProcessingStatus.md) |  | 
+**processing_status** | [**\EffetB\BeezupApi\Model\OrderExportationReportingProcessingStatus**](OrderExportationReportingProcessingStatus.md) |  | 
 **remaining_order_count** | **int** |  | [optional] 
 **resumed_utc_date** | [**\DateTime**](\DateTime.md) |  | [optional] 
-**source_type** | [**\Swagger\Client\Model\SourceType**](SourceType.md) |  | 
-**source_user_id** | [**\Swagger\Client\Model\BeezUPCommonUserId**](BeezUPCommonUserId.md) |  | [optional] 
+**source_type** | [**\EffetB\BeezupApi\Model\SourceType**](SourceType.md) |  | 
+**source_user_id** | [**\EffetB\BeezupApi\Model\BeezUPCommonUserId**](BeezUPCommonUserId.md) |  | [optional] 
 **source_user_name** | **string** |  | 
 **suspended_utc_date** | [**\DateTime**](\DateTime.md) |  | [optional] 
 **timeout_duration** | **string** |  | [optional] 

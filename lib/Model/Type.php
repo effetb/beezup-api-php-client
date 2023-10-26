@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,15 +27,15 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace EffetB\BeezupApi\Model;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * Type Class Doc Comment
  *
  * @category Class
  * @description The Data Type
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */

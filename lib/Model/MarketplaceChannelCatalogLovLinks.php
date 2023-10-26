@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * MarketplaceChannelCatalogLovLinks Class Doc Comment
  *
  * @category Class
  * @description Indicates the List Of Values related to the marketplace
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,12 +58,12 @@ class MarketplaceChannelCatalogLovLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'shipping_method_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3',
-        'carrier_code_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3',
-        'cancelation_reason_code_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3',
-        'refund_reason_code_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3',
-        'marketplace_store_property_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3',
-        'marketplace_store_property_group_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3'
+        'shipping_method_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3',
+        'carrier_code_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3',
+        'cancelation_reason_code_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3',
+        'refund_reason_code_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3',
+        'marketplace_store_property_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3',
+        'marketplace_store_property_group_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3'
     ];
 
     /**
@@ -239,7 +239,7 @@ class MarketplaceChannelCatalogLovLinks implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_method_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getShippingMethodLov()
     {
@@ -249,7 +249,7 @@ class MarketplaceChannelCatalogLovLinks implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_method_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $shipping_method_lov shipping_method_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $shipping_method_lov shipping_method_lov
      *
      * @return $this
      */
@@ -263,7 +263,7 @@ class MarketplaceChannelCatalogLovLinks implements ModelInterface, ArrayAccess
     /**
      * Gets carrier_code_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getCarrierCodeLov()
     {
@@ -273,7 +273,7 @@ class MarketplaceChannelCatalogLovLinks implements ModelInterface, ArrayAccess
     /**
      * Sets carrier_code_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $carrier_code_lov carrier_code_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $carrier_code_lov carrier_code_lov
      *
      * @return $this
      */
@@ -287,7 +287,7 @@ class MarketplaceChannelCatalogLovLinks implements ModelInterface, ArrayAccess
     /**
      * Gets cancelation_reason_code_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getCancelationReasonCodeLov()
     {
@@ -297,7 +297,7 @@ class MarketplaceChannelCatalogLovLinks implements ModelInterface, ArrayAccess
     /**
      * Sets cancelation_reason_code_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $cancelation_reason_code_lov cancelation_reason_code_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $cancelation_reason_code_lov cancelation_reason_code_lov
      *
      * @return $this
      */
@@ -311,7 +311,7 @@ class MarketplaceChannelCatalogLovLinks implements ModelInterface, ArrayAccess
     /**
      * Gets refund_reason_code_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getRefundReasonCodeLov()
     {
@@ -321,7 +321,7 @@ class MarketplaceChannelCatalogLovLinks implements ModelInterface, ArrayAccess
     /**
      * Sets refund_reason_code_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $refund_reason_code_lov refund_reason_code_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $refund_reason_code_lov refund_reason_code_lov
      *
      * @return $this
      */
@@ -335,7 +335,7 @@ class MarketplaceChannelCatalogLovLinks implements ModelInterface, ArrayAccess
     /**
      * Gets marketplace_store_property_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getMarketplaceStorePropertyLov()
     {
@@ -345,7 +345,7 @@ class MarketplaceChannelCatalogLovLinks implements ModelInterface, ArrayAccess
     /**
      * Sets marketplace_store_property_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $marketplace_store_property_lov marketplace_store_property_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $marketplace_store_property_lov marketplace_store_property_lov
      *
      * @return $this
      */
@@ -359,7 +359,7 @@ class MarketplaceChannelCatalogLovLinks implements ModelInterface, ArrayAccess
     /**
      * Gets marketplace_store_property_group_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getMarketplaceStorePropertyGroupLov()
     {
@@ -369,7 +369,7 @@ class MarketplaceChannelCatalogLovLinks implements ModelInterface, ArrayAccess
     /**
      * Sets marketplace_store_property_group_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $marketplace_store_property_group_lov marketplace_store_property_group_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $marketplace_store_property_group_lov marketplace_store_property_group_lov
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * Store Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,18 +57,18 @@ class Store implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'store_id' => '\Swagger\Client\Model\BeezUPCommonStoreId',
-        'name' => '\Swagger\Client\Model\StoreName',
-        'url' => '\Swagger\Client\Model\StoreUrl',
-        'country_iso_code_alpha3' => '\Swagger\Client\Model\StoreCountryIsoCodeAlpha3',
-        'currency_code' => '\Swagger\Client\Model\BeezUPCommonCurrencyCode',
-        'sectors' => '\Swagger\Client\Model\StoreSectors',
-        'user_role' => '\Swagger\Client\Model\StoreUserRole',
-        'status' => '\Swagger\Client\Model\StoreStatus',
+        'store_id' => '\EffetB\BeezupApi\Model\BeezUPCommonStoreId',
+        'name' => '\EffetB\BeezupApi\Model\StoreName',
+        'url' => '\EffetB\BeezupApi\Model\StoreUrl',
+        'country_iso_code_alpha3' => '\EffetB\BeezupApi\Model\StoreCountryIsoCodeAlpha3',
+        'currency_code' => '\EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode',
+        'sectors' => '\EffetB\BeezupApi\Model\StoreSectors',
+        'user_role' => '\EffetB\BeezupApi\Model\StoreUserRole',
+        'status' => '\EffetB\BeezupApi\Model\StoreStatus',
         'owner_user_id' => 'string',
         'share_count' => 'int',
         'creation_utc_date' => '\DateTime',
-        'links' => '\Swagger\Client\Model\StoreLinks'
+        'links' => '\EffetB\BeezupApi\Model\StoreLinks'
     ];
 
     /**
@@ -346,7 +346,7 @@ class Store implements ModelInterface, ArrayAccess
     /**
      * Gets store_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonStoreId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonStoreId
      */
     public function getStoreId()
     {
@@ -356,7 +356,7 @@ class Store implements ModelInterface, ArrayAccess
     /**
      * Sets store_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonStoreId $store_id store_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonStoreId $store_id store_id
      *
      * @return $this
      */
@@ -370,7 +370,7 @@ class Store implements ModelInterface, ArrayAccess
     /**
      * Gets name
      *
-     * @return \Swagger\Client\Model\StoreName
+     * @return \EffetB\BeezupApi\Model\StoreName
      */
     public function getName()
     {
@@ -380,7 +380,7 @@ class Store implements ModelInterface, ArrayAccess
     /**
      * Sets name
      *
-     * @param \Swagger\Client\Model\StoreName $name name
+     * @param \EffetB\BeezupApi\Model\StoreName $name name
      *
      * @return $this
      */
@@ -394,7 +394,7 @@ class Store implements ModelInterface, ArrayAccess
     /**
      * Gets url
      *
-     * @return \Swagger\Client\Model\StoreUrl
+     * @return \EffetB\BeezupApi\Model\StoreUrl
      */
     public function getUrl()
     {
@@ -404,7 +404,7 @@ class Store implements ModelInterface, ArrayAccess
     /**
      * Sets url
      *
-     * @param \Swagger\Client\Model\StoreUrl $url url
+     * @param \EffetB\BeezupApi\Model\StoreUrl $url url
      *
      * @return $this
      */
@@ -418,7 +418,7 @@ class Store implements ModelInterface, ArrayAccess
     /**
      * Gets country_iso_code_alpha3
      *
-     * @return \Swagger\Client\Model\StoreCountryIsoCodeAlpha3
+     * @return \EffetB\BeezupApi\Model\StoreCountryIsoCodeAlpha3
      */
     public function getCountryIsoCodeAlpha3()
     {
@@ -428,7 +428,7 @@ class Store implements ModelInterface, ArrayAccess
     /**
      * Sets country_iso_code_alpha3
      *
-     * @param \Swagger\Client\Model\StoreCountryIsoCodeAlpha3 $country_iso_code_alpha3 country_iso_code_alpha3
+     * @param \EffetB\BeezupApi\Model\StoreCountryIsoCodeAlpha3 $country_iso_code_alpha3 country_iso_code_alpha3
      *
      * @return $this
      */
@@ -442,7 +442,7 @@ class Store implements ModelInterface, ArrayAccess
     /**
      * Gets currency_code
      *
-     * @return \Swagger\Client\Model\BeezUPCommonCurrencyCode
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode
      */
     public function getCurrencyCode()
     {
@@ -452,7 +452,7 @@ class Store implements ModelInterface, ArrayAccess
     /**
      * Sets currency_code
      *
-     * @param \Swagger\Client\Model\BeezUPCommonCurrencyCode $currency_code currency_code
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode $currency_code currency_code
      *
      * @return $this
      */
@@ -466,7 +466,7 @@ class Store implements ModelInterface, ArrayAccess
     /**
      * Gets sectors
      *
-     * @return \Swagger\Client\Model\StoreSectors
+     * @return \EffetB\BeezupApi\Model\StoreSectors
      */
     public function getSectors()
     {
@@ -476,7 +476,7 @@ class Store implements ModelInterface, ArrayAccess
     /**
      * Sets sectors
      *
-     * @param \Swagger\Client\Model\StoreSectors $sectors sectors
+     * @param \EffetB\BeezupApi\Model\StoreSectors $sectors sectors
      *
      * @return $this
      */
@@ -490,7 +490,7 @@ class Store implements ModelInterface, ArrayAccess
     /**
      * Gets user_role
      *
-     * @return \Swagger\Client\Model\StoreUserRole
+     * @return \EffetB\BeezupApi\Model\StoreUserRole
      */
     public function getUserRole()
     {
@@ -500,7 +500,7 @@ class Store implements ModelInterface, ArrayAccess
     /**
      * Sets user_role
      *
-     * @param \Swagger\Client\Model\StoreUserRole $user_role user_role
+     * @param \EffetB\BeezupApi\Model\StoreUserRole $user_role user_role
      *
      * @return $this
      */
@@ -514,7 +514,7 @@ class Store implements ModelInterface, ArrayAccess
     /**
      * Gets status
      *
-     * @return \Swagger\Client\Model\StoreStatus
+     * @return \EffetB\BeezupApi\Model\StoreStatus
      */
     public function getStatus()
     {
@@ -524,7 +524,7 @@ class Store implements ModelInterface, ArrayAccess
     /**
      * Sets status
      *
-     * @param \Swagger\Client\Model\StoreStatus $status status
+     * @param \EffetB\BeezupApi\Model\StoreStatus $status status
      *
      * @return $this
      */
@@ -610,7 +610,7 @@ class Store implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\StoreLinks
+     * @return \EffetB\BeezupApi\Model\StoreLinks
      */
     public function getLinks()
     {
@@ -620,7 +620,7 @@ class Store implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\StoreLinks $links links
+     * @param \EffetB\BeezupApi\Model\StoreLinks $links links
      *
      * @return $this
      */

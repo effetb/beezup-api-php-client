@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ImportationMonitoringLinks Class Doc Comment
  *
  * @category Class
  * @description Applicable operations considering the state of the importation
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,16 +58,16 @@ class ImportationMonitoringLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksImportationGetImportationMonitoringLink',
-        'technical_progression' => '\Swagger\Client\Model\LinksImportationTechnicalProgressionLink',
-        'cancel' => '\Swagger\Client\Model\LinksImportationCancelLink',
-        'configure_remaining_catalog_columns' => '\Swagger\Client\Model\LinksImportationConfigureRemainingCatalogColumnsLink',
-        'commit_columns' => '\Swagger\Client\Model\LinksImportationCommitColumnsLink',
-        'commit' => '\Swagger\Client\Model\LinksImportationCommitLink',
-        'activate_auto_import' => '\Swagger\Client\Model\LinksImportationActivateAutoImportLink',
-        'catalog_columns' => '\Swagger\Client\Model\LinksImportationGetDetectedCatalogColumnsLink',
-        'custom_columns' => '\Swagger\Client\Model\LinksImportationGetCustomColumnsLink',
-        'product_samples' => '\Swagger\Client\Model\LinksImportationGetProductSampleLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksImportationGetImportationMonitoringLink',
+        'technical_progression' => '\EffetB\BeezupApi\Model\LinksImportationTechnicalProgressionLink',
+        'cancel' => '\EffetB\BeezupApi\Model\LinksImportationCancelLink',
+        'configure_remaining_catalog_columns' => '\EffetB\BeezupApi\Model\LinksImportationConfigureRemainingCatalogColumnsLink',
+        'commit_columns' => '\EffetB\BeezupApi\Model\LinksImportationCommitColumnsLink',
+        'commit' => '\EffetB\BeezupApi\Model\LinksImportationCommitLink',
+        'activate_auto_import' => '\EffetB\BeezupApi\Model\LinksImportationActivateAutoImportLink',
+        'catalog_columns' => '\EffetB\BeezupApi\Model\LinksImportationGetDetectedCatalogColumnsLink',
+        'custom_columns' => '\EffetB\BeezupApi\Model\LinksImportationGetCustomColumnsLink',
+        'product_samples' => '\EffetB\BeezupApi\Model\LinksImportationGetProductSampleLink'
     ];
 
     /**
@@ -275,7 +275,7 @@ class ImportationMonitoringLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksImportationGetImportationMonitoringLink
+     * @return \EffetB\BeezupApi\Model\LinksImportationGetImportationMonitoringLink
      */
     public function getSelf()
     {
@@ -285,7 +285,7 @@ class ImportationMonitoringLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksImportationGetImportationMonitoringLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksImportationGetImportationMonitoringLink $self self
      *
      * @return $this
      */
@@ -299,7 +299,7 @@ class ImportationMonitoringLinks implements ModelInterface, ArrayAccess
     /**
      * Gets technical_progression
      *
-     * @return \Swagger\Client\Model\LinksImportationTechnicalProgressionLink
+     * @return \EffetB\BeezupApi\Model\LinksImportationTechnicalProgressionLink
      */
     public function getTechnicalProgression()
     {
@@ -309,7 +309,7 @@ class ImportationMonitoringLinks implements ModelInterface, ArrayAccess
     /**
      * Sets technical_progression
      *
-     * @param \Swagger\Client\Model\LinksImportationTechnicalProgressionLink $technical_progression technical_progression
+     * @param \EffetB\BeezupApi\Model\LinksImportationTechnicalProgressionLink $technical_progression technical_progression
      *
      * @return $this
      */
@@ -323,7 +323,7 @@ class ImportationMonitoringLinks implements ModelInterface, ArrayAccess
     /**
      * Gets cancel
      *
-     * @return \Swagger\Client\Model\LinksImportationCancelLink
+     * @return \EffetB\BeezupApi\Model\LinksImportationCancelLink
      */
     public function getCancel()
     {
@@ -333,7 +333,7 @@ class ImportationMonitoringLinks implements ModelInterface, ArrayAccess
     /**
      * Sets cancel
      *
-     * @param \Swagger\Client\Model\LinksImportationCancelLink $cancel cancel
+     * @param \EffetB\BeezupApi\Model\LinksImportationCancelLink $cancel cancel
      *
      * @return $this
      */
@@ -347,7 +347,7 @@ class ImportationMonitoringLinks implements ModelInterface, ArrayAccess
     /**
      * Gets configure_remaining_catalog_columns
      *
-     * @return \Swagger\Client\Model\LinksImportationConfigureRemainingCatalogColumnsLink
+     * @return \EffetB\BeezupApi\Model\LinksImportationConfigureRemainingCatalogColumnsLink
      */
     public function getConfigureRemainingCatalogColumns()
     {
@@ -357,7 +357,7 @@ class ImportationMonitoringLinks implements ModelInterface, ArrayAccess
     /**
      * Sets configure_remaining_catalog_columns
      *
-     * @param \Swagger\Client\Model\LinksImportationConfigureRemainingCatalogColumnsLink $configure_remaining_catalog_columns configure_remaining_catalog_columns
+     * @param \EffetB\BeezupApi\Model\LinksImportationConfigureRemainingCatalogColumnsLink $configure_remaining_catalog_columns configure_remaining_catalog_columns
      *
      * @return $this
      */
@@ -371,7 +371,7 @@ class ImportationMonitoringLinks implements ModelInterface, ArrayAccess
     /**
      * Gets commit_columns
      *
-     * @return \Swagger\Client\Model\LinksImportationCommitColumnsLink
+     * @return \EffetB\BeezupApi\Model\LinksImportationCommitColumnsLink
      */
     public function getCommitColumns()
     {
@@ -381,7 +381,7 @@ class ImportationMonitoringLinks implements ModelInterface, ArrayAccess
     /**
      * Sets commit_columns
      *
-     * @param \Swagger\Client\Model\LinksImportationCommitColumnsLink $commit_columns commit_columns
+     * @param \EffetB\BeezupApi\Model\LinksImportationCommitColumnsLink $commit_columns commit_columns
      *
      * @return $this
      */
@@ -395,7 +395,7 @@ class ImportationMonitoringLinks implements ModelInterface, ArrayAccess
     /**
      * Gets commit
      *
-     * @return \Swagger\Client\Model\LinksImportationCommitLink
+     * @return \EffetB\BeezupApi\Model\LinksImportationCommitLink
      */
     public function getCommit()
     {
@@ -405,7 +405,7 @@ class ImportationMonitoringLinks implements ModelInterface, ArrayAccess
     /**
      * Sets commit
      *
-     * @param \Swagger\Client\Model\LinksImportationCommitLink $commit commit
+     * @param \EffetB\BeezupApi\Model\LinksImportationCommitLink $commit commit
      *
      * @return $this
      */
@@ -419,7 +419,7 @@ class ImportationMonitoringLinks implements ModelInterface, ArrayAccess
     /**
      * Gets activate_auto_import
      *
-     * @return \Swagger\Client\Model\LinksImportationActivateAutoImportLink
+     * @return \EffetB\BeezupApi\Model\LinksImportationActivateAutoImportLink
      */
     public function getActivateAutoImport()
     {
@@ -429,7 +429,7 @@ class ImportationMonitoringLinks implements ModelInterface, ArrayAccess
     /**
      * Sets activate_auto_import
      *
-     * @param \Swagger\Client\Model\LinksImportationActivateAutoImportLink $activate_auto_import activate_auto_import
+     * @param \EffetB\BeezupApi\Model\LinksImportationActivateAutoImportLink $activate_auto_import activate_auto_import
      *
      * @return $this
      */
@@ -443,7 +443,7 @@ class ImportationMonitoringLinks implements ModelInterface, ArrayAccess
     /**
      * Gets catalog_columns
      *
-     * @return \Swagger\Client\Model\LinksImportationGetDetectedCatalogColumnsLink
+     * @return \EffetB\BeezupApi\Model\LinksImportationGetDetectedCatalogColumnsLink
      */
     public function getCatalogColumns()
     {
@@ -453,7 +453,7 @@ class ImportationMonitoringLinks implements ModelInterface, ArrayAccess
     /**
      * Sets catalog_columns
      *
-     * @param \Swagger\Client\Model\LinksImportationGetDetectedCatalogColumnsLink $catalog_columns catalog_columns
+     * @param \EffetB\BeezupApi\Model\LinksImportationGetDetectedCatalogColumnsLink $catalog_columns catalog_columns
      *
      * @return $this
      */
@@ -467,7 +467,7 @@ class ImportationMonitoringLinks implements ModelInterface, ArrayAccess
     /**
      * Gets custom_columns
      *
-     * @return \Swagger\Client\Model\LinksImportationGetCustomColumnsLink
+     * @return \EffetB\BeezupApi\Model\LinksImportationGetCustomColumnsLink
      */
     public function getCustomColumns()
     {
@@ -477,7 +477,7 @@ class ImportationMonitoringLinks implements ModelInterface, ArrayAccess
     /**
      * Sets custom_columns
      *
-     * @param \Swagger\Client\Model\LinksImportationGetCustomColumnsLink $custom_columns custom_columns
+     * @param \EffetB\BeezupApi\Model\LinksImportationGetCustomColumnsLink $custom_columns custom_columns
      *
      * @return $this
      */
@@ -491,7 +491,7 @@ class ImportationMonitoringLinks implements ModelInterface, ArrayAccess
     /**
      * Gets product_samples
      *
-     * @return \Swagger\Client\Model\LinksImportationGetProductSampleLink
+     * @return \EffetB\BeezupApi\Model\LinksImportationGetProductSampleLink
      */
     public function getProductSamples()
     {
@@ -501,7 +501,7 @@ class ImportationMonitoringLinks implements ModelInterface, ArrayAccess
     /**
      * Sets product_samples
      *
-     * @param \Swagger\Client\Model\LinksImportationGetProductSampleLink $product_samples product_samples
+     * @param \EffetB\BeezupApi\Model\LinksImportationGetProductSampleLink $product_samples product_samples
      *
      * @return $this
      */

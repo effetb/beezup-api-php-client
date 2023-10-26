@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 **error_code** | **string** |  | [optional] 
 **error_message** | **string** |  | [optional] 
 **technical_error_message** | **string** |  | [optional] 
-**exception_detail** | [**\Swagger\Client\Model\BeezUPCommonExceptionDetail**](BeezUPCommonExceptionDetail.md) |  | [optional] 
+**exception_detail** | [**\EffetB\BeezupApi\Model\BeezUPCommonExceptionDetail**](BeezUPCommonExceptionDetail.md) |  | [optional] 
 **error_arguments** | **map[string,string]** |  | [optional] 
 **property_name** | **string** |  | [optional] 
 **property_value** | **string** |  | [optional] 

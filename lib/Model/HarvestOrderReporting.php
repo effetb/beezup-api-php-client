@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * HarvestOrderReporting Class Doc Comment
  *
  * @category Class
  * @description The reporting related to a harvest order operation
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,13 +58,13 @@ class HarvestOrderReporting implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'execution_uuid' => '\Swagger\Client\Model\ExecutionUUID',
+        'execution_uuid' => '\EffetB\BeezupApi\Model\ExecutionUUID',
         'creation_utc_date' => '\DateTime',
         'processing_status' => 'string',
         'last_update_utc_date' => '\DateTime',
         'error_message' => 'string',
         'warning_message' => 'string',
-        'beez_up_status' => '\Swagger\Client\Model\BeezUPOrderStatus',
+        'beez_up_status' => '\EffetB\BeezupApi\Model\BeezUPOrderStatus',
         'marketplace_status' => 'string',
         'beez_up_forced_status' => 'string'
     ];
@@ -257,7 +257,7 @@ class HarvestOrderReporting implements ModelInterface, ArrayAccess
     /**
      * Gets execution_uuid
      *
-     * @return \Swagger\Client\Model\ExecutionUUID
+     * @return \EffetB\BeezupApi\Model\ExecutionUUID
      */
     public function getExecutionUuid()
     {
@@ -267,7 +267,7 @@ class HarvestOrderReporting implements ModelInterface, ArrayAccess
     /**
      * Sets execution_uuid
      *
-     * @param \Swagger\Client\Model\ExecutionUUID $execution_uuid execution_uuid
+     * @param \EffetB\BeezupApi\Model\ExecutionUUID $execution_uuid execution_uuid
      *
      * @return $this
      */
@@ -401,7 +401,7 @@ class HarvestOrderReporting implements ModelInterface, ArrayAccess
     /**
      * Gets beez_up_status
      *
-     * @return \Swagger\Client\Model\BeezUPOrderStatus
+     * @return \EffetB\BeezupApi\Model\BeezUPOrderStatus
      */
     public function getBeezUpStatus()
     {
@@ -411,7 +411,7 @@ class HarvestOrderReporting implements ModelInterface, ArrayAccess
     /**
      * Sets beez_up_status
      *
-     * @param \Swagger\Client\Model\BeezUPOrderStatus $beez_up_status beez_up_status
+     * @param \EffetB\BeezupApi\Model\BeezUPOrderStatus $beez_up_status beez_up_status
      *
      * @return $this
      */

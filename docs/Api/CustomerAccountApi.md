@@ -1,4 +1,4 @@
-# Swagger\Client\CustomerAccountApi
+# EffetB\BeezupApi\CustomerAccountApi
 
 All URIs are relative to *https://api.beezup.com/v2*
 
@@ -27,11 +27,11 @@ Activate the user account
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CustomerAccountApi(
+$apiInstance = new EffetB\BeezupApi\Api\CustomerAccountApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -79,17 +79,17 @@ Change user password
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CustomerAccountApi(
+$apiInstance = new EffetB\BeezupApi\Api\CustomerAccountApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$request = new \Swagger\Client\Model\ChangePasswordRequest(); // \Swagger\Client\Model\ChangePasswordRequest | 
+$request = new \EffetB\BeezupApi\Model\ChangePasswordRequest(); // \EffetB\BeezupApi\Model\ChangePasswordRequest | 
 
 try {
     $apiInstance->changePassword($request);
@@ -103,7 +103,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **request** | [**\Swagger\Client\Model\ChangePasswordRequest**](../Model/ChangePasswordRequest.md)|  |
+ **request** | [**\EffetB\BeezupApi\Model\ChangePasswordRequest**](../Model/ChangePasswordRequest.md)|  |
 
 ### Return type
 
@@ -121,7 +121,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCreditCardInfo**
-> \Swagger\Client\Model\CreditCardInfoResponse getCreditCardInfo($if_none_match)
+> \EffetB\BeezupApi\Model\CreditCardInfoResponse getCreditCardInfo($if_none_match)
 
 Get credit card information
 
@@ -131,11 +131,11 @@ Get credit card information
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CustomerAccountApi(
+$apiInstance = new EffetB\BeezupApi\Api\CustomerAccountApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -160,7 +160,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\CreditCardInfoResponse**](../Model/CreditCardInfoResponse.md)
+[**\EffetB\BeezupApi\Model\CreditCardInfoResponse**](../Model/CreditCardInfoResponse.md)
 
 ### Authorization
 
@@ -174,7 +174,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getProfilePictureInfo**
-> \Swagger\Client\Model\ProfilePictureInfoResponse getProfilePictureInfo($if_none_match)
+> \EffetB\BeezupApi\Model\ProfilePictureInfoResponse getProfilePictureInfo($if_none_match)
 
 Get profile picture information
 
@@ -184,11 +184,11 @@ Get profile picture information
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CustomerAccountApi(
+$apiInstance = new EffetB\BeezupApi\Api\CustomerAccountApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -213,7 +213,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\ProfilePictureInfoResponse**](../Model/ProfilePictureInfoResponse.md)
+[**\EffetB\BeezupApi\Model\ProfilePictureInfoResponse**](../Model/ProfilePictureInfoResponse.md)
 
 ### Authorization
 
@@ -227,7 +227,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getUserAccountInfo**
-> \Swagger\Client\Model\AccountInfo getUserAccountInfo($if_none_match)
+> \EffetB\BeezupApi\Model\AccountInfo getUserAccountInfo($if_none_match)
 
 Get user account information
 
@@ -237,11 +237,11 @@ Get user account information
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CustomerAccountApi(
+$apiInstance = new EffetB\BeezupApi\Api\CustomerAccountApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -266,7 +266,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\AccountInfo**](../Model/AccountInfo.md)
+[**\EffetB\BeezupApi\Model\AccountInfo**](../Model/AccountInfo.md)
 
 ### Authorization
 
@@ -290,11 +290,11 @@ Resend email activation
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CustomerAccountApi(
+$apiInstance = new EffetB\BeezupApi\Api\CustomerAccountApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -338,17 +338,17 @@ Change company information
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CustomerAccountApi(
+$apiInstance = new EffetB\BeezupApi\Api\CustomerAccountApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$request = new \Swagger\Client\Model\CompanyInfo(); // \Swagger\Client\Model\CompanyInfo | 
+$request = new \EffetB\BeezupApi\Model\CompanyInfo(); // \EffetB\BeezupApi\Model\CompanyInfo | 
 
 try {
     $apiInstance->saveCompanyInfo($request);
@@ -362,7 +362,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **request** | [**\Swagger\Client\Model\CompanyInfo**](../Model/CompanyInfo.md)|  |
+ **request** | [**\EffetB\BeezupApi\Model\CompanyInfo**](../Model/CompanyInfo.md)|  |
 
 ### Return type
 
@@ -390,17 +390,17 @@ Save user credit card info
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CustomerAccountApi(
+$apiInstance = new EffetB\BeezupApi\Api\CustomerAccountApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$request = new \Swagger\Client\Model\CreditCardInfo(); // \Swagger\Client\Model\CreditCardInfo | Credit card info
+$request = new \EffetB\BeezupApi\Model\CreditCardInfo(); // \EffetB\BeezupApi\Model\CreditCardInfo | Credit card info
 
 try {
     $apiInstance->saveCreditCardInfo($request);
@@ -414,7 +414,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **request** | [**\Swagger\Client\Model\CreditCardInfo**](../Model/CreditCardInfo.md)| Credit card info |
+ **request** | [**\EffetB\BeezupApi\Model\CreditCardInfo**](../Model/CreditCardInfo.md)| Credit card info |
 
 ### Return type
 
@@ -442,17 +442,17 @@ Save user personal information
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CustomerAccountApi(
+$apiInstance = new EffetB\BeezupApi\Api\CustomerAccountApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$request = new \Swagger\Client\Model\PersonalInfo(); // \Swagger\Client\Model\PersonalInfo | 
+$request = new \EffetB\BeezupApi\Model\PersonalInfo(); // \EffetB\BeezupApi\Model\PersonalInfo | 
 
 try {
     $apiInstance->savePersonalInfo($request);
@@ -466,7 +466,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **request** | [**\Swagger\Client\Model\PersonalInfo**](../Model/PersonalInfo.md)|  |
+ **request** | [**\EffetB\BeezupApi\Model\PersonalInfo**](../Model/PersonalInfo.md)|  |
 
 ### Return type
 
@@ -494,17 +494,17 @@ Change user picture information
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CustomerAccountApi(
+$apiInstance = new EffetB\BeezupApi\Api\CustomerAccountApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$request = new \Swagger\Client\Model\ProfilePictureInfo(); // \Swagger\Client\Model\ProfilePictureInfo | 
+$request = new \EffetB\BeezupApi\Model\ProfilePictureInfo(); // \EffetB\BeezupApi\Model\ProfilePictureInfo | 
 
 try {
     $apiInstance->saveProfilePictureInfo($request);
@@ -518,7 +518,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **request** | [**\Swagger\Client\Model\ProfilePictureInfo**](../Model/ProfilePictureInfo.md)|  |
+ **request** | [**\EffetB\BeezupApi\Model\ProfilePictureInfo**](../Model/ProfilePictureInfo.md)|  |
 
 ### Return type
 

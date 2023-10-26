@@ -1,4 +1,4 @@
-# Swagger\Client\MarketplacesOrdersGlobalApi
+# EffetB\BeezupApi\MarketplacesOrdersGlobalApi
 
 All URIs are relative to *https://api.beezup.com/v2*
 
@@ -10,7 +10,7 @@ Method | HTTP request | Description
 
 
 # **getMarketplaceAccountsSynchronization**
-> \Swagger\Client\Model\AccountSynchronizationList getMarketplaceAccountsSynchronization($store_id, $if_none_match)
+> \EffetB\BeezupApi\Model\AccountSynchronizationList getMarketplaceAccountsSynchronization($store_id, $if_none_match)
 
 Get current synchronization status between your marketplaces and BeezUP accounts
 
@@ -20,11 +20,11 @@ Get current synchronization status between your marketplaces and BeezUP accounts
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\MarketplacesOrdersGlobalApi(
+$apiInstance = new EffetB\BeezupApi\Api\MarketplacesOrdersGlobalApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -51,7 +51,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\AccountSynchronizationList**](../Model/AccountSynchronizationList.md)
+[**\EffetB\BeezupApi\Model\AccountSynchronizationList**](../Model/AccountSynchronizationList.md)
 
 ### Authorization
 
@@ -65,7 +65,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getOrderIndex**
-> \Swagger\Client\Model\OrderIndex getOrderIndex($if_none_match)
+> \EffetB\BeezupApi\Model\OrderIndex getOrderIndex($if_none_match)
 
 Get all actions you can do on the order API
 
@@ -75,11 +75,11 @@ Get all actions you can do on the order API
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\MarketplacesOrdersGlobalApi(
+$apiInstance = new EffetB\BeezupApi\Api\MarketplacesOrdersGlobalApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -104,7 +104,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\OrderIndex**](../Model/OrderIndex.md)
+[**\EffetB\BeezupApi\Model\OrderIndex**](../Model/OrderIndex.md)
 
 ### Authorization
 
@@ -128,11 +128,11 @@ Send harvest request to all your marketplaces
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\MarketplacesOrdersGlobalApi(
+$apiInstance = new EffetB\BeezupApi\Api\MarketplacesOrdersGlobalApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),

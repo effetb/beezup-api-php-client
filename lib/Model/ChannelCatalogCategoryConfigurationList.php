@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelCatalogCategoryConfigurationList Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,10 +57,10 @@ class ChannelCatalogCategoryConfigurationList implements ModelInterface, ArrayAc
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\ChannelCatalogCategoryMappingsLinks',
-        'channel_catalog_category_configurations' => '\Swagger\Client\Model\ChannelCatalogCategoryConfigurationInfo[]',
-        'mapping_status' => '\Swagger\Client\Model\MappingStatus',
-        'cost_status' => '\Swagger\Client\Model\CostStatus'
+        'links' => '\EffetB\BeezupApi\Model\ChannelCatalogCategoryMappingsLinks',
+        'channel_catalog_category_configurations' => '\EffetB\BeezupApi\Model\ChannelCatalogCategoryConfigurationInfo[]',
+        'mapping_status' => '\EffetB\BeezupApi\Model\MappingStatus',
+        'cost_status' => '\EffetB\BeezupApi\Model\CostStatus'
     ];
 
     /**
@@ -250,7 +250,7 @@ class ChannelCatalogCategoryConfigurationList implements ModelInterface, ArrayAc
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ChannelCatalogCategoryMappingsLinks
+     * @return \EffetB\BeezupApi\Model\ChannelCatalogCategoryMappingsLinks
      */
     public function getLinks()
     {
@@ -260,7 +260,7 @@ class ChannelCatalogCategoryConfigurationList implements ModelInterface, ArrayAc
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ChannelCatalogCategoryMappingsLinks $links links
+     * @param \EffetB\BeezupApi\Model\ChannelCatalogCategoryMappingsLinks $links links
      *
      * @return $this
      */
@@ -274,7 +274,7 @@ class ChannelCatalogCategoryConfigurationList implements ModelInterface, ArrayAc
     /**
      * Gets channel_catalog_category_configurations
      *
-     * @return \Swagger\Client\Model\ChannelCatalogCategoryConfigurationInfo[]
+     * @return \EffetB\BeezupApi\Model\ChannelCatalogCategoryConfigurationInfo[]
      */
     public function getChannelCatalogCategoryConfigurations()
     {
@@ -284,7 +284,7 @@ class ChannelCatalogCategoryConfigurationList implements ModelInterface, ArrayAc
     /**
      * Sets channel_catalog_category_configurations
      *
-     * @param \Swagger\Client\Model\ChannelCatalogCategoryConfigurationInfo[] $channel_catalog_category_configurations channel_catalog_category_configurations
+     * @param \EffetB\BeezupApi\Model\ChannelCatalogCategoryConfigurationInfo[] $channel_catalog_category_configurations channel_catalog_category_configurations
      *
      * @return $this
      */
@@ -298,7 +298,7 @@ class ChannelCatalogCategoryConfigurationList implements ModelInterface, ArrayAc
     /**
      * Gets mapping_status
      *
-     * @return \Swagger\Client\Model\MappingStatus
+     * @return \EffetB\BeezupApi\Model\MappingStatus
      */
     public function getMappingStatus()
     {
@@ -308,7 +308,7 @@ class ChannelCatalogCategoryConfigurationList implements ModelInterface, ArrayAc
     /**
      * Sets mapping_status
      *
-     * @param \Swagger\Client\Model\MappingStatus $mapping_status mapping_status
+     * @param \EffetB\BeezupApi\Model\MappingStatus $mapping_status mapping_status
      *
      * @return $this
      */
@@ -322,7 +322,7 @@ class ChannelCatalogCategoryConfigurationList implements ModelInterface, ArrayAc
     /**
      * Gets cost_status
      *
-     * @return \Swagger\Client\Model\CostStatus
+     * @return \EffetB\BeezupApi\Model\CostStatus
      */
     public function getCostStatus()
     {
@@ -332,7 +332,7 @@ class ChannelCatalogCategoryConfigurationList implements ModelInterface, ArrayAc
     /**
      * Sets cost_status
      *
-     * @param \Swagger\Client\Model\CostStatus $cost_status cost_status
+     * @param \EffetB\BeezupApi\Model\CostStatus $cost_status cost_status
      *
      * @return $this
      */

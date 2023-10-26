@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**optimisation_action_name** | [**\Swagger\Client\Model\OptimisationActionName**](OptimisationActionName.md) |  | 
+**optimisation_action_name** | [**\EffetB\BeezupApi\Model\OptimisationActionName**](OptimisationActionName.md) |  | 
 **rule_name** | **string** | The name of the rule | 
 **report_filter_id** | **string** | The report filter to use for the rule | 
 **start_utc_date** | [**\DateTime**](\DateTime.md) | The start validity utc date of the rule | [optional] 

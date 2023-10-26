@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ProfilePictureInfo Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class ProfilePictureInfo implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'profile_picture_url' => '\Swagger\Client\Model\ProfilePictureUrl',
-        'profile_picture_selected' => '\Swagger\Client\Model\ProfilePictureSelected'
+        'profile_picture_url' => '\EffetB\BeezupApi\Model\ProfilePictureUrl',
+        'profile_picture_selected' => '\EffetB\BeezupApi\Model\ProfilePictureSelected'
     ];
 
     /**
@@ -220,7 +220,7 @@ class ProfilePictureInfo implements ModelInterface, ArrayAccess
     /**
      * Gets profile_picture_url
      *
-     * @return \Swagger\Client\Model\ProfilePictureUrl
+     * @return \EffetB\BeezupApi\Model\ProfilePictureUrl
      */
     public function getProfilePictureUrl()
     {
@@ -230,7 +230,7 @@ class ProfilePictureInfo implements ModelInterface, ArrayAccess
     /**
      * Sets profile_picture_url
      *
-     * @param \Swagger\Client\Model\ProfilePictureUrl $profile_picture_url profile_picture_url
+     * @param \EffetB\BeezupApi\Model\ProfilePictureUrl $profile_picture_url profile_picture_url
      *
      * @return $this
      */
@@ -244,7 +244,7 @@ class ProfilePictureInfo implements ModelInterface, ArrayAccess
     /**
      * Gets profile_picture_selected
      *
-     * @return \Swagger\Client\Model\ProfilePictureSelected
+     * @return \EffetB\BeezupApi\Model\ProfilePictureSelected
      */
     public function getProfilePictureSelected()
     {
@@ -254,7 +254,7 @@ class ProfilePictureInfo implements ModelInterface, ArrayAccess
     /**
      * Sets profile_picture_selected
      *
-     * @param \Swagger\Client\Model\ProfilePictureSelected $profile_picture_selected profile_picture_selected
+     * @param \EffetB\BeezupApi\Model\ProfilePictureSelected $profile_picture_selected profile_picture_selected
      *
      * @return $this
      */

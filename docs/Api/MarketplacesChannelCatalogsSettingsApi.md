@@ -1,4 +1,4 @@
-# Swagger\Client\MarketplacesChannelCatalogsSettingsApi
+# EffetB\BeezupApi\MarketplacesChannelCatalogsSettingsApi
 
 All URIs are relative to *https://api.beezup.com/v2*
 
@@ -10,7 +10,7 @@ Method | HTTP request | Description
 
 
 # **getChannelCatalogMarketplaceProperties**
-> \Swagger\Client\Model\ChannelCatalogMarketplaceProperties getChannelCatalogMarketplaceProperties($channel_catalog_id, $redirection_page_url, $accept_language)
+> \EffetB\BeezupApi\Model\ChannelCatalogMarketplaceProperties getChannelCatalogMarketplaceProperties($channel_catalog_id, $redirection_page_url, $accept_language)
 
 Get the marketplace properties for a channel catalog
 
@@ -20,11 +20,11 @@ Get the marketplace properties for a channel catalog
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\MarketplacesChannelCatalogsSettingsApi(
+$apiInstance = new EffetB\BeezupApi\Api\MarketplacesChannelCatalogsSettingsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -53,7 +53,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\ChannelCatalogMarketplaceProperties**](../Model/ChannelCatalogMarketplaceProperties.md)
+[**\EffetB\BeezupApi\Model\ChannelCatalogMarketplaceProperties**](../Model/ChannelCatalogMarketplaceProperties.md)
 
 ### Authorization
 
@@ -67,7 +67,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getChannelCatalogMarketplaceSettings**
-> \Swagger\Client\Model\ChannelCatalogMarketplaceSettings getChannelCatalogMarketplaceSettings($channel_catalog_id)
+> \EffetB\BeezupApi\Model\ChannelCatalogMarketplaceSettings getChannelCatalogMarketplaceSettings($channel_catalog_id)
 
 Get the marketplace settings for a channel catalog
 
@@ -77,11 +77,11 @@ Get the marketplace settings for a channel catalog
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\MarketplacesChannelCatalogsSettingsApi(
+$apiInstance = new EffetB\BeezupApi\Api\MarketplacesChannelCatalogsSettingsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -106,7 +106,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\ChannelCatalogMarketplaceSettings**](../Model/ChannelCatalogMarketplaceSettings.md)
+[**\EffetB\BeezupApi\Model\ChannelCatalogMarketplaceSettings**](../Model/ChannelCatalogMarketplaceSettings.md)
 
 ### Authorization
 
@@ -132,18 +132,18 @@ Allow you to configure your marketplace settings. Partial update accepted.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\MarketplacesChannelCatalogsSettingsApi(
+$apiInstance = new EffetB\BeezupApi\Api\MarketplacesChannelCatalogsSettingsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $channel_catalog_id = "channel_catalog_id_example"; // string | Channel Catalog Id to query
-$model = new \Swagger\Client\Model\SetChannelCatalogMarketplaceSettingsRequest(); // \Swagger\Client\Model\SetChannelCatalogMarketplaceSettingsRequest | Settings to save
+$model = new \EffetB\BeezupApi\Model\SetChannelCatalogMarketplaceSettingsRequest(); // \EffetB\BeezupApi\Model\SetChannelCatalogMarketplaceSettingsRequest | Settings to save
 
 try {
     $apiInstance->setChannelCatalogMarketplaceSettings($channel_catalog_id, $model);
@@ -158,7 +158,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **channel_catalog_id** | **string**| Channel Catalog Id to query |
- **model** | [**\Swagger\Client\Model\SetChannelCatalogMarketplaceSettingsRequest**](../Model/SetChannelCatalogMarketplaceSettingsRequest.md)| Settings to save |
+ **model** | [**\EffetB\BeezupApi\Model\SetChannelCatalogMarketplaceSettingsRequest**](../Model/SetChannelCatalogMarketplaceSettingsRequest.md)| Settings to save |
 
 ### Return type
 

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ReportByCategoryResponse Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,10 +57,10 @@ class ReportByCategoryResponse implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'pagination_result' => '\Swagger\Client\Model\BeezUPCommonPaginationResult',
-        'currency_code' => '\Swagger\Client\Model\BeezUPCommonCurrencyCode',
-        'categories' => '\Swagger\Client\Model\ReportByCategory[]',
-        'links' => '\Swagger\Client\Model\ReportByCategoryResponseLinks'
+        'pagination_result' => '\EffetB\BeezupApi\Model\BeezUPCommonPaginationResult',
+        'currency_code' => '\EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode',
+        'categories' => '\EffetB\BeezupApi\Model\ReportByCategory[]',
+        'links' => '\EffetB\BeezupApi\Model\ReportByCategoryResponseLinks'
     ];
 
     /**
@@ -226,7 +226,7 @@ class ReportByCategoryResponse implements ModelInterface, ArrayAccess
     /**
      * Gets pagination_result
      *
-     * @return \Swagger\Client\Model\BeezUPCommonPaginationResult
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonPaginationResult
      */
     public function getPaginationResult()
     {
@@ -236,7 +236,7 @@ class ReportByCategoryResponse implements ModelInterface, ArrayAccess
     /**
      * Sets pagination_result
      *
-     * @param \Swagger\Client\Model\BeezUPCommonPaginationResult $pagination_result pagination_result
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonPaginationResult $pagination_result pagination_result
      *
      * @return $this
      */
@@ -250,7 +250,7 @@ class ReportByCategoryResponse implements ModelInterface, ArrayAccess
     /**
      * Gets currency_code
      *
-     * @return \Swagger\Client\Model\BeezUPCommonCurrencyCode
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode
      */
     public function getCurrencyCode()
     {
@@ -260,7 +260,7 @@ class ReportByCategoryResponse implements ModelInterface, ArrayAccess
     /**
      * Sets currency_code
      *
-     * @param \Swagger\Client\Model\BeezUPCommonCurrencyCode $currency_code currency_code
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode $currency_code currency_code
      *
      * @return $this
      */
@@ -274,7 +274,7 @@ class ReportByCategoryResponse implements ModelInterface, ArrayAccess
     /**
      * Gets categories
      *
-     * @return \Swagger\Client\Model\ReportByCategory[]
+     * @return \EffetB\BeezupApi\Model\ReportByCategory[]
      */
     public function getCategories()
     {
@@ -284,7 +284,7 @@ class ReportByCategoryResponse implements ModelInterface, ArrayAccess
     /**
      * Sets categories
      *
-     * @param \Swagger\Client\Model\ReportByCategory[] $categories categories
+     * @param \EffetB\BeezupApi\Model\ReportByCategory[] $categories categories
      *
      * @return $this
      */
@@ -298,7 +298,7 @@ class ReportByCategoryResponse implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ReportByCategoryResponseLinks
+     * @return \EffetB\BeezupApi\Model\ReportByCategoryResponseLinks
      */
     public function getLinks()
     {
@@ -308,7 +308,7 @@ class ReportByCategoryResponse implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ReportByCategoryResponseLinks $links links
+     * @param \EffetB\BeezupApi\Model\ReportByCategoryResponseLinks $links links
      *
      * @return $this
      */

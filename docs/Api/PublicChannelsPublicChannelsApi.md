@@ -1,4 +1,4 @@
-# Swagger\Client\PublicChannelsPublicChannelsApi
+# EffetB\BeezupApi\PublicChannelsPublicChannelsApi
 
 All URIs are relative to *https://api.beezup.com/v2*
 
@@ -9,7 +9,7 @@ Method | HTTP request | Description
 
 
 # **getChannels**
-> \Swagger\Client\Model\ChannelInfoList getChannels($country_iso_code, $accept_encoding, $if_none_match)
+> \EffetB\BeezupApi\Model\ChannelInfoList getChannels($country_iso_code, $accept_encoding, $if_none_match)
 
 The channel list for one country
 
@@ -18,7 +18,7 @@ The channel list for one country
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\PublicChannelsPublicChannelsApi(
+$apiInstance = new EffetB\BeezupApi\Api\PublicChannelsPublicChannelsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -46,7 +46,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\ChannelInfoList**](../Model/ChannelInfoList.md)
+[**\EffetB\BeezupApi\Model\ChannelInfoList**](../Model/ChannelInfoList.md)
 
 ### Authorization
 
@@ -60,7 +60,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getChannelsIndex**
-> \Swagger\Client\Model\PublicChannelIndex getChannelsIndex($if_none_match)
+> \EffetB\BeezupApi\Model\PublicChannelIndex getChannelsIndex($if_none_match)
 
 Get public channel index
 
@@ -71,7 +71,7 @@ Use this operation to get the correct link to the channels and to the list of va
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new Swagger\Client\Api\PublicChannelsPublicChannelsApi(
+$apiInstance = new EffetB\BeezupApi\Api\PublicChannelsPublicChannelsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
@@ -95,7 +95,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\PublicChannelIndex**](../Model/PublicChannelIndex.md)
+[**\EffetB\BeezupApi\Model\PublicChannelIndex**](../Model/PublicChannelIndex.md)
 
 ### Authorization
 

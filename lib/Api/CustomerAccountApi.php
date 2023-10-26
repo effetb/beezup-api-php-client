@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace EffetB\BeezupApi\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use EffetB\BeezupApi\ApiException;
+use EffetB\BeezupApi\Configuration;
+use EffetB\BeezupApi\HeaderSelector;
+use EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CustomerAccountApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -94,7 +94,7 @@ class CustomerAccountApi
      *
      * @param  string $email_activation_id The email activation id received by email. (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -110,7 +110,7 @@ class CustomerAccountApi
      *
      * @param  string $email_activation_id The email activation id received by email. (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -154,7 +154,7 @@ class CustomerAccountApi
                 case 403:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -162,7 +162,7 @@ class CustomerAccountApi
                 case 409:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -170,7 +170,7 @@ class CustomerAccountApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -341,9 +341,9 @@ class CustomerAccountApi
      *
      * Change user password
      *
-     * @param  \Swagger\Client\Model\ChangePasswordRequest $request request (required)
+     * @param  \EffetB\BeezupApi\Model\ChangePasswordRequest $request request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -357,9 +357,9 @@ class CustomerAccountApi
      *
      * Change user password
      *
-     * @param  \Swagger\Client\Model\ChangePasswordRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ChangePasswordRequest $request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -403,7 +403,7 @@ class CustomerAccountApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -411,7 +411,7 @@ class CustomerAccountApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -426,7 +426,7 @@ class CustomerAccountApi
      *
      * Change user password
      *
-     * @param  \Swagger\Client\Model\ChangePasswordRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ChangePasswordRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -446,7 +446,7 @@ class CustomerAccountApi
      *
      * Change user password
      *
-     * @param  \Swagger\Client\Model\ChangePasswordRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ChangePasswordRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -482,7 +482,7 @@ class CustomerAccountApi
     /**
      * Create request for operation 'changePassword'
      *
-     * @param  \Swagger\Client\Model\ChangePasswordRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ChangePasswordRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -584,9 +584,9 @@ class CustomerAccountApi
      *
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CreditCardInfoResponse
+     * @return \EffetB\BeezupApi\Model\CreditCardInfoResponse
      */
     public function getCreditCardInfo($if_none_match = null)
     {
@@ -601,13 +601,13 @@ class CustomerAccountApi
      *
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CreditCardInfoResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\CreditCardInfoResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getCreditCardInfoWithHttpInfo($if_none_match = null)
     {
-        $returnType = '\Swagger\Client\Model\CreditCardInfoResponse';
+        $returnType = '\EffetB\BeezupApi\Model\CreditCardInfoResponse';
         $request = $this->getCreditCardInfoRequest($if_none_match);
 
         try {
@@ -659,7 +659,7 @@ class CustomerAccountApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CreditCardInfoResponse',
+                        '\EffetB\BeezupApi\Model\CreditCardInfoResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -667,7 +667,7 @@ class CustomerAccountApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -675,7 +675,7 @@ class CustomerAccountApi
                 case 503:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -683,7 +683,7 @@ class CustomerAccountApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -725,7 +725,7 @@ class CustomerAccountApi
      */
     public function getCreditCardInfoAsyncWithHttpInfo($if_none_match = null)
     {
-        $returnType = '\Swagger\Client\Model\CreditCardInfoResponse';
+        $returnType = '\EffetB\BeezupApi\Model\CreditCardInfoResponse';
         $request = $this->getCreditCardInfoRequest($if_none_match);
 
         return $this->client
@@ -865,9 +865,9 @@ class CustomerAccountApi
      *
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ProfilePictureInfoResponse
+     * @return \EffetB\BeezupApi\Model\ProfilePictureInfoResponse
      */
     public function getProfilePictureInfo($if_none_match = null)
     {
@@ -882,13 +882,13 @@ class CustomerAccountApi
      *
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ProfilePictureInfoResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\ProfilePictureInfoResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getProfilePictureInfoWithHttpInfo($if_none_match = null)
     {
-        $returnType = '\Swagger\Client\Model\ProfilePictureInfoResponse';
+        $returnType = '\EffetB\BeezupApi\Model\ProfilePictureInfoResponse';
         $request = $this->getProfilePictureInfoRequest($if_none_match);
 
         try {
@@ -940,7 +940,7 @@ class CustomerAccountApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ProfilePictureInfoResponse',
+                        '\EffetB\BeezupApi\Model\ProfilePictureInfoResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -948,7 +948,7 @@ class CustomerAccountApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -990,7 +990,7 @@ class CustomerAccountApi
      */
     public function getProfilePictureInfoAsyncWithHttpInfo($if_none_match = null)
     {
-        $returnType = '\Swagger\Client\Model\ProfilePictureInfoResponse';
+        $returnType = '\EffetB\BeezupApi\Model\ProfilePictureInfoResponse';
         $request = $this->getProfilePictureInfoRequest($if_none_match);
 
         return $this->client
@@ -1130,9 +1130,9 @@ class CustomerAccountApi
      *
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\AccountInfo
+     * @return \EffetB\BeezupApi\Model\AccountInfo
      */
     public function getUserAccountInfo($if_none_match = null)
     {
@@ -1147,13 +1147,13 @@ class CustomerAccountApi
      *
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\AccountInfo, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\AccountInfo, HTTP status code, HTTP response headers (array of strings)
      */
     public function getUserAccountInfoWithHttpInfo($if_none_match = null)
     {
-        $returnType = '\Swagger\Client\Model\AccountInfo';
+        $returnType = '\EffetB\BeezupApi\Model\AccountInfo';
         $request = $this->getUserAccountInfoRequest($if_none_match);
 
         try {
@@ -1205,7 +1205,7 @@ class CustomerAccountApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\AccountInfo',
+                        '\EffetB\BeezupApi\Model\AccountInfo',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1213,7 +1213,7 @@ class CustomerAccountApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1255,7 +1255,7 @@ class CustomerAccountApi
      */
     public function getUserAccountInfoAsyncWithHttpInfo($if_none_match = null)
     {
-        $returnType = '\Swagger\Client\Model\AccountInfo';
+        $returnType = '\EffetB\BeezupApi\Model\AccountInfo';
         $request = $this->getUserAccountInfoRequest($if_none_match);
 
         return $this->client
@@ -1394,7 +1394,7 @@ class CustomerAccountApi
      * Resend email activation
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1409,7 +1409,7 @@ class CustomerAccountApi
      * Resend email activation
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1453,7 +1453,7 @@ class CustomerAccountApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1461,7 +1461,7 @@ class CustomerAccountApi
                 case 409:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1469,7 +1469,7 @@ class CustomerAccountApi
                 case 429:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1477,7 +1477,7 @@ class CustomerAccountApi
                 case 502:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1485,7 +1485,7 @@ class CustomerAccountApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1644,9 +1644,9 @@ class CustomerAccountApi
      *
      * Change company information
      *
-     * @param  \Swagger\Client\Model\CompanyInfo $request request (required)
+     * @param  \EffetB\BeezupApi\Model\CompanyInfo $request request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1660,9 +1660,9 @@ class CustomerAccountApi
      *
      * Change company information
      *
-     * @param  \Swagger\Client\Model\CompanyInfo $request (required)
+     * @param  \EffetB\BeezupApi\Model\CompanyInfo $request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1706,7 +1706,7 @@ class CustomerAccountApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1714,7 +1714,7 @@ class CustomerAccountApi
                 case 403:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1722,7 +1722,7 @@ class CustomerAccountApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1737,7 +1737,7 @@ class CustomerAccountApi
      *
      * Change company information
      *
-     * @param  \Swagger\Client\Model\CompanyInfo $request (required)
+     * @param  \EffetB\BeezupApi\Model\CompanyInfo $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1757,7 +1757,7 @@ class CustomerAccountApi
      *
      * Change company information
      *
-     * @param  \Swagger\Client\Model\CompanyInfo $request (required)
+     * @param  \EffetB\BeezupApi\Model\CompanyInfo $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1793,7 +1793,7 @@ class CustomerAccountApi
     /**
      * Create request for operation 'saveCompanyInfo'
      *
-     * @param  \Swagger\Client\Model\CompanyInfo $request (required)
+     * @param  \EffetB\BeezupApi\Model\CompanyInfo $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -1893,9 +1893,9 @@ class CustomerAccountApi
      *
      * Save user credit card info
      *
-     * @param  \Swagger\Client\Model\CreditCardInfo $request Credit card info (required)
+     * @param  \EffetB\BeezupApi\Model\CreditCardInfo $request Credit card info (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1909,9 +1909,9 @@ class CustomerAccountApi
      *
      * Save user credit card info
      *
-     * @param  \Swagger\Client\Model\CreditCardInfo $request Credit card info (required)
+     * @param  \EffetB\BeezupApi\Model\CreditCardInfo $request Credit card info (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1955,7 +1955,7 @@ class CustomerAccountApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1963,7 +1963,7 @@ class CustomerAccountApi
                 case 502:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1971,7 +1971,7 @@ class CustomerAccountApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1986,7 +1986,7 @@ class CustomerAccountApi
      *
      * Save user credit card info
      *
-     * @param  \Swagger\Client\Model\CreditCardInfo $request Credit card info (required)
+     * @param  \EffetB\BeezupApi\Model\CreditCardInfo $request Credit card info (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -2006,7 +2006,7 @@ class CustomerAccountApi
      *
      * Save user credit card info
      *
-     * @param  \Swagger\Client\Model\CreditCardInfo $request Credit card info (required)
+     * @param  \EffetB\BeezupApi\Model\CreditCardInfo $request Credit card info (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -2042,7 +2042,7 @@ class CustomerAccountApi
     /**
      * Create request for operation 'saveCreditCardInfo'
      *
-     * @param  \Swagger\Client\Model\CreditCardInfo $request Credit card info (required)
+     * @param  \EffetB\BeezupApi\Model\CreditCardInfo $request Credit card info (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -2142,9 +2142,9 @@ class CustomerAccountApi
      *
      * Save user personal information
      *
-     * @param  \Swagger\Client\Model\PersonalInfo $request request (required)
+     * @param  \EffetB\BeezupApi\Model\PersonalInfo $request request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -2158,9 +2158,9 @@ class CustomerAccountApi
      *
      * Save user personal information
      *
-     * @param  \Swagger\Client\Model\PersonalInfo $request (required)
+     * @param  \EffetB\BeezupApi\Model\PersonalInfo $request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -2204,7 +2204,7 @@ class CustomerAccountApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2212,7 +2212,7 @@ class CustomerAccountApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2227,7 +2227,7 @@ class CustomerAccountApi
      *
      * Save user personal information
      *
-     * @param  \Swagger\Client\Model\PersonalInfo $request (required)
+     * @param  \EffetB\BeezupApi\Model\PersonalInfo $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -2247,7 +2247,7 @@ class CustomerAccountApi
      *
      * Save user personal information
      *
-     * @param  \Swagger\Client\Model\PersonalInfo $request (required)
+     * @param  \EffetB\BeezupApi\Model\PersonalInfo $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -2283,7 +2283,7 @@ class CustomerAccountApi
     /**
      * Create request for operation 'savePersonalInfo'
      *
-     * @param  \Swagger\Client\Model\PersonalInfo $request (required)
+     * @param  \EffetB\BeezupApi\Model\PersonalInfo $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -2383,9 +2383,9 @@ class CustomerAccountApi
      *
      * Change user picture information
      *
-     * @param  \Swagger\Client\Model\ProfilePictureInfo $request request (required)
+     * @param  \EffetB\BeezupApi\Model\ProfilePictureInfo $request request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -2399,9 +2399,9 @@ class CustomerAccountApi
      *
      * Change user picture information
      *
-     * @param  \Swagger\Client\Model\ProfilePictureInfo $request (required)
+     * @param  \EffetB\BeezupApi\Model\ProfilePictureInfo $request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -2445,7 +2445,7 @@ class CustomerAccountApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2453,7 +2453,7 @@ class CustomerAccountApi
                 case 413:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2461,7 +2461,7 @@ class CustomerAccountApi
                 case 415:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2469,7 +2469,7 @@ class CustomerAccountApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2484,7 +2484,7 @@ class CustomerAccountApi
      *
      * Change user picture information
      *
-     * @param  \Swagger\Client\Model\ProfilePictureInfo $request (required)
+     * @param  \EffetB\BeezupApi\Model\ProfilePictureInfo $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -2504,7 +2504,7 @@ class CustomerAccountApi
      *
      * Change user picture information
      *
-     * @param  \Swagger\Client\Model\ProfilePictureInfo $request (required)
+     * @param  \EffetB\BeezupApi\Model\ProfilePictureInfo $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -2540,7 +2540,7 @@ class CustomerAccountApi
     /**
      * Create request for operation 'saveProfilePictureInfo'
      *
-     * @param  \Swagger\Client\Model\ProfilePictureInfo $request (required)
+     * @param  \EffetB\BeezupApi\Model\ProfilePictureInfo $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

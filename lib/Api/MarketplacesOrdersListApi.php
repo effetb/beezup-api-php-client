@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace EffetB\BeezupApi\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use EffetB\BeezupApi\ApiException;
+use EffetB\BeezupApi\Configuration;
+use EffetB\BeezupApi\HeaderSelector;
+use EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * MarketplacesOrdersListApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -93,11 +93,11 @@ class MarketplacesOrdersListApi
      * Get a paginated list of all Orders with all Order and Order Item(s) properties
      *
      * @param  string[] $accept_encoding Allows the client to indicate wether it accepts a compressed encoding to reduce traffic size (required)
-     * @param  \Swagger\Client\Model\OrderListRequest $request request (required)
+     * @param  \EffetB\BeezupApi\Model\OrderListRequest $request request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\OrderListFull
+     * @return \EffetB\BeezupApi\Model\OrderListFull
      */
     public function getOrderListFull($accept_encoding, $request)
     {
@@ -111,15 +111,15 @@ class MarketplacesOrdersListApi
      * Get a paginated list of all Orders with all Order and Order Item(s) properties
      *
      * @param  string[] $accept_encoding Allows the client to indicate wether it accepts a compressed encoding to reduce traffic size (required)
-     * @param  \Swagger\Client\Model\OrderListRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\OrderListRequest $request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\OrderListFull, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\OrderListFull, HTTP status code, HTTP response headers (array of strings)
      */
     public function getOrderListFullWithHttpInfo($accept_encoding, $request)
     {
-        $returnType = '\Swagger\Client\Model\OrderListFull';
+        $returnType = '\EffetB\BeezupApi\Model\OrderListFull';
         $request = $this->getOrderListFullRequest($accept_encoding, $request);
 
         try {
@@ -171,7 +171,7 @@ class MarketplacesOrdersListApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\OrderListFull',
+                        '\EffetB\BeezupApi\Model\OrderListFull',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -179,7 +179,7 @@ class MarketplacesOrdersListApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -187,7 +187,7 @@ class MarketplacesOrdersListApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -203,7 +203,7 @@ class MarketplacesOrdersListApi
      * Get a paginated list of all Orders with all Order and Order Item(s) properties
      *
      * @param  string[] $accept_encoding Allows the client to indicate wether it accepts a compressed encoding to reduce traffic size (required)
-     * @param  \Swagger\Client\Model\OrderListRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\OrderListRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -224,14 +224,14 @@ class MarketplacesOrdersListApi
      * Get a paginated list of all Orders with all Order and Order Item(s) properties
      *
      * @param  string[] $accept_encoding Allows the client to indicate wether it accepts a compressed encoding to reduce traffic size (required)
-     * @param  \Swagger\Client\Model\OrderListRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\OrderListRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getOrderListFullAsyncWithHttpInfo($accept_encoding, $request)
     {
-        $returnType = '\Swagger\Client\Model\OrderListFull';
+        $returnType = '\EffetB\BeezupApi\Model\OrderListFull';
         $request = $this->getOrderListFullRequest($accept_encoding, $request);
 
         return $this->client
@@ -275,7 +275,7 @@ class MarketplacesOrdersListApi
      * Create request for operation 'getOrderListFull'
      *
      * @param  string[] $accept_encoding Allows the client to indicate wether it accepts a compressed encoding to reduce traffic size (required)
-     * @param  \Swagger\Client\Model\OrderListRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\OrderListRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -388,11 +388,11 @@ class MarketplacesOrdersListApi
      *
      * Get a paginated list of all Orders without details
      *
-     * @param  \Swagger\Client\Model\OrderListRequest $request request (required)
+     * @param  \EffetB\BeezupApi\Model\OrderListRequest $request request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\OrderListLight
+     * @return \EffetB\BeezupApi\Model\OrderListLight
      */
     public function getOrderListLight($request)
     {
@@ -405,15 +405,15 @@ class MarketplacesOrdersListApi
      *
      * Get a paginated list of all Orders without details
      *
-     * @param  \Swagger\Client\Model\OrderListRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\OrderListRequest $request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\OrderListLight, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\OrderListLight, HTTP status code, HTTP response headers (array of strings)
      */
     public function getOrderListLightWithHttpInfo($request)
     {
-        $returnType = '\Swagger\Client\Model\OrderListLight';
+        $returnType = '\EffetB\BeezupApi\Model\OrderListLight';
         $request = $this->getOrderListLightRequest($request);
 
         try {
@@ -465,7 +465,7 @@ class MarketplacesOrdersListApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\OrderListLight',
+                        '\EffetB\BeezupApi\Model\OrderListLight',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -473,7 +473,7 @@ class MarketplacesOrdersListApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -481,7 +481,7 @@ class MarketplacesOrdersListApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -496,7 +496,7 @@ class MarketplacesOrdersListApi
      *
      * Get a paginated list of all Orders without details
      *
-     * @param  \Swagger\Client\Model\OrderListRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\OrderListRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -516,14 +516,14 @@ class MarketplacesOrdersListApi
      *
      * Get a paginated list of all Orders without details
      *
-     * @param  \Swagger\Client\Model\OrderListRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\OrderListRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getOrderListLightAsyncWithHttpInfo($request)
     {
-        $returnType = '\Swagger\Client\Model\OrderListLight';
+        $returnType = '\EffetB\BeezupApi\Model\OrderListLight';
         $request = $this->getOrderListLightRequest($request);
 
         return $this->client
@@ -566,7 +566,7 @@ class MarketplacesOrdersListApi
     /**
      * Create request for operation 'getOrderListLight'
      *
-     * @param  \Swagger\Client\Model\OrderListRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\OrderListRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

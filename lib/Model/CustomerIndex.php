@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CustomerIndex Class Doc Comment
  *
  * @category Class
  * @description The index of the customer API
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,8 +58,8 @@ class CustomerIndex implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\CustomerIndexLinks',
-        'lov_links' => '\Swagger\Client\Model\CustomerIndexLovLinks'
+        'links' => '\EffetB\BeezupApi\Model\CustomerIndexLinks',
+        'lov_links' => '\EffetB\BeezupApi\Model\CustomerIndexLovLinks'
     ];
 
     /**
@@ -227,7 +227,7 @@ class CustomerIndex implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\CustomerIndexLinks
+     * @return \EffetB\BeezupApi\Model\CustomerIndexLinks
      */
     public function getLinks()
     {
@@ -237,7 +237,7 @@ class CustomerIndex implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\CustomerIndexLinks $links links
+     * @param \EffetB\BeezupApi\Model\CustomerIndexLinks $links links
      *
      * @return $this
      */
@@ -251,7 +251,7 @@ class CustomerIndex implements ModelInterface, ArrayAccess
     /**
      * Gets lov_links
      *
-     * @return \Swagger\Client\Model\CustomerIndexLovLinks
+     * @return \EffetB\BeezupApi\Model\CustomerIndexLovLinks
      */
     public function getLovLinks()
     {
@@ -261,7 +261,7 @@ class CustomerIndex implements ModelInterface, ArrayAccess
     /**
      * Sets lov_links
      *
-     * @param \Swagger\Client\Model\CustomerIndexLovLinks $lov_links lov_links
+     * @param \EffetB\BeezupApi\Model\CustomerIndexLovLinks $lov_links lov_links
      *
      * @return $this
      */

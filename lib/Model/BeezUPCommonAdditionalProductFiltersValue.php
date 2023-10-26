@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * BeezUPCommonAdditionalProductFiltersValue Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class BeezUPCommonAdditionalProductFiltersValue implements ModelInterface, Array
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'operator_name' => '\Swagger\Client\Model\BeezUPCommonProductColumnFilterOperatorName',
+        'operator_name' => '\EffetB\BeezupApi\Model\BeezUPCommonProductColumnFilterOperatorName',
         'values' => 'string[]'
     ];
 
@@ -214,7 +214,7 @@ class BeezUPCommonAdditionalProductFiltersValue implements ModelInterface, Array
     /**
      * Gets operator_name
      *
-     * @return \Swagger\Client\Model\BeezUPCommonProductColumnFilterOperatorName
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonProductColumnFilterOperatorName
      */
     public function getOperatorName()
     {
@@ -224,7 +224,7 @@ class BeezUPCommonAdditionalProductFiltersValue implements ModelInterface, Array
     /**
      * Sets operator_name
      *
-     * @param \Swagger\Client\Model\BeezUPCommonProductColumnFilterOperatorName $operator_name operator_name
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonProductColumnFilterOperatorName $operator_name operator_name
      *
      * @return $this
      */

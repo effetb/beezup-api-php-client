@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * AutoImportConfigurationLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,13 +57,13 @@ class AutoImportConfigurationLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksAutoGetAutoImportConfigurationLink',
-        'activate' => '\Swagger\Client\Model\LinksImportationActivateAutoImportLink',
-        'start' => '\Swagger\Client\Model\LinksAutoStartAutoImportLink',
-        'pause' => '\Swagger\Client\Model\LinksAutoPauseAutoImportLink',
-        'resume' => '\Swagger\Client\Model\LinksAutoResumeAutoImportLink',
-        'schedule_interval' => '\Swagger\Client\Model\LinksAutoConfigureAutoImportIntervalLink',
-        'schedule' => '\Swagger\Client\Model\LinksAutoScheduleAutoImportLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksAutoGetAutoImportConfigurationLink',
+        'activate' => '\EffetB\BeezupApi\Model\LinksImportationActivateAutoImportLink',
+        'start' => '\EffetB\BeezupApi\Model\LinksAutoStartAutoImportLink',
+        'pause' => '\EffetB\BeezupApi\Model\LinksAutoPauseAutoImportLink',
+        'resume' => '\EffetB\BeezupApi\Model\LinksAutoResumeAutoImportLink',
+        'schedule_interval' => '\EffetB\BeezupApi\Model\LinksAutoConfigureAutoImportIntervalLink',
+        'schedule' => '\EffetB\BeezupApi\Model\LinksAutoScheduleAutoImportLink'
     ];
 
     /**
@@ -250,7 +250,7 @@ class AutoImportConfigurationLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksAutoGetAutoImportConfigurationLink
+     * @return \EffetB\BeezupApi\Model\LinksAutoGetAutoImportConfigurationLink
      */
     public function getSelf()
     {
@@ -260,7 +260,7 @@ class AutoImportConfigurationLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksAutoGetAutoImportConfigurationLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksAutoGetAutoImportConfigurationLink $self self
      *
      * @return $this
      */
@@ -274,7 +274,7 @@ class AutoImportConfigurationLinks implements ModelInterface, ArrayAccess
     /**
      * Gets activate
      *
-     * @return \Swagger\Client\Model\LinksImportationActivateAutoImportLink
+     * @return \EffetB\BeezupApi\Model\LinksImportationActivateAutoImportLink
      */
     public function getActivate()
     {
@@ -284,7 +284,7 @@ class AutoImportConfigurationLinks implements ModelInterface, ArrayAccess
     /**
      * Sets activate
      *
-     * @param \Swagger\Client\Model\LinksImportationActivateAutoImportLink $activate activate
+     * @param \EffetB\BeezupApi\Model\LinksImportationActivateAutoImportLink $activate activate
      *
      * @return $this
      */
@@ -298,7 +298,7 @@ class AutoImportConfigurationLinks implements ModelInterface, ArrayAccess
     /**
      * Gets start
      *
-     * @return \Swagger\Client\Model\LinksAutoStartAutoImportLink
+     * @return \EffetB\BeezupApi\Model\LinksAutoStartAutoImportLink
      */
     public function getStart()
     {
@@ -308,7 +308,7 @@ class AutoImportConfigurationLinks implements ModelInterface, ArrayAccess
     /**
      * Sets start
      *
-     * @param \Swagger\Client\Model\LinksAutoStartAutoImportLink $start start
+     * @param \EffetB\BeezupApi\Model\LinksAutoStartAutoImportLink $start start
      *
      * @return $this
      */
@@ -322,7 +322,7 @@ class AutoImportConfigurationLinks implements ModelInterface, ArrayAccess
     /**
      * Gets pause
      *
-     * @return \Swagger\Client\Model\LinksAutoPauseAutoImportLink
+     * @return \EffetB\BeezupApi\Model\LinksAutoPauseAutoImportLink
      */
     public function getPause()
     {
@@ -332,7 +332,7 @@ class AutoImportConfigurationLinks implements ModelInterface, ArrayAccess
     /**
      * Sets pause
      *
-     * @param \Swagger\Client\Model\LinksAutoPauseAutoImportLink $pause pause
+     * @param \EffetB\BeezupApi\Model\LinksAutoPauseAutoImportLink $pause pause
      *
      * @return $this
      */
@@ -346,7 +346,7 @@ class AutoImportConfigurationLinks implements ModelInterface, ArrayAccess
     /**
      * Gets resume
      *
-     * @return \Swagger\Client\Model\LinksAutoResumeAutoImportLink
+     * @return \EffetB\BeezupApi\Model\LinksAutoResumeAutoImportLink
      */
     public function getResume()
     {
@@ -356,7 +356,7 @@ class AutoImportConfigurationLinks implements ModelInterface, ArrayAccess
     /**
      * Sets resume
      *
-     * @param \Swagger\Client\Model\LinksAutoResumeAutoImportLink $resume resume
+     * @param \EffetB\BeezupApi\Model\LinksAutoResumeAutoImportLink $resume resume
      *
      * @return $this
      */
@@ -370,7 +370,7 @@ class AutoImportConfigurationLinks implements ModelInterface, ArrayAccess
     /**
      * Gets schedule_interval
      *
-     * @return \Swagger\Client\Model\LinksAutoConfigureAutoImportIntervalLink
+     * @return \EffetB\BeezupApi\Model\LinksAutoConfigureAutoImportIntervalLink
      */
     public function getScheduleInterval()
     {
@@ -380,7 +380,7 @@ class AutoImportConfigurationLinks implements ModelInterface, ArrayAccess
     /**
      * Sets schedule_interval
      *
-     * @param \Swagger\Client\Model\LinksAutoConfigureAutoImportIntervalLink $schedule_interval schedule_interval
+     * @param \EffetB\BeezupApi\Model\LinksAutoConfigureAutoImportIntervalLink $schedule_interval schedule_interval
      *
      * @return $this
      */
@@ -394,7 +394,7 @@ class AutoImportConfigurationLinks implements ModelInterface, ArrayAccess
     /**
      * Gets schedule
      *
-     * @return \Swagger\Client\Model\LinksAutoScheduleAutoImportLink
+     * @return \EffetB\BeezupApi\Model\LinksAutoScheduleAutoImportLink
      */
     public function getSchedule()
     {
@@ -404,7 +404,7 @@ class AutoImportConfigurationLinks implements ModelInterface, ArrayAccess
     /**
      * Sets schedule
      *
-     * @param \Swagger\Client\Model\LinksAutoScheduleAutoImportLink $schedule schedule
+     * @param \EffetB\BeezupApi\Model\LinksAutoScheduleAutoImportLink $schedule schedule
      *
      * @return $this
      */

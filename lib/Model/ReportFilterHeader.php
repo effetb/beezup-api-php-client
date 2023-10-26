@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ReportFilterHeader Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,8 +59,8 @@ class ReportFilterHeader implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'report_filter_id' => 'string',
         'report_filter_name' => 'string',
-        'report_type' => '\Swagger\Client\Model\ReportType',
-        'links' => '\Swagger\Client\Model\ReportFilterHeaderLinks'
+        'report_type' => '\EffetB\BeezupApi\Model\ReportType',
+        'links' => '\EffetB\BeezupApi\Model\ReportFilterHeaderLinks'
     ];
 
     /**
@@ -298,7 +298,7 @@ class ReportFilterHeader implements ModelInterface, ArrayAccess
     /**
      * Gets report_type
      *
-     * @return \Swagger\Client\Model\ReportType
+     * @return \EffetB\BeezupApi\Model\ReportType
      */
     public function getReportType()
     {
@@ -308,7 +308,7 @@ class ReportFilterHeader implements ModelInterface, ArrayAccess
     /**
      * Sets report_type
      *
-     * @param \Swagger\Client\Model\ReportType $report_type report_type
+     * @param \EffetB\BeezupApi\Model\ReportType $report_type report_type
      *
      * @return $this
      */
@@ -322,7 +322,7 @@ class ReportFilterHeader implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ReportFilterHeaderLinks
+     * @return \EffetB\BeezupApi\Model\ReportFilterHeaderLinks
      */
     public function getLinks()
     {
@@ -332,7 +332,7 @@ class ReportFilterHeader implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ReportFilterHeaderLinks $links links
+     * @param \EffetB\BeezupApi\Model\ReportFilterHeaderLinks $links links
      *
      * @return $this
      */

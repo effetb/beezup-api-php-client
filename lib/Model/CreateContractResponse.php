@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CreateContractResponse Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class CreateContractResponse implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\CreateContractResponseLinks',
-        'info' => '\Swagger\Client\Model\BeezUPCommonInfoSummaries'
+        'links' => '\EffetB\BeezupApi\Model\CreateContractResponseLinks',
+        'info' => '\EffetB\BeezupApi\Model\BeezUPCommonInfoSummaries'
     ];
 
     /**
@@ -214,7 +214,7 @@ class CreateContractResponse implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\CreateContractResponseLinks
+     * @return \EffetB\BeezupApi\Model\CreateContractResponseLinks
      */
     public function getLinks()
     {
@@ -224,7 +224,7 @@ class CreateContractResponse implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\CreateContractResponseLinks $links links
+     * @param \EffetB\BeezupApi\Model\CreateContractResponseLinks $links links
      *
      * @return $this
      */
@@ -238,7 +238,7 @@ class CreateContractResponse implements ModelInterface, ArrayAccess
     /**
      * Gets info
      *
-     * @return \Swagger\Client\Model\BeezUPCommonInfoSummaries
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonInfoSummaries
      */
     public function getInfo()
     {
@@ -248,7 +248,7 @@ class CreateContractResponse implements ModelInterface, ArrayAccess
     /**
      * Sets info
      *
-     * @param \Swagger\Client\Model\BeezUPCommonInfoSummaries $info info
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonInfoSummaries $info info
      *
      * @return $this
      */

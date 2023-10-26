@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * Contracts Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,9 +57,9 @@ class Contracts implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\ContractsLinks',
-        'current' => '\Swagger\Client\Model\CurrentContractInfo',
-        'next' => '\Swagger\Client\Model\NextContractInfo'
+        'links' => '\EffetB\BeezupApi\Model\ContractsLinks',
+        'current' => '\EffetB\BeezupApi\Model\CurrentContractInfo',
+        'next' => '\EffetB\BeezupApi\Model\NextContractInfo'
     ];
 
     /**
@@ -226,7 +226,7 @@ class Contracts implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ContractsLinks
+     * @return \EffetB\BeezupApi\Model\ContractsLinks
      */
     public function getLinks()
     {
@@ -236,7 +236,7 @@ class Contracts implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ContractsLinks $links links
+     * @param \EffetB\BeezupApi\Model\ContractsLinks $links links
      *
      * @return $this
      */
@@ -250,7 +250,7 @@ class Contracts implements ModelInterface, ArrayAccess
     /**
      * Gets current
      *
-     * @return \Swagger\Client\Model\CurrentContractInfo
+     * @return \EffetB\BeezupApi\Model\CurrentContractInfo
      */
     public function getCurrent()
     {
@@ -260,7 +260,7 @@ class Contracts implements ModelInterface, ArrayAccess
     /**
      * Sets current
      *
-     * @param \Swagger\Client\Model\CurrentContractInfo $current current
+     * @param \EffetB\BeezupApi\Model\CurrentContractInfo $current current
      *
      * @return $this
      */
@@ -274,7 +274,7 @@ class Contracts implements ModelInterface, ArrayAccess
     /**
      * Gets next
      *
-     * @return \Swagger\Client\Model\NextContractInfo
+     * @return \EffetB\BeezupApi\Model\NextContractInfo
      */
     public function getNext()
     {
@@ -284,7 +284,7 @@ class Contracts implements ModelInterface, ArrayAccess
     /**
      * Sets next
      *
-     * @param \Swagger\Client\Model\NextContractInfo $next next
+     * @param \EffetB\BeezupApi\Model\NextContractInfo $next next
      *
      * @return $this
      */

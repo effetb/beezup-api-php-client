@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ProductSetVisibilityCriteria Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class ProductSetVisibilityCriteria implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'logic' => '\Swagger\Client\Model\ProductSetVisibilityCriteriaLogicType',
+        'logic' => '\EffetB\BeezupApi\Model\ProductSetVisibilityCriteriaLogicType',
         'exist' => 'bool',
         'uncategorized' => 'bool',
         'excluded' => 'bool',
@@ -238,7 +238,7 @@ class ProductSetVisibilityCriteria implements ModelInterface, ArrayAccess
     /**
      * Gets logic
      *
-     * @return \Swagger\Client\Model\ProductSetVisibilityCriteriaLogicType
+     * @return \EffetB\BeezupApi\Model\ProductSetVisibilityCriteriaLogicType
      */
     public function getLogic()
     {
@@ -248,7 +248,7 @@ class ProductSetVisibilityCriteria implements ModelInterface, ArrayAccess
     /**
      * Sets logic
      *
-     * @param \Swagger\Client\Model\ProductSetVisibilityCriteriaLogicType $logic logic
+     * @param \EffetB\BeezupApi\Model\ProductSetVisibilityCriteriaLogicType $logic logic
      *
      * @return $this
      */

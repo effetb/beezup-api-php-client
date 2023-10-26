@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelCatalogState Class Doc Comment
  *
  * @category Class
  * @description Channel Catalog State
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,9 +59,9 @@ class ChannelCatalogState implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'exported_product_count' => 'int',
-        'column_mapping_status' => '\Swagger\Client\Model\ColumnMappingStatus',
-        'category_mapping_state' => '\Swagger\Client\Model\CategoryMappingState',
-        'api_settings_status' => '\Swagger\Client\Model\BeezUPCommonApiSettingsStatus'
+        'column_mapping_status' => '\EffetB\BeezupApi\Model\ColumnMappingStatus',
+        'category_mapping_state' => '\EffetB\BeezupApi\Model\CategoryMappingState',
+        'api_settings_status' => '\EffetB\BeezupApi\Model\BeezUPCommonApiSettingsStatus'
     ];
 
     /**
@@ -269,7 +269,7 @@ class ChannelCatalogState implements ModelInterface, ArrayAccess
     /**
      * Gets column_mapping_status
      *
-     * @return \Swagger\Client\Model\ColumnMappingStatus
+     * @return \EffetB\BeezupApi\Model\ColumnMappingStatus
      */
     public function getColumnMappingStatus()
     {
@@ -279,7 +279,7 @@ class ChannelCatalogState implements ModelInterface, ArrayAccess
     /**
      * Sets column_mapping_status
      *
-     * @param \Swagger\Client\Model\ColumnMappingStatus $column_mapping_status column_mapping_status
+     * @param \EffetB\BeezupApi\Model\ColumnMappingStatus $column_mapping_status column_mapping_status
      *
      * @return $this
      */
@@ -293,7 +293,7 @@ class ChannelCatalogState implements ModelInterface, ArrayAccess
     /**
      * Gets category_mapping_state
      *
-     * @return \Swagger\Client\Model\CategoryMappingState
+     * @return \EffetB\BeezupApi\Model\CategoryMappingState
      */
     public function getCategoryMappingState()
     {
@@ -303,7 +303,7 @@ class ChannelCatalogState implements ModelInterface, ArrayAccess
     /**
      * Sets category_mapping_state
      *
-     * @param \Swagger\Client\Model\CategoryMappingState $category_mapping_state category_mapping_state
+     * @param \EffetB\BeezupApi\Model\CategoryMappingState $category_mapping_state category_mapping_state
      *
      * @return $this
      */
@@ -317,7 +317,7 @@ class ChannelCatalogState implements ModelInterface, ArrayAccess
     /**
      * Gets api_settings_status
      *
-     * @return \Swagger\Client\Model\BeezUPCommonApiSettingsStatus
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonApiSettingsStatus
      */
     public function getApiSettingsStatus()
     {
@@ -327,7 +327,7 @@ class ChannelCatalogState implements ModelInterface, ArrayAccess
     /**
      * Sets api_settings_status
      *
-     * @param \Swagger\Client\Model\BeezUPCommonApiSettingsStatus $api_settings_status api_settings_status
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonApiSettingsStatus $api_settings_status api_settings_status
      *
      * @return $this
      */

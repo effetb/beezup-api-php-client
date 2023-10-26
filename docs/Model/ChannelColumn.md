@@ -3,13 +3,13 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**channel_column_id** | [**\Swagger\Client\Model\BeezUPCommonChannelColumnId**](BeezUPCommonChannelColumnId.md) |  | 
-**channel_column_name** | [**\Swagger\Client\Model\BeezUPCommonChannelColumnName**](BeezUPCommonChannelColumnName.md) |  | 
-**channel_column_description** | [**\Swagger\Client\Model\ChannelColumnDescription**](ChannelColumnDescription.md) |  | [optional] 
-**show_in_mapping** | [**\Swagger\Client\Model\ChannelColumnShowInMapping**](ChannelColumnShowInMapping.md) |  | 
+**channel_column_id** | [**\EffetB\BeezupApi\Model\BeezUPCommonChannelColumnId**](BeezUPCommonChannelColumnId.md) |  | 
+**channel_column_name** | [**\EffetB\BeezupApi\Model\BeezUPCommonChannelColumnName**](BeezUPCommonChannelColumnName.md) |  | 
+**channel_column_description** | [**\EffetB\BeezupApi\Model\ChannelColumnDescription**](ChannelColumnDescription.md) |  | [optional] 
+**show_in_mapping** | [**\EffetB\BeezupApi\Model\ChannelColumnShowInMapping**](ChannelColumnShowInMapping.md) |  | 
 **position** | **int** | The position of the column starting from 1 | 
-**configuration** | [**\Swagger\Client\Model\ChannelColumnConfiguration**](ChannelColumnConfiguration.md) |  | 
-**restricted_values** | [**\Swagger\Client\Model\ChannelColumnRestrictedValues**](ChannelColumnRestrictedValues.md) |  | [optional] 
+**configuration** | [**\EffetB\BeezupApi\Model\ChannelColumnConfiguration**](ChannelColumnConfiguration.md) |  | 
+**restricted_values** | [**\EffetB\BeezupApi\Model\ChannelColumnRestrictedValues**](ChannelColumnRestrictedValues.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

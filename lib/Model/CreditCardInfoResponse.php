@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CreditCardInfoResponse Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,10 +57,10 @@ class CreditCardInfoResponse implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\CreditCardInfoResponseLinks',
-        'current_payment_method' => '\Swagger\Client\Model\PaymentMethod',
-        'credit_card_info' => '\Swagger\Client\Model\CreditCardInfoWithCardType',
-        'info' => '\Swagger\Client\Model\BeezUPCommonInfoSummaries'
+        'links' => '\EffetB\BeezupApi\Model\CreditCardInfoResponseLinks',
+        'current_payment_method' => '\EffetB\BeezupApi\Model\PaymentMethod',
+        'credit_card_info' => '\EffetB\BeezupApi\Model\CreditCardInfoWithCardType',
+        'info' => '\EffetB\BeezupApi\Model\BeezUPCommonInfoSummaries'
     ];
 
     /**
@@ -238,7 +238,7 @@ class CreditCardInfoResponse implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\CreditCardInfoResponseLinks
+     * @return \EffetB\BeezupApi\Model\CreditCardInfoResponseLinks
      */
     public function getLinks()
     {
@@ -248,7 +248,7 @@ class CreditCardInfoResponse implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\CreditCardInfoResponseLinks $links links
+     * @param \EffetB\BeezupApi\Model\CreditCardInfoResponseLinks $links links
      *
      * @return $this
      */
@@ -262,7 +262,7 @@ class CreditCardInfoResponse implements ModelInterface, ArrayAccess
     /**
      * Gets current_payment_method
      *
-     * @return \Swagger\Client\Model\PaymentMethod
+     * @return \EffetB\BeezupApi\Model\PaymentMethod
      */
     public function getCurrentPaymentMethod()
     {
@@ -272,7 +272,7 @@ class CreditCardInfoResponse implements ModelInterface, ArrayAccess
     /**
      * Sets current_payment_method
      *
-     * @param \Swagger\Client\Model\PaymentMethod $current_payment_method current_payment_method
+     * @param \EffetB\BeezupApi\Model\PaymentMethod $current_payment_method current_payment_method
      *
      * @return $this
      */
@@ -286,7 +286,7 @@ class CreditCardInfoResponse implements ModelInterface, ArrayAccess
     /**
      * Gets credit_card_info
      *
-     * @return \Swagger\Client\Model\CreditCardInfoWithCardType
+     * @return \EffetB\BeezupApi\Model\CreditCardInfoWithCardType
      */
     public function getCreditCardInfo()
     {
@@ -296,7 +296,7 @@ class CreditCardInfoResponse implements ModelInterface, ArrayAccess
     /**
      * Sets credit_card_info
      *
-     * @param \Swagger\Client\Model\CreditCardInfoWithCardType $credit_card_info credit_card_info
+     * @param \EffetB\BeezupApi\Model\CreditCardInfoWithCardType $credit_card_info credit_card_info
      *
      * @return $this
      */
@@ -310,7 +310,7 @@ class CreditCardInfoResponse implements ModelInterface, ArrayAccess
     /**
      * Gets info
      *
-     * @return \Swagger\Client\Model\BeezUPCommonInfoSummaries
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonInfoSummaries
      */
     public function getInfo()
     {
@@ -320,7 +320,7 @@ class CreditCardInfoResponse implements ModelInterface, ArrayAccess
     /**
      * Sets info
      *
-     * @param \Swagger\Client\Model\BeezUPCommonInfoSummaries $info info
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonInfoSummaries $info info
      *
      * @return $this
      */

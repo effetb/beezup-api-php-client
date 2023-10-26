@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * BeezUPCommonPaginationResult Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -60,7 +60,7 @@ class BeezUPCommonPaginationResult implements ModelInterface, ArrayAccess
         'entry_count' => 'int',
         'page_count' => 'int',
         'total_entry_count' => 'int',
-        'links' => '\Swagger\Client\Model\BeezUPCommonPaginationResultLinks'
+        'links' => '\EffetB\BeezupApi\Model\BeezUPCommonPaginationResultLinks'
     ];
 
     /**
@@ -358,7 +358,7 @@ class BeezUPCommonPaginationResult implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\BeezUPCommonPaginationResultLinks
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonPaginationResultLinks
      */
     public function getLinks()
     {
@@ -368,7 +368,7 @@ class BeezUPCommonPaginationResult implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\BeezUPCommonPaginationResultLinks $links links
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonPaginationResultLinks $links links
      *
      * @return $this
      */

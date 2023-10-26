@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelCatalogExportationHistoryLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class ChannelCatalogExportationHistoryLinks implements ModelInterface, ArrayAcce
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksGetChannelCatalogExportationHistoryLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksGetChannelCatalogExportationHistoryLink'
     ];
 
     /**
@@ -208,7 +208,7 @@ class ChannelCatalogExportationHistoryLinks implements ModelInterface, ArrayAcce
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksGetChannelCatalogExportationHistoryLink
+     * @return \EffetB\BeezupApi\Model\LinksGetChannelCatalogExportationHistoryLink
      */
     public function getSelf()
     {
@@ -218,7 +218,7 @@ class ChannelCatalogExportationHistoryLinks implements ModelInterface, ArrayAcce
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksGetChannelCatalogExportationHistoryLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksGetChannelCatalogExportationHistoryLink $self self
      *
      * @return $this
      */

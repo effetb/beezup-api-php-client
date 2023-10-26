@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * LoginRequest Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class LoginRequest implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'login' => '\Swagger\Client\Model\BeezUPCommonEmail',
+        'login' => '\EffetB\BeezupApi\Model\BeezUPCommonEmail',
         'password' => 'string'
     ];
 
@@ -226,7 +226,7 @@ class LoginRequest implements ModelInterface, ArrayAccess
     /**
      * Gets login
      *
-     * @return \Swagger\Client\Model\BeezUPCommonEmail
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonEmail
      */
     public function getLogin()
     {
@@ -236,7 +236,7 @@ class LoginRequest implements ModelInterface, ArrayAccess
     /**
      * Sets login
      *
-     * @param \Swagger\Client\Model\BeezUPCommonEmail $login login
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonEmail $login login
      *
      * @return $this
      */

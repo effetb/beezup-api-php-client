@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * AccountPublications Class Doc Comment
  *
  * @category Class
  * @description The publication history for an account
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,8 +58,8 @@ class AccountPublications implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\AccountPublicationsLinks',
-        'publications' => '\Swagger\Client\Model\PublicationReporting[]'
+        'links' => '\EffetB\BeezupApi\Model\AccountPublicationsLinks',
+        'publications' => '\EffetB\BeezupApi\Model\PublicationReporting[]'
     ];
 
     /**
@@ -227,7 +227,7 @@ class AccountPublications implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\AccountPublicationsLinks
+     * @return \EffetB\BeezupApi\Model\AccountPublicationsLinks
      */
     public function getLinks()
     {
@@ -237,7 +237,7 @@ class AccountPublications implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\AccountPublicationsLinks $links links
+     * @param \EffetB\BeezupApi\Model\AccountPublicationsLinks $links links
      *
      * @return $this
      */
@@ -251,7 +251,7 @@ class AccountPublications implements ModelInterface, ArrayAccess
     /**
      * Gets publications
      *
-     * @return \Swagger\Client\Model\PublicationReporting[]
+     * @return \EffetB\BeezupApi\Model\PublicationReporting[]
      */
     public function getPublications()
     {
@@ -261,7 +261,7 @@ class AccountPublications implements ModelInterface, ArrayAccess
     /**
      * Sets publications
      *
-     * @param \Swagger\Client\Model\PublicationReporting[] $publications The recent publications for the requested account
+     * @param \EffetB\BeezupApi\Model\PublicationReporting[] $publications The recent publications for the requested account
      *
      * @return $this
      */

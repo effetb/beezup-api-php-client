@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelRootCategory Class Doc Comment
  *
  * @category Class
  * @description Get channel first level category list
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,7 +58,7 @@ class ChannelRootCategory implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'first_level_categories' => '\Swagger\Client\Model\ChannelFirstLevelCategory[]'
+        'first_level_categories' => '\EffetB\BeezupApi\Model\ChannelFirstLevelCategory[]'
     ];
 
     /**
@@ -215,7 +215,7 @@ class ChannelRootCategory implements ModelInterface, ArrayAccess
     /**
      * Gets first_level_categories
      *
-     * @return \Swagger\Client\Model\ChannelFirstLevelCategory[]
+     * @return \EffetB\BeezupApi\Model\ChannelFirstLevelCategory[]
      */
     public function getFirstLevelCategories()
     {
@@ -225,7 +225,7 @@ class ChannelRootCategory implements ModelInterface, ArrayAccess
     /**
      * Sets first_level_categories
      *
-     * @param \Swagger\Client\Model\ChannelFirstLevelCategory[] $first_level_categories first_level_categories
+     * @param \EffetB\BeezupApi\Model\ChannelFirstLevelCategory[] $first_level_categories first_level_categories
      *
      * @return $this
      */

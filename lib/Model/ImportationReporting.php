@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ImportationReporting Class Doc Comment
  *
  * @category Class
  * @description The catalog importation reporting
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,12 +59,12 @@ class ImportationReporting implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'step_name' => 'string',
-        'user_id' => '\Swagger\Client\Model\BeezUPCommonUserId',
+        'user_id' => '\EffetB\BeezupApi\Model\BeezUPCommonUserId',
         'success' => 'bool',
         'total_product_count' => 'int',
         'total_product_error_count' => 'int',
         'total_product_success_count' => 'int',
-        'errors' => '\Swagger\Client\Model\BeezUPCommonUserErrorMessage[]',
+        'errors' => '\EffetB\BeezupApi\Model\BeezUPCommonUserErrorMessage[]',
         'last_update_utc_date' => '\DateTime',
         'auto_imported' => 'bool',
         'begin_utc_date' => '\DateTime',
@@ -323,7 +323,7 @@ class ImportationReporting implements ModelInterface, ArrayAccess
     /**
      * Gets user_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonUserId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonUserId
      */
     public function getUserId()
     {
@@ -333,7 +333,7 @@ class ImportationReporting implements ModelInterface, ArrayAccess
     /**
      * Sets user_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonUserId $user_id user_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonUserId $user_id user_id
      *
      * @return $this
      */
@@ -443,7 +443,7 @@ class ImportationReporting implements ModelInterface, ArrayAccess
     /**
      * Gets errors
      *
-     * @return \Swagger\Client\Model\BeezUPCommonUserErrorMessage[]
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonUserErrorMessage[]
      */
     public function getErrors()
     {
@@ -453,7 +453,7 @@ class ImportationReporting implements ModelInterface, ArrayAccess
     /**
      * Sets errors
      *
-     * @param \Swagger\Client\Model\BeezUPCommonUserErrorMessage[] $errors Indicate the error message list related to this importation.
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonUserErrorMessage[] $errors Indicate the error message list related to this importation.
      *
      * @return $this
      */

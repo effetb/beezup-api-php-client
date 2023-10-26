@@ -3,8 +3,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**marketplace_technical_code** | [**\Swagger\Client\Model\BeezUPCommonMarketplaceTechnicalCode**](BeezUPCommonMarketplaceTechnicalCode.md) |  | 
-**account_id** | [**\Swagger\Client\Model\AccountId**](AccountId.md) |  | 
+**marketplace_technical_code** | [**\EffetB\BeezupApi\Model\BeezUPCommonMarketplaceTechnicalCode**](BeezUPCommonMarketplaceTechnicalCode.md) |  | 
+**account_id** | [**\EffetB\BeezupApi\Model\AccountId**](AccountId.md) |  | 
 **order_status_transition_id** | **int** |  | 
 **enabled** | **bool** |  | 
 

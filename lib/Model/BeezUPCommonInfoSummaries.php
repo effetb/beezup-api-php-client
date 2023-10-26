@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * BeezUPCommonInfoSummaries Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,10 +57,10 @@ class BeezUPCommonInfoSummaries implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'successes' => '\Swagger\Client\Model\BeezUPCommonSuccessSummary[]',
-        'errors' => '\Swagger\Client\Model\BeezUPCommonErrorSummary[]',
-        'warnings' => '\Swagger\Client\Model\BeezUPCommonWarningSummary[]',
-        'informations' => '\Swagger\Client\Model\BeezUPCommonInfoSummary[]'
+        'successes' => '\EffetB\BeezupApi\Model\BeezUPCommonSuccessSummary[]',
+        'errors' => '\EffetB\BeezupApi\Model\BeezUPCommonErrorSummary[]',
+        'warnings' => '\EffetB\BeezupApi\Model\BeezUPCommonWarningSummary[]',
+        'informations' => '\EffetB\BeezupApi\Model\BeezUPCommonInfoSummary[]'
     ];
 
     /**
@@ -226,7 +226,7 @@ class BeezUPCommonInfoSummaries implements ModelInterface, ArrayAccess
     /**
      * Gets successes
      *
-     * @return \Swagger\Client\Model\BeezUPCommonSuccessSummary[]
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonSuccessSummary[]
      */
     public function getSuccesses()
     {
@@ -236,7 +236,7 @@ class BeezUPCommonInfoSummaries implements ModelInterface, ArrayAccess
     /**
      * Sets successes
      *
-     * @param \Swagger\Client\Model\BeezUPCommonSuccessSummary[] $successes successes
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonSuccessSummary[] $successes successes
      *
      * @return $this
      */
@@ -250,7 +250,7 @@ class BeezUPCommonInfoSummaries implements ModelInterface, ArrayAccess
     /**
      * Gets errors
      *
-     * @return \Swagger\Client\Model\BeezUPCommonErrorSummary[]
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonErrorSummary[]
      */
     public function getErrors()
     {
@@ -260,7 +260,7 @@ class BeezUPCommonInfoSummaries implements ModelInterface, ArrayAccess
     /**
      * Sets errors
      *
-     * @param \Swagger\Client\Model\BeezUPCommonErrorSummary[] $errors errors
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonErrorSummary[] $errors errors
      *
      * @return $this
      */
@@ -274,7 +274,7 @@ class BeezUPCommonInfoSummaries implements ModelInterface, ArrayAccess
     /**
      * Gets warnings
      *
-     * @return \Swagger\Client\Model\BeezUPCommonWarningSummary[]
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonWarningSummary[]
      */
     public function getWarnings()
     {
@@ -284,7 +284,7 @@ class BeezUPCommonInfoSummaries implements ModelInterface, ArrayAccess
     /**
      * Sets warnings
      *
-     * @param \Swagger\Client\Model\BeezUPCommonWarningSummary[] $warnings warnings
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonWarningSummary[] $warnings warnings
      *
      * @return $this
      */
@@ -298,7 +298,7 @@ class BeezUPCommonInfoSummaries implements ModelInterface, ArrayAccess
     /**
      * Gets informations
      *
-     * @return \Swagger\Client\Model\BeezUPCommonInfoSummary[]
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonInfoSummary[]
      */
     public function getInformations()
     {
@@ -308,7 +308,7 @@ class BeezUPCommonInfoSummaries implements ModelInterface, ArrayAccess
     /**
      * Sets informations
      *
-     * @param \Swagger\Client\Model\BeezUPCommonInfoSummary[] $informations informations
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonInfoSummary[] $informations informations
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * OrderExportations Class Doc Comment
  *
  * @category Class
  * @description The list of Order report exportations.\\ The paginationResult properties can be null if the list is empty.
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,9 +58,9 @@ class OrderExportations implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'pagination_result' => '\Swagger\Client\Model\BeezUPCommonPaginationResult',
-        'exportations' => '\Swagger\Client\Model\OrderExportationReporting[]',
-        'links' => '\Swagger\Client\Model\OrderExportationsLinks'
+        'pagination_result' => '\EffetB\BeezupApi\Model\BeezUPCommonPaginationResult',
+        'exportations' => '\EffetB\BeezupApi\Model\OrderExportationReporting[]',
+        'links' => '\EffetB\BeezupApi\Model\OrderExportationsLinks'
     ];
 
     /**
@@ -233,7 +233,7 @@ class OrderExportations implements ModelInterface, ArrayAccess
     /**
      * Gets pagination_result
      *
-     * @return \Swagger\Client\Model\BeezUPCommonPaginationResult
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonPaginationResult
      */
     public function getPaginationResult()
     {
@@ -243,7 +243,7 @@ class OrderExportations implements ModelInterface, ArrayAccess
     /**
      * Sets pagination_result
      *
-     * @param \Swagger\Client\Model\BeezUPCommonPaginationResult $pagination_result pagination_result
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonPaginationResult $pagination_result pagination_result
      *
      * @return $this
      */
@@ -257,7 +257,7 @@ class OrderExportations implements ModelInterface, ArrayAccess
     /**
      * Gets exportations
      *
-     * @return \Swagger\Client\Model\OrderExportationReporting[]
+     * @return \EffetB\BeezupApi\Model\OrderExportationReporting[]
      */
     public function getExportations()
     {
@@ -267,7 +267,7 @@ class OrderExportations implements ModelInterface, ArrayAccess
     /**
      * Sets exportations
      *
-     * @param \Swagger\Client\Model\OrderExportationReporting[] $exportations exportations
+     * @param \EffetB\BeezupApi\Model\OrderExportationReporting[] $exportations exportations
      *
      * @return $this
      */
@@ -281,7 +281,7 @@ class OrderExportations implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\OrderExportationsLinks
+     * @return \EffetB\BeezupApi\Model\OrderExportationsLinks
      */
     public function getLinks()
     {
@@ -291,7 +291,7 @@ class OrderExportations implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\OrderExportationsLinks $links links
+     * @param \EffetB\BeezupApi\Model\OrderExportationsLinks $links links
      *
      * @return $this
      */

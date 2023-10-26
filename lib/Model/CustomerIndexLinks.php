@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CustomerIndexLinks Class Doc Comment
  *
  * @category Class
  * @description Gives you want you can do on this API
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,16 +58,16 @@ class CustomerIndexLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksGetCustomerIndexLink',
-        'account_info' => '\Swagger\Client\Model\LinksGetUserAccountInfoLink',
-        'friend_info' => '\Swagger\Client\Model\LinksGetFriendInfoLink',
-        'logout' => '\Swagger\Client\Model\LinksLogoutLink',
-        'stores' => '\Swagger\Client\Model\LinksGetStoresLink',
-        'billing_periods' => '\Swagger\Client\Model\LinksGetBillingPeriodsLink',
-        'standard_offers' => '\Swagger\Client\Model\LinksGetStandardOffersLink',
-        'get_offer' => '\Swagger\Client\Model\LinksGetOfferLink',
-        'invoices' => '\Swagger\Client\Model\LinksGetInvoicesLink',
-        'contracts' => '\Swagger\Client\Model\LinksGetContractsLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksGetCustomerIndexLink',
+        'account_info' => '\EffetB\BeezupApi\Model\LinksGetUserAccountInfoLink',
+        'friend_info' => '\EffetB\BeezupApi\Model\LinksGetFriendInfoLink',
+        'logout' => '\EffetB\BeezupApi\Model\LinksLogoutLink',
+        'stores' => '\EffetB\BeezupApi\Model\LinksGetStoresLink',
+        'billing_periods' => '\EffetB\BeezupApi\Model\LinksGetBillingPeriodsLink',
+        'standard_offers' => '\EffetB\BeezupApi\Model\LinksGetStandardOffersLink',
+        'get_offer' => '\EffetB\BeezupApi\Model\LinksGetOfferLink',
+        'invoices' => '\EffetB\BeezupApi\Model\LinksGetInvoicesLink',
+        'contracts' => '\EffetB\BeezupApi\Model\LinksGetContractsLink'
     ];
 
     /**
@@ -293,7 +293,7 @@ class CustomerIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksGetCustomerIndexLink
+     * @return \EffetB\BeezupApi\Model\LinksGetCustomerIndexLink
      */
     public function getSelf()
     {
@@ -303,7 +303,7 @@ class CustomerIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksGetCustomerIndexLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksGetCustomerIndexLink $self self
      *
      * @return $this
      */
@@ -317,7 +317,7 @@ class CustomerIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets account_info
      *
-     * @return \Swagger\Client\Model\LinksGetUserAccountInfoLink
+     * @return \EffetB\BeezupApi\Model\LinksGetUserAccountInfoLink
      */
     public function getAccountInfo()
     {
@@ -327,7 +327,7 @@ class CustomerIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets account_info
      *
-     * @param \Swagger\Client\Model\LinksGetUserAccountInfoLink $account_info account_info
+     * @param \EffetB\BeezupApi\Model\LinksGetUserAccountInfoLink $account_info account_info
      *
      * @return $this
      */
@@ -341,7 +341,7 @@ class CustomerIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets friend_info
      *
-     * @return \Swagger\Client\Model\LinksGetFriendInfoLink
+     * @return \EffetB\BeezupApi\Model\LinksGetFriendInfoLink
      */
     public function getFriendInfo()
     {
@@ -351,7 +351,7 @@ class CustomerIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets friend_info
      *
-     * @param \Swagger\Client\Model\LinksGetFriendInfoLink $friend_info friend_info
+     * @param \EffetB\BeezupApi\Model\LinksGetFriendInfoLink $friend_info friend_info
      *
      * @return $this
      */
@@ -365,7 +365,7 @@ class CustomerIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets logout
      *
-     * @return \Swagger\Client\Model\LinksLogoutLink
+     * @return \EffetB\BeezupApi\Model\LinksLogoutLink
      */
     public function getLogout()
     {
@@ -375,7 +375,7 @@ class CustomerIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets logout
      *
-     * @param \Swagger\Client\Model\LinksLogoutLink $logout logout
+     * @param \EffetB\BeezupApi\Model\LinksLogoutLink $logout logout
      *
      * @return $this
      */
@@ -389,7 +389,7 @@ class CustomerIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets stores
      *
-     * @return \Swagger\Client\Model\LinksGetStoresLink
+     * @return \EffetB\BeezupApi\Model\LinksGetStoresLink
      */
     public function getStores()
     {
@@ -399,7 +399,7 @@ class CustomerIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets stores
      *
-     * @param \Swagger\Client\Model\LinksGetStoresLink $stores stores
+     * @param \EffetB\BeezupApi\Model\LinksGetStoresLink $stores stores
      *
      * @return $this
      */
@@ -413,7 +413,7 @@ class CustomerIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets billing_periods
      *
-     * @return \Swagger\Client\Model\LinksGetBillingPeriodsLink
+     * @return \EffetB\BeezupApi\Model\LinksGetBillingPeriodsLink
      */
     public function getBillingPeriods()
     {
@@ -423,7 +423,7 @@ class CustomerIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets billing_periods
      *
-     * @param \Swagger\Client\Model\LinksGetBillingPeriodsLink $billing_periods billing_periods
+     * @param \EffetB\BeezupApi\Model\LinksGetBillingPeriodsLink $billing_periods billing_periods
      *
      * @return $this
      */
@@ -437,7 +437,7 @@ class CustomerIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets standard_offers
      *
-     * @return \Swagger\Client\Model\LinksGetStandardOffersLink
+     * @return \EffetB\BeezupApi\Model\LinksGetStandardOffersLink
      */
     public function getStandardOffers()
     {
@@ -447,7 +447,7 @@ class CustomerIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets standard_offers
      *
-     * @param \Swagger\Client\Model\LinksGetStandardOffersLink $standard_offers standard_offers
+     * @param \EffetB\BeezupApi\Model\LinksGetStandardOffersLink $standard_offers standard_offers
      *
      * @return $this
      */
@@ -461,7 +461,7 @@ class CustomerIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets get_offer
      *
-     * @return \Swagger\Client\Model\LinksGetOfferLink
+     * @return \EffetB\BeezupApi\Model\LinksGetOfferLink
      */
     public function getGetOffer()
     {
@@ -471,7 +471,7 @@ class CustomerIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets get_offer
      *
-     * @param \Swagger\Client\Model\LinksGetOfferLink $get_offer get_offer
+     * @param \EffetB\BeezupApi\Model\LinksGetOfferLink $get_offer get_offer
      *
      * @return $this
      */
@@ -485,7 +485,7 @@ class CustomerIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets invoices
      *
-     * @return \Swagger\Client\Model\LinksGetInvoicesLink
+     * @return \EffetB\BeezupApi\Model\LinksGetInvoicesLink
      */
     public function getInvoices()
     {
@@ -495,7 +495,7 @@ class CustomerIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets invoices
      *
-     * @param \Swagger\Client\Model\LinksGetInvoicesLink $invoices invoices
+     * @param \EffetB\BeezupApi\Model\LinksGetInvoicesLink $invoices invoices
      *
      * @return $this
      */
@@ -509,7 +509,7 @@ class CustomerIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets contracts
      *
-     * @return \Swagger\Client\Model\LinksGetContractsLink
+     * @return \EffetB\BeezupApi\Model\LinksGetContractsLink
      */
     public function getContracts()
     {
@@ -519,7 +519,7 @@ class CustomerIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets contracts
      *
-     * @param \Swagger\Client\Model\LinksGetContractsLink $contracts contracts
+     * @param \EffetB\BeezupApi\Model\LinksGetContractsLink $contracts contracts
      *
      * @return $this
      */

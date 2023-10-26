@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * PublicListOfValuesResponse Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class PublicListOfValuesResponse implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\PublicListOfValuesResponseLinks',
-        'items' => '\Swagger\Client\Model\BeezUPCommonListOfValueItem[]'
+        'links' => '\EffetB\BeezupApi\Model\PublicListOfValuesResponseLinks',
+        'items' => '\EffetB\BeezupApi\Model\BeezUPCommonListOfValueItem[]'
     ];
 
     /**
@@ -214,7 +214,7 @@ class PublicListOfValuesResponse implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\PublicListOfValuesResponseLinks
+     * @return \EffetB\BeezupApi\Model\PublicListOfValuesResponseLinks
      */
     public function getLinks()
     {
@@ -224,7 +224,7 @@ class PublicListOfValuesResponse implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\PublicListOfValuesResponseLinks $links links
+     * @param \EffetB\BeezupApi\Model\PublicListOfValuesResponseLinks $links links
      *
      * @return $this
      */
@@ -238,7 +238,7 @@ class PublicListOfValuesResponse implements ModelInterface, ArrayAccess
     /**
      * Gets items
      *
-     * @return \Swagger\Client\Model\BeezUPCommonListOfValueItem[]
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonListOfValueItem[]
      */
     public function getItems()
     {
@@ -248,7 +248,7 @@ class PublicListOfValuesResponse implements ModelInterface, ArrayAccess
     /**
      * Sets items
      *
-     * @param \Swagger\Client\Model\BeezUPCommonListOfValueItem[] $items items
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonListOfValueItem[] $items items
      *
      * @return $this
      */

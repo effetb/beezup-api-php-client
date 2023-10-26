@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * AutomaticTransitionInfoList Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class AutomaticTransitionInfoList implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\AutomaticTransitionInfoListLinks',
-        'automatic_transition_infos' => '\Swagger\Client\Model\AutomaticTransitionInfo[]'
+        'links' => '\EffetB\BeezupApi\Model\AutomaticTransitionInfoListLinks',
+        'automatic_transition_infos' => '\EffetB\BeezupApi\Model\AutomaticTransitionInfo[]'
     ];
 
     /**
@@ -220,7 +220,7 @@ class AutomaticTransitionInfoList implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\AutomaticTransitionInfoListLinks
+     * @return \EffetB\BeezupApi\Model\AutomaticTransitionInfoListLinks
      */
     public function getLinks()
     {
@@ -230,7 +230,7 @@ class AutomaticTransitionInfoList implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\AutomaticTransitionInfoListLinks $links links
+     * @param \EffetB\BeezupApi\Model\AutomaticTransitionInfoListLinks $links links
      *
      * @return $this
      */
@@ -244,7 +244,7 @@ class AutomaticTransitionInfoList implements ModelInterface, ArrayAccess
     /**
      * Gets automatic_transition_infos
      *
-     * @return \Swagger\Client\Model\AutomaticTransitionInfo[]
+     * @return \EffetB\BeezupApi\Model\AutomaticTransitionInfo[]
      */
     public function getAutomaticTransitionInfos()
     {
@@ -254,7 +254,7 @@ class AutomaticTransitionInfoList implements ModelInterface, ArrayAccess
     /**
      * Sets automatic_transition_infos
      *
-     * @param \Swagger\Client\Model\AutomaticTransitionInfo[] $automatic_transition_infos automatic_transition_infos
+     * @param \EffetB\BeezupApi\Model\AutomaticTransitionInfo[] $automatic_transition_infos automatic_transition_infos
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ReportFilter Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,8 +59,8 @@ class ReportFilter implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'report_filter_id' => 'string',
         'report_filter_name' => 'string',
-        'parameters' => '\Swagger\Client\Model\ReportFilterParameters',
-        'links' => '\Swagger\Client\Model\ReportFilterLinks'
+        'parameters' => '\EffetB\BeezupApi\Model\ReportFilterParameters',
+        'links' => '\EffetB\BeezupApi\Model\ReportFilterLinks'
     ];
 
     /**
@@ -292,7 +292,7 @@ class ReportFilter implements ModelInterface, ArrayAccess
     /**
      * Gets parameters
      *
-     * @return \Swagger\Client\Model\ReportFilterParameters
+     * @return \EffetB\BeezupApi\Model\ReportFilterParameters
      */
     public function getParameters()
     {
@@ -302,7 +302,7 @@ class ReportFilter implements ModelInterface, ArrayAccess
     /**
      * Sets parameters
      *
-     * @param \Swagger\Client\Model\ReportFilterParameters $parameters parameters
+     * @param \EffetB\BeezupApi\Model\ReportFilterParameters $parameters parameters
      *
      * @return $this
      */
@@ -316,7 +316,7 @@ class ReportFilter implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ReportFilterLinks
+     * @return \EffetB\BeezupApi\Model\ReportFilterLinks
      */
     public function getLinks()
     {
@@ -326,7 +326,7 @@ class ReportFilter implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ReportFilterLinks $links links
+     * @param \EffetB\BeezupApi\Model\ReportFilterLinks $links links
      *
      * @return $this
      */

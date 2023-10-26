@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CurrentContractInfoLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class CurrentContractInfoLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'disable' => '\Swagger\Client\Model\LinksTerminateCurrentContractLink',
-        'reenable' => '\Swagger\Client\Model\LinksReactivateCurrentContractLink'
+        'disable' => '\EffetB\BeezupApi\Model\LinksTerminateCurrentContractLink',
+        'reenable' => '\EffetB\BeezupApi\Model\LinksReactivateCurrentContractLink'
     ];
 
     /**
@@ -214,7 +214,7 @@ class CurrentContractInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Gets disable
      *
-     * @return \Swagger\Client\Model\LinksTerminateCurrentContractLink
+     * @return \EffetB\BeezupApi\Model\LinksTerminateCurrentContractLink
      */
     public function getDisable()
     {
@@ -224,7 +224,7 @@ class CurrentContractInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Sets disable
      *
-     * @param \Swagger\Client\Model\LinksTerminateCurrentContractLink $disable disable
+     * @param \EffetB\BeezupApi\Model\LinksTerminateCurrentContractLink $disable disable
      *
      * @return $this
      */
@@ -238,7 +238,7 @@ class CurrentContractInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Gets reenable
      *
-     * @return \Swagger\Client\Model\LinksReactivateCurrentContractLink
+     * @return \EffetB\BeezupApi\Model\LinksReactivateCurrentContractLink
      */
     public function getReenable()
     {
@@ -248,7 +248,7 @@ class CurrentContractInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Sets reenable
      *
-     * @param \Swagger\Client\Model\LinksReactivateCurrentContractLink $reenable reenable
+     * @param \EffetB\BeezupApi\Model\LinksReactivateCurrentContractLink $reenable reenable
      *
      * @return $this
      */

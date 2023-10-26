@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * OrderIndexLinks Class Doc Comment
  *
  * @category Class
  * @description Gives you all entry point operations you can do on this API
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,16 +58,16 @@ class OrderIndexLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksGetOrderIndexLink',
-        'status' => '\Swagger\Client\Model\LinksGetMarketplaceAccountsSynchronizationLink',
-        'harvest' => '\Swagger\Client\Model\LinksHarvestAllLink',
-        'set_merchant_infos' => '\Swagger\Client\Model\LinksSetMerchantOrderInfoListLink',
-        'clear_merchant_infos' => '\Swagger\Client\Model\LinksClearMerchantOrderInfoListLink',
-        'export' => '\Swagger\Client\Model\LinksExportOrdersLink',
-        'auto_transitions' => '\Swagger\Client\Model\LinksGetAutomaticTransitionsLink',
-        'exportations' => '\Swagger\Client\Model\LinksGetOrderExportationsLink',
-        'orders' => '\Swagger\Client\Model\LinksGetOrderListFullLink',
-        'light_orders' => '\Swagger\Client\Model\LinksGetOrderListLightLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksGetOrderIndexLink',
+        'status' => '\EffetB\BeezupApi\Model\LinksGetMarketplaceAccountsSynchronizationLink',
+        'harvest' => '\EffetB\BeezupApi\Model\LinksHarvestAllLink',
+        'set_merchant_infos' => '\EffetB\BeezupApi\Model\LinksSetMerchantOrderInfoListLink',
+        'clear_merchant_infos' => '\EffetB\BeezupApi\Model\LinksClearMerchantOrderInfoListLink',
+        'export' => '\EffetB\BeezupApi\Model\LinksExportOrdersLink',
+        'auto_transitions' => '\EffetB\BeezupApi\Model\LinksGetAutomaticTransitionsLink',
+        'exportations' => '\EffetB\BeezupApi\Model\LinksGetOrderExportationsLink',
+        'orders' => '\EffetB\BeezupApi\Model\LinksGetOrderListFullLink',
+        'light_orders' => '\EffetB\BeezupApi\Model\LinksGetOrderListLightLink'
     ];
 
     /**
@@ -317,7 +317,7 @@ class OrderIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksGetOrderIndexLink
+     * @return \EffetB\BeezupApi\Model\LinksGetOrderIndexLink
      */
     public function getSelf()
     {
@@ -327,7 +327,7 @@ class OrderIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksGetOrderIndexLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksGetOrderIndexLink $self self
      *
      * @return $this
      */
@@ -341,7 +341,7 @@ class OrderIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets status
      *
-     * @return \Swagger\Client\Model\LinksGetMarketplaceAccountsSynchronizationLink
+     * @return \EffetB\BeezupApi\Model\LinksGetMarketplaceAccountsSynchronizationLink
      */
     public function getStatus()
     {
@@ -351,7 +351,7 @@ class OrderIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets status
      *
-     * @param \Swagger\Client\Model\LinksGetMarketplaceAccountsSynchronizationLink $status status
+     * @param \EffetB\BeezupApi\Model\LinksGetMarketplaceAccountsSynchronizationLink $status status
      *
      * @return $this
      */
@@ -365,7 +365,7 @@ class OrderIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets harvest
      *
-     * @return \Swagger\Client\Model\LinksHarvestAllLink
+     * @return \EffetB\BeezupApi\Model\LinksHarvestAllLink
      */
     public function getHarvest()
     {
@@ -375,7 +375,7 @@ class OrderIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets harvest
      *
-     * @param \Swagger\Client\Model\LinksHarvestAllLink $harvest harvest
+     * @param \EffetB\BeezupApi\Model\LinksHarvestAllLink $harvest harvest
      *
      * @return $this
      */
@@ -389,7 +389,7 @@ class OrderIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets set_merchant_infos
      *
-     * @return \Swagger\Client\Model\LinksSetMerchantOrderInfoListLink
+     * @return \EffetB\BeezupApi\Model\LinksSetMerchantOrderInfoListLink
      */
     public function getSetMerchantInfos()
     {
@@ -399,7 +399,7 @@ class OrderIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets set_merchant_infos
      *
-     * @param \Swagger\Client\Model\LinksSetMerchantOrderInfoListLink $set_merchant_infos set_merchant_infos
+     * @param \EffetB\BeezupApi\Model\LinksSetMerchantOrderInfoListLink $set_merchant_infos set_merchant_infos
      *
      * @return $this
      */
@@ -413,7 +413,7 @@ class OrderIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets clear_merchant_infos
      *
-     * @return \Swagger\Client\Model\LinksClearMerchantOrderInfoListLink
+     * @return \EffetB\BeezupApi\Model\LinksClearMerchantOrderInfoListLink
      */
     public function getClearMerchantInfos()
     {
@@ -423,7 +423,7 @@ class OrderIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets clear_merchant_infos
      *
-     * @param \Swagger\Client\Model\LinksClearMerchantOrderInfoListLink $clear_merchant_infos clear_merchant_infos
+     * @param \EffetB\BeezupApi\Model\LinksClearMerchantOrderInfoListLink $clear_merchant_infos clear_merchant_infos
      *
      * @return $this
      */
@@ -437,7 +437,7 @@ class OrderIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets export
      *
-     * @return \Swagger\Client\Model\LinksExportOrdersLink
+     * @return \EffetB\BeezupApi\Model\LinksExportOrdersLink
      */
     public function getExport()
     {
@@ -447,7 +447,7 @@ class OrderIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets export
      *
-     * @param \Swagger\Client\Model\LinksExportOrdersLink $export export
+     * @param \EffetB\BeezupApi\Model\LinksExportOrdersLink $export export
      *
      * @return $this
      */
@@ -461,7 +461,7 @@ class OrderIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets auto_transitions
      *
-     * @return \Swagger\Client\Model\LinksGetAutomaticTransitionsLink
+     * @return \EffetB\BeezupApi\Model\LinksGetAutomaticTransitionsLink
      */
     public function getAutoTransitions()
     {
@@ -471,7 +471,7 @@ class OrderIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets auto_transitions
      *
-     * @param \Swagger\Client\Model\LinksGetAutomaticTransitionsLink $auto_transitions auto_transitions
+     * @param \EffetB\BeezupApi\Model\LinksGetAutomaticTransitionsLink $auto_transitions auto_transitions
      *
      * @return $this
      */
@@ -485,7 +485,7 @@ class OrderIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets exportations
      *
-     * @return \Swagger\Client\Model\LinksGetOrderExportationsLink
+     * @return \EffetB\BeezupApi\Model\LinksGetOrderExportationsLink
      */
     public function getExportations()
     {
@@ -495,7 +495,7 @@ class OrderIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets exportations
      *
-     * @param \Swagger\Client\Model\LinksGetOrderExportationsLink $exportations exportations
+     * @param \EffetB\BeezupApi\Model\LinksGetOrderExportationsLink $exportations exportations
      *
      * @return $this
      */
@@ -509,7 +509,7 @@ class OrderIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets orders
      *
-     * @return \Swagger\Client\Model\LinksGetOrderListFullLink
+     * @return \EffetB\BeezupApi\Model\LinksGetOrderListFullLink
      */
     public function getOrders()
     {
@@ -519,7 +519,7 @@ class OrderIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets orders
      *
-     * @param \Swagger\Client\Model\LinksGetOrderListFullLink $orders orders
+     * @param \EffetB\BeezupApi\Model\LinksGetOrderListFullLink $orders orders
      *
      * @return $this
      */
@@ -533,7 +533,7 @@ class OrderIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets light_orders
      *
-     * @return \Swagger\Client\Model\LinksGetOrderListLightLink
+     * @return \EffetB\BeezupApi\Model\LinksGetOrderListLightLink
      */
     public function getLightOrders()
     {
@@ -543,7 +543,7 @@ class OrderIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets light_orders
      *
-     * @param \Swagger\Client\Model\LinksGetOrderListLightLink $light_orders light_orders
+     * @param \EffetB\BeezupApi\Model\LinksGetOrderListLightLink $light_orders light_orders
      *
      * @return $this
      */

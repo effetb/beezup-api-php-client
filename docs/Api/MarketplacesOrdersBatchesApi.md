@@ -1,4 +1,4 @@
-# Swagger\Client\MarketplacesOrdersBatchesApi
+# EffetB\BeezupApi\MarketplacesOrdersBatchesApi
 
 All URIs are relative to *https://api.beezup.com/v2*
 
@@ -10,7 +10,7 @@ Method | HTTP request | Description
 
 
 # **changeOrderList**
-> \Swagger\Client\Model\BatchOrderOperationResponse changeOrderList($change_order_type, $user_name, $request, $test_mode)
+> \EffetB\BeezupApi\Model\BatchOrderOperationResponse changeOrderList($change_order_type, $user_name, $request, $test_mode)
 
 Send a batch of operations to change your marketplace Order information (accept, ship, etc.)
 
@@ -22,11 +22,11 @@ The purpose of this operation is to reduce the amount of request to the API.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\MarketplacesOrdersBatchesApi(
+$apiInstance = new EffetB\BeezupApi\Api\MarketplacesOrdersBatchesApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -34,7 +34,7 @@ $apiInstance = new Swagger\Client\Api\MarketplacesOrdersBatchesApi(
 );
 $change_order_type = "change_order_type_example"; // string | The Order change type
 $user_name = "user_name_example"; // string | Sometimes the user in the e-commerce application is not the same as user associated with the current subscription key. We recommend providing your application's user login.
-$request = new \Swagger\Client\Model\ChangeOrderListRequest(); // \Swagger\Client\Model\ChangeOrderListRequest | 
+$request = new \EffetB\BeezupApi\Model\ChangeOrderListRequest(); // \EffetB\BeezupApi\Model\ChangeOrderListRequest | 
 $test_mode = false; // bool | If true, the operation will be not be sent to marketplace. But the validation will be taken in account.
 
 try {
@@ -52,12 +52,12 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **change_order_type** | **string**| The Order change type |
  **user_name** | **string**| Sometimes the user in the e-commerce application is not the same as user associated with the current subscription key. We recommend providing your application&#39;s user login. |
- **request** | [**\Swagger\Client\Model\ChangeOrderListRequest**](../Model/ChangeOrderListRequest.md)|  |
+ **request** | [**\EffetB\BeezupApi\Model\ChangeOrderListRequest**](../Model/ChangeOrderListRequest.md)|  |
  **test_mode** | **bool**| If true, the operation will be not be sent to marketplace. But the validation will be taken in account. | [optional] [default to false]
 
 ### Return type
 
-[**\Swagger\Client\Model\BatchOrderOperationResponse**](../Model/BatchOrderOperationResponse.md)
+[**\EffetB\BeezupApi\Model\BatchOrderOperationResponse**](../Model/BatchOrderOperationResponse.md)
 
 ### Authorization
 
@@ -71,7 +71,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **clearMerchantOrderInfoList**
-> \Swagger\Client\Model\BatchOrderOperationResponse clearMerchantOrderInfoList($request)
+> \EffetB\BeezupApi\Model\BatchOrderOperationResponse clearMerchantOrderInfoList($request)
 
 Send a batch of operations to clear an Order's merchant information (max 100 items per call)
 
@@ -83,17 +83,17 @@ The purpose of this operation is to reduce the amount of request to the API.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\MarketplacesOrdersBatchesApi(
+$apiInstance = new EffetB\BeezupApi\Api\MarketplacesOrdersBatchesApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$request = new \Swagger\Client\Model\ClearMerchantOrderInfoListRequest(); // \Swagger\Client\Model\ClearMerchantOrderInfoListRequest | 
+$request = new \EffetB\BeezupApi\Model\ClearMerchantOrderInfoListRequest(); // \EffetB\BeezupApi\Model\ClearMerchantOrderInfoListRequest | 
 
 try {
     $result = $apiInstance->clearMerchantOrderInfoList($request);
@@ -108,11 +108,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **request** | [**\Swagger\Client\Model\ClearMerchantOrderInfoListRequest**](../Model/ClearMerchantOrderInfoListRequest.md)|  |
+ **request** | [**\EffetB\BeezupApi\Model\ClearMerchantOrderInfoListRequest**](../Model/ClearMerchantOrderInfoListRequest.md)|  |
 
 ### Return type
 
-[**\Swagger\Client\Model\BatchOrderOperationResponse**](../Model/BatchOrderOperationResponse.md)
+[**\EffetB\BeezupApi\Model\BatchOrderOperationResponse**](../Model/BatchOrderOperationResponse.md)
 
 ### Authorization
 
@@ -126,7 +126,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **setMerchantOrderInfoList**
-> \Swagger\Client\Model\BatchOrderOperationResponse setMerchantOrderInfoList($request)
+> \EffetB\BeezupApi\Model\BatchOrderOperationResponse setMerchantOrderInfoList($request)
 
 Send a batch of operations to set an Order's merchant information  (max 100 items per call)
 
@@ -138,17 +138,17 @@ The purpose of this operation is to reduce the amount of request to the API.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\MarketplacesOrdersBatchesApi(
+$apiInstance = new EffetB\BeezupApi\Api\MarketplacesOrdersBatchesApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$request = new \Swagger\Client\Model\SetMerchantOrderInfoListRequest(); // \Swagger\Client\Model\SetMerchantOrderInfoListRequest | 
+$request = new \EffetB\BeezupApi\Model\SetMerchantOrderInfoListRequest(); // \EffetB\BeezupApi\Model\SetMerchantOrderInfoListRequest | 
 
 try {
     $result = $apiInstance->setMerchantOrderInfoList($request);
@@ -163,11 +163,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **request** | [**\Swagger\Client\Model\SetMerchantOrderInfoListRequest**](../Model/SetMerchantOrderInfoListRequest.md)|  |
+ **request** | [**\EffetB\BeezupApi\Model\SetMerchantOrderInfoListRequest**](../Model/SetMerchantOrderInfoListRequest.md)|  |
 
 ### Return type
 
-[**\Swagger\Client\Model\BatchOrderOperationResponse**](../Model/BatchOrderOperationResponse.md)
+[**\EffetB\BeezupApi\Model\BatchOrderOperationResponse**](../Model/BatchOrderOperationResponse.md)
 
 ### Authorization
 

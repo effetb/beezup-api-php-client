@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * OrderListLightLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,12 +57,12 @@ class OrderListLightLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'harvest' => '\Swagger\Client\Model\LinksHarvestAllLink',
-        'set_merchant_infos' => '\Swagger\Client\Model\LinksSetMerchantOrderInfoListLink',
-        'clear_merchant_infos' => '\Swagger\Client\Model\LinksClearMerchantOrderInfoListLink',
-        'export' => '\Swagger\Client\Model\LinksExportOrdersLink',
-        'status' => '\Swagger\Client\Model\LinksGetMarketplaceAccountsSynchronizationLink',
-        'self' => '\Swagger\Client\Model\LinksGetOrderListLightLink'
+        'harvest' => '\EffetB\BeezupApi\Model\LinksHarvestAllLink',
+        'set_merchant_infos' => '\EffetB\BeezupApi\Model\LinksSetMerchantOrderInfoListLink',
+        'clear_merchant_infos' => '\EffetB\BeezupApi\Model\LinksClearMerchantOrderInfoListLink',
+        'export' => '\EffetB\BeezupApi\Model\LinksExportOrdersLink',
+        'status' => '\EffetB\BeezupApi\Model\LinksGetMarketplaceAccountsSynchronizationLink',
+        'self' => '\EffetB\BeezupApi\Model\LinksGetOrderListLightLink'
     ];
 
     /**
@@ -274,7 +274,7 @@ class OrderListLightLinks implements ModelInterface, ArrayAccess
     /**
      * Gets harvest
      *
-     * @return \Swagger\Client\Model\LinksHarvestAllLink
+     * @return \EffetB\BeezupApi\Model\LinksHarvestAllLink
      */
     public function getHarvest()
     {
@@ -284,7 +284,7 @@ class OrderListLightLinks implements ModelInterface, ArrayAccess
     /**
      * Sets harvest
      *
-     * @param \Swagger\Client\Model\LinksHarvestAllLink $harvest harvest
+     * @param \EffetB\BeezupApi\Model\LinksHarvestAllLink $harvest harvest
      *
      * @return $this
      */
@@ -298,7 +298,7 @@ class OrderListLightLinks implements ModelInterface, ArrayAccess
     /**
      * Gets set_merchant_infos
      *
-     * @return \Swagger\Client\Model\LinksSetMerchantOrderInfoListLink
+     * @return \EffetB\BeezupApi\Model\LinksSetMerchantOrderInfoListLink
      */
     public function getSetMerchantInfos()
     {
@@ -308,7 +308,7 @@ class OrderListLightLinks implements ModelInterface, ArrayAccess
     /**
      * Sets set_merchant_infos
      *
-     * @param \Swagger\Client\Model\LinksSetMerchantOrderInfoListLink $set_merchant_infos set_merchant_infos
+     * @param \EffetB\BeezupApi\Model\LinksSetMerchantOrderInfoListLink $set_merchant_infos set_merchant_infos
      *
      * @return $this
      */
@@ -322,7 +322,7 @@ class OrderListLightLinks implements ModelInterface, ArrayAccess
     /**
      * Gets clear_merchant_infos
      *
-     * @return \Swagger\Client\Model\LinksClearMerchantOrderInfoListLink
+     * @return \EffetB\BeezupApi\Model\LinksClearMerchantOrderInfoListLink
      */
     public function getClearMerchantInfos()
     {
@@ -332,7 +332,7 @@ class OrderListLightLinks implements ModelInterface, ArrayAccess
     /**
      * Sets clear_merchant_infos
      *
-     * @param \Swagger\Client\Model\LinksClearMerchantOrderInfoListLink $clear_merchant_infos clear_merchant_infos
+     * @param \EffetB\BeezupApi\Model\LinksClearMerchantOrderInfoListLink $clear_merchant_infos clear_merchant_infos
      *
      * @return $this
      */
@@ -346,7 +346,7 @@ class OrderListLightLinks implements ModelInterface, ArrayAccess
     /**
      * Gets export
      *
-     * @return \Swagger\Client\Model\LinksExportOrdersLink
+     * @return \EffetB\BeezupApi\Model\LinksExportOrdersLink
      */
     public function getExport()
     {
@@ -356,7 +356,7 @@ class OrderListLightLinks implements ModelInterface, ArrayAccess
     /**
      * Sets export
      *
-     * @param \Swagger\Client\Model\LinksExportOrdersLink $export export
+     * @param \EffetB\BeezupApi\Model\LinksExportOrdersLink $export export
      *
      * @return $this
      */
@@ -370,7 +370,7 @@ class OrderListLightLinks implements ModelInterface, ArrayAccess
     /**
      * Gets status
      *
-     * @return \Swagger\Client\Model\LinksGetMarketplaceAccountsSynchronizationLink
+     * @return \EffetB\BeezupApi\Model\LinksGetMarketplaceAccountsSynchronizationLink
      */
     public function getStatus()
     {
@@ -380,7 +380,7 @@ class OrderListLightLinks implements ModelInterface, ArrayAccess
     /**
      * Sets status
      *
-     * @param \Swagger\Client\Model\LinksGetMarketplaceAccountsSynchronizationLink $status status
+     * @param \EffetB\BeezupApi\Model\LinksGetMarketplaceAccountsSynchronizationLink $status status
      *
      * @return $this
      */
@@ -394,7 +394,7 @@ class OrderListLightLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksGetOrderListLightLink
+     * @return \EffetB\BeezupApi\Model\LinksGetOrderListLightLink
      */
     public function getSelf()
     {
@@ -404,7 +404,7 @@ class OrderListLightLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksGetOrderListLightLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksGetOrderListLightLink $self self
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelColumnConfiguration Class Doc Comment
  *
  * @category Class
  * @description The channel column configuration. The BeezUP Column Name is optional. If the BeezUP column is mapped we will indicate the data type and column importance of the BeezUP column.
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,9 +58,9 @@ class ChannelColumnConfiguration implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'column_importance' => '\Swagger\Client\Model\BeezUPCommonColumnImportance',
-        'column_data_type' => '\Swagger\Client\Model\BeezUPCommonColumnDataType',
-        'beez_up_column_name' => '\Swagger\Client\Model\BeezUPCommonBeezUPColumnName'
+        'column_importance' => '\EffetB\BeezupApi\Model\BeezUPCommonColumnImportance',
+        'column_data_type' => '\EffetB\BeezupApi\Model\BeezUPCommonColumnDataType',
+        'beez_up_column_name' => '\EffetB\BeezupApi\Model\BeezUPCommonBeezUPColumnName'
     ];
 
     /**
@@ -233,7 +233,7 @@ class ChannelColumnConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets column_importance
      *
-     * @return \Swagger\Client\Model\BeezUPCommonColumnImportance
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonColumnImportance
      */
     public function getColumnImportance()
     {
@@ -243,7 +243,7 @@ class ChannelColumnConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets column_importance
      *
-     * @param \Swagger\Client\Model\BeezUPCommonColumnImportance $column_importance column_importance
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonColumnImportance $column_importance column_importance
      *
      * @return $this
      */
@@ -257,7 +257,7 @@ class ChannelColumnConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets column_data_type
      *
-     * @return \Swagger\Client\Model\BeezUPCommonColumnDataType
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonColumnDataType
      */
     public function getColumnDataType()
     {
@@ -267,7 +267,7 @@ class ChannelColumnConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets column_data_type
      *
-     * @param \Swagger\Client\Model\BeezUPCommonColumnDataType $column_data_type column_data_type
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonColumnDataType $column_data_type column_data_type
      *
      * @return $this
      */
@@ -281,7 +281,7 @@ class ChannelColumnConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets beez_up_column_name
      *
-     * @return \Swagger\Client\Model\BeezUPCommonBeezUPColumnName
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonBeezUPColumnName
      */
     public function getBeezUpColumnName()
     {
@@ -291,7 +291,7 @@ class ChannelColumnConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets beez_up_column_name
      *
-     * @param \Swagger\Client\Model\BeezUPCommonBeezUPColumnName $beez_up_column_name beez_up_column_name
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonBeezUPColumnName $beez_up_column_name beez_up_column_name
      *
      * @return $this
      */

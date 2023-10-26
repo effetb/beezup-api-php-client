@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CompanyInfo Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,13 +57,13 @@ class CompanyInfo implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'address' => '\Swagger\Client\Model\Address',
-        'postal_code' => '\Swagger\Client\Model\PostalCode',
-        'city' => '\Swagger\Client\Model\City',
-        'country_iso_code_alpha3' => '\Swagger\Client\Model\BeezUPCommonCountryIsoCodeAlpha3',
-        'company' => '\Swagger\Client\Model\Company',
-        'vat_number' => '\Swagger\Client\Model\VatNumber',
-        'accounting_emails' => '\Swagger\Client\Model\AccountingEmails'
+        'address' => '\EffetB\BeezupApi\Model\Address',
+        'postal_code' => '\EffetB\BeezupApi\Model\PostalCode',
+        'city' => '\EffetB\BeezupApi\Model\City',
+        'country_iso_code_alpha3' => '\EffetB\BeezupApi\Model\BeezUPCommonCountryIsoCodeAlpha3',
+        'company' => '\EffetB\BeezupApi\Model\Company',
+        'vat_number' => '\EffetB\BeezupApi\Model\VatNumber',
+        'accounting_emails' => '\EffetB\BeezupApi\Model\AccountingEmails'
     ];
 
     /**
@@ -274,7 +274,7 @@ class CompanyInfo implements ModelInterface, ArrayAccess
     /**
      * Gets address
      *
-     * @return \Swagger\Client\Model\Address
+     * @return \EffetB\BeezupApi\Model\Address
      */
     public function getAddress()
     {
@@ -284,7 +284,7 @@ class CompanyInfo implements ModelInterface, ArrayAccess
     /**
      * Sets address
      *
-     * @param \Swagger\Client\Model\Address $address address
+     * @param \EffetB\BeezupApi\Model\Address $address address
      *
      * @return $this
      */
@@ -298,7 +298,7 @@ class CompanyInfo implements ModelInterface, ArrayAccess
     /**
      * Gets postal_code
      *
-     * @return \Swagger\Client\Model\PostalCode
+     * @return \EffetB\BeezupApi\Model\PostalCode
      */
     public function getPostalCode()
     {
@@ -308,7 +308,7 @@ class CompanyInfo implements ModelInterface, ArrayAccess
     /**
      * Sets postal_code
      *
-     * @param \Swagger\Client\Model\PostalCode $postal_code postal_code
+     * @param \EffetB\BeezupApi\Model\PostalCode $postal_code postal_code
      *
      * @return $this
      */
@@ -322,7 +322,7 @@ class CompanyInfo implements ModelInterface, ArrayAccess
     /**
      * Gets city
      *
-     * @return \Swagger\Client\Model\City
+     * @return \EffetB\BeezupApi\Model\City
      */
     public function getCity()
     {
@@ -332,7 +332,7 @@ class CompanyInfo implements ModelInterface, ArrayAccess
     /**
      * Sets city
      *
-     * @param \Swagger\Client\Model\City $city city
+     * @param \EffetB\BeezupApi\Model\City $city city
      *
      * @return $this
      */
@@ -346,7 +346,7 @@ class CompanyInfo implements ModelInterface, ArrayAccess
     /**
      * Gets country_iso_code_alpha3
      *
-     * @return \Swagger\Client\Model\BeezUPCommonCountryIsoCodeAlpha3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonCountryIsoCodeAlpha3
      */
     public function getCountryIsoCodeAlpha3()
     {
@@ -356,7 +356,7 @@ class CompanyInfo implements ModelInterface, ArrayAccess
     /**
      * Sets country_iso_code_alpha3
      *
-     * @param \Swagger\Client\Model\BeezUPCommonCountryIsoCodeAlpha3 $country_iso_code_alpha3 country_iso_code_alpha3
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonCountryIsoCodeAlpha3 $country_iso_code_alpha3 country_iso_code_alpha3
      *
      * @return $this
      */
@@ -370,7 +370,7 @@ class CompanyInfo implements ModelInterface, ArrayAccess
     /**
      * Gets company
      *
-     * @return \Swagger\Client\Model\Company
+     * @return \EffetB\BeezupApi\Model\Company
      */
     public function getCompany()
     {
@@ -380,7 +380,7 @@ class CompanyInfo implements ModelInterface, ArrayAccess
     /**
      * Sets company
      *
-     * @param \Swagger\Client\Model\Company $company company
+     * @param \EffetB\BeezupApi\Model\Company $company company
      *
      * @return $this
      */
@@ -394,7 +394,7 @@ class CompanyInfo implements ModelInterface, ArrayAccess
     /**
      * Gets vat_number
      *
-     * @return \Swagger\Client\Model\VatNumber
+     * @return \EffetB\BeezupApi\Model\VatNumber
      */
     public function getVatNumber()
     {
@@ -404,7 +404,7 @@ class CompanyInfo implements ModelInterface, ArrayAccess
     /**
      * Sets vat_number
      *
-     * @param \Swagger\Client\Model\VatNumber $vat_number vat_number
+     * @param \EffetB\BeezupApi\Model\VatNumber $vat_number vat_number
      *
      * @return $this
      */
@@ -418,7 +418,7 @@ class CompanyInfo implements ModelInterface, ArrayAccess
     /**
      * Gets accounting_emails
      *
-     * @return \Swagger\Client\Model\AccountingEmails
+     * @return \EffetB\BeezupApi\Model\AccountingEmails
      */
     public function getAccountingEmails()
     {
@@ -428,7 +428,7 @@ class CompanyInfo implements ModelInterface, ArrayAccess
     /**
      * Sets accounting_emails
      *
-     * @param \Swagger\Client\Model\AccountingEmails $accounting_emails accounting_emails
+     * @param \EffetB\BeezupApi\Model\AccountingEmails $accounting_emails accounting_emails
      *
      * @return $this
      */

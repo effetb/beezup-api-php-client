@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelCatalog Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,25 +57,25 @@ class ChannelCatalog implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'channel_id' => '\Swagger\Client\Model\BeezUPCommonChannelId',
-        'channel_name' => '\Swagger\Client\Model\BeezUPCommonChannelName',
-        'channel_image_url' => '\Swagger\Client\Model\BeezUPCommonHttpUrl',
+        'channel_id' => '\EffetB\BeezupApi\Model\BeezUPCommonChannelId',
+        'channel_name' => '\EffetB\BeezupApi\Model\BeezUPCommonChannelName',
+        'channel_image_url' => '\EffetB\BeezupApi\Model\BeezUPCommonHttpUrl',
         'product_count' => 'int',
         'enabled' => 'bool',
         'is_marketplace' => 'bool',
-        'channel_catalog_id' => '\Swagger\Client\Model\BeezUPCommonChannelCatalogId',
-        'store_id' => '\Swagger\Client\Model\BeezUPCommonStoreId',
-        'general_settings' => '\Swagger\Client\Model\GeneralSettings',
-        'channel_cost_settings' => '\Swagger\Client\Model\ChannelCostSettings',
-        'channel_category_settings' => '\Swagger\Client\Model\ChannelCategorySettings',
-        'cost_settings' => '\Swagger\Client\Model\CostSettings',
-        'category_mapping_settings' => '\Swagger\Client\Model\ChannelCatalogCategoryMappingSettings',
-        'column_mappings' => '\Swagger\Client\Model\ChannelCatalogColumnMappingListWithName',
-        'exclusion_filters' => '\Swagger\Client\Model\ExclusionFilters',
-        'export_url' => '\Swagger\Client\Model\BeezUPCommonHttpUrl',
-        'state' => '\Swagger\Client\Model\ChannelCatalogState',
+        'channel_catalog_id' => '\EffetB\BeezupApi\Model\BeezUPCommonChannelCatalogId',
+        'store_id' => '\EffetB\BeezupApi\Model\BeezUPCommonStoreId',
+        'general_settings' => '\EffetB\BeezupApi\Model\GeneralSettings',
+        'channel_cost_settings' => '\EffetB\BeezupApi\Model\ChannelCostSettings',
+        'channel_category_settings' => '\EffetB\BeezupApi\Model\ChannelCategorySettings',
+        'cost_settings' => '\EffetB\BeezupApi\Model\CostSettings',
+        'category_mapping_settings' => '\EffetB\BeezupApi\Model\ChannelCatalogCategoryMappingSettings',
+        'column_mappings' => '\EffetB\BeezupApi\Model\ChannelCatalogColumnMappingListWithName',
+        'exclusion_filters' => '\EffetB\BeezupApi\Model\ExclusionFilters',
+        'export_url' => '\EffetB\BeezupApi\Model\BeezUPCommonHttpUrl',
+        'state' => '\EffetB\BeezupApi\Model\ChannelCatalogState',
         'types' => 'string[]',
-        'links' => '\Swagger\Client\Model\ChannelCatalogLinks'
+        'links' => '\EffetB\BeezupApi\Model\ChannelCatalogLinks'
     ];
 
     /**
@@ -400,7 +400,7 @@ class ChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Gets channel_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonChannelId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonChannelId
      */
     public function getChannelId()
     {
@@ -410,7 +410,7 @@ class ChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Sets channel_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonChannelId $channel_id channel_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonChannelId $channel_id channel_id
      *
      * @return $this
      */
@@ -424,7 +424,7 @@ class ChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Gets channel_name
      *
-     * @return \Swagger\Client\Model\BeezUPCommonChannelName
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonChannelName
      */
     public function getChannelName()
     {
@@ -434,7 +434,7 @@ class ChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Sets channel_name
      *
-     * @param \Swagger\Client\Model\BeezUPCommonChannelName $channel_name channel_name
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonChannelName $channel_name channel_name
      *
      * @return $this
      */
@@ -448,7 +448,7 @@ class ChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Gets channel_image_url
      *
-     * @return \Swagger\Client\Model\BeezUPCommonHttpUrl
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonHttpUrl
      */
     public function getChannelImageUrl()
     {
@@ -458,7 +458,7 @@ class ChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Sets channel_image_url
      *
-     * @param \Swagger\Client\Model\BeezUPCommonHttpUrl $channel_image_url channel_image_url
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonHttpUrl $channel_image_url channel_image_url
      *
      * @return $this
      */
@@ -544,7 +544,7 @@ class ChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Gets channel_catalog_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonChannelCatalogId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonChannelCatalogId
      */
     public function getChannelCatalogId()
     {
@@ -554,7 +554,7 @@ class ChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Sets channel_catalog_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonChannelCatalogId $channel_catalog_id channel_catalog_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonChannelCatalogId $channel_catalog_id channel_catalog_id
      *
      * @return $this
      */
@@ -568,7 +568,7 @@ class ChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Gets store_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonStoreId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonStoreId
      */
     public function getStoreId()
     {
@@ -578,7 +578,7 @@ class ChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Sets store_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonStoreId $store_id store_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonStoreId $store_id store_id
      *
      * @return $this
      */
@@ -592,7 +592,7 @@ class ChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Gets general_settings
      *
-     * @return \Swagger\Client\Model\GeneralSettings
+     * @return \EffetB\BeezupApi\Model\GeneralSettings
      */
     public function getGeneralSettings()
     {
@@ -602,7 +602,7 @@ class ChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Sets general_settings
      *
-     * @param \Swagger\Client\Model\GeneralSettings $general_settings general_settings
+     * @param \EffetB\BeezupApi\Model\GeneralSettings $general_settings general_settings
      *
      * @return $this
      */
@@ -616,7 +616,7 @@ class ChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Gets channel_cost_settings
      *
-     * @return \Swagger\Client\Model\ChannelCostSettings
+     * @return \EffetB\BeezupApi\Model\ChannelCostSettings
      */
     public function getChannelCostSettings()
     {
@@ -626,7 +626,7 @@ class ChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Sets channel_cost_settings
      *
-     * @param \Swagger\Client\Model\ChannelCostSettings $channel_cost_settings channel_cost_settings
+     * @param \EffetB\BeezupApi\Model\ChannelCostSettings $channel_cost_settings channel_cost_settings
      *
      * @return $this
      */
@@ -640,7 +640,7 @@ class ChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Gets channel_category_settings
      *
-     * @return \Swagger\Client\Model\ChannelCategorySettings
+     * @return \EffetB\BeezupApi\Model\ChannelCategorySettings
      */
     public function getChannelCategorySettings()
     {
@@ -650,7 +650,7 @@ class ChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Sets channel_category_settings
      *
-     * @param \Swagger\Client\Model\ChannelCategorySettings $channel_category_settings channel_category_settings
+     * @param \EffetB\BeezupApi\Model\ChannelCategorySettings $channel_category_settings channel_category_settings
      *
      * @return $this
      */
@@ -664,7 +664,7 @@ class ChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Gets cost_settings
      *
-     * @return \Swagger\Client\Model\CostSettings
+     * @return \EffetB\BeezupApi\Model\CostSettings
      */
     public function getCostSettings()
     {
@@ -674,7 +674,7 @@ class ChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Sets cost_settings
      *
-     * @param \Swagger\Client\Model\CostSettings $cost_settings cost_settings
+     * @param \EffetB\BeezupApi\Model\CostSettings $cost_settings cost_settings
      *
      * @return $this
      */
@@ -688,7 +688,7 @@ class ChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Gets category_mapping_settings
      *
-     * @return \Swagger\Client\Model\ChannelCatalogCategoryMappingSettings
+     * @return \EffetB\BeezupApi\Model\ChannelCatalogCategoryMappingSettings
      */
     public function getCategoryMappingSettings()
     {
@@ -698,7 +698,7 @@ class ChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Sets category_mapping_settings
      *
-     * @param \Swagger\Client\Model\ChannelCatalogCategoryMappingSettings $category_mapping_settings category_mapping_settings
+     * @param \EffetB\BeezupApi\Model\ChannelCatalogCategoryMappingSettings $category_mapping_settings category_mapping_settings
      *
      * @return $this
      */
@@ -712,7 +712,7 @@ class ChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Gets column_mappings
      *
-     * @return \Swagger\Client\Model\ChannelCatalogColumnMappingListWithName
+     * @return \EffetB\BeezupApi\Model\ChannelCatalogColumnMappingListWithName
      */
     public function getColumnMappings()
     {
@@ -722,7 +722,7 @@ class ChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Sets column_mappings
      *
-     * @param \Swagger\Client\Model\ChannelCatalogColumnMappingListWithName $column_mappings column_mappings
+     * @param \EffetB\BeezupApi\Model\ChannelCatalogColumnMappingListWithName $column_mappings column_mappings
      *
      * @return $this
      */
@@ -736,7 +736,7 @@ class ChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Gets exclusion_filters
      *
-     * @return \Swagger\Client\Model\ExclusionFilters
+     * @return \EffetB\BeezupApi\Model\ExclusionFilters
      */
     public function getExclusionFilters()
     {
@@ -746,7 +746,7 @@ class ChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Sets exclusion_filters
      *
-     * @param \Swagger\Client\Model\ExclusionFilters $exclusion_filters exclusion_filters
+     * @param \EffetB\BeezupApi\Model\ExclusionFilters $exclusion_filters exclusion_filters
      *
      * @return $this
      */
@@ -760,7 +760,7 @@ class ChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Gets export_url
      *
-     * @return \Swagger\Client\Model\BeezUPCommonHttpUrl
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonHttpUrl
      */
     public function getExportUrl()
     {
@@ -770,7 +770,7 @@ class ChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Sets export_url
      *
-     * @param \Swagger\Client\Model\BeezUPCommonHttpUrl $export_url export_url
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonHttpUrl $export_url export_url
      *
      * @return $this
      */
@@ -784,7 +784,7 @@ class ChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Gets state
      *
-     * @return \Swagger\Client\Model\ChannelCatalogState
+     * @return \EffetB\BeezupApi\Model\ChannelCatalogState
      */
     public function getState()
     {
@@ -794,7 +794,7 @@ class ChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Sets state
      *
-     * @param \Swagger\Client\Model\ChannelCatalogState $state state
+     * @param \EffetB\BeezupApi\Model\ChannelCatalogState $state state
      *
      * @return $this
      */
@@ -832,7 +832,7 @@ class ChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ChannelCatalogLinks
+     * @return \EffetB\BeezupApi\Model\ChannelCatalogLinks
      */
     public function getLinks()
     {
@@ -842,7 +842,7 @@ class ChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ChannelCatalogLinks $links links
+     * @param \EffetB\BeezupApi\Model\ChannelCatalogLinks $links links
      *
      * @return $this
      */

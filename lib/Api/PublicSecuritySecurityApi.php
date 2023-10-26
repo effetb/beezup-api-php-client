@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace EffetB\BeezupApi\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use EffetB\BeezupApi\ApiException;
+use EffetB\BeezupApi\Configuration;
+use EffetB\BeezupApi\HeaderSelector;
+use EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * PublicSecuritySecurityApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -92,11 +92,11 @@ class PublicSecuritySecurityApi
      *
      * Login
      *
-     * @param  \Swagger\Client\Model\LoginRequest $request request (required)
+     * @param  \EffetB\BeezupApi\Model\LoginRequest $request request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ApiCredentials
+     * @return \EffetB\BeezupApi\Model\ApiCredentials
      */
     public function login($request)
     {
@@ -109,15 +109,15 @@ class PublicSecuritySecurityApi
      *
      * Login
      *
-     * @param  \Swagger\Client\Model\LoginRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\LoginRequest $request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ApiCredentials, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\ApiCredentials, HTTP status code, HTTP response headers (array of strings)
      */
     public function loginWithHttpInfo($request)
     {
-        $returnType = '\Swagger\Client\Model\ApiCredentials';
+        $returnType = '\EffetB\BeezupApi\Model\ApiCredentials';
         $request = $this->loginRequest($request);
 
         try {
@@ -169,7 +169,7 @@ class PublicSecuritySecurityApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ApiCredentials',
+                        '\EffetB\BeezupApi\Model\ApiCredentials',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -177,7 +177,7 @@ class PublicSecuritySecurityApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -185,7 +185,7 @@ class PublicSecuritySecurityApi
                 case 500:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -200,7 +200,7 @@ class PublicSecuritySecurityApi
      *
      * Login
      *
-     * @param  \Swagger\Client\Model\LoginRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\LoginRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -220,14 +220,14 @@ class PublicSecuritySecurityApi
      *
      * Login
      *
-     * @param  \Swagger\Client\Model\LoginRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\LoginRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function loginAsyncWithHttpInfo($request)
     {
-        $returnType = '\Swagger\Client\Model\ApiCredentials';
+        $returnType = '\EffetB\BeezupApi\Model\ApiCredentials';
         $request = $this->loginRequest($request);
 
         return $this->client
@@ -270,7 +270,7 @@ class PublicSecuritySecurityApi
     /**
      * Create request for operation 'login'
      *
-     * @param  \Swagger\Client\Model\LoginRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\LoginRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -365,9 +365,9 @@ class PublicSecuritySecurityApi
      *
      * Lost password
      *
-     * @param  \Swagger\Client\Model\BeezUPCommonEmail $email Your email (required)
+     * @param  \EffetB\BeezupApi\Model\BeezUPCommonEmail $email Your email (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -381,9 +381,9 @@ class PublicSecuritySecurityApi
      *
      * Lost password
      *
-     * @param  \Swagger\Client\Model\BeezUPCommonEmail $email Your email (required)
+     * @param  \EffetB\BeezupApi\Model\BeezUPCommonEmail $email Your email (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -427,7 +427,7 @@ class PublicSecuritySecurityApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -435,7 +435,7 @@ class PublicSecuritySecurityApi
                 case 500:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -443,7 +443,7 @@ class PublicSecuritySecurityApi
                 case 502:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -458,7 +458,7 @@ class PublicSecuritySecurityApi
      *
      * Lost password
      *
-     * @param  \Swagger\Client\Model\BeezUPCommonEmail $email Your email (required)
+     * @param  \EffetB\BeezupApi\Model\BeezUPCommonEmail $email Your email (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -478,7 +478,7 @@ class PublicSecuritySecurityApi
      *
      * Lost password
      *
-     * @param  \Swagger\Client\Model\BeezUPCommonEmail $email Your email (required)
+     * @param  \EffetB\BeezupApi\Model\BeezUPCommonEmail $email Your email (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -514,7 +514,7 @@ class PublicSecuritySecurityApi
     /**
      * Create request for operation 'lostPassword'
      *
-     * @param  \Swagger\Client\Model\BeezUPCommonEmail $email Your email (required)
+     * @param  \EffetB\BeezupApi\Model\BeezUPCommonEmail $email Your email (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -609,9 +609,9 @@ class PublicSecuritySecurityApi
      *
      * User Registration
      *
-     * @param  \Swagger\Client\Model\RegisterRequest $request request (required)
+     * @param  \EffetB\BeezupApi\Model\RegisterRequest $request request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -625,9 +625,9 @@ class PublicSecuritySecurityApi
      *
      * User Registration
      *
-     * @param  \Swagger\Client\Model\RegisterRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\RegisterRequest $request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -671,7 +671,7 @@ class PublicSecuritySecurityApi
                 case 500:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -686,7 +686,7 @@ class PublicSecuritySecurityApi
      *
      * User Registration
      *
-     * @param  \Swagger\Client\Model\RegisterRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\RegisterRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -706,7 +706,7 @@ class PublicSecuritySecurityApi
      *
      * User Registration
      *
-     * @param  \Swagger\Client\Model\RegisterRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\RegisterRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -742,7 +742,7 @@ class PublicSecuritySecurityApi
     /**
      * Create request for operation 'register'
      *
-     * @param  \Swagger\Client\Model\RegisterRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\RegisterRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

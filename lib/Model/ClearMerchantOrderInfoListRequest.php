@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ClearMerchantOrderInfoListRequest Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class ClearMerchantOrderInfoListRequest implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'orders' => '\Swagger\Client\Model\OrderIdentifier[]'
+        'orders' => '\EffetB\BeezupApi\Model\OrderIdentifier[]'
     ];
 
     /**
@@ -214,7 +214,7 @@ class ClearMerchantOrderInfoListRequest implements ModelInterface, ArrayAccess
     /**
      * Gets orders
      *
-     * @return \Swagger\Client\Model\OrderIdentifier[]
+     * @return \EffetB\BeezupApi\Model\OrderIdentifier[]
      */
     public function getOrders()
     {
@@ -224,7 +224,7 @@ class ClearMerchantOrderInfoListRequest implements ModelInterface, ArrayAccess
     /**
      * Sets orders
      *
-     * @param \Swagger\Client\Model\OrderIdentifier[] $orders orders
+     * @param \EffetB\BeezupApi\Model\OrderIdentifier[] $orders orders
      *
      * @return $this
      */

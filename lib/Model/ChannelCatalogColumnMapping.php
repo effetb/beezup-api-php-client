@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelCatalogColumnMapping Class Doc Comment
  *
  * @category Class
  * @description Represent a mapping between a channel column (considering channel category mapping) and a catalog column
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,9 +58,9 @@ class ChannelCatalogColumnMapping implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'channel_column_id' => '\Swagger\Client\Model\BeezUPCommonChannelColumnId',
-        'channel_category_path' => '\Swagger\Client\Model\BeezUPCommonChannelCategoryPath',
-        'catalog_column_id' => '\Swagger\Client\Model\BeezUPCommonCatalogColumnId'
+        'channel_column_id' => '\EffetB\BeezupApi\Model\BeezUPCommonChannelColumnId',
+        'channel_category_path' => '\EffetB\BeezupApi\Model\BeezUPCommonChannelCategoryPath',
+        'catalog_column_id' => '\EffetB\BeezupApi\Model\BeezUPCommonCatalogColumnId'
     ];
 
     /**
@@ -227,7 +227,7 @@ class ChannelCatalogColumnMapping implements ModelInterface, ArrayAccess
     /**
      * Gets channel_column_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonChannelColumnId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonChannelColumnId
      */
     public function getChannelColumnId()
     {
@@ -237,7 +237,7 @@ class ChannelCatalogColumnMapping implements ModelInterface, ArrayAccess
     /**
      * Sets channel_column_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonChannelColumnId $channel_column_id channel_column_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonChannelColumnId $channel_column_id channel_column_id
      *
      * @return $this
      */
@@ -251,7 +251,7 @@ class ChannelCatalogColumnMapping implements ModelInterface, ArrayAccess
     /**
      * Gets channel_category_path
      *
-     * @return \Swagger\Client\Model\BeezUPCommonChannelCategoryPath
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonChannelCategoryPath
      */
     public function getChannelCategoryPath()
     {
@@ -261,7 +261,7 @@ class ChannelCatalogColumnMapping implements ModelInterface, ArrayAccess
     /**
      * Sets channel_category_path
      *
-     * @param \Swagger\Client\Model\BeezUPCommonChannelCategoryPath $channel_category_path channel_category_path
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonChannelCategoryPath $channel_category_path channel_category_path
      *
      * @return $this
      */
@@ -275,7 +275,7 @@ class ChannelCatalogColumnMapping implements ModelInterface, ArrayAccess
     /**
      * Gets catalog_column_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonCatalogColumnId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonCatalogColumnId
      */
     public function getCatalogColumnId()
     {
@@ -285,7 +285,7 @@ class ChannelCatalogColumnMapping implements ModelInterface, ArrayAccess
     /**
      * Sets catalog_column_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonCatalogColumnId $catalog_column_id catalog_column_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonCatalogColumnId $catalog_column_id catalog_column_id
      *
      * @return $this
      */

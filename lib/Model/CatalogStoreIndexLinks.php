@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CatalogStoreIndexLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,17 +57,17 @@ class CatalogStoreIndexLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksCatalogStoreIndexLink',
-        'input_configuration' => '\Swagger\Client\Model\LinksImportationGetManualUpdateLastInputConfigLink',
-        'auto_import_info' => '\Swagger\Client\Model\LinksAutoGetAutoImportConfigurationLink',
-        'importations' => '\Swagger\Client\Model\LinksImportationGetReportingsLink',
-        'start_importation' => '\Swagger\Client\Model\LinksImportationStartManualUpdateLink',
-        'catalog_columns' => '\Swagger\Client\Model\LinksCatalogGetCatalogColumnsLink',
-        'custom_columns' => '\Swagger\Client\Model\LinksCatalogGetCustomColumnsLink',
-        'categories' => '\Swagger\Client\Model\LinksCatalogGetCategoriesLink',
-        'products' => '\Swagger\Client\Model\LinksCatalogGetProductsLink',
-        'random_products' => '\Swagger\Client\Model\LinksCatalogGetRandomProductsLink',
-        'compute_expression' => '\Swagger\Client\Model\LinksCatalogComputeExpressionLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksCatalogStoreIndexLink',
+        'input_configuration' => '\EffetB\BeezupApi\Model\LinksImportationGetManualUpdateLastInputConfigLink',
+        'auto_import_info' => '\EffetB\BeezupApi\Model\LinksAutoGetAutoImportConfigurationLink',
+        'importations' => '\EffetB\BeezupApi\Model\LinksImportationGetReportingsLink',
+        'start_importation' => '\EffetB\BeezupApi\Model\LinksImportationStartManualUpdateLink',
+        'catalog_columns' => '\EffetB\BeezupApi\Model\LinksCatalogGetCatalogColumnsLink',
+        'custom_columns' => '\EffetB\BeezupApi\Model\LinksCatalogGetCustomColumnsLink',
+        'categories' => '\EffetB\BeezupApi\Model\LinksCatalogGetCategoriesLink',
+        'products' => '\EffetB\BeezupApi\Model\LinksCatalogGetProductsLink',
+        'random_products' => '\EffetB\BeezupApi\Model\LinksCatalogGetRandomProductsLink',
+        'compute_expression' => '\EffetB\BeezupApi\Model\LinksCatalogComputeExpressionLink'
     ];
 
     /**
@@ -274,7 +274,7 @@ class CatalogStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksCatalogStoreIndexLink
+     * @return \EffetB\BeezupApi\Model\LinksCatalogStoreIndexLink
      */
     public function getSelf()
     {
@@ -284,7 +284,7 @@ class CatalogStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksCatalogStoreIndexLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksCatalogStoreIndexLink $self self
      *
      * @return $this
      */
@@ -298,7 +298,7 @@ class CatalogStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets input_configuration
      *
-     * @return \Swagger\Client\Model\LinksImportationGetManualUpdateLastInputConfigLink
+     * @return \EffetB\BeezupApi\Model\LinksImportationGetManualUpdateLastInputConfigLink
      */
     public function getInputConfiguration()
     {
@@ -308,7 +308,7 @@ class CatalogStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets input_configuration
      *
-     * @param \Swagger\Client\Model\LinksImportationGetManualUpdateLastInputConfigLink $input_configuration input_configuration
+     * @param \EffetB\BeezupApi\Model\LinksImportationGetManualUpdateLastInputConfigLink $input_configuration input_configuration
      *
      * @return $this
      */
@@ -322,7 +322,7 @@ class CatalogStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets auto_import_info
      *
-     * @return \Swagger\Client\Model\LinksAutoGetAutoImportConfigurationLink
+     * @return \EffetB\BeezupApi\Model\LinksAutoGetAutoImportConfigurationLink
      */
     public function getAutoImportInfo()
     {
@@ -332,7 +332,7 @@ class CatalogStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets auto_import_info
      *
-     * @param \Swagger\Client\Model\LinksAutoGetAutoImportConfigurationLink $auto_import_info auto_import_info
+     * @param \EffetB\BeezupApi\Model\LinksAutoGetAutoImportConfigurationLink $auto_import_info auto_import_info
      *
      * @return $this
      */
@@ -346,7 +346,7 @@ class CatalogStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets importations
      *
-     * @return \Swagger\Client\Model\LinksImportationGetReportingsLink
+     * @return \EffetB\BeezupApi\Model\LinksImportationGetReportingsLink
      */
     public function getImportations()
     {
@@ -356,7 +356,7 @@ class CatalogStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets importations
      *
-     * @param \Swagger\Client\Model\LinksImportationGetReportingsLink $importations importations
+     * @param \EffetB\BeezupApi\Model\LinksImportationGetReportingsLink $importations importations
      *
      * @return $this
      */
@@ -370,7 +370,7 @@ class CatalogStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets start_importation
      *
-     * @return \Swagger\Client\Model\LinksImportationStartManualUpdateLink
+     * @return \EffetB\BeezupApi\Model\LinksImportationStartManualUpdateLink
      */
     public function getStartImportation()
     {
@@ -380,7 +380,7 @@ class CatalogStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets start_importation
      *
-     * @param \Swagger\Client\Model\LinksImportationStartManualUpdateLink $start_importation start_importation
+     * @param \EffetB\BeezupApi\Model\LinksImportationStartManualUpdateLink $start_importation start_importation
      *
      * @return $this
      */
@@ -394,7 +394,7 @@ class CatalogStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets catalog_columns
      *
-     * @return \Swagger\Client\Model\LinksCatalogGetCatalogColumnsLink
+     * @return \EffetB\BeezupApi\Model\LinksCatalogGetCatalogColumnsLink
      */
     public function getCatalogColumns()
     {
@@ -404,7 +404,7 @@ class CatalogStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets catalog_columns
      *
-     * @param \Swagger\Client\Model\LinksCatalogGetCatalogColumnsLink $catalog_columns catalog_columns
+     * @param \EffetB\BeezupApi\Model\LinksCatalogGetCatalogColumnsLink $catalog_columns catalog_columns
      *
      * @return $this
      */
@@ -418,7 +418,7 @@ class CatalogStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets custom_columns
      *
-     * @return \Swagger\Client\Model\LinksCatalogGetCustomColumnsLink
+     * @return \EffetB\BeezupApi\Model\LinksCatalogGetCustomColumnsLink
      */
     public function getCustomColumns()
     {
@@ -428,7 +428,7 @@ class CatalogStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets custom_columns
      *
-     * @param \Swagger\Client\Model\LinksCatalogGetCustomColumnsLink $custom_columns custom_columns
+     * @param \EffetB\BeezupApi\Model\LinksCatalogGetCustomColumnsLink $custom_columns custom_columns
      *
      * @return $this
      */
@@ -442,7 +442,7 @@ class CatalogStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets categories
      *
-     * @return \Swagger\Client\Model\LinksCatalogGetCategoriesLink
+     * @return \EffetB\BeezupApi\Model\LinksCatalogGetCategoriesLink
      */
     public function getCategories()
     {
@@ -452,7 +452,7 @@ class CatalogStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets categories
      *
-     * @param \Swagger\Client\Model\LinksCatalogGetCategoriesLink $categories categories
+     * @param \EffetB\BeezupApi\Model\LinksCatalogGetCategoriesLink $categories categories
      *
      * @return $this
      */
@@ -466,7 +466,7 @@ class CatalogStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets products
      *
-     * @return \Swagger\Client\Model\LinksCatalogGetProductsLink
+     * @return \EffetB\BeezupApi\Model\LinksCatalogGetProductsLink
      */
     public function getProducts()
     {
@@ -476,7 +476,7 @@ class CatalogStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets products
      *
-     * @param \Swagger\Client\Model\LinksCatalogGetProductsLink $products products
+     * @param \EffetB\BeezupApi\Model\LinksCatalogGetProductsLink $products products
      *
      * @return $this
      */
@@ -490,7 +490,7 @@ class CatalogStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets random_products
      *
-     * @return \Swagger\Client\Model\LinksCatalogGetRandomProductsLink
+     * @return \EffetB\BeezupApi\Model\LinksCatalogGetRandomProductsLink
      */
     public function getRandomProducts()
     {
@@ -500,7 +500,7 @@ class CatalogStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets random_products
      *
-     * @param \Swagger\Client\Model\LinksCatalogGetRandomProductsLink $random_products random_products
+     * @param \EffetB\BeezupApi\Model\LinksCatalogGetRandomProductsLink $random_products random_products
      *
      * @return $this
      */
@@ -514,7 +514,7 @@ class CatalogStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets compute_expression
      *
-     * @return \Swagger\Client\Model\LinksCatalogComputeExpressionLink
+     * @return \EffetB\BeezupApi\Model\LinksCatalogComputeExpressionLink
      */
     public function getComputeExpression()
     {
@@ -524,7 +524,7 @@ class CatalogStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets compute_expression
      *
-     * @param \Swagger\Client\Model\LinksCatalogComputeExpressionLink $compute_expression compute_expression
+     * @param \EffetB\BeezupApi\Model\LinksCatalogComputeExpressionLink $compute_expression compute_expression
      *
      * @return $this
      */

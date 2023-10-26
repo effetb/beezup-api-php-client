@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace EffetB\BeezupApi\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use EffetB\BeezupApi\ApiException;
+use EffetB\BeezupApi\Configuration;
+use EffetB\BeezupApi\HeaderSelector;
+use EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CustomerSharesApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -95,7 +95,7 @@ class CustomerSharesApi
      * @param  string $store_id Your store identifier (required)
      * @param  string $user_id The friend user id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -112,7 +112,7 @@ class CustomerSharesApi
      * @param  string $store_id Your store identifier (required)
      * @param  string $user_id The friend user id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -156,7 +156,7 @@ class CustomerSharesApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -164,7 +164,7 @@ class CustomerSharesApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -360,9 +360,9 @@ class CustomerSharesApi
      * @param  string $store_id Your store identifier (required)
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\StoreShares
+     * @return \EffetB\BeezupApi\Model\StoreShares
      */
     public function getStoreShares($store_id, $if_none_match = null)
     {
@@ -378,13 +378,13 @@ class CustomerSharesApi
      * @param  string $store_id Your store identifier (required)
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\StoreShares, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\StoreShares, HTTP status code, HTTP response headers (array of strings)
      */
     public function getStoreSharesWithHttpInfo($store_id, $if_none_match = null)
     {
-        $returnType = '\Swagger\Client\Model\StoreShares';
+        $returnType = '\EffetB\BeezupApi\Model\StoreShares';
         $request = $this->getStoreSharesRequest($store_id, $if_none_match);
 
         try {
@@ -436,7 +436,7 @@ class CustomerSharesApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\StoreShares',
+                        '\EffetB\BeezupApi\Model\StoreShares',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -444,7 +444,7 @@ class CustomerSharesApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -452,7 +452,7 @@ class CustomerSharesApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -496,7 +496,7 @@ class CustomerSharesApi
      */
     public function getStoreSharesAsyncWithHttpInfo($store_id, $if_none_match = null)
     {
-        $returnType = '\Swagger\Client\Model\StoreShares';
+        $returnType = '\EffetB\BeezupApi\Model\StoreShares';
         $request = $this->getStoreSharesRequest($store_id, $if_none_match);
 
         return $this->client
@@ -650,9 +650,9 @@ class CustomerSharesApi
      * Share a store to another user
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\FriendEmail $email Your friend&#39;s email (required)
+     * @param  \EffetB\BeezupApi\Model\FriendEmail $email Your friend&#39;s email (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -667,9 +667,9 @@ class CustomerSharesApi
      * Share a store to another user
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\FriendEmail $email Your friend&#39;s email (required)
+     * @param  \EffetB\BeezupApi\Model\FriendEmail $email Your friend&#39;s email (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -713,7 +713,7 @@ class CustomerSharesApi
                 case 402:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ErrorResponseMessagePaymentRequired',
+                        '\EffetB\BeezupApi\Model\ErrorResponseMessagePaymentRequired',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -721,7 +721,7 @@ class CustomerSharesApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -729,7 +729,7 @@ class CustomerSharesApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -745,7 +745,7 @@ class CustomerSharesApi
      * Share a store to another user
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\FriendEmail $email Your friend&#39;s email (required)
+     * @param  \EffetB\BeezupApi\Model\FriendEmail $email Your friend&#39;s email (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -766,7 +766,7 @@ class CustomerSharesApi
      * Share a store to another user
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\FriendEmail $email Your friend&#39;s email (required)
+     * @param  \EffetB\BeezupApi\Model\FriendEmail $email Your friend&#39;s email (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -803,7 +803,7 @@ class CustomerSharesApi
      * Create request for operation 'shareStore'
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\FriendEmail $email Your friend&#39;s email (required)
+     * @param  \EffetB\BeezupApi\Model\FriendEmail $email Your friend&#39;s email (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

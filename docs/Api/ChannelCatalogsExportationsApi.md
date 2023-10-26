@@ -1,4 +1,4 @@
-# Swagger\Client\ChannelCatalogsExportationsApi
+# EffetB\BeezupApi\ChannelCatalogsExportationsApi
 
 All URIs are relative to *https://api.beezup.com/v2*
 
@@ -20,11 +20,11 @@ Clear the exportation cache
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ChannelCatalogsExportationsApi(
+$apiInstance = new EffetB\BeezupApi\Api\ChannelCatalogsExportationsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -62,7 +62,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getChannelCatalogExportationCacheInfo**
-> \Swagger\Client\Model\ChannelCatalogExportCacheInfoResponse getChannelCatalogExportationCacheInfo($channel_catalog_id)
+> \EffetB\BeezupApi\Model\ChannelCatalogExportCacheInfoResponse getChannelCatalogExportationCacheInfo($channel_catalog_id)
 
 Get the exportation cache information
 
@@ -72,11 +72,11 @@ Get the exportation cache information
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ChannelCatalogsExportationsApi(
+$apiInstance = new EffetB\BeezupApi\Api\ChannelCatalogsExportationsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -101,7 +101,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\ChannelCatalogExportCacheInfoResponse**](../Model/ChannelCatalogExportCacheInfoResponse.md)
+[**\EffetB\BeezupApi\Model\ChannelCatalogExportCacheInfoResponse**](../Model/ChannelCatalogExportCacheInfoResponse.md)
 
 ### Authorization
 
@@ -115,7 +115,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getChannelCatalogExportationHistory**
-> \Swagger\Client\Model\ChannelCatalogExportationHistory getChannelCatalogExportationHistory($channel_catalog_id, $page_number, $page_size)
+> \EffetB\BeezupApi\Model\ChannelCatalogExportationHistory getChannelCatalogExportationHistory($channel_catalog_id, $page_number, $page_size)
 
 Get the exportation history
 
@@ -125,11 +125,11 @@ Get the exportation history
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ChannelCatalogsExportationsApi(
+$apiInstance = new EffetB\BeezupApi\Api\ChannelCatalogsExportationsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -158,7 +158,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\ChannelCatalogExportationHistory**](../Model/ChannelCatalogExportationHistory.md)
+[**\EffetB\BeezupApi\Model\ChannelCatalogExportationHistory**](../Model/ChannelCatalogExportationHistory.md)
 
 ### Authorization
 

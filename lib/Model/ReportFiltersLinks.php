@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ReportFiltersLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class ReportFiltersLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksGetReportFiltersLink',
-        'save' => '\Swagger\Client\Model\LinksSaveReportFilterLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksGetReportFiltersLink',
+        'save' => '\EffetB\BeezupApi\Model\LinksSaveReportFilterLink'
     ];
 
     /**
@@ -226,7 +226,7 @@ class ReportFiltersLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksGetReportFiltersLink
+     * @return \EffetB\BeezupApi\Model\LinksGetReportFiltersLink
      */
     public function getSelf()
     {
@@ -236,7 +236,7 @@ class ReportFiltersLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksGetReportFiltersLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksGetReportFiltersLink $self self
      *
      * @return $this
      */
@@ -250,7 +250,7 @@ class ReportFiltersLinks implements ModelInterface, ArrayAccess
     /**
      * Gets save
      *
-     * @return \Swagger\Client\Model\LinksSaveReportFilterLink
+     * @return \EffetB\BeezupApi\Model\LinksSaveReportFilterLink
      */
     public function getSave()
     {
@@ -260,7 +260,7 @@ class ReportFiltersLinks implements ModelInterface, ArrayAccess
     /**
      * Sets save
      *
-     * @param \Swagger\Client\Model\LinksSaveReportFilterLink $save save
+     * @param \EffetB\BeezupApi\Model\LinksSaveReportFilterLink $save save
      *
      * @return $this
      */

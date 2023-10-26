@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelCatalogProductInfo Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -62,12 +62,12 @@ class ChannelCatalogProductInfo implements ModelInterface, ArrayAccess
         'product_title' => 'string',
         'product_image_url' => 'string',
         'product_exists' => 'bool',
-        'overrides' => '\Swagger\Client\Model\ProductOverridesWithCatalogValues',
+        'overrides' => '\EffetB\BeezupApi\Model\ProductOverridesWithCatalogValues',
         'disabled' => 'bool',
         'uncategorized' => 'bool',
         'excluded' => 'bool',
-        'excluded_by' => '\Swagger\Client\Model\ExclusionFilterName[]',
-        'links' => '\Swagger\Client\Model\ChannelCatalogProductInfoLinks'
+        'excluded_by' => '\EffetB\BeezupApi\Model\ExclusionFilterName[]',
+        'links' => '\EffetB\BeezupApi\Model\ChannelCatalogProductInfoLinks'
     ];
 
     /**
@@ -442,7 +442,7 @@ class ChannelCatalogProductInfo implements ModelInterface, ArrayAccess
     /**
      * Gets overrides
      *
-     * @return \Swagger\Client\Model\ProductOverridesWithCatalogValues
+     * @return \EffetB\BeezupApi\Model\ProductOverridesWithCatalogValues
      */
     public function getOverrides()
     {
@@ -452,7 +452,7 @@ class ChannelCatalogProductInfo implements ModelInterface, ArrayAccess
     /**
      * Sets overrides
      *
-     * @param \Swagger\Client\Model\ProductOverridesWithCatalogValues $overrides overrides
+     * @param \EffetB\BeezupApi\Model\ProductOverridesWithCatalogValues $overrides overrides
      *
      * @return $this
      */
@@ -538,7 +538,7 @@ class ChannelCatalogProductInfo implements ModelInterface, ArrayAccess
     /**
      * Gets excluded_by
      *
-     * @return \Swagger\Client\Model\ExclusionFilterName[]
+     * @return \EffetB\BeezupApi\Model\ExclusionFilterName[]
      */
     public function getExcludedBy()
     {
@@ -548,7 +548,7 @@ class ChannelCatalogProductInfo implements ModelInterface, ArrayAccess
     /**
      * Sets excluded_by
      *
-     * @param \Swagger\Client\Model\ExclusionFilterName[] $excluded_by excluded_by
+     * @param \EffetB\BeezupApi\Model\ExclusionFilterName[] $excluded_by excluded_by
      *
      * @return $this
      */
@@ -562,7 +562,7 @@ class ChannelCatalogProductInfo implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ChannelCatalogProductInfoLinks
+     * @return \EffetB\BeezupApi\Model\ChannelCatalogProductInfoLinks
      */
     public function getLinks()
     {
@@ -572,7 +572,7 @@ class ChannelCatalogProductInfo implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ChannelCatalogProductInfoLinks $links links
+     * @param \EffetB\BeezupApi\Model\ChannelCatalogProductInfoLinks $links links
      *
      * @return $this
      */

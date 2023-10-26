@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * PublicationReporting Class Doc Comment
  *
  * @category Class
  * @description Model for a publication reporting, can have multiple feeds
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,8 +58,8 @@ class PublicationReporting implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'publication_type' => '\Swagger\Client\Model\PublicationType',
-        'feeds' => '\Swagger\Client\Model\PublicationFeedReporting[]'
+        'publication_type' => '\EffetB\BeezupApi\Model\PublicationType',
+        'feeds' => '\EffetB\BeezupApi\Model\PublicationFeedReporting[]'
     ];
 
     /**
@@ -227,7 +227,7 @@ class PublicationReporting implements ModelInterface, ArrayAccess
     /**
      * Gets publication_type
      *
-     * @return \Swagger\Client\Model\PublicationType
+     * @return \EffetB\BeezupApi\Model\PublicationType
      */
     public function getPublicationType()
     {
@@ -237,7 +237,7 @@ class PublicationReporting implements ModelInterface, ArrayAccess
     /**
      * Sets publication_type
      *
-     * @param \Swagger\Client\Model\PublicationType $publication_type publication_type
+     * @param \EffetB\BeezupApi\Model\PublicationType $publication_type publication_type
      *
      * @return $this
      */
@@ -251,7 +251,7 @@ class PublicationReporting implements ModelInterface, ArrayAccess
     /**
      * Gets feeds
      *
-     * @return \Swagger\Client\Model\PublicationFeedReporting[]
+     * @return \EffetB\BeezupApi\Model\PublicationFeedReporting[]
      */
     public function getFeeds()
     {
@@ -261,7 +261,7 @@ class PublicationReporting implements ModelInterface, ArrayAccess
     /**
      * Sets feeds
      *
-     * @param \Swagger\Client\Model\PublicationFeedReporting[] $feeds The feeds that were published
+     * @param \EffetB\BeezupApi\Model\PublicationFeedReporting[] $feeds The feeds that were published
      *
      * @return $this
      */

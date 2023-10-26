@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * OrderLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,11 +57,11 @@ class OrderLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksGetOrderLink',
-        'history' => '\Swagger\Client\Model\LinksGetOrderHistoryLink',
-        'harvest' => '\Swagger\Client\Model\LinksHarvestOrderLink',
-        'set_merchant_info' => '\Swagger\Client\Model\LinksSetMerchantOrderInfoLink',
-        'clear_merchant_info' => '\Swagger\Client\Model\LinksClearMerchantOrderInfoLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksGetOrderLink',
+        'history' => '\EffetB\BeezupApi\Model\LinksGetOrderHistoryLink',
+        'harvest' => '\EffetB\BeezupApi\Model\LinksHarvestOrderLink',
+        'set_merchant_info' => '\EffetB\BeezupApi\Model\LinksSetMerchantOrderInfoLink',
+        'clear_merchant_info' => '\EffetB\BeezupApi\Model\LinksClearMerchantOrderInfoLink'
     ];
 
     /**
@@ -262,7 +262,7 @@ class OrderLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksGetOrderLink
+     * @return \EffetB\BeezupApi\Model\LinksGetOrderLink
      */
     public function getSelf()
     {
@@ -272,7 +272,7 @@ class OrderLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksGetOrderLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksGetOrderLink $self self
      *
      * @return $this
      */
@@ -286,7 +286,7 @@ class OrderLinks implements ModelInterface, ArrayAccess
     /**
      * Gets history
      *
-     * @return \Swagger\Client\Model\LinksGetOrderHistoryLink
+     * @return \EffetB\BeezupApi\Model\LinksGetOrderHistoryLink
      */
     public function getHistory()
     {
@@ -296,7 +296,7 @@ class OrderLinks implements ModelInterface, ArrayAccess
     /**
      * Sets history
      *
-     * @param \Swagger\Client\Model\LinksGetOrderHistoryLink $history history
+     * @param \EffetB\BeezupApi\Model\LinksGetOrderHistoryLink $history history
      *
      * @return $this
      */
@@ -310,7 +310,7 @@ class OrderLinks implements ModelInterface, ArrayAccess
     /**
      * Gets harvest
      *
-     * @return \Swagger\Client\Model\LinksHarvestOrderLink
+     * @return \EffetB\BeezupApi\Model\LinksHarvestOrderLink
      */
     public function getHarvest()
     {
@@ -320,7 +320,7 @@ class OrderLinks implements ModelInterface, ArrayAccess
     /**
      * Sets harvest
      *
-     * @param \Swagger\Client\Model\LinksHarvestOrderLink $harvest harvest
+     * @param \EffetB\BeezupApi\Model\LinksHarvestOrderLink $harvest harvest
      *
      * @return $this
      */
@@ -334,7 +334,7 @@ class OrderLinks implements ModelInterface, ArrayAccess
     /**
      * Gets set_merchant_info
      *
-     * @return \Swagger\Client\Model\LinksSetMerchantOrderInfoLink
+     * @return \EffetB\BeezupApi\Model\LinksSetMerchantOrderInfoLink
      */
     public function getSetMerchantInfo()
     {
@@ -344,7 +344,7 @@ class OrderLinks implements ModelInterface, ArrayAccess
     /**
      * Sets set_merchant_info
      *
-     * @param \Swagger\Client\Model\LinksSetMerchantOrderInfoLink $set_merchant_info set_merchant_info
+     * @param \EffetB\BeezupApi\Model\LinksSetMerchantOrderInfoLink $set_merchant_info set_merchant_info
      *
      * @return $this
      */
@@ -358,7 +358,7 @@ class OrderLinks implements ModelInterface, ArrayAccess
     /**
      * Gets clear_merchant_info
      *
-     * @return \Swagger\Client\Model\LinksClearMerchantOrderInfoLink
+     * @return \EffetB\BeezupApi\Model\LinksClearMerchantOrderInfoLink
      */
     public function getClearMerchantInfo()
     {
@@ -368,7 +368,7 @@ class OrderLinks implements ModelInterface, ArrayAccess
     /**
      * Sets clear_merchant_info
      *
-     * @param \Swagger\Client\Model\LinksClearMerchantOrderInfoLink $clear_merchant_info clear_merchant_info
+     * @param \EffetB\BeezupApi\Model\LinksClearMerchantOrderInfoLink $clear_merchant_info clear_merchant_info
      *
      * @return $this
      */

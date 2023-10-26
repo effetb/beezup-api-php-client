@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * DetectedCatalogColumnList Class Doc Comment
  *
  * @category Class
  * @description The list of detected catalog column
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,8 +58,8 @@ class DetectedCatalogColumnList implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\DetectedCatalogColumnListLinks',
-        'detected_catalog_columns' => '\Swagger\Client\Model\DetectedCatalogColumn[]'
+        'links' => '\EffetB\BeezupApi\Model\DetectedCatalogColumnListLinks',
+        'detected_catalog_columns' => '\EffetB\BeezupApi\Model\DetectedCatalogColumn[]'
     ];
 
     /**
@@ -221,7 +221,7 @@ class DetectedCatalogColumnList implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\DetectedCatalogColumnListLinks
+     * @return \EffetB\BeezupApi\Model\DetectedCatalogColumnListLinks
      */
     public function getLinks()
     {
@@ -231,7 +231,7 @@ class DetectedCatalogColumnList implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\DetectedCatalogColumnListLinks $links links
+     * @param \EffetB\BeezupApi\Model\DetectedCatalogColumnListLinks $links links
      *
      * @return $this
      */
@@ -245,7 +245,7 @@ class DetectedCatalogColumnList implements ModelInterface, ArrayAccess
     /**
      * Gets detected_catalog_columns
      *
-     * @return \Swagger\Client\Model\DetectedCatalogColumn[]
+     * @return \EffetB\BeezupApi\Model\DetectedCatalogColumn[]
      */
     public function getDetectedCatalogColumns()
     {
@@ -255,7 +255,7 @@ class DetectedCatalogColumnList implements ModelInterface, ArrayAccess
     /**
      * Sets detected_catalog_columns
      *
-     * @param \Swagger\Client\Model\DetectedCatalogColumn[] $detected_catalog_columns Contains all deteted catalog columns
+     * @param \EffetB\BeezupApi\Model\DetectedCatalogColumn[] $detected_catalog_columns Contains all deteted catalog columns
      *
      * @return $this
      */

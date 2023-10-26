@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * AnalyticsStoreIndexLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,22 +57,22 @@ class AnalyticsStoreIndexLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksAnalyticsIndexLink',
-        'tracking_status' => '\Swagger\Client\Model\LinksGetStoreTrackingStatusLink',
-        'tracked_clicks' => '\Swagger\Client\Model\LinksGetStoreTrackedClicksLink',
-        'tracked_orders' => '\Swagger\Client\Model\LinksGetStoreTrackedOrdersLink',
-        'tracked_external_orders' => '\Swagger\Client\Model\LinksGetStoreTrackedExternalOrdersLink',
-        'report_by_day' => '\Swagger\Client\Model\LinksGetStoreReportByDayLink',
-        'report_by_channel' => '\Swagger\Client\Model\LinksGetStoreReportByChannelLink',
-        'report_by_category' => '\Swagger\Client\Model\LinksGetStoreReportByCategoryLink',
-        'report_by_product' => '\Swagger\Client\Model\LinksGetStoreReportByProductLink',
-        'optimise_all' => '\Swagger\Client\Model\LinksOptimiseAllLink',
-        'optimise' => '\Swagger\Client\Model\LinksOptimiseLink',
-        'optimise_by_channel' => '\Swagger\Client\Model\LinksOptimiseByChannelLink',
-        'optimise_by_category' => '\Swagger\Client\Model\LinksOptimiseByCategoryLink',
-        'optimise_by_product' => '\Swagger\Client\Model\LinksOptimiseByProductLink',
-        'report_filters' => '\Swagger\Client\Model\LinksGetReportFiltersLink',
-        'rules' => '\Swagger\Client\Model\LinksGetRulesLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksAnalyticsIndexLink',
+        'tracking_status' => '\EffetB\BeezupApi\Model\LinksGetStoreTrackingStatusLink',
+        'tracked_clicks' => '\EffetB\BeezupApi\Model\LinksGetStoreTrackedClicksLink',
+        'tracked_orders' => '\EffetB\BeezupApi\Model\LinksGetStoreTrackedOrdersLink',
+        'tracked_external_orders' => '\EffetB\BeezupApi\Model\LinksGetStoreTrackedExternalOrdersLink',
+        'report_by_day' => '\EffetB\BeezupApi\Model\LinksGetStoreReportByDayLink',
+        'report_by_channel' => '\EffetB\BeezupApi\Model\LinksGetStoreReportByChannelLink',
+        'report_by_category' => '\EffetB\BeezupApi\Model\LinksGetStoreReportByCategoryLink',
+        'report_by_product' => '\EffetB\BeezupApi\Model\LinksGetStoreReportByProductLink',
+        'optimise_all' => '\EffetB\BeezupApi\Model\LinksOptimiseAllLink',
+        'optimise' => '\EffetB\BeezupApi\Model\LinksOptimiseLink',
+        'optimise_by_channel' => '\EffetB\BeezupApi\Model\LinksOptimiseByChannelLink',
+        'optimise_by_category' => '\EffetB\BeezupApi\Model\LinksOptimiseByCategoryLink',
+        'optimise_by_product' => '\EffetB\BeezupApi\Model\LinksOptimiseByProductLink',
+        'report_filters' => '\EffetB\BeezupApi\Model\LinksGetReportFiltersLink',
+        'rules' => '\EffetB\BeezupApi\Model\LinksGetRulesLink'
     ];
 
     /**
@@ -328,7 +328,7 @@ class AnalyticsStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksAnalyticsIndexLink
+     * @return \EffetB\BeezupApi\Model\LinksAnalyticsIndexLink
      */
     public function getSelf()
     {
@@ -338,7 +338,7 @@ class AnalyticsStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksAnalyticsIndexLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksAnalyticsIndexLink $self self
      *
      * @return $this
      */
@@ -352,7 +352,7 @@ class AnalyticsStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets tracking_status
      *
-     * @return \Swagger\Client\Model\LinksGetStoreTrackingStatusLink
+     * @return \EffetB\BeezupApi\Model\LinksGetStoreTrackingStatusLink
      */
     public function getTrackingStatus()
     {
@@ -362,7 +362,7 @@ class AnalyticsStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets tracking_status
      *
-     * @param \Swagger\Client\Model\LinksGetStoreTrackingStatusLink $tracking_status tracking_status
+     * @param \EffetB\BeezupApi\Model\LinksGetStoreTrackingStatusLink $tracking_status tracking_status
      *
      * @return $this
      */
@@ -376,7 +376,7 @@ class AnalyticsStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets tracked_clicks
      *
-     * @return \Swagger\Client\Model\LinksGetStoreTrackedClicksLink
+     * @return \EffetB\BeezupApi\Model\LinksGetStoreTrackedClicksLink
      */
     public function getTrackedClicks()
     {
@@ -386,7 +386,7 @@ class AnalyticsStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets tracked_clicks
      *
-     * @param \Swagger\Client\Model\LinksGetStoreTrackedClicksLink $tracked_clicks tracked_clicks
+     * @param \EffetB\BeezupApi\Model\LinksGetStoreTrackedClicksLink $tracked_clicks tracked_clicks
      *
      * @return $this
      */
@@ -400,7 +400,7 @@ class AnalyticsStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets tracked_orders
      *
-     * @return \Swagger\Client\Model\LinksGetStoreTrackedOrdersLink
+     * @return \EffetB\BeezupApi\Model\LinksGetStoreTrackedOrdersLink
      */
     public function getTrackedOrders()
     {
@@ -410,7 +410,7 @@ class AnalyticsStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets tracked_orders
      *
-     * @param \Swagger\Client\Model\LinksGetStoreTrackedOrdersLink $tracked_orders tracked_orders
+     * @param \EffetB\BeezupApi\Model\LinksGetStoreTrackedOrdersLink $tracked_orders tracked_orders
      *
      * @return $this
      */
@@ -424,7 +424,7 @@ class AnalyticsStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets tracked_external_orders
      *
-     * @return \Swagger\Client\Model\LinksGetStoreTrackedExternalOrdersLink
+     * @return \EffetB\BeezupApi\Model\LinksGetStoreTrackedExternalOrdersLink
      */
     public function getTrackedExternalOrders()
     {
@@ -434,7 +434,7 @@ class AnalyticsStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets tracked_external_orders
      *
-     * @param \Swagger\Client\Model\LinksGetStoreTrackedExternalOrdersLink $tracked_external_orders tracked_external_orders
+     * @param \EffetB\BeezupApi\Model\LinksGetStoreTrackedExternalOrdersLink $tracked_external_orders tracked_external_orders
      *
      * @return $this
      */
@@ -448,7 +448,7 @@ class AnalyticsStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets report_by_day
      *
-     * @return \Swagger\Client\Model\LinksGetStoreReportByDayLink
+     * @return \EffetB\BeezupApi\Model\LinksGetStoreReportByDayLink
      */
     public function getReportByDay()
     {
@@ -458,7 +458,7 @@ class AnalyticsStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets report_by_day
      *
-     * @param \Swagger\Client\Model\LinksGetStoreReportByDayLink $report_by_day report_by_day
+     * @param \EffetB\BeezupApi\Model\LinksGetStoreReportByDayLink $report_by_day report_by_day
      *
      * @return $this
      */
@@ -472,7 +472,7 @@ class AnalyticsStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets report_by_channel
      *
-     * @return \Swagger\Client\Model\LinksGetStoreReportByChannelLink
+     * @return \EffetB\BeezupApi\Model\LinksGetStoreReportByChannelLink
      */
     public function getReportByChannel()
     {
@@ -482,7 +482,7 @@ class AnalyticsStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets report_by_channel
      *
-     * @param \Swagger\Client\Model\LinksGetStoreReportByChannelLink $report_by_channel report_by_channel
+     * @param \EffetB\BeezupApi\Model\LinksGetStoreReportByChannelLink $report_by_channel report_by_channel
      *
      * @return $this
      */
@@ -496,7 +496,7 @@ class AnalyticsStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets report_by_category
      *
-     * @return \Swagger\Client\Model\LinksGetStoreReportByCategoryLink
+     * @return \EffetB\BeezupApi\Model\LinksGetStoreReportByCategoryLink
      */
     public function getReportByCategory()
     {
@@ -506,7 +506,7 @@ class AnalyticsStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets report_by_category
      *
-     * @param \Swagger\Client\Model\LinksGetStoreReportByCategoryLink $report_by_category report_by_category
+     * @param \EffetB\BeezupApi\Model\LinksGetStoreReportByCategoryLink $report_by_category report_by_category
      *
      * @return $this
      */
@@ -520,7 +520,7 @@ class AnalyticsStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets report_by_product
      *
-     * @return \Swagger\Client\Model\LinksGetStoreReportByProductLink
+     * @return \EffetB\BeezupApi\Model\LinksGetStoreReportByProductLink
      */
     public function getReportByProduct()
     {
@@ -530,7 +530,7 @@ class AnalyticsStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets report_by_product
      *
-     * @param \Swagger\Client\Model\LinksGetStoreReportByProductLink $report_by_product report_by_product
+     * @param \EffetB\BeezupApi\Model\LinksGetStoreReportByProductLink $report_by_product report_by_product
      *
      * @return $this
      */
@@ -544,7 +544,7 @@ class AnalyticsStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets optimise_all
      *
-     * @return \Swagger\Client\Model\LinksOptimiseAllLink
+     * @return \EffetB\BeezupApi\Model\LinksOptimiseAllLink
      */
     public function getOptimiseAll()
     {
@@ -554,7 +554,7 @@ class AnalyticsStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets optimise_all
      *
-     * @param \Swagger\Client\Model\LinksOptimiseAllLink $optimise_all optimise_all
+     * @param \EffetB\BeezupApi\Model\LinksOptimiseAllLink $optimise_all optimise_all
      *
      * @return $this
      */
@@ -568,7 +568,7 @@ class AnalyticsStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets optimise
      *
-     * @return \Swagger\Client\Model\LinksOptimiseLink
+     * @return \EffetB\BeezupApi\Model\LinksOptimiseLink
      */
     public function getOptimise()
     {
@@ -578,7 +578,7 @@ class AnalyticsStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets optimise
      *
-     * @param \Swagger\Client\Model\LinksOptimiseLink $optimise optimise
+     * @param \EffetB\BeezupApi\Model\LinksOptimiseLink $optimise optimise
      *
      * @return $this
      */
@@ -592,7 +592,7 @@ class AnalyticsStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets optimise_by_channel
      *
-     * @return \Swagger\Client\Model\LinksOptimiseByChannelLink
+     * @return \EffetB\BeezupApi\Model\LinksOptimiseByChannelLink
      */
     public function getOptimiseByChannel()
     {
@@ -602,7 +602,7 @@ class AnalyticsStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets optimise_by_channel
      *
-     * @param \Swagger\Client\Model\LinksOptimiseByChannelLink $optimise_by_channel optimise_by_channel
+     * @param \EffetB\BeezupApi\Model\LinksOptimiseByChannelLink $optimise_by_channel optimise_by_channel
      *
      * @return $this
      */
@@ -616,7 +616,7 @@ class AnalyticsStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets optimise_by_category
      *
-     * @return \Swagger\Client\Model\LinksOptimiseByCategoryLink
+     * @return \EffetB\BeezupApi\Model\LinksOptimiseByCategoryLink
      */
     public function getOptimiseByCategory()
     {
@@ -626,7 +626,7 @@ class AnalyticsStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets optimise_by_category
      *
-     * @param \Swagger\Client\Model\LinksOptimiseByCategoryLink $optimise_by_category optimise_by_category
+     * @param \EffetB\BeezupApi\Model\LinksOptimiseByCategoryLink $optimise_by_category optimise_by_category
      *
      * @return $this
      */
@@ -640,7 +640,7 @@ class AnalyticsStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets optimise_by_product
      *
-     * @return \Swagger\Client\Model\LinksOptimiseByProductLink
+     * @return \EffetB\BeezupApi\Model\LinksOptimiseByProductLink
      */
     public function getOptimiseByProduct()
     {
@@ -650,7 +650,7 @@ class AnalyticsStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets optimise_by_product
      *
-     * @param \Swagger\Client\Model\LinksOptimiseByProductLink $optimise_by_product optimise_by_product
+     * @param \EffetB\BeezupApi\Model\LinksOptimiseByProductLink $optimise_by_product optimise_by_product
      *
      * @return $this
      */
@@ -664,7 +664,7 @@ class AnalyticsStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets report_filters
      *
-     * @return \Swagger\Client\Model\LinksGetReportFiltersLink
+     * @return \EffetB\BeezupApi\Model\LinksGetReportFiltersLink
      */
     public function getReportFilters()
     {
@@ -674,7 +674,7 @@ class AnalyticsStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets report_filters
      *
-     * @param \Swagger\Client\Model\LinksGetReportFiltersLink $report_filters report_filters
+     * @param \EffetB\BeezupApi\Model\LinksGetReportFiltersLink $report_filters report_filters
      *
      * @return $this
      */
@@ -688,7 +688,7 @@ class AnalyticsStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets rules
      *
-     * @return \Swagger\Client\Model\LinksGetRulesLink
+     * @return \EffetB\BeezupApi\Model\LinksGetRulesLink
      */
     public function getRules()
     {
@@ -698,7 +698,7 @@ class AnalyticsStoreIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets rules
      *
-     * @param \Swagger\Client\Model\LinksGetRulesLink $rules rules
+     * @param \EffetB\BeezupApi\Model\LinksGetRulesLink $rules rules
      *
      * @return $this
      */

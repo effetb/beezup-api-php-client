@@ -1,4 +1,4 @@
-# Swagger\Client\ChannelCatalogsExclusionFiltersApi
+# EffetB\BeezupApi\ChannelCatalogsExclusionFiltersApi
 
 All URIs are relative to *https://api.beezup.com/v2*
 
@@ -20,18 +20,18 @@ Configure channel catalog exclusion filters
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ChannelCatalogsExclusionFiltersApi(
+$apiInstance = new EffetB\BeezupApi\Api\ChannelCatalogsExclusionFiltersApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $channel_catalog_id = "\"6d6b04de-406b-4539-8e7e-bf3e8da5dfb0\""; // string | The channel catalog identifier
-$request = new \Swagger\Client\Model\ExclusionFilters(); // \Swagger\Client\Model\ExclusionFilters | 
+$request = new \EffetB\BeezupApi\Model\ExclusionFilters(); // \EffetB\BeezupApi\Model\ExclusionFilters | 
 
 try {
     $apiInstance->configureChannelCatalogExclusionFilters($channel_catalog_id, $request);
@@ -46,7 +46,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **channel_catalog_id** | **string**| The channel catalog identifier |
- **request** | [**\Swagger\Client\Model\ExclusionFilters**](../Model/ExclusionFilters.md)|  |
+ **request** | [**\EffetB\BeezupApi\Model\ExclusionFilters**](../Model/ExclusionFilters.md)|  |
 
 ### Return type
 
@@ -64,7 +64,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getChannelCatalogExclusionFilterOperators**
-> \Swagger\Client\Model\ExclusionFilterOperator[] getChannelCatalogExclusionFilterOperators()
+> \EffetB\BeezupApi\Model\ExclusionFilterOperator[] getChannelCatalogExclusionFilterOperators()
 
 Get channel catalog exclusion filter operators
 
@@ -74,11 +74,11 @@ Get channel catalog exclusion filter operators
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ChannelCatalogsExclusionFiltersApi(
+$apiInstance = new EffetB\BeezupApi\Api\ChannelCatalogsExclusionFiltersApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -99,7 +99,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**\Swagger\Client\Model\ExclusionFilterOperator[]**](../Model/ExclusionFilterOperator.md)
+[**\EffetB\BeezupApi\Model\ExclusionFilterOperator[]**](../Model/ExclusionFilterOperator.md)
 
 ### Authorization
 
@@ -113,7 +113,7 @@ This endpoint does not need any parameter.
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getChannelCatalogExclusionFilters**
-> \Swagger\Client\Model\ExclusionFiltersResponse getChannelCatalogExclusionFilters($channel_catalog_id)
+> \EffetB\BeezupApi\Model\ExclusionFiltersResponse getChannelCatalogExclusionFilters($channel_catalog_id)
 
 Get channel catalog exclusion filters
 
@@ -123,11 +123,11 @@ Get channel catalog exclusion filters
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ChannelCatalogsExclusionFiltersApi(
+$apiInstance = new EffetB\BeezupApi\Api\ChannelCatalogsExclusionFiltersApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -152,7 +152,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\ExclusionFiltersResponse**](../Model/ExclusionFiltersResponse.md)
+[**\EffetB\BeezupApi\Model\ExclusionFiltersResponse**](../Model/ExclusionFiltersResponse.md)
 
 ### Authorization
 

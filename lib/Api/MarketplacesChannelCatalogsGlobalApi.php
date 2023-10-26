@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace EffetB\BeezupApi\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use EffetB\BeezupApi\ApiException;
+use EffetB\BeezupApi\Configuration;
+use EffetB\BeezupApi\HeaderSelector;
+use EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * MarketplacesChannelCatalogsGlobalApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -94,9 +94,9 @@ class MarketplacesChannelCatalogsGlobalApi
      *
      * @param  string $store_id The StoreId to filter by (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\MarketplaceChannelCatalogList
+     * @return \EffetB\BeezupApi\Model\MarketplaceChannelCatalogList
      */
     public function getMarketplaceChannelCatalogs($store_id = null)
     {
@@ -111,13 +111,13 @@ class MarketplacesChannelCatalogsGlobalApi
      *
      * @param  string $store_id The StoreId to filter by (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\MarketplaceChannelCatalogList, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\MarketplaceChannelCatalogList, HTTP status code, HTTP response headers (array of strings)
      */
     public function getMarketplaceChannelCatalogsWithHttpInfo($store_id = null)
     {
-        $returnType = '\Swagger\Client\Model\MarketplaceChannelCatalogList';
+        $returnType = '\EffetB\BeezupApi\Model\MarketplaceChannelCatalogList';
         $request = $this->getMarketplaceChannelCatalogsRequest($store_id);
 
         try {
@@ -169,7 +169,7 @@ class MarketplacesChannelCatalogsGlobalApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\MarketplaceChannelCatalogList',
+                        '\EffetB\BeezupApi\Model\MarketplaceChannelCatalogList',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -211,7 +211,7 @@ class MarketplacesChannelCatalogsGlobalApi
      */
     public function getMarketplaceChannelCatalogsAsyncWithHttpInfo($store_id = null)
     {
-        $returnType = '\Swagger\Client\Model\MarketplaceChannelCatalogList';
+        $returnType = '\EffetB\BeezupApi\Model\MarketplaceChannelCatalogList';
         $request = $this->getMarketplaceChannelCatalogsRequest($store_id);
 
         return $this->client

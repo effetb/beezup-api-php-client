@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ContractCommitmentInfo Class Doc Comment
  *
  * @category Class
  * @description Describe the commitment information related to the offer.
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -64,20 +64,20 @@ class ContractCommitmentInfo implements ModelInterface, ArrayAccess
         'trial_period_in_month' => 'int',
         'trial_period_finish_date' => '\DateTime',
         'payment_delay_in_days' => 'int',
-        'offer_id' => '\Swagger\Client\Model\OfferId',
+        'offer_id' => '\EffetB\BeezupApi\Model\OfferId',
         'offer_name' => 'string',
         'current_contract_id' => 'string',
         'commercial_user_id' => 'string',
         'model' => 'string',
         'current_contract_termination_date' => '\DateTime',
-        'requested_payment_method' => '\Swagger\Client\Model\PaymentMethod',
-        'current_customer_payment_method' => '\Swagger\Client\Model\PaymentMethod',
+        'requested_payment_method' => '\EffetB\BeezupApi\Model\PaymentMethod',
+        'current_customer_payment_method' => '\EffetB\BeezupApi\Model\PaymentMethod',
         'contract_type' => 'int',
         'is_model_must_be_transmitted_in_new_contract' => 'bool',
-        'fixed_and_variable_click_info' => '\Swagger\Client\Model\FixedAndVariableClickModelInfo',
-        'variable_model_info' => '\Swagger\Client\Model\VariableModelInfo',
-        'payment_method_authorized' => '\Swagger\Client\Model\PaymentMethod',
-        'coupon_offer_code' => '\Swagger\Client\Model\CouponOfferCode',
+        'fixed_and_variable_click_info' => '\EffetB\BeezupApi\Model\FixedAndVariableClickModelInfo',
+        'variable_model_info' => '\EffetB\BeezupApi\Model\VariableModelInfo',
+        'payment_method_authorized' => '\EffetB\BeezupApi\Model\PaymentMethod',
+        'coupon_offer_code' => '\EffetB\BeezupApi\Model\CouponOfferCode',
         'commercial_creator_user_id' => 'string',
         'min_billing_period_in_months' => 'int',
         'is_customer_wants_to_terminate_his_contract' => 'bool'
@@ -485,7 +485,7 @@ class ContractCommitmentInfo implements ModelInterface, ArrayAccess
     /**
      * Gets offer_id
      *
-     * @return \Swagger\Client\Model\OfferId
+     * @return \EffetB\BeezupApi\Model\OfferId
      */
     public function getOfferId()
     {
@@ -495,7 +495,7 @@ class ContractCommitmentInfo implements ModelInterface, ArrayAccess
     /**
      * Sets offer_id
      *
-     * @param \Swagger\Client\Model\OfferId $offer_id offer_id
+     * @param \EffetB\BeezupApi\Model\OfferId $offer_id offer_id
      *
      * @return $this
      */
@@ -629,7 +629,7 @@ class ContractCommitmentInfo implements ModelInterface, ArrayAccess
     /**
      * Gets requested_payment_method
      *
-     * @return \Swagger\Client\Model\PaymentMethod
+     * @return \EffetB\BeezupApi\Model\PaymentMethod
      */
     public function getRequestedPaymentMethod()
     {
@@ -639,7 +639,7 @@ class ContractCommitmentInfo implements ModelInterface, ArrayAccess
     /**
      * Sets requested_payment_method
      *
-     * @param \Swagger\Client\Model\PaymentMethod $requested_payment_method requested_payment_method
+     * @param \EffetB\BeezupApi\Model\PaymentMethod $requested_payment_method requested_payment_method
      *
      * @return $this
      */
@@ -653,7 +653,7 @@ class ContractCommitmentInfo implements ModelInterface, ArrayAccess
     /**
      * Gets current_customer_payment_method
      *
-     * @return \Swagger\Client\Model\PaymentMethod
+     * @return \EffetB\BeezupApi\Model\PaymentMethod
      */
     public function getCurrentCustomerPaymentMethod()
     {
@@ -663,7 +663,7 @@ class ContractCommitmentInfo implements ModelInterface, ArrayAccess
     /**
      * Sets current_customer_payment_method
      *
-     * @param \Swagger\Client\Model\PaymentMethod $current_customer_payment_method current_customer_payment_method
+     * @param \EffetB\BeezupApi\Model\PaymentMethod $current_customer_payment_method current_customer_payment_method
      *
      * @return $this
      */
@@ -725,7 +725,7 @@ class ContractCommitmentInfo implements ModelInterface, ArrayAccess
     /**
      * Gets fixed_and_variable_click_info
      *
-     * @return \Swagger\Client\Model\FixedAndVariableClickModelInfo
+     * @return \EffetB\BeezupApi\Model\FixedAndVariableClickModelInfo
      */
     public function getFixedAndVariableClickInfo()
     {
@@ -735,7 +735,7 @@ class ContractCommitmentInfo implements ModelInterface, ArrayAccess
     /**
      * Sets fixed_and_variable_click_info
      *
-     * @param \Swagger\Client\Model\FixedAndVariableClickModelInfo $fixed_and_variable_click_info fixed_and_variable_click_info
+     * @param \EffetB\BeezupApi\Model\FixedAndVariableClickModelInfo $fixed_and_variable_click_info fixed_and_variable_click_info
      *
      * @return $this
      */
@@ -749,7 +749,7 @@ class ContractCommitmentInfo implements ModelInterface, ArrayAccess
     /**
      * Gets variable_model_info
      *
-     * @return \Swagger\Client\Model\VariableModelInfo
+     * @return \EffetB\BeezupApi\Model\VariableModelInfo
      */
     public function getVariableModelInfo()
     {
@@ -759,7 +759,7 @@ class ContractCommitmentInfo implements ModelInterface, ArrayAccess
     /**
      * Sets variable_model_info
      *
-     * @param \Swagger\Client\Model\VariableModelInfo $variable_model_info variable_model_info
+     * @param \EffetB\BeezupApi\Model\VariableModelInfo $variable_model_info variable_model_info
      *
      * @return $this
      */
@@ -773,7 +773,7 @@ class ContractCommitmentInfo implements ModelInterface, ArrayAccess
     /**
      * Gets payment_method_authorized
      *
-     * @return \Swagger\Client\Model\PaymentMethod
+     * @return \EffetB\BeezupApi\Model\PaymentMethod
      */
     public function getPaymentMethodAuthorized()
     {
@@ -783,7 +783,7 @@ class ContractCommitmentInfo implements ModelInterface, ArrayAccess
     /**
      * Sets payment_method_authorized
      *
-     * @param \Swagger\Client\Model\PaymentMethod $payment_method_authorized payment_method_authorized
+     * @param \EffetB\BeezupApi\Model\PaymentMethod $payment_method_authorized payment_method_authorized
      *
      * @return $this
      */
@@ -797,7 +797,7 @@ class ContractCommitmentInfo implements ModelInterface, ArrayAccess
     /**
      * Gets coupon_offer_code
      *
-     * @return \Swagger\Client\Model\CouponOfferCode
+     * @return \EffetB\BeezupApi\Model\CouponOfferCode
      */
     public function getCouponOfferCode()
     {
@@ -807,7 +807,7 @@ class ContractCommitmentInfo implements ModelInterface, ArrayAccess
     /**
      * Sets coupon_offer_code
      *
-     * @param \Swagger\Client\Model\CouponOfferCode $coupon_offer_code coupon_offer_code
+     * @param \EffetB\BeezupApi\Model\CouponOfferCode $coupon_offer_code coupon_offer_code
      *
      * @return $this
      */

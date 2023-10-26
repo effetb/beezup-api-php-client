@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * OfferLinks Class Doc Comment
  *
  * @category Class
  * @description The different actions you can make on this offer
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,7 +58,7 @@ class OfferLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'create_contract' => '\Swagger\Client\Model\LinksCreateContractLink'
+        'create_contract' => '\EffetB\BeezupApi\Model\LinksCreateContractLink'
     ];
 
     /**
@@ -209,7 +209,7 @@ class OfferLinks implements ModelInterface, ArrayAccess
     /**
      * Gets create_contract
      *
-     * @return \Swagger\Client\Model\LinksCreateContractLink
+     * @return \EffetB\BeezupApi\Model\LinksCreateContractLink
      */
     public function getCreateContract()
     {
@@ -219,7 +219,7 @@ class OfferLinks implements ModelInterface, ArrayAccess
     /**
      * Sets create_contract
      *
-     * @param \Swagger\Client\Model\LinksCreateContractLink $create_contract create_contract
+     * @param \EffetB\BeezupApi\Model\LinksCreateContractLink $create_contract create_contract
      *
      * @return $this
      */

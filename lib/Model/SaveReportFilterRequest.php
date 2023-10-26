@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * SaveReportFilterRequest Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,7 +58,7 @@ class SaveReportFilterRequest implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'report_filter_name' => 'string',
-        'parameters' => '\Swagger\Client\Model\ReportFilterParameters'
+        'parameters' => '\EffetB\BeezupApi\Model\ReportFilterParameters'
     ];
 
     /**
@@ -250,7 +250,7 @@ class SaveReportFilterRequest implements ModelInterface, ArrayAccess
     /**
      * Gets parameters
      *
-     * @return \Swagger\Client\Model\ReportFilterParameters
+     * @return \EffetB\BeezupApi\Model\ReportFilterParameters
      */
     public function getParameters()
     {
@@ -260,7 +260,7 @@ class SaveReportFilterRequest implements ModelInterface, ArrayAccess
     /**
      * Sets parameters
      *
-     * @param \Swagger\Client\Model\ReportFilterParameters $parameters parameters
+     * @param \EffetB\BeezupApi\Model\ReportFilterParameters $parameters parameters
      *
      * @return $this
      */

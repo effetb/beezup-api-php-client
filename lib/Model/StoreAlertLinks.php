@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * StoreAlertLinks Class Doc Comment
  *
  * @category Class
  * @description The different actions you can make on this alert
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,7 +58,7 @@ class StoreAlertLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'save' => '\Swagger\Client\Model\LinksSaveStoreAlertsLink'
+        'save' => '\EffetB\BeezupApi\Model\LinksSaveStoreAlertsLink'
     ];
 
     /**
@@ -209,7 +209,7 @@ class StoreAlertLinks implements ModelInterface, ArrayAccess
     /**
      * Gets save
      *
-     * @return \Swagger\Client\Model\LinksSaveStoreAlertsLink
+     * @return \EffetB\BeezupApi\Model\LinksSaveStoreAlertsLink
      */
     public function getSave()
     {
@@ -219,7 +219,7 @@ class StoreAlertLinks implements ModelInterface, ArrayAccess
     /**
      * Sets save
      *
-     * @param \Swagger\Client\Model\LinksSaveStoreAlertsLink $save save
+     * @param \EffetB\BeezupApi\Model\LinksSaveStoreAlertsLink $save save
      *
      * @return $this
      */

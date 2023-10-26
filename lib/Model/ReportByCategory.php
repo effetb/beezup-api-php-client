@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ReportByCategory Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class ReportByCategory implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'catalog_category_id' => '\Swagger\Client\Model\BeezUPCommonCatalogCategoryId',
-        'catalog_category_path' => '\Swagger\Client\Model\BeezUPCommonCatalogCategoryPath',
+        'catalog_category_id' => '\EffetB\BeezupApi\Model\BeezUPCommonCatalogCategoryId',
+        'catalog_category_path' => '\EffetB\BeezupApi\Model\BeezUPCommonCatalogCategoryPath',
         'all_product_count' => 'int',
         'catalog_product_count' => 'int',
         'enabled_product_count' => 'int',
@@ -70,7 +70,7 @@ class ReportByCategory implements ModelInterface, ArrayAccess
         'performance_indicator' => 'float',
         'total_sales' => 'float',
         'sold_product_count' => 'int',
-        'links' => '\Swagger\Client\Model\ReportByCategoryLinks'
+        'links' => '\EffetB\BeezupApi\Model\ReportByCategoryLinks'
     ];
 
     /**
@@ -352,7 +352,7 @@ class ReportByCategory implements ModelInterface, ArrayAccess
     /**
      * Gets catalog_category_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonCatalogCategoryId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonCatalogCategoryId
      */
     public function getCatalogCategoryId()
     {
@@ -362,7 +362,7 @@ class ReportByCategory implements ModelInterface, ArrayAccess
     /**
      * Sets catalog_category_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonCatalogCategoryId $catalog_category_id catalog_category_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonCatalogCategoryId $catalog_category_id catalog_category_id
      *
      * @return $this
      */
@@ -376,7 +376,7 @@ class ReportByCategory implements ModelInterface, ArrayAccess
     /**
      * Gets catalog_category_path
      *
-     * @return \Swagger\Client\Model\BeezUPCommonCatalogCategoryPath
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonCatalogCategoryPath
      */
     public function getCatalogCategoryPath()
     {
@@ -386,7 +386,7 @@ class ReportByCategory implements ModelInterface, ArrayAccess
     /**
      * Sets catalog_category_path
      *
-     * @param \Swagger\Client\Model\BeezUPCommonCatalogCategoryPath $catalog_category_path catalog_category_path
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonCatalogCategoryPath $catalog_category_path catalog_category_path
      *
      * @return $this
      */
@@ -664,7 +664,7 @@ class ReportByCategory implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ReportByCategoryLinks
+     * @return \EffetB\BeezupApi\Model\ReportByCategoryLinks
      */
     public function getLinks()
     {
@@ -674,7 +674,7 @@ class ReportByCategory implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ReportByCategoryLinks $links links
+     * @param \EffetB\BeezupApi\Model\ReportByCategoryLinks $links links
      *
      * @return $this
      */

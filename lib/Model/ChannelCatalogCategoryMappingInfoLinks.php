@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelCatalogCategoryMappingInfoLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class ChannelCatalogCategoryMappingInfoLinks implements ModelInterface, ArrayAcc
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'configure_categories' => '\Swagger\Client\Model\LinksConfigureChannelCatalogCategoryLink'
+        'configure_categories' => '\EffetB\BeezupApi\Model\LinksConfigureChannelCatalogCategoryLink'
     ];
 
     /**
@@ -208,7 +208,7 @@ class ChannelCatalogCategoryMappingInfoLinks implements ModelInterface, ArrayAcc
     /**
      * Gets configure_categories
      *
-     * @return \Swagger\Client\Model\LinksConfigureChannelCatalogCategoryLink
+     * @return \EffetB\BeezupApi\Model\LinksConfigureChannelCatalogCategoryLink
      */
     public function getConfigureCategories()
     {
@@ -218,7 +218,7 @@ class ChannelCatalogCategoryMappingInfoLinks implements ModelInterface, ArrayAcc
     /**
      * Sets configure_categories
      *
-     * @param \Swagger\Client\Model\LinksConfigureChannelCatalogCategoryLink $configure_categories configure_categories
+     * @param \EffetB\BeezupApi\Model\LinksConfigureChannelCatalogCategoryLink $configure_categories configure_categories
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelHeaderLinks Class Doc Comment
  *
  * @category Class
  * @description The links related to an available channel
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,7 +58,7 @@ class ChannelHeaderLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksGetChannelInfoLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksGetChannelInfoLink'
     ];
 
     /**
@@ -209,7 +209,7 @@ class ChannelHeaderLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksGetChannelInfoLink
+     * @return \EffetB\BeezupApi\Model\LinksGetChannelInfoLink
      */
     public function getSelf()
     {
@@ -219,7 +219,7 @@ class ChannelHeaderLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksGetChannelInfoLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksGetChannelInfoLink $self self
      *
      * @return $this
      */

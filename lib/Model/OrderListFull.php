@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * OrderListFull Class Doc Comment
  *
  * @category Class
  * @description The order list with all information we have from the orders and its items.\\ The paginationResult properties can be null if the list is empty.
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,9 +58,9 @@ class OrderListFull implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'pagination_result' => '\Swagger\Client\Model\BeezUPCommonPaginationResult',
-        'orders' => '\Swagger\Client\Model\Order[]',
-        'links' => '\Swagger\Client\Model\OrderListFullLinks'
+        'pagination_result' => '\EffetB\BeezupApi\Model\BeezUPCommonPaginationResult',
+        'orders' => '\EffetB\BeezupApi\Model\Order[]',
+        'links' => '\EffetB\BeezupApi\Model\OrderListFullLinks'
     ];
 
     /**
@@ -233,7 +233,7 @@ class OrderListFull implements ModelInterface, ArrayAccess
     /**
      * Gets pagination_result
      *
-     * @return \Swagger\Client\Model\BeezUPCommonPaginationResult
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonPaginationResult
      */
     public function getPaginationResult()
     {
@@ -243,7 +243,7 @@ class OrderListFull implements ModelInterface, ArrayAccess
     /**
      * Sets pagination_result
      *
-     * @param \Swagger\Client\Model\BeezUPCommonPaginationResult $pagination_result pagination_result
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonPaginationResult $pagination_result pagination_result
      *
      * @return $this
      */
@@ -257,7 +257,7 @@ class OrderListFull implements ModelInterface, ArrayAccess
     /**
      * Gets orders
      *
-     * @return \Swagger\Client\Model\Order[]
+     * @return \EffetB\BeezupApi\Model\Order[]
      */
     public function getOrders()
     {
@@ -267,7 +267,7 @@ class OrderListFull implements ModelInterface, ArrayAccess
     /**
      * Sets orders
      *
-     * @param \Swagger\Client\Model\Order[] $orders orders
+     * @param \EffetB\BeezupApi\Model\Order[] $orders orders
      *
      * @return $this
      */
@@ -281,7 +281,7 @@ class OrderListFull implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\OrderListFullLinks
+     * @return \EffetB\BeezupApi\Model\OrderListFullLinks
      */
     public function getLinks()
     {
@@ -291,7 +291,7 @@ class OrderListFull implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\OrderListFullLinks $links links
+     * @param \EffetB\BeezupApi\Model\OrderListFullLinks $links links
      *
      * @return $this
      */

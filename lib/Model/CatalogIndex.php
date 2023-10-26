@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CatalogIndex Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,9 +57,9 @@ class CatalogIndex implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\CatalogIndexLinks',
-        'lov_links' => '\Swagger\Client\Model\CatalogIndexLOVLinks',
-        'store_links' => '\Swagger\Client\Model\CatalogStoreIndexList'
+        'links' => '\EffetB\BeezupApi\Model\CatalogIndexLinks',
+        'lov_links' => '\EffetB\BeezupApi\Model\CatalogIndexLOVLinks',
+        'store_links' => '\EffetB\BeezupApi\Model\CatalogStoreIndexList'
     ];
 
     /**
@@ -232,7 +232,7 @@ class CatalogIndex implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\CatalogIndexLinks
+     * @return \EffetB\BeezupApi\Model\CatalogIndexLinks
      */
     public function getLinks()
     {
@@ -242,7 +242,7 @@ class CatalogIndex implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\CatalogIndexLinks $links links
+     * @param \EffetB\BeezupApi\Model\CatalogIndexLinks $links links
      *
      * @return $this
      */
@@ -256,7 +256,7 @@ class CatalogIndex implements ModelInterface, ArrayAccess
     /**
      * Gets lov_links
      *
-     * @return \Swagger\Client\Model\CatalogIndexLOVLinks
+     * @return \EffetB\BeezupApi\Model\CatalogIndexLOVLinks
      */
     public function getLovLinks()
     {
@@ -266,7 +266,7 @@ class CatalogIndex implements ModelInterface, ArrayAccess
     /**
      * Sets lov_links
      *
-     * @param \Swagger\Client\Model\CatalogIndexLOVLinks $lov_links lov_links
+     * @param \EffetB\BeezupApi\Model\CatalogIndexLOVLinks $lov_links lov_links
      *
      * @return $this
      */
@@ -280,7 +280,7 @@ class CatalogIndex implements ModelInterface, ArrayAccess
     /**
      * Gets store_links
      *
-     * @return \Swagger\Client\Model\CatalogStoreIndexList
+     * @return \EffetB\BeezupApi\Model\CatalogStoreIndexList
      */
     public function getStoreLinks()
     {
@@ -290,7 +290,7 @@ class CatalogIndex implements ModelInterface, ArrayAccess
     /**
      * Sets store_links
      *
-     * @param \Swagger\Client\Model\CatalogStoreIndexList $store_links store_links
+     * @param \EffetB\BeezupApi\Model\CatalogStoreIndexList $store_links store_links
      *
      * @return $this
      */

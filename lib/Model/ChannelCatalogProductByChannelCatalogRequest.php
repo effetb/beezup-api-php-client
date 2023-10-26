@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelCatalogProductByChannelCatalogRequest Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,9 +57,9 @@ class ChannelCatalogProductByChannelCatalogRequest implements ModelInterface, Ar
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'store_id' => '\Swagger\Client\Model\BeezUPCommonStoreId',
-        'product_id' => '\Swagger\Client\Model\BeezUPCommonProductId',
-        'channel_catalog_ids' => '\Swagger\Client\Model\BeezUPCommonChannelCatalogId[]'
+        'store_id' => '\EffetB\BeezupApi\Model\BeezUPCommonStoreId',
+        'product_id' => '\EffetB\BeezupApi\Model\BeezUPCommonProductId',
+        'channel_catalog_ids' => '\EffetB\BeezupApi\Model\BeezUPCommonChannelCatalogId[]'
     ];
 
     /**
@@ -238,7 +238,7 @@ class ChannelCatalogProductByChannelCatalogRequest implements ModelInterface, Ar
     /**
      * Gets store_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonStoreId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonStoreId
      */
     public function getStoreId()
     {
@@ -248,7 +248,7 @@ class ChannelCatalogProductByChannelCatalogRequest implements ModelInterface, Ar
     /**
      * Sets store_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonStoreId $store_id store_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonStoreId $store_id store_id
      *
      * @return $this
      */
@@ -262,7 +262,7 @@ class ChannelCatalogProductByChannelCatalogRequest implements ModelInterface, Ar
     /**
      * Gets product_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonProductId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonProductId
      */
     public function getProductId()
     {
@@ -272,7 +272,7 @@ class ChannelCatalogProductByChannelCatalogRequest implements ModelInterface, Ar
     /**
      * Sets product_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonProductId $product_id product_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonProductId $product_id product_id
      *
      * @return $this
      */
@@ -286,7 +286,7 @@ class ChannelCatalogProductByChannelCatalogRequest implements ModelInterface, Ar
     /**
      * Gets channel_catalog_ids
      *
-     * @return \Swagger\Client\Model\BeezUPCommonChannelCatalogId[]
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonChannelCatalogId[]
      */
     public function getChannelCatalogIds()
     {
@@ -296,7 +296,7 @@ class ChannelCatalogProductByChannelCatalogRequest implements ModelInterface, Ar
     /**
      * Sets channel_catalog_ids
      *
-     * @param \Swagger\Client\Model\BeezUPCommonChannelCatalogId[] $channel_catalog_ids The list of channel catalog identifier
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonChannelCatalogId[] $channel_catalog_ids The list of channel catalog identifier
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * StoreList Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class StoreList implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\StoreListLinks',
-        'stores' => '\Swagger\Client\Model\Store[]'
+        'links' => '\EffetB\BeezupApi\Model\StoreListLinks',
+        'stores' => '\EffetB\BeezupApi\Model\Store[]'
     ];
 
     /**
@@ -226,7 +226,7 @@ class StoreList implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\StoreListLinks
+     * @return \EffetB\BeezupApi\Model\StoreListLinks
      */
     public function getLinks()
     {
@@ -236,7 +236,7 @@ class StoreList implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\StoreListLinks $links links
+     * @param \EffetB\BeezupApi\Model\StoreListLinks $links links
      *
      * @return $this
      */
@@ -250,7 +250,7 @@ class StoreList implements ModelInterface, ArrayAccess
     /**
      * Gets stores
      *
-     * @return \Swagger\Client\Model\Store[]
+     * @return \EffetB\BeezupApi\Model\Store[]
      */
     public function getStores()
     {
@@ -260,7 +260,7 @@ class StoreList implements ModelInterface, ArrayAccess
     /**
      * Sets stores
      *
-     * @param \Swagger\Client\Model\Store[] $stores stores
+     * @param \EffetB\BeezupApi\Model\Store[] $stores stores
      *
      * @return $this
      */

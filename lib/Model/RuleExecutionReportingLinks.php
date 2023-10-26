@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * RuleExecutionReportingLinks Class Doc Comment
  *
  * @category Class
  * @description Links to retrieve/action on this rule execution
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,7 +58,7 @@ class RuleExecutionReportingLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'rule' => '\Swagger\Client\Model\LinksGetRuleLink'
+        'rule' => '\EffetB\BeezupApi\Model\LinksGetRuleLink'
     ];
 
     /**
@@ -209,7 +209,7 @@ class RuleExecutionReportingLinks implements ModelInterface, ArrayAccess
     /**
      * Gets rule
      *
-     * @return \Swagger\Client\Model\LinksGetRuleLink
+     * @return \EffetB\BeezupApi\Model\LinksGetRuleLink
      */
     public function getRule()
     {
@@ -219,7 +219,7 @@ class RuleExecutionReportingLinks implements ModelInterface, ArrayAccess
     /**
      * Sets rule
      *
-     * @param \Swagger\Client\Model\LinksGetRuleLink $rule rule
+     * @param \EffetB\BeezupApi\Model\LinksGetRuleLink $rule rule
      *
      * @return $this
      */

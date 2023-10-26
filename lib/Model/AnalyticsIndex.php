@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * AnalyticsIndex Class Doc Comment
  *
  * @category Class
  * @description The Analytics API operation index.
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,9 +58,9 @@ class AnalyticsIndex implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'stores' => '\Swagger\Client\Model\AnalyticsStoreIndex[]',
-        'links' => '\Swagger\Client\Model\AnalyticsIndexLinks',
-        'lov_links' => '\Swagger\Client\Model\AnalyticsIndexLovLinks'
+        'stores' => '\EffetB\BeezupApi\Model\AnalyticsStoreIndex[]',
+        'links' => '\EffetB\BeezupApi\Model\AnalyticsIndexLinks',
+        'lov_links' => '\EffetB\BeezupApi\Model\AnalyticsIndexLovLinks'
     ];
 
     /**
@@ -233,7 +233,7 @@ class AnalyticsIndex implements ModelInterface, ArrayAccess
     /**
      * Gets stores
      *
-     * @return \Swagger\Client\Model\AnalyticsStoreIndex[]
+     * @return \EffetB\BeezupApi\Model\AnalyticsStoreIndex[]
      */
     public function getStores()
     {
@@ -243,7 +243,7 @@ class AnalyticsIndex implements ModelInterface, ArrayAccess
     /**
      * Sets stores
      *
-     * @param \Swagger\Client\Model\AnalyticsStoreIndex[] $stores stores
+     * @param \EffetB\BeezupApi\Model\AnalyticsStoreIndex[] $stores stores
      *
      * @return $this
      */
@@ -257,7 +257,7 @@ class AnalyticsIndex implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\AnalyticsIndexLinks
+     * @return \EffetB\BeezupApi\Model\AnalyticsIndexLinks
      */
     public function getLinks()
     {
@@ -267,7 +267,7 @@ class AnalyticsIndex implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\AnalyticsIndexLinks $links links
+     * @param \EffetB\BeezupApi\Model\AnalyticsIndexLinks $links links
      *
      * @return $this
      */
@@ -281,7 +281,7 @@ class AnalyticsIndex implements ModelInterface, ArrayAccess
     /**
      * Gets lov_links
      *
-     * @return \Swagger\Client\Model\AnalyticsIndexLovLinks
+     * @return \EffetB\BeezupApi\Model\AnalyticsIndexLovLinks
      */
     public function getLovLinks()
     {
@@ -291,7 +291,7 @@ class AnalyticsIndex implements ModelInterface, ArrayAccess
     /**
      * Sets lov_links
      *
-     * @param \Swagger\Client\Model\AnalyticsIndexLovLinks $lov_links lov_links
+     * @param \EffetB\BeezupApi\Model\AnalyticsIndexLovLinks $lov_links lov_links
      *
      * @return $this
      */

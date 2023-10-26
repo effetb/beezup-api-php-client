@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * InputFileConfiguration Class Doc Comment
  *
  * @category Class
  * @description Describe how to get and read a file
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,8 +59,8 @@ class InputFileConfiguration implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'file_number' => 'int',
-        'fetch' => '\Swagger\Client\Model\InputFileFetchConfiguration',
-        'read' => '\Swagger\Client\Model\InputFileReadConfiguration'
+        'fetch' => '\EffetB\BeezupApi\Model\InputFileFetchConfiguration',
+        'read' => '\EffetB\BeezupApi\Model\InputFileReadConfiguration'
     ];
 
     /**
@@ -275,7 +275,7 @@ class InputFileConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets fetch
      *
-     * @return \Swagger\Client\Model\InputFileFetchConfiguration
+     * @return \EffetB\BeezupApi\Model\InputFileFetchConfiguration
      */
     public function getFetch()
     {
@@ -285,7 +285,7 @@ class InputFileConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets fetch
      *
-     * @param \Swagger\Client\Model\InputFileFetchConfiguration $fetch fetch
+     * @param \EffetB\BeezupApi\Model\InputFileFetchConfiguration $fetch fetch
      *
      * @return $this
      */
@@ -299,7 +299,7 @@ class InputFileConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets read
      *
-     * @return \Swagger\Client\Model\InputFileReadConfiguration
+     * @return \EffetB\BeezupApi\Model\InputFileReadConfiguration
      */
     public function getRead()
     {
@@ -309,7 +309,7 @@ class InputFileConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets read
      *
-     * @param \Swagger\Client\Model\InputFileReadConfiguration $read read
+     * @param \EffetB\BeezupApi\Model\InputFileReadConfiguration $read read
      *
      * @return $this
      */

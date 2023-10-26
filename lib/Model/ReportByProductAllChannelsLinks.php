@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ReportByProductAllChannelsLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class ReportByProductAllChannelsLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'enable_product_for_all_channels' => '\Swagger\Client\Model\LinksOptimiseByProductLink',
-        'disable_product_for_all_channels' => '\Swagger\Client\Model\LinksOptimiseByProductLink'
+        'enable_product_for_all_channels' => '\EffetB\BeezupApi\Model\LinksOptimiseByProductLink',
+        'disable_product_for_all_channels' => '\EffetB\BeezupApi\Model\LinksOptimiseByProductLink'
     ];
 
     /**
@@ -226,7 +226,7 @@ class ReportByProductAllChannelsLinks implements ModelInterface, ArrayAccess
     /**
      * Gets enable_product_for_all_channels
      *
-     * @return \Swagger\Client\Model\LinksOptimiseByProductLink
+     * @return \EffetB\BeezupApi\Model\LinksOptimiseByProductLink
      */
     public function getEnableProductForAllChannels()
     {
@@ -236,7 +236,7 @@ class ReportByProductAllChannelsLinks implements ModelInterface, ArrayAccess
     /**
      * Sets enable_product_for_all_channels
      *
-     * @param \Swagger\Client\Model\LinksOptimiseByProductLink $enable_product_for_all_channels enable_product_for_all_channels
+     * @param \EffetB\BeezupApi\Model\LinksOptimiseByProductLink $enable_product_for_all_channels enable_product_for_all_channels
      *
      * @return $this
      */
@@ -250,7 +250,7 @@ class ReportByProductAllChannelsLinks implements ModelInterface, ArrayAccess
     /**
      * Gets disable_product_for_all_channels
      *
-     * @return \Swagger\Client\Model\LinksOptimiseByProductLink
+     * @return \EffetB\BeezupApi\Model\LinksOptimiseByProductLink
      */
     public function getDisableProductForAllChannels()
     {
@@ -260,7 +260,7 @@ class ReportByProductAllChannelsLinks implements ModelInterface, ArrayAccess
     /**
      * Sets disable_product_for_all_channels
      *
-     * @param \Swagger\Client\Model\LinksOptimiseByProductLink $disable_product_for_all_channels disable_product_for_all_channels
+     * @param \EffetB\BeezupApi\Model\LinksOptimiseByProductLink $disable_product_for_all_channels disable_product_for_all_channels
      *
      * @return $this
      */

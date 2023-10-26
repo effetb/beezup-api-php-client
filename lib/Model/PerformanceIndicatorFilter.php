@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * PerformanceIndicatorFilter Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class PerformanceIndicatorFilter implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'performance_indicator' => '\Swagger\Client\Model\PerformanceIndicatorType',
-        'operator_name' => '\Swagger\Client\Model\PerformanceIndicatorFilterOperatorName',
+        'performance_indicator' => '\EffetB\BeezupApi\Model\PerformanceIndicatorType',
+        'operator_name' => '\EffetB\BeezupApi\Model\PerformanceIndicatorFilterOperatorName',
         'value' => 'float'
     ];
 
@@ -238,7 +238,7 @@ class PerformanceIndicatorFilter implements ModelInterface, ArrayAccess
     /**
      * Gets performance_indicator
      *
-     * @return \Swagger\Client\Model\PerformanceIndicatorType
+     * @return \EffetB\BeezupApi\Model\PerformanceIndicatorType
      */
     public function getPerformanceIndicator()
     {
@@ -248,7 +248,7 @@ class PerformanceIndicatorFilter implements ModelInterface, ArrayAccess
     /**
      * Sets performance_indicator
      *
-     * @param \Swagger\Client\Model\PerformanceIndicatorType $performance_indicator performance_indicator
+     * @param \EffetB\BeezupApi\Model\PerformanceIndicatorType $performance_indicator performance_indicator
      *
      * @return $this
      */
@@ -262,7 +262,7 @@ class PerformanceIndicatorFilter implements ModelInterface, ArrayAccess
     /**
      * Gets operator_name
      *
-     * @return \Swagger\Client\Model\PerformanceIndicatorFilterOperatorName
+     * @return \EffetB\BeezupApi\Model\PerformanceIndicatorFilterOperatorName
      */
     public function getOperatorName()
     {
@@ -272,7 +272,7 @@ class PerformanceIndicatorFilter implements ModelInterface, ArrayAccess
     /**
      * Sets operator_name
      *
-     * @param \Swagger\Client\Model\PerformanceIndicatorFilterOperatorName $operator_name operator_name
+     * @param \EffetB\BeezupApi\Model\PerformanceIndicatorFilterOperatorName $operator_name operator_name
      *
      * @return $this
      */

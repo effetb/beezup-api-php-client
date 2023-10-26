@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * RuleListLinks Class Doc Comment
  *
  * @category Class
  * @description Links to know if the user can create a rule or run all rules
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,10 +58,10 @@ class RuleListLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksGetRulesLink',
-        'create' => '\Swagger\Client\Model\LinksCreateRuleLink',
-        'history' => '\Swagger\Client\Model\LinksGetRulesExecutionsLink',
-        'run' => '\Swagger\Client\Model\LinksRunRulesLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksGetRulesLink',
+        'create' => '\EffetB\BeezupApi\Model\LinksCreateRuleLink',
+        'history' => '\EffetB\BeezupApi\Model\LinksGetRulesExecutionsLink',
+        'run' => '\EffetB\BeezupApi\Model\LinksRunRulesLink'
     ];
 
     /**
@@ -251,7 +251,7 @@ class RuleListLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksGetRulesLink
+     * @return \EffetB\BeezupApi\Model\LinksGetRulesLink
      */
     public function getSelf()
     {
@@ -261,7 +261,7 @@ class RuleListLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksGetRulesLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksGetRulesLink $self self
      *
      * @return $this
      */
@@ -275,7 +275,7 @@ class RuleListLinks implements ModelInterface, ArrayAccess
     /**
      * Gets create
      *
-     * @return \Swagger\Client\Model\LinksCreateRuleLink
+     * @return \EffetB\BeezupApi\Model\LinksCreateRuleLink
      */
     public function getCreate()
     {
@@ -285,7 +285,7 @@ class RuleListLinks implements ModelInterface, ArrayAccess
     /**
      * Sets create
      *
-     * @param \Swagger\Client\Model\LinksCreateRuleLink $create create
+     * @param \EffetB\BeezupApi\Model\LinksCreateRuleLink $create create
      *
      * @return $this
      */
@@ -299,7 +299,7 @@ class RuleListLinks implements ModelInterface, ArrayAccess
     /**
      * Gets history
      *
-     * @return \Swagger\Client\Model\LinksGetRulesExecutionsLink
+     * @return \EffetB\BeezupApi\Model\LinksGetRulesExecutionsLink
      */
     public function getHistory()
     {
@@ -309,7 +309,7 @@ class RuleListLinks implements ModelInterface, ArrayAccess
     /**
      * Sets history
      *
-     * @param \Swagger\Client\Model\LinksGetRulesExecutionsLink $history history
+     * @param \EffetB\BeezupApi\Model\LinksGetRulesExecutionsLink $history history
      *
      * @return $this
      */
@@ -323,7 +323,7 @@ class RuleListLinks implements ModelInterface, ArrayAccess
     /**
      * Gets run
      *
-     * @return \Swagger\Client\Model\LinksRunRulesLink
+     * @return \EffetB\BeezupApi\Model\LinksRunRulesLink
      */
     public function getRun()
     {
@@ -333,7 +333,7 @@ class RuleListLinks implements ModelInterface, ArrayAccess
     /**
      * Sets run
      *
-     * @param \Swagger\Client\Model\LinksRunRulesLink $run run
+     * @param \EffetB\BeezupApi\Model\LinksRunRulesLink $run run
      *
      * @return $this
      */

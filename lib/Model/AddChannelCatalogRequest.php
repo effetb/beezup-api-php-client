@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * AddChannelCatalogRequest Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class AddChannelCatalogRequest implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'channel_id' => '\Swagger\Client\Model\BeezUPCommonChannelId',
-        'store_id' => '\Swagger\Client\Model\BeezUPCommonStoreId'
+        'channel_id' => '\EffetB\BeezupApi\Model\BeezUPCommonChannelId',
+        'store_id' => '\EffetB\BeezupApi\Model\BeezUPCommonStoreId'
     ];
 
     /**
@@ -226,7 +226,7 @@ class AddChannelCatalogRequest implements ModelInterface, ArrayAccess
     /**
      * Gets channel_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonChannelId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonChannelId
      */
     public function getChannelId()
     {
@@ -236,7 +236,7 @@ class AddChannelCatalogRequest implements ModelInterface, ArrayAccess
     /**
      * Sets channel_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonChannelId $channel_id channel_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonChannelId $channel_id channel_id
      *
      * @return $this
      */
@@ -250,7 +250,7 @@ class AddChannelCatalogRequest implements ModelInterface, ArrayAccess
     /**
      * Gets store_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonStoreId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonStoreId
      */
     public function getStoreId()
     {
@@ -260,7 +260,7 @@ class AddChannelCatalogRequest implements ModelInterface, ArrayAccess
     /**
      * Sets store_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonStoreId $store_id store_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonStoreId $store_id store_id
      *
      * @return $this
      */

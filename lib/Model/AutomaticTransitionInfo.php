@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * AutomaticTransitionInfo Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,14 +57,14 @@ class AutomaticTransitionInfo implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'marketplace_technical_code' => '\Swagger\Client\Model\BeezUPCommonMarketplaceTechnicalCode',
-        'account_id' => '\Swagger\Client\Model\AccountId',
+        'marketplace_technical_code' => '\EffetB\BeezupApi\Model\BeezUPCommonMarketplaceTechnicalCode',
+        'account_id' => '\EffetB\BeezupApi\Model\AccountId',
         'order_status_transition_id' => 'int',
         'enabled' => 'bool',
-        'marketplace_business_code' => '\Swagger\Client\Model\BeezUPCommonMarketplaceBusinessCode',
-        'beez_up_order_status' => '\Swagger\Client\Model\BeezUPOrderStatus',
-        'business_operation_type' => '\Swagger\Client\Model\BusinessOperationType',
-        'links' => '\Swagger\Client\Model\AutomaticTransitionInfoLinks'
+        'marketplace_business_code' => '\EffetB\BeezupApi\Model\BeezUPCommonMarketplaceBusinessCode',
+        'beez_up_order_status' => '\EffetB\BeezupApi\Model\BeezUPOrderStatus',
+        'business_operation_type' => '\EffetB\BeezupApi\Model\BusinessOperationType',
+        'links' => '\EffetB\BeezupApi\Model\AutomaticTransitionInfoLinks'
     ];
 
     /**
@@ -292,7 +292,7 @@ class AutomaticTransitionInfo implements ModelInterface, ArrayAccess
     /**
      * Gets marketplace_technical_code
      *
-     * @return \Swagger\Client\Model\BeezUPCommonMarketplaceTechnicalCode
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonMarketplaceTechnicalCode
      */
     public function getMarketplaceTechnicalCode()
     {
@@ -302,7 +302,7 @@ class AutomaticTransitionInfo implements ModelInterface, ArrayAccess
     /**
      * Sets marketplace_technical_code
      *
-     * @param \Swagger\Client\Model\BeezUPCommonMarketplaceTechnicalCode $marketplace_technical_code marketplace_technical_code
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonMarketplaceTechnicalCode $marketplace_technical_code marketplace_technical_code
      *
      * @return $this
      */
@@ -316,7 +316,7 @@ class AutomaticTransitionInfo implements ModelInterface, ArrayAccess
     /**
      * Gets account_id
      *
-     * @return \Swagger\Client\Model\AccountId
+     * @return \EffetB\BeezupApi\Model\AccountId
      */
     public function getAccountId()
     {
@@ -326,7 +326,7 @@ class AutomaticTransitionInfo implements ModelInterface, ArrayAccess
     /**
      * Sets account_id
      *
-     * @param \Swagger\Client\Model\AccountId $account_id account_id
+     * @param \EffetB\BeezupApi\Model\AccountId $account_id account_id
      *
      * @return $this
      */
@@ -388,7 +388,7 @@ class AutomaticTransitionInfo implements ModelInterface, ArrayAccess
     /**
      * Gets marketplace_business_code
      *
-     * @return \Swagger\Client\Model\BeezUPCommonMarketplaceBusinessCode
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonMarketplaceBusinessCode
      */
     public function getMarketplaceBusinessCode()
     {
@@ -398,7 +398,7 @@ class AutomaticTransitionInfo implements ModelInterface, ArrayAccess
     /**
      * Sets marketplace_business_code
      *
-     * @param \Swagger\Client\Model\BeezUPCommonMarketplaceBusinessCode $marketplace_business_code marketplace_business_code
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonMarketplaceBusinessCode $marketplace_business_code marketplace_business_code
      *
      * @return $this
      */
@@ -412,7 +412,7 @@ class AutomaticTransitionInfo implements ModelInterface, ArrayAccess
     /**
      * Gets beez_up_order_status
      *
-     * @return \Swagger\Client\Model\BeezUPOrderStatus
+     * @return \EffetB\BeezupApi\Model\BeezUPOrderStatus
      */
     public function getBeezUpOrderStatus()
     {
@@ -422,7 +422,7 @@ class AutomaticTransitionInfo implements ModelInterface, ArrayAccess
     /**
      * Sets beez_up_order_status
      *
-     * @param \Swagger\Client\Model\BeezUPOrderStatus $beez_up_order_status beez_up_order_status
+     * @param \EffetB\BeezupApi\Model\BeezUPOrderStatus $beez_up_order_status beez_up_order_status
      *
      * @return $this
      */
@@ -436,7 +436,7 @@ class AutomaticTransitionInfo implements ModelInterface, ArrayAccess
     /**
      * Gets business_operation_type
      *
-     * @return \Swagger\Client\Model\BusinessOperationType
+     * @return \EffetB\BeezupApi\Model\BusinessOperationType
      */
     public function getBusinessOperationType()
     {
@@ -446,7 +446,7 @@ class AutomaticTransitionInfo implements ModelInterface, ArrayAccess
     /**
      * Sets business_operation_type
      *
-     * @param \Swagger\Client\Model\BusinessOperationType $business_operation_type business_operation_type
+     * @param \EffetB\BeezupApi\Model\BusinessOperationType $business_operation_type business_operation_type
      *
      * @return $this
      */
@@ -460,7 +460,7 @@ class AutomaticTransitionInfo implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\AutomaticTransitionInfoLinks
+     * @return \EffetB\BeezupApi\Model\AutomaticTransitionInfoLinks
      */
     public function getLinks()
     {
@@ -470,7 +470,7 @@ class AutomaticTransitionInfo implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\AutomaticTransitionInfoLinks $links links
+     * @param \EffetB\BeezupApi\Model\AutomaticTransitionInfoLinks $links links
      *
      * @return $this
      */

@@ -3,10 +3,10 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**execution_uuid** | [**\Swagger\Client\Model\ExecutionUUID**](ExecutionUUID.md) |  | [optional] 
-**change_order_type** | [**\Swagger\Client\Model\BusinessOperationType**](BusinessOperationType.md) |  | [optional] 
-**source_type** | [**\Swagger\Client\Model\SourceType**](SourceType.md) |  | [optional] 
-**source_user_id** | [**\Swagger\Client\Model\BeezUPCommonUserId**](BeezUPCommonUserId.md) |  | [optional] 
+**execution_uuid** | [**\EffetB\BeezupApi\Model\ExecutionUUID**](ExecutionUUID.md) |  | [optional] 
+**change_order_type** | [**\EffetB\BeezupApi\Model\BusinessOperationType**](BusinessOperationType.md) |  | [optional] 
+**source_type** | [**\EffetB\BeezupApi\Model\SourceType**](SourceType.md) |  | [optional] 
+**source_user_id** | [**\EffetB\BeezupApi\Model\BeezUPCommonUserId**](BeezUPCommonUserId.md) |  | [optional] 
 **source_user_name** | **string** |  | [optional] 
 **creation_utc_date** | [**\DateTime**](\DateTime.md) | The creation UTC date of the execution | [optional] 
 **processing_status** | **string** | The processing status of the execution | [optional] 

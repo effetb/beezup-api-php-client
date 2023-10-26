@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * AnalyticsProductColumnFilter Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class AnalyticsProductColumnFilter implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'operator_name' => '\Swagger\Client\Model\AnalyticsProductColumnFilterOperatorName',
+        'operator_name' => '\EffetB\BeezupApi\Model\AnalyticsProductColumnFilterOperatorName',
         'values' => 'string[]'
     ];
 
@@ -220,7 +220,7 @@ class AnalyticsProductColumnFilter implements ModelInterface, ArrayAccess
     /**
      * Gets operator_name
      *
-     * @return \Swagger\Client\Model\AnalyticsProductColumnFilterOperatorName
+     * @return \EffetB\BeezupApi\Model\AnalyticsProductColumnFilterOperatorName
      */
     public function getOperatorName()
     {
@@ -230,7 +230,7 @@ class AnalyticsProductColumnFilter implements ModelInterface, ArrayAccess
     /**
      * Sets operator_name
      *
-     * @param \Swagger\Client\Model\AnalyticsProductColumnFilterOperatorName $operator_name operator_name
+     * @param \EffetB\BeezupApi\Model\AnalyticsProductColumnFilterOperatorName $operator_name operator_name
      *
      * @return $this
      */

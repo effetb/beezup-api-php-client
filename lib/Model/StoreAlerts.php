@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * StoreAlerts Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class StoreAlerts implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'alerts' => '\Swagger\Client\Model\StoreAlert[]'
+        'alerts' => '\EffetB\BeezupApi\Model\StoreAlert[]'
     ];
 
     /**
@@ -208,7 +208,7 @@ class StoreAlerts implements ModelInterface, ArrayAccess
     /**
      * Gets alerts
      *
-     * @return \Swagger\Client\Model\StoreAlert[]
+     * @return \EffetB\BeezupApi\Model\StoreAlert[]
      */
     public function getAlerts()
     {
@@ -218,7 +218,7 @@ class StoreAlerts implements ModelInterface, ArrayAccess
     /**
      * Sets alerts
      *
-     * @param \Swagger\Client\Model\StoreAlert[] $alerts alerts
+     * @param \EffetB\BeezupApi\Model\StoreAlert[] $alerts alerts
      *
      * @return $this
      */

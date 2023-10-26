@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ColumnConfiguration Class Doc Comment
  *
  * @category Class
  * @description Indicates the configuration applied on the column (catalog or custom) during the importation process.
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,13 +58,13 @@ class ColumnConfiguration implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'beez_up_column_name' => '\Swagger\Client\Model\BeezUPCommonBeezUPColumnName',
-        'column_importance' => '\Swagger\Client\Model\BeezUPCommonColumnImportance',
-        'column_data_type' => '\Swagger\Client\Model\BeezUPCommonColumnDataType',
-        'column_culture_name' => '\Swagger\Client\Model\ColumnCultureName',
-        'column_format' => '\Swagger\Client\Model\ColumnFormat',
-        'can_be_truncated' => '\Swagger\Client\Model\CanBeTruncated',
-        'display_group_name' => '\Swagger\Client\Model\DisplayGroupName'
+        'beez_up_column_name' => '\EffetB\BeezupApi\Model\BeezUPCommonBeezUPColumnName',
+        'column_importance' => '\EffetB\BeezupApi\Model\BeezUPCommonColumnImportance',
+        'column_data_type' => '\EffetB\BeezupApi\Model\BeezUPCommonColumnDataType',
+        'column_culture_name' => '\EffetB\BeezupApi\Model\ColumnCultureName',
+        'column_format' => '\EffetB\BeezupApi\Model\ColumnFormat',
+        'can_be_truncated' => '\EffetB\BeezupApi\Model\CanBeTruncated',
+        'display_group_name' => '\EffetB\BeezupApi\Model\DisplayGroupName'
     ];
 
     /**
@@ -257,7 +257,7 @@ class ColumnConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets beez_up_column_name
      *
-     * @return \Swagger\Client\Model\BeezUPCommonBeezUPColumnName
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonBeezUPColumnName
      */
     public function getBeezUpColumnName()
     {
@@ -267,7 +267,7 @@ class ColumnConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets beez_up_column_name
      *
-     * @param \Swagger\Client\Model\BeezUPCommonBeezUPColumnName $beez_up_column_name beez_up_column_name
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonBeezUPColumnName $beez_up_column_name beez_up_column_name
      *
      * @return $this
      */
@@ -281,7 +281,7 @@ class ColumnConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets column_importance
      *
-     * @return \Swagger\Client\Model\BeezUPCommonColumnImportance
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonColumnImportance
      */
     public function getColumnImportance()
     {
@@ -291,7 +291,7 @@ class ColumnConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets column_importance
      *
-     * @param \Swagger\Client\Model\BeezUPCommonColumnImportance $column_importance column_importance
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonColumnImportance $column_importance column_importance
      *
      * @return $this
      */
@@ -305,7 +305,7 @@ class ColumnConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets column_data_type
      *
-     * @return \Swagger\Client\Model\BeezUPCommonColumnDataType
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonColumnDataType
      */
     public function getColumnDataType()
     {
@@ -315,7 +315,7 @@ class ColumnConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets column_data_type
      *
-     * @param \Swagger\Client\Model\BeezUPCommonColumnDataType $column_data_type column_data_type
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonColumnDataType $column_data_type column_data_type
      *
      * @return $this
      */
@@ -329,7 +329,7 @@ class ColumnConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets column_culture_name
      *
-     * @return \Swagger\Client\Model\ColumnCultureName
+     * @return \EffetB\BeezupApi\Model\ColumnCultureName
      */
     public function getColumnCultureName()
     {
@@ -339,7 +339,7 @@ class ColumnConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets column_culture_name
      *
-     * @param \Swagger\Client\Model\ColumnCultureName $column_culture_name column_culture_name
+     * @param \EffetB\BeezupApi\Model\ColumnCultureName $column_culture_name column_culture_name
      *
      * @return $this
      */
@@ -353,7 +353,7 @@ class ColumnConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets column_format
      *
-     * @return \Swagger\Client\Model\ColumnFormat
+     * @return \EffetB\BeezupApi\Model\ColumnFormat
      */
     public function getColumnFormat()
     {
@@ -363,7 +363,7 @@ class ColumnConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets column_format
      *
-     * @param \Swagger\Client\Model\ColumnFormat $column_format column_format
+     * @param \EffetB\BeezupApi\Model\ColumnFormat $column_format column_format
      *
      * @return $this
      */
@@ -377,7 +377,7 @@ class ColumnConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets can_be_truncated
      *
-     * @return \Swagger\Client\Model\CanBeTruncated
+     * @return \EffetB\BeezupApi\Model\CanBeTruncated
      */
     public function getCanBeTruncated()
     {
@@ -387,7 +387,7 @@ class ColumnConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets can_be_truncated
      *
-     * @param \Swagger\Client\Model\CanBeTruncated $can_be_truncated can_be_truncated
+     * @param \EffetB\BeezupApi\Model\CanBeTruncated $can_be_truncated can_be_truncated
      *
      * @return $this
      */
@@ -401,7 +401,7 @@ class ColumnConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets display_group_name
      *
-     * @return \Swagger\Client\Model\DisplayGroupName
+     * @return \EffetB\BeezupApi\Model\DisplayGroupName
      */
     public function getDisplayGroupName()
     {
@@ -411,7 +411,7 @@ class ColumnConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets display_group_name
      *
-     * @param \Swagger\Client\Model\DisplayGroupName $display_group_name display_group_name
+     * @param \EffetB\BeezupApi\Model\DisplayGroupName $display_group_name display_group_name
      *
      * @return $this
      */

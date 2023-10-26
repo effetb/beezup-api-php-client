@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * OrderIndex Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class OrderIndex implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\OrderIndexLinks',
-        'lov_links' => '\Swagger\Client\Model\OrderIndexLovLinks'
+        'links' => '\EffetB\BeezupApi\Model\OrderIndexLinks',
+        'lov_links' => '\EffetB\BeezupApi\Model\OrderIndexLovLinks'
     ];
 
     /**
@@ -226,7 +226,7 @@ class OrderIndex implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\OrderIndexLinks
+     * @return \EffetB\BeezupApi\Model\OrderIndexLinks
      */
     public function getLinks()
     {
@@ -236,7 +236,7 @@ class OrderIndex implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\OrderIndexLinks $links links
+     * @param \EffetB\BeezupApi\Model\OrderIndexLinks $links links
      *
      * @return $this
      */
@@ -250,7 +250,7 @@ class OrderIndex implements ModelInterface, ArrayAccess
     /**
      * Gets lov_links
      *
-     * @return \Swagger\Client\Model\OrderIndexLovLinks
+     * @return \EffetB\BeezupApi\Model\OrderIndexLovLinks
      */
     public function getLovLinks()
     {
@@ -260,7 +260,7 @@ class OrderIndex implements ModelInterface, ArrayAccess
     /**
      * Sets lov_links
      *
-     * @param \Swagger\Client\Model\OrderIndexLovLinks $lov_links lov_links
+     * @param \EffetB\BeezupApi\Model\OrderIndexLovLinks $lov_links lov_links
      *
      * @return $this
      */

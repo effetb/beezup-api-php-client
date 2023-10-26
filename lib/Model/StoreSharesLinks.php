@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * StoreSharesLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class StoreSharesLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksGetStoreSharesLink',
-        'share' => '\Swagger\Client\Model\LinksShareStoreLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksGetStoreSharesLink',
+        'share' => '\EffetB\BeezupApi\Model\LinksShareStoreLink'
     ];
 
     /**
@@ -214,7 +214,7 @@ class StoreSharesLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksGetStoreSharesLink
+     * @return \EffetB\BeezupApi\Model\LinksGetStoreSharesLink
      */
     public function getSelf()
     {
@@ -224,7 +224,7 @@ class StoreSharesLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksGetStoreSharesLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksGetStoreSharesLink $self self
      *
      * @return $this
      */
@@ -238,7 +238,7 @@ class StoreSharesLinks implements ModelInterface, ArrayAccess
     /**
      * Gets share
      *
-     * @return \Swagger\Client\Model\LinksShareStoreLink
+     * @return \EffetB\BeezupApi\Model\LinksShareStoreLink
      */
     public function getShare()
     {
@@ -248,7 +248,7 @@ class StoreSharesLinks implements ModelInterface, ArrayAccess
     /**
      * Sets share
      *
-     * @param \Swagger\Client\Model\LinksShareStoreLink $share share
+     * @param \EffetB\BeezupApi\Model\LinksShareStoreLink $share share
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelCatalogMarketplaceSettingsLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class ChannelCatalogMarketplaceSettingsLinks implements ModelInterface, ArrayAcc
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksGetChannelCatalogMarketplaceSettingsLink',
-        'save' => '\Swagger\Client\Model\LinksSetChannelCatalogMarketplaceSettingsLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksGetChannelCatalogMarketplaceSettingsLink',
+        'save' => '\EffetB\BeezupApi\Model\LinksSetChannelCatalogMarketplaceSettingsLink'
     ];
 
     /**
@@ -226,7 +226,7 @@ class ChannelCatalogMarketplaceSettingsLinks implements ModelInterface, ArrayAcc
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksGetChannelCatalogMarketplaceSettingsLink
+     * @return \EffetB\BeezupApi\Model\LinksGetChannelCatalogMarketplaceSettingsLink
      */
     public function getSelf()
     {
@@ -236,7 +236,7 @@ class ChannelCatalogMarketplaceSettingsLinks implements ModelInterface, ArrayAcc
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksGetChannelCatalogMarketplaceSettingsLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksGetChannelCatalogMarketplaceSettingsLink $self self
      *
      * @return $this
      */
@@ -250,7 +250,7 @@ class ChannelCatalogMarketplaceSettingsLinks implements ModelInterface, ArrayAcc
     /**
      * Gets save
      *
-     * @return \Swagger\Client\Model\LinksSetChannelCatalogMarketplaceSettingsLink
+     * @return \EffetB\BeezupApi\Model\LinksSetChannelCatalogMarketplaceSettingsLink
      */
     public function getSave()
     {
@@ -260,7 +260,7 @@ class ChannelCatalogMarketplaceSettingsLinks implements ModelInterface, ArrayAcc
     /**
      * Sets save
      *
-     * @param \Swagger\Client\Model\LinksSetChannelCatalogMarketplaceSettingsLink $save save
+     * @param \EffetB\BeezupApi\Model\LinksSetChannelCatalogMarketplaceSettingsLink $save save
      *
      * @return $this
      */

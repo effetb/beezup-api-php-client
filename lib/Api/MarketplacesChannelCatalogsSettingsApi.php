@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace EffetB\BeezupApi\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use EffetB\BeezupApi\ApiException;
+use EffetB\BeezupApi\Configuration;
+use EffetB\BeezupApi\HeaderSelector;
+use EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * MarketplacesChannelCatalogsSettingsApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -96,9 +96,9 @@ class MarketplacesChannelCatalogsSettingsApi
      * @param  string $redirection_page_url redirection_page_url (required)
      * @param  string[] $accept_language Indicates that the client accepts the following languages. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ChannelCatalogMarketplaceProperties
+     * @return \EffetB\BeezupApi\Model\ChannelCatalogMarketplaceProperties
      */
     public function getChannelCatalogMarketplaceProperties($channel_catalog_id, $redirection_page_url, $accept_language = null)
     {
@@ -115,13 +115,13 @@ class MarketplacesChannelCatalogsSettingsApi
      * @param  string $redirection_page_url (required)
      * @param  string[] $accept_language Indicates that the client accepts the following languages. (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ChannelCatalogMarketplaceProperties, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\ChannelCatalogMarketplaceProperties, HTTP status code, HTTP response headers (array of strings)
      */
     public function getChannelCatalogMarketplacePropertiesWithHttpInfo($channel_catalog_id, $redirection_page_url, $accept_language = null)
     {
-        $returnType = '\Swagger\Client\Model\ChannelCatalogMarketplaceProperties';
+        $returnType = '\EffetB\BeezupApi\Model\ChannelCatalogMarketplaceProperties';
         $request = $this->getChannelCatalogMarketplacePropertiesRequest($channel_catalog_id, $redirection_page_url, $accept_language);
 
         try {
@@ -173,7 +173,7 @@ class MarketplacesChannelCatalogsSettingsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ChannelCatalogMarketplaceProperties',
+                        '\EffetB\BeezupApi\Model\ChannelCatalogMarketplaceProperties',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -181,7 +181,7 @@ class MarketplacesChannelCatalogsSettingsApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -227,7 +227,7 @@ class MarketplacesChannelCatalogsSettingsApi
      */
     public function getChannelCatalogMarketplacePropertiesAsyncWithHttpInfo($channel_catalog_id, $redirection_page_url, $accept_language = null)
     {
-        $returnType = '\Swagger\Client\Model\ChannelCatalogMarketplaceProperties';
+        $returnType = '\EffetB\BeezupApi\Model\ChannelCatalogMarketplaceProperties';
         $request = $this->getChannelCatalogMarketplacePropertiesRequest($channel_catalog_id, $redirection_page_url, $accept_language);
 
         return $this->client
@@ -396,9 +396,9 @@ class MarketplacesChannelCatalogsSettingsApi
      *
      * @param  string $channel_catalog_id Channel Catalog Id to query (required) (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ChannelCatalogMarketplaceSettings
+     * @return \EffetB\BeezupApi\Model\ChannelCatalogMarketplaceSettings
      */
     public function getChannelCatalogMarketplaceSettings($channel_catalog_id)
     {
@@ -413,13 +413,13 @@ class MarketplacesChannelCatalogsSettingsApi
      *
      * @param  string $channel_catalog_id Channel Catalog Id to query (required) (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ChannelCatalogMarketplaceSettings, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\ChannelCatalogMarketplaceSettings, HTTP status code, HTTP response headers (array of strings)
      */
     public function getChannelCatalogMarketplaceSettingsWithHttpInfo($channel_catalog_id)
     {
-        $returnType = '\Swagger\Client\Model\ChannelCatalogMarketplaceSettings';
+        $returnType = '\EffetB\BeezupApi\Model\ChannelCatalogMarketplaceSettings';
         $request = $this->getChannelCatalogMarketplaceSettingsRequest($channel_catalog_id);
 
         try {
@@ -471,7 +471,7 @@ class MarketplacesChannelCatalogsSettingsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ChannelCatalogMarketplaceSettings',
+                        '\EffetB\BeezupApi\Model\ChannelCatalogMarketplaceSettings',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -479,7 +479,7 @@ class MarketplacesChannelCatalogsSettingsApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -521,7 +521,7 @@ class MarketplacesChannelCatalogsSettingsApi
      */
     public function getChannelCatalogMarketplaceSettingsAsyncWithHttpInfo($channel_catalog_id)
     {
-        $returnType = '\Swagger\Client\Model\ChannelCatalogMarketplaceSettings';
+        $returnType = '\EffetB\BeezupApi\Model\ChannelCatalogMarketplaceSettings';
         $request = $this->getChannelCatalogMarketplaceSettingsRequest($channel_catalog_id);
 
         return $this->client
@@ -670,9 +670,9 @@ class MarketplacesChannelCatalogsSettingsApi
      * Save new marketplace settings for a channel catalog
      *
      * @param  string $channel_catalog_id Channel Catalog Id to query (required)
-     * @param  \Swagger\Client\Model\SetChannelCatalogMarketplaceSettingsRequest $model Settings to save (required)
+     * @param  \EffetB\BeezupApi\Model\SetChannelCatalogMarketplaceSettingsRequest $model Settings to save (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -687,9 +687,9 @@ class MarketplacesChannelCatalogsSettingsApi
      * Save new marketplace settings for a channel catalog
      *
      * @param  string $channel_catalog_id Channel Catalog Id to query (required)
-     * @param  \Swagger\Client\Model\SetChannelCatalogMarketplaceSettingsRequest $model Settings to save (required)
+     * @param  \EffetB\BeezupApi\Model\SetChannelCatalogMarketplaceSettingsRequest $model Settings to save (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -733,7 +733,7 @@ class MarketplacesChannelCatalogsSettingsApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -741,7 +741,7 @@ class MarketplacesChannelCatalogsSettingsApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -757,7 +757,7 @@ class MarketplacesChannelCatalogsSettingsApi
      * Save new marketplace settings for a channel catalog
      *
      * @param  string $channel_catalog_id Channel Catalog Id to query (required)
-     * @param  \Swagger\Client\Model\SetChannelCatalogMarketplaceSettingsRequest $model Settings to save (required)
+     * @param  \EffetB\BeezupApi\Model\SetChannelCatalogMarketplaceSettingsRequest $model Settings to save (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -778,7 +778,7 @@ class MarketplacesChannelCatalogsSettingsApi
      * Save new marketplace settings for a channel catalog
      *
      * @param  string $channel_catalog_id Channel Catalog Id to query (required)
-     * @param  \Swagger\Client\Model\SetChannelCatalogMarketplaceSettingsRequest $model Settings to save (required)
+     * @param  \EffetB\BeezupApi\Model\SetChannelCatalogMarketplaceSettingsRequest $model Settings to save (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -815,7 +815,7 @@ class MarketplacesChannelCatalogsSettingsApi
      * Create request for operation 'setChannelCatalogMarketplaceSettings'
      *
      * @param  string $channel_catalog_id Channel Catalog Id to query (required)
-     * @param  \Swagger\Client\Model\SetChannelCatalogMarketplaceSettingsRequest $model Settings to save (required)
+     * @param  \EffetB\BeezupApi\Model\SetChannelCatalogMarketplaceSettingsRequest $model Settings to save (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

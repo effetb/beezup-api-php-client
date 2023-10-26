@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * PersonalInfo Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,11 +57,11 @@ class PersonalInfo implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'last_name' => '\Swagger\Client\Model\LastName',
-        'first_name' => '\Swagger\Client\Model\FirstName',
-        'phone_number' => '\Swagger\Client\Model\PhoneNumber',
-        'what_i_do' => '\Swagger\Client\Model\WhatIDo',
-        'beez_up_time_zone_id' => '\Swagger\Client\Model\BeezUPTimeZoneId'
+        'last_name' => '\EffetB\BeezupApi\Model\LastName',
+        'first_name' => '\EffetB\BeezupApi\Model\FirstName',
+        'phone_number' => '\EffetB\BeezupApi\Model\PhoneNumber',
+        'what_i_do' => '\EffetB\BeezupApi\Model\WhatIDo',
+        'beez_up_time_zone_id' => '\EffetB\BeezupApi\Model\BeezUPTimeZoneId'
     ];
 
     /**
@@ -256,7 +256,7 @@ class PersonalInfo implements ModelInterface, ArrayAccess
     /**
      * Gets last_name
      *
-     * @return \Swagger\Client\Model\LastName
+     * @return \EffetB\BeezupApi\Model\LastName
      */
     public function getLastName()
     {
@@ -266,7 +266,7 @@ class PersonalInfo implements ModelInterface, ArrayAccess
     /**
      * Sets last_name
      *
-     * @param \Swagger\Client\Model\LastName $last_name last_name
+     * @param \EffetB\BeezupApi\Model\LastName $last_name last_name
      *
      * @return $this
      */
@@ -280,7 +280,7 @@ class PersonalInfo implements ModelInterface, ArrayAccess
     /**
      * Gets first_name
      *
-     * @return \Swagger\Client\Model\FirstName
+     * @return \EffetB\BeezupApi\Model\FirstName
      */
     public function getFirstName()
     {
@@ -290,7 +290,7 @@ class PersonalInfo implements ModelInterface, ArrayAccess
     /**
      * Sets first_name
      *
-     * @param \Swagger\Client\Model\FirstName $first_name first_name
+     * @param \EffetB\BeezupApi\Model\FirstName $first_name first_name
      *
      * @return $this
      */
@@ -304,7 +304,7 @@ class PersonalInfo implements ModelInterface, ArrayAccess
     /**
      * Gets phone_number
      *
-     * @return \Swagger\Client\Model\PhoneNumber
+     * @return \EffetB\BeezupApi\Model\PhoneNumber
      */
     public function getPhoneNumber()
     {
@@ -314,7 +314,7 @@ class PersonalInfo implements ModelInterface, ArrayAccess
     /**
      * Sets phone_number
      *
-     * @param \Swagger\Client\Model\PhoneNumber $phone_number phone_number
+     * @param \EffetB\BeezupApi\Model\PhoneNumber $phone_number phone_number
      *
      * @return $this
      */
@@ -328,7 +328,7 @@ class PersonalInfo implements ModelInterface, ArrayAccess
     /**
      * Gets what_i_do
      *
-     * @return \Swagger\Client\Model\WhatIDo
+     * @return \EffetB\BeezupApi\Model\WhatIDo
      */
     public function getWhatIDo()
     {
@@ -338,7 +338,7 @@ class PersonalInfo implements ModelInterface, ArrayAccess
     /**
      * Sets what_i_do
      *
-     * @param \Swagger\Client\Model\WhatIDo $what_i_do what_i_do
+     * @param \EffetB\BeezupApi\Model\WhatIDo $what_i_do what_i_do
      *
      * @return $this
      */
@@ -352,7 +352,7 @@ class PersonalInfo implements ModelInterface, ArrayAccess
     /**
      * Gets beez_up_time_zone_id
      *
-     * @return \Swagger\Client\Model\BeezUPTimeZoneId
+     * @return \EffetB\BeezupApi\Model\BeezUPTimeZoneId
      */
     public function getBeezUpTimeZoneId()
     {
@@ -362,7 +362,7 @@ class PersonalInfo implements ModelInterface, ArrayAccess
     /**
      * Sets beez_up_time_zone_id
      *
-     * @param \Swagger\Client\Model\BeezUPTimeZoneId $beez_up_time_zone_id beez_up_time_zone_id
+     * @param \EffetB\BeezupApi\Model\BeezUPTimeZoneId $beez_up_time_zone_id beez_up_time_zone_id
      *
      * @return $this
      */

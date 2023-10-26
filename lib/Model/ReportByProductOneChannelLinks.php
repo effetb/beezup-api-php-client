@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ReportByProductOneChannelLinks Class Doc Comment
  *
  * @category Class
  * @description If the report concerned one product for one channel the channel catalog product info will give you all you need to enable or disable the product.
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,9 +58,9 @@ class ReportByProductOneChannelLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'product_info' => '\Swagger\Client\Model\LinksGetChannelCatalogProductInfoLink',
-        'enable_product_for_one_channel' => '\Swagger\Client\Model\LinksOptimiseByProductLink',
-        'disable_product_for_one_channel' => '\Swagger\Client\Model\LinksOptimiseByProductLink'
+        'product_info' => '\EffetB\BeezupApi\Model\LinksGetChannelCatalogProductInfoLink',
+        'enable_product_for_one_channel' => '\EffetB\BeezupApi\Model\LinksOptimiseByProductLink',
+        'disable_product_for_one_channel' => '\EffetB\BeezupApi\Model\LinksOptimiseByProductLink'
     ];
 
     /**
@@ -239,7 +239,7 @@ class ReportByProductOneChannelLinks implements ModelInterface, ArrayAccess
     /**
      * Gets product_info
      *
-     * @return \Swagger\Client\Model\LinksGetChannelCatalogProductInfoLink
+     * @return \EffetB\BeezupApi\Model\LinksGetChannelCatalogProductInfoLink
      */
     public function getProductInfo()
     {
@@ -249,7 +249,7 @@ class ReportByProductOneChannelLinks implements ModelInterface, ArrayAccess
     /**
      * Sets product_info
      *
-     * @param \Swagger\Client\Model\LinksGetChannelCatalogProductInfoLink $product_info product_info
+     * @param \EffetB\BeezupApi\Model\LinksGetChannelCatalogProductInfoLink $product_info product_info
      *
      * @return $this
      */
@@ -263,7 +263,7 @@ class ReportByProductOneChannelLinks implements ModelInterface, ArrayAccess
     /**
      * Gets enable_product_for_one_channel
      *
-     * @return \Swagger\Client\Model\LinksOptimiseByProductLink
+     * @return \EffetB\BeezupApi\Model\LinksOptimiseByProductLink
      */
     public function getEnableProductForOneChannel()
     {
@@ -273,7 +273,7 @@ class ReportByProductOneChannelLinks implements ModelInterface, ArrayAccess
     /**
      * Sets enable_product_for_one_channel
      *
-     * @param \Swagger\Client\Model\LinksOptimiseByProductLink $enable_product_for_one_channel enable_product_for_one_channel
+     * @param \EffetB\BeezupApi\Model\LinksOptimiseByProductLink $enable_product_for_one_channel enable_product_for_one_channel
      *
      * @return $this
      */
@@ -287,7 +287,7 @@ class ReportByProductOneChannelLinks implements ModelInterface, ArrayAccess
     /**
      * Gets disable_product_for_one_channel
      *
-     * @return \Swagger\Client\Model\LinksOptimiseByProductLink
+     * @return \EffetB\BeezupApi\Model\LinksOptimiseByProductLink
      */
     public function getDisableProductForOneChannel()
     {
@@ -297,7 +297,7 @@ class ReportByProductOneChannelLinks implements ModelInterface, ArrayAccess
     /**
      * Sets disable_product_for_one_channel
      *
-     * @param \Swagger\Client\Model\LinksOptimiseByProductLink $disable_product_for_one_channel disable_product_for_one_channel
+     * @param \EffetB\BeezupApi\Model\LinksOptimiseByProductLink $disable_product_for_one_channel disable_product_for_one_channel
      *
      * @return $this
      */

@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace EffetB\BeezupApi\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use EffetB\BeezupApi\ApiException;
+use EffetB\BeezupApi\Configuration;
+use EffetB\BeezupApi\HeaderSelector;
+use EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * MarketplacesChannelCatalogsPublicationsApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -98,9 +98,9 @@ class MarketplacesChannelCatalogsPublicationsApi
      * @param  int $count Amount of entries to fetch (optional, default set to 10) (optional, default to 10)
      * @param  string[] $publication_types Publication types by which to filter (optional) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\AccountPublications
+     * @return \EffetB\BeezupApi\Model\AccountPublications
      */
     public function getPublications($marketplace_technical_code, $account_id, $channel_catalog_id = null, $count = '10', $publication_types = null)
     {
@@ -119,13 +119,13 @@ class MarketplacesChannelCatalogsPublicationsApi
      * @param  int $count Amount of entries to fetch (optional, default set to 10) (optional, default to 10)
      * @param  string[] $publication_types Publication types by which to filter (optional) (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\AccountPublications, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\AccountPublications, HTTP status code, HTTP response headers (array of strings)
      */
     public function getPublicationsWithHttpInfo($marketplace_technical_code, $account_id, $channel_catalog_id = null, $count = '10', $publication_types = null)
     {
-        $returnType = '\Swagger\Client\Model\AccountPublications';
+        $returnType = '\EffetB\BeezupApi\Model\AccountPublications';
         $request = $this->getPublicationsRequest($marketplace_technical_code, $account_id, $channel_catalog_id, $count, $publication_types);
 
         try {
@@ -177,7 +177,7 @@ class MarketplacesChannelCatalogsPublicationsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\AccountPublications',
+                        '\EffetB\BeezupApi\Model\AccountPublications',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -185,7 +185,7 @@ class MarketplacesChannelCatalogsPublicationsApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -235,7 +235,7 @@ class MarketplacesChannelCatalogsPublicationsApi
      */
     public function getPublicationsAsyncWithHttpInfo($marketplace_technical_code, $account_id, $channel_catalog_id = null, $count = '10', $publication_types = null)
     {
-        $returnType = '\Swagger\Client\Model\AccountPublications';
+        $returnType = '\EffetB\BeezupApi\Model\AccountPublications';
         $request = $this->getPublicationsRequest($marketplace_technical_code, $account_id, $channel_catalog_id, $count, $publication_types);
 
         return $this->client

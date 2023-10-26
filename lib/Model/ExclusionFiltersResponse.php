@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ExclusionFiltersResponse Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class ExclusionFiltersResponse implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\ExclusionFiltersResponseLinks',
-        'exclusion_filters' => '\Swagger\Client\Model\ExclusionFilters'
+        'links' => '\EffetB\BeezupApi\Model\ExclusionFiltersResponseLinks',
+        'exclusion_filters' => '\EffetB\BeezupApi\Model\ExclusionFilters'
     ];
 
     /**
@@ -220,7 +220,7 @@ class ExclusionFiltersResponse implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ExclusionFiltersResponseLinks
+     * @return \EffetB\BeezupApi\Model\ExclusionFiltersResponseLinks
      */
     public function getLinks()
     {
@@ -230,7 +230,7 @@ class ExclusionFiltersResponse implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ExclusionFiltersResponseLinks $links links
+     * @param \EffetB\BeezupApi\Model\ExclusionFiltersResponseLinks $links links
      *
      * @return $this
      */
@@ -244,7 +244,7 @@ class ExclusionFiltersResponse implements ModelInterface, ArrayAccess
     /**
      * Gets exclusion_filters
      *
-     * @return \Swagger\Client\Model\ExclusionFilters
+     * @return \EffetB\BeezupApi\Model\ExclusionFilters
      */
     public function getExclusionFilters()
     {
@@ -254,7 +254,7 @@ class ExclusionFiltersResponse implements ModelInterface, ArrayAccess
     /**
      * Sets exclusion_filters
      *
-     * @param \Swagger\Client\Model\ExclusionFilters $exclusion_filters exclusion_filters
+     * @param \EffetB\BeezupApi\Model\ExclusionFilters $exclusion_filters exclusion_filters
      *
      * @return $this
      */

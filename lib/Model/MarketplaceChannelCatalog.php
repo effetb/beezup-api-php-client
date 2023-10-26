@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * MarketplaceChannelCatalog Class Doc Comment
  *
  * @category Class
  * @description This object indicates you the association between a channel catalog and a marketplace. The account identifier will be automatically defined based on your marketplace merchant identfier.
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,21 +58,21 @@ class MarketplaceChannelCatalog implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'api_settings_status' => '\Swagger\Client\Model\BeezUPCommonApiSettingsStatus',
+        'api_settings_status' => '\EffetB\BeezupApi\Model\BeezUPCommonApiSettingsStatus',
         'enabled' => 'bool',
-        'marketplace_technical_code' => '\Swagger\Client\Model\BeezUPCommonMarketplaceTechnicalCode',
-        'marketplace_business_code' => '\Swagger\Client\Model\BeezUPCommonMarketplaceBusinessCode',
+        'marketplace_technical_code' => '\EffetB\BeezupApi\Model\BeezUPCommonMarketplaceTechnicalCode',
+        'marketplace_business_code' => '\EffetB\BeezupApi\Model\BeezUPCommonMarketplaceBusinessCode',
         'marketplace_market_place_id' => 'string',
         'marketplace_iso_country_code_alpha2' => 'string',
         'beez_up_marketplace_name' => '',
-        'beez_up_channel_id' => '\Swagger\Client\Model\BeezUPCommonChannelId',
-        'beez_up_channel_catalog_id' => '\Swagger\Client\Model\BeezUPCommonChannelCatalogId',
-        'beez_up_store_id' => '\Swagger\Client\Model\BeezUPCommonStoreId',
+        'beez_up_channel_id' => '\EffetB\BeezupApi\Model\BeezUPCommonChannelId',
+        'beez_up_channel_catalog_id' => '\EffetB\BeezupApi\Model\BeezUPCommonChannelCatalogId',
+        'beez_up_store_id' => '\EffetB\BeezupApi\Model\BeezUPCommonStoreId',
         'beez_up_store_name' => 'string',
         'marketplace_merchant_identifiers' => 'map[string,string]',
-        'marketplace_account_id' => '\Swagger\Client\Model\BeezUPCommonMarketplaceAccountId',
-        'lov_links' => '\Swagger\Client\Model\MarketplaceChannelCatalogLovLinks',
-        'links' => '\Swagger\Client\Model\MarketplaceChannelCatalogLinks'
+        'marketplace_account_id' => '\EffetB\BeezupApi\Model\BeezUPCommonMarketplaceAccountId',
+        'lov_links' => '\EffetB\BeezupApi\Model\MarketplaceChannelCatalogLovLinks',
+        'links' => '\EffetB\BeezupApi\Model\MarketplaceChannelCatalogLinks'
     ];
 
     /**
@@ -371,7 +371,7 @@ class MarketplaceChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Gets api_settings_status
      *
-     * @return \Swagger\Client\Model\BeezUPCommonApiSettingsStatus
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonApiSettingsStatus
      */
     public function getApiSettingsStatus()
     {
@@ -381,7 +381,7 @@ class MarketplaceChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Sets api_settings_status
      *
-     * @param \Swagger\Client\Model\BeezUPCommonApiSettingsStatus $api_settings_status api_settings_status
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonApiSettingsStatus $api_settings_status api_settings_status
      *
      * @return $this
      */
@@ -419,7 +419,7 @@ class MarketplaceChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Gets marketplace_technical_code
      *
-     * @return \Swagger\Client\Model\BeezUPCommonMarketplaceTechnicalCode
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonMarketplaceTechnicalCode
      */
     public function getMarketplaceTechnicalCode()
     {
@@ -429,7 +429,7 @@ class MarketplaceChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Sets marketplace_technical_code
      *
-     * @param \Swagger\Client\Model\BeezUPCommonMarketplaceTechnicalCode $marketplace_technical_code marketplace_technical_code
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonMarketplaceTechnicalCode $marketplace_technical_code marketplace_technical_code
      *
      * @return $this
      */
@@ -443,7 +443,7 @@ class MarketplaceChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Gets marketplace_business_code
      *
-     * @return \Swagger\Client\Model\BeezUPCommonMarketplaceBusinessCode
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonMarketplaceBusinessCode
      */
     public function getMarketplaceBusinessCode()
     {
@@ -453,7 +453,7 @@ class MarketplaceChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Sets marketplace_business_code
      *
-     * @param \Swagger\Client\Model\BeezUPCommonMarketplaceBusinessCode $marketplace_business_code marketplace_business_code
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonMarketplaceBusinessCode $marketplace_business_code marketplace_business_code
      *
      * @return $this
      */
@@ -539,7 +539,7 @@ class MarketplaceChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Gets beez_up_channel_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonChannelId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonChannelId
      */
     public function getBeezUpChannelId()
     {
@@ -549,7 +549,7 @@ class MarketplaceChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Sets beez_up_channel_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonChannelId $beez_up_channel_id beez_up_channel_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonChannelId $beez_up_channel_id beez_up_channel_id
      *
      * @return $this
      */
@@ -563,7 +563,7 @@ class MarketplaceChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Gets beez_up_channel_catalog_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonChannelCatalogId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonChannelCatalogId
      */
     public function getBeezUpChannelCatalogId()
     {
@@ -573,7 +573,7 @@ class MarketplaceChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Sets beez_up_channel_catalog_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonChannelCatalogId $beez_up_channel_catalog_id beez_up_channel_catalog_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonChannelCatalogId $beez_up_channel_catalog_id beez_up_channel_catalog_id
      *
      * @return $this
      */
@@ -587,7 +587,7 @@ class MarketplaceChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Gets beez_up_store_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonStoreId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonStoreId
      */
     public function getBeezUpStoreId()
     {
@@ -597,7 +597,7 @@ class MarketplaceChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Sets beez_up_store_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonStoreId $beez_up_store_id beez_up_store_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonStoreId $beez_up_store_id beez_up_store_id
      *
      * @return $this
      */
@@ -659,7 +659,7 @@ class MarketplaceChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Gets marketplace_account_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonMarketplaceAccountId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonMarketplaceAccountId
      */
     public function getMarketplaceAccountId()
     {
@@ -669,7 +669,7 @@ class MarketplaceChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Sets marketplace_account_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonMarketplaceAccountId $marketplace_account_id marketplace_account_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonMarketplaceAccountId $marketplace_account_id marketplace_account_id
      *
      * @return $this
      */
@@ -683,7 +683,7 @@ class MarketplaceChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Gets lov_links
      *
-     * @return \Swagger\Client\Model\MarketplaceChannelCatalogLovLinks
+     * @return \EffetB\BeezupApi\Model\MarketplaceChannelCatalogLovLinks
      */
     public function getLovLinks()
     {
@@ -693,7 +693,7 @@ class MarketplaceChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Sets lov_links
      *
-     * @param \Swagger\Client\Model\MarketplaceChannelCatalogLovLinks $lov_links lov_links
+     * @param \EffetB\BeezupApi\Model\MarketplaceChannelCatalogLovLinks $lov_links lov_links
      *
      * @return $this
      */
@@ -707,7 +707,7 @@ class MarketplaceChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\MarketplaceChannelCatalogLinks
+     * @return \EffetB\BeezupApi\Model\MarketplaceChannelCatalogLinks
      */
     public function getLinks()
     {
@@ -717,7 +717,7 @@ class MarketplaceChannelCatalog implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\MarketplaceChannelCatalogLinks $links links
+     * @param \EffetB\BeezupApi\Model\MarketplaceChannelCatalogLinks $links links
      *
      * @return $this
      */

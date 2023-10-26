@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ReportByDayGlobal Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class ReportByDayGlobal implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'all_channels' => '\Swagger\Client\Model\ReportByDayGlobalAllChannels',
-        'by_channels' => '\Swagger\Client\Model\ReportByDayGlobalByChannel[]'
+        'all_channels' => '\EffetB\BeezupApi\Model\ReportByDayGlobalAllChannels',
+        'by_channels' => '\EffetB\BeezupApi\Model\ReportByDayGlobalByChannel[]'
     ];
 
     /**
@@ -226,7 +226,7 @@ class ReportByDayGlobal implements ModelInterface, ArrayAccess
     /**
      * Gets all_channels
      *
-     * @return \Swagger\Client\Model\ReportByDayGlobalAllChannels
+     * @return \EffetB\BeezupApi\Model\ReportByDayGlobalAllChannels
      */
     public function getAllChannels()
     {
@@ -236,7 +236,7 @@ class ReportByDayGlobal implements ModelInterface, ArrayAccess
     /**
      * Sets all_channels
      *
-     * @param \Swagger\Client\Model\ReportByDayGlobalAllChannels $all_channels all_channels
+     * @param \EffetB\BeezupApi\Model\ReportByDayGlobalAllChannels $all_channels all_channels
      *
      * @return $this
      */
@@ -250,7 +250,7 @@ class ReportByDayGlobal implements ModelInterface, ArrayAccess
     /**
      * Gets by_channels
      *
-     * @return \Swagger\Client\Model\ReportByDayGlobalByChannel[]
+     * @return \EffetB\BeezupApi\Model\ReportByDayGlobalByChannel[]
      */
     public function getByChannels()
     {
@@ -260,7 +260,7 @@ class ReportByDayGlobal implements ModelInterface, ArrayAccess
     /**
      * Sets by_channels
      *
-     * @param \Swagger\Client\Model\ReportByDayGlobalByChannel[] $by_channels by_channels
+     * @param \EffetB\BeezupApi\Model\ReportByDayGlobalByChannel[] $by_channels by_channels
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ReportAdvancedFilters Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,13 +57,13 @@ class ReportAdvancedFilters implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'margin_type' => '\Swagger\Client\Model\MarginType',
+        'margin_type' => '\EffetB\BeezupApi\Model\MarginType',
         'global_margin_percent' => 'int',
-        'link_click_to_order_type' => '\Swagger\Client\Model\LinkClickToOrderType',
+        'link_click_to_order_type' => '\EffetB\BeezupApi\Model\LinkClickToOrderType',
         'link_click_to_order_max_day' => 'int',
         'only_payment_validated_orders' => 'bool',
         'only_direct_sales' => 'bool',
-        'performance_indicator_formula' => '\Swagger\Client\Model\PerformanceIndicatorFormula'
+        'performance_indicator_formula' => '\EffetB\BeezupApi\Model\PerformanceIndicatorFormula'
     ];
 
     /**
@@ -302,7 +302,7 @@ class ReportAdvancedFilters implements ModelInterface, ArrayAccess
     /**
      * Gets margin_type
      *
-     * @return \Swagger\Client\Model\MarginType
+     * @return \EffetB\BeezupApi\Model\MarginType
      */
     public function getMarginType()
     {
@@ -312,7 +312,7 @@ class ReportAdvancedFilters implements ModelInterface, ArrayAccess
     /**
      * Sets margin_type
      *
-     * @param \Swagger\Client\Model\MarginType $margin_type margin_type
+     * @param \EffetB\BeezupApi\Model\MarginType $margin_type margin_type
      *
      * @return $this
      */
@@ -358,7 +358,7 @@ class ReportAdvancedFilters implements ModelInterface, ArrayAccess
     /**
      * Gets link_click_to_order_type
      *
-     * @return \Swagger\Client\Model\LinkClickToOrderType
+     * @return \EffetB\BeezupApi\Model\LinkClickToOrderType
      */
     public function getLinkClickToOrderType()
     {
@@ -368,7 +368,7 @@ class ReportAdvancedFilters implements ModelInterface, ArrayAccess
     /**
      * Sets link_click_to_order_type
      *
-     * @param \Swagger\Client\Model\LinkClickToOrderType $link_click_to_order_type link_click_to_order_type
+     * @param \EffetB\BeezupApi\Model\LinkClickToOrderType $link_click_to_order_type link_click_to_order_type
      *
      * @return $this
      */
@@ -462,7 +462,7 @@ class ReportAdvancedFilters implements ModelInterface, ArrayAccess
     /**
      * Gets performance_indicator_formula
      *
-     * @return \Swagger\Client\Model\PerformanceIndicatorFormula
+     * @return \EffetB\BeezupApi\Model\PerformanceIndicatorFormula
      */
     public function getPerformanceIndicatorFormula()
     {
@@ -472,7 +472,7 @@ class ReportAdvancedFilters implements ModelInterface, ArrayAccess
     /**
      * Sets performance_indicator_formula
      *
-     * @param \Swagger\Client\Model\PerformanceIndicatorFormula $performance_indicator_formula performance_indicator_formula
+     * @param \EffetB\BeezupApi\Model\PerformanceIndicatorFormula $performance_indicator_formula performance_indicator_formula
      *
      * @return $this
      */

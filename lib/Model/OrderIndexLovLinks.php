@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * OrderIndexLovLinks Class Doc Comment
  *
  * @category Class
  * @description Gives you all the LOV to get the translations realated to operation name, codes, property names and statuses.
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,10 +58,10 @@ class OrderIndexLovLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'order_change_business_operation_type' => '\Swagger\Client\Model\BeezUPCommonLOVLink3',
-        'order_state' => '\Swagger\Client\Model\BeezUPCommonLOVLink3',
-        'order_property' => '\Swagger\Client\Model\BeezUPCommonLOVLink3',
-        'order_property_posted' => '\Swagger\Client\Model\BeezUPCommonLOVLink3'
+        'order_change_business_operation_type' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3',
+        'order_state' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3',
+        'order_property' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3',
+        'order_property_posted' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3'
     ];
 
     /**
@@ -251,7 +251,7 @@ class OrderIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Gets order_change_business_operation_type
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getOrderChangeBusinessOperationType()
     {
@@ -261,7 +261,7 @@ class OrderIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Sets order_change_business_operation_type
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $order_change_business_operation_type order_change_business_operation_type
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $order_change_business_operation_type order_change_business_operation_type
      *
      * @return $this
      */
@@ -275,7 +275,7 @@ class OrderIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Gets order_state
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getOrderState()
     {
@@ -285,7 +285,7 @@ class OrderIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Sets order_state
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $order_state order_state
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $order_state order_state
      *
      * @return $this
      */
@@ -299,7 +299,7 @@ class OrderIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Gets order_property
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getOrderProperty()
     {
@@ -309,7 +309,7 @@ class OrderIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Sets order_property
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $order_property order_property
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $order_property order_property
      *
      * @return $this
      */
@@ -323,7 +323,7 @@ class OrderIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Gets order_property_posted
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getOrderPropertyPosted()
     {
@@ -333,7 +333,7 @@ class OrderIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Sets order_property_posted
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $order_property_posted order_property_posted
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $order_property_posted order_property_posted
      *
      * @return $this
      */

@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace EffetB\BeezupApi\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use EffetB\BeezupApi\ApiException;
+use EffetB\BeezupApi\Configuration;
+use EffetB\BeezupApi\HeaderSelector;
+use EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelCatalogsExclusionFiltersApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -93,9 +93,9 @@ class ChannelCatalogsExclusionFiltersApi
      * Configure channel catalog exclusion filters
      *
      * @param  string $channel_catalog_id The channel catalog identifier (required)
-     * @param  \Swagger\Client\Model\ExclusionFilters $request request (required)
+     * @param  \EffetB\BeezupApi\Model\ExclusionFilters $request request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -110,9 +110,9 @@ class ChannelCatalogsExclusionFiltersApi
      * Configure channel catalog exclusion filters
      *
      * @param  string $channel_catalog_id The channel catalog identifier (required)
-     * @param  \Swagger\Client\Model\ExclusionFilters $request (required)
+     * @param  \EffetB\BeezupApi\Model\ExclusionFilters $request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -156,7 +156,7 @@ class ChannelCatalogsExclusionFiltersApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -164,7 +164,7 @@ class ChannelCatalogsExclusionFiltersApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -172,7 +172,7 @@ class ChannelCatalogsExclusionFiltersApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -188,7 +188,7 @@ class ChannelCatalogsExclusionFiltersApi
      * Configure channel catalog exclusion filters
      *
      * @param  string $channel_catalog_id The channel catalog identifier (required)
-     * @param  \Swagger\Client\Model\ExclusionFilters $request (required)
+     * @param  \EffetB\BeezupApi\Model\ExclusionFilters $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -209,7 +209,7 @@ class ChannelCatalogsExclusionFiltersApi
      * Configure channel catalog exclusion filters
      *
      * @param  string $channel_catalog_id The channel catalog identifier (required)
-     * @param  \Swagger\Client\Model\ExclusionFilters $request (required)
+     * @param  \EffetB\BeezupApi\Model\ExclusionFilters $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -246,7 +246,7 @@ class ChannelCatalogsExclusionFiltersApi
      * Create request for operation 'configureChannelCatalogExclusionFilters'
      *
      * @param  string $channel_catalog_id The channel catalog identifier (required)
-     * @param  \Swagger\Client\Model\ExclusionFilters $request (required)
+     * @param  \EffetB\BeezupApi\Model\ExclusionFilters $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -361,9 +361,9 @@ class ChannelCatalogsExclusionFiltersApi
      * Get channel catalog exclusion filter operators
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ExclusionFilterOperator[]
+     * @return \EffetB\BeezupApi\Model\ExclusionFilterOperator[]
      */
     public function getChannelCatalogExclusionFilterOperators()
     {
@@ -377,13 +377,13 @@ class ChannelCatalogsExclusionFiltersApi
      * Get channel catalog exclusion filter operators
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ExclusionFilterOperator[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\ExclusionFilterOperator[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getChannelCatalogExclusionFilterOperatorsWithHttpInfo()
     {
-        $returnType = '\Swagger\Client\Model\ExclusionFilterOperator[]';
+        $returnType = '\EffetB\BeezupApi\Model\ExclusionFilterOperator[]';
         $request = $this->getChannelCatalogExclusionFilterOperatorsRequest();
 
         try {
@@ -435,7 +435,7 @@ class ChannelCatalogsExclusionFiltersApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ExclusionFilterOperator[]',
+                        '\EffetB\BeezupApi\Model\ExclusionFilterOperator[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -443,7 +443,7 @@ class ChannelCatalogsExclusionFiltersApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -483,7 +483,7 @@ class ChannelCatalogsExclusionFiltersApi
      */
     public function getChannelCatalogExclusionFilterOperatorsAsyncWithHttpInfo()
     {
-        $returnType = '\Swagger\Client\Model\ExclusionFilterOperator[]';
+        $returnType = '\EffetB\BeezupApi\Model\ExclusionFilterOperator[]';
         $request = $this->getChannelCatalogExclusionFilterOperatorsRequest();
 
         return $this->client
@@ -618,9 +618,9 @@ class ChannelCatalogsExclusionFiltersApi
      *
      * @param  string $channel_catalog_id The channel catalog identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ExclusionFiltersResponse
+     * @return \EffetB\BeezupApi\Model\ExclusionFiltersResponse
      */
     public function getChannelCatalogExclusionFilters($channel_catalog_id)
     {
@@ -635,13 +635,13 @@ class ChannelCatalogsExclusionFiltersApi
      *
      * @param  string $channel_catalog_id The channel catalog identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ExclusionFiltersResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\ExclusionFiltersResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getChannelCatalogExclusionFiltersWithHttpInfo($channel_catalog_id)
     {
-        $returnType = '\Swagger\Client\Model\ExclusionFiltersResponse';
+        $returnType = '\EffetB\BeezupApi\Model\ExclusionFiltersResponse';
         $request = $this->getChannelCatalogExclusionFiltersRequest($channel_catalog_id);
 
         try {
@@ -693,7 +693,7 @@ class ChannelCatalogsExclusionFiltersApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ExclusionFiltersResponse',
+                        '\EffetB\BeezupApi\Model\ExclusionFiltersResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -701,7 +701,7 @@ class ChannelCatalogsExclusionFiltersApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -709,7 +709,7 @@ class ChannelCatalogsExclusionFiltersApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -751,7 +751,7 @@ class ChannelCatalogsExclusionFiltersApi
      */
     public function getChannelCatalogExclusionFiltersAsyncWithHttpInfo($channel_catalog_id)
     {
-        $returnType = '\Swagger\Client\Model\ExclusionFiltersResponse';
+        $returnType = '\EffetB\BeezupApi\Model\ExclusionFiltersResponse';
         $request = $this->getChannelCatalogExclusionFiltersRequest($channel_catalog_id);
 
         return $this->client

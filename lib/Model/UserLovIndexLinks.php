@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * UserLovIndexLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class UserLovIndexLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksGetUserLovIndexLink',
-        'lists' => '\Swagger\Client\Model\UserLovLinks'
+        'self' => '\EffetB\BeezupApi\Model\LinksGetUserLovIndexLink',
+        'lists' => '\EffetB\BeezupApi\Model\UserLovLinks'
     ];
 
     /**
@@ -214,7 +214,7 @@ class UserLovIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksGetUserLovIndexLink
+     * @return \EffetB\BeezupApi\Model\LinksGetUserLovIndexLink
      */
     public function getSelf()
     {
@@ -224,7 +224,7 @@ class UserLovIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksGetUserLovIndexLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksGetUserLovIndexLink $self self
      *
      * @return $this
      */
@@ -238,7 +238,7 @@ class UserLovIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets lists
      *
-     * @return \Swagger\Client\Model\UserLovLinks
+     * @return \EffetB\BeezupApi\Model\UserLovLinks
      */
     public function getLists()
     {
@@ -248,7 +248,7 @@ class UserLovIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets lists
      *
-     * @param \Swagger\Client\Model\UserLovLinks $lists lists
+     * @param \EffetB\BeezupApi\Model\UserLovLinks $lists lists
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChangeCustomColumnExpressionRequest Class Doc Comment
  *
  * @category Class
  * @description The request message to change the custom column expression
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,8 +58,8 @@ class ChangeCustomColumnExpressionRequest implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'encrypted_expression' => '\Swagger\Client\Model\EncryptedExpression',
-        'encrypted_blockly_expression' => '\Swagger\Client\Model\EncryptedBlocklyExpression'
+        'encrypted_expression' => '\EffetB\BeezupApi\Model\EncryptedExpression',
+        'encrypted_blockly_expression' => '\EffetB\BeezupApi\Model\EncryptedBlocklyExpression'
     ];
 
     /**
@@ -227,7 +227,7 @@ class ChangeCustomColumnExpressionRequest implements ModelInterface, ArrayAccess
     /**
      * Gets encrypted_expression
      *
-     * @return \Swagger\Client\Model\EncryptedExpression
+     * @return \EffetB\BeezupApi\Model\EncryptedExpression
      */
     public function getEncryptedExpression()
     {
@@ -237,7 +237,7 @@ class ChangeCustomColumnExpressionRequest implements ModelInterface, ArrayAccess
     /**
      * Sets encrypted_expression
      *
-     * @param \Swagger\Client\Model\EncryptedExpression $encrypted_expression encrypted_expression
+     * @param \EffetB\BeezupApi\Model\EncryptedExpression $encrypted_expression encrypted_expression
      *
      * @return $this
      */
@@ -251,7 +251,7 @@ class ChangeCustomColumnExpressionRequest implements ModelInterface, ArrayAccess
     /**
      * Gets encrypted_blockly_expression
      *
-     * @return \Swagger\Client\Model\EncryptedBlocklyExpression
+     * @return \EffetB\BeezupApi\Model\EncryptedBlocklyExpression
      */
     public function getEncryptedBlocklyExpression()
     {
@@ -261,7 +261,7 @@ class ChangeCustomColumnExpressionRequest implements ModelInterface, ArrayAccess
     /**
      * Sets encrypted_blockly_expression
      *
-     * @param \Swagger\Client\Model\EncryptedBlocklyExpression $encrypted_blockly_expression encrypted_blockly_expression
+     * @param \EffetB\BeezupApi\Model\EncryptedBlocklyExpression $encrypted_blockly_expression encrypted_blockly_expression
      *
      * @return $this
      */

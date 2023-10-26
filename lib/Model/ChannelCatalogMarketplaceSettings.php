@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelCatalogMarketplaceSettings Class Doc Comment
  *
  * @category Class
  * @description The channel catalog marketplace settings
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,8 +58,8 @@ class ChannelCatalogMarketplaceSettings implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\ChannelCatalogMarketplaceSettingsLinks',
-        'settings' => '\Swagger\Client\Model\ChannelCatalogMarketplaceSetting[]'
+        'links' => '\EffetB\BeezupApi\Model\ChannelCatalogMarketplaceSettingsLinks',
+        'settings' => '\EffetB\BeezupApi\Model\ChannelCatalogMarketplaceSetting[]'
     ];
 
     /**
@@ -227,7 +227,7 @@ class ChannelCatalogMarketplaceSettings implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ChannelCatalogMarketplaceSettingsLinks
+     * @return \EffetB\BeezupApi\Model\ChannelCatalogMarketplaceSettingsLinks
      */
     public function getLinks()
     {
@@ -237,7 +237,7 @@ class ChannelCatalogMarketplaceSettings implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ChannelCatalogMarketplaceSettingsLinks $links links
+     * @param \EffetB\BeezupApi\Model\ChannelCatalogMarketplaceSettingsLinks $links links
      *
      * @return $this
      */
@@ -251,7 +251,7 @@ class ChannelCatalogMarketplaceSettings implements ModelInterface, ArrayAccess
     /**
      * Gets settings
      *
-     * @return \Swagger\Client\Model\ChannelCatalogMarketplaceSetting[]
+     * @return \EffetB\BeezupApi\Model\ChannelCatalogMarketplaceSetting[]
      */
     public function getSettings()
     {
@@ -261,7 +261,7 @@ class ChannelCatalogMarketplaceSettings implements ModelInterface, ArrayAccess
     /**
      * Sets settings
      *
-     * @param \Swagger\Client\Model\ChannelCatalogMarketplaceSetting[] $settings settings
+     * @param \EffetB\BeezupApi\Model\ChannelCatalogMarketplaceSetting[] $settings settings
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * AnalyticsStoreIndex Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class AnalyticsStoreIndex implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\AnalyticsStoreIndexLinks'
+        'links' => '\EffetB\BeezupApi\Model\AnalyticsStoreIndexLinks'
     ];
 
     /**
@@ -214,7 +214,7 @@ class AnalyticsStoreIndex implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\AnalyticsStoreIndexLinks
+     * @return \EffetB\BeezupApi\Model\AnalyticsStoreIndexLinks
      */
     public function getLinks()
     {
@@ -224,7 +224,7 @@ class AnalyticsStoreIndex implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\AnalyticsStoreIndexLinks $links links
+     * @param \EffetB\BeezupApi\Model\AnalyticsStoreIndexLinks $links links
      *
      * @return $this
      */

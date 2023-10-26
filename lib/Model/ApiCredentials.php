@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ApiCredentials Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class ApiCredentials implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'credentials' => '\Swagger\Client\Model\ApiCredential[]'
+        'credentials' => '\EffetB\BeezupApi\Model\ApiCredential[]'
     ];
 
     /**
@@ -208,7 +208,7 @@ class ApiCredentials implements ModelInterface, ArrayAccess
     /**
      * Gets credentials
      *
-     * @return \Swagger\Client\Model\ApiCredential[]
+     * @return \EffetB\BeezupApi\Model\ApiCredential[]
      */
     public function getCredentials()
     {
@@ -218,7 +218,7 @@ class ApiCredentials implements ModelInterface, ArrayAccess
     /**
      * Sets credentials
      *
-     * @param \Swagger\Client\Model\ApiCredential[] $credentials Your API credential list
+     * @param \EffetB\BeezupApi\Model\ApiCredential[] $credentials Your API credential list
      *
      * @return $this
      */

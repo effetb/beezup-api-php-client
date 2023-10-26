@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CustomColumnListLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class CustomColumnListLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksCatalogGetCustomColumnsLink',
-        'add' => '\Swagger\Client\Model\LinksCatalogSaveCustomColumnLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksCatalogGetCustomColumnsLink',
+        'add' => '\EffetB\BeezupApi\Model\LinksCatalogSaveCustomColumnLink'
     ];
 
     /**
@@ -220,7 +220,7 @@ class CustomColumnListLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksCatalogGetCustomColumnsLink
+     * @return \EffetB\BeezupApi\Model\LinksCatalogGetCustomColumnsLink
      */
     public function getSelf()
     {
@@ -230,7 +230,7 @@ class CustomColumnListLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksCatalogGetCustomColumnsLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksCatalogGetCustomColumnsLink $self self
      *
      * @return $this
      */
@@ -244,7 +244,7 @@ class CustomColumnListLinks implements ModelInterface, ArrayAccess
     /**
      * Gets add
      *
-     * @return \Swagger\Client\Model\LinksCatalogSaveCustomColumnLink
+     * @return \EffetB\BeezupApi\Model\LinksCatalogSaveCustomColumnLink
      */
     public function getAdd()
     {
@@ -254,7 +254,7 @@ class CustomColumnListLinks implements ModelInterface, ArrayAccess
     /**
      * Sets add
      *
-     * @param \Swagger\Client\Model\LinksCatalogSaveCustomColumnLink $add add
+     * @param \EffetB\BeezupApi\Model\LinksCatalogSaveCustomColumnLink $add add
      *
      * @return $this
      */

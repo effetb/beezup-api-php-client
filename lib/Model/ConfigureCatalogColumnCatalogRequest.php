@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ConfigureCatalogColumnCatalogRequest Class Doc Comment
  *
  * @category Class
  * @description The request to configure a catalog column
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,7 +58,7 @@ class ConfigureCatalogColumnCatalogRequest implements ModelInterface, ArrayAcces
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'catalog_column' => '\Swagger\Client\Model\CatalogColumn'
+        'catalog_column' => '\EffetB\BeezupApi\Model\CatalogColumn'
     ];
 
     /**
@@ -215,7 +215,7 @@ class ConfigureCatalogColumnCatalogRequest implements ModelInterface, ArrayAcces
     /**
      * Gets catalog_column
      *
-     * @return \Swagger\Client\Model\CatalogColumn
+     * @return \EffetB\BeezupApi\Model\CatalogColumn
      */
     public function getCatalogColumn()
     {
@@ -225,7 +225,7 @@ class ConfigureCatalogColumnCatalogRequest implements ModelInterface, ArrayAcces
     /**
      * Sets catalog_column
      *
-     * @param \Swagger\Client\Model\CatalogColumn $catalog_column catalog_column
+     * @param \EffetB\BeezupApi\Model\CatalogColumn $catalog_column catalog_column
      *
      * @return $this
      */

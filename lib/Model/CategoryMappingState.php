@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CategoryMappingState Class Doc Comment
  *
  * @category Class
  * @description The category mapping state of the channel catalog
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,7 +58,7 @@ class CategoryMappingState implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'status' => '\Swagger\Client\Model\CategoryMappingStatus',
+        'status' => '\EffetB\BeezupApi\Model\CategoryMappingStatus',
         'uncategorized_product_count' => 'int',
         'categorized_without_cost_product_count' => 'int'
     ];
@@ -221,7 +221,7 @@ class CategoryMappingState implements ModelInterface, ArrayAccess
     /**
      * Gets status
      *
-     * @return \Swagger\Client\Model\CategoryMappingStatus
+     * @return \EffetB\BeezupApi\Model\CategoryMappingStatus
      */
     public function getStatus()
     {
@@ -231,7 +231,7 @@ class CategoryMappingState implements ModelInterface, ArrayAccess
     /**
      * Sets status
      *
-     * @param \Swagger\Client\Model\CategoryMappingStatus $status status
+     * @param \EffetB\BeezupApi\Model\CategoryMappingStatus $status status
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * NextContractInfo Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -61,26 +61,26 @@ class NextContractInfo implements ModelInterface, ArrayAccess
         'billing_period_percent_discount' => 'double',
         'discount_duration_in_month' => 'int',
         'percent_discount' => 'double',
-        'offer_id' => '\Swagger\Client\Model\OfferId',
-        'store_count' => '\Swagger\Client\Model\StoreCount',
+        'offer_id' => '\EffetB\BeezupApi\Model\OfferId',
+        'store_count' => '\EffetB\BeezupApi\Model\StoreCount',
         'start_utc_date' => '\DateTime',
         'commitment_calculated_finish_utc_date' => '\DateTime',
         'billing_period_in_month' => 'int',
         'fixed_price' => 'double',
         'offer_name' => 'string',
-        'currency_code' => '\Swagger\Client\Model\BeezUPCommonCurrencyCode',
-        'contract_id' => '\Swagger\Client\Model\ContractId',
+        'currency_code' => '\EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode',
+        'contract_id' => '\EffetB\BeezupApi\Model\ContractId',
         'commitment_period_in_month' => 'int',
         'click_included' => 'int',
         'additional_click_price' => 'double',
         'ip_user_creation' => 'string',
         'ip_user_modification' => 'string',
-        'fixed_and_variable_click_info' => '\Swagger\Client\Model\FixedAndVariableClickModelInfo',
-        'variable_model_info' => '\Swagger\Client\Model\VariableModelInfo',
+        'fixed_and_variable_click_info' => '\EffetB\BeezupApi\Model\FixedAndVariableClickModelInfo',
+        'variable_model_info' => '\EffetB\BeezupApi\Model\VariableModelInfo',
         'is_commitment_renewal_automatically' => 'bool',
         'discount_end_utc_date' => '\DateTime',
         'is_modifiable_contract' => 'bool',
-        'links' => '\Swagger\Client\Model\NextContractInfoLinks'
+        'links' => '\EffetB\BeezupApi\Model\NextContractInfoLinks'
     ];
 
     /**
@@ -448,7 +448,7 @@ class NextContractInfo implements ModelInterface, ArrayAccess
     /**
      * Gets offer_id
      *
-     * @return \Swagger\Client\Model\OfferId
+     * @return \EffetB\BeezupApi\Model\OfferId
      */
     public function getOfferId()
     {
@@ -458,7 +458,7 @@ class NextContractInfo implements ModelInterface, ArrayAccess
     /**
      * Sets offer_id
      *
-     * @param \Swagger\Client\Model\OfferId $offer_id offer_id
+     * @param \EffetB\BeezupApi\Model\OfferId $offer_id offer_id
      *
      * @return $this
      */
@@ -472,7 +472,7 @@ class NextContractInfo implements ModelInterface, ArrayAccess
     /**
      * Gets store_count
      *
-     * @return \Swagger\Client\Model\StoreCount
+     * @return \EffetB\BeezupApi\Model\StoreCount
      */
     public function getStoreCount()
     {
@@ -482,7 +482,7 @@ class NextContractInfo implements ModelInterface, ArrayAccess
     /**
      * Sets store_count
      *
-     * @param \Swagger\Client\Model\StoreCount $store_count store_count
+     * @param \EffetB\BeezupApi\Model\StoreCount $store_count store_count
      *
      * @return $this
      */
@@ -616,7 +616,7 @@ class NextContractInfo implements ModelInterface, ArrayAccess
     /**
      * Gets currency_code
      *
-     * @return \Swagger\Client\Model\BeezUPCommonCurrencyCode
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode
      */
     public function getCurrencyCode()
     {
@@ -626,7 +626,7 @@ class NextContractInfo implements ModelInterface, ArrayAccess
     /**
      * Sets currency_code
      *
-     * @param \Swagger\Client\Model\BeezUPCommonCurrencyCode $currency_code currency_code
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode $currency_code currency_code
      *
      * @return $this
      */
@@ -640,7 +640,7 @@ class NextContractInfo implements ModelInterface, ArrayAccess
     /**
      * Gets contract_id
      *
-     * @return \Swagger\Client\Model\ContractId
+     * @return \EffetB\BeezupApi\Model\ContractId
      */
     public function getContractId()
     {
@@ -650,7 +650,7 @@ class NextContractInfo implements ModelInterface, ArrayAccess
     /**
      * Sets contract_id
      *
-     * @param \Swagger\Client\Model\ContractId $contract_id contract_id
+     * @param \EffetB\BeezupApi\Model\ContractId $contract_id contract_id
      *
      * @return $this
      */
@@ -784,7 +784,7 @@ class NextContractInfo implements ModelInterface, ArrayAccess
     /**
      * Gets fixed_and_variable_click_info
      *
-     * @return \Swagger\Client\Model\FixedAndVariableClickModelInfo
+     * @return \EffetB\BeezupApi\Model\FixedAndVariableClickModelInfo
      */
     public function getFixedAndVariableClickInfo()
     {
@@ -794,7 +794,7 @@ class NextContractInfo implements ModelInterface, ArrayAccess
     /**
      * Sets fixed_and_variable_click_info
      *
-     * @param \Swagger\Client\Model\FixedAndVariableClickModelInfo $fixed_and_variable_click_info fixed_and_variable_click_info
+     * @param \EffetB\BeezupApi\Model\FixedAndVariableClickModelInfo $fixed_and_variable_click_info fixed_and_variable_click_info
      *
      * @return $this
      */
@@ -808,7 +808,7 @@ class NextContractInfo implements ModelInterface, ArrayAccess
     /**
      * Gets variable_model_info
      *
-     * @return \Swagger\Client\Model\VariableModelInfo
+     * @return \EffetB\BeezupApi\Model\VariableModelInfo
      */
     public function getVariableModelInfo()
     {
@@ -818,7 +818,7 @@ class NextContractInfo implements ModelInterface, ArrayAccess
     /**
      * Sets variable_model_info
      *
-     * @param \Swagger\Client\Model\VariableModelInfo $variable_model_info variable_model_info
+     * @param \EffetB\BeezupApi\Model\VariableModelInfo $variable_model_info variable_model_info
      *
      * @return $this
      */
@@ -904,7 +904,7 @@ class NextContractInfo implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\NextContractInfoLinks
+     * @return \EffetB\BeezupApi\Model\NextContractInfoLinks
      */
     public function getLinks()
     {
@@ -914,7 +914,7 @@ class NextContractInfo implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\NextContractInfoLinks $links links
+     * @param \EffetB\BeezupApi\Model\NextContractInfoLinks $links links
      *
      * @return $this
      */

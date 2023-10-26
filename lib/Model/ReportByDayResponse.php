@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ReportByDayResponse Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,9 +57,9 @@ class ReportByDayResponse implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'currency_code' => '\Swagger\Client\Model\BeezUPCommonCurrencyCode',
-        'global' => '\Swagger\Client\Model\ReportByDayGlobal',
-        'days' => '\Swagger\Client\Model\ReportByDay[]'
+        'currency_code' => '\EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode',
+        'global' => '\EffetB\BeezupApi\Model\ReportByDayGlobal',
+        'days' => '\EffetB\BeezupApi\Model\ReportByDay[]'
     ];
 
     /**
@@ -232,7 +232,7 @@ class ReportByDayResponse implements ModelInterface, ArrayAccess
     /**
      * Gets currency_code
      *
-     * @return \Swagger\Client\Model\BeezUPCommonCurrencyCode
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode
      */
     public function getCurrencyCode()
     {
@@ -242,7 +242,7 @@ class ReportByDayResponse implements ModelInterface, ArrayAccess
     /**
      * Sets currency_code
      *
-     * @param \Swagger\Client\Model\BeezUPCommonCurrencyCode $currency_code currency_code
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode $currency_code currency_code
      *
      * @return $this
      */
@@ -256,7 +256,7 @@ class ReportByDayResponse implements ModelInterface, ArrayAccess
     /**
      * Gets global
      *
-     * @return \Swagger\Client\Model\ReportByDayGlobal
+     * @return \EffetB\BeezupApi\Model\ReportByDayGlobal
      */
     public function getGlobal()
     {
@@ -266,7 +266,7 @@ class ReportByDayResponse implements ModelInterface, ArrayAccess
     /**
      * Sets global
      *
-     * @param \Swagger\Client\Model\ReportByDayGlobal $global global
+     * @param \EffetB\BeezupApi\Model\ReportByDayGlobal $global global
      *
      * @return $this
      */
@@ -280,7 +280,7 @@ class ReportByDayResponse implements ModelInterface, ArrayAccess
     /**
      * Gets days
      *
-     * @return \Swagger\Client\Model\ReportByDay[]
+     * @return \EffetB\BeezupApi\Model\ReportByDay[]
      */
     public function getDays()
     {
@@ -290,7 +290,7 @@ class ReportByDayResponse implements ModelInterface, ArrayAccess
     /**
      * Sets days
      *
-     * @param \Swagger\Client\Model\ReportByDay[] $days days
+     * @param \EffetB\BeezupApi\Model\ReportByDay[] $days days
      *
      * @return $this
      */

@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace EffetB\BeezupApi\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use EffetB\BeezupApi\ApiException;
+use EffetB\BeezupApi\Configuration;
+use EffetB\BeezupApi\HeaderSelector;
+use EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CustomerStoresApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -92,11 +92,11 @@ class CustomerStoresApi
      *
      * Create a new store
      *
-     * @param  \Swagger\Client\Model\CreateStoreRequest $request request (required)
+     * @param  \EffetB\BeezupApi\Model\CreateStoreRequest $request request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\LinksGetStoreLink
+     * @return \EffetB\BeezupApi\Model\LinksGetStoreLink
      */
     public function createStore($request)
     {
@@ -109,15 +109,15 @@ class CustomerStoresApi
      *
      * Create a new store
      *
-     * @param  \Swagger\Client\Model\CreateStoreRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\CreateStoreRequest $request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\LinksGetStoreLink, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\LinksGetStoreLink, HTTP status code, HTTP response headers (array of strings)
      */
     public function createStoreWithHttpInfo($request)
     {
-        $returnType = '\Swagger\Client\Model\LinksGetStoreLink';
+        $returnType = '\EffetB\BeezupApi\Model\LinksGetStoreLink';
         $request = $this->createStoreRequest($request);
 
         try {
@@ -169,7 +169,7 @@ class CustomerStoresApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\LinksGetStoreLink',
+                        '\EffetB\BeezupApi\Model\LinksGetStoreLink',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -177,7 +177,7 @@ class CustomerStoresApi
                 case 402:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ErrorResponseMessagePaymentRequired',
+                        '\EffetB\BeezupApi\Model\ErrorResponseMessagePaymentRequired',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -185,7 +185,7 @@ class CustomerStoresApi
                 case 409:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -193,7 +193,7 @@ class CustomerStoresApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -208,7 +208,7 @@ class CustomerStoresApi
      *
      * Create a new store
      *
-     * @param  \Swagger\Client\Model\CreateStoreRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\CreateStoreRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -228,14 +228,14 @@ class CustomerStoresApi
      *
      * Create a new store
      *
-     * @param  \Swagger\Client\Model\CreateStoreRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\CreateStoreRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function createStoreAsyncWithHttpInfo($request)
     {
-        $returnType = '\Swagger\Client\Model\LinksGetStoreLink';
+        $returnType = '\EffetB\BeezupApi\Model\LinksGetStoreLink';
         $request = $this->createStoreRequest($request);
 
         return $this->client
@@ -278,7 +278,7 @@ class CustomerStoresApi
     /**
      * Create request for operation 'createStore'
      *
-     * @param  \Swagger\Client\Model\CreateStoreRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\CreateStoreRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -380,7 +380,7 @@ class CustomerStoresApi
      *
      * @param  string $store_id Your store identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -396,7 +396,7 @@ class CustomerStoresApi
      *
      * @param  string $store_id Your store identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -440,7 +440,7 @@ class CustomerStoresApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -448,7 +448,7 @@ class CustomerStoresApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -627,9 +627,9 @@ class CustomerStoresApi
      * @param  string $store_id Your store identifier (required)
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\Store
+     * @return \EffetB\BeezupApi\Model\Store
      */
     public function getStore($store_id, $if_none_match = null)
     {
@@ -645,13 +645,13 @@ class CustomerStoresApi
      * @param  string $store_id Your store identifier (required)
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\Store, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\Store, HTTP status code, HTTP response headers (array of strings)
      */
     public function getStoreWithHttpInfo($store_id, $if_none_match = null)
     {
-        $returnType = '\Swagger\Client\Model\Store';
+        $returnType = '\EffetB\BeezupApi\Model\Store';
         $request = $this->getStoreRequest($store_id, $if_none_match);
 
         try {
@@ -703,7 +703,7 @@ class CustomerStoresApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\Store',
+                        '\EffetB\BeezupApi\Model\Store',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -711,7 +711,7 @@ class CustomerStoresApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -719,7 +719,7 @@ class CustomerStoresApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -763,7 +763,7 @@ class CustomerStoresApi
      */
     public function getStoreAsyncWithHttpInfo($store_id, $if_none_match = null)
     {
-        $returnType = '\Swagger\Client\Model\Store';
+        $returnType = '\EffetB\BeezupApi\Model\Store';
         $request = $this->getStoreRequest($store_id, $if_none_match);
 
         return $this->client
@@ -918,9 +918,9 @@ class CustomerStoresApi
      *
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\StoreList
+     * @return \EffetB\BeezupApi\Model\StoreList
      */
     public function getStores($if_none_match = null)
     {
@@ -935,13 +935,13 @@ class CustomerStoresApi
      *
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\StoreList, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\StoreList, HTTP status code, HTTP response headers (array of strings)
      */
     public function getStoresWithHttpInfo($if_none_match = null)
     {
-        $returnType = '\Swagger\Client\Model\StoreList';
+        $returnType = '\EffetB\BeezupApi\Model\StoreList';
         $request = $this->getStoresRequest($if_none_match);
 
         try {
@@ -993,7 +993,7 @@ class CustomerStoresApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\StoreList',
+                        '\EffetB\BeezupApi\Model\StoreList',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1001,7 +1001,7 @@ class CustomerStoresApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1043,7 +1043,7 @@ class CustomerStoresApi
      */
     public function getStoresAsyncWithHttpInfo($if_none_match = null)
     {
-        $returnType = '\Swagger\Client\Model\StoreList';
+        $returnType = '\EffetB\BeezupApi\Model\StoreList';
         $request = $this->getStoresRequest($if_none_match);
 
         return $this->client
@@ -1182,9 +1182,9 @@ class CustomerStoresApi
      * Update some store's information.
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\UpdateStoreRequest $request request (required)
+     * @param  \EffetB\BeezupApi\Model\UpdateStoreRequest $request request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1199,9 +1199,9 @@ class CustomerStoresApi
      * Update some store's information.
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\UpdateStoreRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\UpdateStoreRequest $request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1245,7 +1245,7 @@ class CustomerStoresApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1253,7 +1253,7 @@ class CustomerStoresApi
                 case 409:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1261,7 +1261,7 @@ class CustomerStoresApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1277,7 +1277,7 @@ class CustomerStoresApi
      * Update some store's information.
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\UpdateStoreRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\UpdateStoreRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1298,7 +1298,7 @@ class CustomerStoresApi
      * Update some store's information.
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\UpdateStoreRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\UpdateStoreRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1335,7 +1335,7 @@ class CustomerStoresApi
      * Create request for operation 'updateStore'
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\UpdateStoreRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\UpdateStoreRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

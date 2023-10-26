@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * UserListOfValuesResponseLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class UserListOfValuesResponseLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksGetUserListOfValuesLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksGetUserListOfValuesLink'
     ];
 
     /**
@@ -208,7 +208,7 @@ class UserListOfValuesResponseLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksGetUserListOfValuesLink
+     * @return \EffetB\BeezupApi\Model\LinksGetUserListOfValuesLink
      */
     public function getSelf()
     {
@@ -218,7 +218,7 @@ class UserListOfValuesResponseLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksGetUserListOfValuesLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksGetUserListOfValuesLink $self self
      *
      * @return $this
      */

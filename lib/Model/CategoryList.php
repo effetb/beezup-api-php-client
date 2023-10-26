@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CategoryList Class Doc Comment
  *
  * @category Class
  * @description The object which contains the category list
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,7 +58,7 @@ class CategoryList implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'categories' => '\Swagger\Client\Model\Category[]'
+        'categories' => '\EffetB\BeezupApi\Model\Category[]'
     ];
 
     /**
@@ -215,7 +215,7 @@ class CategoryList implements ModelInterface, ArrayAccess
     /**
      * Gets categories
      *
-     * @return \Swagger\Client\Model\Category[]
+     * @return \EffetB\BeezupApi\Model\Category[]
      */
     public function getCategories()
     {
@@ -225,7 +225,7 @@ class CategoryList implements ModelInterface, ArrayAccess
     /**
      * Sets categories
      *
-     * @param \Swagger\Client\Model\Category[] $categories The category list
+     * @param \EffetB\BeezupApi\Model\Category[] $categories The category list
      *
      * @return $this
      */

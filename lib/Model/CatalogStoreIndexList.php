@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CatalogStoreIndexList Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class CatalogStoreIndexList implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => 'map[string,\Swagger\Client\Model\CatalogStoreIndex]'
+        'links' => 'map[string,\EffetB\BeezupApi\Model\CatalogStoreIndex]'
     ];
 
     /**
@@ -208,7 +208,7 @@ class CatalogStoreIndexList implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return map[string,\Swagger\Client\Model\CatalogStoreIndex]
+     * @return map[string,\EffetB\BeezupApi\Model\CatalogStoreIndex]
      */
     public function getLinks()
     {
@@ -218,7 +218,7 @@ class CatalogStoreIndexList implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param map[string,\Swagger\Client\Model\CatalogStoreIndex] $links The key is the store identifier.
+     * @param map[string,\EffetB\BeezupApi\Model\CatalogStoreIndex] $links The key is the store identifier.
      *
      * @return $this
      */

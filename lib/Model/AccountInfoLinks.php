@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * AccountInfoLinks Class Doc Comment
  *
  * @category Class
  * @description The different actions you can make on this account
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,15 +58,15 @@ class AccountInfoLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksGetUserAccountInfoLink',
-        'save_personal_info' => '\Swagger\Client\Model\LinksSavePersonalInfoLink',
-        'change_password' => '\Swagger\Client\Model\LinksChangePasswordLink',
-        'save_company_info' => '\Swagger\Client\Model\LinksSaveCompanyInfoLink',
-        'get_profile_picture_info' => '\Swagger\Client\Model\LinksGetProfilePictureInfoLink',
-        'save_profile_picture_info' => '\Swagger\Client\Model\LinksSaveProfilePictureInfoLink',
-        'get_credit_card_info' => '\Swagger\Client\Model\LinksGetCreditCardInfoLink',
-        'save_credit_card_info' => '\Swagger\Client\Model\LinksSaveCreditCardInfoLink',
-        'activate_user_account' => '\Swagger\Client\Model\LinksActivateUserAccountLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksGetUserAccountInfoLink',
+        'save_personal_info' => '\EffetB\BeezupApi\Model\LinksSavePersonalInfoLink',
+        'change_password' => '\EffetB\BeezupApi\Model\LinksChangePasswordLink',
+        'save_company_info' => '\EffetB\BeezupApi\Model\LinksSaveCompanyInfoLink',
+        'get_profile_picture_info' => '\EffetB\BeezupApi\Model\LinksGetProfilePictureInfoLink',
+        'save_profile_picture_info' => '\EffetB\BeezupApi\Model\LinksSaveProfilePictureInfoLink',
+        'get_credit_card_info' => '\EffetB\BeezupApi\Model\LinksGetCreditCardInfoLink',
+        'save_credit_card_info' => '\EffetB\BeezupApi\Model\LinksSaveCreditCardInfoLink',
+        'activate_user_account' => '\EffetB\BeezupApi\Model\LinksActivateUserAccountLink'
     ];
 
     /**
@@ -305,7 +305,7 @@ class AccountInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksGetUserAccountInfoLink
+     * @return \EffetB\BeezupApi\Model\LinksGetUserAccountInfoLink
      */
     public function getSelf()
     {
@@ -315,7 +315,7 @@ class AccountInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksGetUserAccountInfoLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksGetUserAccountInfoLink $self self
      *
      * @return $this
      */
@@ -329,7 +329,7 @@ class AccountInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Gets save_personal_info
      *
-     * @return \Swagger\Client\Model\LinksSavePersonalInfoLink
+     * @return \EffetB\BeezupApi\Model\LinksSavePersonalInfoLink
      */
     public function getSavePersonalInfo()
     {
@@ -339,7 +339,7 @@ class AccountInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Sets save_personal_info
      *
-     * @param \Swagger\Client\Model\LinksSavePersonalInfoLink $save_personal_info save_personal_info
+     * @param \EffetB\BeezupApi\Model\LinksSavePersonalInfoLink $save_personal_info save_personal_info
      *
      * @return $this
      */
@@ -353,7 +353,7 @@ class AccountInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Gets change_password
      *
-     * @return \Swagger\Client\Model\LinksChangePasswordLink
+     * @return \EffetB\BeezupApi\Model\LinksChangePasswordLink
      */
     public function getChangePassword()
     {
@@ -363,7 +363,7 @@ class AccountInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Sets change_password
      *
-     * @param \Swagger\Client\Model\LinksChangePasswordLink $change_password change_password
+     * @param \EffetB\BeezupApi\Model\LinksChangePasswordLink $change_password change_password
      *
      * @return $this
      */
@@ -377,7 +377,7 @@ class AccountInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Gets save_company_info
      *
-     * @return \Swagger\Client\Model\LinksSaveCompanyInfoLink
+     * @return \EffetB\BeezupApi\Model\LinksSaveCompanyInfoLink
      */
     public function getSaveCompanyInfo()
     {
@@ -387,7 +387,7 @@ class AccountInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Sets save_company_info
      *
-     * @param \Swagger\Client\Model\LinksSaveCompanyInfoLink $save_company_info save_company_info
+     * @param \EffetB\BeezupApi\Model\LinksSaveCompanyInfoLink $save_company_info save_company_info
      *
      * @return $this
      */
@@ -401,7 +401,7 @@ class AccountInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Gets get_profile_picture_info
      *
-     * @return \Swagger\Client\Model\LinksGetProfilePictureInfoLink
+     * @return \EffetB\BeezupApi\Model\LinksGetProfilePictureInfoLink
      */
     public function getGetProfilePictureInfo()
     {
@@ -411,7 +411,7 @@ class AccountInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Sets get_profile_picture_info
      *
-     * @param \Swagger\Client\Model\LinksGetProfilePictureInfoLink $get_profile_picture_info get_profile_picture_info
+     * @param \EffetB\BeezupApi\Model\LinksGetProfilePictureInfoLink $get_profile_picture_info get_profile_picture_info
      *
      * @return $this
      */
@@ -425,7 +425,7 @@ class AccountInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Gets save_profile_picture_info
      *
-     * @return \Swagger\Client\Model\LinksSaveProfilePictureInfoLink
+     * @return \EffetB\BeezupApi\Model\LinksSaveProfilePictureInfoLink
      */
     public function getSaveProfilePictureInfo()
     {
@@ -435,7 +435,7 @@ class AccountInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Sets save_profile_picture_info
      *
-     * @param \Swagger\Client\Model\LinksSaveProfilePictureInfoLink $save_profile_picture_info save_profile_picture_info
+     * @param \EffetB\BeezupApi\Model\LinksSaveProfilePictureInfoLink $save_profile_picture_info save_profile_picture_info
      *
      * @return $this
      */
@@ -449,7 +449,7 @@ class AccountInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Gets get_credit_card_info
      *
-     * @return \Swagger\Client\Model\LinksGetCreditCardInfoLink
+     * @return \EffetB\BeezupApi\Model\LinksGetCreditCardInfoLink
      */
     public function getGetCreditCardInfo()
     {
@@ -459,7 +459,7 @@ class AccountInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Sets get_credit_card_info
      *
-     * @param \Swagger\Client\Model\LinksGetCreditCardInfoLink $get_credit_card_info get_credit_card_info
+     * @param \EffetB\BeezupApi\Model\LinksGetCreditCardInfoLink $get_credit_card_info get_credit_card_info
      *
      * @return $this
      */
@@ -473,7 +473,7 @@ class AccountInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Gets save_credit_card_info
      *
-     * @return \Swagger\Client\Model\LinksSaveCreditCardInfoLink
+     * @return \EffetB\BeezupApi\Model\LinksSaveCreditCardInfoLink
      */
     public function getSaveCreditCardInfo()
     {
@@ -483,7 +483,7 @@ class AccountInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Sets save_credit_card_info
      *
-     * @param \Swagger\Client\Model\LinksSaveCreditCardInfoLink $save_credit_card_info save_credit_card_info
+     * @param \EffetB\BeezupApi\Model\LinksSaveCreditCardInfoLink $save_credit_card_info save_credit_card_info
      *
      * @return $this
      */
@@ -497,7 +497,7 @@ class AccountInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Gets activate_user_account
      *
-     * @return \Swagger\Client\Model\LinksActivateUserAccountLink
+     * @return \EffetB\BeezupApi\Model\LinksActivateUserAccountLink
      */
     public function getActivateUserAccount()
     {
@@ -507,7 +507,7 @@ class AccountInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Sets activate_user_account
      *
-     * @param \Swagger\Client\Model\LinksActivateUserAccountLink $activate_user_account activate_user_account
+     * @param \EffetB\BeezupApi\Model\LinksActivateUserAccountLink $activate_user_account activate_user_account
      *
      * @return $this
      */

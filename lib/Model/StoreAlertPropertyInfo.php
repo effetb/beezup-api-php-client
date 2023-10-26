@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * StoreAlertPropertyInfo Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class StoreAlertPropertyInfo implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'property_id' => '\Swagger\Client\Model\AlertPropertyId',
-        'property_value' => '\Swagger\Client\Model\AlertPropertyValue',
+        'property_id' => '\EffetB\BeezupApi\Model\AlertPropertyId',
+        'property_value' => '\EffetB\BeezupApi\Model\AlertPropertyValue',
         'property_name' => 'string',
         'property_validation_expression' => 'string'
     ];
@@ -244,7 +244,7 @@ class StoreAlertPropertyInfo implements ModelInterface, ArrayAccess
     /**
      * Gets property_id
      *
-     * @return \Swagger\Client\Model\AlertPropertyId
+     * @return \EffetB\BeezupApi\Model\AlertPropertyId
      */
     public function getPropertyId()
     {
@@ -254,7 +254,7 @@ class StoreAlertPropertyInfo implements ModelInterface, ArrayAccess
     /**
      * Sets property_id
      *
-     * @param \Swagger\Client\Model\AlertPropertyId $property_id property_id
+     * @param \EffetB\BeezupApi\Model\AlertPropertyId $property_id property_id
      *
      * @return $this
      */
@@ -268,7 +268,7 @@ class StoreAlertPropertyInfo implements ModelInterface, ArrayAccess
     /**
      * Gets property_value
      *
-     * @return \Swagger\Client\Model\AlertPropertyValue
+     * @return \EffetB\BeezupApi\Model\AlertPropertyValue
      */
     public function getPropertyValue()
     {
@@ -278,7 +278,7 @@ class StoreAlertPropertyInfo implements ModelInterface, ArrayAccess
     /**
      * Sets property_value
      *
-     * @param \Swagger\Client\Model\AlertPropertyValue $property_value property_value
+     * @param \EffetB\BeezupApi\Model\AlertPropertyValue $property_value property_value
      *
      * @return $this
      */

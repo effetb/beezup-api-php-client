@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CatalogColumnLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class CatalogColumnLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'rename' => '\Swagger\Client\Model\LinksCatalogChangeCatalogColumnUserNameLink'
+        'rename' => '\EffetB\BeezupApi\Model\LinksCatalogChangeCatalogColumnUserNameLink'
     ];
 
     /**
@@ -208,7 +208,7 @@ class CatalogColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Gets rename
      *
-     * @return \Swagger\Client\Model\LinksCatalogChangeCatalogColumnUserNameLink
+     * @return \EffetB\BeezupApi\Model\LinksCatalogChangeCatalogColumnUserNameLink
      */
     public function getRename()
     {
@@ -218,7 +218,7 @@ class CatalogColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Sets rename
      *
-     * @param \Swagger\Client\Model\LinksCatalogChangeCatalogColumnUserNameLink $rename rename
+     * @param \EffetB\BeezupApi\Model\LinksCatalogChangeCatalogColumnUserNameLink $rename rename
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,14 +27,14 @@
  * Please update the test case below to test the model.
  */
 
-namespace Swagger\Client;
+namespace EffetB\BeezupApi;
 
 /**
  * ProductSetVisibilityCriteriaLogicTypeTest Class Doc Comment
  *
  * @category    Class
  * @description Indicate how you want to combine the filters: * funnel: You will get the products which meet at least one of the product set criterion. The criteria are applied in the following order:   - categorization   - exclusion filters   - deactivations * cumulative: You will get the products which have all the product set criteria
- * @package     Swagger\Client
+ * @package     EffetB\BeezupApi
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */

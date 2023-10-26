@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ExclusionFilter Class Doc Comment
  *
  * @category Class
  * @description The exclusion filter
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,12 +58,12 @@ class ExclusionFilter implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'name' => '\Swagger\Client\Model\ExclusionFilterName',
+        'name' => '\EffetB\BeezupApi\Model\ExclusionFilterName',
         'position' => 'int',
         'group_id' => 'string',
         'position_in_group' => 'int',
-        'channel_column_id' => '\Swagger\Client\Model\BeezUPCommonChannelColumnId',
-        'operator_name' => '\Swagger\Client\Model\ExclusionFilterOperatorName',
+        'channel_column_id' => '\EffetB\BeezupApi\Model\BeezUPCommonChannelColumnId',
+        'operator_name' => '\EffetB\BeezupApi\Model\ExclusionFilterOperatorName',
         'value' => 'string',
         'enabled' => 'bool'
     ];
@@ -307,7 +307,7 @@ class ExclusionFilter implements ModelInterface, ArrayAccess
     /**
      * Gets name
      *
-     * @return \Swagger\Client\Model\ExclusionFilterName
+     * @return \EffetB\BeezupApi\Model\ExclusionFilterName
      */
     public function getName()
     {
@@ -317,7 +317,7 @@ class ExclusionFilter implements ModelInterface, ArrayAccess
     /**
      * Sets name
      *
-     * @param \Swagger\Client\Model\ExclusionFilterName $name name
+     * @param \EffetB\BeezupApi\Model\ExclusionFilterName $name name
      *
      * @return $this
      */
@@ -413,7 +413,7 @@ class ExclusionFilter implements ModelInterface, ArrayAccess
     /**
      * Gets channel_column_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonChannelColumnId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonChannelColumnId
      */
     public function getChannelColumnId()
     {
@@ -423,7 +423,7 @@ class ExclusionFilter implements ModelInterface, ArrayAccess
     /**
      * Sets channel_column_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonChannelColumnId $channel_column_id channel_column_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonChannelColumnId $channel_column_id channel_column_id
      *
      * @return $this
      */
@@ -437,7 +437,7 @@ class ExclusionFilter implements ModelInterface, ArrayAccess
     /**
      * Gets operator_name
      *
-     * @return \Swagger\Client\Model\ExclusionFilterOperatorName
+     * @return \EffetB\BeezupApi\Model\ExclusionFilterOperatorName
      */
     public function getOperatorName()
     {
@@ -447,7 +447,7 @@ class ExclusionFilter implements ModelInterface, ArrayAccess
     /**
      * Sets operator_name
      *
-     * @param \Swagger\Client\Model\ExclusionFilterOperatorName $operator_name operator_name
+     * @param \EffetB\BeezupApi\Model\ExclusionFilterOperatorName $operator_name operator_name
      *
      * @return $this
      */

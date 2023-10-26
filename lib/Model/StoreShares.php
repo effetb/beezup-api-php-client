@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * StoreShares Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class StoreShares implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\StoreSharesLinks',
-        'shares' => '\Swagger\Client\Model\StoreShare[]'
+        'links' => '\EffetB\BeezupApi\Model\StoreSharesLinks',
+        'shares' => '\EffetB\BeezupApi\Model\StoreShare[]'
     ];
 
     /**
@@ -226,7 +226,7 @@ class StoreShares implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\StoreSharesLinks
+     * @return \EffetB\BeezupApi\Model\StoreSharesLinks
      */
     public function getLinks()
     {
@@ -236,7 +236,7 @@ class StoreShares implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\StoreSharesLinks $links links
+     * @param \EffetB\BeezupApi\Model\StoreSharesLinks $links links
      *
      * @return $this
      */
@@ -250,7 +250,7 @@ class StoreShares implements ModelInterface, ArrayAccess
     /**
      * Gets shares
      *
-     * @return \Swagger\Client\Model\StoreShare[]
+     * @return \EffetB\BeezupApi\Model\StoreShare[]
      */
     public function getShares()
     {
@@ -260,7 +260,7 @@ class StoreShares implements ModelInterface, ArrayAccess
     /**
      * Sets shares
      *
-     * @param \Swagger\Client\Model\StoreShare[] $shares shares
+     * @param \EffetB\BeezupApi\Model\StoreShare[] $shares shares
      *
      * @return $this
      */

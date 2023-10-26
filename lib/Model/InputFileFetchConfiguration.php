@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * InputFileFetchConfiguration Class Doc Comment
  *
  * @category Class
  * @description Describe the way to download the file
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,9 +59,9 @@ class InputFileFetchConfiguration implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'uri' => 'string',
-        'credential' => '\Swagger\Client\Model\Credential',
-        'download_catalog_strategy' => '\Swagger\Client\Model\DownloadCatalogStrategy',
-        'compression_format_strategy' => '\Swagger\Client\Model\CompressionFormatStrategy',
+        'credential' => '\EffetB\BeezupApi\Model\Credential',
+        'download_catalog_strategy' => '\EffetB\BeezupApi\Model\DownloadCatalogStrategy',
+        'compression_format_strategy' => '\EffetB\BeezupApi\Model\CompressionFormatStrategy',
         'compressed_relative_path' => 'string',
         'download_timeout' => 'int'
     ];
@@ -275,7 +275,7 @@ class InputFileFetchConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets credential
      *
-     * @return \Swagger\Client\Model\Credential
+     * @return \EffetB\BeezupApi\Model\Credential
      */
     public function getCredential()
     {
@@ -285,7 +285,7 @@ class InputFileFetchConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets credential
      *
-     * @param \Swagger\Client\Model\Credential $credential credential
+     * @param \EffetB\BeezupApi\Model\Credential $credential credential
      *
      * @return $this
      */
@@ -299,7 +299,7 @@ class InputFileFetchConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets download_catalog_strategy
      *
-     * @return \Swagger\Client\Model\DownloadCatalogStrategy
+     * @return \EffetB\BeezupApi\Model\DownloadCatalogStrategy
      */
     public function getDownloadCatalogStrategy()
     {
@@ -309,7 +309,7 @@ class InputFileFetchConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets download_catalog_strategy
      *
-     * @param \Swagger\Client\Model\DownloadCatalogStrategy $download_catalog_strategy download_catalog_strategy
+     * @param \EffetB\BeezupApi\Model\DownloadCatalogStrategy $download_catalog_strategy download_catalog_strategy
      *
      * @return $this
      */
@@ -323,7 +323,7 @@ class InputFileFetchConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets compression_format_strategy
      *
-     * @return \Swagger\Client\Model\CompressionFormatStrategy
+     * @return \EffetB\BeezupApi\Model\CompressionFormatStrategy
      */
     public function getCompressionFormatStrategy()
     {
@@ -333,7 +333,7 @@ class InputFileFetchConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets compression_format_strategy
      *
-     * @param \Swagger\Client\Model\CompressionFormatStrategy $compression_format_strategy compression_format_strategy
+     * @param \EffetB\BeezupApi\Model\CompressionFormatStrategy $compression_format_strategy compression_format_strategy
      *
      * @return $this
      */

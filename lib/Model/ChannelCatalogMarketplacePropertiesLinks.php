@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelCatalogMarketplacePropertiesLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,9 +57,9 @@ class ChannelCatalogMarketplacePropertiesLinks implements ModelInterface, ArrayA
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksGetChannelCatalogMarketplacePropertiesLink',
-        'settings' => '\Swagger\Client\Model\LinksGetChannelCatalogMarketplaceSettingsLink',
-        'external_configuration_page' => '\Swagger\Client\Model\ExternalLinksGetExternalConfigurationPageLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksGetChannelCatalogMarketplacePropertiesLink',
+        'settings' => '\EffetB\BeezupApi\Model\LinksGetChannelCatalogMarketplaceSettingsLink',
+        'external_configuration_page' => '\EffetB\BeezupApi\Model\ExternalLinksGetExternalConfigurationPageLink'
     ];
 
     /**
@@ -226,7 +226,7 @@ class ChannelCatalogMarketplacePropertiesLinks implements ModelInterface, ArrayA
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksGetChannelCatalogMarketplacePropertiesLink
+     * @return \EffetB\BeezupApi\Model\LinksGetChannelCatalogMarketplacePropertiesLink
      */
     public function getSelf()
     {
@@ -236,7 +236,7 @@ class ChannelCatalogMarketplacePropertiesLinks implements ModelInterface, ArrayA
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksGetChannelCatalogMarketplacePropertiesLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksGetChannelCatalogMarketplacePropertiesLink $self self
      *
      * @return $this
      */
@@ -250,7 +250,7 @@ class ChannelCatalogMarketplacePropertiesLinks implements ModelInterface, ArrayA
     /**
      * Gets settings
      *
-     * @return \Swagger\Client\Model\LinksGetChannelCatalogMarketplaceSettingsLink
+     * @return \EffetB\BeezupApi\Model\LinksGetChannelCatalogMarketplaceSettingsLink
      */
     public function getSettings()
     {
@@ -260,7 +260,7 @@ class ChannelCatalogMarketplacePropertiesLinks implements ModelInterface, ArrayA
     /**
      * Sets settings
      *
-     * @param \Swagger\Client\Model\LinksGetChannelCatalogMarketplaceSettingsLink $settings settings
+     * @param \EffetB\BeezupApi\Model\LinksGetChannelCatalogMarketplaceSettingsLink $settings settings
      *
      * @return $this
      */
@@ -274,7 +274,7 @@ class ChannelCatalogMarketplacePropertiesLinks implements ModelInterface, ArrayA
     /**
      * Gets external_configuration_page
      *
-     * @return \Swagger\Client\Model\ExternalLinksGetExternalConfigurationPageLink
+     * @return \EffetB\BeezupApi\Model\ExternalLinksGetExternalConfigurationPageLink
      */
     public function getExternalConfigurationPage()
     {
@@ -284,7 +284,7 @@ class ChannelCatalogMarketplacePropertiesLinks implements ModelInterface, ArrayA
     /**
      * Sets external_configuration_page
      *
-     * @param \Swagger\Client\Model\ExternalLinksGetExternalConfigurationPageLink $external_configuration_page external_configuration_page
+     * @param \EffetB\BeezupApi\Model\ExternalLinksGetExternalConfigurationPageLink $external_configuration_page external_configuration_page
      *
      * @return $this
      */

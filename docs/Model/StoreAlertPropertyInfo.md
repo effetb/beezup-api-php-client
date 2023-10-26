@@ -3,8 +3,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**property_id** | [**\Swagger\Client\Model\AlertPropertyId**](AlertPropertyId.md) |  | 
-**property_value** | [**\Swagger\Client\Model\AlertPropertyValue**](AlertPropertyValue.md) |  | 
+**property_id** | [**\EffetB\BeezupApi\Model\AlertPropertyId**](AlertPropertyId.md) |  | 
+**property_value** | [**\EffetB\BeezupApi\Model\AlertPropertyValue**](AlertPropertyValue.md) |  | 
 **property_name** | **string** | The property name of the alert | 
 **property_validation_expression** | **string** | The regular expression related to the alert property | [optional] 
 

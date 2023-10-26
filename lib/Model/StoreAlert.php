@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * StoreAlert Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,11 +57,11 @@ class StoreAlert implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\StoreAlertLinks',
-        'alert_id' => '\Swagger\Client\Model\AlertId',
-        'alert_name' => '\Swagger\Client\Model\AlertName',
-        'enabled' => '\Swagger\Client\Model\AlertEnabled',
-        'properties' => '\Swagger\Client\Model\StoreAlertPropertyInfo[]'
+        'links' => '\EffetB\BeezupApi\Model\StoreAlertLinks',
+        'alert_id' => '\EffetB\BeezupApi\Model\AlertId',
+        'alert_name' => '\EffetB\BeezupApi\Model\AlertName',
+        'enabled' => '\EffetB\BeezupApi\Model\AlertEnabled',
+        'properties' => '\EffetB\BeezupApi\Model\StoreAlertPropertyInfo[]'
     ];
 
     /**
@@ -256,7 +256,7 @@ class StoreAlert implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\StoreAlertLinks
+     * @return \EffetB\BeezupApi\Model\StoreAlertLinks
      */
     public function getLinks()
     {
@@ -266,7 +266,7 @@ class StoreAlert implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\StoreAlertLinks $links links
+     * @param \EffetB\BeezupApi\Model\StoreAlertLinks $links links
      *
      * @return $this
      */
@@ -280,7 +280,7 @@ class StoreAlert implements ModelInterface, ArrayAccess
     /**
      * Gets alert_id
      *
-     * @return \Swagger\Client\Model\AlertId
+     * @return \EffetB\BeezupApi\Model\AlertId
      */
     public function getAlertId()
     {
@@ -290,7 +290,7 @@ class StoreAlert implements ModelInterface, ArrayAccess
     /**
      * Sets alert_id
      *
-     * @param \Swagger\Client\Model\AlertId $alert_id alert_id
+     * @param \EffetB\BeezupApi\Model\AlertId $alert_id alert_id
      *
      * @return $this
      */
@@ -304,7 +304,7 @@ class StoreAlert implements ModelInterface, ArrayAccess
     /**
      * Gets alert_name
      *
-     * @return \Swagger\Client\Model\AlertName
+     * @return \EffetB\BeezupApi\Model\AlertName
      */
     public function getAlertName()
     {
@@ -314,7 +314,7 @@ class StoreAlert implements ModelInterface, ArrayAccess
     /**
      * Sets alert_name
      *
-     * @param \Swagger\Client\Model\AlertName $alert_name alert_name
+     * @param \EffetB\BeezupApi\Model\AlertName $alert_name alert_name
      *
      * @return $this
      */
@@ -328,7 +328,7 @@ class StoreAlert implements ModelInterface, ArrayAccess
     /**
      * Gets enabled
      *
-     * @return \Swagger\Client\Model\AlertEnabled
+     * @return \EffetB\BeezupApi\Model\AlertEnabled
      */
     public function getEnabled()
     {
@@ -338,7 +338,7 @@ class StoreAlert implements ModelInterface, ArrayAccess
     /**
      * Sets enabled
      *
-     * @param \Swagger\Client\Model\AlertEnabled $enabled enabled
+     * @param \EffetB\BeezupApi\Model\AlertEnabled $enabled enabled
      *
      * @return $this
      */
@@ -352,7 +352,7 @@ class StoreAlert implements ModelInterface, ArrayAccess
     /**
      * Gets properties
      *
-     * @return \Swagger\Client\Model\StoreAlertPropertyInfo[]
+     * @return \EffetB\BeezupApi\Model\StoreAlertPropertyInfo[]
      */
     public function getProperties()
     {
@@ -362,7 +362,7 @@ class StoreAlert implements ModelInterface, ArrayAccess
     /**
      * Sets properties
      *
-     * @param \Swagger\Client\Model\StoreAlertPropertyInfo[] $properties The current configuration properties of the alert
+     * @param \EffetB\BeezupApi\Model\StoreAlertPropertyInfo[] $properties The current configuration properties of the alert
      *
      * @return $this
      */

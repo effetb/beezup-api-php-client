@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * AnalyticsIndexLovLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,17 +57,17 @@ class AnalyticsIndexLovLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'performance_indicator_type_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3',
-        'performance_indicator_type_for_reports_by_channel_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3',
-        'performance_indicator_type_for_reports_by_category_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3',
-        'performance_indicator_type_for_reports_by_product_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3',
-        'performance_indicator_formula_parameter_type_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3',
-        'performance_indicator_formula_operator_name_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3',
-        'performance_indicator_filter_operator_name_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3',
-        'analytics_product_column_filter_operator_name_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3',
-        'analytics_numerical_product_column_filter_operator_name_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3',
-        'analytics_string_product_column_filter_operator_name_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3',
-        'store_optimisation_rule_execution_status_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3'
+        'performance_indicator_type_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3',
+        'performance_indicator_type_for_reports_by_channel_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3',
+        'performance_indicator_type_for_reports_by_category_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3',
+        'performance_indicator_type_for_reports_by_product_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3',
+        'performance_indicator_formula_parameter_type_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3',
+        'performance_indicator_formula_operator_name_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3',
+        'performance_indicator_filter_operator_name_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3',
+        'analytics_product_column_filter_operator_name_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3',
+        'analytics_numerical_product_column_filter_operator_name_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3',
+        'analytics_string_product_column_filter_operator_name_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3',
+        'store_optimisation_rule_execution_status_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3'
     ];
 
     /**
@@ -268,7 +268,7 @@ class AnalyticsIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Gets performance_indicator_type_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getPerformanceIndicatorTypeLov()
     {
@@ -278,7 +278,7 @@ class AnalyticsIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Sets performance_indicator_type_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $performance_indicator_type_lov performance_indicator_type_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $performance_indicator_type_lov performance_indicator_type_lov
      *
      * @return $this
      */
@@ -292,7 +292,7 @@ class AnalyticsIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Gets performance_indicator_type_for_reports_by_channel_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getPerformanceIndicatorTypeForReportsByChannelLov()
     {
@@ -302,7 +302,7 @@ class AnalyticsIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Sets performance_indicator_type_for_reports_by_channel_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $performance_indicator_type_for_reports_by_channel_lov performance_indicator_type_for_reports_by_channel_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $performance_indicator_type_for_reports_by_channel_lov performance_indicator_type_for_reports_by_channel_lov
      *
      * @return $this
      */
@@ -316,7 +316,7 @@ class AnalyticsIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Gets performance_indicator_type_for_reports_by_category_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getPerformanceIndicatorTypeForReportsByCategoryLov()
     {
@@ -326,7 +326,7 @@ class AnalyticsIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Sets performance_indicator_type_for_reports_by_category_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $performance_indicator_type_for_reports_by_category_lov performance_indicator_type_for_reports_by_category_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $performance_indicator_type_for_reports_by_category_lov performance_indicator_type_for_reports_by_category_lov
      *
      * @return $this
      */
@@ -340,7 +340,7 @@ class AnalyticsIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Gets performance_indicator_type_for_reports_by_product_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getPerformanceIndicatorTypeForReportsByProductLov()
     {
@@ -350,7 +350,7 @@ class AnalyticsIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Sets performance_indicator_type_for_reports_by_product_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $performance_indicator_type_for_reports_by_product_lov performance_indicator_type_for_reports_by_product_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $performance_indicator_type_for_reports_by_product_lov performance_indicator_type_for_reports_by_product_lov
      *
      * @return $this
      */
@@ -364,7 +364,7 @@ class AnalyticsIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Gets performance_indicator_formula_parameter_type_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getPerformanceIndicatorFormulaParameterTypeLov()
     {
@@ -374,7 +374,7 @@ class AnalyticsIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Sets performance_indicator_formula_parameter_type_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $performance_indicator_formula_parameter_type_lov performance_indicator_formula_parameter_type_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $performance_indicator_formula_parameter_type_lov performance_indicator_formula_parameter_type_lov
      *
      * @return $this
      */
@@ -388,7 +388,7 @@ class AnalyticsIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Gets performance_indicator_formula_operator_name_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getPerformanceIndicatorFormulaOperatorNameLov()
     {
@@ -398,7 +398,7 @@ class AnalyticsIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Sets performance_indicator_formula_operator_name_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $performance_indicator_formula_operator_name_lov performance_indicator_formula_operator_name_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $performance_indicator_formula_operator_name_lov performance_indicator_formula_operator_name_lov
      *
      * @return $this
      */
@@ -412,7 +412,7 @@ class AnalyticsIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Gets performance_indicator_filter_operator_name_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getPerformanceIndicatorFilterOperatorNameLov()
     {
@@ -422,7 +422,7 @@ class AnalyticsIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Sets performance_indicator_filter_operator_name_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $performance_indicator_filter_operator_name_lov performance_indicator_filter_operator_name_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $performance_indicator_filter_operator_name_lov performance_indicator_filter_operator_name_lov
      *
      * @return $this
      */
@@ -436,7 +436,7 @@ class AnalyticsIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Gets analytics_product_column_filter_operator_name_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getAnalyticsProductColumnFilterOperatorNameLov()
     {
@@ -446,7 +446,7 @@ class AnalyticsIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Sets analytics_product_column_filter_operator_name_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $analytics_product_column_filter_operator_name_lov analytics_product_column_filter_operator_name_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $analytics_product_column_filter_operator_name_lov analytics_product_column_filter_operator_name_lov
      *
      * @return $this
      */
@@ -460,7 +460,7 @@ class AnalyticsIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Gets analytics_numerical_product_column_filter_operator_name_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getAnalyticsNumericalProductColumnFilterOperatorNameLov()
     {
@@ -470,7 +470,7 @@ class AnalyticsIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Sets analytics_numerical_product_column_filter_operator_name_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $analytics_numerical_product_column_filter_operator_name_lov analytics_numerical_product_column_filter_operator_name_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $analytics_numerical_product_column_filter_operator_name_lov analytics_numerical_product_column_filter_operator_name_lov
      *
      * @return $this
      */
@@ -484,7 +484,7 @@ class AnalyticsIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Gets analytics_string_product_column_filter_operator_name_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getAnalyticsStringProductColumnFilterOperatorNameLov()
     {
@@ -494,7 +494,7 @@ class AnalyticsIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Sets analytics_string_product_column_filter_operator_name_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $analytics_string_product_column_filter_operator_name_lov analytics_string_product_column_filter_operator_name_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $analytics_string_product_column_filter_operator_name_lov analytics_string_product_column_filter_operator_name_lov
      *
      * @return $this
      */
@@ -508,7 +508,7 @@ class AnalyticsIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Gets store_optimisation_rule_execution_status_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getStoreOptimisationRuleExecutionStatusLov()
     {
@@ -518,7 +518,7 @@ class AnalyticsIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Sets store_optimisation_rule_execution_status_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $store_optimisation_rule_execution_status_lov store_optimisation_rule_execution_status_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $store_optimisation_rule_execution_status_lov store_optimisation_rule_execution_status_lov
      *
      * @return $this
      */

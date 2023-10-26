@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * StandardOffersLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class StandardOffersLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksGetStandardOffersLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksGetStandardOffersLink'
     ];
 
     /**
@@ -214,7 +214,7 @@ class StandardOffersLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksGetStandardOffersLink
+     * @return \EffetB\BeezupApi\Model\LinksGetStandardOffersLink
      */
     public function getSelf()
     {
@@ -224,7 +224,7 @@ class StandardOffersLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksGetStandardOffersLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksGetStandardOffersLink $self self
      *
      * @return $this
      */

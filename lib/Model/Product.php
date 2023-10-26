@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * Product Class Doc Comment
  *
  * @category Class
  * @description Represent a catalog product
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,9 +58,9 @@ class Product implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'product_id' => '\Swagger\Client\Model\BeezUPCommonProductId',
-        'category_id' => '\Swagger\Client\Model\BeezUPCommonCatalogCategoryId',
-        'values' => '\Swagger\Client\Model\ProductValues',
+        'product_id' => '\EffetB\BeezupApi\Model\BeezUPCommonProductId',
+        'category_id' => '\EffetB\BeezupApi\Model\BeezUPCommonCatalogCategoryId',
+        'values' => '\EffetB\BeezupApi\Model\ProductValues',
         'exists' => 'bool'
     ];
 
@@ -251,7 +251,7 @@ class Product implements ModelInterface, ArrayAccess
     /**
      * Gets product_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonProductId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonProductId
      */
     public function getProductId()
     {
@@ -261,7 +261,7 @@ class Product implements ModelInterface, ArrayAccess
     /**
      * Sets product_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonProductId $product_id product_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonProductId $product_id product_id
      *
      * @return $this
      */
@@ -275,7 +275,7 @@ class Product implements ModelInterface, ArrayAccess
     /**
      * Gets category_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonCatalogCategoryId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonCatalogCategoryId
      */
     public function getCategoryId()
     {
@@ -285,7 +285,7 @@ class Product implements ModelInterface, ArrayAccess
     /**
      * Sets category_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonCatalogCategoryId $category_id category_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonCatalogCategoryId $category_id category_id
      *
      * @return $this
      */
@@ -299,7 +299,7 @@ class Product implements ModelInterface, ArrayAccess
     /**
      * Gets values
      *
-     * @return \Swagger\Client\Model\ProductValues
+     * @return \EffetB\BeezupApi\Model\ProductValues
      */
     public function getValues()
     {
@@ -309,7 +309,7 @@ class Product implements ModelInterface, ArrayAccess
     /**
      * Sets values
      *
-     * @param \Swagger\Client\Model\ProductValues $values values
+     * @param \EffetB\BeezupApi\Model\ProductValues $values values
      *
      * @return $this
      */

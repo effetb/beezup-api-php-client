@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelFirstLevelCategory Class Doc Comment
  *
  * @category Class
  * @description The first level category with his sub categories
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,13 +58,13 @@ class ChannelFirstLevelCategory implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'channel_category_id' => '\Swagger\Client\Model\BeezUPCommonChannelCategoryId',
+        'channel_category_id' => '\EffetB\BeezupApi\Model\BeezUPCommonChannelCategoryId',
         'channel_category_name' => 'string',
-        'channel_category_level' => '\Swagger\Client\Model\ChannelCategoryLevel',
-        'channel_category_default_cost' => '\Swagger\Client\Model\ChannelCategoryDefaultCost',
-        'channel_category_channel_code' => '\Swagger\Client\Model\ChannelCategoryChannelCode',
-        'channel_category_column_overrides' => '\Swagger\Client\Model\ChannelCategoryColumnOverrides',
-        'sub_categories' => '\Swagger\Client\Model\ChannelCategory[]'
+        'channel_category_level' => '\EffetB\BeezupApi\Model\ChannelCategoryLevel',
+        'channel_category_default_cost' => '\EffetB\BeezupApi\Model\ChannelCategoryDefaultCost',
+        'channel_category_channel_code' => '\EffetB\BeezupApi\Model\ChannelCategoryChannelCode',
+        'channel_category_column_overrides' => '\EffetB\BeezupApi\Model\ChannelCategoryColumnOverrides',
+        'sub_categories' => '\EffetB\BeezupApi\Model\ChannelCategory[]'
     ];
 
     /**
@@ -263,7 +263,7 @@ class ChannelFirstLevelCategory implements ModelInterface, ArrayAccess
     /**
      * Gets channel_category_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonChannelCategoryId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonChannelCategoryId
      */
     public function getChannelCategoryId()
     {
@@ -273,7 +273,7 @@ class ChannelFirstLevelCategory implements ModelInterface, ArrayAccess
     /**
      * Sets channel_category_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonChannelCategoryId $channel_category_id channel_category_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonChannelCategoryId $channel_category_id channel_category_id
      *
      * @return $this
      */
@@ -311,7 +311,7 @@ class ChannelFirstLevelCategory implements ModelInterface, ArrayAccess
     /**
      * Gets channel_category_level
      *
-     * @return \Swagger\Client\Model\ChannelCategoryLevel
+     * @return \EffetB\BeezupApi\Model\ChannelCategoryLevel
      */
     public function getChannelCategoryLevel()
     {
@@ -321,7 +321,7 @@ class ChannelFirstLevelCategory implements ModelInterface, ArrayAccess
     /**
      * Sets channel_category_level
      *
-     * @param \Swagger\Client\Model\ChannelCategoryLevel $channel_category_level channel_category_level
+     * @param \EffetB\BeezupApi\Model\ChannelCategoryLevel $channel_category_level channel_category_level
      *
      * @return $this
      */
@@ -335,7 +335,7 @@ class ChannelFirstLevelCategory implements ModelInterface, ArrayAccess
     /**
      * Gets channel_category_default_cost
      *
-     * @return \Swagger\Client\Model\ChannelCategoryDefaultCost
+     * @return \EffetB\BeezupApi\Model\ChannelCategoryDefaultCost
      */
     public function getChannelCategoryDefaultCost()
     {
@@ -345,7 +345,7 @@ class ChannelFirstLevelCategory implements ModelInterface, ArrayAccess
     /**
      * Sets channel_category_default_cost
      *
-     * @param \Swagger\Client\Model\ChannelCategoryDefaultCost $channel_category_default_cost channel_category_default_cost
+     * @param \EffetB\BeezupApi\Model\ChannelCategoryDefaultCost $channel_category_default_cost channel_category_default_cost
      *
      * @return $this
      */
@@ -359,7 +359,7 @@ class ChannelFirstLevelCategory implements ModelInterface, ArrayAccess
     /**
      * Gets channel_category_channel_code
      *
-     * @return \Swagger\Client\Model\ChannelCategoryChannelCode
+     * @return \EffetB\BeezupApi\Model\ChannelCategoryChannelCode
      */
     public function getChannelCategoryChannelCode()
     {
@@ -369,7 +369,7 @@ class ChannelFirstLevelCategory implements ModelInterface, ArrayAccess
     /**
      * Sets channel_category_channel_code
      *
-     * @param \Swagger\Client\Model\ChannelCategoryChannelCode $channel_category_channel_code channel_category_channel_code
+     * @param \EffetB\BeezupApi\Model\ChannelCategoryChannelCode $channel_category_channel_code channel_category_channel_code
      *
      * @return $this
      */
@@ -383,7 +383,7 @@ class ChannelFirstLevelCategory implements ModelInterface, ArrayAccess
     /**
      * Gets channel_category_column_overrides
      *
-     * @return \Swagger\Client\Model\ChannelCategoryColumnOverrides
+     * @return \EffetB\BeezupApi\Model\ChannelCategoryColumnOverrides
      */
     public function getChannelCategoryColumnOverrides()
     {
@@ -393,7 +393,7 @@ class ChannelFirstLevelCategory implements ModelInterface, ArrayAccess
     /**
      * Sets channel_category_column_overrides
      *
-     * @param \Swagger\Client\Model\ChannelCategoryColumnOverrides $channel_category_column_overrides channel_category_column_overrides
+     * @param \EffetB\BeezupApi\Model\ChannelCategoryColumnOverrides $channel_category_column_overrides channel_category_column_overrides
      *
      * @return $this
      */
@@ -407,7 +407,7 @@ class ChannelFirstLevelCategory implements ModelInterface, ArrayAccess
     /**
      * Gets sub_categories
      *
-     * @return \Swagger\Client\Model\ChannelCategory[]
+     * @return \EffetB\BeezupApi\Model\ChannelCategory[]
      */
     public function getSubCategories()
     {
@@ -417,7 +417,7 @@ class ChannelFirstLevelCategory implements ModelInterface, ArrayAccess
     /**
      * Sets sub_categories
      *
-     * @param \Swagger\Client\Model\ChannelCategory[] $sub_categories sub_categories
+     * @param \EffetB\BeezupApi\Model\ChannelCategory[] $sub_categories sub_categories
      *
      * @return $this
      */

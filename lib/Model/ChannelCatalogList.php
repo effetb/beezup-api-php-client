@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelCatalogList Class Doc Comment
  *
  * @category Class
  * @description This is the index of the channel catalog API
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,9 +58,9 @@ class ChannelCatalogList implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\ChannelCatalogListLinks',
-        'lov_links' => '\Swagger\Client\Model\ChannelCatalogListLovLinks',
-        'channel_catalogs' => 'map[string,\Swagger\Client\Model\ChannelCatalog]'
+        'links' => '\EffetB\BeezupApi\Model\ChannelCatalogListLinks',
+        'lov_links' => '\EffetB\BeezupApi\Model\ChannelCatalogListLovLinks',
+        'channel_catalogs' => 'map[string,\EffetB\BeezupApi\Model\ChannelCatalog]'
     ];
 
     /**
@@ -221,7 +221,7 @@ class ChannelCatalogList implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ChannelCatalogListLinks
+     * @return \EffetB\BeezupApi\Model\ChannelCatalogListLinks
      */
     public function getLinks()
     {
@@ -231,7 +231,7 @@ class ChannelCatalogList implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ChannelCatalogListLinks $links links
+     * @param \EffetB\BeezupApi\Model\ChannelCatalogListLinks $links links
      *
      * @return $this
      */
@@ -245,7 +245,7 @@ class ChannelCatalogList implements ModelInterface, ArrayAccess
     /**
      * Gets lov_links
      *
-     * @return \Swagger\Client\Model\ChannelCatalogListLovLinks
+     * @return \EffetB\BeezupApi\Model\ChannelCatalogListLovLinks
      */
     public function getLovLinks()
     {
@@ -255,7 +255,7 @@ class ChannelCatalogList implements ModelInterface, ArrayAccess
     /**
      * Sets lov_links
      *
-     * @param \Swagger\Client\Model\ChannelCatalogListLovLinks $lov_links lov_links
+     * @param \EffetB\BeezupApi\Model\ChannelCatalogListLovLinks $lov_links lov_links
      *
      * @return $this
      */
@@ -269,7 +269,7 @@ class ChannelCatalogList implements ModelInterface, ArrayAccess
     /**
      * Gets channel_catalogs
      *
-     * @return map[string,\Swagger\Client\Model\ChannelCatalog]
+     * @return map[string,\EffetB\BeezupApi\Model\ChannelCatalog]
      */
     public function getChannelCatalogs()
     {
@@ -279,7 +279,7 @@ class ChannelCatalogList implements ModelInterface, ArrayAccess
     /**
      * Sets channel_catalogs
      *
-     * @param map[string,\Swagger\Client\Model\ChannelCatalog] $channel_catalogs The channel catalog list. The key is the channel catalog identifier
+     * @param map[string,\EffetB\BeezupApi\Model\ChannelCatalog] $channel_catalogs The channel catalog list. The key is the channel catalog identifier
      *
      * @return $this
      */

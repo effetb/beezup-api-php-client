@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ImportAlreadyInProgressResponse Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class ImportAlreadyInProgressResponse implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'errors' => '\Swagger\Client\Model\BeezUPCommonUserErrorMessage[]',
-        'links' => '\Swagger\Client\Model\ImportAlreadyInProgressResponseLinks'
+        'errors' => '\EffetB\BeezupApi\Model\BeezUPCommonUserErrorMessage[]',
+        'links' => '\EffetB\BeezupApi\Model\ImportAlreadyInProgressResponseLinks'
     ];
 
     /**
@@ -226,7 +226,7 @@ class ImportAlreadyInProgressResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors
      *
-     * @return \Swagger\Client\Model\BeezUPCommonUserErrorMessage[]
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonUserErrorMessage[]
      */
     public function getErrors()
     {
@@ -236,7 +236,7 @@ class ImportAlreadyInProgressResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors
      *
-     * @param \Swagger\Client\Model\BeezUPCommonUserErrorMessage[] $errors The error message list
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonUserErrorMessage[] $errors The error message list
      *
      * @return $this
      */
@@ -250,7 +250,7 @@ class ImportAlreadyInProgressResponse implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ImportAlreadyInProgressResponseLinks
+     * @return \EffetB\BeezupApi\Model\ImportAlreadyInProgressResponseLinks
      */
     public function getLinks()
     {
@@ -260,7 +260,7 @@ class ImportAlreadyInProgressResponse implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ImportAlreadyInProgressResponseLinks $links links
+     * @param \EffetB\BeezupApi\Model\ImportAlreadyInProgressResponseLinks $links links
      *
      * @return $this
      */

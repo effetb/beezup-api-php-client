@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ImportAlreadyInProgressResponseLinks Class Doc Comment
  *
  * @category Class
  * @description The action links
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,8 +58,8 @@ class ImportAlreadyInProgressResponseLinks implements ModelInterface, ArrayAcces
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'current_importation' => '\Swagger\Client\Model\LinksImportationGetImportationMonitoringLink',
-        'cancel_current_importation' => '\Swagger\Client\Model\LinksImportationCancelLink'
+        'current_importation' => '\EffetB\BeezupApi\Model\LinksImportationGetImportationMonitoringLink',
+        'cancel_current_importation' => '\EffetB\BeezupApi\Model\LinksImportationCancelLink'
     ];
 
     /**
@@ -227,7 +227,7 @@ class ImportAlreadyInProgressResponseLinks implements ModelInterface, ArrayAcces
     /**
      * Gets current_importation
      *
-     * @return \Swagger\Client\Model\LinksImportationGetImportationMonitoringLink
+     * @return \EffetB\BeezupApi\Model\LinksImportationGetImportationMonitoringLink
      */
     public function getCurrentImportation()
     {
@@ -237,7 +237,7 @@ class ImportAlreadyInProgressResponseLinks implements ModelInterface, ArrayAcces
     /**
      * Sets current_importation
      *
-     * @param \Swagger\Client\Model\LinksImportationGetImportationMonitoringLink $current_importation current_importation
+     * @param \EffetB\BeezupApi\Model\LinksImportationGetImportationMonitoringLink $current_importation current_importation
      *
      * @return $this
      */
@@ -251,7 +251,7 @@ class ImportAlreadyInProgressResponseLinks implements ModelInterface, ArrayAcces
     /**
      * Gets cancel_current_importation
      *
-     * @return \Swagger\Client\Model\LinksImportationCancelLink
+     * @return \EffetB\BeezupApi\Model\LinksImportationCancelLink
      */
     public function getCancelCurrentImportation()
     {
@@ -261,7 +261,7 @@ class ImportAlreadyInProgressResponseLinks implements ModelInterface, ArrayAcces
     /**
      * Sets cancel_current_importation
      *
-     * @param \Swagger\Client\Model\LinksImportationCancelLink $cancel_current_importation cancel_current_importation
+     * @param \EffetB\BeezupApi\Model\LinksImportationCancelLink $cancel_current_importation cancel_current_importation
      *
      * @return $this
      */

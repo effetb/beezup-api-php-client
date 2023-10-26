@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,17 +26,17 @@
  * Please update the test case below to test the endpoint.
  */
 
-namespace Swagger\Client;
+namespace EffetB\BeezupApi;
 
-use \Swagger\Client\Configuration;
-use \Swagger\Client\ApiException;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\Configuration;
+use \EffetB\BeezupApi\ApiException;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * MarketplacesOrdersOrderApiTest Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */

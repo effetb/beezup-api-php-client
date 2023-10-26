@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChangeOrderReporting Class Doc Comment
  *
  * @category Class
  * @description The reporting related to a change order operation
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,10 +58,10 @@ class ChangeOrderReporting implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'execution_uuid' => '\Swagger\Client\Model\ExecutionUUID',
-        'change_order_type' => '\Swagger\Client\Model\BusinessOperationType',
-        'source_type' => '\Swagger\Client\Model\SourceType',
-        'source_user_id' => '\Swagger\Client\Model\BeezUPCommonUserId',
+        'execution_uuid' => '\EffetB\BeezupApi\Model\ExecutionUUID',
+        'change_order_type' => '\EffetB\BeezupApi\Model\BusinessOperationType',
+        'source_type' => '\EffetB\BeezupApi\Model\SourceType',
+        'source_user_id' => '\EffetB\BeezupApi\Model\BeezUPCommonUserId',
         'source_user_name' => 'string',
         'creation_utc_date' => '\DateTime',
         'processing_status' => 'string',
@@ -275,7 +275,7 @@ class ChangeOrderReporting implements ModelInterface, ArrayAccess
     /**
      * Gets execution_uuid
      *
-     * @return \Swagger\Client\Model\ExecutionUUID
+     * @return \EffetB\BeezupApi\Model\ExecutionUUID
      */
     public function getExecutionUuid()
     {
@@ -285,7 +285,7 @@ class ChangeOrderReporting implements ModelInterface, ArrayAccess
     /**
      * Sets execution_uuid
      *
-     * @param \Swagger\Client\Model\ExecutionUUID $execution_uuid execution_uuid
+     * @param \EffetB\BeezupApi\Model\ExecutionUUID $execution_uuid execution_uuid
      *
      * @return $this
      */
@@ -299,7 +299,7 @@ class ChangeOrderReporting implements ModelInterface, ArrayAccess
     /**
      * Gets change_order_type
      *
-     * @return \Swagger\Client\Model\BusinessOperationType
+     * @return \EffetB\BeezupApi\Model\BusinessOperationType
      */
     public function getChangeOrderType()
     {
@@ -309,7 +309,7 @@ class ChangeOrderReporting implements ModelInterface, ArrayAccess
     /**
      * Sets change_order_type
      *
-     * @param \Swagger\Client\Model\BusinessOperationType $change_order_type change_order_type
+     * @param \EffetB\BeezupApi\Model\BusinessOperationType $change_order_type change_order_type
      *
      * @return $this
      */
@@ -323,7 +323,7 @@ class ChangeOrderReporting implements ModelInterface, ArrayAccess
     /**
      * Gets source_type
      *
-     * @return \Swagger\Client\Model\SourceType
+     * @return \EffetB\BeezupApi\Model\SourceType
      */
     public function getSourceType()
     {
@@ -333,7 +333,7 @@ class ChangeOrderReporting implements ModelInterface, ArrayAccess
     /**
      * Sets source_type
      *
-     * @param \Swagger\Client\Model\SourceType $source_type source_type
+     * @param \EffetB\BeezupApi\Model\SourceType $source_type source_type
      *
      * @return $this
      */
@@ -347,7 +347,7 @@ class ChangeOrderReporting implements ModelInterface, ArrayAccess
     /**
      * Gets source_user_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonUserId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonUserId
      */
     public function getSourceUserId()
     {
@@ -357,7 +357,7 @@ class ChangeOrderReporting implements ModelInterface, ArrayAccess
     /**
      * Sets source_user_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonUserId $source_user_id source_user_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonUserId $source_user_id source_user_id
      *
      * @return $this
      */

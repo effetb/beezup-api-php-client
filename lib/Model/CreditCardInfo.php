@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CreditCardInfo Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,10 +57,10 @@ class CreditCardInfo implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'card_number' => '\Swagger\Client\Model\CardNumber',
-        'card_verification_code' => '\Swagger\Client\Model\CardVerificationCode',
-        'expiration_month' => '\Swagger\Client\Model\ExpirationMonth',
-        'expiration_year' => '\Swagger\Client\Model\ExpirationYear'
+        'card_number' => '\EffetB\BeezupApi\Model\CardNumber',
+        'card_verification_code' => '\EffetB\BeezupApi\Model\CardVerificationCode',
+        'expiration_month' => '\EffetB\BeezupApi\Model\ExpirationMonth',
+        'expiration_year' => '\EffetB\BeezupApi\Model\ExpirationYear'
     ];
 
     /**
@@ -250,7 +250,7 @@ class CreditCardInfo implements ModelInterface, ArrayAccess
     /**
      * Gets card_number
      *
-     * @return \Swagger\Client\Model\CardNumber
+     * @return \EffetB\BeezupApi\Model\CardNumber
      */
     public function getCardNumber()
     {
@@ -260,7 +260,7 @@ class CreditCardInfo implements ModelInterface, ArrayAccess
     /**
      * Sets card_number
      *
-     * @param \Swagger\Client\Model\CardNumber $card_number card_number
+     * @param \EffetB\BeezupApi\Model\CardNumber $card_number card_number
      *
      * @return $this
      */
@@ -274,7 +274,7 @@ class CreditCardInfo implements ModelInterface, ArrayAccess
     /**
      * Gets card_verification_code
      *
-     * @return \Swagger\Client\Model\CardVerificationCode
+     * @return \EffetB\BeezupApi\Model\CardVerificationCode
      */
     public function getCardVerificationCode()
     {
@@ -284,7 +284,7 @@ class CreditCardInfo implements ModelInterface, ArrayAccess
     /**
      * Sets card_verification_code
      *
-     * @param \Swagger\Client\Model\CardVerificationCode $card_verification_code card_verification_code
+     * @param \EffetB\BeezupApi\Model\CardVerificationCode $card_verification_code card_verification_code
      *
      * @return $this
      */
@@ -298,7 +298,7 @@ class CreditCardInfo implements ModelInterface, ArrayAccess
     /**
      * Gets expiration_month
      *
-     * @return \Swagger\Client\Model\ExpirationMonth
+     * @return \EffetB\BeezupApi\Model\ExpirationMonth
      */
     public function getExpirationMonth()
     {
@@ -308,7 +308,7 @@ class CreditCardInfo implements ModelInterface, ArrayAccess
     /**
      * Sets expiration_month
      *
-     * @param \Swagger\Client\Model\ExpirationMonth $expiration_month expiration_month
+     * @param \EffetB\BeezupApi\Model\ExpirationMonth $expiration_month expiration_month
      *
      * @return $this
      */
@@ -322,7 +322,7 @@ class CreditCardInfo implements ModelInterface, ArrayAccess
     /**
      * Gets expiration_year
      *
-     * @return \Swagger\Client\Model\ExpirationYear
+     * @return \EffetB\BeezupApi\Model\ExpirationYear
      */
     public function getExpirationYear()
     {
@@ -332,7 +332,7 @@ class CreditCardInfo implements ModelInterface, ArrayAccess
     /**
      * Sets expiration_year
      *
-     * @param \Swagger\Client\Model\ExpirationYear $expiration_year expiration_year
+     * @param \EffetB\BeezupApi\Model\ExpirationYear $expiration_year expiration_year
      *
      * @return $this
      */

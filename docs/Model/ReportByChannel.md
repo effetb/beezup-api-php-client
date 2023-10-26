@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**channel** | [**\Swagger\Client\Model\BeezUPCommonChannelBasicInfo**](BeezUPCommonChannelBasicInfo.md) |  | 
+**channel** | [**\EffetB\BeezupApi\Model\BeezUPCommonChannelBasicInfo**](BeezUPCommonChannelBasicInfo.md) |  | 
 **catalog_product_count** | **int** | The catalog product count | 
 **enabled_product_count** | **int** | The enabled product count | 
 **click_count** | **int** | The click count | 
@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 **performance_indicator** | **float** | The performance indicator based on the performance indicator formula indicated in the request | 
 **total_sales** | **float** | The total sales | 
 **sold_product_count** | **int** | The product sold count count | 
-**links** | [**\Swagger\Client\Model\ReportByChannelLinks**](ReportByChannelLinks.md) |  | 
+**links** | [**\EffetB\BeezupApi\Model\ReportByChannelLinks**](ReportByChannelLinks.md) |  | 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

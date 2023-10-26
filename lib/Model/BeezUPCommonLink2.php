@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * BeezUPCommonLink2 Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,11 +58,11 @@ class BeezUPCommonLink2 implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'rel' => 'string',
-        'href' => '\Swagger\Client\Model\BeezUPCommonHref',
-        'operation_id' => '\Swagger\Client\Model\BeezUPCommonOperationId',
-        'method' => '\Swagger\Client\Model\BeezUPCommonHttpMethod',
-        'parameters' => '\Swagger\Client\Model\BeezUPCommonLinkParameter2[]',
-        'info' => '\Swagger\Client\Model\BeezUPCommonInfoSummaries'
+        'href' => '\EffetB\BeezupApi\Model\BeezUPCommonHref',
+        'operation_id' => '\EffetB\BeezupApi\Model\BeezUPCommonOperationId',
+        'method' => '\EffetB\BeezupApi\Model\BeezUPCommonHttpMethod',
+        'parameters' => '\EffetB\BeezupApi\Model\BeezUPCommonLinkParameter2[]',
+        'info' => '\EffetB\BeezupApi\Model\BeezUPCommonInfoSummaries'
     ];
 
     /**
@@ -268,7 +268,7 @@ class BeezUPCommonLink2 implements ModelInterface, ArrayAccess
     /**
      * Gets href
      *
-     * @return \Swagger\Client\Model\BeezUPCommonHref
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonHref
      */
     public function getHref()
     {
@@ -278,7 +278,7 @@ class BeezUPCommonLink2 implements ModelInterface, ArrayAccess
     /**
      * Sets href
      *
-     * @param \Swagger\Client\Model\BeezUPCommonHref $href href
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonHref $href href
      *
      * @return $this
      */
@@ -292,7 +292,7 @@ class BeezUPCommonLink2 implements ModelInterface, ArrayAccess
     /**
      * Gets operation_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonOperationId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonOperationId
      */
     public function getOperationId()
     {
@@ -302,7 +302,7 @@ class BeezUPCommonLink2 implements ModelInterface, ArrayAccess
     /**
      * Sets operation_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonOperationId $operation_id operation_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonOperationId $operation_id operation_id
      *
      * @return $this
      */
@@ -316,7 +316,7 @@ class BeezUPCommonLink2 implements ModelInterface, ArrayAccess
     /**
      * Gets method
      *
-     * @return \Swagger\Client\Model\BeezUPCommonHttpMethod
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonHttpMethod
      */
     public function getMethod()
     {
@@ -326,7 +326,7 @@ class BeezUPCommonLink2 implements ModelInterface, ArrayAccess
     /**
      * Sets method
      *
-     * @param \Swagger\Client\Model\BeezUPCommonHttpMethod $method method
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonHttpMethod $method method
      *
      * @return $this
      */
@@ -340,7 +340,7 @@ class BeezUPCommonLink2 implements ModelInterface, ArrayAccess
     /**
      * Gets parameters
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLinkParameter2[]
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLinkParameter2[]
      */
     public function getParameters()
     {
@@ -350,7 +350,7 @@ class BeezUPCommonLink2 implements ModelInterface, ArrayAccess
     /**
      * Sets parameters
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLinkParameter2[] $parameters parameters
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLinkParameter2[] $parameters parameters
      *
      * @return $this
      */
@@ -364,7 +364,7 @@ class BeezUPCommonLink2 implements ModelInterface, ArrayAccess
     /**
      * Gets info
      *
-     * @return \Swagger\Client\Model\BeezUPCommonInfoSummaries
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonInfoSummaries
      */
     public function getInfo()
     {
@@ -374,7 +374,7 @@ class BeezUPCommonLink2 implements ModelInterface, ArrayAccess
     /**
      * Sets info
      *
-     * @param \Swagger\Client\Model\BeezUPCommonInfoSummaries $info info
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonInfoSummaries $info info
      *
      * @return $this
      */

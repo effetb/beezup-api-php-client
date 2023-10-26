@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * MarketplaceChannelCatalogList Class Doc Comment
  *
  * @category Class
  * @description The marketplace channel catalog list
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,8 +58,8 @@ class MarketplaceChannelCatalogList implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\MarketplaceChannelCatalogListLinks',
-        'marketplace_channel_catalogs' => '\Swagger\Client\Model\MarketplaceChannelCatalog[]'
+        'links' => '\EffetB\BeezupApi\Model\MarketplaceChannelCatalogListLinks',
+        'marketplace_channel_catalogs' => '\EffetB\BeezupApi\Model\MarketplaceChannelCatalog[]'
     ];
 
     /**
@@ -227,7 +227,7 @@ class MarketplaceChannelCatalogList implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\MarketplaceChannelCatalogListLinks
+     * @return \EffetB\BeezupApi\Model\MarketplaceChannelCatalogListLinks
      */
     public function getLinks()
     {
@@ -237,7 +237,7 @@ class MarketplaceChannelCatalogList implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\MarketplaceChannelCatalogListLinks $links links
+     * @param \EffetB\BeezupApi\Model\MarketplaceChannelCatalogListLinks $links links
      *
      * @return $this
      */
@@ -251,7 +251,7 @@ class MarketplaceChannelCatalogList implements ModelInterface, ArrayAccess
     /**
      * Gets marketplace_channel_catalogs
      *
-     * @return \Swagger\Client\Model\MarketplaceChannelCatalog[]
+     * @return \EffetB\BeezupApi\Model\MarketplaceChannelCatalog[]
      */
     public function getMarketplaceChannelCatalogs()
     {
@@ -261,7 +261,7 @@ class MarketplaceChannelCatalogList implements ModelInterface, ArrayAccess
     /**
      * Sets marketplace_channel_catalogs
      *
-     * @param \Swagger\Client\Model\MarketplaceChannelCatalog[] $marketplace_channel_catalogs The list of marketplace channel catalog
+     * @param \EffetB\BeezupApi\Model\MarketplaceChannelCatalog[] $marketplace_channel_catalogs The list of marketplace channel catalog
      *
      * @return $this
      */

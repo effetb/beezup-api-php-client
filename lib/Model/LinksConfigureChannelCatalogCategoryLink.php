@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * LinksConfigureChannelCatalogCategoryLink Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,16 +58,16 @@ class LinksConfigureChannelCatalogCategoryLink implements ModelInterface, ArrayA
       */
     protected static $swaggerTypes = [
         'label' => 'string',
-        'doc_url' => '\Swagger\Client\Model\BeezUPCommonDocUrl',
+        'doc_url' => '\EffetB\BeezupApi\Model\BeezUPCommonDocUrl',
         'description' => 'string',
-        'href' => '\Swagger\Client\Model\BeezUPCommonHref',
-        'operation_id' => '\Swagger\Client\Model\BeezUPCommonOperationId',
-        'method' => '\Swagger\Client\Model\BeezUPCommonHttpMethod',
-        'parameters' => 'map[string,\Swagger\Client\Model\BeezUPCommonLinkParameter3]',
+        'href' => '\EffetB\BeezupApi\Model\BeezUPCommonHref',
+        'operation_id' => '\EffetB\BeezupApi\Model\BeezUPCommonOperationId',
+        'method' => '\EffetB\BeezupApi\Model\BeezUPCommonHttpMethod',
+        'parameters' => 'map[string,\EffetB\BeezupApi\Model\BeezUPCommonLinkParameter3]',
         'url_templated' => 'bool',
         'all_required_params_provided' => 'bool',
         'all_optional_params_provided' => 'bool',
-        'info' => '\Swagger\Client\Model\BeezUPCommonInfoSummaries'
+        'info' => '\EffetB\BeezupApi\Model\BeezUPCommonInfoSummaries'
     ];
 
     /**
@@ -298,7 +298,7 @@ class LinksConfigureChannelCatalogCategoryLink implements ModelInterface, ArrayA
     /**
      * Gets doc_url
      *
-     * @return \Swagger\Client\Model\BeezUPCommonDocUrl
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonDocUrl
      */
     public function getDocUrl()
     {
@@ -308,7 +308,7 @@ class LinksConfigureChannelCatalogCategoryLink implements ModelInterface, ArrayA
     /**
      * Sets doc_url
      *
-     * @param \Swagger\Client\Model\BeezUPCommonDocUrl $doc_url doc_url
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonDocUrl $doc_url doc_url
      *
      * @return $this
      */
@@ -346,7 +346,7 @@ class LinksConfigureChannelCatalogCategoryLink implements ModelInterface, ArrayA
     /**
      * Gets href
      *
-     * @return \Swagger\Client\Model\BeezUPCommonHref
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonHref
      */
     public function getHref()
     {
@@ -356,7 +356,7 @@ class LinksConfigureChannelCatalogCategoryLink implements ModelInterface, ArrayA
     /**
      * Sets href
      *
-     * @param \Swagger\Client\Model\BeezUPCommonHref $href href
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonHref $href href
      *
      * @return $this
      */
@@ -370,7 +370,7 @@ class LinksConfigureChannelCatalogCategoryLink implements ModelInterface, ArrayA
     /**
      * Gets operation_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonOperationId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonOperationId
      */
     public function getOperationId()
     {
@@ -380,7 +380,7 @@ class LinksConfigureChannelCatalogCategoryLink implements ModelInterface, ArrayA
     /**
      * Sets operation_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonOperationId $operation_id operation_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonOperationId $operation_id operation_id
      *
      * @return $this
      */
@@ -394,7 +394,7 @@ class LinksConfigureChannelCatalogCategoryLink implements ModelInterface, ArrayA
     /**
      * Gets method
      *
-     * @return \Swagger\Client\Model\BeezUPCommonHttpMethod
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonHttpMethod
      */
     public function getMethod()
     {
@@ -404,7 +404,7 @@ class LinksConfigureChannelCatalogCategoryLink implements ModelInterface, ArrayA
     /**
      * Sets method
      *
-     * @param \Swagger\Client\Model\BeezUPCommonHttpMethod $method method
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonHttpMethod $method method
      *
      * @return $this
      */
@@ -418,7 +418,7 @@ class LinksConfigureChannelCatalogCategoryLink implements ModelInterface, ArrayA
     /**
      * Gets parameters
      *
-     * @return map[string,\Swagger\Client\Model\BeezUPCommonLinkParameter3]
+     * @return map[string,\EffetB\BeezupApi\Model\BeezUPCommonLinkParameter3]
      */
     public function getParameters()
     {
@@ -428,7 +428,7 @@ class LinksConfigureChannelCatalogCategoryLink implements ModelInterface, ArrayA
     /**
      * Sets parameters
      *
-     * @param map[string,\Swagger\Client\Model\BeezUPCommonLinkParameter3] $parameters parameters
+     * @param map[string,\EffetB\BeezupApi\Model\BeezUPCommonLinkParameter3] $parameters parameters
      *
      * @return $this
      */
@@ -514,7 +514,7 @@ class LinksConfigureChannelCatalogCategoryLink implements ModelInterface, ArrayA
     /**
      * Gets info
      *
-     * @return \Swagger\Client\Model\BeezUPCommonInfoSummaries
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonInfoSummaries
      */
     public function getInfo()
     {
@@ -524,7 +524,7 @@ class LinksConfigureChannelCatalogCategoryLink implements ModelInterface, ArrayA
     /**
      * Sets info
      *
-     * @param \Swagger\Client\Model\BeezUPCommonInfoSummaries $info info
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonInfoSummaries $info info
      *
      * @return $this
      */

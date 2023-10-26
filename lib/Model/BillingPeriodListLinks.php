@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * BillingPeriodListLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class BillingPeriodListLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksGetBillingPeriodsLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksGetBillingPeriodsLink'
     ];
 
     /**
@@ -208,7 +208,7 @@ class BillingPeriodListLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksGetBillingPeriodsLink
+     * @return \EffetB\BeezupApi\Model\LinksGetBillingPeriodsLink
      */
     public function getSelf()
     {
@@ -218,7 +218,7 @@ class BillingPeriodListLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksGetBillingPeriodsLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksGetBillingPeriodsLink $self self
      *
      * @return $this
      */

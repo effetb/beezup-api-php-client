@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * DetectedCatalogColumnLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,11 +57,11 @@ class DetectedCatalogColumnLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'configure' => '\Swagger\Client\Model\LinksImportationConfigureCatalogColumnLink',
-        'ignore' => '\Swagger\Client\Model\LinksImportationIgnoreColumnLink',
-        'reattend' => '\Swagger\Client\Model\LinksImportationReattendColumnLink',
-        'map' => '\Swagger\Client\Model\LinksImportationMapCatalogColumnLink',
-        'unmap' => '\Swagger\Client\Model\LinksImportationUnmapCatalogColumnLink'
+        'configure' => '\EffetB\BeezupApi\Model\LinksImportationConfigureCatalogColumnLink',
+        'ignore' => '\EffetB\BeezupApi\Model\LinksImportationIgnoreColumnLink',
+        'reattend' => '\EffetB\BeezupApi\Model\LinksImportationReattendColumnLink',
+        'map' => '\EffetB\BeezupApi\Model\LinksImportationMapCatalogColumnLink',
+        'unmap' => '\EffetB\BeezupApi\Model\LinksImportationUnmapCatalogColumnLink'
     ];
 
     /**
@@ -232,7 +232,7 @@ class DetectedCatalogColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Gets configure
      *
-     * @return \Swagger\Client\Model\LinksImportationConfigureCatalogColumnLink
+     * @return \EffetB\BeezupApi\Model\LinksImportationConfigureCatalogColumnLink
      */
     public function getConfigure()
     {
@@ -242,7 +242,7 @@ class DetectedCatalogColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Sets configure
      *
-     * @param \Swagger\Client\Model\LinksImportationConfigureCatalogColumnLink $configure configure
+     * @param \EffetB\BeezupApi\Model\LinksImportationConfigureCatalogColumnLink $configure configure
      *
      * @return $this
      */
@@ -256,7 +256,7 @@ class DetectedCatalogColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Gets ignore
      *
-     * @return \Swagger\Client\Model\LinksImportationIgnoreColumnLink
+     * @return \EffetB\BeezupApi\Model\LinksImportationIgnoreColumnLink
      */
     public function getIgnore()
     {
@@ -266,7 +266,7 @@ class DetectedCatalogColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Sets ignore
      *
-     * @param \Swagger\Client\Model\LinksImportationIgnoreColumnLink $ignore ignore
+     * @param \EffetB\BeezupApi\Model\LinksImportationIgnoreColumnLink $ignore ignore
      *
      * @return $this
      */
@@ -280,7 +280,7 @@ class DetectedCatalogColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Gets reattend
      *
-     * @return \Swagger\Client\Model\LinksImportationReattendColumnLink
+     * @return \EffetB\BeezupApi\Model\LinksImportationReattendColumnLink
      */
     public function getReattend()
     {
@@ -290,7 +290,7 @@ class DetectedCatalogColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Sets reattend
      *
-     * @param \Swagger\Client\Model\LinksImportationReattendColumnLink $reattend reattend
+     * @param \EffetB\BeezupApi\Model\LinksImportationReattendColumnLink $reattend reattend
      *
      * @return $this
      */
@@ -304,7 +304,7 @@ class DetectedCatalogColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Gets map
      *
-     * @return \Swagger\Client\Model\LinksImportationMapCatalogColumnLink
+     * @return \EffetB\BeezupApi\Model\LinksImportationMapCatalogColumnLink
      */
     public function getMap()
     {
@@ -314,7 +314,7 @@ class DetectedCatalogColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Sets map
      *
-     * @param \Swagger\Client\Model\LinksImportationMapCatalogColumnLink $map map
+     * @param \EffetB\BeezupApi\Model\LinksImportationMapCatalogColumnLink $map map
      *
      * @return $this
      */
@@ -328,7 +328,7 @@ class DetectedCatalogColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Gets unmap
      *
-     * @return \Swagger\Client\Model\LinksImportationUnmapCatalogColumnLink
+     * @return \EffetB\BeezupApi\Model\LinksImportationUnmapCatalogColumnLink
      */
     public function getUnmap()
     {
@@ -338,7 +338,7 @@ class DetectedCatalogColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Sets unmap
      *
-     * @param \Swagger\Client\Model\LinksImportationUnmapCatalogColumnLink $unmap unmap
+     * @param \EffetB\BeezupApi\Model\LinksImportationUnmapCatalogColumnLink $unmap unmap
      *
      * @return $this
      */

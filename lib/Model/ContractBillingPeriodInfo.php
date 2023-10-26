@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ContractBillingPeriodInfo Class Doc Comment
  *
  * @category Class
  * @description Describe the billing period information related to the offer.
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -60,7 +60,7 @@ class ContractBillingPeriodInfo implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'amount_billing_period_discount' => 'double',
         'billing_period_percent_discount' => 'double',
-        'billing_period_in_month' => '\Swagger\Client\Model\BillingPeriodInMonth'
+        'billing_period_in_month' => '\EffetB\BeezupApi\Model\BillingPeriodInMonth'
     ];
 
     /**
@@ -269,7 +269,7 @@ class ContractBillingPeriodInfo implements ModelInterface, ArrayAccess
     /**
      * Gets billing_period_in_month
      *
-     * @return \Swagger\Client\Model\BillingPeriodInMonth
+     * @return \EffetB\BeezupApi\Model\BillingPeriodInMonth
      */
     public function getBillingPeriodInMonth()
     {
@@ -279,7 +279,7 @@ class ContractBillingPeriodInfo implements ModelInterface, ArrayAccess
     /**
      * Sets billing_period_in_month
      *
-     * @param \Swagger\Client\Model\BillingPeriodInMonth $billing_period_in_month billing_period_in_month
+     * @param \EffetB\BeezupApi\Model\BillingPeriodInMonth $billing_period_in_month billing_period_in_month
      *
      * @return $this
      */

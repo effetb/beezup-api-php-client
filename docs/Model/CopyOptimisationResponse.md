@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**channel** | [**\Swagger\Client\Model\BeezUPCommonChannelBasicInfo**](BeezUPCommonChannelBasicInfo.md) |  | 
+**channel** | [**\EffetB\BeezupApi\Model\BeezUPCommonChannelBasicInfo**](BeezUPCommonChannelBasicInfo.md) |  | 
 **catalog_product_count** | **int** | The catalog product count | 
 **enabled_product_count** | **int** | The enabled product count | 
 

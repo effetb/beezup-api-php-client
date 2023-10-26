@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * Offer Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,9 +57,9 @@ class Offer implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'content' => '\Swagger\Client\Model\OfferContent',
-        'info' => '\Swagger\Client\Model\BeezUPCommonInfoSummaries',
-        'links' => '\Swagger\Client\Model\OfferLinks'
+        'content' => '\EffetB\BeezupApi\Model\OfferContent',
+        'info' => '\EffetB\BeezupApi\Model\BeezUPCommonInfoSummaries',
+        'links' => '\EffetB\BeezupApi\Model\OfferLinks'
     ];
 
     /**
@@ -220,7 +220,7 @@ class Offer implements ModelInterface, ArrayAccess
     /**
      * Gets content
      *
-     * @return \Swagger\Client\Model\OfferContent
+     * @return \EffetB\BeezupApi\Model\OfferContent
      */
     public function getContent()
     {
@@ -230,7 +230,7 @@ class Offer implements ModelInterface, ArrayAccess
     /**
      * Sets content
      *
-     * @param \Swagger\Client\Model\OfferContent $content content
+     * @param \EffetB\BeezupApi\Model\OfferContent $content content
      *
      * @return $this
      */
@@ -244,7 +244,7 @@ class Offer implements ModelInterface, ArrayAccess
     /**
      * Gets info
      *
-     * @return \Swagger\Client\Model\BeezUPCommonInfoSummaries
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonInfoSummaries
      */
     public function getInfo()
     {
@@ -254,7 +254,7 @@ class Offer implements ModelInterface, ArrayAccess
     /**
      * Sets info
      *
-     * @param \Swagger\Client\Model\BeezUPCommonInfoSummaries $info info
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonInfoSummaries $info info
      *
      * @return $this
      */
@@ -268,7 +268,7 @@ class Offer implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\OfferLinks
+     * @return \EffetB\BeezupApi\Model\OfferLinks
      */
     public function getLinks()
     {
@@ -278,7 +278,7 @@ class Offer implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\OfferLinks $links links
+     * @param \EffetB\BeezupApi\Model\OfferLinks $links links
      *
      * @return $this
      */

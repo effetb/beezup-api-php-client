@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CreateRuleRequest Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class CreateRuleRequest implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'optimisation_action_name' => '\Swagger\Client\Model\OptimisationActionName',
+        'optimisation_action_name' => '\EffetB\BeezupApi\Model\OptimisationActionName',
         'rule_name' => 'string',
         'report_filter_id' => 'string',
         'start_utc_date' => '\DateTime',
@@ -250,7 +250,7 @@ class CreateRuleRequest implements ModelInterface, ArrayAccess
     /**
      * Gets optimisation_action_name
      *
-     * @return \Swagger\Client\Model\OptimisationActionName
+     * @return \EffetB\BeezupApi\Model\OptimisationActionName
      */
     public function getOptimisationActionName()
     {
@@ -260,7 +260,7 @@ class CreateRuleRequest implements ModelInterface, ArrayAccess
     /**
      * Sets optimisation_action_name
      *
-     * @param \Swagger\Client\Model\OptimisationActionName $optimisation_action_name optimisation_action_name
+     * @param \EffetB\BeezupApi\Model\OptimisationActionName $optimisation_action_name optimisation_action_name
      *
      * @return $this
      */

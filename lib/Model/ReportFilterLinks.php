@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ReportFilterLinks Class Doc Comment
  *
  * @category Class
  * @description Indicates the actions you can do on this report filter
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,9 +58,9 @@ class ReportFilterLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksGetReportFilterLink',
-        'save' => '\Swagger\Client\Model\LinksSaveReportFilterLink',
-        'delete' => '\Swagger\Client\Model\LinksDeleteReportFilterLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksGetReportFilterLink',
+        'save' => '\EffetB\BeezupApi\Model\LinksSaveReportFilterLink',
+        'delete' => '\EffetB\BeezupApi\Model\LinksDeleteReportFilterLink'
     ];
 
     /**
@@ -221,7 +221,7 @@ class ReportFilterLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksGetReportFilterLink
+     * @return \EffetB\BeezupApi\Model\LinksGetReportFilterLink
      */
     public function getSelf()
     {
@@ -231,7 +231,7 @@ class ReportFilterLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksGetReportFilterLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksGetReportFilterLink $self self
      *
      * @return $this
      */
@@ -245,7 +245,7 @@ class ReportFilterLinks implements ModelInterface, ArrayAccess
     /**
      * Gets save
      *
-     * @return \Swagger\Client\Model\LinksSaveReportFilterLink
+     * @return \EffetB\BeezupApi\Model\LinksSaveReportFilterLink
      */
     public function getSave()
     {
@@ -255,7 +255,7 @@ class ReportFilterLinks implements ModelInterface, ArrayAccess
     /**
      * Sets save
      *
-     * @param \Swagger\Client\Model\LinksSaveReportFilterLink $save save
+     * @param \EffetB\BeezupApi\Model\LinksSaveReportFilterLink $save save
      *
      * @return $this
      */
@@ -269,7 +269,7 @@ class ReportFilterLinks implements ModelInterface, ArrayAccess
     /**
      * Gets delete
      *
-     * @return \Swagger\Client\Model\LinksDeleteReportFilterLink
+     * @return \EffetB\BeezupApi\Model\LinksDeleteReportFilterLink
      */
     public function getDelete()
     {
@@ -279,7 +279,7 @@ class ReportFilterLinks implements ModelInterface, ArrayAccess
     /**
      * Sets delete
      *
-     * @param \Swagger\Client\Model\LinksDeleteReportFilterLink $delete delete
+     * @param \EffetB\BeezupApi\Model\LinksDeleteReportFilterLink $delete delete
      *
      * @return $this
      */

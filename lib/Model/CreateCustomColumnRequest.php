@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CreateCustomColumnRequest Class Doc Comment
  *
  * @category Class
  * @description The request message to create a custom column
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,10 +58,10 @@ class CreateCustomColumnRequest implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'user_column_name' => '\Swagger\Client\Model\UserColumName',
-        'encrypted_expression' => '\Swagger\Client\Model\EncryptedExpression',
-        'encrypted_blockly_expression' => '\Swagger\Client\Model\EncryptedBlocklyExpression',
-        'display_group_name' => '\Swagger\Client\Model\DisplayGroupName'
+        'user_column_name' => '\EffetB\BeezupApi\Model\UserColumName',
+        'encrypted_expression' => '\EffetB\BeezupApi\Model\EncryptedExpression',
+        'encrypted_blockly_expression' => '\EffetB\BeezupApi\Model\EncryptedBlocklyExpression',
+        'display_group_name' => '\EffetB\BeezupApi\Model\DisplayGroupName'
     ];
 
     /**
@@ -251,7 +251,7 @@ class CreateCustomColumnRequest implements ModelInterface, ArrayAccess
     /**
      * Gets user_column_name
      *
-     * @return \Swagger\Client\Model\UserColumName
+     * @return \EffetB\BeezupApi\Model\UserColumName
      */
     public function getUserColumnName()
     {
@@ -261,7 +261,7 @@ class CreateCustomColumnRequest implements ModelInterface, ArrayAccess
     /**
      * Sets user_column_name
      *
-     * @param \Swagger\Client\Model\UserColumName $user_column_name user_column_name
+     * @param \EffetB\BeezupApi\Model\UserColumName $user_column_name user_column_name
      *
      * @return $this
      */
@@ -275,7 +275,7 @@ class CreateCustomColumnRequest implements ModelInterface, ArrayAccess
     /**
      * Gets encrypted_expression
      *
-     * @return \Swagger\Client\Model\EncryptedExpression
+     * @return \EffetB\BeezupApi\Model\EncryptedExpression
      */
     public function getEncryptedExpression()
     {
@@ -285,7 +285,7 @@ class CreateCustomColumnRequest implements ModelInterface, ArrayAccess
     /**
      * Sets encrypted_expression
      *
-     * @param \Swagger\Client\Model\EncryptedExpression $encrypted_expression encrypted_expression
+     * @param \EffetB\BeezupApi\Model\EncryptedExpression $encrypted_expression encrypted_expression
      *
      * @return $this
      */
@@ -299,7 +299,7 @@ class CreateCustomColumnRequest implements ModelInterface, ArrayAccess
     /**
      * Gets encrypted_blockly_expression
      *
-     * @return \Swagger\Client\Model\EncryptedBlocklyExpression
+     * @return \EffetB\BeezupApi\Model\EncryptedBlocklyExpression
      */
     public function getEncryptedBlocklyExpression()
     {
@@ -309,7 +309,7 @@ class CreateCustomColumnRequest implements ModelInterface, ArrayAccess
     /**
      * Sets encrypted_blockly_expression
      *
-     * @param \Swagger\Client\Model\EncryptedBlocklyExpression $encrypted_blockly_expression encrypted_blockly_expression
+     * @param \EffetB\BeezupApi\Model\EncryptedBlocklyExpression $encrypted_blockly_expression encrypted_blockly_expression
      *
      * @return $this
      */
@@ -323,7 +323,7 @@ class CreateCustomColumnRequest implements ModelInterface, ArrayAccess
     /**
      * Gets display_group_name
      *
-     * @return \Swagger\Client\Model\DisplayGroupName
+     * @return \EffetB\BeezupApi\Model\DisplayGroupName
      */
     public function getDisplayGroupName()
     {
@@ -333,7 +333,7 @@ class CreateCustomColumnRequest implements ModelInterface, ArrayAccess
     /**
      * Sets display_group_name
      *
-     * @param \Swagger\Client\Model\DisplayGroupName $display_group_name display_group_name
+     * @param \EffetB\BeezupApi\Model\DisplayGroupName $display_group_name display_group_name
      *
      * @return $this
      */

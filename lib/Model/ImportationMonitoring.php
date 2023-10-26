@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ImportationMonitoring Class Doc Comment
  *
  * @category Class
  * @description Describe the reporting of the catalog importation
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,14 +58,14 @@ class ImportationMonitoring implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'user_id' => '\Swagger\Client\Model\BeezUPCommonUserId',
+        'user_id' => '\EffetB\BeezupApi\Model\BeezUPCommonUserId',
         'success' => 'bool',
-        'execution_id' => '\Swagger\Client\Model\ExecutionId',
+        'execution_id' => '\EffetB\BeezupApi\Model\ExecutionId',
         'last_update_utc_date' => '\DateTime',
         'begin_utc_date' => '\DateTime',
-        'errors' => '\Swagger\Client\Model\BeezUPCommonUserErrorMessage[]',
+        'errors' => '\EffetB\BeezupApi\Model\BeezUPCommonUserErrorMessage[]',
         'steps' => 'map[string,bool]',
-        'links' => '\Swagger\Client\Model\ImportationMonitoringLinks'
+        'links' => '\EffetB\BeezupApi\Model\ImportationMonitoringLinks'
     ];
 
     /**
@@ -281,7 +281,7 @@ class ImportationMonitoring implements ModelInterface, ArrayAccess
     /**
      * Gets user_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonUserId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonUserId
      */
     public function getUserId()
     {
@@ -291,7 +291,7 @@ class ImportationMonitoring implements ModelInterface, ArrayAccess
     /**
      * Sets user_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonUserId $user_id user_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonUserId $user_id user_id
      *
      * @return $this
      */
@@ -329,7 +329,7 @@ class ImportationMonitoring implements ModelInterface, ArrayAccess
     /**
      * Gets execution_id
      *
-     * @return \Swagger\Client\Model\ExecutionId
+     * @return \EffetB\BeezupApi\Model\ExecutionId
      */
     public function getExecutionId()
     {
@@ -339,7 +339,7 @@ class ImportationMonitoring implements ModelInterface, ArrayAccess
     /**
      * Sets execution_id
      *
-     * @param \Swagger\Client\Model\ExecutionId $execution_id execution_id
+     * @param \EffetB\BeezupApi\Model\ExecutionId $execution_id execution_id
      *
      * @return $this
      */
@@ -401,7 +401,7 @@ class ImportationMonitoring implements ModelInterface, ArrayAccess
     /**
      * Gets errors
      *
-     * @return \Swagger\Client\Model\BeezUPCommonUserErrorMessage[]
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonUserErrorMessage[]
      */
     public function getErrors()
     {
@@ -411,7 +411,7 @@ class ImportationMonitoring implements ModelInterface, ArrayAccess
     /**
      * Sets errors
      *
-     * @param \Swagger\Client\Model\BeezUPCommonUserErrorMessage[] $errors In case of error a description will be indicated
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonUserErrorMessage[] $errors In case of error a description will be indicated
      *
      * @return $this
      */
@@ -449,7 +449,7 @@ class ImportationMonitoring implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ImportationMonitoringLinks
+     * @return \EffetB\BeezupApi\Model\ImportationMonitoringLinks
      */
     public function getLinks()
     {
@@ -459,7 +459,7 @@ class ImportationMonitoring implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ImportationMonitoringLinks $links links
+     * @param \EffetB\BeezupApi\Model\ImportationMonitoringLinks $links links
      *
      * @return $this
      */

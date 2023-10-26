@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * Rule Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,15 +59,15 @@ class Rule implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'rule_id' => 'string',
         'rule_name' => 'string',
-        'last_execution_status' => '\Swagger\Client\Model\RuleLastExecutionStatus',
+        'last_execution_status' => '\EffetB\BeezupApi\Model\RuleLastExecutionStatus',
         'last_execution_utc_date' => '\DateTime',
-        'action_name' => '\Swagger\Client\Model\OptimisationActionName',
+        'action_name' => '\EffetB\BeezupApi\Model\OptimisationActionName',
         'report_filter_id' => 'string',
         'position' => 'int',
         'enabled' => 'bool',
         'validity_start_utc_date' => '\DateTime',
         'validity_end_utc_date' => '\DateTime',
-        'links' => '\Swagger\Client\Model\RuleLinks'
+        'links' => '\EffetB\BeezupApi\Model\RuleLinks'
     ];
 
     /**
@@ -358,7 +358,7 @@ class Rule implements ModelInterface, ArrayAccess
     /**
      * Gets last_execution_status
      *
-     * @return \Swagger\Client\Model\RuleLastExecutionStatus
+     * @return \EffetB\BeezupApi\Model\RuleLastExecutionStatus
      */
     public function getLastExecutionStatus()
     {
@@ -368,7 +368,7 @@ class Rule implements ModelInterface, ArrayAccess
     /**
      * Sets last_execution_status
      *
-     * @param \Swagger\Client\Model\RuleLastExecutionStatus $last_execution_status last_execution_status
+     * @param \EffetB\BeezupApi\Model\RuleLastExecutionStatus $last_execution_status last_execution_status
      *
      * @return $this
      */
@@ -406,7 +406,7 @@ class Rule implements ModelInterface, ArrayAccess
     /**
      * Gets action_name
      *
-     * @return \Swagger\Client\Model\OptimisationActionName
+     * @return \EffetB\BeezupApi\Model\OptimisationActionName
      */
     public function getActionName()
     {
@@ -416,7 +416,7 @@ class Rule implements ModelInterface, ArrayAccess
     /**
      * Sets action_name
      *
-     * @param \Swagger\Client\Model\OptimisationActionName $action_name action_name
+     * @param \EffetB\BeezupApi\Model\OptimisationActionName $action_name action_name
      *
      * @return $this
      */
@@ -550,7 +550,7 @@ class Rule implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\RuleLinks
+     * @return \EffetB\BeezupApi\Model\RuleLinks
      */
     public function getLinks()
     {
@@ -560,7 +560,7 @@ class Rule implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\RuleLinks $links links
+     * @param \EffetB\BeezupApi\Model\RuleLinks $links links
      *
      * @return $this
      */

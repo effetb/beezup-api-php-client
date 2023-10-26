@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ImportationsResponse Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class ImportationsResponse implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\ImportationsResponseLinks',
-        'importations' => '\Swagger\Client\Model\ImportationReporting[]'
+        'links' => '\EffetB\BeezupApi\Model\ImportationsResponseLinks',
+        'importations' => '\EffetB\BeezupApi\Model\ImportationReporting[]'
     ];
 
     /**
@@ -214,7 +214,7 @@ class ImportationsResponse implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ImportationsResponseLinks
+     * @return \EffetB\BeezupApi\Model\ImportationsResponseLinks
      */
     public function getLinks()
     {
@@ -224,7 +224,7 @@ class ImportationsResponse implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ImportationsResponseLinks $links links
+     * @param \EffetB\BeezupApi\Model\ImportationsResponseLinks $links links
      *
      * @return $this
      */
@@ -238,7 +238,7 @@ class ImportationsResponse implements ModelInterface, ArrayAccess
     /**
      * Gets importations
      *
-     * @return \Swagger\Client\Model\ImportationReporting[]
+     * @return \EffetB\BeezupApi\Model\ImportationReporting[]
      */
     public function getImportations()
     {
@@ -248,7 +248,7 @@ class ImportationsResponse implements ModelInterface, ArrayAccess
     /**
      * Sets importations
      *
-     * @param \Swagger\Client\Model\ImportationReporting[] $importations importations
+     * @param \EffetB\BeezupApi\Model\ImportationReporting[] $importations importations
      *
      * @return $this
      */

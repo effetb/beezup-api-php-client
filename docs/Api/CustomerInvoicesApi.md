@@ -1,4 +1,4 @@
-# Swagger\Client\CustomerInvoicesApi
+# EffetB\BeezupApi\CustomerInvoicesApi
 
 All URIs are relative to *https://api.beezup.com/v2*
 
@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **getInvoices**
-> \Swagger\Client\Model\InvoiceList getInvoices($if_none_match)
+> \EffetB\BeezupApi\Model\InvoiceList getInvoices($if_none_match)
 
 Get all your invoices
 
@@ -18,11 +18,11 @@ Get all your invoices
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CustomerInvoicesApi(
+$apiInstance = new EffetB\BeezupApi\Api\CustomerInvoicesApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -47,7 +47,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InvoiceList**](../Model/InvoiceList.md)
+[**\EffetB\BeezupApi\Model\InvoiceList**](../Model/InvoiceList.md)
 
 ### Authorization
 

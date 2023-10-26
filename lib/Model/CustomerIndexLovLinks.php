@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CustomerIndexLovLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,15 +57,15 @@ class CustomerIndexLovLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'offer_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3',
-        'active_offer_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3',
-        'customer_status_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3',
-        'beez_up_time_zone_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3',
-        'store_country_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3',
-        'store_sector_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3',
-        'country_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3',
-        'contract_termination_reason_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3',
-        'invoice_payment_status_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3'
+        'offer_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3',
+        'active_offer_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3',
+        'customer_status_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3',
+        'beez_up_time_zone_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3',
+        'store_country_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3',
+        'store_sector_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3',
+        'country_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3',
+        'contract_termination_reason_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3',
+        'invoice_payment_status_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3'
     ];
 
     /**
@@ -256,7 +256,7 @@ class CustomerIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Gets offer_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getOfferLov()
     {
@@ -266,7 +266,7 @@ class CustomerIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Sets offer_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $offer_lov offer_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $offer_lov offer_lov
      *
      * @return $this
      */
@@ -280,7 +280,7 @@ class CustomerIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Gets active_offer_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getActiveOfferLov()
     {
@@ -290,7 +290,7 @@ class CustomerIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Sets active_offer_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $active_offer_lov active_offer_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $active_offer_lov active_offer_lov
      *
      * @return $this
      */
@@ -304,7 +304,7 @@ class CustomerIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Gets customer_status_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getCustomerStatusLov()
     {
@@ -314,7 +314,7 @@ class CustomerIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Sets customer_status_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $customer_status_lov customer_status_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $customer_status_lov customer_status_lov
      *
      * @return $this
      */
@@ -328,7 +328,7 @@ class CustomerIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Gets beez_up_time_zone_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getBeezUpTimeZoneLov()
     {
@@ -338,7 +338,7 @@ class CustomerIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Sets beez_up_time_zone_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $beez_up_time_zone_lov beez_up_time_zone_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $beez_up_time_zone_lov beez_up_time_zone_lov
      *
      * @return $this
      */
@@ -352,7 +352,7 @@ class CustomerIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Gets store_country_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getStoreCountryLov()
     {
@@ -362,7 +362,7 @@ class CustomerIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Sets store_country_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $store_country_lov store_country_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $store_country_lov store_country_lov
      *
      * @return $this
      */
@@ -376,7 +376,7 @@ class CustomerIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Gets store_sector_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getStoreSectorLov()
     {
@@ -386,7 +386,7 @@ class CustomerIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Sets store_sector_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $store_sector_lov store_sector_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $store_sector_lov store_sector_lov
      *
      * @return $this
      */
@@ -400,7 +400,7 @@ class CustomerIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Gets country_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getCountryLov()
     {
@@ -410,7 +410,7 @@ class CustomerIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Sets country_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $country_lov country_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $country_lov country_lov
      *
      * @return $this
      */
@@ -424,7 +424,7 @@ class CustomerIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Gets contract_termination_reason_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getContractTerminationReasonLov()
     {
@@ -434,7 +434,7 @@ class CustomerIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Sets contract_termination_reason_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $contract_termination_reason_lov contract_termination_reason_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $contract_termination_reason_lov contract_termination_reason_lov
      *
      * @return $this
      */
@@ -448,7 +448,7 @@ class CustomerIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Gets invoice_payment_status_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getInvoicePaymentStatusLov()
     {
@@ -458,7 +458,7 @@ class CustomerIndexLovLinks implements ModelInterface, ArrayAccess
     /**
      * Sets invoice_payment_status_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $invoice_payment_status_lov invoice_payment_status_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $invoice_payment_status_lov invoice_payment_status_lov
      *
      * @return $this
      */

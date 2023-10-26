@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ConfigureAutomaticTransitionRequest Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class ConfigureAutomaticTransitionRequest implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'automatic_transitions' => '\Swagger\Client\Model\AutomaticTransition[]'
+        'automatic_transitions' => '\EffetB\BeezupApi\Model\AutomaticTransition[]'
     ];
 
     /**
@@ -214,7 +214,7 @@ class ConfigureAutomaticTransitionRequest implements ModelInterface, ArrayAccess
     /**
      * Gets automatic_transitions
      *
-     * @return \Swagger\Client\Model\AutomaticTransition[]
+     * @return \EffetB\BeezupApi\Model\AutomaticTransition[]
      */
     public function getAutomaticTransitions()
     {
@@ -224,7 +224,7 @@ class ConfigureAutomaticTransitionRequest implements ModelInterface, ArrayAccess
     /**
      * Sets automatic_transitions
      *
-     * @param \Swagger\Client\Model\AutomaticTransition[] $automatic_transitions automatic_transitions
+     * @param \EffetB\BeezupApi\Model\AutomaticTransition[] $automatic_transitions automatic_transitions
      *
      * @return $this
      */

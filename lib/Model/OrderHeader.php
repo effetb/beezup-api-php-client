@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * OrderHeader Class Doc Comment
  *
  * @category Class
  * @description Describe the basic information related to an order. All properties with the prefix order_ are translated in the list of values /user/lov/OrderMetaInfoOrderDetails
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,26 +58,26 @@ class OrderHeader implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'marketplace_technical_code' => '\Swagger\Client\Model\BeezUPCommonMarketplaceTechnicalCode',
-        'account_id' => '\Swagger\Client\Model\AccountId',
-        'beez_up_order_id' => '\Swagger\Client\Model\BeezUPOrderId',
-        'beez_up_order_url' => '\Swagger\Client\Model\BeezUPCommonHttpUrl',
-        'marketplace_business_code' => '\Swagger\Client\Model\BeezUPCommonMarketplaceBusinessCode',
-        'order_marketplace_order_id' => '\Swagger\Client\Model\MarketplaceOrderId',
-        'order_status_beez_up_order_status' => '\Swagger\Client\Model\BeezUPOrderStatus',
-        'order_status_marketplace_order_status' => '\Swagger\Client\Model\MarketplaceOrderStatus',
-        'order_merchant_order_id' => '\Swagger\Client\Model\OrderMerchantOrderId',
-        'order_merchant_e_commerce_software_name' => '\Swagger\Client\Model\OrderMerchantECommerceSoftwareName',
-        'order_merchant_e_commerce_software_version' => '\Swagger\Client\Model\OrderMerchantECommerceSoftwareVersion',
+        'marketplace_technical_code' => '\EffetB\BeezupApi\Model\BeezUPCommonMarketplaceTechnicalCode',
+        'account_id' => '\EffetB\BeezupApi\Model\AccountId',
+        'beez_up_order_id' => '\EffetB\BeezupApi\Model\BeezUPOrderId',
+        'beez_up_order_url' => '\EffetB\BeezupApi\Model\BeezUPCommonHttpUrl',
+        'marketplace_business_code' => '\EffetB\BeezupApi\Model\BeezUPCommonMarketplaceBusinessCode',
+        'order_marketplace_order_id' => '\EffetB\BeezupApi\Model\MarketplaceOrderId',
+        'order_status_beez_up_order_status' => '\EffetB\BeezupApi\Model\BeezUPOrderStatus',
+        'order_status_marketplace_order_status' => '\EffetB\BeezupApi\Model\MarketplaceOrderStatus',
+        'order_merchant_order_id' => '\EffetB\BeezupApi\Model\OrderMerchantOrderId',
+        'order_merchant_e_commerce_software_name' => '\EffetB\BeezupApi\Model\OrderMerchantECommerceSoftwareName',
+        'order_merchant_e_commerce_software_version' => '\EffetB\BeezupApi\Model\OrderMerchantECommerceSoftwareVersion',
         'order_purchase_utc_date' => '\DateTime',
         'order_last_modification_utc_date' => '\DateTime',
         'order_marketplace_last_modification_utc_date' => '\DateTime',
-        'order_buyer_name' => '\Swagger\Client\Model\OrderBuyerName',
+        'order_buyer_name' => '\EffetB\BeezupApi\Model\OrderBuyerName',
         'order_total_price' => 'float',
-        'order_currency_code' => '\Swagger\Client\Model\BeezUPCommonCurrencyCode',
-        'processing' => '\Swagger\Client\Model\Processing',
-        'etag' => '\Swagger\Client\Model\Etag',
-        'links' => '\Swagger\Client\Model\OrderHeaderLinks'
+        'order_currency_code' => '\EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode',
+        'processing' => '\EffetB\BeezupApi\Model\Processing',
+        'etag' => '\EffetB\BeezupApi\Model\Etag',
+        'links' => '\EffetB\BeezupApi\Model\OrderHeaderLinks'
     ];
 
     /**
@@ -395,7 +395,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
     /**
      * Gets marketplace_technical_code
      *
-     * @return \Swagger\Client\Model\BeezUPCommonMarketplaceTechnicalCode
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonMarketplaceTechnicalCode
      */
     public function getMarketplaceTechnicalCode()
     {
@@ -405,7 +405,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
     /**
      * Sets marketplace_technical_code
      *
-     * @param \Swagger\Client\Model\BeezUPCommonMarketplaceTechnicalCode $marketplace_technical_code marketplace_technical_code
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonMarketplaceTechnicalCode $marketplace_technical_code marketplace_technical_code
      *
      * @return $this
      */
@@ -419,7 +419,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
     /**
      * Gets account_id
      *
-     * @return \Swagger\Client\Model\AccountId
+     * @return \EffetB\BeezupApi\Model\AccountId
      */
     public function getAccountId()
     {
@@ -429,7 +429,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
     /**
      * Sets account_id
      *
-     * @param \Swagger\Client\Model\AccountId $account_id account_id
+     * @param \EffetB\BeezupApi\Model\AccountId $account_id account_id
      *
      * @return $this
      */
@@ -443,7 +443,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
     /**
      * Gets beez_up_order_id
      *
-     * @return \Swagger\Client\Model\BeezUPOrderId
+     * @return \EffetB\BeezupApi\Model\BeezUPOrderId
      */
     public function getBeezUpOrderId()
     {
@@ -453,7 +453,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
     /**
      * Sets beez_up_order_id
      *
-     * @param \Swagger\Client\Model\BeezUPOrderId $beez_up_order_id beez_up_order_id
+     * @param \EffetB\BeezupApi\Model\BeezUPOrderId $beez_up_order_id beez_up_order_id
      *
      * @return $this
      */
@@ -467,7 +467,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
     /**
      * Gets beez_up_order_url
      *
-     * @return \Swagger\Client\Model\BeezUPCommonHttpUrl
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonHttpUrl
      */
     public function getBeezUpOrderUrl()
     {
@@ -477,7 +477,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
     /**
      * Sets beez_up_order_url
      *
-     * @param \Swagger\Client\Model\BeezUPCommonHttpUrl $beez_up_order_url beez_up_order_url
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonHttpUrl $beez_up_order_url beez_up_order_url
      *
      * @return $this
      */
@@ -491,7 +491,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
     /**
      * Gets marketplace_business_code
      *
-     * @return \Swagger\Client\Model\BeezUPCommonMarketplaceBusinessCode
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonMarketplaceBusinessCode
      */
     public function getMarketplaceBusinessCode()
     {
@@ -501,7 +501,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
     /**
      * Sets marketplace_business_code
      *
-     * @param \Swagger\Client\Model\BeezUPCommonMarketplaceBusinessCode $marketplace_business_code marketplace_business_code
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonMarketplaceBusinessCode $marketplace_business_code marketplace_business_code
      *
      * @return $this
      */
@@ -515,7 +515,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
     /**
      * Gets order_marketplace_order_id
      *
-     * @return \Swagger\Client\Model\MarketplaceOrderId
+     * @return \EffetB\BeezupApi\Model\MarketplaceOrderId
      */
     public function getOrderMarketplaceOrderId()
     {
@@ -525,7 +525,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
     /**
      * Sets order_marketplace_order_id
      *
-     * @param \Swagger\Client\Model\MarketplaceOrderId $order_marketplace_order_id order_marketplace_order_id
+     * @param \EffetB\BeezupApi\Model\MarketplaceOrderId $order_marketplace_order_id order_marketplace_order_id
      *
      * @return $this
      */
@@ -539,7 +539,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
     /**
      * Gets order_status_beez_up_order_status
      *
-     * @return \Swagger\Client\Model\BeezUPOrderStatus
+     * @return \EffetB\BeezupApi\Model\BeezUPOrderStatus
      */
     public function getOrderStatusBeezUpOrderStatus()
     {
@@ -549,7 +549,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
     /**
      * Sets order_status_beez_up_order_status
      *
-     * @param \Swagger\Client\Model\BeezUPOrderStatus $order_status_beez_up_order_status order_status_beez_up_order_status
+     * @param \EffetB\BeezupApi\Model\BeezUPOrderStatus $order_status_beez_up_order_status order_status_beez_up_order_status
      *
      * @return $this
      */
@@ -563,7 +563,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
     /**
      * Gets order_status_marketplace_order_status
      *
-     * @return \Swagger\Client\Model\MarketplaceOrderStatus
+     * @return \EffetB\BeezupApi\Model\MarketplaceOrderStatus
      */
     public function getOrderStatusMarketplaceOrderStatus()
     {
@@ -573,7 +573,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
     /**
      * Sets order_status_marketplace_order_status
      *
-     * @param \Swagger\Client\Model\MarketplaceOrderStatus $order_status_marketplace_order_status order_status_marketplace_order_status
+     * @param \EffetB\BeezupApi\Model\MarketplaceOrderStatus $order_status_marketplace_order_status order_status_marketplace_order_status
      *
      * @return $this
      */
@@ -587,7 +587,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
     /**
      * Gets order_merchant_order_id
      *
-     * @return \Swagger\Client\Model\OrderMerchantOrderId
+     * @return \EffetB\BeezupApi\Model\OrderMerchantOrderId
      */
     public function getOrderMerchantOrderId()
     {
@@ -597,7 +597,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
     /**
      * Sets order_merchant_order_id
      *
-     * @param \Swagger\Client\Model\OrderMerchantOrderId $order_merchant_order_id order_merchant_order_id
+     * @param \EffetB\BeezupApi\Model\OrderMerchantOrderId $order_merchant_order_id order_merchant_order_id
      *
      * @return $this
      */
@@ -611,7 +611,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
     /**
      * Gets order_merchant_e_commerce_software_name
      *
-     * @return \Swagger\Client\Model\OrderMerchantECommerceSoftwareName
+     * @return \EffetB\BeezupApi\Model\OrderMerchantECommerceSoftwareName
      */
     public function getOrderMerchantECommerceSoftwareName()
     {
@@ -621,7 +621,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
     /**
      * Sets order_merchant_e_commerce_software_name
      *
-     * @param \Swagger\Client\Model\OrderMerchantECommerceSoftwareName $order_merchant_e_commerce_software_name order_merchant_e_commerce_software_name
+     * @param \EffetB\BeezupApi\Model\OrderMerchantECommerceSoftwareName $order_merchant_e_commerce_software_name order_merchant_e_commerce_software_name
      *
      * @return $this
      */
@@ -635,7 +635,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
     /**
      * Gets order_merchant_e_commerce_software_version
      *
-     * @return \Swagger\Client\Model\OrderMerchantECommerceSoftwareVersion
+     * @return \EffetB\BeezupApi\Model\OrderMerchantECommerceSoftwareVersion
      */
     public function getOrderMerchantECommerceSoftwareVersion()
     {
@@ -645,7 +645,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
     /**
      * Sets order_merchant_e_commerce_software_version
      *
-     * @param \Swagger\Client\Model\OrderMerchantECommerceSoftwareVersion $order_merchant_e_commerce_software_version order_merchant_e_commerce_software_version
+     * @param \EffetB\BeezupApi\Model\OrderMerchantECommerceSoftwareVersion $order_merchant_e_commerce_software_version order_merchant_e_commerce_software_version
      *
      * @return $this
      */
@@ -731,7 +731,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
     /**
      * Gets order_buyer_name
      *
-     * @return \Swagger\Client\Model\OrderBuyerName
+     * @return \EffetB\BeezupApi\Model\OrderBuyerName
      */
     public function getOrderBuyerName()
     {
@@ -741,7 +741,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
     /**
      * Sets order_buyer_name
      *
-     * @param \Swagger\Client\Model\OrderBuyerName $order_buyer_name order_buyer_name
+     * @param \EffetB\BeezupApi\Model\OrderBuyerName $order_buyer_name order_buyer_name
      *
      * @return $this
      */
@@ -779,7 +779,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
     /**
      * Gets order_currency_code
      *
-     * @return \Swagger\Client\Model\BeezUPCommonCurrencyCode
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode
      */
     public function getOrderCurrencyCode()
     {
@@ -789,7 +789,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
     /**
      * Sets order_currency_code
      *
-     * @param \Swagger\Client\Model\BeezUPCommonCurrencyCode $order_currency_code order_currency_code
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode $order_currency_code order_currency_code
      *
      * @return $this
      */
@@ -803,7 +803,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
     /**
      * Gets processing
      *
-     * @return \Swagger\Client\Model\Processing
+     * @return \EffetB\BeezupApi\Model\Processing
      */
     public function getProcessing()
     {
@@ -813,7 +813,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
     /**
      * Sets processing
      *
-     * @param \Swagger\Client\Model\Processing $processing processing
+     * @param \EffetB\BeezupApi\Model\Processing $processing processing
      *
      * @return $this
      */
@@ -827,7 +827,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
     /**
      * Gets etag
      *
-     * @return \Swagger\Client\Model\Etag
+     * @return \EffetB\BeezupApi\Model\Etag
      */
     public function getEtag()
     {
@@ -837,7 +837,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
     /**
      * Sets etag
      *
-     * @param \Swagger\Client\Model\Etag $etag etag
+     * @param \EffetB\BeezupApi\Model\Etag $etag etag
      *
      * @return $this
      */
@@ -851,7 +851,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\OrderHeaderLinks
+     * @return \EffetB\BeezupApi\Model\OrderHeaderLinks
      */
     public function getLinks()
     {
@@ -861,7 +861,7 @@ class OrderHeader implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\OrderHeaderLinks $links links
+     * @param \EffetB\BeezupApi\Model\OrderHeaderLinks $links links
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * SetMerchantOrderInfoRequest Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,9 +57,9 @@ class SetMerchantOrderInfoRequest implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'order_merchant_order_id' => '\Swagger\Client\Model\OrderMerchantOrderId',
-        'order_merchant_e_commerce_software_name' => '\Swagger\Client\Model\OrderMerchantECommerceSoftwareName',
-        'order_merchant_e_commerce_software_version' => '\Swagger\Client\Model\OrderMerchantECommerceSoftwareVersion'
+        'order_merchant_order_id' => '\EffetB\BeezupApi\Model\OrderMerchantOrderId',
+        'order_merchant_e_commerce_software_name' => '\EffetB\BeezupApi\Model\OrderMerchantECommerceSoftwareName',
+        'order_merchant_e_commerce_software_version' => '\EffetB\BeezupApi\Model\OrderMerchantECommerceSoftwareVersion'
     ];
 
     /**
@@ -238,7 +238,7 @@ class SetMerchantOrderInfoRequest implements ModelInterface, ArrayAccess
     /**
      * Gets order_merchant_order_id
      *
-     * @return \Swagger\Client\Model\OrderMerchantOrderId
+     * @return \EffetB\BeezupApi\Model\OrderMerchantOrderId
      */
     public function getOrderMerchantOrderId()
     {
@@ -248,7 +248,7 @@ class SetMerchantOrderInfoRequest implements ModelInterface, ArrayAccess
     /**
      * Sets order_merchant_order_id
      *
-     * @param \Swagger\Client\Model\OrderMerchantOrderId $order_merchant_order_id order_merchant_order_id
+     * @param \EffetB\BeezupApi\Model\OrderMerchantOrderId $order_merchant_order_id order_merchant_order_id
      *
      * @return $this
      */
@@ -262,7 +262,7 @@ class SetMerchantOrderInfoRequest implements ModelInterface, ArrayAccess
     /**
      * Gets order_merchant_e_commerce_software_name
      *
-     * @return \Swagger\Client\Model\OrderMerchantECommerceSoftwareName
+     * @return \EffetB\BeezupApi\Model\OrderMerchantECommerceSoftwareName
      */
     public function getOrderMerchantECommerceSoftwareName()
     {
@@ -272,7 +272,7 @@ class SetMerchantOrderInfoRequest implements ModelInterface, ArrayAccess
     /**
      * Sets order_merchant_e_commerce_software_name
      *
-     * @param \Swagger\Client\Model\OrderMerchantECommerceSoftwareName $order_merchant_e_commerce_software_name order_merchant_e_commerce_software_name
+     * @param \EffetB\BeezupApi\Model\OrderMerchantECommerceSoftwareName $order_merchant_e_commerce_software_name order_merchant_e_commerce_software_name
      *
      * @return $this
      */
@@ -286,7 +286,7 @@ class SetMerchantOrderInfoRequest implements ModelInterface, ArrayAccess
     /**
      * Gets order_merchant_e_commerce_software_version
      *
-     * @return \Swagger\Client\Model\OrderMerchantECommerceSoftwareVersion
+     * @return \EffetB\BeezupApi\Model\OrderMerchantECommerceSoftwareVersion
      */
     public function getOrderMerchantECommerceSoftwareVersion()
     {
@@ -296,7 +296,7 @@ class SetMerchantOrderInfoRequest implements ModelInterface, ArrayAccess
     /**
      * Sets order_merchant_e_commerce_software_version
      *
-     * @param \Swagger\Client\Model\OrderMerchantECommerceSoftwareVersion $order_merchant_e_commerce_software_version order_merchant_e_commerce_software_version
+     * @param \EffetB\BeezupApi\Model\OrderMerchantECommerceSoftwareVersion $order_merchant_e_commerce_software_version order_merchant_e_commerce_software_version
      *
      * @return $this
      */

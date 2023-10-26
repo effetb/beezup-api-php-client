@@ -1,4 +1,4 @@
-# Swagger\Client\MarketplacesOrdersOrderApi
+# EffetB\BeezupApi\MarketplacesOrdersOrderApi
 
 All URIs are relative to *https://api.beezup.com/v2*
 
@@ -24,11 +24,11 @@ Change your marketplace Order Information (accept, ship, etc.)
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\MarketplacesOrdersOrderApi(
+$apiInstance = new EffetB\BeezupApi\Api\MarketplacesOrdersOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -41,7 +41,7 @@ $change_order_type = "change_order_type_example"; // string | The Order change t
 $user_name = "user_name_example"; // string | Sometimes the user in the e-commerce application is not the same as user associated with the current subscription key. We recommend providing your application's user login.
 $if_match = "if_match_example"; // string | ETag value to identify the last known version of requested resource.\\ To ensure that you are making a change on the lastest version of the resource.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3
 $test_mode = false; // bool | If true, the operation will be not be sent to marketplace. But the validation will be taken in account.
-$request = new \Swagger\Client\Model\ChangeOrderRequest(); // \Swagger\Client\Model\ChangeOrderRequest | 
+$request = new \EffetB\BeezupApi\Model\ChangeOrderRequest(); // \EffetB\BeezupApi\Model\ChangeOrderRequest | 
 
 try {
     $apiInstance->changeOrder($marketplace_technical_code, $account_id, $beez_up_order_id, $change_order_type, $user_name, $if_match, $test_mode, $request);
@@ -62,7 +62,7 @@ Name | Type | Description  | Notes
  **user_name** | **string**| Sometimes the user in the e-commerce application is not the same as user associated with the current subscription key. We recommend providing your application&#39;s user login. |
  **if_match** | **string**| ETag value to identify the last known version of requested resource.\\ To ensure that you are making a change on the lastest version of the resource.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 |
  **test_mode** | **bool**| If true, the operation will be not be sent to marketplace. But the validation will be taken in account. | [optional] [default to false]
- **request** | [**\Swagger\Client\Model\ChangeOrderRequest**](../Model/ChangeOrderRequest.md)|  | [optional]
+ **request** | [**\EffetB\BeezupApi\Model\ChangeOrderRequest**](../Model/ChangeOrderRequest.md)|  | [optional]
 
 ### Return type
 
@@ -90,11 +90,11 @@ Clear an Order's merchant information
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\MarketplacesOrdersOrderApi(
+$apiInstance = new EffetB\BeezupApi\Api\MarketplacesOrdersOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -136,7 +136,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getOrder**
-> \Swagger\Client\Model\Order getOrder($marketplace_technical_code, $account_id, $beez_up_order_id, $if_none_match)
+> \EffetB\BeezupApi\Model\Order getOrder($marketplace_technical_code, $account_id, $beez_up_order_id, $if_none_match)
 
 Get full Order and Order Item(s) properties
 
@@ -146,11 +146,11 @@ Get full Order and Order Item(s) properties
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\MarketplacesOrdersOrderApi(
+$apiInstance = new EffetB\BeezupApi\Api\MarketplacesOrdersOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -181,7 +181,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\Order**](../Model/Order.md)
+[**\EffetB\BeezupApi\Model\Order**](../Model/Order.md)
 
 ### Authorization
 
@@ -195,7 +195,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getOrderHistory**
-> \Swagger\Client\Model\OrderHistory getOrderHistory($marketplace_technical_code, $account_id, $beez_up_order_id, $if_none_match)
+> \EffetB\BeezupApi\Model\OrderHistory getOrderHistory($marketplace_technical_code, $account_id, $beez_up_order_id, $if_none_match)
 
 Get an Order's harvest and change history
 
@@ -205,11 +205,11 @@ Get an Order's harvest and change history
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\MarketplacesOrdersOrderApi(
+$apiInstance = new EffetB\BeezupApi\Api\MarketplacesOrdersOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -240,7 +240,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\OrderHistory**](../Model/OrderHistory.md)
+[**\EffetB\BeezupApi\Model\OrderHistory**](../Model/OrderHistory.md)
 
 ### Authorization
 
@@ -264,11 +264,11 @@ Send harvest request for a single Order
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\MarketplacesOrdersOrderApi(
+$apiInstance = new EffetB\BeezupApi\Api\MarketplacesOrdersOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -322,11 +322,11 @@ The purpose of this operation is to reduce the bandwith usage by getting just th
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\MarketplacesOrdersOrderApi(
+$apiInstance = new EffetB\BeezupApi\Api\MarketplacesOrdersOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -380,11 +380,11 @@ Set an Order's merchant information
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\MarketplacesOrdersOrderApi(
+$apiInstance = new EffetB\BeezupApi\Api\MarketplacesOrdersOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -393,7 +393,7 @@ $apiInstance = new Swagger\Client\Api\MarketplacesOrdersOrderApi(
 $marketplace_technical_code = "\"Amazon\""; // string | The marketplace technical code
 $account_id = 1001; // int | The account identifier
 $beez_up_order_id = "\"00000000000000000000000000000000000000000000000\""; // string | The BeezUP Order identifier
-$request = new \Swagger\Client\Model\SetMerchantOrderInfoRequest(); // \Swagger\Client\Model\SetMerchantOrderInfoRequest | 
+$request = new \EffetB\BeezupApi\Model\SetMerchantOrderInfoRequest(); // \EffetB\BeezupApi\Model\SetMerchantOrderInfoRequest | 
 
 try {
     $apiInstance->setMerchantOrderInfo($marketplace_technical_code, $account_id, $beez_up_order_id, $request);
@@ -410,7 +410,7 @@ Name | Type | Description  | Notes
  **marketplace_technical_code** | **string**| The marketplace technical code |
  **account_id** | **int**| The account identifier |
  **beez_up_order_id** | [**string**](../Model/.md)| The BeezUP Order identifier |
- **request** | [**\Swagger\Client\Model\SetMerchantOrderInfoRequest**](../Model/SetMerchantOrderInfoRequest.md)|  |
+ **request** | [**\EffetB\BeezupApi\Model\SetMerchantOrderInfoRequest**](../Model/SetMerchantOrderInfoRequest.md)|  |
 
 ### Return type
 

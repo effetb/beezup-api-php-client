@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ProfilePictureInfoResponse Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class ProfilePictureInfoResponse implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'profile_picture_info' => '\Swagger\Client\Model\ProfilePictureInfoWithDefault',
-        'links' => '\Swagger\Client\Model\ProfilePictureInfoResponseLinks'
+        'profile_picture_info' => '\EffetB\BeezupApi\Model\ProfilePictureInfoWithDefault',
+        'links' => '\EffetB\BeezupApi\Model\ProfilePictureInfoResponseLinks'
     ];
 
     /**
@@ -226,7 +226,7 @@ class ProfilePictureInfoResponse implements ModelInterface, ArrayAccess
     /**
      * Gets profile_picture_info
      *
-     * @return \Swagger\Client\Model\ProfilePictureInfoWithDefault
+     * @return \EffetB\BeezupApi\Model\ProfilePictureInfoWithDefault
      */
     public function getProfilePictureInfo()
     {
@@ -236,7 +236,7 @@ class ProfilePictureInfoResponse implements ModelInterface, ArrayAccess
     /**
      * Sets profile_picture_info
      *
-     * @param \Swagger\Client\Model\ProfilePictureInfoWithDefault $profile_picture_info profile_picture_info
+     * @param \EffetB\BeezupApi\Model\ProfilePictureInfoWithDefault $profile_picture_info profile_picture_info
      *
      * @return $this
      */
@@ -250,7 +250,7 @@ class ProfilePictureInfoResponse implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ProfilePictureInfoResponseLinks
+     * @return \EffetB\BeezupApi\Model\ProfilePictureInfoResponseLinks
      */
     public function getLinks()
     {
@@ -260,7 +260,7 @@ class ProfilePictureInfoResponse implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ProfilePictureInfoResponseLinks $links links
+     * @param \EffetB\BeezupApi\Model\ProfilePictureInfoResponseLinks $links links
      *
      * @return $this
      */

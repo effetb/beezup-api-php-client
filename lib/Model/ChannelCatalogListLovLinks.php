@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelCatalogListLovLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class ChannelCatalogListLovLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'channel_catalog_exclusion_filter_operator_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3',
-        'channel_catalog_export_cache_status_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3'
+        'channel_catalog_exclusion_filter_operator_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3',
+        'channel_catalog_export_cache_status_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3'
     ];
 
     /**
@@ -214,7 +214,7 @@ class ChannelCatalogListLovLinks implements ModelInterface, ArrayAccess
     /**
      * Gets channel_catalog_exclusion_filter_operator_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getChannelCatalogExclusionFilterOperatorLov()
     {
@@ -224,7 +224,7 @@ class ChannelCatalogListLovLinks implements ModelInterface, ArrayAccess
     /**
      * Sets channel_catalog_exclusion_filter_operator_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $channel_catalog_exclusion_filter_operator_lov channel_catalog_exclusion_filter_operator_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $channel_catalog_exclusion_filter_operator_lov channel_catalog_exclusion_filter_operator_lov
      *
      * @return $this
      */
@@ -238,7 +238,7 @@ class ChannelCatalogListLovLinks implements ModelInterface, ArrayAccess
     /**
      * Gets channel_catalog_export_cache_status_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getChannelCatalogExportCacheStatusLov()
     {
@@ -248,7 +248,7 @@ class ChannelCatalogListLovLinks implements ModelInterface, ArrayAccess
     /**
      * Sets channel_catalog_export_cache_status_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $channel_catalog_export_cache_status_lov channel_catalog_export_cache_status_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $channel_catalog_export_cache_status_lov channel_catalog_export_cache_status_lov
      *
      * @return $this
      */

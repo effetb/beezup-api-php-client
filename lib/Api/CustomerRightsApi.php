@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace EffetB\BeezupApi\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use EffetB\BeezupApi\ApiException;
+use EffetB\BeezupApi\Configuration;
+use EffetB\BeezupApi\HeaderSelector;
+use EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CustomerRightsApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -94,9 +94,9 @@ class CustomerRightsApi
      *
      * @param  string $store_id Your store identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\FunctionalityRightInfo[]
+     * @return \EffetB\BeezupApi\Model\FunctionalityRightInfo[]
      */
     public function getRights($store_id)
     {
@@ -111,13 +111,13 @@ class CustomerRightsApi
      *
      * @param  string $store_id Your store identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\FunctionalityRightInfo[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\FunctionalityRightInfo[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getRightsWithHttpInfo($store_id)
     {
-        $returnType = '\Swagger\Client\Model\FunctionalityRightInfo[]';
+        $returnType = '\EffetB\BeezupApi\Model\FunctionalityRightInfo[]';
         $request = $this->getRightsRequest($store_id);
 
         try {
@@ -169,7 +169,7 @@ class CustomerRightsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\FunctionalityRightInfo[]',
+                        '\EffetB\BeezupApi\Model\FunctionalityRightInfo[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -177,7 +177,7 @@ class CustomerRightsApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -185,7 +185,7 @@ class CustomerRightsApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -227,7 +227,7 @@ class CustomerRightsApi
      */
     public function getRightsAsyncWithHttpInfo($store_id)
     {
-        $returnType = '\Swagger\Client\Model\FunctionalityRightInfo[]';
+        $returnType = '\EffetB\BeezupApi\Model\FunctionalityRightInfo[]';
         $request = $this->getRightsRequest($store_id);
 
         return $this->client

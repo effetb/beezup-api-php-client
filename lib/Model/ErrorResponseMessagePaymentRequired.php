@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ErrorResponseMessagePaymentRequired Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class ErrorResponseMessagePaymentRequired implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'errors' => '\Swagger\Client\Model\BeezUPCommonUserErrorMessage[]',
-        'links' => '\Swagger\Client\Model\ErrorResponseMessagePaymentRequiredLinks'
+        'errors' => '\EffetB\BeezupApi\Model\BeezUPCommonUserErrorMessage[]',
+        'links' => '\EffetB\BeezupApi\Model\ErrorResponseMessagePaymentRequiredLinks'
     ];
 
     /**
@@ -226,7 +226,7 @@ class ErrorResponseMessagePaymentRequired implements ModelInterface, ArrayAccess
     /**
      * Gets errors
      *
-     * @return \Swagger\Client\Model\BeezUPCommonUserErrorMessage[]
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonUserErrorMessage[]
      */
     public function getErrors()
     {
@@ -236,7 +236,7 @@ class ErrorResponseMessagePaymentRequired implements ModelInterface, ArrayAccess
     /**
      * Sets errors
      *
-     * @param \Swagger\Client\Model\BeezUPCommonUserErrorMessage[] $errors errors
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonUserErrorMessage[] $errors errors
      *
      * @return $this
      */
@@ -250,7 +250,7 @@ class ErrorResponseMessagePaymentRequired implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ErrorResponseMessagePaymentRequiredLinks
+     * @return \EffetB\BeezupApi\Model\ErrorResponseMessagePaymentRequiredLinks
      */
     public function getLinks()
     {
@@ -260,7 +260,7 @@ class ErrorResponseMessagePaymentRequired implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ErrorResponseMessagePaymentRequiredLinks $links links
+     * @param \EffetB\BeezupApi\Model\ErrorResponseMessagePaymentRequiredLinks $links links
      *
      * @return $this
      */

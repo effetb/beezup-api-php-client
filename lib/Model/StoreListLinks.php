@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * StoreListLinks Class Doc Comment
  *
  * @category Class
  * @description The action links you can do globally on stores
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,8 +58,8 @@ class StoreListLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksGetStoresLink',
-        'create_store' => '\Swagger\Client\Model\LinksCreateStoreLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksGetStoresLink',
+        'create_store' => '\EffetB\BeezupApi\Model\LinksCreateStoreLink'
     ];
 
     /**
@@ -215,7 +215,7 @@ class StoreListLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksGetStoresLink
+     * @return \EffetB\BeezupApi\Model\LinksGetStoresLink
      */
     public function getSelf()
     {
@@ -225,7 +225,7 @@ class StoreListLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksGetStoresLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksGetStoresLink $self self
      *
      * @return $this
      */
@@ -239,7 +239,7 @@ class StoreListLinks implements ModelInterface, ArrayAccess
     /**
      * Gets create_store
      *
-     * @return \Swagger\Client\Model\LinksCreateStoreLink
+     * @return \EffetB\BeezupApi\Model\LinksCreateStoreLink
      */
     public function getCreateStore()
     {
@@ -249,7 +249,7 @@ class StoreListLinks implements ModelInterface, ArrayAccess
     /**
      * Sets create_store
      *
-     * @param \Swagger\Client\Model\LinksCreateStoreLink $create_store create_store
+     * @param \EffetB\BeezupApi\Model\LinksCreateStoreLink $create_store create_store
      *
      * @return $this
      */

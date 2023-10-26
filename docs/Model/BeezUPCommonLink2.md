@@ -4,11 +4,11 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **rel** | **string** | Indicate the relation name related to the link | 
-**href** | [**\Swagger\Client\Model\BeezUPCommonHref**](BeezUPCommonHref.md) |  | [optional] 
-**operation_id** | [**\Swagger\Client\Model\BeezUPCommonOperationId**](BeezUPCommonOperationId.md) |  | [optional] 
-**method** | [**\Swagger\Client\Model\BeezUPCommonHttpMethod**](BeezUPCommonHttpMethod.md) |  | [optional] 
-**parameters** | [**\Swagger\Client\Model\BeezUPCommonLinkParameter2[]**](BeezUPCommonLinkParameter2.md) |  | [optional] 
-**info** | [**\Swagger\Client\Model\BeezUPCommonInfoSummaries**](BeezUPCommonInfoSummaries.md) |  | [optional] 
+**href** | [**\EffetB\BeezupApi\Model\BeezUPCommonHref**](BeezUPCommonHref.md) |  | [optional] 
+**operation_id** | [**\EffetB\BeezupApi\Model\BeezUPCommonOperationId**](BeezUPCommonOperationId.md) |  | [optional] 
+**method** | [**\EffetB\BeezupApi\Model\BeezUPCommonHttpMethod**](BeezUPCommonHttpMethod.md) |  | [optional] 
+**parameters** | [**\EffetB\BeezupApi\Model\BeezUPCommonLinkParameter2[]**](BeezUPCommonLinkParameter2.md) |  | [optional] 
+**info** | [**\EffetB\BeezupApi\Model\BeezUPCommonInfoSummaries**](BeezUPCommonInfoSummaries.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

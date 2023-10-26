@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelCatalogProductInfoList Class Doc Comment
  *
  * @category Class
  * @description The channel catalog product info list
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,9 +58,9 @@ class ChannelCatalogProductInfoList implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'pagination_result' => '\Swagger\Client\Model\BeezUPCommonPaginationResult',
-        'links' => '\Swagger\Client\Model\ChannelCatalogProductInfoListLinks',
-        'product_infos' => '\Swagger\Client\Model\ChannelCatalogProductInfo[]'
+        'pagination_result' => '\EffetB\BeezupApi\Model\BeezUPCommonPaginationResult',
+        'links' => '\EffetB\BeezupApi\Model\ChannelCatalogProductInfoListLinks',
+        'product_infos' => '\EffetB\BeezupApi\Model\ChannelCatalogProductInfo[]'
     ];
 
     /**
@@ -239,7 +239,7 @@ class ChannelCatalogProductInfoList implements ModelInterface, ArrayAccess
     /**
      * Gets pagination_result
      *
-     * @return \Swagger\Client\Model\BeezUPCommonPaginationResult
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonPaginationResult
      */
     public function getPaginationResult()
     {
@@ -249,7 +249,7 @@ class ChannelCatalogProductInfoList implements ModelInterface, ArrayAccess
     /**
      * Sets pagination_result
      *
-     * @param \Swagger\Client\Model\BeezUPCommonPaginationResult $pagination_result pagination_result
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonPaginationResult $pagination_result pagination_result
      *
      * @return $this
      */
@@ -263,7 +263,7 @@ class ChannelCatalogProductInfoList implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ChannelCatalogProductInfoListLinks
+     * @return \EffetB\BeezupApi\Model\ChannelCatalogProductInfoListLinks
      */
     public function getLinks()
     {
@@ -273,7 +273,7 @@ class ChannelCatalogProductInfoList implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ChannelCatalogProductInfoListLinks $links links
+     * @param \EffetB\BeezupApi\Model\ChannelCatalogProductInfoListLinks $links links
      *
      * @return $this
      */
@@ -287,7 +287,7 @@ class ChannelCatalogProductInfoList implements ModelInterface, ArrayAccess
     /**
      * Gets product_infos
      *
-     * @return \Swagger\Client\Model\ChannelCatalogProductInfo[]
+     * @return \EffetB\BeezupApi\Model\ChannelCatalogProductInfo[]
      */
     public function getProductInfos()
     {
@@ -297,7 +297,7 @@ class ChannelCatalogProductInfoList implements ModelInterface, ArrayAccess
     /**
      * Sets product_infos
      *
-     * @param \Swagger\Client\Model\ChannelCatalogProductInfo[] $product_infos product_infos
+     * @param \EffetB\BeezupApi\Model\ChannelCatalogProductInfo[] $product_infos product_infos
      *
      * @return $this
      */

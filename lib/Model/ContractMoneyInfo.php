@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ContractMoneyInfo Class Doc Comment
  *
  * @category Class
  * @description Describe the pricing information related to the offer.
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -62,7 +62,7 @@ class ContractMoneyInfo implements ModelInterface, ArrayAccess
         'amount_excluding_taxes_including_discounts' => 'double',
         'amount_taxes_excluding_discount_including_billing_period_discount' => 'double',
         'amount_including_taxes_excluding_discount_including_billing_period_discount' => 'double',
-        'currency_code' => '\Swagger\Client\Model\BeezUPCommonCurrencyCode',
+        'currency_code' => '\EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode',
         'vat_percent' => 'double',
         'amount_excluding_taxes_including_discounts_per_month' => 'double',
         'amount_excluding_taxes_and_excluding_discounts' => 'double',
@@ -365,7 +365,7 @@ class ContractMoneyInfo implements ModelInterface, ArrayAccess
     /**
      * Gets currency_code
      *
-     * @return \Swagger\Client\Model\BeezUPCommonCurrencyCode
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode
      */
     public function getCurrencyCode()
     {
@@ -375,7 +375,7 @@ class ContractMoneyInfo implements ModelInterface, ArrayAccess
     /**
      * Sets currency_code
      *
-     * @param \Swagger\Client\Model\BeezUPCommonCurrencyCode $currency_code currency_code
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode $currency_code currency_code
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ComputeExpressionRequest Class Doc Comment
  *
  * @category Class
  * @description The request message to compute an expression based on the provided product values
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,8 +58,8 @@ class ComputeExpressionRequest implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'product_values' => '\Swagger\Client\Model\ProductValues',
-        'encrypted_expression' => '\Swagger\Client\Model\EncryptedExpression'
+        'product_values' => '\EffetB\BeezupApi\Model\ProductValues',
+        'encrypted_expression' => '\EffetB\BeezupApi\Model\EncryptedExpression'
     ];
 
     /**
@@ -227,7 +227,7 @@ class ComputeExpressionRequest implements ModelInterface, ArrayAccess
     /**
      * Gets product_values
      *
-     * @return \Swagger\Client\Model\ProductValues
+     * @return \EffetB\BeezupApi\Model\ProductValues
      */
     public function getProductValues()
     {
@@ -237,7 +237,7 @@ class ComputeExpressionRequest implements ModelInterface, ArrayAccess
     /**
      * Sets product_values
      *
-     * @param \Swagger\Client\Model\ProductValues $product_values product_values
+     * @param \EffetB\BeezupApi\Model\ProductValues $product_values product_values
      *
      * @return $this
      */
@@ -251,7 +251,7 @@ class ComputeExpressionRequest implements ModelInterface, ArrayAccess
     /**
      * Gets encrypted_expression
      *
-     * @return \Swagger\Client\Model\EncryptedExpression
+     * @return \EffetB\BeezupApi\Model\EncryptedExpression
      */
     public function getEncryptedExpression()
     {
@@ -261,7 +261,7 @@ class ComputeExpressionRequest implements ModelInterface, ArrayAccess
     /**
      * Sets encrypted_expression
      *
-     * @param \Swagger\Client\Model\EncryptedExpression $encrypted_expression encrypted_expression
+     * @param \EffetB\BeezupApi\Model\EncryptedExpression $encrypted_expression encrypted_expression
      *
      * @return $this
      */

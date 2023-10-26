@@ -1,4 +1,4 @@
-# Swagger\Client\ChannelCatalogsColumnMappingsApi
+# EffetB\BeezupApi\ChannelCatalogsColumnMappingsApi
 
 All URIs are relative to *https://api.beezup.com/v2*
 
@@ -18,18 +18,18 @@ Configure channel catalog column mappings
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ChannelCatalogsColumnMappingsApi(
+$apiInstance = new EffetB\BeezupApi\Api\ChannelCatalogsColumnMappingsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $channel_catalog_id = "\"6d6b04de-406b-4539-8e7e-bf3e8da5dfb0\""; // string | The channel catalog identifier
-$request = new \Swagger\Client\Model\ChannelCatalogColumnMappingList(); // \Swagger\Client\Model\ChannelCatalogColumnMappingList | 
+$request = new \EffetB\BeezupApi\Model\ChannelCatalogColumnMappingList(); // \EffetB\BeezupApi\Model\ChannelCatalogColumnMappingList | 
 
 try {
     $apiInstance->configureChannelCatalogColumnMappings($channel_catalog_id, $request);
@@ -44,7 +44,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **channel_catalog_id** | **string**| The channel catalog identifier |
- **request** | [**\Swagger\Client\Model\ChannelCatalogColumnMappingList**](../Model/ChannelCatalogColumnMappingList.md)|  |
+ **request** | [**\EffetB\BeezupApi\Model\ChannelCatalogColumnMappingList**](../Model/ChannelCatalogColumnMappingList.md)|  |
 
 ### Return type
 

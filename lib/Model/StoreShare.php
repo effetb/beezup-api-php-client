@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * StoreShare Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,9 +57,9 @@ class StoreShare implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'user_id' => '\Swagger\Client\Model\BeezUPCommonUserId',
-        'user_role' => '\Swagger\Client\Model\StoreUserRole',
-        'links' => '\Swagger\Client\Model\StoreShareLinks'
+        'user_id' => '\EffetB\BeezupApi\Model\BeezUPCommonUserId',
+        'user_role' => '\EffetB\BeezupApi\Model\StoreUserRole',
+        'links' => '\EffetB\BeezupApi\Model\StoreShareLinks'
     ];
 
     /**
@@ -238,7 +238,7 @@ class StoreShare implements ModelInterface, ArrayAccess
     /**
      * Gets user_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonUserId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonUserId
      */
     public function getUserId()
     {
@@ -248,7 +248,7 @@ class StoreShare implements ModelInterface, ArrayAccess
     /**
      * Sets user_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonUserId $user_id user_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonUserId $user_id user_id
      *
      * @return $this
      */
@@ -262,7 +262,7 @@ class StoreShare implements ModelInterface, ArrayAccess
     /**
      * Gets user_role
      *
-     * @return \Swagger\Client\Model\StoreUserRole
+     * @return \EffetB\BeezupApi\Model\StoreUserRole
      */
     public function getUserRole()
     {
@@ -272,7 +272,7 @@ class StoreShare implements ModelInterface, ArrayAccess
     /**
      * Sets user_role
      *
-     * @param \Swagger\Client\Model\StoreUserRole $user_role user_role
+     * @param \EffetB\BeezupApi\Model\StoreUserRole $user_role user_role
      *
      * @return $this
      */
@@ -286,7 +286,7 @@ class StoreShare implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\StoreShareLinks
+     * @return \EffetB\BeezupApi\Model\StoreShareLinks
      */
     public function getLinks()
     {
@@ -296,7 +296,7 @@ class StoreShare implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\StoreShareLinks $links links
+     * @param \EffetB\BeezupApi\Model\StoreShareLinks $links links
      *
      * @return $this
      */

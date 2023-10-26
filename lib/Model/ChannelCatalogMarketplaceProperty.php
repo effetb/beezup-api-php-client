@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelCatalogMarketplaceProperty Class Doc Comment
  *
  * @category Class
  * @description Model for fetching a channel catalog marketplace property
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,8 +58,8 @@ class ChannelCatalogMarketplaceProperty implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'name' => '\Swagger\Client\Model\ChannelCatalogMarketplacePropertyName',
-        'info' => '\Swagger\Client\Model\BeezUPCommonInfoSummaries',
+        'name' => '\EffetB\BeezupApi\Model\ChannelCatalogMarketplacePropertyName',
+        'info' => '\EffetB\BeezupApi\Model\BeezUPCommonInfoSummaries',
         'description' => 'string',
         'position' => 'int',
         'read_only' => 'bool',
@@ -67,13 +67,13 @@ class ChannelCatalogMarketplaceProperty implements ModelInterface, ArrayAccess
         'max_length' => 'int',
         'min_items' => 'int',
         'max_items' => 'int',
-        'lov_link' => '\Swagger\Client\Model\BeezUPCommonLOVLink3',
+        'lov_link' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3',
         'lov_required' => 'bool',
         'required' => 'bool',
         'offer_id_required' => 'int',
         'visible' => 'bool',
-        'type' => '\Swagger\Client\Model\Type',
-        'discriminator_type' => '\Swagger\Client\Model\ChannelCatalogMarketplacePropertyDiscriminatorType',
+        'type' => '\EffetB\BeezupApi\Model\Type',
+        'discriminator_type' => '\EffetB\BeezupApi\Model\ChannelCatalogMarketplacePropertyDiscriminatorType',
         'pattern' => 'string'
     ];
 
@@ -386,7 +386,7 @@ class ChannelCatalogMarketplaceProperty implements ModelInterface, ArrayAccess
     /**
      * Gets name
      *
-     * @return \Swagger\Client\Model\ChannelCatalogMarketplacePropertyName
+     * @return \EffetB\BeezupApi\Model\ChannelCatalogMarketplacePropertyName
      */
     public function getName()
     {
@@ -396,7 +396,7 @@ class ChannelCatalogMarketplaceProperty implements ModelInterface, ArrayAccess
     /**
      * Sets name
      *
-     * @param \Swagger\Client\Model\ChannelCatalogMarketplacePropertyName $name name
+     * @param \EffetB\BeezupApi\Model\ChannelCatalogMarketplacePropertyName $name name
      *
      * @return $this
      */
@@ -410,7 +410,7 @@ class ChannelCatalogMarketplaceProperty implements ModelInterface, ArrayAccess
     /**
      * Gets info
      *
-     * @return \Swagger\Client\Model\BeezUPCommonInfoSummaries
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonInfoSummaries
      */
     public function getInfo()
     {
@@ -420,7 +420,7 @@ class ChannelCatalogMarketplaceProperty implements ModelInterface, ArrayAccess
     /**
      * Sets info
      *
-     * @param \Swagger\Client\Model\BeezUPCommonInfoSummaries $info info
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonInfoSummaries $info info
      *
      * @return $this
      */
@@ -627,7 +627,7 @@ class ChannelCatalogMarketplaceProperty implements ModelInterface, ArrayAccess
     /**
      * Gets lov_link
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getLovLink()
     {
@@ -637,7 +637,7 @@ class ChannelCatalogMarketplaceProperty implements ModelInterface, ArrayAccess
     /**
      * Sets lov_link
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $lov_link lov_link
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $lov_link lov_link
      *
      * @return $this
      */
@@ -747,7 +747,7 @@ class ChannelCatalogMarketplaceProperty implements ModelInterface, ArrayAccess
     /**
      * Gets type
      *
-     * @return \Swagger\Client\Model\Type
+     * @return \EffetB\BeezupApi\Model\Type
      */
     public function getType()
     {
@@ -757,7 +757,7 @@ class ChannelCatalogMarketplaceProperty implements ModelInterface, ArrayAccess
     /**
      * Sets type
      *
-     * @param \Swagger\Client\Model\Type $type type
+     * @param \EffetB\BeezupApi\Model\Type $type type
      *
      * @return $this
      */
@@ -771,7 +771,7 @@ class ChannelCatalogMarketplaceProperty implements ModelInterface, ArrayAccess
     /**
      * Gets discriminator_type
      *
-     * @return \Swagger\Client\Model\ChannelCatalogMarketplacePropertyDiscriminatorType
+     * @return \EffetB\BeezupApi\Model\ChannelCatalogMarketplacePropertyDiscriminatorType
      */
     public function getDiscriminatorType()
     {
@@ -781,7 +781,7 @@ class ChannelCatalogMarketplaceProperty implements ModelInterface, ArrayAccess
     /**
      * Sets discriminator_type
      *
-     * @param \Swagger\Client\Model\ChannelCatalogMarketplacePropertyDiscriminatorType $discriminator_type discriminator_type
+     * @param \EffetB\BeezupApi\Model\ChannelCatalogMarketplacePropertyDiscriminatorType $discriminator_type discriminator_type
      *
      * @return $this
      */

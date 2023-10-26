@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,15 +27,15 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
-use \Swagger\Client\ObjectSerializer;
+namespace EffetB\BeezupApi\Model;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * AccountStatus Class Doc Comment
  *
  * @category Class
  * @description The account status * Active:  When the account is active * SystemBlocked:  When all stores on the account are blocked by the system * UserBlocked: When all stores on the account are blocked on GO not on the system * NotActivated: When the email is not verified
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */

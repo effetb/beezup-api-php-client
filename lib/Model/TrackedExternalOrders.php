@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * TrackedExternalOrders Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class TrackedExternalOrders implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'external_orders' => '\Swagger\Client\Model\TrackedExternalOrder[]'
+        'external_orders' => '\EffetB\BeezupApi\Model\TrackedExternalOrder[]'
     ];
 
     /**
@@ -214,7 +214,7 @@ class TrackedExternalOrders implements ModelInterface, ArrayAccess
     /**
      * Gets external_orders
      *
-     * @return \Swagger\Client\Model\TrackedExternalOrder[]
+     * @return \EffetB\BeezupApi\Model\TrackedExternalOrder[]
      */
     public function getExternalOrders()
     {
@@ -224,7 +224,7 @@ class TrackedExternalOrders implements ModelInterface, ArrayAccess
     /**
      * Sets external_orders
      *
-     * @param \Swagger\Client\Model\TrackedExternalOrder[] $external_orders external_orders
+     * @param \EffetB\BeezupApi\Model\TrackedExternalOrder[] $external_orders external_orders
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CatalogIndexLOVLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,12 +57,12 @@ class CatalogIndexLOVLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'beez_up_column_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3',
-        'beez_up_column_data_type_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3',
-        'beez_up_column_importance_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3',
-        'beez_up_column_display_group_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3',
-        'duplicate_product_value_strategy_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3',
-        'compare_option_lov' => '\Swagger\Client\Model\BeezUPCommonLOVLink3'
+        'beez_up_column_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3',
+        'beez_up_column_data_type_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3',
+        'beez_up_column_importance_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3',
+        'beez_up_column_display_group_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3',
+        'duplicate_product_value_strategy_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3',
+        'compare_option_lov' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink3'
     ];
 
     /**
@@ -274,7 +274,7 @@ class CatalogIndexLOVLinks implements ModelInterface, ArrayAccess
     /**
      * Gets beez_up_column_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getBeezUpColumnLov()
     {
@@ -284,7 +284,7 @@ class CatalogIndexLOVLinks implements ModelInterface, ArrayAccess
     /**
      * Sets beez_up_column_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $beez_up_column_lov beez_up_column_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $beez_up_column_lov beez_up_column_lov
      *
      * @return $this
      */
@@ -298,7 +298,7 @@ class CatalogIndexLOVLinks implements ModelInterface, ArrayAccess
     /**
      * Gets beez_up_column_data_type_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getBeezUpColumnDataTypeLov()
     {
@@ -308,7 +308,7 @@ class CatalogIndexLOVLinks implements ModelInterface, ArrayAccess
     /**
      * Sets beez_up_column_data_type_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $beez_up_column_data_type_lov beez_up_column_data_type_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $beez_up_column_data_type_lov beez_up_column_data_type_lov
      *
      * @return $this
      */
@@ -322,7 +322,7 @@ class CatalogIndexLOVLinks implements ModelInterface, ArrayAccess
     /**
      * Gets beez_up_column_importance_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getBeezUpColumnImportanceLov()
     {
@@ -332,7 +332,7 @@ class CatalogIndexLOVLinks implements ModelInterface, ArrayAccess
     /**
      * Sets beez_up_column_importance_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $beez_up_column_importance_lov beez_up_column_importance_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $beez_up_column_importance_lov beez_up_column_importance_lov
      *
      * @return $this
      */
@@ -346,7 +346,7 @@ class CatalogIndexLOVLinks implements ModelInterface, ArrayAccess
     /**
      * Gets beez_up_column_display_group_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getBeezUpColumnDisplayGroupLov()
     {
@@ -356,7 +356,7 @@ class CatalogIndexLOVLinks implements ModelInterface, ArrayAccess
     /**
      * Sets beez_up_column_display_group_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $beez_up_column_display_group_lov beez_up_column_display_group_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $beez_up_column_display_group_lov beez_up_column_display_group_lov
      *
      * @return $this
      */
@@ -370,7 +370,7 @@ class CatalogIndexLOVLinks implements ModelInterface, ArrayAccess
     /**
      * Gets duplicate_product_value_strategy_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getDuplicateProductValueStrategyLov()
     {
@@ -380,7 +380,7 @@ class CatalogIndexLOVLinks implements ModelInterface, ArrayAccess
     /**
      * Sets duplicate_product_value_strategy_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $duplicate_product_value_strategy_lov duplicate_product_value_strategy_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $duplicate_product_value_strategy_lov duplicate_product_value_strategy_lov
      *
      * @return $this
      */
@@ -394,7 +394,7 @@ class CatalogIndexLOVLinks implements ModelInterface, ArrayAccess
     /**
      * Gets compare_option_lov
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink3
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3
      */
     public function getCompareOptionLov()
     {
@@ -404,7 +404,7 @@ class CatalogIndexLOVLinks implements ModelInterface, ArrayAccess
     /**
      * Sets compare_option_lov
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink3 $compare_option_lov compare_option_lov
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink3 $compare_option_lov compare_option_lov
      *
      * @return $this
      */

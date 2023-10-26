@@ -1,4 +1,4 @@
-# Swagger\Client\CatalogsCatalogApi
+# EffetB\BeezupApi\CatalogsCatalogApi
 
 All URIs are relative to *https://api.beezup.com/v2*
 
@@ -33,11 +33,11 @@ Change Catalog Column User Name
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CatalogsCatalogApi(
+$apiInstance = new EffetB\BeezupApi\Api\CatalogsCatalogApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -45,7 +45,7 @@ $apiInstance = new Swagger\Client\Api\CatalogsCatalogApi(
 );
 $store_id = "store_id_example"; // string | Your store identifier
 $column_id = "column_id_example"; // string | The catalog column identifier
-$request = new \Swagger\Client\Model\ChangeUserColumnNameRequest(); // \Swagger\Client\Model\ChangeUserColumnNameRequest | 
+$request = new \EffetB\BeezupApi\Model\ChangeUserColumnNameRequest(); // \EffetB\BeezupApi\Model\ChangeUserColumnNameRequest | 
 
 try {
     $apiInstance->catalogChangeCatalogColumnUserName($store_id, $column_id, $request);
@@ -61,7 +61,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **store_id** | **string**| Your store identifier |
  **column_id** | **string**| The catalog column identifier |
- **request** | [**\Swagger\Client\Model\ChangeUserColumnNameRequest**](../Model/ChangeUserColumnNameRequest.md)|  |
+ **request** | [**\EffetB\BeezupApi\Model\ChangeUserColumnNameRequest**](../Model/ChangeUserColumnNameRequest.md)|  |
 
 ### Return type
 
@@ -89,11 +89,11 @@ Change custom column expression
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CatalogsCatalogApi(
+$apiInstance = new EffetB\BeezupApi\Api\CatalogsCatalogApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -101,7 +101,7 @@ $apiInstance = new Swagger\Client\Api\CatalogsCatalogApi(
 );
 $store_id = "store_id_example"; // string | Your store identifier
 $column_id = "column_id_example"; // string | The custom column identifier
-$request = new \Swagger\Client\Model\ChangeCustomColumnExpressionRequest(); // \Swagger\Client\Model\ChangeCustomColumnExpressionRequest | 
+$request = new \EffetB\BeezupApi\Model\ChangeCustomColumnExpressionRequest(); // \EffetB\BeezupApi\Model\ChangeCustomColumnExpressionRequest | 
 
 try {
     $apiInstance->catalogChangeCustomColumnExpression($store_id, $column_id, $request);
@@ -117,7 +117,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **store_id** | **string**| Your store identifier |
  **column_id** | **string**| The custom column identifier |
- **request** | [**\Swagger\Client\Model\ChangeCustomColumnExpressionRequest**](../Model/ChangeCustomColumnExpressionRequest.md)|  |
+ **request** | [**\EffetB\BeezupApi\Model\ChangeCustomColumnExpressionRequest**](../Model/ChangeCustomColumnExpressionRequest.md)|  |
 
 ### Return type
 
@@ -145,11 +145,11 @@ Change Custom Column User Name
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CatalogsCatalogApi(
+$apiInstance = new EffetB\BeezupApi\Api\CatalogsCatalogApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -157,7 +157,7 @@ $apiInstance = new Swagger\Client\Api\CatalogsCatalogApi(
 );
 $store_id = "store_id_example"; // string | Your store identifier
 $column_id = "column_id_example"; // string | The custom column identifier
-$request = new \Swagger\Client\Model\ChangeUserColumnNameRequest(); // \Swagger\Client\Model\ChangeUserColumnNameRequest | 
+$request = new \EffetB\BeezupApi\Model\ChangeUserColumnNameRequest(); // \EffetB\BeezupApi\Model\ChangeUserColumnNameRequest | 
 
 try {
     $apiInstance->catalogChangeCustomColumnUserName($store_id, $column_id, $request);
@@ -173,7 +173,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **store_id** | **string**| Your store identifier |
  **column_id** | **string**| The custom column identifier |
- **request** | [**\Swagger\Client\Model\ChangeUserColumnNameRequest**](../Model/ChangeUserColumnNameRequest.md)|  |
+ **request** | [**\EffetB\BeezupApi\Model\ChangeUserColumnNameRequest**](../Model/ChangeUserColumnNameRequest.md)|  |
 
 ### Return type
 
@@ -201,18 +201,18 @@ Compute the expression for this catalog.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CatalogsCatalogApi(
+$apiInstance = new EffetB\BeezupApi\Api\CatalogsCatalogApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $store_id = "store_id_example"; // string | Your store identifier
-$request = new \Swagger\Client\Model\ComputeExpressionRequest(); // \Swagger\Client\Model\ComputeExpressionRequest | 
+$request = new \EffetB\BeezupApi\Model\ComputeExpressionRequest(); // \EffetB\BeezupApi\Model\ComputeExpressionRequest | 
 
 try {
     $result = $apiInstance->catalogComputeExpression($store_id, $request);
@@ -228,7 +228,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **store_id** | **string**| Your store identifier |
- **request** | [**\Swagger\Client\Model\ComputeExpressionRequest**](../Model/ComputeExpressionRequest.md)|  |
+ **request** | [**\EffetB\BeezupApi\Model\ComputeExpressionRequest**](../Model/ComputeExpressionRequest.md)|  |
 
 ### Return type
 
@@ -256,11 +256,11 @@ Delete custom column
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CatalogsCatalogApi(
+$apiInstance = new EffetB\BeezupApi\Api\CatalogsCatalogApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -300,7 +300,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogGetCatalogColumns**
-> \Swagger\Client\Model\CatalogColumnList catalogGetCatalogColumns($store_id)
+> \EffetB\BeezupApi\Model\CatalogColumnList catalogGetCatalogColumns($store_id)
 
 Get catalog column list
 
@@ -310,11 +310,11 @@ Get catalog column list
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CatalogsCatalogApi(
+$apiInstance = new EffetB\BeezupApi\Api\CatalogsCatalogApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -339,7 +339,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\CatalogColumnList**](../Model/CatalogColumnList.md)
+[**\EffetB\BeezupApi\Model\CatalogColumnList**](../Model/CatalogColumnList.md)
 
 ### Authorization
 
@@ -353,7 +353,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogGetCategories**
-> \Swagger\Client\Model\CategoryList catalogGetCategories($store_id, $accept_encoding)
+> \EffetB\BeezupApi\Model\CategoryList catalogGetCategories($store_id, $accept_encoding)
 
 Get category list
 
@@ -363,11 +363,11 @@ Get category list
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CatalogsCatalogApi(
+$apiInstance = new EffetB\BeezupApi\Api\CatalogsCatalogApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -394,7 +394,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\CategoryList**](../Model/CategoryList.md)
+[**\EffetB\BeezupApi\Model\CategoryList**](../Model/CategoryList.md)
 
 ### Authorization
 
@@ -418,11 +418,11 @@ Get the encrypted custom column expression
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CatalogsCatalogApi(
+$apiInstance = new EffetB\BeezupApi\Api\CatalogsCatalogApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -463,7 +463,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogGetCustomColumns**
-> \Swagger\Client\Model\CustomColumnList catalogGetCustomColumns($store_id)
+> \EffetB\BeezupApi\Model\CustomColumnList catalogGetCustomColumns($store_id)
 
 Get custom column list
 
@@ -473,11 +473,11 @@ Get custom column list
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CatalogsCatalogApi(
+$apiInstance = new EffetB\BeezupApi\Api\CatalogsCatalogApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -502,7 +502,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\CustomColumnList**](../Model/CustomColumnList.md)
+[**\EffetB\BeezupApi\Model\CustomColumnList**](../Model/CustomColumnList.md)
 
 ### Authorization
 
@@ -516,7 +516,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogGetProductByProductId**
-> \Swagger\Client\Model\Product catalogGetProductByProductId($store_id, $product_id)
+> \EffetB\BeezupApi\Model\Product catalogGetProductByProductId($store_id, $product_id)
 
 Get product by ProductId
 
@@ -526,11 +526,11 @@ Get product by ProductId
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CatalogsCatalogApi(
+$apiInstance = new EffetB\BeezupApi\Api\CatalogsCatalogApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -557,7 +557,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\Product**](../Model/Product.md)
+[**\EffetB\BeezupApi\Model\Product**](../Model/Product.md)
 
 ### Authorization
 
@@ -571,7 +571,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogGetProductBySku**
-> \Swagger\Client\Model\Product catalogGetProductBySku($store_id, $sku)
+> \EffetB\BeezupApi\Model\Product catalogGetProductBySku($store_id, $sku)
 
 Get product by Sku
 
@@ -581,11 +581,11 @@ Get product by Sku
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CatalogsCatalogApi(
+$apiInstance = new EffetB\BeezupApi\Api\CatalogsCatalogApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -612,7 +612,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\Product**](../Model/Product.md)
+[**\EffetB\BeezupApi\Model\Product**](../Model/Product.md)
 
 ### Authorization
 
@@ -626,7 +626,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogGetProducts**
-> \Swagger\Client\Model\ProductList catalogGetProducts($store_id, $request)
+> \EffetB\BeezupApi\Model\ProductList catalogGetProducts($store_id, $request)
 
 Get product list
 
@@ -636,18 +636,18 @@ Get product list
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CatalogsCatalogApi(
+$apiInstance = new EffetB\BeezupApi\Api\CatalogsCatalogApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $store_id = "store_id_example"; // string | Your store identifier
-$request = new \Swagger\Client\Model\GetProductsRequest(); // \Swagger\Client\Model\GetProductsRequest | 
+$request = new \EffetB\BeezupApi\Model\GetProductsRequest(); // \EffetB\BeezupApi\Model\GetProductsRequest | 
 
 try {
     $result = $apiInstance->catalogGetProducts($store_id, $request);
@@ -663,11 +663,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **store_id** | **string**| Your store identifier |
- **request** | [**\Swagger\Client\Model\GetProductsRequest**](../Model/GetProductsRequest.md)|  |
+ **request** | [**\EffetB\BeezupApi\Model\GetProductsRequest**](../Model/GetProductsRequest.md)|  |
 
 ### Return type
 
-[**\Swagger\Client\Model\ProductList**](../Model/ProductList.md)
+[**\EffetB\BeezupApi\Model\ProductList**](../Model/ProductList.md)
 
 ### Authorization
 
@@ -681,7 +681,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogGetRandomProducts**
-> \Swagger\Client\Model\RandomProductList catalogGetRandomProducts($store_id)
+> \EffetB\BeezupApi\Model\RandomProductList catalogGetRandomProducts($store_id)
 
 Get random product list
 
@@ -693,11 +693,11 @@ We will return 10 products randomly selected with all product values
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CatalogsCatalogApi(
+$apiInstance = new EffetB\BeezupApi\Api\CatalogsCatalogApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -722,7 +722,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\RandomProductList**](../Model/RandomProductList.md)
+[**\EffetB\BeezupApi\Model\RandomProductList**](../Model/RandomProductList.md)
 
 ### Authorization
 
@@ -746,11 +746,11 @@ Create or replace a custom column
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CatalogsCatalogApi(
+$apiInstance = new EffetB\BeezupApi\Api\CatalogsCatalogApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -758,7 +758,7 @@ $apiInstance = new Swagger\Client\Api\CatalogsCatalogApi(
 );
 $store_id = "store_id_example"; // string | Your store identifier
 $column_id = "column_id_example"; // string | The custom column identifier
-$request = new \Swagger\Client\Model\CreateCustomColumnRequest(); // \Swagger\Client\Model\CreateCustomColumnRequest | 
+$request = new \EffetB\BeezupApi\Model\CreateCustomColumnRequest(); // \EffetB\BeezupApi\Model\CreateCustomColumnRequest | 
 
 try {
     $apiInstance->catalogSaveCustomColumn($store_id, $column_id, $request);
@@ -774,7 +774,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **store_id** | **string**| Your store identifier |
  **column_id** | **string**| The custom column identifier |
- **request** | [**\Swagger\Client\Model\CreateCustomColumnRequest**](../Model/CreateCustomColumnRequest.md)|  |
+ **request** | [**\EffetB\BeezupApi\Model\CreateCustomColumnRequest**](../Model/CreateCustomColumnRequest.md)|  |
 
 ### Return type
 
@@ -792,7 +792,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **catalogStoreIndex**
-> \Swagger\Client\Model\CatalogStoreIndex catalogStoreIndex($store_id)
+> \EffetB\BeezupApi\Model\CatalogStoreIndex catalogStoreIndex($store_id)
 
 Get the index of the catalog API for this store
 
@@ -804,11 +804,11 @@ The operation will give you all the operations you will be able to do on this st
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CatalogsCatalogApi(
+$apiInstance = new EffetB\BeezupApi\Api\CatalogsCatalogApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -833,7 +833,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\CatalogStoreIndex**](../Model/CatalogStoreIndex.md)
+[**\EffetB\BeezupApi\Model\CatalogStoreIndex**](../Model/CatalogStoreIndex.md)
 
 ### Authorization
 
@@ -847,7 +847,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **importationGetManualUpdateLastInputConfig**
-> \Swagger\Client\Model\LastManualImportInputConfiguration importationGetManualUpdateLastInputConfig($store_id)
+> \EffetB\BeezupApi\Model\LastManualImportInputConfiguration importationGetManualUpdateLastInputConfig($store_id)
 
 Get the last input configuration
 
@@ -857,11 +857,11 @@ Get the last input configuration
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
+$config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKey('Ocp-Apim-Subscription-Key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
+// $config = EffetB\BeezupApi\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Ocp-Apim-Subscription-Key', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\CatalogsCatalogApi(
+$apiInstance = new EffetB\BeezupApi\Api\CatalogsCatalogApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -886,7 +886,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\LastManualImportInputConfiguration**](../Model/LastManualImportInputConfiguration.md)
+[**\EffetB\BeezupApi\Model\LastManualImportInputConfiguration**](../Model/LastManualImportInputConfiguration.md)
 
 ### Authorization
 

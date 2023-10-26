@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * UpdateStoreRequest Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,9 +57,9 @@ class UpdateStoreRequest implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'name' => '\Swagger\Client\Model\StoreName',
-        'url' => '\Swagger\Client\Model\StoreUrl',
-        'sectors' => '\Swagger\Client\Model\StoreSectors'
+        'name' => '\EffetB\BeezupApi\Model\StoreName',
+        'url' => '\EffetB\BeezupApi\Model\StoreUrl',
+        'sectors' => '\EffetB\BeezupApi\Model\StoreSectors'
     ];
 
     /**
@@ -238,7 +238,7 @@ class UpdateStoreRequest implements ModelInterface, ArrayAccess
     /**
      * Gets name
      *
-     * @return \Swagger\Client\Model\StoreName
+     * @return \EffetB\BeezupApi\Model\StoreName
      */
     public function getName()
     {
@@ -248,7 +248,7 @@ class UpdateStoreRequest implements ModelInterface, ArrayAccess
     /**
      * Sets name
      *
-     * @param \Swagger\Client\Model\StoreName $name name
+     * @param \EffetB\BeezupApi\Model\StoreName $name name
      *
      * @return $this
      */
@@ -262,7 +262,7 @@ class UpdateStoreRequest implements ModelInterface, ArrayAccess
     /**
      * Gets url
      *
-     * @return \Swagger\Client\Model\StoreUrl
+     * @return \EffetB\BeezupApi\Model\StoreUrl
      */
     public function getUrl()
     {
@@ -272,7 +272,7 @@ class UpdateStoreRequest implements ModelInterface, ArrayAccess
     /**
      * Sets url
      *
-     * @param \Swagger\Client\Model\StoreUrl $url url
+     * @param \EffetB\BeezupApi\Model\StoreUrl $url url
      *
      * @return $this
      */
@@ -286,7 +286,7 @@ class UpdateStoreRequest implements ModelInterface, ArrayAccess
     /**
      * Gets sectors
      *
-     * @return \Swagger\Client\Model\StoreSectors
+     * @return \EffetB\BeezupApi\Model\StoreSectors
      */
     public function getSectors()
     {
@@ -296,7 +296,7 @@ class UpdateStoreRequest implements ModelInterface, ArrayAccess
     /**
      * Sets sectors
      *
-     * @param \Swagger\Client\Model\StoreSectors $sectors sectors
+     * @param \EffetB\BeezupApi\Model\StoreSectors $sectors sectors
      *
      * @return $this
      */

@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace EffetB\BeezupApi\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use EffetB\BeezupApi\ApiException;
+use EffetB\BeezupApi\Configuration;
+use EffetB\BeezupApi\HeaderSelector;
+use EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * PublicChannelsPublicChannelsApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -96,9 +96,9 @@ class PublicChannelsPublicChannelsApi
      * @param  string[] $accept_encoding Allows the client to indicate whether it accepts a compressed encoding to reduce traffic size. (required)
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ChannelInfoList
+     * @return \EffetB\BeezupApi\Model\ChannelInfoList
      */
     public function getChannels($country_iso_code, $accept_encoding, $if_none_match = null)
     {
@@ -115,13 +115,13 @@ class PublicChannelsPublicChannelsApi
      * @param  string[] $accept_encoding Allows the client to indicate whether it accepts a compressed encoding to reduce traffic size. (required)
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ChannelInfoList, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\ChannelInfoList, HTTP status code, HTTP response headers (array of strings)
      */
     public function getChannelsWithHttpInfo($country_iso_code, $accept_encoding, $if_none_match = null)
     {
-        $returnType = '\Swagger\Client\Model\ChannelInfoList';
+        $returnType = '\EffetB\BeezupApi\Model\ChannelInfoList';
         $request = $this->getChannelsRequest($country_iso_code, $accept_encoding, $if_none_match);
 
         try {
@@ -173,7 +173,7 @@ class PublicChannelsPublicChannelsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ChannelInfoList',
+                        '\EffetB\BeezupApi\Model\ChannelInfoList',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -181,7 +181,7 @@ class PublicChannelsPublicChannelsApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -189,7 +189,7 @@ class PublicChannelsPublicChannelsApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -235,7 +235,7 @@ class PublicChannelsPublicChannelsApi
      */
     public function getChannelsAsyncWithHttpInfo($country_iso_code, $accept_encoding, $if_none_match = null)
     {
-        $returnType = '\Swagger\Client\Model\ChannelInfoList';
+        $returnType = '\EffetB\BeezupApi\Model\ChannelInfoList';
         $request = $this->getChannelsRequest($country_iso_code, $accept_encoding, $if_none_match);
 
         return $this->client
@@ -399,9 +399,9 @@ class PublicChannelsPublicChannelsApi
      *
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\PublicChannelIndex
+     * @return \EffetB\BeezupApi\Model\PublicChannelIndex
      */
     public function getChannelsIndex($if_none_match = null)
     {
@@ -416,13 +416,13 @@ class PublicChannelsPublicChannelsApi
      *
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\PublicChannelIndex, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\PublicChannelIndex, HTTP status code, HTTP response headers (array of strings)
      */
     public function getChannelsIndexWithHttpInfo($if_none_match = null)
     {
-        $returnType = '\Swagger\Client\Model\PublicChannelIndex';
+        $returnType = '\EffetB\BeezupApi\Model\PublicChannelIndex';
         $request = $this->getChannelsIndexRequest($if_none_match);
 
         try {
@@ -474,7 +474,7 @@ class PublicChannelsPublicChannelsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\PublicChannelIndex',
+                        '\EffetB\BeezupApi\Model\PublicChannelIndex',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -482,7 +482,7 @@ class PublicChannelsPublicChannelsApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -524,7 +524,7 @@ class PublicChannelsPublicChannelsApi
      */
     public function getChannelsIndexAsyncWithHttpInfo($if_none_match = null)
     {
-        $returnType = '\Swagger\Client\Model\PublicChannelIndex';
+        $returnType = '\EffetB\BeezupApi\Model\PublicChannelIndex';
         $request = $this->getChannelsIndexRequest($if_none_match);
 
         return $this->client

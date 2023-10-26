@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * GetProductsRequest Class Doc Comment
  *
  * @category Class
  * @description The request message to get products based on these filters
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,15 +58,15 @@ class GetProductsRequest implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'page_number' => '\Swagger\Client\Model\BeezUPCommonPageNumber',
-        'page_size' => '\Swagger\Client\Model\BeezUPCommonPageSize',
-        'column_id_list' => '\Swagger\Client\Model\BeezUPCommonCatalogColumnId[]',
+        'page_number' => '\EffetB\BeezupApi\Model\BeezUPCommonPageNumber',
+        'page_size' => '\EffetB\BeezupApi\Model\BeezUPCommonPageSize',
+        'column_id_list' => '\EffetB\BeezupApi\Model\BeezUPCommonCatalogColumnId[]',
         'exists' => 'bool',
-        'product_id_list' => '\Swagger\Client\Model\BeezUPCommonProductId[]',
+        'product_id_list' => '\EffetB\BeezupApi\Model\BeezUPCommonProductId[]',
         'sku' => 'string',
         'title' => 'string',
-        'category_path' => '\Swagger\Client\Model\BeezUPCommonCatalogCategoryPath',
-        'orderby_catalog_column_id' => '\Swagger\Client\Model\BeezUPCommonCatalogColumnId',
+        'category_path' => '\EffetB\BeezupApi\Model\BeezUPCommonCatalogCategoryPath',
+        'orderby_catalog_column_id' => '\EffetB\BeezupApi\Model\BeezUPCommonCatalogColumnId',
         'without_sub_categories' => 'bool'
     ];
 
@@ -281,7 +281,7 @@ class GetProductsRequest implements ModelInterface, ArrayAccess
     /**
      * Gets page_number
      *
-     * @return \Swagger\Client\Model\BeezUPCommonPageNumber
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonPageNumber
      */
     public function getPageNumber()
     {
@@ -291,7 +291,7 @@ class GetProductsRequest implements ModelInterface, ArrayAccess
     /**
      * Sets page_number
      *
-     * @param \Swagger\Client\Model\BeezUPCommonPageNumber $page_number page_number
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonPageNumber $page_number page_number
      *
      * @return $this
      */
@@ -305,7 +305,7 @@ class GetProductsRequest implements ModelInterface, ArrayAccess
     /**
      * Gets page_size
      *
-     * @return \Swagger\Client\Model\BeezUPCommonPageSize
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonPageSize
      */
     public function getPageSize()
     {
@@ -315,7 +315,7 @@ class GetProductsRequest implements ModelInterface, ArrayAccess
     /**
      * Sets page_size
      *
-     * @param \Swagger\Client\Model\BeezUPCommonPageSize $page_size page_size
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonPageSize $page_size page_size
      *
      * @return $this
      */
@@ -329,7 +329,7 @@ class GetProductsRequest implements ModelInterface, ArrayAccess
     /**
      * Gets column_id_list
      *
-     * @return \Swagger\Client\Model\BeezUPCommonCatalogColumnId[]
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonCatalogColumnId[]
      */
     public function getColumnIdList()
     {
@@ -339,7 +339,7 @@ class GetProductsRequest implements ModelInterface, ArrayAccess
     /**
      * Sets column_id_list
      *
-     * @param \Swagger\Client\Model\BeezUPCommonCatalogColumnId[] $column_id_list column_id_list
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonCatalogColumnId[] $column_id_list column_id_list
      *
      * @return $this
      */
@@ -377,7 +377,7 @@ class GetProductsRequest implements ModelInterface, ArrayAccess
     /**
      * Gets product_id_list
      *
-     * @return \Swagger\Client\Model\BeezUPCommonProductId[]
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonProductId[]
      */
     public function getProductIdList()
     {
@@ -387,7 +387,7 @@ class GetProductsRequest implements ModelInterface, ArrayAccess
     /**
      * Sets product_id_list
      *
-     * @param \Swagger\Client\Model\BeezUPCommonProductId[] $product_id_list Filter with a list of product identifier
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonProductId[] $product_id_list Filter with a list of product identifier
      *
      * @return $this
      */
@@ -449,7 +449,7 @@ class GetProductsRequest implements ModelInterface, ArrayAccess
     /**
      * Gets category_path
      *
-     * @return \Swagger\Client\Model\BeezUPCommonCatalogCategoryPath
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonCatalogCategoryPath
      */
     public function getCategoryPath()
     {
@@ -459,7 +459,7 @@ class GetProductsRequest implements ModelInterface, ArrayAccess
     /**
      * Sets category_path
      *
-     * @param \Swagger\Client\Model\BeezUPCommonCatalogCategoryPath $category_path category_path
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonCatalogCategoryPath $category_path category_path
      *
      * @return $this
      */
@@ -473,7 +473,7 @@ class GetProductsRequest implements ModelInterface, ArrayAccess
     /**
      * Gets orderby_catalog_column_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonCatalogColumnId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonCatalogColumnId
      */
     public function getOrderbyCatalogColumnId()
     {
@@ -483,7 +483,7 @@ class GetProductsRequest implements ModelInterface, ArrayAccess
     /**
      * Sets orderby_catalog_column_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonCatalogColumnId $orderby_catalog_column_id orderby_catalog_column_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonCatalogColumnId $orderby_catalog_column_id orderby_catalog_column_id
      *
      * @return $this
      */

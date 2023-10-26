@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * SetChannelCatalogMarketplaceSettingsRequest Class Doc Comment
  *
  * @category Class
  * @description The channel catalog marketplace settings to save
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,7 +58,7 @@ class SetChannelCatalogMarketplaceSettingsRequest implements ModelInterface, Arr
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'settings' => '\Swagger\Client\Model\ChannelCatalogMarketplaceSettingArray'
+        'settings' => '\EffetB\BeezupApi\Model\ChannelCatalogMarketplaceSettingArray'
     ];
 
     /**
@@ -215,7 +215,7 @@ class SetChannelCatalogMarketplaceSettingsRequest implements ModelInterface, Arr
     /**
      * Gets settings
      *
-     * @return \Swagger\Client\Model\ChannelCatalogMarketplaceSettingArray
+     * @return \EffetB\BeezupApi\Model\ChannelCatalogMarketplaceSettingArray
      */
     public function getSettings()
     {
@@ -225,7 +225,7 @@ class SetChannelCatalogMarketplaceSettingsRequest implements ModelInterface, Arr
     /**
      * Sets settings
      *
-     * @param \Swagger\Client\Model\ChannelCatalogMarketplaceSettingArray $settings settings
+     * @param \EffetB\BeezupApi\Model\ChannelCatalogMarketplaceSettingArray $settings settings
      *
      * @return $this
      */

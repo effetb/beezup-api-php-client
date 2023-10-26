@@ -3,11 +3,11 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**self** | [**\Swagger\Client\Model\LinksGetOrderLink**](LinksGetOrderLink.md) |  | 
-**history** | [**\Swagger\Client\Model\LinksGetOrderHistoryLink**](LinksGetOrderHistoryLink.md) |  | 
-**harvest** | [**\Swagger\Client\Model\LinksHarvestOrderLink**](LinksHarvestOrderLink.md) |  | 
-**set_merchant_info** | [**\Swagger\Client\Model\LinksSetMerchantOrderInfoLink**](LinksSetMerchantOrderInfoLink.md) |  | 
-**clear_merchant_info** | [**\Swagger\Client\Model\LinksClearMerchantOrderInfoLink**](LinksClearMerchantOrderInfoLink.md) |  | 
+**self** | [**\EffetB\BeezupApi\Model\LinksGetOrderLink**](LinksGetOrderLink.md) |  | 
+**history** | [**\EffetB\BeezupApi\Model\LinksGetOrderHistoryLink**](LinksGetOrderHistoryLink.md) |  | 
+**harvest** | [**\EffetB\BeezupApi\Model\LinksHarvestOrderLink**](LinksHarvestOrderLink.md) |  | 
+**set_merchant_info** | [**\EffetB\BeezupApi\Model\LinksSetMerchantOrderInfoLink**](LinksSetMerchantOrderInfoLink.md) |  | 
+**clear_merchant_info** | [**\EffetB\BeezupApi\Model\LinksClearMerchantOrderInfoLink**](LinksClearMerchantOrderInfoLink.md) |  | 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace EffetB\BeezupApi\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use EffetB\BeezupApi\ApiException;
+use EffetB\BeezupApi\Configuration;
+use EffetB\BeezupApi\HeaderSelector;
+use EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CatalogsAutoApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -93,9 +93,9 @@ class CatalogsAutoApi
      * Configure Auto Import Interval
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\ConfigureAutoImportIntervalRequest $request request (required)
+     * @param  \EffetB\BeezupApi\Model\ConfigureAutoImportIntervalRequest $request request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -110,9 +110,9 @@ class CatalogsAutoApi
      * Configure Auto Import Interval
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\ConfigureAutoImportIntervalRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ConfigureAutoImportIntervalRequest $request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -156,7 +156,7 @@ class CatalogsAutoApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -164,7 +164,7 @@ class CatalogsAutoApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -172,7 +172,7 @@ class CatalogsAutoApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -188,7 +188,7 @@ class CatalogsAutoApi
      * Configure Auto Import Interval
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\ConfigureAutoImportIntervalRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ConfigureAutoImportIntervalRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -209,7 +209,7 @@ class CatalogsAutoApi
      * Configure Auto Import Interval
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\ConfigureAutoImportIntervalRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ConfigureAutoImportIntervalRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -246,7 +246,7 @@ class CatalogsAutoApi
      * Create request for operation 'autoConfigureAutoImportInterval'
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\ConfigureAutoImportIntervalRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ConfigureAutoImportIntervalRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -362,7 +362,7 @@ class CatalogsAutoApi
      *
      * @param  string $store_id Your store identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -378,7 +378,7 @@ class CatalogsAutoApi
      *
      * @param  string $store_id Your store identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -422,7 +422,7 @@ class CatalogsAutoApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -430,7 +430,7 @@ class CatalogsAutoApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -438,7 +438,7 @@ class CatalogsAutoApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -616,9 +616,9 @@ class CatalogsAutoApi
      *
      * @param  string $store_id Your store identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\AutoImportConfiguration
+     * @return \EffetB\BeezupApi\Model\AutoImportConfiguration
      */
     public function autoGetAutoImportConfiguration($store_id)
     {
@@ -633,13 +633,13 @@ class CatalogsAutoApi
      *
      * @param  string $store_id Your store identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\AutoImportConfiguration, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\AutoImportConfiguration, HTTP status code, HTTP response headers (array of strings)
      */
     public function autoGetAutoImportConfigurationWithHttpInfo($store_id)
     {
-        $returnType = '\Swagger\Client\Model\AutoImportConfiguration';
+        $returnType = '\EffetB\BeezupApi\Model\AutoImportConfiguration';
         $request = $this->autoGetAutoImportConfigurationRequest($store_id);
 
         try {
@@ -691,7 +691,7 @@ class CatalogsAutoApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\AutoImportConfiguration',
+                        '\EffetB\BeezupApi\Model\AutoImportConfiguration',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -699,7 +699,7 @@ class CatalogsAutoApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -707,7 +707,7 @@ class CatalogsAutoApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -749,7 +749,7 @@ class CatalogsAutoApi
      */
     public function autoGetAutoImportConfigurationAsyncWithHttpInfo($store_id)
     {
-        $returnType = '\Swagger\Client\Model\AutoImportConfiguration';
+        $returnType = '\EffetB\BeezupApi\Model\AutoImportConfiguration';
         $request = $this->autoGetAutoImportConfigurationRequest($store_id);
 
         return $this->client
@@ -899,7 +899,7 @@ class CatalogsAutoApi
      *
      * @param  string $store_id Your store identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -915,7 +915,7 @@ class CatalogsAutoApi
      *
      * @param  string $store_id Your store identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -959,7 +959,7 @@ class CatalogsAutoApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -967,7 +967,7 @@ class CatalogsAutoApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -975,7 +975,7 @@ class CatalogsAutoApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1153,7 +1153,7 @@ class CatalogsAutoApi
      *
      * @param  string $store_id Your store identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1169,7 +1169,7 @@ class CatalogsAutoApi
      *
      * @param  string $store_id Your store identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1213,7 +1213,7 @@ class CatalogsAutoApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1221,7 +1221,7 @@ class CatalogsAutoApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1229,7 +1229,7 @@ class CatalogsAutoApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1406,9 +1406,9 @@ class CatalogsAutoApi
      * Configure Auto Import Schedules
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\ScheduleAutoImportRequest $request request (required)
+     * @param  \EffetB\BeezupApi\Model\ScheduleAutoImportRequest $request request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1423,9 +1423,9 @@ class CatalogsAutoApi
      * Configure Auto Import Schedules
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\ScheduleAutoImportRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ScheduleAutoImportRequest $request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1469,7 +1469,7 @@ class CatalogsAutoApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1477,7 +1477,7 @@ class CatalogsAutoApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1485,7 +1485,7 @@ class CatalogsAutoApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1501,7 +1501,7 @@ class CatalogsAutoApi
      * Configure Auto Import Schedules
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\ScheduleAutoImportRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ScheduleAutoImportRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1522,7 +1522,7 @@ class CatalogsAutoApi
      * Configure Auto Import Schedules
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\ScheduleAutoImportRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ScheduleAutoImportRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1559,7 +1559,7 @@ class CatalogsAutoApi
      * Create request for operation 'autoScheduleAutoImport'
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\ScheduleAutoImportRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ScheduleAutoImportRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -1675,9 +1675,9 @@ class CatalogsAutoApi
      *
      * @param  string $store_id Your store identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\LinksImportationGetImportationMonitoringLink
+     * @return \EffetB\BeezupApi\Model\LinksImportationGetImportationMonitoringLink
      */
     public function autoStartAutoImport($store_id)
     {
@@ -1692,13 +1692,13 @@ class CatalogsAutoApi
      *
      * @param  string $store_id Your store identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\LinksImportationGetImportationMonitoringLink, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\LinksImportationGetImportationMonitoringLink, HTTP status code, HTTP response headers (array of strings)
      */
     public function autoStartAutoImportWithHttpInfo($store_id)
     {
-        $returnType = '\Swagger\Client\Model\LinksImportationGetImportationMonitoringLink';
+        $returnType = '\EffetB\BeezupApi\Model\LinksImportationGetImportationMonitoringLink';
         $request = $this->autoStartAutoImportRequest($store_id);
 
         try {
@@ -1750,7 +1750,7 @@ class CatalogsAutoApi
                 case 202:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\LinksImportationGetImportationMonitoringLink',
+                        '\EffetB\BeezupApi\Model\LinksImportationGetImportationMonitoringLink',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1758,7 +1758,7 @@ class CatalogsAutoApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1766,7 +1766,7 @@ class CatalogsAutoApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1774,7 +1774,7 @@ class CatalogsAutoApi
                 case 409:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1782,7 +1782,7 @@ class CatalogsAutoApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1824,7 +1824,7 @@ class CatalogsAutoApi
      */
     public function autoStartAutoImportAsyncWithHttpInfo($store_id)
     {
-        $returnType = '\Swagger\Client\Model\LinksImportationGetImportationMonitoringLink';
+        $returnType = '\EffetB\BeezupApi\Model\LinksImportationGetImportationMonitoringLink';
         $request = $this->autoStartAutoImportRequest($store_id);
 
         return $this->client
@@ -1974,7 +1974,7 @@ class CatalogsAutoApi
      *
      * @param  string $store_id Your store identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1990,7 +1990,7 @@ class CatalogsAutoApi
      *
      * @param  string $store_id Your store identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -2034,7 +2034,7 @@ class CatalogsAutoApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2042,7 +2042,7 @@ class CatalogsAutoApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2050,7 +2050,7 @@ class CatalogsAutoApi
                 case 409:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2058,7 +2058,7 @@ class CatalogsAutoApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);

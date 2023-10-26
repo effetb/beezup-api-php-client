@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace EffetB\BeezupApi\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use EffetB\BeezupApi\ApiException;
+use EffetB\BeezupApi\Configuration;
+use EffetB\BeezupApi\HeaderSelector;
+use EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelsChannelsGlobalApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -94,9 +94,9 @@ class ChannelsChannelsGlobalApi
      *
      * @param  string $store_id The store identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ChannelHeader[]
+     * @return \EffetB\BeezupApi\Model\ChannelHeader[]
      */
     public function getAvailableChannels($store_id)
     {
@@ -111,13 +111,13 @@ class ChannelsChannelsGlobalApi
      *
      * @param  string $store_id The store identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ChannelHeader[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\ChannelHeader[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getAvailableChannelsWithHttpInfo($store_id)
     {
-        $returnType = '\Swagger\Client\Model\ChannelHeader[]';
+        $returnType = '\EffetB\BeezupApi\Model\ChannelHeader[]';
         $request = $this->getAvailableChannelsRequest($store_id);
 
         try {
@@ -169,7 +169,7 @@ class ChannelsChannelsGlobalApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ChannelHeader[]',
+                        '\EffetB\BeezupApi\Model\ChannelHeader[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -211,7 +211,7 @@ class ChannelsChannelsGlobalApi
      */
     public function getAvailableChannelsAsyncWithHttpInfo($store_id)
     {
-        $returnType = '\Swagger\Client\Model\ChannelHeader[]';
+        $returnType = '\EffetB\BeezupApi\Model\ChannelHeader[]';
         $request = $this->getAvailableChannelsRequest($store_id);
 
         return $this->client
@@ -358,9 +358,9 @@ class ChannelsChannelsGlobalApi
      * @param  string $channel_id The channel identifier (required)
      * @param  string[] $accept_encoding Indicates that the client accepts that the response will be compressed to reduce traffic size. (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ChannelRootCategory
+     * @return \EffetB\BeezupApi\Model\ChannelRootCategory
      */
     public function getChannelCategories($channel_id, $accept_encoding)
     {
@@ -376,13 +376,13 @@ class ChannelsChannelsGlobalApi
      * @param  string $channel_id The channel identifier (required)
      * @param  string[] $accept_encoding Indicates that the client accepts that the response will be compressed to reduce traffic size. (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ChannelRootCategory, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\ChannelRootCategory, HTTP status code, HTTP response headers (array of strings)
      */
     public function getChannelCategoriesWithHttpInfo($channel_id, $accept_encoding)
     {
-        $returnType = '\Swagger\Client\Model\ChannelRootCategory';
+        $returnType = '\EffetB\BeezupApi\Model\ChannelRootCategory';
         $request = $this->getChannelCategoriesRequest($channel_id, $accept_encoding);
 
         try {
@@ -434,7 +434,7 @@ class ChannelsChannelsGlobalApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ChannelRootCategory',
+                        '\EffetB\BeezupApi\Model\ChannelRootCategory',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -478,7 +478,7 @@ class ChannelsChannelsGlobalApi
      */
     public function getChannelCategoriesAsyncWithHttpInfo($channel_id, $accept_encoding)
     {
-        $returnType = '\Swagger\Client\Model\ChannelRootCategory';
+        $returnType = '\EffetB\BeezupApi\Model\ChannelRootCategory';
         $request = $this->getChannelCategoriesRequest($channel_id, $accept_encoding);
 
         return $this->client
@@ -642,11 +642,11 @@ class ChannelsChannelsGlobalApi
      *
      * @param  string $channel_id The channel identifier (required)
      * @param  string[] $accept_encoding Indicates that the client accepts that the response will be compressed to reduce traffic size. (required)
-     * @param  \Swagger\Client\Model\BeezUPCommonChannelColumnId[] $request Allow you to filter the channel column identifier list your want to get (optional)
+     * @param  \EffetB\BeezupApi\Model\BeezUPCommonChannelColumnId[] $request Allow you to filter the channel column identifier list your want to get (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ChannelColumn[]
+     * @return \EffetB\BeezupApi\Model\ChannelColumn[]
      */
     public function getChannelColumns($channel_id, $accept_encoding, $request = null)
     {
@@ -661,15 +661,15 @@ class ChannelsChannelsGlobalApi
      *
      * @param  string $channel_id The channel identifier (required)
      * @param  string[] $accept_encoding Indicates that the client accepts that the response will be compressed to reduce traffic size. (required)
-     * @param  \Swagger\Client\Model\BeezUPCommonChannelColumnId[] $request Allow you to filter the channel column identifier list your want to get (optional)
+     * @param  \EffetB\BeezupApi\Model\BeezUPCommonChannelColumnId[] $request Allow you to filter the channel column identifier list your want to get (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ChannelColumn[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\ChannelColumn[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getChannelColumnsWithHttpInfo($channel_id, $accept_encoding, $request = null)
     {
-        $returnType = '\Swagger\Client\Model\ChannelColumn[]';
+        $returnType = '\EffetB\BeezupApi\Model\ChannelColumn[]';
         $request = $this->getChannelColumnsRequest($channel_id, $accept_encoding, $request);
 
         try {
@@ -721,7 +721,7 @@ class ChannelsChannelsGlobalApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ChannelColumn[]',
+                        '\EffetB\BeezupApi\Model\ChannelColumn[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -738,7 +738,7 @@ class ChannelsChannelsGlobalApi
      *
      * @param  string $channel_id The channel identifier (required)
      * @param  string[] $accept_encoding Indicates that the client accepts that the response will be compressed to reduce traffic size. (required)
-     * @param  \Swagger\Client\Model\BeezUPCommonChannelColumnId[] $request Allow you to filter the channel column identifier list your want to get (optional)
+     * @param  \EffetB\BeezupApi\Model\BeezUPCommonChannelColumnId[] $request Allow you to filter the channel column identifier list your want to get (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -760,14 +760,14 @@ class ChannelsChannelsGlobalApi
      *
      * @param  string $channel_id The channel identifier (required)
      * @param  string[] $accept_encoding Indicates that the client accepts that the response will be compressed to reduce traffic size. (required)
-     * @param  \Swagger\Client\Model\BeezUPCommonChannelColumnId[] $request Allow you to filter the channel column identifier list your want to get (optional)
+     * @param  \EffetB\BeezupApi\Model\BeezUPCommonChannelColumnId[] $request Allow you to filter the channel column identifier list your want to get (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getChannelColumnsAsyncWithHttpInfo($channel_id, $accept_encoding, $request = null)
     {
-        $returnType = '\Swagger\Client\Model\ChannelColumn[]';
+        $returnType = '\EffetB\BeezupApi\Model\ChannelColumn[]';
         $request = $this->getChannelColumnsRequest($channel_id, $accept_encoding, $request);
 
         return $this->client
@@ -812,7 +812,7 @@ class ChannelsChannelsGlobalApi
      *
      * @param  string $channel_id The channel identifier (required)
      * @param  string[] $accept_encoding Indicates that the client accepts that the response will be compressed to reduce traffic size. (required)
-     * @param  \Swagger\Client\Model\BeezUPCommonChannelColumnId[] $request Allow you to filter the channel column identifier list your want to get (optional)
+     * @param  \EffetB\BeezupApi\Model\BeezUPCommonChannelColumnId[] $request Allow you to filter the channel column identifier list your want to get (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -935,9 +935,9 @@ class ChannelsChannelsGlobalApi
      *
      * @param  string $channel_id The channel identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ChannelInfo
+     * @return \EffetB\BeezupApi\Model\ChannelInfo
      */
     public function getChannelInfo($channel_id)
     {
@@ -952,13 +952,13 @@ class ChannelsChannelsGlobalApi
      *
      * @param  string $channel_id The channel identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ChannelInfo, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\ChannelInfo, HTTP status code, HTTP response headers (array of strings)
      */
     public function getChannelInfoWithHttpInfo($channel_id)
     {
-        $returnType = '\Swagger\Client\Model\ChannelInfo';
+        $returnType = '\EffetB\BeezupApi\Model\ChannelInfo';
         $request = $this->getChannelInfoRequest($channel_id);
 
         try {
@@ -1010,7 +1010,7 @@ class ChannelsChannelsGlobalApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ChannelInfo',
+                        '\EffetB\BeezupApi\Model\ChannelInfo',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1052,7 +1052,7 @@ class ChannelsChannelsGlobalApi
      */
     public function getChannelInfoAsyncWithHttpInfo($channel_id)
     {
-        $returnType = '\Swagger\Client\Model\ChannelInfo';
+        $returnType = '\EffetB\BeezupApi\Model\ChannelInfo';
         $request = $this->getChannelInfoRequest($channel_id);
 
         return $this->client

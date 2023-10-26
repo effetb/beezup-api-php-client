@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ReportByProduct Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class ReportByProduct implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'product' => '\Swagger\Client\Model\BeezUPCommonProductBasicInfo',
+        'product' => '\EffetB\BeezupApi\Model\BeezUPCommonProductBasicInfo',
         'enabled_on_channel_count' => 'int',
         'channel_count' => 'int',
         'click_count' => 'int',
@@ -68,7 +68,7 @@ class ReportByProduct implements ModelInterface, ArrayAccess
         'performance_indicator' => 'float',
         'total_sales' => 'float',
         'sold_product_count' => 'int',
-        'links' => '\Swagger\Client\Model\ReportByProductLinks'
+        'links' => '\EffetB\BeezupApi\Model\ReportByProductLinks'
     ];
 
     /**
@@ -334,7 +334,7 @@ class ReportByProduct implements ModelInterface, ArrayAccess
     /**
      * Gets product
      *
-     * @return \Swagger\Client\Model\BeezUPCommonProductBasicInfo
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonProductBasicInfo
      */
     public function getProduct()
     {
@@ -344,7 +344,7 @@ class ReportByProduct implements ModelInterface, ArrayAccess
     /**
      * Sets product
      *
-     * @param \Swagger\Client\Model\BeezUPCommonProductBasicInfo $product product
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonProductBasicInfo $product product
      *
      * @return $this
      */
@@ -598,7 +598,7 @@ class ReportByProduct implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ReportByProductLinks
+     * @return \EffetB\BeezupApi\Model\ReportByProductLinks
      */
     public function getLinks()
     {
@@ -608,7 +608,7 @@ class ReportByProduct implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ReportByProductLinks $links links
+     * @param \EffetB\BeezupApi\Model\ReportByProductLinks $links links
      *
      * @return $this
      */

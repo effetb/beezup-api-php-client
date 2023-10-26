@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * InputFileReadConfiguration Class Doc Comment
  *
  * @category Class
  * @description Describe how to read the file. If FileFormatStrategy is CSV, csvFileReadProperties is required. Otherwise the xmlFileReadProperties is required.
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,11 +58,11 @@ class InputFileReadConfiguration implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'format' => '\Swagger\Client\Model\FileFormatStrategy',
+        'format' => '\EffetB\BeezupApi\Model\FileFormatStrategy',
         'encoding_type_name' => 'string',
         'culture_name' => 'string',
-        'csv_file_read_properties' => '\Swagger\Client\Model\InputFileReadCsvConfiguration',
-        'xml_file_read_properties' => '\Swagger\Client\Model\InputFileReadXmlConfiguration'
+        'csv_file_read_properties' => '\EffetB\BeezupApi\Model\InputFileReadCsvConfiguration',
+        'xml_file_read_properties' => '\EffetB\BeezupApi\Model\InputFileReadXmlConfiguration'
     ];
 
     /**
@@ -239,7 +239,7 @@ class InputFileReadConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets format
      *
-     * @return \Swagger\Client\Model\FileFormatStrategy
+     * @return \EffetB\BeezupApi\Model\FileFormatStrategy
      */
     public function getFormat()
     {
@@ -249,7 +249,7 @@ class InputFileReadConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets format
      *
-     * @param \Swagger\Client\Model\FileFormatStrategy $format format
+     * @param \EffetB\BeezupApi\Model\FileFormatStrategy $format format
      *
      * @return $this
      */
@@ -311,7 +311,7 @@ class InputFileReadConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets csv_file_read_properties
      *
-     * @return \Swagger\Client\Model\InputFileReadCsvConfiguration
+     * @return \EffetB\BeezupApi\Model\InputFileReadCsvConfiguration
      */
     public function getCsvFileReadProperties()
     {
@@ -321,7 +321,7 @@ class InputFileReadConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets csv_file_read_properties
      *
-     * @param \Swagger\Client\Model\InputFileReadCsvConfiguration $csv_file_read_properties csv_file_read_properties
+     * @param \EffetB\BeezupApi\Model\InputFileReadCsvConfiguration $csv_file_read_properties csv_file_read_properties
      *
      * @return $this
      */
@@ -335,7 +335,7 @@ class InputFileReadConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets xml_file_read_properties
      *
-     * @return \Swagger\Client\Model\InputFileReadXmlConfiguration
+     * @return \EffetB\BeezupApi\Model\InputFileReadXmlConfiguration
      */
     public function getXmlFileReadProperties()
     {
@@ -345,7 +345,7 @@ class InputFileReadConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets xml_file_read_properties
      *
-     * @param \Swagger\Client\Model\InputFileReadXmlConfiguration $xml_file_read_properties xml_file_read_properties
+     * @param \EffetB\BeezupApi\Model\InputFileReadXmlConfiguration $xml_file_read_properties xml_file_read_properties
      *
      * @return $this
      */

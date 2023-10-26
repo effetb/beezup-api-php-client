@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * InvoiceList Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class InvoiceList implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'links' => '\Swagger\Client\Model\InvoiceListLinks',
-        'invoices' => '\Swagger\Client\Model\Invoice[]'
+        'links' => '\EffetB\BeezupApi\Model\InvoiceListLinks',
+        'invoices' => '\EffetB\BeezupApi\Model\Invoice[]'
     ];
 
     /**
@@ -226,7 +226,7 @@ class InvoiceList implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\InvoiceListLinks
+     * @return \EffetB\BeezupApi\Model\InvoiceListLinks
      */
     public function getLinks()
     {
@@ -236,7 +236,7 @@ class InvoiceList implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\InvoiceListLinks $links links
+     * @param \EffetB\BeezupApi\Model\InvoiceListLinks $links links
      *
      * @return $this
      */
@@ -250,7 +250,7 @@ class InvoiceList implements ModelInterface, ArrayAccess
     /**
      * Gets invoices
      *
-     * @return \Swagger\Client\Model\Invoice[]
+     * @return \EffetB\BeezupApi\Model\Invoice[]
      */
     public function getInvoices()
     {
@@ -260,7 +260,7 @@ class InvoiceList implements ModelInterface, ArrayAccess
     /**
      * Sets invoices
      *
-     * @param \Swagger\Client\Model\Invoice[] $invoices invoices
+     * @param \EffetB\BeezupApi\Model\Invoice[] $invoices invoices
      *
      * @return $this
      */

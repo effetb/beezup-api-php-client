@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ReportByChannelResponse Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,10 +57,10 @@ class ReportByChannelResponse implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'pagination_result' => '\Swagger\Client\Model\BeezUPCommonPaginationResult',
-        'currency_code' => '\Swagger\Client\Model\BeezUPCommonCurrencyCode',
-        'channels' => '\Swagger\Client\Model\ReportByChannel[]',
-        'links' => '\Swagger\Client\Model\ReportByChannelResponseLinks'
+        'pagination_result' => '\EffetB\BeezupApi\Model\BeezUPCommonPaginationResult',
+        'currency_code' => '\EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode',
+        'channels' => '\EffetB\BeezupApi\Model\ReportByChannel[]',
+        'links' => '\EffetB\BeezupApi\Model\ReportByChannelResponseLinks'
     ];
 
     /**
@@ -250,7 +250,7 @@ class ReportByChannelResponse implements ModelInterface, ArrayAccess
     /**
      * Gets pagination_result
      *
-     * @return \Swagger\Client\Model\BeezUPCommonPaginationResult
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonPaginationResult
      */
     public function getPaginationResult()
     {
@@ -260,7 +260,7 @@ class ReportByChannelResponse implements ModelInterface, ArrayAccess
     /**
      * Sets pagination_result
      *
-     * @param \Swagger\Client\Model\BeezUPCommonPaginationResult $pagination_result pagination_result
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonPaginationResult $pagination_result pagination_result
      *
      * @return $this
      */
@@ -274,7 +274,7 @@ class ReportByChannelResponse implements ModelInterface, ArrayAccess
     /**
      * Gets currency_code
      *
-     * @return \Swagger\Client\Model\BeezUPCommonCurrencyCode
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode
      */
     public function getCurrencyCode()
     {
@@ -284,7 +284,7 @@ class ReportByChannelResponse implements ModelInterface, ArrayAccess
     /**
      * Sets currency_code
      *
-     * @param \Swagger\Client\Model\BeezUPCommonCurrencyCode $currency_code currency_code
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode $currency_code currency_code
      *
      * @return $this
      */
@@ -298,7 +298,7 @@ class ReportByChannelResponse implements ModelInterface, ArrayAccess
     /**
      * Gets channels
      *
-     * @return \Swagger\Client\Model\ReportByChannel[]
+     * @return \EffetB\BeezupApi\Model\ReportByChannel[]
      */
     public function getChannels()
     {
@@ -308,7 +308,7 @@ class ReportByChannelResponse implements ModelInterface, ArrayAccess
     /**
      * Sets channels
      *
-     * @param \Swagger\Client\Model\ReportByChannel[] $channels channels
+     * @param \EffetB\BeezupApi\Model\ReportByChannel[] $channels channels
      *
      * @return $this
      */
@@ -322,7 +322,7 @@ class ReportByChannelResponse implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ReportByChannelResponseLinks
+     * @return \EffetB\BeezupApi\Model\ReportByChannelResponseLinks
      */
     public function getLinks()
     {
@@ -332,7 +332,7 @@ class ReportByChannelResponse implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ReportByChannelResponseLinks $links links
+     * @param \EffetB\BeezupApi\Model\ReportByChannelResponseLinks $links links
      *
      * @return $this
      */

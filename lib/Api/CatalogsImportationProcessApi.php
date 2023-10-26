@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace EffetB\BeezupApi\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use EffetB\BeezupApi\ApiException;
+use EffetB\BeezupApi\Configuration;
+use EffetB\BeezupApi\HeaderSelector;
+use EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CatalogsImportationProcessApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -95,7 +95,7 @@ class CatalogsImportationProcessApi
      * @param  string $store_id Your store identifier (required)
      * @param  string $execution_id The execution identifier of you catalog importation (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -112,7 +112,7 @@ class CatalogsImportationProcessApi
      * @param  string $store_id Your store identifier (required)
      * @param  string $execution_id The execution identifier of you catalog importation (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -156,7 +156,7 @@ class CatalogsImportationProcessApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -164,7 +164,7 @@ class CatalogsImportationProcessApi
                 case 409:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -172,7 +172,7 @@ class CatalogsImportationProcessApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -368,7 +368,7 @@ class CatalogsImportationProcessApi
      * @param  string $store_id Your store identifier (required)
      * @param  string $execution_id The execution identifier of you catalog importation (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -385,7 +385,7 @@ class CatalogsImportationProcessApi
      * @param  string $store_id Your store identifier (required)
      * @param  string $execution_id The execution identifier of you catalog importation (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -429,7 +429,7 @@ class CatalogsImportationProcessApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -437,7 +437,7 @@ class CatalogsImportationProcessApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -445,7 +445,7 @@ class CatalogsImportationProcessApi
                 case 409:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -453,7 +453,7 @@ class CatalogsImportationProcessApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -649,7 +649,7 @@ class CatalogsImportationProcessApi
      * @param  string $store_id Your store identifier (required)
      * @param  string $execution_id The execution identifier of you catalog importation (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -666,7 +666,7 @@ class CatalogsImportationProcessApi
      * @param  string $store_id Your store identifier (required)
      * @param  string $execution_id The execution identifier of you catalog importation (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -710,7 +710,7 @@ class CatalogsImportationProcessApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -718,7 +718,7 @@ class CatalogsImportationProcessApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -726,7 +726,7 @@ class CatalogsImportationProcessApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -922,7 +922,7 @@ class CatalogsImportationProcessApi
      * @param  string $store_id Your store identifier (required)
      * @param  string $execution_id The execution identifier of you catalog importation (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -939,7 +939,7 @@ class CatalogsImportationProcessApi
      * @param  string $store_id Your store identifier (required)
      * @param  string $execution_id The execution identifier of you catalog importation (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -983,7 +983,7 @@ class CatalogsImportationProcessApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -991,7 +991,7 @@ class CatalogsImportationProcessApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -999,7 +999,7 @@ class CatalogsImportationProcessApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1195,9 +1195,9 @@ class CatalogsImportationProcessApi
      * @param  string $store_id Your store identifier (required)
      * @param  string $execution_id The execution identifier of you catalog importation (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ImportationMonitoring
+     * @return \EffetB\BeezupApi\Model\ImportationMonitoring
      */
     public function importationGetImportationMonitoring($store_id, $execution_id)
     {
@@ -1213,13 +1213,13 @@ class CatalogsImportationProcessApi
      * @param  string $store_id Your store identifier (required)
      * @param  string $execution_id The execution identifier of you catalog importation (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ImportationMonitoring, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\ImportationMonitoring, HTTP status code, HTTP response headers (array of strings)
      */
     public function importationGetImportationMonitoringWithHttpInfo($store_id, $execution_id)
     {
-        $returnType = '\Swagger\Client\Model\ImportationMonitoring';
+        $returnType = '\EffetB\BeezupApi\Model\ImportationMonitoring';
         $request = $this->importationGetImportationMonitoringRequest($store_id, $execution_id);
 
         try {
@@ -1271,7 +1271,7 @@ class CatalogsImportationProcessApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ImportationMonitoring',
+                        '\EffetB\BeezupApi\Model\ImportationMonitoring',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1279,7 +1279,7 @@ class CatalogsImportationProcessApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1287,7 +1287,7 @@ class CatalogsImportationProcessApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1331,7 +1331,7 @@ class CatalogsImportationProcessApi
      */
     public function importationGetImportationMonitoringAsyncWithHttpInfo($store_id, $execution_id)
     {
-        $returnType = '\Swagger\Client\Model\ImportationMonitoring';
+        $returnType = '\EffetB\BeezupApi\Model\ImportationMonitoring';
         $request = $this->importationGetImportationMonitoringRequest($store_id, $execution_id);
 
         return $this->client
@@ -1496,9 +1496,9 @@ class CatalogsImportationProcessApi
      *
      * @param  string $store_id Your store identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ImportationsResponse
+     * @return \EffetB\BeezupApi\Model\ImportationsResponse
      */
     public function importationGetReportings($store_id)
     {
@@ -1513,13 +1513,13 @@ class CatalogsImportationProcessApi
      *
      * @param  string $store_id Your store identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ImportationsResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\ImportationsResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function importationGetReportingsWithHttpInfo($store_id)
     {
-        $returnType = '\Swagger\Client\Model\ImportationsResponse';
+        $returnType = '\EffetB\BeezupApi\Model\ImportationsResponse';
         $request = $this->importationGetReportingsRequest($store_id);
 
         try {
@@ -1571,7 +1571,7 @@ class CatalogsImportationProcessApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ImportationsResponse',
+                        '\EffetB\BeezupApi\Model\ImportationsResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1579,7 +1579,7 @@ class CatalogsImportationProcessApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1587,7 +1587,7 @@ class CatalogsImportationProcessApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1629,7 +1629,7 @@ class CatalogsImportationProcessApi
      */
     public function importationGetReportingsAsyncWithHttpInfo($store_id)
     {
-        $returnType = '\Swagger\Client\Model\ImportationsResponse';
+        $returnType = '\EffetB\BeezupApi\Model\ImportationsResponse';
         $request = $this->importationGetReportingsRequest($store_id);
 
         return $this->client
@@ -1778,11 +1778,11 @@ class CatalogsImportationProcessApi
      * Start Manual Import
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\StartManualImportRequest $request request (required)
+     * @param  \EffetB\BeezupApi\Model\StartManualImportRequest $request request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\LinksImportationGetImportationMonitoringLink
+     * @return \EffetB\BeezupApi\Model\LinksImportationGetImportationMonitoringLink
      */
     public function importationStartManualUpdate($store_id, $request)
     {
@@ -1796,15 +1796,15 @@ class CatalogsImportationProcessApi
      * Start Manual Import
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\StartManualImportRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\StartManualImportRequest $request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\LinksImportationGetImportationMonitoringLink, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\LinksImportationGetImportationMonitoringLink, HTTP status code, HTTP response headers (array of strings)
      */
     public function importationStartManualUpdateWithHttpInfo($store_id, $request)
     {
-        $returnType = '\Swagger\Client\Model\LinksImportationGetImportationMonitoringLink';
+        $returnType = '\EffetB\BeezupApi\Model\LinksImportationGetImportationMonitoringLink';
         $request = $this->importationStartManualUpdateRequest($store_id, $request);
 
         try {
@@ -1856,7 +1856,7 @@ class CatalogsImportationProcessApi
                 case 202:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\LinksImportationGetImportationMonitoringLink',
+                        '\EffetB\BeezupApi\Model\LinksImportationGetImportationMonitoringLink',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1864,7 +1864,7 @@ class CatalogsImportationProcessApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1872,7 +1872,7 @@ class CatalogsImportationProcessApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1880,7 +1880,7 @@ class CatalogsImportationProcessApi
                 case 409:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ImportAlreadyInProgressResponse',
+                        '\EffetB\BeezupApi\Model\ImportAlreadyInProgressResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1888,7 +1888,7 @@ class CatalogsImportationProcessApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1904,7 +1904,7 @@ class CatalogsImportationProcessApi
      * Start Manual Import
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\StartManualImportRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\StartManualImportRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1925,14 +1925,14 @@ class CatalogsImportationProcessApi
      * Start Manual Import
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\StartManualImportRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\StartManualImportRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function importationStartManualUpdateAsyncWithHttpInfo($store_id, $request)
     {
-        $returnType = '\Swagger\Client\Model\LinksImportationGetImportationMonitoringLink';
+        $returnType = '\EffetB\BeezupApi\Model\LinksImportationGetImportationMonitoringLink';
         $request = $this->importationStartManualUpdateRequest($store_id, $request);
 
         return $this->client
@@ -1976,7 +1976,7 @@ class CatalogsImportationProcessApi
      * Create request for operation 'importationStartManualUpdate'
      *
      * @param  string $store_id Your store identifier (required)
-     * @param  \Swagger\Client\Model\StartManualImportRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\StartManualImportRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -2093,9 +2093,9 @@ class CatalogsImportationProcessApi
      * @param  string $store_id Your store identifier (required)
      * @param  string $execution_id The execution identifier of you catalog importation (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ImportationTechnicalProgression
+     * @return \EffetB\BeezupApi\Model\ImportationTechnicalProgression
      */
     public function importationTechnicalProgression($store_id, $execution_id)
     {
@@ -2111,13 +2111,13 @@ class CatalogsImportationProcessApi
      * @param  string $store_id Your store identifier (required)
      * @param  string $execution_id The execution identifier of you catalog importation (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ImportationTechnicalProgression, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\ImportationTechnicalProgression, HTTP status code, HTTP response headers (array of strings)
      */
     public function importationTechnicalProgressionWithHttpInfo($store_id, $execution_id)
     {
-        $returnType = '\Swagger\Client\Model\ImportationTechnicalProgression';
+        $returnType = '\EffetB\BeezupApi\Model\ImportationTechnicalProgression';
         $request = $this->importationTechnicalProgressionRequest($store_id, $execution_id);
 
         try {
@@ -2169,7 +2169,7 @@ class CatalogsImportationProcessApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ImportationTechnicalProgression',
+                        '\EffetB\BeezupApi\Model\ImportationTechnicalProgression',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2177,7 +2177,7 @@ class CatalogsImportationProcessApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2185,7 +2185,7 @@ class CatalogsImportationProcessApi
                 case 409:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2193,7 +2193,7 @@ class CatalogsImportationProcessApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2237,7 +2237,7 @@ class CatalogsImportationProcessApi
      */
     public function importationTechnicalProgressionAsyncWithHttpInfo($store_id, $execution_id)
     {
-        $returnType = '\Swagger\Client\Model\ImportationTechnicalProgression';
+        $returnType = '\EffetB\BeezupApi\Model\ImportationTechnicalProgression';
         $request = $this->importationTechnicalProgressionRequest($store_id, $execution_id);
 
         return $this->client

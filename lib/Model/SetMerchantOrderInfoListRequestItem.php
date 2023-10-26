@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * SetMerchantOrderInfoListRequestItem Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,10 +57,10 @@ class SetMerchantOrderInfoListRequestItem implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'marketplace_technical_code' => '\Swagger\Client\Model\BeezUPCommonMarketplaceTechnicalCode',
-        'account_id' => '\Swagger\Client\Model\AccountId',
-        'beez_up_order_id' => '\Swagger\Client\Model\BeezUPOrderId',
-        'order_merchant_order_id' => '\Swagger\Client\Model\OrderMerchantOrderId'
+        'marketplace_technical_code' => '\EffetB\BeezupApi\Model\BeezUPCommonMarketplaceTechnicalCode',
+        'account_id' => '\EffetB\BeezupApi\Model\AccountId',
+        'beez_up_order_id' => '\EffetB\BeezupApi\Model\BeezUPOrderId',
+        'order_merchant_order_id' => '\EffetB\BeezupApi\Model\OrderMerchantOrderId'
     ];
 
     /**
@@ -250,7 +250,7 @@ class SetMerchantOrderInfoListRequestItem implements ModelInterface, ArrayAccess
     /**
      * Gets marketplace_technical_code
      *
-     * @return \Swagger\Client\Model\BeezUPCommonMarketplaceTechnicalCode
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonMarketplaceTechnicalCode
      */
     public function getMarketplaceTechnicalCode()
     {
@@ -260,7 +260,7 @@ class SetMerchantOrderInfoListRequestItem implements ModelInterface, ArrayAccess
     /**
      * Sets marketplace_technical_code
      *
-     * @param \Swagger\Client\Model\BeezUPCommonMarketplaceTechnicalCode $marketplace_technical_code marketplace_technical_code
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonMarketplaceTechnicalCode $marketplace_technical_code marketplace_technical_code
      *
      * @return $this
      */
@@ -274,7 +274,7 @@ class SetMerchantOrderInfoListRequestItem implements ModelInterface, ArrayAccess
     /**
      * Gets account_id
      *
-     * @return \Swagger\Client\Model\AccountId
+     * @return \EffetB\BeezupApi\Model\AccountId
      */
     public function getAccountId()
     {
@@ -284,7 +284,7 @@ class SetMerchantOrderInfoListRequestItem implements ModelInterface, ArrayAccess
     /**
      * Sets account_id
      *
-     * @param \Swagger\Client\Model\AccountId $account_id account_id
+     * @param \EffetB\BeezupApi\Model\AccountId $account_id account_id
      *
      * @return $this
      */
@@ -298,7 +298,7 @@ class SetMerchantOrderInfoListRequestItem implements ModelInterface, ArrayAccess
     /**
      * Gets beez_up_order_id
      *
-     * @return \Swagger\Client\Model\BeezUPOrderId
+     * @return \EffetB\BeezupApi\Model\BeezUPOrderId
      */
     public function getBeezUpOrderId()
     {
@@ -308,7 +308,7 @@ class SetMerchantOrderInfoListRequestItem implements ModelInterface, ArrayAccess
     /**
      * Sets beez_up_order_id
      *
-     * @param \Swagger\Client\Model\BeezUPOrderId $beez_up_order_id beez_up_order_id
+     * @param \EffetB\BeezupApi\Model\BeezUPOrderId $beez_up_order_id beez_up_order_id
      *
      * @return $this
      */
@@ -322,7 +322,7 @@ class SetMerchantOrderInfoListRequestItem implements ModelInterface, ArrayAccess
     /**
      * Gets order_merchant_order_id
      *
-     * @return \Swagger\Client\Model\OrderMerchantOrderId
+     * @return \EffetB\BeezupApi\Model\OrderMerchantOrderId
      */
     public function getOrderMerchantOrderId()
     {
@@ -332,7 +332,7 @@ class SetMerchantOrderInfoListRequestItem implements ModelInterface, ArrayAccess
     /**
      * Sets order_merchant_order_id
      *
-     * @param \Swagger\Client\Model\OrderMerchantOrderId $order_merchant_order_id order_merchant_order_id
+     * @param \EffetB\BeezupApi\Model\OrderMerchantOrderId $order_merchant_order_id order_merchant_order_id
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChangeOrderListRequestItem Class Doc Comment
  *
  * @category Class
  * @description Contains the order identifier and the change order request
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,8 +58,8 @@ class ChangeOrderListRequestItem implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'order' => '\Swagger\Client\Model\OrderIdentifierWithETag',
-        'change_order_request' => '\Swagger\Client\Model\ChangeOrderRequest'
+        'order' => '\EffetB\BeezupApi\Model\OrderIdentifierWithETag',
+        'change_order_request' => '\EffetB\BeezupApi\Model\ChangeOrderRequest'
     ];
 
     /**
@@ -221,7 +221,7 @@ class ChangeOrderListRequestItem implements ModelInterface, ArrayAccess
     /**
      * Gets order
      *
-     * @return \Swagger\Client\Model\OrderIdentifierWithETag
+     * @return \EffetB\BeezupApi\Model\OrderIdentifierWithETag
      */
     public function getOrder()
     {
@@ -231,7 +231,7 @@ class ChangeOrderListRequestItem implements ModelInterface, ArrayAccess
     /**
      * Sets order
      *
-     * @param \Swagger\Client\Model\OrderIdentifierWithETag $order order
+     * @param \EffetB\BeezupApi\Model\OrderIdentifierWithETag $order order
      *
      * @return $this
      */
@@ -245,7 +245,7 @@ class ChangeOrderListRequestItem implements ModelInterface, ArrayAccess
     /**
      * Gets change_order_request
      *
-     * @return \Swagger\Client\Model\ChangeOrderRequest
+     * @return \EffetB\BeezupApi\Model\ChangeOrderRequest
      */
     public function getChangeOrderRequest()
     {
@@ -255,7 +255,7 @@ class ChangeOrderListRequestItem implements ModelInterface, ArrayAccess
     /**
      * Sets change_order_request
      *
-     * @param \Swagger\Client\Model\ChangeOrderRequest $change_order_request change_order_request
+     * @param \EffetB\BeezupApi\Model\ChangeOrderRequest $change_order_request change_order_request
      *
      * @return $this
      */

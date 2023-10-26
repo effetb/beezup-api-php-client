@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * UserFriendInfo Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -60,9 +60,9 @@ class UserFriendInfo implements ModelInterface, ArrayAccess
         'user_id' => 'string',
         'last_name' => 'string',
         'first_name' => 'string',
-        'email' => '\Swagger\Client\Model\FriendEmail',
-        'profile_picture_url' => '\Swagger\Client\Model\FriendProfilePictureUrl',
-        'country_iso_code_alpha3' => '\Swagger\Client\Model\FriendCountryIsoCodeAlpha3',
+        'email' => '\EffetB\BeezupApi\Model\FriendEmail',
+        'profile_picture_url' => '\EffetB\BeezupApi\Model\FriendProfilePictureUrl',
+        'country_iso_code_alpha3' => '\EffetB\BeezupApi\Model\FriendCountryIsoCodeAlpha3',
         'company' => 'string',
         'what_i_do' => 'string'
     ];
@@ -358,7 +358,7 @@ class UserFriendInfo implements ModelInterface, ArrayAccess
     /**
      * Gets email
      *
-     * @return \Swagger\Client\Model\FriendEmail
+     * @return \EffetB\BeezupApi\Model\FriendEmail
      */
     public function getEmail()
     {
@@ -368,7 +368,7 @@ class UserFriendInfo implements ModelInterface, ArrayAccess
     /**
      * Sets email
      *
-     * @param \Swagger\Client\Model\FriendEmail $email email
+     * @param \EffetB\BeezupApi\Model\FriendEmail $email email
      *
      * @return $this
      */
@@ -382,7 +382,7 @@ class UserFriendInfo implements ModelInterface, ArrayAccess
     /**
      * Gets profile_picture_url
      *
-     * @return \Swagger\Client\Model\FriendProfilePictureUrl
+     * @return \EffetB\BeezupApi\Model\FriendProfilePictureUrl
      */
     public function getProfilePictureUrl()
     {
@@ -392,7 +392,7 @@ class UserFriendInfo implements ModelInterface, ArrayAccess
     /**
      * Sets profile_picture_url
      *
-     * @param \Swagger\Client\Model\FriendProfilePictureUrl $profile_picture_url profile_picture_url
+     * @param \EffetB\BeezupApi\Model\FriendProfilePictureUrl $profile_picture_url profile_picture_url
      *
      * @return $this
      */
@@ -406,7 +406,7 @@ class UserFriendInfo implements ModelInterface, ArrayAccess
     /**
      * Gets country_iso_code_alpha3
      *
-     * @return \Swagger\Client\Model\FriendCountryIsoCodeAlpha3
+     * @return \EffetB\BeezupApi\Model\FriendCountryIsoCodeAlpha3
      */
     public function getCountryIsoCodeAlpha3()
     {
@@ -416,7 +416,7 @@ class UserFriendInfo implements ModelInterface, ArrayAccess
     /**
      * Sets country_iso_code_alpha3
      *
-     * @param \Swagger\Client\Model\FriendCountryIsoCodeAlpha3 $country_iso_code_alpha3 country_iso_code_alpha3
+     * @param \EffetB\BeezupApi\Model\FriendCountryIsoCodeAlpha3 $country_iso_code_alpha3 country_iso_code_alpha3
      *
      * @return $this
      */

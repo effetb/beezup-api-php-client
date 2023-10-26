@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * LastManualImportInputConfiguration Class Doc Comment
  *
  * @category Class
  * @description Last manual import input configuration
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,7 +58,7 @@ class LastManualImportInputConfiguration implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'input' => '\Swagger\Client\Model\InputConfiguration'
+        'input' => '\EffetB\BeezupApi\Model\InputConfiguration'
     ];
 
     /**
@@ -215,7 +215,7 @@ class LastManualImportInputConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets input
      *
-     * @return \Swagger\Client\Model\InputConfiguration
+     * @return \EffetB\BeezupApi\Model\InputConfiguration
      */
     public function getInput()
     {
@@ -225,7 +225,7 @@ class LastManualImportInputConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets input
      *
-     * @param \Swagger\Client\Model\InputConfiguration $input input
+     * @param \EffetB\BeezupApi\Model\InputConfiguration $input input
      *
      * @return $this
      */

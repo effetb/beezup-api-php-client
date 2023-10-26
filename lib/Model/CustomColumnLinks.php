@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CustomColumnLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,11 +57,11 @@ class CustomColumnLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'save' => '\Swagger\Client\Model\LinksCatalogSaveCustomColumnLink',
-        'delete' => '\Swagger\Client\Model\LinksCatalogDeleteCustomColumnLink',
-        'rename' => '\Swagger\Client\Model\LinksCatalogChangeCustomColumnUserNameLink',
-        'expression' => '\Swagger\Client\Model\LinksCatalogGetCustomColumnExpressionLink',
-        'save_expression' => '\Swagger\Client\Model\LinksCatalogChangeCustomColumnExpressionLink'
+        'save' => '\EffetB\BeezupApi\Model\LinksCatalogSaveCustomColumnLink',
+        'delete' => '\EffetB\BeezupApi\Model\LinksCatalogDeleteCustomColumnLink',
+        'rename' => '\EffetB\BeezupApi\Model\LinksCatalogChangeCustomColumnUserNameLink',
+        'expression' => '\EffetB\BeezupApi\Model\LinksCatalogGetCustomColumnExpressionLink',
+        'save_expression' => '\EffetB\BeezupApi\Model\LinksCatalogChangeCustomColumnExpressionLink'
     ];
 
     /**
@@ -262,7 +262,7 @@ class CustomColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Gets save
      *
-     * @return \Swagger\Client\Model\LinksCatalogSaveCustomColumnLink
+     * @return \EffetB\BeezupApi\Model\LinksCatalogSaveCustomColumnLink
      */
     public function getSave()
     {
@@ -272,7 +272,7 @@ class CustomColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Sets save
      *
-     * @param \Swagger\Client\Model\LinksCatalogSaveCustomColumnLink $save save
+     * @param \EffetB\BeezupApi\Model\LinksCatalogSaveCustomColumnLink $save save
      *
      * @return $this
      */
@@ -286,7 +286,7 @@ class CustomColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Gets delete
      *
-     * @return \Swagger\Client\Model\LinksCatalogDeleteCustomColumnLink
+     * @return \EffetB\BeezupApi\Model\LinksCatalogDeleteCustomColumnLink
      */
     public function getDelete()
     {
@@ -296,7 +296,7 @@ class CustomColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Sets delete
      *
-     * @param \Swagger\Client\Model\LinksCatalogDeleteCustomColumnLink $delete delete
+     * @param \EffetB\BeezupApi\Model\LinksCatalogDeleteCustomColumnLink $delete delete
      *
      * @return $this
      */
@@ -310,7 +310,7 @@ class CustomColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Gets rename
      *
-     * @return \Swagger\Client\Model\LinksCatalogChangeCustomColumnUserNameLink
+     * @return \EffetB\BeezupApi\Model\LinksCatalogChangeCustomColumnUserNameLink
      */
     public function getRename()
     {
@@ -320,7 +320,7 @@ class CustomColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Sets rename
      *
-     * @param \Swagger\Client\Model\LinksCatalogChangeCustomColumnUserNameLink $rename rename
+     * @param \EffetB\BeezupApi\Model\LinksCatalogChangeCustomColumnUserNameLink $rename rename
      *
      * @return $this
      */
@@ -334,7 +334,7 @@ class CustomColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Gets expression
      *
-     * @return \Swagger\Client\Model\LinksCatalogGetCustomColumnExpressionLink
+     * @return \EffetB\BeezupApi\Model\LinksCatalogGetCustomColumnExpressionLink
      */
     public function getExpression()
     {
@@ -344,7 +344,7 @@ class CustomColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Sets expression
      *
-     * @param \Swagger\Client\Model\LinksCatalogGetCustomColumnExpressionLink $expression expression
+     * @param \EffetB\BeezupApi\Model\LinksCatalogGetCustomColumnExpressionLink $expression expression
      *
      * @return $this
      */
@@ -358,7 +358,7 @@ class CustomColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Gets save_expression
      *
-     * @return \Swagger\Client\Model\LinksCatalogChangeCustomColumnExpressionLink
+     * @return \EffetB\BeezupApi\Model\LinksCatalogChangeCustomColumnExpressionLink
      */
     public function getSaveExpression()
     {
@@ -368,7 +368,7 @@ class CustomColumnLinks implements ModelInterface, ArrayAccess
     /**
      * Sets save_expression
      *
-     * @param \Swagger\Client\Model\LinksCatalogChangeCustomColumnExpressionLink $save_expression save_expression
+     * @param \EffetB\BeezupApi\Model\LinksCatalogChangeCustomColumnExpressionLink $save_expression save_expression
      *
      * @return $this
      */

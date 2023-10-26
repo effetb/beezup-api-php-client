@@ -7,7 +7,7 @@ Name | Type | Description | Notes
 **amount_excluding_taxes_including_discounts** | **double** | The amount excluding taxes including discounts. | [optional] 
 **amount_taxes_excluding_discount_including_billing_period_discount** | **double** | The taxes excluding discount including billing period discount. | [optional] 
 **amount_including_taxes_excluding_discount_including_billing_period_discount** | **double** | The amount including taxes excluding discount including billing period discount. | [optional] 
-**currency_code** | [**\Swagger\Client\Model\BeezUPCommonCurrencyCode**](BeezUPCommonCurrencyCode.md) |  | [optional] 
+**currency_code** | [**\EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode**](BeezUPCommonCurrencyCode.md) |  | [optional] 
 **vat_percent** | **double** | The VAT percent. | [optional] 
 **amount_excluding_taxes_including_discounts_per_month** | **double** | The amount excluding taxes including discounts per month. | [optional] 
 **amount_excluding_taxes_and_excluding_discounts** | **double** | The amount excluding taxes and excluding discounts. | [optional] 

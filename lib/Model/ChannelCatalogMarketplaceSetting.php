@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelCatalogMarketplaceSetting Class Doc Comment
  *
  * @category Class
  * @description Model for fetching a channel catalog marketplace setting
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,8 +58,8 @@ class ChannelCatalogMarketplaceSetting implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'name' => '\Swagger\Client\Model\ChannelCatalogMarketplacePropertyName',
-        'discriminator_type' => '\Swagger\Client\Model\ChannelCatalogMarketplaceSettingDiscriminatorType'
+        'name' => '\EffetB\BeezupApi\Model\ChannelCatalogMarketplacePropertyName',
+        'discriminator_type' => '\EffetB\BeezupApi\Model\ChannelCatalogMarketplaceSettingDiscriminatorType'
     ];
 
     /**
@@ -231,7 +231,7 @@ class ChannelCatalogMarketplaceSetting implements ModelInterface, ArrayAccess
     /**
      * Gets name
      *
-     * @return \Swagger\Client\Model\ChannelCatalogMarketplacePropertyName
+     * @return \EffetB\BeezupApi\Model\ChannelCatalogMarketplacePropertyName
      */
     public function getName()
     {
@@ -241,7 +241,7 @@ class ChannelCatalogMarketplaceSetting implements ModelInterface, ArrayAccess
     /**
      * Sets name
      *
-     * @param \Swagger\Client\Model\ChannelCatalogMarketplacePropertyName $name name
+     * @param \EffetB\BeezupApi\Model\ChannelCatalogMarketplacePropertyName $name name
      *
      * @return $this
      */
@@ -255,7 +255,7 @@ class ChannelCatalogMarketplaceSetting implements ModelInterface, ArrayAccess
     /**
      * Gets discriminator_type
      *
-     * @return \Swagger\Client\Model\ChannelCatalogMarketplaceSettingDiscriminatorType
+     * @return \EffetB\BeezupApi\Model\ChannelCatalogMarketplaceSettingDiscriminatorType
      */
     public function getDiscriminatorType()
     {
@@ -265,7 +265,7 @@ class ChannelCatalogMarketplaceSetting implements ModelInterface, ArrayAccess
     /**
      * Sets discriminator_type
      *
-     * @param \Swagger\Client\Model\ChannelCatalogMarketplaceSettingDiscriminatorType $discriminator_type discriminator_type
+     * @param \EffetB\BeezupApi\Model\ChannelCatalogMarketplaceSettingDiscriminatorType $discriminator_type discriminator_type
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * InputConfiguration Class Doc Comment
  *
  * @category Class
  * @description Describe the input configuration
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,7 +59,7 @@ class InputConfiguration implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'transform_file_url' => 'string',
-        'files' => '\Swagger\Client\Model\InputFileConfiguration[]'
+        'files' => '\EffetB\BeezupApi\Model\InputFileConfiguration[]'
     ];
 
     /**
@@ -245,7 +245,7 @@ class InputConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets files
      *
-     * @return \Swagger\Client\Model\InputFileConfiguration[]
+     * @return \EffetB\BeezupApi\Model\InputFileConfiguration[]
      */
     public function getFiles()
     {
@@ -255,7 +255,7 @@ class InputConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets files
      *
-     * @param \Swagger\Client\Model\InputFileConfiguration[] $files The list of files to get and read
+     * @param \EffetB\BeezupApi\Model\InputFileConfiguration[] $files The list of files to get and read
      *
      * @return $this
      */

@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace EffetB\BeezupApi\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use EffetB\BeezupApi\ApiException;
+use EffetB\BeezupApi\Configuration;
+use EffetB\BeezupApi\HeaderSelector;
+use EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * MarketplacesOrdersAutoTransitionsApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -92,9 +92,9 @@ class MarketplacesOrdersAutoTransitionsApi
      *
      * Configure new or existing automatic Order status transition
      *
-     * @param  \Swagger\Client\Model\ConfigureAutomaticTransitionRequest $request request (required)
+     * @param  \EffetB\BeezupApi\Model\ConfigureAutomaticTransitionRequest $request request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -108,9 +108,9 @@ class MarketplacesOrdersAutoTransitionsApi
      *
      * Configure new or existing automatic Order status transition
      *
-     * @param  \Swagger\Client\Model\ConfigureAutomaticTransitionRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ConfigureAutomaticTransitionRequest $request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -154,7 +154,7 @@ class MarketplacesOrdersAutoTransitionsApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -162,7 +162,7 @@ class MarketplacesOrdersAutoTransitionsApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -177,7 +177,7 @@ class MarketplacesOrdersAutoTransitionsApi
      *
      * Configure new or existing automatic Order status transition
      *
-     * @param  \Swagger\Client\Model\ConfigureAutomaticTransitionRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ConfigureAutomaticTransitionRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -197,7 +197,7 @@ class MarketplacesOrdersAutoTransitionsApi
      *
      * Configure new or existing automatic Order status transition
      *
-     * @param  \Swagger\Client\Model\ConfigureAutomaticTransitionRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ConfigureAutomaticTransitionRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -233,7 +233,7 @@ class MarketplacesOrdersAutoTransitionsApi
     /**
      * Create request for operation 'configureAutomaticTransitions'
      *
-     * @param  \Swagger\Client\Model\ConfigureAutomaticTransitionRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\ConfigureAutomaticTransitionRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -336,9 +336,9 @@ class MarketplacesOrdersAutoTransitionsApi
      * @param  string $store_id The StoreId to filter by (optional)
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\AutomaticTransitionInfoList
+     * @return \EffetB\BeezupApi\Model\AutomaticTransitionInfoList
      */
     public function getAutomaticTransitions($store_id = null, $if_none_match = null)
     {
@@ -354,13 +354,13 @@ class MarketplacesOrdersAutoTransitionsApi
      * @param  string $store_id The StoreId to filter by (optional)
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\AutomaticTransitionInfoList, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\AutomaticTransitionInfoList, HTTP status code, HTTP response headers (array of strings)
      */
     public function getAutomaticTransitionsWithHttpInfo($store_id = null, $if_none_match = null)
     {
-        $returnType = '\Swagger\Client\Model\AutomaticTransitionInfoList';
+        $returnType = '\EffetB\BeezupApi\Model\AutomaticTransitionInfoList';
         $request = $this->getAutomaticTransitionsRequest($store_id, $if_none_match);
 
         try {
@@ -412,7 +412,7 @@ class MarketplacesOrdersAutoTransitionsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\AutomaticTransitionInfoList',
+                        '\EffetB\BeezupApi\Model\AutomaticTransitionInfoList',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -420,7 +420,7 @@ class MarketplacesOrdersAutoTransitionsApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -428,7 +428,7 @@ class MarketplacesOrdersAutoTransitionsApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -472,7 +472,7 @@ class MarketplacesOrdersAutoTransitionsApi
      */
     public function getAutomaticTransitionsAsyncWithHttpInfo($store_id = null, $if_none_match = null)
     {
-        $returnType = '\Swagger\Client\Model\AutomaticTransitionInfoList';
+        $returnType = '\EffetB\BeezupApi\Model\AutomaticTransitionInfoList';
         $request = $this->getAutomaticTransitionsRequest($store_id, $if_none_match);
 
         return $this->client

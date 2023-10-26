@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * RuleLinks Class Doc Comment
  *
  * @category Class
  * @description Links to retrieve/action on other entities
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,15 +58,15 @@ class RuleLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksGetRuleLink',
-        'update' => '\Swagger\Client\Model\LinksUpdateRuleLink',
-        'delete' => '\Swagger\Client\Model\LinksDeleteRuleLink',
-        'moveup' => '\Swagger\Client\Model\LinksMoveUpRuleLink',
-        'movedown' => '\Swagger\Client\Model\LinksMoveDownRuleLink',
-        'enable' => '\Swagger\Client\Model\LinksEnableRuleLink',
-        'disable' => '\Swagger\Client\Model\LinksDisableRuleLink',
-        'run' => '\Swagger\Client\Model\LinksRunRuleLink',
-        'report_filter' => '\Swagger\Client\Model\LinksGetReportFilterLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksGetRuleLink',
+        'update' => '\EffetB\BeezupApi\Model\LinksUpdateRuleLink',
+        'delete' => '\EffetB\BeezupApi\Model\LinksDeleteRuleLink',
+        'moveup' => '\EffetB\BeezupApi\Model\LinksMoveUpRuleLink',
+        'movedown' => '\EffetB\BeezupApi\Model\LinksMoveDownRuleLink',
+        'enable' => '\EffetB\BeezupApi\Model\LinksEnableRuleLink',
+        'disable' => '\EffetB\BeezupApi\Model\LinksDisableRuleLink',
+        'run' => '\EffetB\BeezupApi\Model\LinksRunRuleLink',
+        'report_filter' => '\EffetB\BeezupApi\Model\LinksGetReportFilterLink'
     ];
 
     /**
@@ -263,7 +263,7 @@ class RuleLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksGetRuleLink
+     * @return \EffetB\BeezupApi\Model\LinksGetRuleLink
      */
     public function getSelf()
     {
@@ -273,7 +273,7 @@ class RuleLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksGetRuleLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksGetRuleLink $self self
      *
      * @return $this
      */
@@ -287,7 +287,7 @@ class RuleLinks implements ModelInterface, ArrayAccess
     /**
      * Gets update
      *
-     * @return \Swagger\Client\Model\LinksUpdateRuleLink
+     * @return \EffetB\BeezupApi\Model\LinksUpdateRuleLink
      */
     public function getUpdate()
     {
@@ -297,7 +297,7 @@ class RuleLinks implements ModelInterface, ArrayAccess
     /**
      * Sets update
      *
-     * @param \Swagger\Client\Model\LinksUpdateRuleLink $update update
+     * @param \EffetB\BeezupApi\Model\LinksUpdateRuleLink $update update
      *
      * @return $this
      */
@@ -311,7 +311,7 @@ class RuleLinks implements ModelInterface, ArrayAccess
     /**
      * Gets delete
      *
-     * @return \Swagger\Client\Model\LinksDeleteRuleLink
+     * @return \EffetB\BeezupApi\Model\LinksDeleteRuleLink
      */
     public function getDelete()
     {
@@ -321,7 +321,7 @@ class RuleLinks implements ModelInterface, ArrayAccess
     /**
      * Sets delete
      *
-     * @param \Swagger\Client\Model\LinksDeleteRuleLink $delete delete
+     * @param \EffetB\BeezupApi\Model\LinksDeleteRuleLink $delete delete
      *
      * @return $this
      */
@@ -335,7 +335,7 @@ class RuleLinks implements ModelInterface, ArrayAccess
     /**
      * Gets moveup
      *
-     * @return \Swagger\Client\Model\LinksMoveUpRuleLink
+     * @return \EffetB\BeezupApi\Model\LinksMoveUpRuleLink
      */
     public function getMoveup()
     {
@@ -345,7 +345,7 @@ class RuleLinks implements ModelInterface, ArrayAccess
     /**
      * Sets moveup
      *
-     * @param \Swagger\Client\Model\LinksMoveUpRuleLink $moveup moveup
+     * @param \EffetB\BeezupApi\Model\LinksMoveUpRuleLink $moveup moveup
      *
      * @return $this
      */
@@ -359,7 +359,7 @@ class RuleLinks implements ModelInterface, ArrayAccess
     /**
      * Gets movedown
      *
-     * @return \Swagger\Client\Model\LinksMoveDownRuleLink
+     * @return \EffetB\BeezupApi\Model\LinksMoveDownRuleLink
      */
     public function getMovedown()
     {
@@ -369,7 +369,7 @@ class RuleLinks implements ModelInterface, ArrayAccess
     /**
      * Sets movedown
      *
-     * @param \Swagger\Client\Model\LinksMoveDownRuleLink $movedown movedown
+     * @param \EffetB\BeezupApi\Model\LinksMoveDownRuleLink $movedown movedown
      *
      * @return $this
      */
@@ -383,7 +383,7 @@ class RuleLinks implements ModelInterface, ArrayAccess
     /**
      * Gets enable
      *
-     * @return \Swagger\Client\Model\LinksEnableRuleLink
+     * @return \EffetB\BeezupApi\Model\LinksEnableRuleLink
      */
     public function getEnable()
     {
@@ -393,7 +393,7 @@ class RuleLinks implements ModelInterface, ArrayAccess
     /**
      * Sets enable
      *
-     * @param \Swagger\Client\Model\LinksEnableRuleLink $enable enable
+     * @param \EffetB\BeezupApi\Model\LinksEnableRuleLink $enable enable
      *
      * @return $this
      */
@@ -407,7 +407,7 @@ class RuleLinks implements ModelInterface, ArrayAccess
     /**
      * Gets disable
      *
-     * @return \Swagger\Client\Model\LinksDisableRuleLink
+     * @return \EffetB\BeezupApi\Model\LinksDisableRuleLink
      */
     public function getDisable()
     {
@@ -417,7 +417,7 @@ class RuleLinks implements ModelInterface, ArrayAccess
     /**
      * Sets disable
      *
-     * @param \Swagger\Client\Model\LinksDisableRuleLink $disable disable
+     * @param \EffetB\BeezupApi\Model\LinksDisableRuleLink $disable disable
      *
      * @return $this
      */
@@ -431,7 +431,7 @@ class RuleLinks implements ModelInterface, ArrayAccess
     /**
      * Gets run
      *
-     * @return \Swagger\Client\Model\LinksRunRuleLink
+     * @return \EffetB\BeezupApi\Model\LinksRunRuleLink
      */
     public function getRun()
     {
@@ -441,7 +441,7 @@ class RuleLinks implements ModelInterface, ArrayAccess
     /**
      * Sets run
      *
-     * @param \Swagger\Client\Model\LinksRunRuleLink $run run
+     * @param \EffetB\BeezupApi\Model\LinksRunRuleLink $run run
      *
      * @return $this
      */
@@ -455,7 +455,7 @@ class RuleLinks implements ModelInterface, ArrayAccess
     /**
      * Gets report_filter
      *
-     * @return \Swagger\Client\Model\LinksGetReportFilterLink
+     * @return \EffetB\BeezupApi\Model\LinksGetReportFilterLink
      */
     public function getReportFilter()
     {
@@ -465,7 +465,7 @@ class RuleLinks implements ModelInterface, ArrayAccess
     /**
      * Sets report_filter
      *
-     * @param \Swagger\Client\Model\LinksGetReportFilterLink $report_filter report_filter
+     * @param \EffetB\BeezupApi\Model\LinksGetReportFilterLink $report_filter report_filter
      *
      * @return $this
      */

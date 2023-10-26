@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * OrderListRequest Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,19 +57,19 @@ class OrderListRequest implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'marketplace_technical_codes' => '\Swagger\Client\Model\BeezUPCommonMarketplaceTechnicalCode[]',
-        'marketplace_business_codes' => '\Swagger\Client\Model\BeezUPCommonMarketplaceBusinessCode[]',
-        'account_ids' => '\Swagger\Client\Model\AccountId[]',
-        'store_ids' => '\Swagger\Client\Model\BeezUPCommonStoreId[]',
-        'beez_up_order_statuses' => '\Swagger\Client\Model\BeezUPOrderStatus[]',
-        'date_search_type' => '\Swagger\Client\Model\DateSearchType',
+        'marketplace_technical_codes' => '\EffetB\BeezupApi\Model\BeezUPCommonMarketplaceTechnicalCode[]',
+        'marketplace_business_codes' => '\EffetB\BeezupApi\Model\BeezUPCommonMarketplaceBusinessCode[]',
+        'account_ids' => '\EffetB\BeezupApi\Model\AccountId[]',
+        'store_ids' => '\EffetB\BeezupApi\Model\BeezUPCommonStoreId[]',
+        'beez_up_order_statuses' => '\EffetB\BeezupApi\Model\BeezUPOrderStatus[]',
+        'date_search_type' => '\EffetB\BeezupApi\Model\DateSearchType',
         'begin_period_utc_date' => '\DateTime',
         'end_period_utc_date' => '\DateTime',
-        'order_buyer_name' => '\Swagger\Client\Model\OrderBuyerName',
-        'marketplace_order_ids' => '\Swagger\Client\Model\MarketplaceOrderId[]',
-        'order_merchant_order_ids' => '\Swagger\Client\Model\OrderMerchantOrderId[]',
-        'page_size' => '\Swagger\Client\Model\PageSize',
-        'page_number' => '\Swagger\Client\Model\PageNumber'
+        'order_buyer_name' => '\EffetB\BeezupApi\Model\OrderBuyerName',
+        'marketplace_order_ids' => '\EffetB\BeezupApi\Model\MarketplaceOrderId[]',
+        'order_merchant_order_ids' => '\EffetB\BeezupApi\Model\OrderMerchantOrderId[]',
+        'page_size' => '\EffetB\BeezupApi\Model\PageSize',
+        'page_number' => '\EffetB\BeezupApi\Model\PageNumber'
     ];
 
     /**
@@ -310,7 +310,7 @@ class OrderListRequest implements ModelInterface, ArrayAccess
     /**
      * Gets marketplace_technical_codes
      *
-     * @return \Swagger\Client\Model\BeezUPCommonMarketplaceTechnicalCode[]
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonMarketplaceTechnicalCode[]
      */
     public function getMarketplaceTechnicalCodes()
     {
@@ -320,7 +320,7 @@ class OrderListRequest implements ModelInterface, ArrayAccess
     /**
      * Sets marketplace_technical_codes
      *
-     * @param \Swagger\Client\Model\BeezUPCommonMarketplaceTechnicalCode[] $marketplace_technical_codes marketplace_technical_codes
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonMarketplaceTechnicalCode[] $marketplace_technical_codes marketplace_technical_codes
      *
      * @return $this
      */
@@ -334,7 +334,7 @@ class OrderListRequest implements ModelInterface, ArrayAccess
     /**
      * Gets marketplace_business_codes
      *
-     * @return \Swagger\Client\Model\BeezUPCommonMarketplaceBusinessCode[]
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonMarketplaceBusinessCode[]
      */
     public function getMarketplaceBusinessCodes()
     {
@@ -344,7 +344,7 @@ class OrderListRequest implements ModelInterface, ArrayAccess
     /**
      * Sets marketplace_business_codes
      *
-     * @param \Swagger\Client\Model\BeezUPCommonMarketplaceBusinessCode[] $marketplace_business_codes marketplace_business_codes
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonMarketplaceBusinessCode[] $marketplace_business_codes marketplace_business_codes
      *
      * @return $this
      */
@@ -358,7 +358,7 @@ class OrderListRequest implements ModelInterface, ArrayAccess
     /**
      * Gets account_ids
      *
-     * @return \Swagger\Client\Model\AccountId[]
+     * @return \EffetB\BeezupApi\Model\AccountId[]
      */
     public function getAccountIds()
     {
@@ -368,7 +368,7 @@ class OrderListRequest implements ModelInterface, ArrayAccess
     /**
      * Sets account_ids
      *
-     * @param \Swagger\Client\Model\AccountId[] $account_ids Account Id list
+     * @param \EffetB\BeezupApi\Model\AccountId[] $account_ids Account Id list
      *
      * @return $this
      */
@@ -382,7 +382,7 @@ class OrderListRequest implements ModelInterface, ArrayAccess
     /**
      * Gets store_ids
      *
-     * @return \Swagger\Client\Model\BeezUPCommonStoreId[]
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonStoreId[]
      */
     public function getStoreIds()
     {
@@ -392,7 +392,7 @@ class OrderListRequest implements ModelInterface, ArrayAccess
     /**
      * Sets store_ids
      *
-     * @param \Swagger\Client\Model\BeezUPCommonStoreId[] $store_ids Store Id list
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonStoreId[] $store_ids Store Id list
      *
      * @return $this
      */
@@ -406,7 +406,7 @@ class OrderListRequest implements ModelInterface, ArrayAccess
     /**
      * Gets beez_up_order_statuses
      *
-     * @return \Swagger\Client\Model\BeezUPOrderStatus[]
+     * @return \EffetB\BeezupApi\Model\BeezUPOrderStatus[]
      */
     public function getBeezUpOrderStatuses()
     {
@@ -416,7 +416,7 @@ class OrderListRequest implements ModelInterface, ArrayAccess
     /**
      * Sets beez_up_order_statuses
      *
-     * @param \Swagger\Client\Model\BeezUPOrderStatus[] $beez_up_order_statuses beez_up_order_statuses
+     * @param \EffetB\BeezupApi\Model\BeezUPOrderStatus[] $beez_up_order_statuses beez_up_order_statuses
      *
      * @return $this
      */
@@ -430,7 +430,7 @@ class OrderListRequest implements ModelInterface, ArrayAccess
     /**
      * Gets date_search_type
      *
-     * @return \Swagger\Client\Model\DateSearchType
+     * @return \EffetB\BeezupApi\Model\DateSearchType
      */
     public function getDateSearchType()
     {
@@ -440,7 +440,7 @@ class OrderListRequest implements ModelInterface, ArrayAccess
     /**
      * Sets date_search_type
      *
-     * @param \Swagger\Client\Model\DateSearchType $date_search_type date_search_type
+     * @param \EffetB\BeezupApi\Model\DateSearchType $date_search_type date_search_type
      *
      * @return $this
      */
@@ -502,7 +502,7 @@ class OrderListRequest implements ModelInterface, ArrayAccess
     /**
      * Gets order_buyer_name
      *
-     * @return \Swagger\Client\Model\OrderBuyerName
+     * @return \EffetB\BeezupApi\Model\OrderBuyerName
      */
     public function getOrderBuyerName()
     {
@@ -512,7 +512,7 @@ class OrderListRequest implements ModelInterface, ArrayAccess
     /**
      * Sets order_buyer_name
      *
-     * @param \Swagger\Client\Model\OrderBuyerName $order_buyer_name order_buyer_name
+     * @param \EffetB\BeezupApi\Model\OrderBuyerName $order_buyer_name order_buyer_name
      *
      * @return $this
      */
@@ -526,7 +526,7 @@ class OrderListRequest implements ModelInterface, ArrayAccess
     /**
      * Gets marketplace_order_ids
      *
-     * @return \Swagger\Client\Model\MarketplaceOrderId[]
+     * @return \EffetB\BeezupApi\Model\MarketplaceOrderId[]
      */
     public function getMarketplaceOrderIds()
     {
@@ -536,7 +536,7 @@ class OrderListRequest implements ModelInterface, ArrayAccess
     /**
      * Sets marketplace_order_ids
      *
-     * @param \Swagger\Client\Model\MarketplaceOrderId[] $marketplace_order_ids marketplace_order_ids
+     * @param \EffetB\BeezupApi\Model\MarketplaceOrderId[] $marketplace_order_ids marketplace_order_ids
      *
      * @return $this
      */
@@ -550,7 +550,7 @@ class OrderListRequest implements ModelInterface, ArrayAccess
     /**
      * Gets order_merchant_order_ids
      *
-     * @return \Swagger\Client\Model\OrderMerchantOrderId[]
+     * @return \EffetB\BeezupApi\Model\OrderMerchantOrderId[]
      */
     public function getOrderMerchantOrderIds()
     {
@@ -560,7 +560,7 @@ class OrderListRequest implements ModelInterface, ArrayAccess
     /**
      * Sets order_merchant_order_ids
      *
-     * @param \Swagger\Client\Model\OrderMerchantOrderId[] $order_merchant_order_ids Merchant order id list
+     * @param \EffetB\BeezupApi\Model\OrderMerchantOrderId[] $order_merchant_order_ids Merchant order id list
      *
      * @return $this
      */
@@ -574,7 +574,7 @@ class OrderListRequest implements ModelInterface, ArrayAccess
     /**
      * Gets page_size
      *
-     * @return \Swagger\Client\Model\PageSize
+     * @return \EffetB\BeezupApi\Model\PageSize
      */
     public function getPageSize()
     {
@@ -584,7 +584,7 @@ class OrderListRequest implements ModelInterface, ArrayAccess
     /**
      * Sets page_size
      *
-     * @param \Swagger\Client\Model\PageSize $page_size page_size
+     * @param \EffetB\BeezupApi\Model\PageSize $page_size page_size
      *
      * @return $this
      */
@@ -598,7 +598,7 @@ class OrderListRequest implements ModelInterface, ArrayAccess
     /**
      * Gets page_number
      *
-     * @return \Swagger\Client\Model\PageNumber
+     * @return \EffetB\BeezupApi\Model\PageNumber
      */
     public function getPageNumber()
     {
@@ -608,7 +608,7 @@ class OrderListRequest implements ModelInterface, ArrayAccess
     /**
      * Sets page_number
      *
-     * @param \Swagger\Client\Model\PageNumber $page_number page_number
+     * @param \EffetB\BeezupApi\Model\PageNumber $page_number page_number
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CopyOptimisationRequest Class Doc Comment
  *
  * @category Class
  * @description Copy the optimisation between 2 channels
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,8 +58,8 @@ class CopyOptimisationRequest implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'channel_id_source' => '\Swagger\Client\Model\BeezUPCommonChannelId',
-        'channel_id_target' => '\Swagger\Client\Model\BeezUPCommonChannelId',
+        'channel_id_source' => '\EffetB\BeezupApi\Model\BeezUPCommonChannelId',
+        'channel_id_target' => '\EffetB\BeezupApi\Model\BeezUPCommonChannelId',
         'keep_existing_optimisation' => 'bool'
     ];
 
@@ -239,7 +239,7 @@ class CopyOptimisationRequest implements ModelInterface, ArrayAccess
     /**
      * Gets channel_id_source
      *
-     * @return \Swagger\Client\Model\BeezUPCommonChannelId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonChannelId
      */
     public function getChannelIdSource()
     {
@@ -249,7 +249,7 @@ class CopyOptimisationRequest implements ModelInterface, ArrayAccess
     /**
      * Sets channel_id_source
      *
-     * @param \Swagger\Client\Model\BeezUPCommonChannelId $channel_id_source channel_id_source
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonChannelId $channel_id_source channel_id_source
      *
      * @return $this
      */
@@ -263,7 +263,7 @@ class CopyOptimisationRequest implements ModelInterface, ArrayAccess
     /**
      * Gets channel_id_target
      *
-     * @return \Swagger\Client\Model\BeezUPCommonChannelId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonChannelId
      */
     public function getChannelIdTarget()
     {
@@ -273,7 +273,7 @@ class CopyOptimisationRequest implements ModelInterface, ArrayAccess
     /**
      * Sets channel_id_target
      *
-     * @param \Swagger\Client\Model\BeezUPCommonChannelId $channel_id_target channel_id_target
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonChannelId $channel_id_target channel_id_target
      *
      * @return $this
      */

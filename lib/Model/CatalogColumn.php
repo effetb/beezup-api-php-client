@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CatalogColumn Class Doc Comment
  *
  * @category Class
  * @description The catalog column configuration
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,12 +59,12 @@ class CatalogColumn implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'ignored' => 'bool',
-        'duplicate_product_value_configuration' => '\Swagger\Client\Model\DuplicateProductValueConfiguration',
-        'id' => '\Swagger\Client\Model\ColumnId',
-        'catalog_column_name' => '\Swagger\Client\Model\CatalogColumnName',
-        'user_colum_name' => '\Swagger\Client\Model\UserColumName',
-        'configuration' => '\Swagger\Client\Model\ColumnConfiguration',
-        'links' => '\Swagger\Client\Model\CatalogColumnLinks'
+        'duplicate_product_value_configuration' => '\EffetB\BeezupApi\Model\DuplicateProductValueConfiguration',
+        'id' => '\EffetB\BeezupApi\Model\ColumnId',
+        'catalog_column_name' => '\EffetB\BeezupApi\Model\CatalogColumnName',
+        'user_colum_name' => '\EffetB\BeezupApi\Model\UserColumName',
+        'configuration' => '\EffetB\BeezupApi\Model\ColumnConfiguration',
+        'links' => '\EffetB\BeezupApi\Model\CatalogColumnLinks'
     ];
 
     /**
@@ -299,7 +299,7 @@ class CatalogColumn implements ModelInterface, ArrayAccess
     /**
      * Gets duplicate_product_value_configuration
      *
-     * @return \Swagger\Client\Model\DuplicateProductValueConfiguration
+     * @return \EffetB\BeezupApi\Model\DuplicateProductValueConfiguration
      */
     public function getDuplicateProductValueConfiguration()
     {
@@ -309,7 +309,7 @@ class CatalogColumn implements ModelInterface, ArrayAccess
     /**
      * Sets duplicate_product_value_configuration
      *
-     * @param \Swagger\Client\Model\DuplicateProductValueConfiguration $duplicate_product_value_configuration duplicate_product_value_configuration
+     * @param \EffetB\BeezupApi\Model\DuplicateProductValueConfiguration $duplicate_product_value_configuration duplicate_product_value_configuration
      *
      * @return $this
      */
@@ -323,7 +323,7 @@ class CatalogColumn implements ModelInterface, ArrayAccess
     /**
      * Gets id
      *
-     * @return \Swagger\Client\Model\ColumnId
+     * @return \EffetB\BeezupApi\Model\ColumnId
      */
     public function getId()
     {
@@ -333,7 +333,7 @@ class CatalogColumn implements ModelInterface, ArrayAccess
     /**
      * Sets id
      *
-     * @param \Swagger\Client\Model\ColumnId $id id
+     * @param \EffetB\BeezupApi\Model\ColumnId $id id
      *
      * @return $this
      */
@@ -347,7 +347,7 @@ class CatalogColumn implements ModelInterface, ArrayAccess
     /**
      * Gets catalog_column_name
      *
-     * @return \Swagger\Client\Model\CatalogColumnName
+     * @return \EffetB\BeezupApi\Model\CatalogColumnName
      */
     public function getCatalogColumnName()
     {
@@ -357,7 +357,7 @@ class CatalogColumn implements ModelInterface, ArrayAccess
     /**
      * Sets catalog_column_name
      *
-     * @param \Swagger\Client\Model\CatalogColumnName $catalog_column_name catalog_column_name
+     * @param \EffetB\BeezupApi\Model\CatalogColumnName $catalog_column_name catalog_column_name
      *
      * @return $this
      */
@@ -371,7 +371,7 @@ class CatalogColumn implements ModelInterface, ArrayAccess
     /**
      * Gets user_colum_name
      *
-     * @return \Swagger\Client\Model\UserColumName
+     * @return \EffetB\BeezupApi\Model\UserColumName
      */
     public function getUserColumName()
     {
@@ -381,7 +381,7 @@ class CatalogColumn implements ModelInterface, ArrayAccess
     /**
      * Sets user_colum_name
      *
-     * @param \Swagger\Client\Model\UserColumName $user_colum_name user_colum_name
+     * @param \EffetB\BeezupApi\Model\UserColumName $user_colum_name user_colum_name
      *
      * @return $this
      */
@@ -395,7 +395,7 @@ class CatalogColumn implements ModelInterface, ArrayAccess
     /**
      * Gets configuration
      *
-     * @return \Swagger\Client\Model\ColumnConfiguration
+     * @return \EffetB\BeezupApi\Model\ColumnConfiguration
      */
     public function getConfiguration()
     {
@@ -405,7 +405,7 @@ class CatalogColumn implements ModelInterface, ArrayAccess
     /**
      * Sets configuration
      *
-     * @param \Swagger\Client\Model\ColumnConfiguration $configuration configuration
+     * @param \EffetB\BeezupApi\Model\ColumnConfiguration $configuration configuration
      *
      * @return $this
      */
@@ -419,7 +419,7 @@ class CatalogColumn implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\CatalogColumnLinks
+     * @return \EffetB\BeezupApi\Model\CatalogColumnLinks
      */
     public function getLinks()
     {
@@ -429,7 +429,7 @@ class CatalogColumn implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\CatalogColumnLinks $links links
+     * @param \EffetB\BeezupApi\Model\CatalogColumnLinks $links links
      *
      * @return $this
      */

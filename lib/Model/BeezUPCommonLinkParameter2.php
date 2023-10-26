@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * BeezUPCommonLinkParameter2 Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -60,9 +60,9 @@ class BeezUPCommonLinkParameter2 implements ModelInterface, ArrayAccess
         'name' => 'string',
         'value' => 'string',
         'required' => 'bool',
-        'in' => '\Swagger\Client\Model\BeezUPCommonParameterIn',
-        'type' => '\Swagger\Client\Model\BeezUPCommonParameterType',
-        'lov_link' => '\Swagger\Client\Model\BeezUPCommonLOVLink2',
+        'in' => '\EffetB\BeezupApi\Model\BeezUPCommonParameterIn',
+        'type' => '\EffetB\BeezupApi\Model\BeezUPCommonParameterType',
+        'lov_link' => '\EffetB\BeezupApi\Model\BeezUPCommonLOVLink2',
         'lov_required' => 'bool'
     ];
 
@@ -322,7 +322,7 @@ class BeezUPCommonLinkParameter2 implements ModelInterface, ArrayAccess
     /**
      * Gets in
      *
-     * @return \Swagger\Client\Model\BeezUPCommonParameterIn
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonParameterIn
      */
     public function getIn()
     {
@@ -332,7 +332,7 @@ class BeezUPCommonLinkParameter2 implements ModelInterface, ArrayAccess
     /**
      * Sets in
      *
-     * @param \Swagger\Client\Model\BeezUPCommonParameterIn $in in
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonParameterIn $in in
      *
      * @return $this
      */
@@ -346,7 +346,7 @@ class BeezUPCommonLinkParameter2 implements ModelInterface, ArrayAccess
     /**
      * Gets type
      *
-     * @return \Swagger\Client\Model\BeezUPCommonParameterType
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonParameterType
      */
     public function getType()
     {
@@ -356,7 +356,7 @@ class BeezUPCommonLinkParameter2 implements ModelInterface, ArrayAccess
     /**
      * Sets type
      *
-     * @param \Swagger\Client\Model\BeezUPCommonParameterType $type type
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonParameterType $type type
      *
      * @return $this
      */
@@ -370,7 +370,7 @@ class BeezUPCommonLinkParameter2 implements ModelInterface, ArrayAccess
     /**
      * Gets lov_link
      *
-     * @return \Swagger\Client\Model\BeezUPCommonLOVLink2
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonLOVLink2
      */
     public function getLovLink()
     {
@@ -380,7 +380,7 @@ class BeezUPCommonLinkParameter2 implements ModelInterface, ArrayAccess
     /**
      * Sets lov_link
      *
-     * @param \Swagger\Client\Model\BeezUPCommonLOVLink2 $lov_link This parameter expect the values indicated in this list of values.
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonLOVLink2 $lov_link This parameter expect the values indicated in this list of values.
      *
      * @return $this
      */

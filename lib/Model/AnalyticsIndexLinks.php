@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * AnalyticsIndexLinks Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,8 +57,8 @@ class AnalyticsIndexLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksAnalyticsIndexLink',
-        'tracking_status' => '\Swagger\Client\Model\LinksGetTrackingStatusLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksAnalyticsIndexLink',
+        'tracking_status' => '\EffetB\BeezupApi\Model\LinksGetTrackingStatusLink'
     ];
 
     /**
@@ -220,7 +220,7 @@ class AnalyticsIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksAnalyticsIndexLink
+     * @return \EffetB\BeezupApi\Model\LinksAnalyticsIndexLink
      */
     public function getSelf()
     {
@@ -230,7 +230,7 @@ class AnalyticsIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksAnalyticsIndexLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksAnalyticsIndexLink $self self
      *
      * @return $this
      */
@@ -244,7 +244,7 @@ class AnalyticsIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Gets tracking_status
      *
-     * @return \Swagger\Client\Model\LinksGetTrackingStatusLink
+     * @return \EffetB\BeezupApi\Model\LinksGetTrackingStatusLink
      */
     public function getTrackingStatus()
     {
@@ -254,7 +254,7 @@ class AnalyticsIndexLinks implements ModelInterface, ArrayAccess
     /**
      * Sets tracking_status
      *
-     * @param \Swagger\Client\Model\LinksGetTrackingStatusLink $tracking_status tracking_status
+     * @param \EffetB\BeezupApi\Model\LinksGetTrackingStatusLink $tracking_status tracking_status
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * TrackedOrder Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,12 +58,12 @@ class TrackedOrder implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'utc_date' => '\DateTime',
-        'channel' => '\Swagger\Client\Model\BeezUPCommonChannelBasicInfo',
+        'channel' => '\EffetB\BeezupApi\Model\BeezUPCommonChannelBasicInfo',
         'merchant_order_id' => 'string',
         'total_amount' => 'float',
-        'currency_code' => '\Swagger\Client\Model\BeezUPCommonCurrencyCode',
+        'currency_code' => '\EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode',
         'payment_validated' => 'bool',
-        'products' => '\Swagger\Client\Model\TrackedOrderProduct[]'
+        'products' => '\EffetB\BeezupApi\Model\TrackedOrderProduct[]'
     ];
 
     /**
@@ -310,7 +310,7 @@ class TrackedOrder implements ModelInterface, ArrayAccess
     /**
      * Gets channel
      *
-     * @return \Swagger\Client\Model\BeezUPCommonChannelBasicInfo
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonChannelBasicInfo
      */
     public function getChannel()
     {
@@ -320,7 +320,7 @@ class TrackedOrder implements ModelInterface, ArrayAccess
     /**
      * Sets channel
      *
-     * @param \Swagger\Client\Model\BeezUPCommonChannelBasicInfo $channel channel
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonChannelBasicInfo $channel channel
      *
      * @return $this
      */
@@ -382,7 +382,7 @@ class TrackedOrder implements ModelInterface, ArrayAccess
     /**
      * Gets currency_code
      *
-     * @return \Swagger\Client\Model\BeezUPCommonCurrencyCode
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode
      */
     public function getCurrencyCode()
     {
@@ -392,7 +392,7 @@ class TrackedOrder implements ModelInterface, ArrayAccess
     /**
      * Sets currency_code
      *
-     * @param \Swagger\Client\Model\BeezUPCommonCurrencyCode $currency_code currency_code
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonCurrencyCode $currency_code currency_code
      *
      * @return $this
      */
@@ -430,7 +430,7 @@ class TrackedOrder implements ModelInterface, ArrayAccess
     /**
      * Gets products
      *
-     * @return \Swagger\Client\Model\TrackedOrderProduct[]
+     * @return \EffetB\BeezupApi\Model\TrackedOrderProduct[]
      */
     public function getProducts()
     {
@@ -440,7 +440,7 @@ class TrackedOrder implements ModelInterface, ArrayAccess
     /**
      * Sets products
      *
-     * @param \Swagger\Client\Model\TrackedOrderProduct[] $products The product list of this order
+     * @param \EffetB\BeezupApi\Model\TrackedOrderProduct[] $products The product list of this order
      *
      * @return $this
      */

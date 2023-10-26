@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelCatalogProductByChannelCatalogResponse Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class ChannelCatalogProductByChannelCatalogResponse implements ModelInterface, A
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'channel_catalogs' => 'map[string,\Swagger\Client\Model\ChannelCatalogProductInfo]'
+        'channel_catalogs' => 'map[string,\EffetB\BeezupApi\Model\ChannelCatalogProductInfo]'
     ];
 
     /**
@@ -208,7 +208,7 @@ class ChannelCatalogProductByChannelCatalogResponse implements ModelInterface, A
     /**
      * Gets channel_catalogs
      *
-     * @return map[string,\Swagger\Client\Model\ChannelCatalogProductInfo]
+     * @return map[string,\EffetB\BeezupApi\Model\ChannelCatalogProductInfo]
      */
     public function getChannelCatalogs()
     {
@@ -218,7 +218,7 @@ class ChannelCatalogProductByChannelCatalogResponse implements ModelInterface, A
     /**
      * Sets channel_catalogs
      *
-     * @param map[string,\Swagger\Client\Model\ChannelCatalogProductInfo] $channel_catalogs The channel catalog product by channel catalog. The key is the channel catalog identifier
+     * @param map[string,\EffetB\BeezupApi\Model\ChannelCatalogProductInfo] $channel_catalogs The channel catalog product by channel catalog. The key is the channel catalog identifier
      *
      * @return $this
      */

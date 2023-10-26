@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ContractDiscountInfo Class Doc Comment
  *
  * @category Class
  * @description Describe the discount information related to the offer.
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -61,7 +61,7 @@ class ContractDiscountInfo implements ModelInterface, ArrayAccess
         'amount_code_promo_discount_per_month' => 'double',
         'discount_duration_in_month' => 'int',
         'percent_discount' => 'double',
-        'promotional_code_validity' => '\Swagger\Client\Model\PromotionalCodeValidity',
+        'promotional_code_validity' => '\EffetB\BeezupApi\Model\PromotionalCodeValidity',
         'amount_code_promo_discount' => 'double',
         'coupon_discount_code' => 'string',
         'coupon_discount_id' => 'int',
@@ -329,7 +329,7 @@ class ContractDiscountInfo implements ModelInterface, ArrayAccess
     /**
      * Gets promotional_code_validity
      *
-     * @return \Swagger\Client\Model\PromotionalCodeValidity
+     * @return \EffetB\BeezupApi\Model\PromotionalCodeValidity
      */
     public function getPromotionalCodeValidity()
     {
@@ -339,7 +339,7 @@ class ContractDiscountInfo implements ModelInterface, ArrayAccess
     /**
      * Sets promotional_code_validity
      *
-     * @param \Swagger\Client\Model\PromotionalCodeValidity $promotional_code_validity promotional_code_validity
+     * @param \EffetB\BeezupApi\Model\PromotionalCodeValidity $promotional_code_validity promotional_code_validity
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CreateStoreRequest Class Doc Comment
  *
  * @category Class
  * @description The request to create a store. The store identifier is optional, if null it will be automatically computed.
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,11 +58,11 @@ class CreateStoreRequest implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'id' => '\Swagger\Client\Model\BeezUPCommonStoreId',
-        'name' => '\Swagger\Client\Model\StoreName',
-        'url' => '\Swagger\Client\Model\StoreUrl',
-        'country_iso_code_alpha3' => '\Swagger\Client\Model\StoreCountryIsoCodeAlpha3',
-        'sectors' => '\Swagger\Client\Model\StoreSectors'
+        'id' => '\EffetB\BeezupApi\Model\BeezUPCommonStoreId',
+        'name' => '\EffetB\BeezupApi\Model\StoreName',
+        'url' => '\EffetB\BeezupApi\Model\StoreUrl',
+        'country_iso_code_alpha3' => '\EffetB\BeezupApi\Model\StoreCountryIsoCodeAlpha3',
+        'sectors' => '\EffetB\BeezupApi\Model\StoreSectors'
     ];
 
     /**
@@ -257,7 +257,7 @@ class CreateStoreRequest implements ModelInterface, ArrayAccess
     /**
      * Gets id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonStoreId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonStoreId
      */
     public function getId()
     {
@@ -267,7 +267,7 @@ class CreateStoreRequest implements ModelInterface, ArrayAccess
     /**
      * Sets id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonStoreId $id id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonStoreId $id id
      *
      * @return $this
      */
@@ -281,7 +281,7 @@ class CreateStoreRequest implements ModelInterface, ArrayAccess
     /**
      * Gets name
      *
-     * @return \Swagger\Client\Model\StoreName
+     * @return \EffetB\BeezupApi\Model\StoreName
      */
     public function getName()
     {
@@ -291,7 +291,7 @@ class CreateStoreRequest implements ModelInterface, ArrayAccess
     /**
      * Sets name
      *
-     * @param \Swagger\Client\Model\StoreName $name name
+     * @param \EffetB\BeezupApi\Model\StoreName $name name
      *
      * @return $this
      */
@@ -305,7 +305,7 @@ class CreateStoreRequest implements ModelInterface, ArrayAccess
     /**
      * Gets url
      *
-     * @return \Swagger\Client\Model\StoreUrl
+     * @return \EffetB\BeezupApi\Model\StoreUrl
      */
     public function getUrl()
     {
@@ -315,7 +315,7 @@ class CreateStoreRequest implements ModelInterface, ArrayAccess
     /**
      * Sets url
      *
-     * @param \Swagger\Client\Model\StoreUrl $url url
+     * @param \EffetB\BeezupApi\Model\StoreUrl $url url
      *
      * @return $this
      */
@@ -329,7 +329,7 @@ class CreateStoreRequest implements ModelInterface, ArrayAccess
     /**
      * Gets country_iso_code_alpha3
      *
-     * @return \Swagger\Client\Model\StoreCountryIsoCodeAlpha3
+     * @return \EffetB\BeezupApi\Model\StoreCountryIsoCodeAlpha3
      */
     public function getCountryIsoCodeAlpha3()
     {
@@ -339,7 +339,7 @@ class CreateStoreRequest implements ModelInterface, ArrayAccess
     /**
      * Sets country_iso_code_alpha3
      *
-     * @param \Swagger\Client\Model\StoreCountryIsoCodeAlpha3 $country_iso_code_alpha3 country_iso_code_alpha3
+     * @param \EffetB\BeezupApi\Model\StoreCountryIsoCodeAlpha3 $country_iso_code_alpha3 country_iso_code_alpha3
      *
      * @return $this
      */
@@ -353,7 +353,7 @@ class CreateStoreRequest implements ModelInterface, ArrayAccess
     /**
      * Gets sectors
      *
-     * @return \Swagger\Client\Model\StoreSectors
+     * @return \EffetB\BeezupApi\Model\StoreSectors
      */
     public function getSectors()
     {
@@ -363,7 +363,7 @@ class CreateStoreRequest implements ModelInterface, ArrayAccess
     /**
      * Sets sectors
      *
-     * @param \Swagger\Client\Model\StoreSectors $sectors sectors
+     * @param \EffetB\BeezupApi\Model\StoreSectors $sectors sectors
      *
      * @return $this
      */

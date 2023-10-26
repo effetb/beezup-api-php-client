@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * UnmapCategoryRequest Class Doc Comment
  *
  * @category Class
  * @description The request message to unmap a catalog category path to a channel category path
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,7 +58,7 @@ class UnmapCategoryRequest implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'catalog_category_path' => '\Swagger\Client\Model\BeezUPCommonCatalogCategoryPath'
+        'catalog_category_path' => '\EffetB\BeezupApi\Model\BeezUPCommonCatalogCategoryPath'
     ];
 
     /**
@@ -215,7 +215,7 @@ class UnmapCategoryRequest implements ModelInterface, ArrayAccess
     /**
      * Gets catalog_category_path
      *
-     * @return \Swagger\Client\Model\BeezUPCommonCatalogCategoryPath
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonCatalogCategoryPath
      */
     public function getCatalogCategoryPath()
     {
@@ -225,7 +225,7 @@ class UnmapCategoryRequest implements ModelInterface, ArrayAccess
     /**
      * Sets catalog_category_path
      *
-     * @param \Swagger\Client\Model\BeezUPCommonCatalogCategoryPath $catalog_category_path catalog_category_path
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonCatalogCategoryPath $catalog_category_path catalog_category_path
      *
      * @return $this
      */

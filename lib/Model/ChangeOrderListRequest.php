@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChangeOrderListRequest Class Doc Comment
  *
  * @category Class
  * @description Contains all change order operations you want to make
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,7 +58,7 @@ class ChangeOrderListRequest implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'change_orders' => '\Swagger\Client\Model\ChangeOrderListRequestItem[]'
+        'change_orders' => '\EffetB\BeezupApi\Model\ChangeOrderListRequestItem[]'
     ];
 
     /**
@@ -215,7 +215,7 @@ class ChangeOrderListRequest implements ModelInterface, ArrayAccess
     /**
      * Gets change_orders
      *
-     * @return \Swagger\Client\Model\ChangeOrderListRequestItem[]
+     * @return \EffetB\BeezupApi\Model\ChangeOrderListRequestItem[]
      */
     public function getChangeOrders()
     {
@@ -225,7 +225,7 @@ class ChangeOrderListRequest implements ModelInterface, ArrayAccess
     /**
      * Sets change_orders
      *
-     * @param \Swagger\Client\Model\ChangeOrderListRequestItem[] $change_orders The change order operations
+     * @param \EffetB\BeezupApi\Model\ChangeOrderListRequestItem[] $change_orders The change order operations
      *
      * @return $this
      */

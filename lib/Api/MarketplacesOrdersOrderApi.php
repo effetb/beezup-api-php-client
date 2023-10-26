@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace EffetB\BeezupApi\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use EffetB\BeezupApi\ApiException;
+use EffetB\BeezupApi\Configuration;
+use EffetB\BeezupApi\HeaderSelector;
+use EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * MarketplacesOrdersOrderApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -99,9 +99,9 @@ class MarketplacesOrdersOrderApi
      * @param  string $user_name Sometimes the user in the e-commerce application is not the same as user associated with the current subscription key. We recommend providing your application&#39;s user login. (required)
      * @param  string $if_match ETag value to identify the last known version of requested resource.\\ To ensure that you are making a change on the lastest version of the resource.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (required)
      * @param  bool $test_mode If true, the operation will be not be sent to marketplace. But the validation will be taken in account. (optional, default to false)
-     * @param  \Swagger\Client\Model\ChangeOrderRequest $request request (optional)
+     * @param  \EffetB\BeezupApi\Model\ChangeOrderRequest $request request (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -122,9 +122,9 @@ class MarketplacesOrdersOrderApi
      * @param  string $user_name Sometimes the user in the e-commerce application is not the same as user associated with the current subscription key. We recommend providing your application&#39;s user login. (required)
      * @param  string $if_match ETag value to identify the last known version of requested resource.\\ To ensure that you are making a change on the lastest version of the resource.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (required)
      * @param  bool $test_mode If true, the operation will be not be sent to marketplace. But the validation will be taken in account. (optional, default to false)
-     * @param  \Swagger\Client\Model\ChangeOrderRequest $request (optional)
+     * @param  \EffetB\BeezupApi\Model\ChangeOrderRequest $request (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -168,7 +168,7 @@ class MarketplacesOrdersOrderApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -176,7 +176,7 @@ class MarketplacesOrdersOrderApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -184,7 +184,7 @@ class MarketplacesOrdersOrderApi
                 case 409:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -192,7 +192,7 @@ class MarketplacesOrdersOrderApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -214,7 +214,7 @@ class MarketplacesOrdersOrderApi
      * @param  string $user_name Sometimes the user in the e-commerce application is not the same as user associated with the current subscription key. We recommend providing your application&#39;s user login. (required)
      * @param  string $if_match ETag value to identify the last known version of requested resource.\\ To ensure that you are making a change on the lastest version of the resource.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (required)
      * @param  bool $test_mode If true, the operation will be not be sent to marketplace. But the validation will be taken in account. (optional, default to false)
-     * @param  \Swagger\Client\Model\ChangeOrderRequest $request (optional)
+     * @param  \EffetB\BeezupApi\Model\ChangeOrderRequest $request (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -241,7 +241,7 @@ class MarketplacesOrdersOrderApi
      * @param  string $user_name Sometimes the user in the e-commerce application is not the same as user associated with the current subscription key. We recommend providing your application&#39;s user login. (required)
      * @param  string $if_match ETag value to identify the last known version of requested resource.\\ To ensure that you are making a change on the lastest version of the resource.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (required)
      * @param  bool $test_mode If true, the operation will be not be sent to marketplace. But the validation will be taken in account. (optional, default to false)
-     * @param  \Swagger\Client\Model\ChangeOrderRequest $request (optional)
+     * @param  \EffetB\BeezupApi\Model\ChangeOrderRequest $request (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -284,7 +284,7 @@ class MarketplacesOrdersOrderApi
      * @param  string $user_name Sometimes the user in the e-commerce application is not the same as user associated with the current subscription key. We recommend providing your application&#39;s user login. (required)
      * @param  string $if_match ETag value to identify the last known version of requested resource.\\ To ensure that you are making a change on the lastest version of the resource.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (required)
      * @param  bool $test_mode If true, the operation will be not be sent to marketplace. But the validation will be taken in account. (optional, default to false)
-     * @param  \Swagger\Client\Model\ChangeOrderRequest $request (optional)
+     * @param  \EffetB\BeezupApi\Model\ChangeOrderRequest $request (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -462,7 +462,7 @@ class MarketplacesOrdersOrderApi
      * @param  int $account_id The account identifier (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -480,7 +480,7 @@ class MarketplacesOrdersOrderApi
      * @param  int $account_id The account identifier (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -524,7 +524,7 @@ class MarketplacesOrdersOrderApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -532,7 +532,7 @@ class MarketplacesOrdersOrderApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -540,7 +540,7 @@ class MarketplacesOrdersOrderApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -755,9 +755,9 @@ class MarketplacesOrdersOrderApi
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\Order
+     * @return \EffetB\BeezupApi\Model\Order
      */
     public function getOrder($marketplace_technical_code, $account_id, $beez_up_order_id, $if_none_match = null)
     {
@@ -775,13 +775,13 @@ class MarketplacesOrdersOrderApi
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\Order, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\Order, HTTP status code, HTTP response headers (array of strings)
      */
     public function getOrderWithHttpInfo($marketplace_technical_code, $account_id, $beez_up_order_id, $if_none_match = null)
     {
-        $returnType = '\Swagger\Client\Model\Order';
+        $returnType = '\EffetB\BeezupApi\Model\Order';
         $request = $this->getOrderRequest($marketplace_technical_code, $account_id, $beez_up_order_id, $if_none_match);
 
         try {
@@ -833,7 +833,7 @@ class MarketplacesOrdersOrderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\Order',
+                        '\EffetB\BeezupApi\Model\Order',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -841,7 +841,7 @@ class MarketplacesOrdersOrderApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -849,7 +849,7 @@ class MarketplacesOrdersOrderApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -897,7 +897,7 @@ class MarketplacesOrdersOrderApi
      */
     public function getOrderAsyncWithHttpInfo($marketplace_technical_code, $account_id, $beez_up_order_id, $if_none_match = null)
     {
-        $returnType = '\Swagger\Client\Model\Order';
+        $returnType = '\EffetB\BeezupApi\Model\Order';
         $request = $this->getOrderRequest($marketplace_technical_code, $account_id, $beez_up_order_id, $if_none_match);
 
         return $this->client
@@ -1085,9 +1085,9 @@ class MarketplacesOrdersOrderApi
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\OrderHistory
+     * @return \EffetB\BeezupApi\Model\OrderHistory
      */
     public function getOrderHistory($marketplace_technical_code, $account_id, $beez_up_order_id, $if_none_match = null)
     {
@@ -1105,13 +1105,13 @@ class MarketplacesOrdersOrderApi
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\OrderHistory, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\OrderHistory, HTTP status code, HTTP response headers (array of strings)
      */
     public function getOrderHistoryWithHttpInfo($marketplace_technical_code, $account_id, $beez_up_order_id, $if_none_match = null)
     {
-        $returnType = '\Swagger\Client\Model\OrderHistory';
+        $returnType = '\EffetB\BeezupApi\Model\OrderHistory';
         $request = $this->getOrderHistoryRequest($marketplace_technical_code, $account_id, $beez_up_order_id, $if_none_match);
 
         try {
@@ -1163,7 +1163,7 @@ class MarketplacesOrdersOrderApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\OrderHistory',
+                        '\EffetB\BeezupApi\Model\OrderHistory',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1171,7 +1171,7 @@ class MarketplacesOrdersOrderApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1179,7 +1179,7 @@ class MarketplacesOrdersOrderApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1227,7 +1227,7 @@ class MarketplacesOrdersOrderApi
      */
     public function getOrderHistoryAsyncWithHttpInfo($marketplace_technical_code, $account_id, $beez_up_order_id, $if_none_match = null)
     {
-        $returnType = '\Swagger\Client\Model\OrderHistory';
+        $returnType = '\EffetB\BeezupApi\Model\OrderHistory';
         $request = $this->getOrderHistoryRequest($marketplace_technical_code, $account_id, $beez_up_order_id, $if_none_match);
 
         return $this->client
@@ -1414,7 +1414,7 @@ class MarketplacesOrdersOrderApi
      * @param  int $account_id The account identifier (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1432,7 +1432,7 @@ class MarketplacesOrdersOrderApi
      * @param  int $account_id The account identifier (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1476,7 +1476,7 @@ class MarketplacesOrdersOrderApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1484,7 +1484,7 @@ class MarketplacesOrdersOrderApi
                 case 409:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1492,7 +1492,7 @@ class MarketplacesOrdersOrderApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1707,7 +1707,7 @@ class MarketplacesOrdersOrderApi
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1726,7 +1726,7 @@ class MarketplacesOrdersOrderApi
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1770,7 +1770,7 @@ class MarketplacesOrdersOrderApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1778,7 +1778,7 @@ class MarketplacesOrdersOrderApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1998,9 +1998,9 @@ class MarketplacesOrdersOrderApi
      * @param  string $marketplace_technical_code The marketplace technical code (required)
      * @param  int $account_id The account identifier (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
-     * @param  \Swagger\Client\Model\SetMerchantOrderInfoRequest $request request (required)
+     * @param  \EffetB\BeezupApi\Model\SetMerchantOrderInfoRequest $request request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -2017,9 +2017,9 @@ class MarketplacesOrdersOrderApi
      * @param  string $marketplace_technical_code The marketplace technical code (required)
      * @param  int $account_id The account identifier (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
-     * @param  \Swagger\Client\Model\SetMerchantOrderInfoRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\SetMerchantOrderInfoRequest $request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -2063,7 +2063,7 @@ class MarketplacesOrdersOrderApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2071,7 +2071,7 @@ class MarketplacesOrdersOrderApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2079,7 +2079,7 @@ class MarketplacesOrdersOrderApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2097,7 +2097,7 @@ class MarketplacesOrdersOrderApi
      * @param  string $marketplace_technical_code The marketplace technical code (required)
      * @param  int $account_id The account identifier (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
-     * @param  \Swagger\Client\Model\SetMerchantOrderInfoRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\SetMerchantOrderInfoRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -2120,7 +2120,7 @@ class MarketplacesOrdersOrderApi
      * @param  string $marketplace_technical_code The marketplace technical code (required)
      * @param  int $account_id The account identifier (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
-     * @param  \Swagger\Client\Model\SetMerchantOrderInfoRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\SetMerchantOrderInfoRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -2159,7 +2159,7 @@ class MarketplacesOrdersOrderApi
      * @param  string $marketplace_technical_code The marketplace technical code (required)
      * @param  int $account_id The account identifier (required)
      * @param  string $beez_up_order_id The BeezUP Order identifier (required)
-     * @param  \Swagger\Client\Model\SetMerchantOrderInfoRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\SetMerchantOrderInfoRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

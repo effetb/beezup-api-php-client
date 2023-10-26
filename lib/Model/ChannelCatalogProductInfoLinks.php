@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelCatalogProductInfoLinks Class Doc Comment
  *
  * @category Class
  * @description Indicates the differents actions you can do on a channel product
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,10 +58,10 @@ class ChannelCatalogProductInfoLinks implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'self' => '\Swagger\Client\Model\LinksGetChannelCatalogProductInfoLink',
-        'override' => '\Swagger\Client\Model\LinksOverrideChannelCatalogProductValuesLink',
-        'disable' => '\Swagger\Client\Model\LinksDisableChannelCatalogProductLink',
-        'reenable' => '\Swagger\Client\Model\LinksReenableChannelCatalogProductLink'
+        'self' => '\EffetB\BeezupApi\Model\LinksGetChannelCatalogProductInfoLink',
+        'override' => '\EffetB\BeezupApi\Model\LinksOverrideChannelCatalogProductValuesLink',
+        'disable' => '\EffetB\BeezupApi\Model\LinksDisableChannelCatalogProductLink',
+        'reenable' => '\EffetB\BeezupApi\Model\LinksReenableChannelCatalogProductLink'
     ];
 
     /**
@@ -239,7 +239,7 @@ class ChannelCatalogProductInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self
      *
-     * @return \Swagger\Client\Model\LinksGetChannelCatalogProductInfoLink
+     * @return \EffetB\BeezupApi\Model\LinksGetChannelCatalogProductInfoLink
      */
     public function getSelf()
     {
@@ -249,7 +249,7 @@ class ChannelCatalogProductInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self
      *
-     * @param \Swagger\Client\Model\LinksGetChannelCatalogProductInfoLink $self self
+     * @param \EffetB\BeezupApi\Model\LinksGetChannelCatalogProductInfoLink $self self
      *
      * @return $this
      */
@@ -263,7 +263,7 @@ class ChannelCatalogProductInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Gets override
      *
-     * @return \Swagger\Client\Model\LinksOverrideChannelCatalogProductValuesLink
+     * @return \EffetB\BeezupApi\Model\LinksOverrideChannelCatalogProductValuesLink
      */
     public function getOverride()
     {
@@ -273,7 +273,7 @@ class ChannelCatalogProductInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Sets override
      *
-     * @param \Swagger\Client\Model\LinksOverrideChannelCatalogProductValuesLink $override override
+     * @param \EffetB\BeezupApi\Model\LinksOverrideChannelCatalogProductValuesLink $override override
      *
      * @return $this
      */
@@ -287,7 +287,7 @@ class ChannelCatalogProductInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Gets disable
      *
-     * @return \Swagger\Client\Model\LinksDisableChannelCatalogProductLink
+     * @return \EffetB\BeezupApi\Model\LinksDisableChannelCatalogProductLink
      */
     public function getDisable()
     {
@@ -297,7 +297,7 @@ class ChannelCatalogProductInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Sets disable
      *
-     * @param \Swagger\Client\Model\LinksDisableChannelCatalogProductLink $disable disable
+     * @param \EffetB\BeezupApi\Model\LinksDisableChannelCatalogProductLink $disable disable
      *
      * @return $this
      */
@@ -311,7 +311,7 @@ class ChannelCatalogProductInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Gets reenable
      *
-     * @return \Swagger\Client\Model\LinksReenableChannelCatalogProductLink
+     * @return \EffetB\BeezupApi\Model\LinksReenableChannelCatalogProductLink
      */
     public function getReenable()
     {
@@ -321,7 +321,7 @@ class ChannelCatalogProductInfoLinks implements ModelInterface, ArrayAccess
     /**
      * Sets reenable
      *
-     * @param \Swagger\Client\Model\LinksReenableChannelCatalogProductLink $reenable reenable
+     * @param \EffetB\BeezupApi\Model\LinksReenableChannelCatalogProductLink $reenable reenable
      *
      * @return $this
      */

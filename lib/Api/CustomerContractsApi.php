@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace EffetB\BeezupApi\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use EffetB\BeezupApi\ApiException;
+use EffetB\BeezupApi\Configuration;
+use EffetB\BeezupApi\HeaderSelector;
+use EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * CustomerContractsApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -92,11 +92,11 @@ class CustomerContractsApi
      *
      * Create a new contract
      *
-     * @param  \Swagger\Client\Model\CreateContract $request request (required)
+     * @param  \EffetB\BeezupApi\Model\CreateContract $request request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\CreateContractResponse
+     * @return \EffetB\BeezupApi\Model\CreateContractResponse
      */
     public function createContract($request)
     {
@@ -109,15 +109,15 @@ class CustomerContractsApi
      *
      * Create a new contract
      *
-     * @param  \Swagger\Client\Model\CreateContract $request (required)
+     * @param  \EffetB\BeezupApi\Model\CreateContract $request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\CreateContractResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\CreateContractResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function createContractWithHttpInfo($request)
     {
-        $returnType = '\Swagger\Client\Model\CreateContractResponse';
+        $returnType = '\EffetB\BeezupApi\Model\CreateContractResponse';
         $request = $this->createContractRequest($request);
 
         try {
@@ -169,7 +169,7 @@ class CustomerContractsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\CreateContractResponse',
+                        '\EffetB\BeezupApi\Model\CreateContractResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -177,7 +177,7 @@ class CustomerContractsApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -185,7 +185,7 @@ class CustomerContractsApi
                 case 403:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -193,7 +193,7 @@ class CustomerContractsApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -208,7 +208,7 @@ class CustomerContractsApi
      *
      * Create a new contract
      *
-     * @param  \Swagger\Client\Model\CreateContract $request (required)
+     * @param  \EffetB\BeezupApi\Model\CreateContract $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -228,14 +228,14 @@ class CustomerContractsApi
      *
      * Create a new contract
      *
-     * @param  \Swagger\Client\Model\CreateContract $request (required)
+     * @param  \EffetB\BeezupApi\Model\CreateContract $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function createContractAsyncWithHttpInfo($request)
     {
-        $returnType = '\Swagger\Client\Model\CreateContractResponse';
+        $returnType = '\EffetB\BeezupApi\Model\CreateContractResponse';
         $request = $this->createContractRequest($request);
 
         return $this->client
@@ -278,7 +278,7 @@ class CustomerContractsApi
     /**
      * Create request for operation 'createContract'
      *
-     * @param  \Swagger\Client\Model\CreateContract $request (required)
+     * @param  \EffetB\BeezupApi\Model\CreateContract $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -379,7 +379,7 @@ class CustomerContractsApi
      * Delete your next contract
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -394,7 +394,7 @@ class CustomerContractsApi
      * Delete your next contract
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -438,7 +438,7 @@ class CustomerContractsApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -599,9 +599,9 @@ class CustomerContractsApi
      *
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\BillingPeriodList
+     * @return \EffetB\BeezupApi\Model\BillingPeriodList
      */
     public function getBillingPeriods($if_none_match = null)
     {
@@ -616,13 +616,13 @@ class CustomerContractsApi
      *
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\BillingPeriodList, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\BillingPeriodList, HTTP status code, HTTP response headers (array of strings)
      */
     public function getBillingPeriodsWithHttpInfo($if_none_match = null)
     {
-        $returnType = '\Swagger\Client\Model\BillingPeriodList';
+        $returnType = '\EffetB\BeezupApi\Model\BillingPeriodList';
         $request = $this->getBillingPeriodsRequest($if_none_match);
 
         try {
@@ -674,7 +674,7 @@ class CustomerContractsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BillingPeriodList',
+                        '\EffetB\BeezupApi\Model\BillingPeriodList',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -682,7 +682,7 @@ class CustomerContractsApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -724,7 +724,7 @@ class CustomerContractsApi
      */
     public function getBillingPeriodsAsyncWithHttpInfo($if_none_match = null)
     {
-        $returnType = '\Swagger\Client\Model\BillingPeriodList';
+        $returnType = '\EffetB\BeezupApi\Model\BillingPeriodList';
         $request = $this->getBillingPeriodsRequest($if_none_match);
 
         return $this->client
@@ -864,9 +864,9 @@ class CustomerContractsApi
      *
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\Contracts
+     * @return \EffetB\BeezupApi\Model\Contracts
      */
     public function getContracts($if_none_match = null)
     {
@@ -881,13 +881,13 @@ class CustomerContractsApi
      *
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\Contracts, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\Contracts, HTTP status code, HTTP response headers (array of strings)
      */
     public function getContractsWithHttpInfo($if_none_match = null)
     {
-        $returnType = '\Swagger\Client\Model\Contracts';
+        $returnType = '\EffetB\BeezupApi\Model\Contracts';
         $request = $this->getContractsRequest($if_none_match);
 
         try {
@@ -939,7 +939,7 @@ class CustomerContractsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\Contracts',
+                        '\EffetB\BeezupApi\Model\Contracts',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -947,7 +947,7 @@ class CustomerContractsApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -989,7 +989,7 @@ class CustomerContractsApi
      */
     public function getContractsAsyncWithHttpInfo($if_none_match = null)
     {
-        $returnType = '\Swagger\Client\Model\Contracts';
+        $returnType = '\EffetB\BeezupApi\Model\Contracts';
         $request = $this->getContractsRequest($if_none_match);
 
         return $this->client
@@ -1127,11 +1127,11 @@ class CustomerContractsApi
      *
      * Get offer pricing
      *
-     * @param  \Swagger\Client\Model\OfferRequest $request request (required)
+     * @param  \EffetB\BeezupApi\Model\OfferRequest $request request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\Offer
+     * @return \EffetB\BeezupApi\Model\Offer
      */
     public function getOffer($request)
     {
@@ -1144,15 +1144,15 @@ class CustomerContractsApi
      *
      * Get offer pricing
      *
-     * @param  \Swagger\Client\Model\OfferRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\OfferRequest $request (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\Offer, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\Offer, HTTP status code, HTTP response headers (array of strings)
      */
     public function getOfferWithHttpInfo($request)
     {
-        $returnType = '\Swagger\Client\Model\Offer';
+        $returnType = '\EffetB\BeezupApi\Model\Offer';
         $request = $this->getOfferRequest($request);
 
         try {
@@ -1204,7 +1204,7 @@ class CustomerContractsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\Offer',
+                        '\EffetB\BeezupApi\Model\Offer',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1212,7 +1212,7 @@ class CustomerContractsApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1220,7 +1220,7 @@ class CustomerContractsApi
                 case 403:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1228,7 +1228,7 @@ class CustomerContractsApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1243,7 +1243,7 @@ class CustomerContractsApi
      *
      * Get offer pricing
      *
-     * @param  \Swagger\Client\Model\OfferRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\OfferRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1263,14 +1263,14 @@ class CustomerContractsApi
      *
      * Get offer pricing
      *
-     * @param  \Swagger\Client\Model\OfferRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\OfferRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function getOfferAsyncWithHttpInfo($request)
     {
-        $returnType = '\Swagger\Client\Model\Offer';
+        $returnType = '\EffetB\BeezupApi\Model\Offer';
         $request = $this->getOfferRequest($request);
 
         return $this->client
@@ -1313,7 +1313,7 @@ class CustomerContractsApi
     /**
      * Create request for operation 'getOffer'
      *
-     * @param  \Swagger\Client\Model\OfferRequest $request (required)
+     * @param  \EffetB\BeezupApi\Model\OfferRequest $request (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -1415,9 +1415,9 @@ class CustomerContractsApi
      *
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\StandardOffers
+     * @return \EffetB\BeezupApi\Model\StandardOffers
      */
     public function getStandardOffers($if_none_match = null)
     {
@@ -1432,13 +1432,13 @@ class CustomerContractsApi
      *
      * @param  string $if_none_match ETag value to identify the last known version of requested resource.\\ To avoid useless exchange, we recommend you to indicate the ETag you previously got from this operation.\\ If the ETag value does not match the response will be 200 to give you a new content, otherwise the response will be: 304 Not Modified, without any content.\\ For more details go to this link: http://tools.ietf.org/html/rfc7232#section-2.3 (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\StandardOffers, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \EffetB\BeezupApi\Model\StandardOffers, HTTP status code, HTTP response headers (array of strings)
      */
     public function getStandardOffersWithHttpInfo($if_none_match = null)
     {
-        $returnType = '\Swagger\Client\Model\StandardOffers';
+        $returnType = '\EffetB\BeezupApi\Model\StandardOffers';
         $request = $this->getStandardOffersRequest($if_none_match);
 
         try {
@@ -1490,7 +1490,7 @@ class CustomerContractsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\StandardOffers',
+                        '\EffetB\BeezupApi\Model\StandardOffers',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1498,7 +1498,7 @@ class CustomerContractsApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1540,7 +1540,7 @@ class CustomerContractsApi
      */
     public function getStandardOffersAsyncWithHttpInfo($if_none_match = null)
     {
-        $returnType = '\Swagger\Client\Model\StandardOffers';
+        $returnType = '\EffetB\BeezupApi\Model\StandardOffers';
         $request = $this->getStandardOffersRequest($if_none_match);
 
         return $this->client
@@ -1679,7 +1679,7 @@ class CustomerContractsApi
      * Reactivate your terminated contract.
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1694,7 +1694,7 @@ class CustomerContractsApi
      * Reactivate your terminated contract.
      *
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1738,7 +1738,7 @@ class CustomerContractsApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1746,7 +1746,7 @@ class CustomerContractsApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1905,9 +1905,9 @@ class CustomerContractsApi
      *
      * Schedule termination of your current contract at the end of the commitment.
      *
-     * @param  \Swagger\Client\Model\TerminateContract $request Indicate the termination reason (required)
+     * @param  \EffetB\BeezupApi\Model\TerminateContract $request Indicate the termination reason (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -1921,9 +1921,9 @@ class CustomerContractsApi
      *
      * Schedule termination of your current contract at the end of the commitment.
      *
-     * @param  \Swagger\Client\Model\TerminateContract $request Indicate the termination reason (required)
+     * @param  \EffetB\BeezupApi\Model\TerminateContract $request Indicate the termination reason (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \EffetB\BeezupApi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -1967,7 +1967,7 @@ class CustomerContractsApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1975,7 +1975,7 @@ class CustomerContractsApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1983,7 +1983,7 @@ class CustomerContractsApi
                 default:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\BeezUPCommonErrorResponseMessage',
+                        '\EffetB\BeezupApi\Model\BeezUPCommonErrorResponseMessage',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1998,7 +1998,7 @@ class CustomerContractsApi
      *
      * Schedule termination of your current contract at the end of the commitment.
      *
-     * @param  \Swagger\Client\Model\TerminateContract $request Indicate the termination reason (required)
+     * @param  \EffetB\BeezupApi\Model\TerminateContract $request Indicate the termination reason (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -2018,7 +2018,7 @@ class CustomerContractsApi
      *
      * Schedule termination of your current contract at the end of the commitment.
      *
-     * @param  \Swagger\Client\Model\TerminateContract $request Indicate the termination reason (required)
+     * @param  \EffetB\BeezupApi\Model\TerminateContract $request Indicate the termination reason (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -2054,7 +2054,7 @@ class CustomerContractsApi
     /**
      * Create request for operation 'terminateCurrentContract'
      *
-     * @param  \Swagger\Client\Model\TerminateContract $request Indicate the termination reason (required)
+     * @param  \EffetB\BeezupApi\Model\TerminateContract $request Indicate the termination reason (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

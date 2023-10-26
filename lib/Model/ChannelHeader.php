@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace EffetB\BeezupApi\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \EffetB\BeezupApi\ObjectSerializer;
 
 /**
  * ChannelHeader Class Doc Comment
  *
  * @category Class
  * @description The available channel
- * @package  Swagger\Client
+ * @package  EffetB\BeezupApi
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,11 +58,11 @@ class ChannelHeader implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'channel_id' => '\Swagger\Client\Model\BeezUPCommonChannelId',
-        'channel_name' => '\Swagger\Client\Model\BeezUPCommonChannelName',
-        'channel_logo_url' => '\Swagger\Client\Model\BeezUPCommonHttpUrl',
+        'channel_id' => '\EffetB\BeezupApi\Model\BeezUPCommonChannelId',
+        'channel_name' => '\EffetB\BeezupApi\Model\BeezUPCommonChannelName',
+        'channel_logo_url' => '\EffetB\BeezupApi\Model\BeezUPCommonHttpUrl',
         'types' => 'string[]',
-        'links' => '\Swagger\Client\Model\ChannelHeaderLinks'
+        'links' => '\EffetB\BeezupApi\Model\ChannelHeaderLinks'
     ];
 
     /**
@@ -263,7 +263,7 @@ class ChannelHeader implements ModelInterface, ArrayAccess
     /**
      * Gets channel_id
      *
-     * @return \Swagger\Client\Model\BeezUPCommonChannelId
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonChannelId
      */
     public function getChannelId()
     {
@@ -273,7 +273,7 @@ class ChannelHeader implements ModelInterface, ArrayAccess
     /**
      * Sets channel_id
      *
-     * @param \Swagger\Client\Model\BeezUPCommonChannelId $channel_id channel_id
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonChannelId $channel_id channel_id
      *
      * @return $this
      */
@@ -287,7 +287,7 @@ class ChannelHeader implements ModelInterface, ArrayAccess
     /**
      * Gets channel_name
      *
-     * @return \Swagger\Client\Model\BeezUPCommonChannelName
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonChannelName
      */
     public function getChannelName()
     {
@@ -297,7 +297,7 @@ class ChannelHeader implements ModelInterface, ArrayAccess
     /**
      * Sets channel_name
      *
-     * @param \Swagger\Client\Model\BeezUPCommonChannelName $channel_name channel_name
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonChannelName $channel_name channel_name
      *
      * @return $this
      */
@@ -311,7 +311,7 @@ class ChannelHeader implements ModelInterface, ArrayAccess
     /**
      * Gets channel_logo_url
      *
-     * @return \Swagger\Client\Model\BeezUPCommonHttpUrl
+     * @return \EffetB\BeezupApi\Model\BeezUPCommonHttpUrl
      */
     public function getChannelLogoUrl()
     {
@@ -321,7 +321,7 @@ class ChannelHeader implements ModelInterface, ArrayAccess
     /**
      * Sets channel_logo_url
      *
-     * @param \Swagger\Client\Model\BeezUPCommonHttpUrl $channel_logo_url channel_logo_url
+     * @param \EffetB\BeezupApi\Model\BeezUPCommonHttpUrl $channel_logo_url channel_logo_url
      *
      * @return $this
      */
@@ -359,7 +359,7 @@ class ChannelHeader implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \Swagger\Client\Model\ChannelHeaderLinks
+     * @return \EffetB\BeezupApi\Model\ChannelHeaderLinks
      */
     public function getLinks()
     {
@@ -369,7 +369,7 @@ class ChannelHeader implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \Swagger\Client\Model\ChannelHeaderLinks $links links
+     * @param \EffetB\BeezupApi\Model\ChannelHeaderLinks $links links
      *
      * @return $this
      */
