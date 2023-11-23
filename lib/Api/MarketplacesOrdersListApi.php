@@ -33,6 +33,7 @@ use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
+use GuzzleHttp\Psr7\Query;
 use GuzzleHttp\RequestOptions;
 use EffetB\BeezupApi\ApiException;
 use EffetB\BeezupApi\Configuration;
@@ -101,7 +102,7 @@ class MarketplacesOrdersListApi
      */
     public function getOrderListFull($accept_encoding, $request)
     {
-        list($response) = $this->getOrderListFullWithHttpInfo($accept_encoding, $request);
+        [$response] = $this->getOrderListFullWithHttpInfo($accept_encoding, $request);
         return $response;
     }
 
@@ -353,7 +354,7 @@ class MarketplacesOrdersListApi
 
             } else {
                 // for HTTP post (form)
-                $httpBody = \GuzzleHttp\Psr7\build_query($formParams);
+                $httpBody = Query::build($formParams);
             }
         }
 
@@ -374,7 +375,7 @@ class MarketplacesOrdersListApi
             $headers
         );
 
-        $query = \GuzzleHttp\Psr7\build_query($queryParams);
+        $query = Query::build($queryParams);
         return new Request(
             'POST',
             $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
@@ -396,7 +397,7 @@ class MarketplacesOrdersListApi
      */
     public function getOrderListLight($request)
     {
-        list($response) = $this->getOrderListLightWithHttpInfo($request);
+        [$response] = $this->getOrderListLightWithHttpInfo($request);
         return $response;
     }
 
@@ -631,7 +632,7 @@ class MarketplacesOrdersListApi
 
             } else {
                 // for HTTP post (form)
-                $httpBody = \GuzzleHttp\Psr7\build_query($formParams);
+                $httpBody = Query::build($formParams);
             }
         }
 
@@ -652,7 +653,7 @@ class MarketplacesOrdersListApi
             $headers
         );
 
-        $query = \GuzzleHttp\Psr7\build_query($queryParams);
+        $query = Query::build($queryParams);
         return new Request(
             'POST',
             $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
